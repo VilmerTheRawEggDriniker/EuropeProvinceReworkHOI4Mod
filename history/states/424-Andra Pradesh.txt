@@ -1,0 +1,23 @@
+
+state={
+	id=424
+	name="STATE_424"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1228 1344 1430 4237 4321 4365 4414 7310 7340 7428 10001 10152 10255 10296 10756 10897 12180 12779 
+	}
+	manpower=8000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

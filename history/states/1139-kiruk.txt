@@ -1,0 +1,42 @@
+
+state={
+	id=1139
+	name="STATE_1139"
+
+	history={
+		owner = OTO
+		victory_points = {
+			6826 1 
+		}
+		victory_points = {
+			3916 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRQ
+		add_core_of = KUR
+		1920.1.1 = {
+			owner = ENG
+			controller = ENG
+			remove_core_of = OTO
+
+		}
+		1933.1.1 = {
+			owner = IRQ
+			controller = IRQ
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		3916 5014 6826 8123 10793 10811 
+	}
+	manpower=300041
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=787
+	name="STATE_787"
+
+	history={
+		victory_points = {
+			2041 1 
+		}
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PAK
+		add_core_of = RAJ
+		1948.1.1 = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+		}
+	}
+
+	provinces={
+		2041 2084 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

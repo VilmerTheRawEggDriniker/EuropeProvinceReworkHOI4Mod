@@ -1,0 +1,45 @@
+
+state={
+	id=582
+	name="STATE_582"
+	resources={
+		steel=40.000
+		oil=6.000
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = RUS
+		add_core_of = BSK
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		victory_points = {
+			10329 1 
+		}
+
+	}
+
+	provinces={
+		4265 7300 10136 10142 10329 11223 12117 
+	}
+	manpower=1044991
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

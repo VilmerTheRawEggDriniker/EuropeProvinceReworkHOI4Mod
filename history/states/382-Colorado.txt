@@ -1,0 +1,50 @@
+
+state={
+	id=382
+	name="STATE_382"
+	resources={
+		oil=14.000
+	}
+
+	history={
+		owner = ZZZ
+		1700.1.1 = {
+		victory_points = {
+			1827 5 
+		}
+                }
+		1700.1.1 = {
+                owner = FRA
+                }
+		1789.1.1 = {
+                owner = SPR
+                }
+		1803.1.1 = {
+                owner = USA
+                add_core_of = USA
+                }
+		1803.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1809 1827 7780 10588 11772 12570 12642 
+	}
+	manpower=800000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=8.000
+}

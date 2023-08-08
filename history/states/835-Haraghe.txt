@@ -1,0 +1,49 @@
+
+state={
+	id=835
+	name="STATE_835"
+
+	history={
+		owner = EGY
+		1900.1.1 = {
+			owner = ENG
+			controller = ENG
+
+		}
+		buildings = {
+			infrastructure = 0
+			12049 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			12049 5 
+		}
+		victory_points = {
+			4073 3 
+		}
+		add_core_of = EGY
+		1936.11.14 = {
+			owner = ENG
+			controller = ENG
+
+		}
+		1957.1.1 = {
+			owner = EGY
+			controller = EGY
+			remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		1155 4073 9947 12049 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

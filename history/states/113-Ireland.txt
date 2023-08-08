@@ -1,0 +1,35 @@
+
+state={
+	id=113
+	name="STATE_113"
+	history={
+		owner = ENG
+		1920.1.1 = {
+			owner = IRE
+			controller = IRE
+
+		}
+		victory_points = {
+			11293 20 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			11293 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = IRE
+
+	}
+
+	provinces={
+		11293 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

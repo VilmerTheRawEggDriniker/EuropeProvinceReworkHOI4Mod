@@ -1,0 +1,54 @@
+
+state={
+	id=137
+	name="STATE_137"
+
+	history={
+		owner = RUS
+           add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+		}
+		victory_points = {
+			3686 20 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			air_base = 3
+			3686 = {
+				naval_base = 10
+				coastal_bunker = 3
+
+			}
+		}
+		add_core_of = CRI
+		add_core_of = UKR
+		add_core_of = RUS
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = UKR
+		controller = UKR
+		add_core_of = UKR
+            remove_core_of = SOV
+		}
+		2014.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+	}
+
+	provinces={
+		3686 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=10.000
+}

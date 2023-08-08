@@ -1,0 +1,27 @@
+
+state={
+	id=1154
+	name="STATE_1154"
+
+	history={
+		owner = ENG
+		victory_points = {
+			11317 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		9332 9397 11317 14210 14211 
+	}
+	manpower=500000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

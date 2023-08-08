@@ -1,0 +1,59 @@
+
+state={
+	id=103
+	name="STATE_103"
+
+	history={
+		owner = AUS
+                add_core_of = AUS
+		1600.1.1 = {
+		owner = OTO
+                }
+		1700.1.1 = {
+                owner = AUS
+                }
+		1900.1.1 = {
+                owner = AUH
+		add_core_of = CRO
+                add_core_of = AUH
+                remove_core_of = AUS
+                }
+		victory_points = {
+			3924 3 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 1
+			3924 = {
+				naval_base = 3
+
+			}
+
+		}
+		1919.1.1 = {
+		}
+		1920.1.1 = {
+			owner = YUG
+			controller = YUG
+			add_core_of = YUG
+			remove_core_of = AUH
+
+		}
+		1992.1.1 = {
+			owner = CRO
+			controller = CRO
+			remove_core_of = YUG
+
+		}
+
+	}
+
+	provinces={
+		3868 3924 3943 3974 11816 11901 13318 13319 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=5.000
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=345
+	name="STATE_345"
+
+	history={
+		owner = OTO
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = OTO
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = TUR
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		4124 6950 7026 11844 11897 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

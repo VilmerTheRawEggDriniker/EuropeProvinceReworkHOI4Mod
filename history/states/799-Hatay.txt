@@ -1,0 +1,43 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = OTO
+		add_core_of = SYR
+		1920.1.1 = {
+			owner = SYR
+			controller = SYR
+            add_core_of = TUR
+		}
+		victory_points = {
+			12029 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1936.1.1 = {
+			owner = FRA
+			controller = FRA
+            }
+		1938.9.30 = {
+			owner = TUR
+			controller = TUR
+
+		}
+
+	}
+
+	provinces={
+		12029 13259 13260 
+	}
+	manpower=234379
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
+
+
+

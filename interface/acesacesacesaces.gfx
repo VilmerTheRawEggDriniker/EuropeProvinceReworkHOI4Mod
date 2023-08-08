@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_1960_bookmark"
+		texturefile = "gf/interface/coldwar_1960.dds"
+	}
+}

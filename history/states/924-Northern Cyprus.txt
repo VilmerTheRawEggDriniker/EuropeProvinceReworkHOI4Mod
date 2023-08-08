@@ -1,0 +1,44 @@
+state={
+	id=924
+	name="STATE_924"
+	history={
+		owner = CYP
+		add_core_of = CYP
+		1500.1.1 = {
+			owner = OTO
+		}
+		1822.1.1 = {
+			add_core_of = GRE
+		}
+		1878.1.1 = {
+		owner = ENG
+		}
+		1975.1.1 = {
+			owner = TUR
+			controller = TUR
+            add_core_of = TUR
+            remove_core_of = YUG
+		}
+		victory_points = {
+			11984 5 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			11984 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		11984 13676 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

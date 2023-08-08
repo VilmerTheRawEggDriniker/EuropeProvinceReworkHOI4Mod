@@ -1,0 +1,58 @@
+
+state={
+	id=884
+	name="STATE_884"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = AUS
+                add_core_of = AUS
+		1900.1.1 = {
+			owner = AUH
+                add_core_of = AUH
+                remove_core_of = AUS
+		}
+		victory_points = {
+			3673 3 
+		}
+		victory_points = {
+			11612 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = AUH
+
+		}
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1956.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		668 3673 3674 6673 11612 13847 14588 14595 
+	}
+	manpower=416268
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

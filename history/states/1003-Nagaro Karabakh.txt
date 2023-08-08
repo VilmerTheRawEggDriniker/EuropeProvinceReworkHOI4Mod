@@ -1,0 +1,51 @@
+
+state={
+	id=1003
+	name="STATE_1003"
+
+	history={
+		owner = AZR
+		add_core_of = AZR
+		add_core_of = ARM
+		1600.1.1 = {
+			owner = PER
+
+		}
+		1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		victory_points = {
+			14031 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ART
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = AZR
+			controller = AZR
+			add_core_of = AZR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		9715 14031 
+	}
+	manpower=40000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

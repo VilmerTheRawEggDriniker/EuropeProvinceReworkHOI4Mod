@@ -1,0 +1,50 @@
+
+state={
+	id=3
+	name="STATE_3"
+	resources={
+		steel=4.000
+		aluminium=20.000
+	}
+	history={
+		owner = SWI
+		1915.1.1 = {
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+
+		}
+		}
+		victory_points = {
+			9620 20 
+		}
+		victory_points = {
+			663 15 
+		}
+		victory_points = {
+			9638 3 
+		}
+		victory_points = {
+			3660 1 
+		}
+		victory_points = {
+			658 2 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = SWI
+
+	}
+
+	provinces={
+		636 658 661 663 3660 3662 9618 9620 9638 11601 11604 11623 14564 14569 14574 14582 14589 14601 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

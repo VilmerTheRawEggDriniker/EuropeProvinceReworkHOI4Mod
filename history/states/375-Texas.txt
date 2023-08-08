@@ -1,0 +1,73 @@
+
+state={
+	id=375
+	name="STATE_375"
+	resources={
+		oil=320.000
+		aluminium=50.000
+	}
+
+	history={
+                owner = ZZZ
+		1789.1.1 = {
+                owner = SPR
+                }
+		1789.1.1 = {
+		victory_points = {
+			10337 20 
+		}
+                }
+		1822.1.1 = {
+                owner = MEX
+                add_core_of = MEX
+                }
+		1836.1.1 = {
+                owner = TEX
+                add_core_of = TEX
+                remove_core_of = MEX
+                }
+		1850.1.1 = {
+                owner = USA
+                add_core_of = USA
+                remove_core_of = MEX
+                }
+		1920.1.1 = {
+                owner = USA
+                add_core_of = USA
+                remove_core_of = MEX
+                remove_core_of = TEX
+                }
+		1900.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			10337 = {
+				naval_base = 3
+
+			}
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 5
+			air_base = 3
+			10337 = {
+				naval_base = 3
+
+			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		805 1500 4577 7628 10337 10504 12341 12410 12486
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=9.000
+}

@@ -1,0 +1,46 @@
+
+state={
+	id=740
+	name="STATE_740"
+
+	history={
+            owner = ZZZ
+		1700.1.1 = {
+                owner = ENG
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2
+		}
+                }
+		1700.1.1 = {
+		victory_points = {
+			13306 3 
+		}
+		victory_points = {
+			9847 1 
+		}
+                }
+		1700.1.1 = {
+            add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+		}
+                }
+		1789.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		6909 9847 9850 11830 13305 13306 13308 13309 13310 
+	}
+	manpower=1606903	
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

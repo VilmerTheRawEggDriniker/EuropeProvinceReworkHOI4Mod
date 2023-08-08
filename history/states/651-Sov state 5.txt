@@ -1,0 +1,42 @@
+
+state={
+	id=651
+	name="STATE_651"
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1278 5 
+		}
+		add_core_of = BSK
+		add_core_of = RUS
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		291 1258 1278 6246 6285 7416 7431 7444 10226 12130 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

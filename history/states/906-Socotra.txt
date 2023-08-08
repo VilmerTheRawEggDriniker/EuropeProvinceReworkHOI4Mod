@@ -1,0 +1,36 @@
+state={
+	id=906
+	name="STATE_906"
+	history={
+		add_core_of = SCO
+		owner = SCO
+		1707.1.1 = {
+			owner = ENG
+			controller = ENG
+                add_core_of = ENG
+		}
+		victory_points = {
+			11064 1 
+		}
+		buildings = {
+			infrastructure = 2
+			11064 = {
+				naval_base = 8
+
+			}
+			6196 = {
+				naval_base = 1
+
+			}
+		}
+
+	}
+
+	provinces={
+		6196 11064
+	}
+	manpower=45020
+	buildings_max_level_factor=1.000
+	state_category=small_island
+	local_supplies=0.000
+}

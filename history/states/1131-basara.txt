@@ -1,0 +1,48 @@
+
+state={
+	id=1131
+	name="STATE_1131"
+
+	history={
+		owner = OTO
+		victory_points = {
+			12413 1 
+		}
+		victory_points = {
+			2089 5 
+		}
+		victory_points = {
+			8001 3 
+		}
+		buildings = {
+			infrastructure = 1
+			2089 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = IRQ
+		1920.1.1 = {
+			owner = ENG
+			controller = ENG
+			remove_core_of = OTO
+
+		}
+		1933.1.1 = {
+			owner = IRQ
+			controller = IRQ
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		2089 8001 10876 12413 12839 12879 13721 13729 13734 13737 13740 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

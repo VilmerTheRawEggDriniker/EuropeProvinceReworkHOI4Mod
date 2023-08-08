@@ -1,0 +1,39 @@
+state={
+	id=1006
+	name="STATE_1006"
+
+	history={
+                owner = GEO
+                add_core_of = GEO
+		1600.1.1 = {
+                owner = OTO
+                }
+		1880.1.1 = {
+                owner = RUS
+                add_core_of = RUS
+                }
+		victory_points = {
+			789 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+            add_core_of = TUR
+            remove_core_of = RUS
+            remove_core_of = GEO
+            remove_core_of = ARM
+		}
+
+	}
+
+	provinces={
+			789 7454 10403 14054 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

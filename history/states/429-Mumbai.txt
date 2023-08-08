@@ -1,0 +1,34 @@
+
+state={
+	id=429
+	name="STATE_429"
+
+	history={
+		owner = RAJ
+            add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 2
+			1349 = {
+				naval_base = 6
+
+			}
+
+		}
+		victory_points = {
+			1349 20 
+		}
+
+	}
+
+	provinces={
+		1349 
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

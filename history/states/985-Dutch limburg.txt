@@ -1,0 +1,34 @@
+state={
+	id=985
+	name="STATE_985"
+
+	history={
+		owner = HOL
+		add_core_of = HOL
+		1831.1.1 = {
+                add_core_of = BEL
+                remove_core_of = HOL
+                owner = BEL
+                }
+		1840.1.1 = {
+                add_core_of = HOL
+                remove_core_of = BEL
+                owner = HOL
+                }
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			11562 1 
+		}
+
+	}
+
+	provinces={
+		6500 11562  
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

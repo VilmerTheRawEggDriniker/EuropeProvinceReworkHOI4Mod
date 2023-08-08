@@ -1,0 +1,42 @@
+
+state={
+	id=519
+	name="STATE_519"
+
+	history={
+		owner = ZZZ
+		1788.1.1 = {
+                owner = ENG
+		}
+		1836.1.1 = {
+		victory_points = {
+			12910 20 
+		}
+		}
+		1835.1.1 = {
+		buildings = {
+			infrastructure = 1
+			12910 = {
+				naval_base = 2
+
+			}
+		}
+
+		}
+		1900.1.1 = {
+                owner = AST
+                add_core_of = AST
+		}
+		buildings = {
+			infrastructure = 0
+
+                }
+		}
+	provinces={
+		1773 2219 7567 8165 8186 8220 12910 12918 12924 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

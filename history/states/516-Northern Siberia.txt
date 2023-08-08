@@ -1,0 +1,37 @@
+
+state = {
+	id = 516
+	manpower = 21974
+	name = "STATE_516" # Taymyria
+	state_category = wasteland
+      impassable = yes
+	history = {
+		victory_points = {
+			4859 1
+		}
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TAY
+		add_core_of = RUS
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+	}
+
+	provinces = {
+		 2900 2923 2972 3336 4692 4733 4812 4859 9224 10607 10635 11122 11261 11328 12643 12687 13064 13065 
+	}
+
+	local_supplies = 0.0 
+}

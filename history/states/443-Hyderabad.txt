@@ -1,0 +1,38 @@
+
+state={
+	id=443
+	name="STATE_443" # Sind
+	manpower = 4000000
+	
+	state_category = pastoral
+
+	history={
+		owner = RAJ
+            add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+		}
+		victory_points = {
+			3456 3 
+		}
+		buildings = {
+			infrastructure = 2 #was: 5
+			3456 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = PAK
+		1948.1.1 = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+            remove_core_of = RAJ
+		}
+
+	}
+
+	provinces={
+		1147 1971 1980 3456 4003 4110 4382 7049 7084 10108 10735 
+	}
+
+	local_supplies=7.0 
+}

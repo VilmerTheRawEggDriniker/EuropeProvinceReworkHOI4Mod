@@ -1,0 +1,32 @@
+
+state={
+	id=442
+	name="STATE_442"
+	manpower = 4000000
+	
+	state_category = pastoral
+
+	history={
+		victory_points = {
+			12763 3
+		}
+		owner = RAJ
+		buildings = {
+			infrastructure = 2			
+			air_base = 3
+		}
+		add_core_of = PAK
+		1948.1.1 = {
+		owner = PAK
+		controller = PAK
+		add_core_of = PAK
+            remove_core_of = RAJ
+		}
+	}
+
+	provinces={
+		1978 4558 4998 12717 12763 
+	}
+
+	local_supplies=5.0 
+}

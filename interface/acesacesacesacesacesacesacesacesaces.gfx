@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_1700_bookmark"
+		texturefile = "gf/interface/the_great_northern_wars_1700.dds"
+	}
+}

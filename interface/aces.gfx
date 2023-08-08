@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_1900_bookmark"
+		texturefile = "gf/interface/dream_of_flight_1900.dds"
+	}
+}

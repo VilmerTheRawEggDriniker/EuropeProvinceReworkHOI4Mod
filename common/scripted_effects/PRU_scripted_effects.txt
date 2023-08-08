@@ -1,0 +1,32 @@
+on_state_control_changed = {
+    if = {
+      limit = {
+        tag = PRU
+        FROM.FROM = {
+          state = 69 #replace with the city's state
+        }
+      }
+      PRU = {
+        country_event = { id = colonialism.3 hours = 3 }
+        #the below effects could just be in the even instead of automatic, perhaps as a choice for greater player control
+        white_peace = ECU
+        transfer_state = 69
+      }
+    }
+  }
+
+on_state_control_changed = {
+    if = {
+      limit = {
+        tag = ECU
+        FROM.FROM = {
+          state = 69 #replace with the city's state
+        }
+      }
+      PRU = {
+        country_event = { id = colonialism.5 hours = 3 }
+        #the below effects could just be in the even instead of automatic, perhaps as a choice for greater player control
+        white_peace = PRU
+      }
+    }
+  }

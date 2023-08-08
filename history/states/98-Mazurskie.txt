@@ -1,0 +1,39 @@
+
+state={
+	id=98
+	name="STATE_98"
+
+	history={
+		owner = POL
+		add_core_of = POL
+		1800.1.1 = {
+			owner = PRE
+		}
+		1810.1.1 = {
+			owner = POL
+		}
+		1900.1.1 = {
+			owner = RUS
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1920.1.1 = {
+			owner = POL
+			controller = POL
+			add_core_of = POL
+			remove_core_of = RUS
+
+		}
+
+	}
+
+	provinces={
+		6259 6567 9290 9316 14339 14342 14343 14344 14347 14353 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

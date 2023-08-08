@@ -1,0 +1,34 @@
+state={
+	id=1213
+	name="STATE_1213"
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = UKR
+		add_core_of = RUS
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+	provinces={
+		9491 11530 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

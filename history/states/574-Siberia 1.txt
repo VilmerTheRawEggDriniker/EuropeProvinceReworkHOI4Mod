@@ -1,0 +1,38 @@
+
+state = {
+	id = 574
+	manpower = 407866
+	name = "STATE_574" # Yakutsk
+	state_category = wasteland
+      impassable = yes
+	history={
+		owner = RUS
+		victory_points = {
+			10641 1
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+		}
+		add_core_of = YAK
+		add_core_of = RUS
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+	}
+
+	provinces = {
+		1748 1795 1852 1878 4726 4752 4798 4821 4855 7746 7765 7817 7844 7889 10589 10608 10641 10667 10701 10714 12565 12611 12623 12694 
+	}
+
+	local_supplies = 0.0 
+}

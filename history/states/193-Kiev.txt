@@ -1,0 +1,42 @@
+
+state={
+	id=193
+	name="STATE_193"
+
+	history={
+		victory_points = {
+			3568 10 
+		}
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+			air_base = 8
+
+		}
+		add_core_of = UKR
+		add_core_of = RUS
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		238 546 3480 3542 3568 6458 6508 6532 6589 9437 9506 11425 11489
+	}
+	manpower=976701
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

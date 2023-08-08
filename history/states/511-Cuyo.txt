@@ -1,0 +1,36 @@
+
+state={
+	id=511
+	name="STATE_511"
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+			owner = SPR
+			controller = SPR
+            }
+		1810.1.1 = {
+            remove_core_of = SPR
+                owner = ARG
+		add_core_of = ARG
+		}
+		1899.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2179 2215 8215 10964 10992 11021 
+	}
+	manpower=690274
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

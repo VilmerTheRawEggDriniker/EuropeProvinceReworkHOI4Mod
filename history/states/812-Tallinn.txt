@@ -1,0 +1,59 @@
+
+state={
+	id=812
+	name="STATE_812"
+
+	history={
+		owner = EST
+		1600.1.1 = {
+                owner = SWE
+                }
+		1789.1.1 = {
+                owner = RUS
+                add_core_of = RUS
+                }
+		victory_points = {
+			3152 5 
+		}
+		buildings = {
+			infrastructure = 3
+			3152 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = EST
+		1920.1.1 = {
+			owner = EST
+			controller = EST
+			add_core_of = EST
+			remove_core_of = RUS
+
+		}
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = EST
+			controller = EST
+			add_core_of = EST
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		3152 
+	}
+	manpower=275220
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

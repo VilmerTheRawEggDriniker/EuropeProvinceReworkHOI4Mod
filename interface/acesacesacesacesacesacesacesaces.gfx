@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_1836_bookmark"
+		texturefile = "gf/interface/victoria_1836.dds"
+	}
+}

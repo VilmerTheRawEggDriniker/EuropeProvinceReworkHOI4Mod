@@ -1,0 +1,34 @@
+
+state={
+	id=934
+	name="STATE_934"
+
+	history={
+                owner = ZZZ
+		1700.1.1 = {
+                owner = FRA
+                }
+		1789.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1789.1.1 = {
+		buildings = {
+			infrastructure = 1
+                }
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		1719 1734 6767 6827 7896 12550 12588 
+	}
+	manpower=563952
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

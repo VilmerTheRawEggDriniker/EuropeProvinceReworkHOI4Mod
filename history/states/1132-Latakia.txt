@@ -1,0 +1,42 @@
+state={
+	id=1132
+	name="STATE_1132"
+
+	history={
+		owner = OTO
+		victory_points = {
+			13258 3
+		}
+		victory_points = {
+			10087 1
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SYR
+		1920.1.1 = {
+			owner = SYR
+			controller = SYR
+			remove_core_of = OTO
+
+		}
+		1936.1.1 = {
+			owner = FRA
+			controller = FRA
+            }
+		1946.1.1 = {
+			owner = SYR
+			controller = SYR
+            remove_core_of = SPR
+		}
+
+	}
+
+	provinces={
+		1088 10087 13258 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

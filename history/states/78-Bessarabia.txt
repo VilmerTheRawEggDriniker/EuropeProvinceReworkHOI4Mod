@@ -1,0 +1,65 @@
+
+state={
+	id=78
+	name="STATE_78"
+
+	history={
+		add_core_of = MOL
+		owner = MOL
+		1813.1.1 = {
+                add_core_of = RUS
+                owner = RUS
+		}
+		1862.1.1 = {
+                add_core_of = ROM
+		}
+		victory_points = {
+			3707 10 
+		}
+		victory_points = {
+			13614 3 
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+
+		}
+                }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+		1920.1.1 = {
+			owner = ROM
+			controller = ROM
+			remove_core_of = RUS
+
+		}
+		1946.1.1 = {
+			owner = SOV
+			controller = SOV
+			remove_core_of = ROM
+			add_core_of = SOV
+
+		}
+		1993.1.1 = {
+			owner = MOL
+			controller = MOL
+			add_core_of = MOL
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		414 565 3577 3707 3724 6600 9683 11686 11705 13589 13592 13593 13595 13599 13605 13607 13612 13614 13616 13621 
+	}
+	manpower=1600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=4.000
+}

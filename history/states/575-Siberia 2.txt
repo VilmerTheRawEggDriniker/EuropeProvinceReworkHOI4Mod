@@ -1,0 +1,45 @@
+
+state={
+	id=575
+	name="STATE_575"
+
+	history={
+                add_core_of = CIR
+                owner = CIR
+		1867.1.1 = {
+                owner = RUS
+                add_core_of = RUS
+                }
+		1900.1.1 = {
+		add_core_of = KRC
+                remove_core_of = CIR
+                }
+		buildings = {
+			infrastructure = 1
+
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		6692 9674 9691 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

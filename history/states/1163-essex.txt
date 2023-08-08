@@ -1,0 +1,37 @@
+
+state={
+	id=1163
+	name="STATE_1163"
+
+	history={
+		owner = ENG
+		victory_points = {
+			11221 2 
+		}
+		victory_points = {
+			11374 2 
+		}
+		victory_points = {
+			14180 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 6
+			11374 = {
+				naval_base = 10
+
+			}
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		11221 11374 14171 14173 14174 14177 14180 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

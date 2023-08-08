@@ -1,0 +1,59 @@
+
+state={
+	id=88
+	name="STATE_88"
+	resources={
+		steel=5.000
+		oil=9.000
+	}
+
+	history={
+		owner = POL
+		add_core_of = POL
+		1800.1.1 = {
+			owner = AUS
+		}
+		1810.1.1 = {
+			owner = POL
+		}
+		1816.1.1 = {
+			owner = AUS
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 4
+
+		}
+		}
+		1900.1.1 = {
+			owner = AUH
+		}
+           add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+		}
+		victory_points = {
+			9427 30 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		1920.1.1 = {
+			owner = POL
+			controller = POL
+			remove_core_of = RUS
+
+		}
+
+	}
+
+	provinces={
+		9427 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=12.000
+}

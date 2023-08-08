@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_2023_bookmark"
+		texturefile = "gf/interface/ukraine_russia_war_2023.dds"
+	}
+}

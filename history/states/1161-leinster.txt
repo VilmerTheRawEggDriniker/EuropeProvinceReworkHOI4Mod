@@ -1,0 +1,36 @@
+state={
+	id=1161
+	name="STATE_1161"
+	resources={
+		aluminium=0.000
+		steel=2.000
+	}
+
+	history={
+		owner = ENG
+		1920.1.1 = {
+			owner = IRE
+			controller = IRE
+
+		}
+		victory_points = {
+			285 1 
+		}
+		victory_points = {
+			303 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = IRE
+
+	}
+
+	provinces={
+		285 303 369 3342 3359 7377 
+	}
+	manpower=357600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

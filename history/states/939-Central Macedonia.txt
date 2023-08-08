@@ -1,0 +1,40 @@
+
+state={
+	id=939
+	name="STATE_939"
+
+	history={
+		owner = OTO
+            add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+		}
+		victory_points = {
+			11818 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			11818 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = GRE
+		1914.1.1 = {
+			owner = GRE
+			controller = GRE
+            add_core_of = GRE
+		}
+
+	}
+
+	provinces={
+		895 936 966 3526 3844 3936 9837 10163 11818 13694 13701 13805 13806 13808 
+	}
+	manpower=1200000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

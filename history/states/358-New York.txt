@@ -1,0 +1,90 @@
+
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		steel=13.000
+	}
+
+	history={
+            owner = ZZZ
+		1700.1.1 = {
+                owner = ENG
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2
+			3878 = {
+				naval_base = 6
+
+			}
+
+		}
+                }
+		1700.1.1 = {
+		victory_points = {
+			3878 50 
+		}
+		victory_points = {
+			11654 20 
+		}
+		victory_points = {
+			3702 5 
+		}
+		victory_points = {
+			3733 5 
+		}
+		victory_points = {
+			11665 5 
+		}
+                }
+		1700.1.1 = {
+            add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+		}
+                }
+		1789.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		1800.1.1 = {
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 7
+			dockyard = 3
+			3878 = {
+				naval_base = 6
+
+			}
+
+		}
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 7
+			dockyard = 3
+			air_base = 10
+			3878 = {
+				naval_base = 6
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		598 706 734 859 917 1347 1393 1436 1763 1788 1799 1804 1858 2407 2947 3498 3602 3606 3702 3733 3747 3769 3800 3806 3878 3894 4343 4385 4678 4695 4877 5239 6707 6717 6728 6778 6779 6795 6911 6916 7185 7782 7830 7853 7858 7891 9664 9673 9693 9708 9721 9754 9774 10258 10381 10527 10548 10605 10644 11440 11650 11654 11660 11662 11665 11722 12166 12534 13075 13157 13158 13301 13302 13311 
+	}
+	manpower=14881747
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

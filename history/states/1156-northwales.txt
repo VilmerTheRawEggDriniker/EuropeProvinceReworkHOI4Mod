@@ -1,0 +1,34 @@
+
+state={
+	id=1156
+	name="STATE_1156"
+	resources={
+		steel=11.000
+		aluminium=3.000
+	}
+
+	history={
+		owner = WLS
+		1532.1.1 = {
+                owner = ENG
+                add_core_of = ENG
+		}
+		victory_points = {
+			311 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = WLS
+
+	}
+
+	provinces={
+		253 311 3274 6363 9364 11361 14172 14175 14176 14178 14186 14193 14194 14196 
+	}
+	manpower=309230
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

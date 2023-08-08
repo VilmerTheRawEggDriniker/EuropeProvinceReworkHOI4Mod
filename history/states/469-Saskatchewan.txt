@@ -1,0 +1,44 @@
+
+state={
+	id=469
+	name="STATE_469"
+
+	history={
+		owner = ZZZ
+                1776.1.1 = {
+			owner = ENG
+			controller = ENG
+		}
+                1885.1.1 = {
+		victory_points = {
+			4739 5 
+		}
+		victory_points = {
+			12663 3 
+		}
+		}
+		1867.1.1 = {
+			owner = CAN
+			controller = CAN
+                add_core_of = CAN
+		}
+                1900.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		736 3481 4739 9669 10552 10611 10656 12593 12603 12663 
+	}
+	manpower=766666
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

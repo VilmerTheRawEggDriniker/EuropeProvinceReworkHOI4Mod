@@ -1,0 +1,48 @@
+
+state={
+	id=792
+	name="STATE_792"
+	resources={
+		steel=8.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			740 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			740 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = SPR
+		1900.1.1 = {
+	        add_core_of = NAV
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			740 = {
+				naval_base = 1
+
+			}
+			air_base = 1
+
+		}
+		}
+
+	}
+
+	provinces={
+		740 3735 6756 13233 14498 14509 
+	}
+	manpower=603596
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

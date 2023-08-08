@@ -1,0 +1,42 @@
+
+state={
+	id=34
+	name="STATE_34"
+	resources={
+		steel=7.000
+	}
+
+	history={
+		owner = HOL
+		1831.1.1 = {
+                add_core_of = BEL
+                remove_core_of = HOL
+                owner = BEL
+                }
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+                }
+		victory_points = {
+			3516 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = HOL
+
+	}
+
+	provinces={
+		3516 9444 13481
+	}
+	manpower=801634
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=10.000
+}

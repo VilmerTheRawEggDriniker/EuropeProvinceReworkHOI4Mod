@@ -1,0 +1,39 @@
+
+state = {
+	id = 655
+	name = "STATE_655"
+	manpower = 94759
+	
+	state_category = rural
+	history = {
+		owner = RUS
+		add_core_of = FER
+		add_core_of = JAP
+		add_core_of = RUS
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1946.1.1 = {
+            remove_core_of = 	JAP
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+		}
+	}
+
+	provinces = {
+		855 1742 1755 
+	}
+
+	local_supplies = 0.0 
+}

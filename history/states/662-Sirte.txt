@@ -1,0 +1,31 @@
+
+state={
+	id=662
+	name="STATE_662"
+
+	history={
+		owner = OTO
+		victory_points = {
+			4047 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LBA
+		1920.1.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+
+	}
+
+	provinces={
+		4047 4057 10046 10117 12088 
+	}
+	manpower=45000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,35 @@
+state={
+	id=935
+	name="STATE_935"
+	history={
+		add_core_of = BRM
+		add_core_of = CHI
+            add_claim_by = CHI
+		1937.1.1 = {
+			owner = ENG
+			controller = ENG
+            }
+		1948.1.1 = {
+		owner = BRM
+		controller = BRM
+		add_core_of = BRM
+            remove_core_of = RAJ
+		}
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4425 1 
+		}
+
+	}
+
+	provinces={
+		1082 1934 4318 4425 4996 8063 10920  
+	}
+	manpower=667100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

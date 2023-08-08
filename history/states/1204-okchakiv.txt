@@ -1,0 +1,54 @@
+state={
+	id=1204
+	name="STATE_1204"
+	history={
+		owner = LIT
+		add_core_of = LIT
+		1600.1.1 = {
+			owner = CRI
+                add_core_of = CRI
+                remove_core_of = LIT
+		}
+		1789.1.1 = {
+                add_core_of = RUS
+                owner = OTO
+                remove_core_of = POL
+                remove_core_of = CRI
+                remove_core_of = LIT
+                }
+		1800.1.1 = {
+			owner = RUS
+                add_core_of = RUS
+                remove_core_of = POL
+                remove_core_of = CRI
+                remove_core_of = LIT
+		}
+		1900.1.1 = {
+                add_core_of = UKR
+                }
+		buildings = {
+			infrastructure = 2
+		}
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+	}
+	provinces={
+		3738 9698 11703 13591 13603 13610 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

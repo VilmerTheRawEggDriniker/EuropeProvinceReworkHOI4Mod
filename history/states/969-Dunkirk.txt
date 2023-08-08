@@ -1,0 +1,35 @@
+state={
+	id=969
+	name="STATE_969"
+	history={
+		owner = FRA
+		victory_points = {
+			575 5 
+		}
+		buildings = {
+			infrastructure = 4
+			575 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = FRA
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 6
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		575 
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

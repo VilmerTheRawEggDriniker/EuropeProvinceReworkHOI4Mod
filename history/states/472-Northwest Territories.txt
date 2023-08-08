@@ -1,0 +1,47 @@
+
+state={
+	id=472
+	name="STATE_472"
+
+	history={
+            owner = ZZZ
+		1700.1.1 = {
+                owner = ENG
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2
+
+		}
+                }
+		1700.1.1 = {
+		victory_points = {
+			12459 1 
+		}
+		victory_points = {
+			3732 1 
+		}
+                }
+		1700.1.1 = {
+                add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+		}
+                }
+		1789.1.1 = {
+                owner = USA
+		add_core_of = USA
+                }
+		buildings = {
+			infrastructure = 0
+
+		}
+	}
+
+	provinces={
+		1282 1338 1619 3732 4287 6719 7462 10247 10318 12202 12221 12459 
+	}
+	manpower=797423	
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

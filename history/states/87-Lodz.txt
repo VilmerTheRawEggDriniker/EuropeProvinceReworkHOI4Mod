@@ -1,0 +1,53 @@
+
+state={
+	id=87
+	name="STATE_87"
+
+	history={
+		owner = POL
+		add_core_of = POL
+		1800.1.1 = {
+			owner = PRE
+		}
+		1810.1.1 = {
+			owner = POL
+		}
+		1900.1.1 = {
+			owner = RUS
+		}
+		add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 5
+
+		}
+		victory_points = {
+			9508 20 
+		}
+		victory_points = {
+			9439 8 
+		}
+		victory_points = {
+			3230 5 
+		}
+		1920.1.1 = {
+			owner = POL
+			controller = POL
+			add_core_of = POL
+			remove_core_of = RUS
+
+		}
+	}
+
+	provinces={
+		493 584 3230 6321 6401 9439 9508 9546 11515 13386 13403 13405 13409 13411 13413 13414 13418 13420 13421 13424 13426 13428 
+	}
+	manpower=2500000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=7.000
+}

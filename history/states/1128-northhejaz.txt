@@ -1,0 +1,34 @@
+state={
+	id=1128
+	name="STATE_1128"
+
+	history={
+		owner = OTO
+		victory_points = {
+			2095 1 
+		}
+		victory_points = {
+			12455 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = SAU
+		1920.1.1 = {
+			owner = SAU
+			controller = SAU
+			add_core_of = SAU
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		1033 2027 2095 8092 10835 12101 12455  
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,26 @@
+state={
+	id=1069
+	name="STATE_1069"
+
+	history={
+		owner = FRA
+		add_core_of = CHA
+            add_core_of = CMR
+		1911.1.1 = {
+            remove_core_of = CMR
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		13211
+	}
+	manpower=160000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

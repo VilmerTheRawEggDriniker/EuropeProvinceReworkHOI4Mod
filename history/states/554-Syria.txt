@@ -1,0 +1,42 @@
+
+state={
+	id=554
+	name="STATE_554"
+
+	history={
+		owner = OTO
+		victory_points = {
+			4111 8 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+
+		}
+		add_core_of = SYR
+		1920.1.1 = {
+			owner = SYR
+			controller = SYR
+			remove_core_of = OTO
+
+		}
+		1936.1.1 = {
+			owner = FRA
+			controller = FRA
+            }
+		1946.1.1 = {
+			owner = SYR
+			controller = SYR
+            remove_core_of = SPR
+		}
+
+	}
+
+	provinces={
+		4111 4550 7184
+	}
+	manpower=400000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=2.000
+}

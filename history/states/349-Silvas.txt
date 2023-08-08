@@ -1,0 +1,34 @@
+
+state={
+	id=349
+	name="STATE_349"
+
+	history={
+		owner = OTO
+		victory_points = {
+			7620 10 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		add_core_of = OTO
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = TUR
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		921 3890 6888 6977 7620 9761 9912 
+	}
+	manpower=592821
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

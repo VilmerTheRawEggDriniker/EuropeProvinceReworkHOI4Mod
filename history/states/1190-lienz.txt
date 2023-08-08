@@ -1,0 +1,49 @@
+state={
+	id=1190
+	name="STATE_1190"
+
+	history={
+		owner = AUS
+                add_core_of = AUS
+		1900.1.1 = {
+			owner = AUH
+                add_core_of = AUH
+                remove_core_of = AUS
+		}
+		victory_points = {
+			671 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		1920.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = AUH
+
+		}
+		1938.3.12 = {
+			owner = GER
+			controller = GER
+			add_core_of = GER
+
+		}
+		1956.1.1 = {
+			owner = AUS
+			controller = AUS
+			add_core_of = AUS
+			remove_core_of = GER
+
+		}
+
+	}
+
+	provinces={
+		671
+	}
+	manpower=63959
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,54 @@
+
+state={
+	id=480
+	name="STATE_480"
+	manpower = 827826
+	
+	state_category = pastoral
+	
+	resources={
+		oil=8
+		#steel=4 sent to Mexico City
+	}
+
+	history={
+                owner = ZZZ
+		1600.1.1 = {
+                owner = SPR
+                }
+		1822.1.1 = {
+                add_core_of = MEX
+                owner = MEX
+                }
+		1590.1.1 = {
+		victory_points = {
+			12835 10
+		}
+		victory_points = {
+			10769 5
+		}
+		#victory_points = {
+		#	2060 3
+		#}
+		#victory_points = {
+		#	12811 1
+		#}
+                }
+		1823.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+                }
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2060 2104 7973 10738 10746 10769 10800 12811 12835 
+	}
+	
+
+	local_supplies=0.0 
+}

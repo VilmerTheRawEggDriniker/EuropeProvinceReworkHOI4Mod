@@ -1,0 +1,34 @@
+
+state = {
+	id = 562
+	manpower = 126961
+	name = "STATE_562" # Okhotsk
+	state_category = wasteland
+      impassable = yes
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FER
+		add_core_of = RUS
+		1920.1.1 = {
+		owner = SOV
+		controller = SOV
+		add_core_of = SOV
+            remove_core_of = RUS
+		}
+		1993.1.1 = {
+		owner = RUS
+		controller = RUS
+		add_core_of = RUS
+            remove_core_of = SOV
+		}
+	}
+
+	provinces = {
+		1714 1805 1865 4810 4881 7772 10540 10572 10598 11607 12518 12551 12650 12683 
+	}
+
+	local_supplies = 0.0 
+}

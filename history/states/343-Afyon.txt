@@ -1,0 +1,74 @@
+
+state={
+	id=343
+	name="STATE_343"
+	resources={
+		chromium=25.000
+	}
+
+	history={
+		owner = OTO
+		victory_points = {
+			10041 1 
+		}
+		victory_points = {
+			9799 5 
+		}
+		victory_points = {
+			3786 10 
+		}
+		victory_points = {
+			9878 5 
+		}
+		victory_points = {
+			3856 3 
+		}
+		victory_points = {
+			3951 1 
+		}
+		victory_points = {
+			784 1 
+		}
+		victory_points = {
+			3862 3 
+		}
+		victory_points = {
+			919 5 
+		}
+		victory_points = {
+			804 5 
+		}
+		victory_points = {
+			9777 3 
+		}
+		victory_points = {
+			1005 5 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			1005 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = OTO
+		1920.1.1 = {
+			owner = TUR
+			controller = TUR
+			add_core_of = TUR
+			remove_core_of = OTO
+
+		}
+
+	}
+
+	provinces={
+		784 785 804 856 869 909 919 933 981 1005 1119 1122 3786 3807 3856 3862 3876 3903 3907 3919 3927 3935 3950 3951 3964 3983 6808 6877 6908 6920 6945 6978 9777 9799 9806 9844 9871 9878 9900 9901 9915 9921 9929 9941 10038 10041 10122 11784 11796 11826 11831 11839 11898 11907 11917 12013 12016 12096 
+	}
+	manpower=3893617
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=7.000
+}

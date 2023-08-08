@@ -1,0 +1,35 @@
+
+state={
+	id=449
+	name="STATE_449"
+
+	history={
+		owner = OTO
+		victory_points = {
+			1130 5 
+		}
+		buildings = {
+			infrastructure = 1
+			1130 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = LBA
+		1920.1.1 = {
+			owner = ITA
+			controller = ITA
+
+		}
+
+	}
+
+	provinces={
+		1130 1204 4136 4151 7082 9992 10120 12094 13239 13242 13244 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

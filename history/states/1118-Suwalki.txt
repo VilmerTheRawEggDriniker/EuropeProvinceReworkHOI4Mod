@@ -1,0 +1,45 @@
+state={
+	id=1118
+	name="STATE_1118"
+
+	history={
+		owner = LIT
+		add_core_of = LIT
+		1600.1.1 = {
+			owner = POL
+                add_core_of = POL
+		}
+		1800.1.1 = {
+			owner = PRE
+                remove_core_of = LIT
+		}
+		1810.1.1 = {
+			owner = POL
+		}
+		1900.1.1 = {
+			owner = RUS
+		}
+		victory_points = {
+			3254 1 
+		}
+		buildings = {
+			infrastructure = 2
+                      }
+		1920.1.1 = {
+			owner = POL
+			controller = POL
+			add_core_of = POL
+			remove_core_of = RUS
+
+		}
+
+	}
+
+	provinces={
+		400 3254 11357 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=748
+	name="STATE_748"
+
+	history={
+		owner = QIN
+		add_core_of = CHI
+		1913.1.1 = {
+			owner = CHI
+
+		}
+		1933.1.1 = {
+			add_core_of = PRC
+
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			6999 20 
+		}
+
+	}
+
+	provinces={
+		1893 4041 4141 4431 6999 7948 10144 10304 10822 11865 
+	}
+	manpower=11500000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,0 +1,68 @@
+
+state={
+	id=91
+	name="STATE_91"
+
+	history={
+		owner = POL
+		add_core_of = POL
+		1772.1.1 = {
+			owner = AUS
+
+		}
+		1900.1.1 = {
+			owner = AUH
+			remove_core_of = POL
+			add_core_of = UKR
+
+		}
+		add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+
+		}
+		victory_points = {
+			11479 20 
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 5
+
+		}
+                }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		1920.1.1 = {
+			owner = POL
+			controller = POL
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1945.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+
+		}
+		1993.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
+		}
+
+	}
+
+	provinces={
+		536 1223 1272 4250 4277 7425 9468 10179 10220 10268 10277 11479 12111 12194 12266 
+	}
+	manpower=2557470
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.000
+}

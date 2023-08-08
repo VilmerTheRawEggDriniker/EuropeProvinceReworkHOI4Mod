@@ -1,0 +1,47 @@
+state={
+	id=759
+	name="STATE_759"
+	provinces={
+		1698 1943 2074 4947 5736 10315 
+	}
+	manpower=69000
+	buildings_max_level_factor=1.000
+	state_category = rural
+	history={
+		owner = QIN
+		add_core_of = SIK
+		add_core_of = CHI
+            add_claim_by = CHI
+		1910.1.1 = {
+			owner = CHI
+			controller = CHI
+            remove_core_of = AUH
+		}
+        1919.1.1 = {
+        add_claim_by = PRC
+		add_core_of = PRC
+        }
+		1920.1.1 = {
+			owner = SIK
+			controller = SIK
+            remove_core_of = AUH
+		}
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+            remove_core_of = AUH
+		}
+		1950.1.1 = {
+			owner = PRC
+			controller = PRC
+            remove_core_of = AUH
+		}
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	local_supplies=0.0 
+}

@@ -1,0 +1,11 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_idi_amin"
+		texturefile = "gfx/event_pictures/idi_amin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idi_amin"
+		texturefile = "gfx/event_pictures/idi_amin_uganda.dds"
+	}

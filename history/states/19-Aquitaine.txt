@@ -1,0 +1,46 @@
+
+state={
+	id=19
+	name="STATE_19"
+	resources={
+		steel=25.000
+		aluminium=11.000
+	}
+
+	history={
+		owner = ENG
+		1455.1.1 = {
+                owner = FRA
+                add_core_of = FRA
+		}
+		add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+
+		}
+		victory_points = {
+			9737 20 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+			9737 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = FRA
+
+	}
+
+	provinces={
+		6621 6762 6777 9737 11565 13630 13631 13632 
+	}
+	manpower=1102003
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

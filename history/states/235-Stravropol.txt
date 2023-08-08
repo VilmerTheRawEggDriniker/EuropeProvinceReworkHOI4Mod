@@ -1,0 +1,44 @@
+
+state={
+	id=235
+	name="STATE_235"
+	resources={
+		chromium=14.000
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+
+		}
+		add_core_of = RUS
+		1920.1.1 = {
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
+		}
+		1993.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = SOV
+
+		}
+		victory_points = {
+			11696 3 
+		}
+
+	}
+
+	provinces={
+		714 731 748 3748 6750 6753 9705 9707 9722 11678 11693 11694 11696 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}
