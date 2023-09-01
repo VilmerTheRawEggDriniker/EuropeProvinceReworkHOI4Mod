@@ -4429,6 +4429,19 @@ DRF_ADJ:0 "Darfur"
  ZZZ_communism_ADJ:0 "Uncivilized"
  ZZZ_neutrality_ADJ:0 "Uncivilized"
 
+ UKA_fascism:0 "Ukrainian Empire"
+ UKA_fascism_DEF:0 "The Ukrainian Empire"
+ UKA_democratic:0 "Ukrainan Republic"
+ UKA_democratic_DEF:0 "The Ukrainian Republic"
+ UKA_communism:0 "Ukrainian Soviet Republic"
+ UKA_communism_DEF:0 "The Ukrainina Soviet Republic"
+ UKA_neutrality:0 "Ukrainian Duchy"
+ UKA_neutrality_DEF:0 "The Duchy of Ukraine"
+ UKA_fascism_ADJ:0 "Ukrainian"
+ UKA_democratic_ADJ:0 "Ukrainian"
+ UKA_communism_ADJ:0 "Ukrainian"
+ UKA_neutrality_ADJ:0 "Ukrainian"
+
 
 
 

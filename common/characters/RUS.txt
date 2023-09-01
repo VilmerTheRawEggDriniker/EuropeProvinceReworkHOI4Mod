@@ -1,0 +1,16 @@
+characters = {
+	RUS_Putin_leader = {
+		name = "Vladimir Putin"
+		portraits = {
+			civilian = {
+				large ="gfx/leaders/RUS/Portrait_RUS_Putin.dds"
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			traits = {dictator}
+			expire="2080.1.1.1"
+			id = -1
+		}
+	}
+}

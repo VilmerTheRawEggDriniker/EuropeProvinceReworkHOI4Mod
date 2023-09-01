@@ -1,12 +1,12 @@
-﻿capital = 195
-
+capital = 1
+# FINISH LATER
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
-set_convoys = 100
-recruit_character = RUS_Putin_leader
+set_convoys = 10
+
 
 1939.1.1 = {
 	
@@ -62,59 +62,12 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 17
-	fascism = 33
-	neutrality = 50
-}
-
-1815.1.1 = {
-add_ideas = {
-	russians_in_paris
-}
+	democratic = 30
+	fascism = 10
+	neutrality = 45
+      communism = 15
 }
 
 
 
-2022.2.15 = {
 
-	declare_war_on = {
-		target = UKR
-		type = puppet_wargoal_focus
-	}
-	diplomatic_relation = {
-		country = ARM
-		relation = guarantee
-		active = yes
-	}
-	diplomatic_relation = {
-		country = BLR
-		relation = guarantee
-		active = yes
-	}
-	diplomatic_relation = {
-		country = KAZ
-		relation = guarantee
-		active = yes
-	}
-	diplomatic_relation = {
-		country = KYR
-		relation = guarantee
-		active = yes
-	}
-	diplomatic_relation = {
-		country = TAJ
-		relation = guarantee
-		active = yes
-	}
-	diplomatic_relation = {
-		country = NOA
-		relation = guarantee
-		active = yes
-	}
-	diplomatic_relation = {
-		country = ABK
-		relation = guarantee
-		active = yes
-	}
-
-}

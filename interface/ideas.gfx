@@ -16,6 +16,12 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_idea_nato"
+		texturefile = "gfx/interface/ideas/nato.dds"
+	}
+
+
+	spriteType = {
 		name = "GFX_idea_russian_flag_paris"
 		texturefile = "gfx/interface/ideas/russian_flag_paris.dds"
 	}

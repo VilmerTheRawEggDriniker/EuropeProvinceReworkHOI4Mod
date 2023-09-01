@@ -353,6 +353,26 @@ ideas = {
 			army_speed_factor = -0.1
 			}
 		}
+		
+			NATO_support = {
+				picture = nato #Why the hell isnt it working???
+				
+				allowed = {
+					always = no
+				}
+	
+				allowed_civil_war = {
+					always = YES
+				}
+				removal_cost = -1
+				
+				modifier = {
+				army_core_defence_factor = 0.25
+				attrition = -0.05
+				production_factory_efficiency_gain_factor = 0.10
+				production_lack_of_resource_penalty_factor = -0.25
+				}
+		}
 								delusional_expansionism= {
 			picture = russian_flag_paris
 			
@@ -369,6 +389,7 @@ ideas = {
 			weekly_manpower = -2000
 
 			}
+			
 		}
 	}
 }
