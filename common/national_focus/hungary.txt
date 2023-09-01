@@ -67,8 +67,9 @@ focus_tree = {
 	focus = {
 		id = HUN_balanced_budget
 		icon = GFX_goal_generic_consumer_goods
+		available = { date > 1936.1.1 }
 		mutually_exclusive = { focus = HUN_economic_intervention }
-		x = 0
+		x = -1
 		y = 0
 
 		cost = 5
@@ -124,7 +125,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_ideas = HUN_hungarian_monarchy
-			set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 		}
 	}
 
@@ -175,7 +175,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_strengthen_the_monarchists }
 		mutually_exclusive = { focus =  HUN_elect_a_democratic_king }
 		mutually_exclusive = { focus =  HUN_elect_a_fascist_king }
-		x = -3
+		x = 0
 		y = 1
 		relative_position_id = HUN_elect_a_king
 
@@ -199,6 +199,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 			add_naval_commander_role = {
 				character = HUN_miklos_horthy
 				traits = { gunnery_expert navy_media_personality superior_tactician }
@@ -224,11 +225,10 @@ focus_tree = {
 	focus = {
 		id = HUN_demand_a_referendum
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = HUN_invite_the_habsburg_prince }
+		prerequisite = { focus = HUN_habsburg_austria }
 		mutually_exclusive = { focus = HUN_take_austria_by_force }
-		x = -2
-		y = 1
-		relative_position_id = HUN_invite_the_habsburg_prince
+		x = -7
+		y = 4
 
 		cost = 5
 
@@ -251,7 +251,6 @@ focus_tree = {
 			OR = {
 				AND = {
 					owns_state = 4
-					owns_state = 848
 					owns_state = 153
 					owns_state = 152
 				}
@@ -272,11 +271,10 @@ focus_tree = {
 	focus = {
 		id = HUN_take_austria_by_force
 		icon = GFX_goal_generic_territory_or_war
-		prerequisite = { focus = HUN_invite_the_habsburg_prince }
+		prerequisite = { focus = HUN_habsburg_austria }
 		mutually_exclusive = { focus = HUN_demand_a_referendum }
-		x = 0
-		y = 1
-		relative_position_id = HUN_invite_the_habsburg_prince
+		x = -5
+		y = 4
 		will_lead_to_war_with = AUS
 		will_lead_to_war_with = GER #if after Anschluss
 		cost = 5
@@ -317,14 +315,10 @@ focus_tree = {
 						type = take_state_focus
 						target = PREV
 						expire = 0
-						generator = { 4 152 153 848 }
+						generator = { 4 152 153 }
 					}
 				}
 			}
-			add_state_claim = 152
-			add_state_claim = 153
-			add_state_claim = 848
-			add_state_claim = 4
 		}
 	}
 
@@ -332,9 +326,8 @@ focus_tree = {
 		id = HUN_proclaim_the_restoration_of_austria_hungary
 		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
 		prerequisite = { focus = HUN_demand_a_referendum focus = HUN_take_austria_by_force }
-		x = 0
-		y = 2
-		relative_position_id = HUN_invite_the_habsburg_prince
+		x = -4
+		y = 6
 
 		cost = 5
 
@@ -345,7 +338,6 @@ focus_tree = {
 		available = {
 			controls_state = 152
 			controls_state = 153
-			controls_state = 848
 			controls_state = 4
 			is_subject = no
 		}
@@ -364,17 +356,7 @@ focus_tree = {
 			hidden_effect = { AUS = { set_cosmetic_tag = AUS_NOT_WHITE } }
 			152 = { add_core_of = ROOT }
 			153 = { add_core_of = ROOT }
-			848 = { add_core_of = ROOT }
 			4 = { add_core_of = ROOT }
-			69 = { add_core_of = ROOT }
-			9 = { add_core_of = ROOT }
-			75 = { add_core_of = ROOT }
-			74 = { add_core_of = ROOT }
-			72 = { add_core_of = ROOT }
-			70 = { add_core_of = ROOT }
-			664 = { add_core_of = ROOT }
-			71 = { add_core_of = ROOT }
-			73 = { add_core_of = ROOT }
 			881 = { add_core_of = ROOT }
 			882 = { add_core_of = ROOT }
 			883 = { add_core_of = ROOT }
@@ -397,9 +379,8 @@ focus_tree = {
 		id = HUN_protect_czechoslovakia
 		icon = GFX_goal_generic_defence
 		prerequisite = { focus = HUN_proclaim_the_restoration_of_austria_hungary }
-		x = 0
-		y = 3
-		relative_position_id = HUN_invite_the_habsburg_prince
+		x = -4
+		y = 7
 
 		cost = 5
 
@@ -439,9 +420,8 @@ focus_tree = {
 		id = HUN_claim_transylvania
 		icon = GFX_focus_generic_strike_at_democracy2
 		prerequisite = { focus = HUN_protect_czechoslovakia }
-		x = 0
-		y = 4
-		relative_position_id = HUN_invite_the_habsburg_prince
+		x = -5
+		y = 8
 
 		cost = 5
 
@@ -468,10 +448,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_state_claim = 76
-			add_state_claim = 83
-			add_state_claim = 84
-			add_state_claim = 82
 			if = {
 				limit = {
 					NOT = {
@@ -503,9 +479,8 @@ focus_tree = {
 		id = HUN_march_to_the_shore
 		icon = GFX_focus_generic_strike_at_democracy3
 		prerequisite = { focus = HUN_claim_transylvania }
-		x = 0
-		y = 5
-		relative_position_id = HUN_invite_the_habsburg_prince
+		x = -5
+		y = 9
 
 		cost = 5
 
@@ -521,7 +496,6 @@ focus_tree = {
 
 		bypass = {
 			controls_state = 102
-			controls_state = 853
 			controls_state = 103
 			controls_state = 109
 			controls_state = 104
@@ -537,15 +511,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_state_claim = 102
-			add_state_claim = 853
-			add_state_claim = 103
-			add_state_claim = 109
-			add_state_claim = 104
-			add_state_claim = 163
-			add_state_claim = 804
-			add_state_core = 764
-			add_state_core = 45
 			if = {
 				limit = {
 					OR = {
@@ -567,9 +532,8 @@ focus_tree = {
 		id = HUN_reclaim_venetia
 		icon = GFX_goal_generic_occupy_states_coastal
 		prerequisite = { focus = HUN_march_to_the_shore }
-		x = 0
-		y = 6
-		relative_position_id = HUN_invite_the_habsburg_prince
+		x = -5
+		y = 10
 
 		cost = 5
 
@@ -597,11 +561,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_state_claim = 736
-			add_state_claim = 852
-			add_state_claim = 160
-			add_state_claim = 39
-			add_state_claim = 850
 			if = {
 				limit = {
 					160 = { is_controlled_by = ITA }
@@ -620,9 +579,8 @@ focus_tree = {
 		id = HUN_claim_galicia
 		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = { focus = HUN_protect_czechoslovakia }
-		x = 2
-		y = 5
-		relative_position_id = HUN_invite_the_habsburg_prince
+		x = -3
+		y = 9
 
 		cost = 5
 
@@ -648,9 +606,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_state_claim = 88
-			add_state_claim = 89
-			add_state_claim = 91
 			if = {
 				limit = {
 					89 = {
@@ -678,9 +633,8 @@ focus_tree = {
 		id = HUN_claim_the_bucovina
 		icon = GFX_focus_generic_strike_at_democracy2
 		prerequisite = { focus = HUN_claim_galicia }
-		x = 2
-		y = 6
-		relative_position_id = HUN_invite_the_habsburg_prince
+		x = -3
+		y = 10
 
 		cost = 5
 
@@ -702,7 +656,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_state_claim = 80
 		}
 	}
 	focus = {
@@ -710,9 +663,8 @@ focus_tree = {
 		icon = GFX_goal_generic_occupy_states_ongoing_war
 		prerequisite = { focus = HUN_reclaim_venetia }
 		prerequisite = { focus = HUN_claim_the_bucovina }
-		x = 0
-		y = 7
-		relative_position_id = HUN_invite_the_habsburg_prince
+		x = -5
+		y = 11
 
 		cost = 5
 
@@ -745,15 +697,6 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		completion_reward = {
-			add_state_claim = 455
-			add_state_claim = 454
-			add_state_claim = 66 
-			add_state_claim = 67 
-			add_state_claim = 162
-			add_state_claim = 17 
-			add_state_claim = 159
-			add_state_claim = 161
-			add_state_claim = 762
 		}
 	}
 
@@ -768,7 +711,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_strengthen_the_monarchists }
 		mutually_exclusive = { focus =  HUN_elect_a_fascist_king }
 		mutually_exclusive = { focus =  HUN_invite_the_habsburg_prince }
-		x = 0
+		x = -7
 		y = 1
 		relative_position_id = HUN_elect_a_king
 
@@ -792,6 +735,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+						set_party_name = { ideology = neutrality long_name = HUN_legitimists_bernadotte_party_long name = HUN_legitimists_bernadotte_party }
 			swap_ideas = {
 				add_idea = HUN_hungarian_monarchy_democratic
 				remove_idea = HUN_hungarian_monarchy_2
@@ -1158,7 +1102,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_strengthen_the_monarchists }
 		mutually_exclusive = { focus =  HUN_elect_a_democratic_king }
 		mutually_exclusive = { focus =  HUN_invite_the_habsburg_prince }
-		x = 3
+		x = 6
 		y = 1
 		relative_position_id = HUN_elect_a_king
 
@@ -1186,6 +1130,7 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			set_party_name = { ideology = neutrality long_name = HUN_legitimists_mecklenburgschwerin_party_long name = HUN_legitimists_mecklenburgschwerin_party }
 			swap_ideas = {
 				add_idea = HUN_hungarian_monarchy_fascism
 				remove_idea = HUN_hungarian_monarchy_2
@@ -1229,6 +1174,7 @@ focus_tree = {
 	focus = {
 		id = HUN_economic_intervention
 		icon = GFX_goal_generic_demand_territory
+		available = { date > 1936.1.1 }
 		mutually_exclusive = { focus = HUN_balanced_budget }
 		x = 15
 		y = 0
@@ -1301,7 +1247,7 @@ focus_tree = {
 	focus = {
 		id = HUN_renounce_the_treaty_of_trianon
 		icon = GFX_focus_renounce_the_treaty_of_trianon
-		prerequisite = { focus = HUN_strengthen_fascists focus = HUN_elect_a_fascist_king }
+		prerequisite = { focus = HUN_habsburg_hungary focus = HUN_council_of_peoples_commissars focus = HUN_invite_the_habsburg_prince focus = HUN_strengthen_fascists focus = HUN_elect_a_fascist_king }
 		x = 15
 		y = 8
 
@@ -1434,7 +1380,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
 		mutually_exclusive = { focus = HUN_trade_deal_with_germany }
 		x = 21
-		y = 10
+		y = 9
 
 		cost = 5
 
@@ -1514,7 +1460,7 @@ focus_tree = {
 		icon = GFX_goal_generic_military_sphere
 		prerequisite = { focus = HUN_renew_the_rome_protocols }
 		x = 21
-		y = 11
+		y = 10
 
 		cost = 5
 
@@ -1536,9 +1482,6 @@ focus_tree = {
 			153 = {
 				NOT = { is_owned_by = AUS }
 			}
-			848 = {
-				NOT = { is_owned_by = AUS }
-			}
 		}
 
 		cancel_if_invalid = yes
@@ -1557,7 +1500,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { focus = HUN_protect_austria }
 		x = 21
-		y = 12
+		y = 11
 
 		cost = 5
 
@@ -1643,7 +1586,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
 		mutually_exclusive = { focus = HUN_renew_the_rome_protocols }
 		x = 19
-		y = 10
+		y = 9
 		available = {
 			NOT = { GER = { has_government = communism } }
 		}
@@ -1682,7 +1625,7 @@ focus_tree = {
 		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = HUN_trade_deal_with_germany }
 		x = 19
-		y = 11
+		y = 10
 
 		cost = 5
 
@@ -1719,7 +1662,7 @@ focus_tree = {
 		icon = GFX_goal_anschluss
 		prerequisite = { focus = HUN_joint_aluminum_mining_company }
 		x = 19
-		y = 12
+		y = 11
 
 		cost = 5
 
@@ -1777,7 +1720,7 @@ focus_tree = {
 	focus = {
 		id = HUN_reaffirm_territorial_claims
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		prerequisite = { focus = HUN_czechoslovakia_negative_rapprochement }
 		x = 17
 		y = 10
 
@@ -1822,8 +1765,9 @@ focus_tree = {
 		available_if_capitulated = no
 
 
-		search_filters = { FOCUS_FILTER_ANNEXATION }
+	search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_political_power = 100
 		}
 	}
 
@@ -1855,7 +1799,7 @@ focus_tree = {
 				has_war_with = ROM
 			}
 			strength_ratio = { tag = ROM ratio > 0.66 }
-			has_army_manpower = { size > 200000 }
+			has_army_manpower = { size > 300000 }
 		
 		}
 
@@ -2029,6 +1973,28 @@ focus_tree = {
 						has_war_with = ROOT
 					}
 				}
+								owns_state = 851
+				851 = {
+					OWNER = {
+						is_in_faction_with = ROOT
+					}
+				}
+				851 = {
+					OWNER = {
+						has_war_with = ROOT
+					}
+				}
+								owns_state = 960
+				960 = {
+					OWNER = {
+						is_in_faction_with = ROOT
+					}
+				}
+				960 = {
+					OWNER = {
+						has_war_with = ROOT
+					}
+				}
 			}
 		}
 
@@ -2053,19 +2019,23 @@ focus_tree = {
 					}
 				}
 				45 = { add_core_of = HUN }
+								951 = { add_core_of = HUN }
+												860 = { add_core_of = HUN }
 				else = {
 					if = {
 						limit = {
 							YUG = { 
 								is_subject = yes 
 								owns_state = 45
+								owns_state = 860
+								owns_state = 951
 							}
 						}
 						create_wargoal = {
 							type = take_state_focus
 							target = YUG
 							expire = 0
-							generator = { 45 }
+							generator = { 45 951 860 }
 						}
 						else = {
 							if = {
@@ -2073,6 +2043,10 @@ focus_tree = {
 									OR = {
 										45 = { is_owned_by = YUG }
 										45 = { owner = { is_subject_of = YUG } }
+										851 = { is_owned_by = YUG }
+										851 = { owner = { is_subject_of = YUG } }
+										960 = { is_owned_by = YUG }
+										960 = { owner = { is_subject_of = YUG } }
 									}
 								}
 								YUG = { country_event = DOD_hungary.90 }
@@ -2204,9 +2178,9 @@ focus_tree = {
 	focus = {
 		id = HUN_proclaim_greater_hungary
 		icon = GFX_focus_proclaim_the_restauration_of_Austria_Hungary
-		prerequisite = { focus = HUN_demand_the_vojvodina }
-		x = 13
-		y = 12
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		x = 23
+		y = 9
 
 		cost = 5
 
@@ -2605,6 +2579,7 @@ focus_tree = {
 	focus = {
 		id = HUN_industrial_revitalization
 		icon = GFX_goal_generic_construction
+		available = { date > 1936.1.1 }
 		x = 22
 		y = 0
 
@@ -3485,6 +3460,7 @@ focus_tree = {
 	focus = {
 		id = HUN_secret_rearmament
 		icon = GFX_focus_secret_rearmament
+		available = { date > 1936.1.1 }
 		x = 33
 		y = 0
 
@@ -5187,7 +5163,7 @@ focus_tree = {
 		focus = {
 		id = HUN_romanian_territorial_claims
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		prerequisite = { focus = HUN_romanian_negative_rapprochement }
 		x = 13
 		y = 10
 
@@ -5214,11 +5190,10 @@ focus_tree = {
 						is_in_faction_with = GER
 						is_in_faction_with = ROM
 						is_in_faction_with = YUG
-					}
 				}
 			}
 		}
-
+}
 		available = {
 			is_puppet = no
 		}
@@ -5232,14 +5207,15 @@ focus_tree = {
 		available_if_capitulated = no
 
 
-		search_filters = { FOCUS_FILTER_ANNEXATION }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_political_power = 100
 		}
 	}
 			focus = {
 		id = HUN_yugoslav_territorial_claims
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		prerequisite = { focus = HUN_yugoslav_negative_rapprochement }
 		x = 9
 		y = 10
 
@@ -5284,14 +5260,15 @@ focus_tree = {
 		available_if_capitulated = no
 
 
-		search_filters = { FOCUS_FILTER_ANNEXATION }
+	search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+			add_political_power = 100
 		}
 	}
 			focus = {
 		id = HUN_italian_territorial_claims
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		prerequisite = { focus = HUN_italian_negative_rapprochement }
 		x = 5
 		y = 10
 
@@ -5336,14 +5313,15 @@ focus_tree = {
 		available_if_capitulated = no
 
 
-		search_filters = { FOCUS_FILTER_ANNEXATION }
+	search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
+		add_political_power = 100
 		}
 	}
 			focus = {
 		id = HUN_austrian_territorial_claims
 		icon = GFX_goal_generic_forceful_treaty
-		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		prerequisite = { focus = HUN_austrian_negative_rapprochement }
 		x = 1
 		y = 10
 
@@ -5388,8 +5366,563 @@ focus_tree = {
 		available_if_capitulated = no
 
 
-		search_filters = { FOCUS_FILTER_ANNEXATION }
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		add_political_power = 100
+		}
+	}
+	focus = {
+		id = HUN_austrian_rapprochement
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+    mutually_exclusive = { focus = HUN_austrian_negative_rapprochement }		
+        x = -1
+		y = 9
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 10
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+						AUS = {
+				add_opinion_modifier = { target = HUN modifier = HUN_non_revanchism }
+			}
+		}
+	}
+		focus = {
+		id = HUN_italian_rapprochement
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		mutually_exclusive = { focus = HUN_italian_negative_rapprochement }
+		x = 3
+		y = 9
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 10
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+									ITA = {
+				add_opinion_modifier = { target = HUN modifier = HUN_non_revanchism }
+			}
+		}
+	}
+		focus = {
+		id = HUN_yugoslav_rapprochement
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		mutually_exclusive = { focus = HUN_yugoslav_negative_rapprochement }
+		x = 7
+		y = 9
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+								YUG = {
+				add_opinion_modifier = { target = HUN modifier = HUN_non_revanchism }
+			}
+		}
+	}
+		focus = {
+		id = HUN_romanian_rapprochement
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		mutually_exclusive = { focus = HUN_romanian_negative_rapprochement }
+		x = 11
+		y = 9
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+								ROM = {
+				add_opinion_modifier = { target = HUN modifier = HUN_non_revanchism }
+			}
+	}
+		}
+		focus = {
+		id = HUN_czechoslovakia_rapprochement
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		mutually_exclusive = { focus = HUN_czechoslovakia_negative_rapprochement }
+		x = 15
+		y = 9
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+									CZE = {
+				add_opinion_modifier = { target = HUN modifier = HUN_non_revanchism }
+			}
+		}
+	}
+		focus = {
+		id = HUN_austrian_negative_rapprochement
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		mutually_exclusive = { focus = HUN_austrian_rapprochement }
+		x = 1
+		y = 9
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 10
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+									AUS = {
+				add_opinion_modifier = { target = HUN modifier = HUN_revanchism }
+			}
+		}
+	}
+		focus = {
+		id = HUN_italian_negative_rapprochement
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		mutually_exclusive = { focus = HUN_italian_rapprochement }
+		x = 5
+		y = 9
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 10
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+												ITA = {
+				add_opinion_modifier = { target = HUN modifier = HUN_revanchism }
+			}
+		}
+	}
+		focus = {
+		id = HUN_yugoslav_negative_rapprochement
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		mutually_exclusive = { focus = HUN_yugoslav_rapprochement }
+		x = 9
+		y = 9
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+												YUG = {
+				add_opinion_modifier = { target = HUN modifier = HUN_revanchism }
+			}
+		}
+	}
+		focus = {
+		id = HUN_romanian_negative_rapprochement
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		mutually_exclusive = { focus = HUN_romanian_rapprochement }
+		x = 13
+		y = 9
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+												ROM = {
+				add_opinion_modifier = { target = HUN modifier = HUN_revanchism }
+			}
+		}
+	}
+		focus = {
+		id = HUN_czechoslovakia_negative_rapprochement
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_renounce_the_treaty_of_trianon }
+		mutually_exclusive = { focus = HUN_czechoslovakia_rapprochement }
+		x = 17
+		y = 9
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+												CZE = {
+				add_opinion_modifier = { target = HUN modifier = HUN_revanchism }
+			}
+		}
+	}
+			focus = {
+		id = HUN_habsburg_hungary
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_invite_the_habsburg_prince }
+		mutually_exclusive = { focus = HUN_habsburg_austria }
+		x = 0
+		y = 3
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 		}
 	}
+			focus = {
+		id = HUN_habsburg_austria
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_invite_the_habsburg_prince }
+		mutually_exclusive = { focus = HUN_habsburg_hungary }
+		x = -6
+		y = 3
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+			focus = {
+		id = HUN_revolution_eighteenfortyeight
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HUN_council_of_peoples_commissars }
+		x = 13
+		y = 3
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+		}
+	}
+			focus = {
+		id = HUN_balance_of_power
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus=HUN_elect_a_fascist_king focus = HUN_invite_the_habsburg_prince focus=HUN_elect_a_democratic_king }
+		x = -8
+		y = 3
+
+		cost = 5
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+			GER={
+                NOT = {
+                    OR = {
+                        has_government = fascism
+                    }
+                }
+			}
+						ITA={
+                NOT = {
+                    OR = {
+                        has_government = fascism
+                    }
+                }
+			}
+						SOV={
+                NOT = {
+                    OR = {
+                        has_government = communism
+                    }
+                }
+			}
+									SOV={
+                NOT = {
+						owns_state = 797				
+                }
+			}
+		}
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+completion_reward = {
+	add_named_threat = { threat = -1 name = hun_bop }
+            every_other_country = {
+				         limit = {
+                        capital_scope = {
+                                is_on_continent = europe
+                        }
+                        not = {has_government = fascism }
+					    not = {has_government = communism }
+						 }
+				               add_timed_idea = { idea = hun_balance_of_power days = 3650 }  
+			}
+       }
+    }
 }

@@ -2,12 +2,19 @@ state={
 	id=1058
 	name="STATE_1058"
 	history={
-		owner = FRA
+		owner = ZZZ
+		1900.1.1 = {
+                owner = FRA
 		add_core_of = RCG
-            add_core_of = CMR
+                }
+		1970.1.1 = {
+                owner = RCG
+		add_core_of = RCG
+                }
 		1911.1.1 = {
 			owner = GER
 			controller = GER
+                add_core_of = CMR
             }
 		1920.1.1 = {
 			owner = FRA

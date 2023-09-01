@@ -11,11 +11,20 @@ state=
 	}
 
 	history={
+		owner = ZZZ
+		1700.1.1 = {
+                owner = HOL
+                }
+		1800.1.1 = {
+                owner = ENG
+                }
+		1900.1.1 = {
 		add_core_of = SRL
-		owner = ENG
-		victory_points = {
-			10201 3 
-		}
+                }
+		1950.1.1 = {
+		owner = SRL
+                }
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -27,6 +36,26 @@ state=
 				naval_base = 3
 				coastal_bunker = 3
 			}
+		}
+                }
+		1700.1.1 = {
+		buildings = {
+			infrastructure = 2
+			10201 = {
+				naval_base = 5
+			}
+			7260 = {
+				naval_base = 3
+			}
+		}
+                }
+		1700.1.1 = {
+		victory_points = {
+			10201 3 
+		}
+                }
+		buildings = {
+			infrastructure = 0
 		}
 
 	}

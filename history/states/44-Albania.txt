@@ -18,7 +18,6 @@ state={
 		buildings = {
 			infrastructure = 2
  			arms_factory = 1
-			air_base = 3
 			11767 = {
 				naval_base = 4
 
@@ -32,6 +31,19 @@ state={
 		1913.1.1 = {
 			owner = ALB
 			controller = ALB
+
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+ 			arms_factory = 1
+			air_base = 3
+			11767 = {
+				naval_base = 4
+
+			}
+
+		}
 
 		}
 		1939.4.12 = {

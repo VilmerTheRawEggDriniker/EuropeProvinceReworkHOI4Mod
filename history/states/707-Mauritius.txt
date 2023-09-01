@@ -6,13 +6,21 @@ state={
 	state_category = small_island
 
 	history={
-		owner = ENG
+		owner = ZZZ
+		1900.1.1 = {
 		add_core_of = MAD
+                owner = ENG
+                }
+		1900.1.1 = {
 		buildings = {
 			infrastructure = 2
 			13018 = {
 				naval_base = 1
 			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
 		}
 	}
 	

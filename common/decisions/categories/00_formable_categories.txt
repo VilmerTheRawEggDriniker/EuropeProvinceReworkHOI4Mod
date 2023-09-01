@@ -6,6 +6,15 @@
 #		has_dlc = "Waking the Tiger"
 #	}
 #}
+industrialize_turkey_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_
+
+	allowed = {
+	}
+}
 form_circassia_category = {
 
 	icon = generic_formable_nations

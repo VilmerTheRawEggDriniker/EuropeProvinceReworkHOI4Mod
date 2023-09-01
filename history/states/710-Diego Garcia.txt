@@ -6,12 +6,21 @@ state={
 	
 	history=
 	{
-		owner = ENG
+		owner = ZZZ
+		1900.1.1 = {
+		add_core_of = MAD
+                owner = ENG
+                }
+		1900.1.1 = {
 		buildings = {
 			infrastructure = 2
 			13019 = {
 				naval_base = 1
 			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
 		}
 	}
 	

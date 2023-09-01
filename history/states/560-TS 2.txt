@@ -7,13 +7,23 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = ZZZ
+		1700.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+                }
+		1936.1.1 = {
+		add_core_of = FER
+                }
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
+		}
+                }
+		buildings = {
+			infrastructure = 0
 
 		}
-		add_core_of = FER
-		add_core_of = RUS
 		1920.1.1 = {
 		owner = SOV
 		controller = SOV

@@ -8,7 +8,7 @@ state={
 
 	history={
 		victory_points = {
-			9606 8 
+			9606 5
 		}
                 owner = HUN
                 add_core_of = HUN
@@ -52,8 +52,8 @@ state={
 	provinces={
 		646 662 3649 9606 11592 11608 14223 14224 14225 14226 14227 14230 14231 14234 
 	}
-	manpower=1000000
+	manpower=950000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=11.000
 }

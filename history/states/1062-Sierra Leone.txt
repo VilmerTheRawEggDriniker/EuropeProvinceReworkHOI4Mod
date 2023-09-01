@@ -5,8 +5,15 @@ state={
 	name="STATE_1062"
 
 	history={
-		owner = FRA
-            add_core_of = GNA
+		owner = ZZZ
+		1900.1.1 = {
+                owner = FRA
+		add_core_of = GNA
+                }
+		1970.1.1 = {
+                owner = SIE
+		add_core_of = SIE
+                }
 		1910.1.1 = {
 			owner = ENG
 			controller = ENG

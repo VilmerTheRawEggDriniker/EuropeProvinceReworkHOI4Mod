@@ -18,8 +18,6 @@ state={
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
-			air_base = 4
-
 		}
 		add_core_of = IRQ
 		1920.1.1 = {
@@ -32,6 +30,16 @@ state={
 			owner = IRQ
 			controller = IRQ
 			remove_core_of = OTO
+
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 4
+
+		}
 
 		}
 

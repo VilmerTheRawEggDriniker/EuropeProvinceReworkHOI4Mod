@@ -544,6 +544,21 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13678;13679;impassable;-1;-1;-1;-1;-1;;Himalayas
 
 
+5011;10315;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+5011;1943;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+8068;1943;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+8068;10911;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+8068;4973;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+12801;4973;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+12801;5042;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+10802;5042;impassable;-1;-1;-1;-1;-1;;peshawar mountains
+
+
+
+
+
+
+
 4558;10826;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 4558;12653;impassable;-1;-1;-1;-1;-1;;peshawar mountains
 4558;7519;impassable;-1;-1;-1;-1;-1;;peshawar mountains

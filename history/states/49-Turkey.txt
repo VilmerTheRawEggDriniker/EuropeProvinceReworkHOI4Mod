@@ -19,8 +19,6 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 			arms_factory = 2
-			air_base = 3
-
 		}
 		add_core_of = OTO
 		1920.1.1 = {
@@ -30,6 +28,15 @@ state={
 			remove_core_of = OTO
 
 		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 3
+
+		}
+                }
 
 	}
 

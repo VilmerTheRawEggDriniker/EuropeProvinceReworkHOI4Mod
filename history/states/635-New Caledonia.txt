@@ -9,14 +9,20 @@ state={
 	state_category = small_island
 
 	history={
-		owner = FRA
+		owner = ZZZ
+		1900.1.1 = {
+                owner = FRA
 		add_core_of = TAH
+                }
+		1900.1.1 = {
 		victory_points = {
 			4268 1
 		}
 		victory_points = {
 			12120 1
 		}
+                }
+		1900.1.1 = {
 		buildings = {
 			infrastructure = 2
 			4268 = {
@@ -30,6 +36,10 @@ state={
 			4247 = {
 				naval_base = 1
 			}
+		}
+                }
+		buildings = {
+			infrastructure = 0
 		}
 
 	}

@@ -341,7 +341,7 @@
  STATE_340:0 "Izmit"
  STATE_341:1 "Tekirdag"
  STATE_342:0 "Alaiyye"
- STATE_343:0 "Antalya"
+ STATE_343:0 "Bursa"
  STATE_344:0 "Adana"
  STATE_345:0 "Mut"
  STATE_346:0 "Karaman"
@@ -832,7 +832,7 @@
  STATE_831:0 "Khiva"
  STATE_832:0 "Tashauz" #Was renamed to Daşoguz in 1999
  STATE_833:0 "Mari El"
- STATE_834:0 "Balta-Tiraspol"
+ STATE_834:0 "Tiraspol"
 
  STATE_835:0 "Suez Canal"
  STATE_836:0 "Meppen"

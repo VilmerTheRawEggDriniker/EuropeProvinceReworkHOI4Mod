@@ -25,9 +25,16 @@ state={
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
+
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
 			air_base = 3
 
 		}
+                }
 		1920.1.1 = {
 			owner = HUN
 			controller = HUN

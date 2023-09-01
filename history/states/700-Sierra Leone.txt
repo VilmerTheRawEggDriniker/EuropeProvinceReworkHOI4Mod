@@ -4,11 +4,19 @@ state={
 	name="STATE_700"
 
 	history={
-		owner = ENG
+		owner = ZZZ
+		1789.1.1 = {
+                owner = ENG
+                }
+		1900.1.1 = {
 		add_core_of = SIE
+                }
+		1900.1.1 = {
 		victory_points = {
 			2038 1 
 		}
+                }
+		1900.1.1 = {
 		buildings = {
 			infrastructure = 1
 			2038 = {
@@ -16,6 +24,14 @@ state={
 
 			}
 
+		}
+                }
+		1970.1.1 = {
+                owner = SIE
+		add_core_of = SIE
+                }
+		buildings = {
+			infrastructure = 0
 		}
 
 	}

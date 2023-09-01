@@ -227,5 +227,37 @@ form_circassia:0 "Restore Circassia"
 form_circassia_category:0 "Restore Circassia"
 
 
+industrialize_turkey_category:0 "Industrialize Turkey"
+industrialize_turkey_istanbul:0 "Industrialize Istanbul"
+industrialize_turkey_bursa:0 "Industrialize Bursa"
+industrialize_turkey_izmir:0 "Industrialize Izmir"
+industrialize_turkey_ankara:0 "Industrialize Ankara"
+industrialize_turkey_adana:0 "Industrialize Adana"
+
+industrialize_turkey_istanbul_one:0 "Industrialisation of Istanbul phase 1"
+industrialize_turkey_bursa_one:0 "Industrialisation of Bursa phase 1"
+industrialize_turkey_izmir_one:0 "Industrialisation of Izmir phase 1"
+industrialize_turkey_ankara_one:0 "Industrialisation of Ankara phase 1"
+industrialize_turkey_adana_one:0 "Industrialisation of Adana phase 1"
+
+industrialize_turkey_istanbul_two:0 "Industrialisation Istanbul phase 2"
+industrialize_turkey_bursa_two:0 "Industrialisation of Bursa phase 2"
+industrialize_turkey_izmir_two:0 "Industrialisation of Izmir phase 2"
+industrialize_turkey_ankara_two:0 "Industrialisation of Ankara phase 2"
+industrialize_turkey_adana_two:0 "Industrialisation of Adana phase 2"
+
+industrialize_turkey_istanbul_three:0 "Industrialisation of Istanbul phase 3"
+industrialize_turkey_bursa_three:0 "Industrialisation of Bursa phase 3"
+industrialize_turkey_izmir_three:0 "Industrialisation of Izmir phase 3"
+industrialize_turkey_ankara_three:0 "Industrialisation of Ankara phase 3"
+industrialize_turkey_adana_three:0 "Industrialisation of Adana phase 3"
+
+industrialize_turkey_istanbul_four:0 "Industrialisation of Istanbul phase 4"
+industrialize_turkey_bursa_four:0 "Industrialisation of Bursa phase 4"
+industrialize_turkey_izmir_four:0 "Industrialisation of Izmir phase 4"
+industrialize_turkey_ankara_four:0 "Industrialisation of Ankara phase 4"
+industrialize_turkey_adana_four:0 "Industrialisation of Adana phase 4"
+
+
 
 

@@ -15,7 +15,6 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 3
-			air_base = 4
 			9833 = {
 				naval_base = 8
 
@@ -30,6 +29,18 @@ state={
 			remove_core_of = OTO
 
 		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 4
+			9833 = {
+				naval_base = 8
+
+			}
+
+		}
+                }
 		1926.1.1 = {
 			if = {
 				limit = {

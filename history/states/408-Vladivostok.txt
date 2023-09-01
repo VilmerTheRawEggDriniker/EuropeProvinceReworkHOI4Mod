@@ -7,10 +7,21 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = ZZZ
+		1700.1.1 = {
 		victory_points = {
 			957 20 
 		}
+                }
+		1700.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+                }
+		1936.1.1 = {
+		add_core_of = FER
+                add_core_of = VLA
+                }
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -22,9 +33,10 @@ state={
 			}
 
 		}
-		add_core_of = FER
-		add_core_of = VLA
-		add_core_of = RUS
+                }
+		buildings = {
+			infrastructure = 0
+		}
 		1920.1.1 = {
 		owner = SOV
 		controller = SOV

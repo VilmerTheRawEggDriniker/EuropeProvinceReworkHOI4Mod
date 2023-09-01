@@ -288,8 +288,22 @@
  HUN_democratic_party_long:0 "Szociáldemokrata Párt"
  HUN_neutrality_party:0 "F48P"
  HUN_neutrality_party_long:0 "Függetlentségi és 48-as Párt"
- HUN_legitimists_party:0 "Legitimists"
- HUN_legitimists_party_long:0 "Legitimists"
+
+
+ HUN_legitimists_party:0 "House of Habsburg"
+ HUN_legitimists_party_long:0 "House of Habsburg"
+ HUN_legitimists_bernadotte_party:0 "House of Bernadotte"
+ HUN_legitimists_bernadotte_party_long:0 "House of Bernadotte"
+ HUN_legitimists_mecklenburgschwerin_party:0 "House of Mecklenburg-Schwerin"
+ HUN_legitimists_mecklenburgschwerin_party_long:0 "House of Mecklenburg-Schwerin"
+
+
+
+
+
+
+
+
  ROM_neutrality_party:0 "FRN"
  ROM_neutrality_party_long:0 "Frontul Renasterii Nationale"
  ROM_communism_party:0 "PCR"

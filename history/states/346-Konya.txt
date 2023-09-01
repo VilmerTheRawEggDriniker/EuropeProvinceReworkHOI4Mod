@@ -7,8 +7,6 @@ state={
 		owner = OTO
 		buildings = {
 			infrastructure = 2
-			air_base = 5
-
 		}
 		victory_points = {
 			9861 5 
@@ -27,6 +25,13 @@ state={
 			remove_core_of = OTO
 
 		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+
+		}
+                }
 
 	}
 

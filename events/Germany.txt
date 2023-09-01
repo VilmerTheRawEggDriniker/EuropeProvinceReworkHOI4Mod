@@ -5271,6 +5271,7 @@ country_event = {
 		remove_state_claim = 1194
 		remove_state_claim = 86
 		remove_state_claim = 762
+		remove_state_claim = 871
 		if = {
 			limit = {
 				ENG = {
@@ -6406,6 +6407,10 @@ country_event = {
 		name = germany.115.a
 		transfer_state = 85
 		remove_state_claim = 86
+		remove_state_claim = 762
+		remove_state_claim = 807
+		remove_state_claim = 1194
+		remove_state_claim = 871
 	}
 }
 
@@ -6554,7 +6559,6 @@ country_event = {
 				add_state_core = 873
 				add_state_core = 880
 				add_state_core = 858
-				add_state_core = 989
 				add_state_core = 1088
 				add_state_core = 1089
 				add_state_core = 893
@@ -6563,6 +6567,38 @@ country_event = {
 				add_state_core = 874
 				add_state_core = 875
 				add_state_core = 972
+
+				add_state_core = 1180
+				add_state_core = 1184
+				add_state_core = 841
+				add_state_core = 1183
+				add_state_core = 1187
+				add_state_core = 1181
+				add_state_core = 1198
+				add_state_core = 1199
+				add_state_core = 868
+				add_state_core = 1182
+				add_state_core = 466
+				add_state_core = 690
+				add_state_core = 843
+				add_state_core = 842
+				add_state_core = 1174
+				add_state_core = 837
+				add_state_core = 870
+				add_state_core = 1166
+				add_state_core = 898
+				add_state_core = 845
+				add_state_core = 703
+				add_state_core = 704
+				add_state_core = 836
+				add_state_core = 1189
+				add_state_core = 1179
+				add_state_core = 720
+				add_state_core = 847
+				add_state_core = 1178
+				add_state_core = 1186
+				add_state_core = 1175
+				add_state_core = 844
 			}
 			DDR = {
 				add_state_core = 60
@@ -6572,6 +6608,19 @@ country_event = {
 				add_state_core = 65
 				add_state_core = 861
 				add_state_core = 862
+				add_state_core = 846
+				add_state_core = 1188
+				add_state_core = 989
+				add_state_core = 891
+				add_state_core = 900
+				add_state_core = 909
+				add_state_core = 867
+				add_state_core = 1200
+				add_state_core = 865
+				add_state_core = 866
+				add_state_core = 901
+				add_state_core = 1197
+				add_state_core = 1185
 			}
 			POL = {
 				add_state_core = 66
@@ -6581,8 +6630,20 @@ country_event = {
 				add_state_core = 5
 				add_state_core = 863
 				add_state_core = 85
+				add_state_core = 650
+				add_state_core = 850
+				add_state_core = 1195
+				add_state_core = 908
+				add_state_core = 1196
+				add_state_core = 903
+				add_state_core = 897
+				add_state_core = 1148
 			}
-		}
+			SOV = {
+			add_state_core = 763
+			add_state_core = 188
+			}
+}
 		event_target:yalta_partner = {
 			custom_effect_tooltip = needs_approval
 		}
@@ -6628,7 +6689,6 @@ country_event = {
 				add_state_core = 873
 				add_state_core = 880
 				add_state_core = 858
-				add_state_core = 989
 				add_state_core = 1088
 				add_state_core = 1089
 				add_state_core = 893
@@ -6637,6 +6697,38 @@ country_event = {
 				add_state_core = 874
 				add_state_core = 875
 				add_state_core = 972
+
+								add_state_core = 1180
+				add_state_core = 1184
+				add_state_core = 841
+				add_state_core = 1183
+				add_state_core = 1187
+				add_state_core = 1181
+				add_state_core = 1198
+				add_state_core = 1199
+				add_state_core = 868
+				add_state_core = 1182
+				add_state_core = 466
+				add_state_core = 690
+				add_state_core = 843
+				add_state_core = 842
+				add_state_core = 1174
+				add_state_core = 837
+				add_state_core = 870
+				add_state_core = 1166
+				add_state_core = 898
+				add_state_core = 845
+				add_state_core = 703
+				add_state_core = 704
+				add_state_core = 836
+				add_state_core = 1189
+				add_state_core = 1179
+				add_state_core = 720
+				add_state_core = 847
+				add_state_core = 1178
+				add_state_core = 1186
+				add_state_core = 1175
+				add_state_core = 844
 			}
 			DDR = {
 				add_state_core = 60
@@ -6646,6 +6738,20 @@ country_event = {
 				add_state_core = 65
 				add_state_core = 861
 				add_state_core = 862
+
+				add_state_core = 846
+				add_state_core = 1188
+				add_state_core = 989
+				add_state_core = 891
+				add_state_core = 900
+				add_state_core = 909
+				add_state_core = 867
+				add_state_core = 1200
+				add_state_core = 865
+				add_state_core = 866
+				add_state_core = 901
+				add_state_core = 1197
+				add_state_core = 1185
 			}
 			POL = {
 				add_state_core = 66
@@ -6655,6 +6761,18 @@ country_event = {
 				add_state_core = 5
 				add_state_core = 863
 				add_state_core = 85
+				add_state_core = 650
+				add_state_core = 850
+				add_state_core = 1195
+				add_state_core = 908
+				add_state_core = 1196
+				add_state_core = 903
+				add_state_core = 897
+				add_state_core = 1148
+			}
+						SOV = {
+			add_state_core = 763
+			add_state_core = 188
 			}
 		hidden_effect = {
 			news_event = { days = 1 id = news.236 }
@@ -6680,6 +6798,10 @@ country_event = {
 				create_wargoal = {
 					type = liberate_wargoal
 					target = WGR
+				}
+								create_wargoal = {
+					type = liberate_wargoal
+					target = AUS
 				}
 			}
 		}
@@ -6738,6 +6860,21 @@ country_event = {
 				limit = {
 					is_core_of = POL
 					is_owned_and_controlled_by = GER
+				}
+				POL = {
+					transfer_state = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				country_exists = POL
+			}
+			#Return Polish territory + new cores if they exist
+			every_state = {
+				limit = {
+					is_core_of = POL
+					is_owned_and_controlled_by = SOV
 				}
 				POL = {
 					transfer_state = PREV
@@ -7024,6 +7161,18 @@ country_event = {
 						is_core_of = GER
 					}
 					remove_core_of = GER
+				}
+				every_state = {
+					limit = {
+						is_claimed_by = GER
+					}
+					remove_claim_by = GER
+				}
+								every_state = {
+					limit = {
+						is_claimed_by = SOV
+					}
+					remove_claim_by = SOV
 				}
 			}
 		}

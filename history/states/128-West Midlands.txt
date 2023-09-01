@@ -4,11 +4,19 @@ state={
 	name="STATE_128"
 	history={
 		owner = ENG
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 4
 			air_base = 6
+
+		}
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 4
 
 		}
 		victory_points = {

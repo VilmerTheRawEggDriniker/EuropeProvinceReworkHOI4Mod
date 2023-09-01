@@ -7,12 +7,22 @@ state={
 	state_category = rural
 
 	history={
-		owner = RUS
-		buildings = {
-			infrastructure = 1
+		owner = ZZZ
+		1700.1.1 = {
+		victory_points = {
+			4800 1 #Oyrot-Tura/Gorno-Altaysk
 		}
-		add_core_of = ALT
+                }
+		1700.1.1 = {
 		add_core_of = RUS
+                owner = RUS
+                }
+		1936.1.1 = {
+		add_core_of = ALT
+                }
+		buildings = {
+			infrastructure = 0
+		}
 		1920.1.1 = {
 		owner = SOV
 		controller = SOV
@@ -24,9 +34,6 @@ state={
 		controller = RUS
 		add_core_of = RUS
             remove_core_of = SOV
-		}
-		victory_points = {
-			4800 1 #Oyrot-Tura/Gorno-Altaysk
 		}
 	}
 

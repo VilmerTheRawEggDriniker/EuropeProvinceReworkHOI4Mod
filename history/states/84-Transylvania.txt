@@ -10,7 +10,7 @@ state={
 		owner = TRA
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
+			industrial_complex = 2
 
 		}
 		victory_points = {
@@ -51,7 +51,7 @@ state={
 	provinces={
 		676 690 3665 3676 3694 6679 6709 9619 11622 11639 13667 13668 14228 14229 14235 14237 14238 14239 14240 14241 14250 
 	}
-	manpower=1000000
+	manpower=1600000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

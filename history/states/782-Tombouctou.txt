@@ -4,8 +4,15 @@ state={
 	name="STATE_782"
 
 	history={
-		owner = FRA
+		owner = ZZZ
+		1900.1.1 = {
+                owner = FRA
 		add_core_of = MLI
+                }
+		1970.1.1 = {
+                owner = MLI
+		add_core_of = MLI
+                }
 		buildings = {
 			infrastructure = 0
 

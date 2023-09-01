@@ -64,6 +64,18 @@
  HUN_join_axis_desc:0 "As our economy is already so reliant on the Germans, it is only logical that we shall follow them in war. We will send them a request for formal entry into the Axis alliance."
 
 
+ HUN_habsburg_hungary:0 "The Habsburg Kingdom of Hungary"
+ HUN_habsburg_hungary_desc:0 "The Kingdom of Hungary is content with just the lands of Stephen.""
+
+ HUN_habsburg_austria:0 "Claim the Austrian Throne"
+ HUN_habsburg_austria_desc:0 "Austria is the rightfull land of the House of Habsburg."
+
+ HUN_proclaim_the_restoration_of_austrian_empire:0 "Restoration of the Austrian Empire"
+ HUN_proclaim_the_restoration_of_austrian_empire_desc:0 "Austria is the rightfull land of the House of Habsburg."
+
+ HUN_revolution_eighteenfortyeight:0 "Remember the Hungarian Revolution of 1848"
+ HUN_revolution_eighteenfortyeight_desc:0 "The Hungarian Revolution of 1848 left a positive impact on the Hungarian nation."
+
 
 
 
@@ -73,6 +85,9 @@
  HUN_italian_territorial_claims:0 "Reaffirm Italian Claims"
  HUN_austrian_territorial_claims:0 "Reaffirm Austrian Claims"
 
+ HUN_balance_of_power:0 "Bring back the balance of power"
+ HUN_balance_of_power_desc:0 "The Balance of Power that lasted for 100 years in Europe between the Napoleonic Wars and the Great war needs to be brought back"
+
 
  HUN_reaffirm_territorial_claims_desc:0 "With the rejection of the Treaty of Trianon, we must now proceed to reaffirm our claims to the territories that were stolen from us."
  HUN_romanian_territorial_claims_desc:0 "With the rejection of the Treaty of Trianon, we must now proceed to reaffirm our claims to the territories that were stolen from us."
@@ -80,13 +95,30 @@
  HUN_italian_territorial_claims_desc:0 "With the rejection of the Treaty of Trianon, we must now proceed to reaffirm our claims to the territories that were stolen from us."
  HUN_austrian_territorial_claims_desc:0 "With the rejection of the Treaty of Trianon, we must now proceed to reaffirm our claims to the territories that were stolen from us."
 
+HUN_balance:0 "Bring back the balance of power"
+HUN_balance_desc:0 "We need to bring back something similar to the balance of power which lasted for 100 years no country will be allowed to take more than their fair share."
 
+HUN_austrian_rapprochement:0 "Approach Austria"
+HUN_austrian_rapprochement_desc:0 "We ought to improve our relations with Austria."
+HUN_italian_rapprochement:0 "Approach Italy"
+HUN_italian_rapprochement_desc:0 "We ought to improve our relations with Italy."
+HUN_yugoslav_rapprochement:0 "Approach Yugoslavia"
+HUN_yugoslav_rapprochement_desc:0 "We ought to improve our relations with Yugoslavia."
+HUN_romanian_rapprochement:0 "Approach Romania"
+HUN_romanian_rapprochement_desc:0 "We ought to improve our relations with Romania."
+HUN_czechoslovakia_rapprochement:0 "Approach Czechoslovakia"
+HUN_czechoslovakia_rapprochement_desc:0 "We ought to improve our relations with Czechoslovakia."
 
-
-
-
-
-
+HUN_austrian_negative_rapprochement:0 "Distance ourselves from Austria"
+HUN_austrian_negative_rapprochement_desc:0 "We will never be allies with Austria if they control the Burgenland."
+HUN_italian_negative_rapprochement:0 "Distance ourselves from  Italy"
+HUN_italian_negative_rapprochement_desc:0 "We will never be allies with Italy if they control Fiume."
+HUN_yugoslav_negative_rapprochement:0 "Distance ourselves from  Yugoslavia"
+HUN_yugoslav_negative_rapprochement_desc:0 "We will never be allies with Yugoslavia if they control Vojvodina."
+HUN_romanian_negative_rapprochement:0 "Distance ourselves from  Romania"
+HUN_romanian_negative_rapprochement_desc:0 "We will never be allies with Romania if they control the Székely Land."
+HUN_czechoslovakia_negative_rapprochement:0 "Distance ourselves from  Czechoslovakia"
+HUN_czechoslovakia_negative_rapprochement_desc:0 "We will never be allies with Czechoslovakia if they control Southern Slovakia."
 
 
 
@@ -95,7 +127,7 @@
  HUN_demand_transylvania_desc:0 "If we can regain our territories without bloodshed, so much the better. Romania will be given an ultimatum demanding the transfer of our rightful lands."
  HUN_demand_southern_slovakia:0 "Demand Southern Slovakia"
  HUN_demand_southern_slovakia_desc:0 "If we can regain our territories without bloodshed, so much the better. Czechoslovakia will be given an ultimatum demanding the transfer of our rightful lands."
- HUN_demand_the_vojvodina:0 "Demand the Vojvodina"
+ HUN_demand_the_vojvodina:0 "Demand Backa-Baranya"
  HUN_demand_the_vojvodina_desc:0 "If we can regain our territories without bloodshed, so much the better. Yugoslavia will be given an ultimatum demanding the transfer of our rightful lands."
  HUN_claim_overlordship_over_slovakia:0 "Claim Overlordship Over Slovakia"
  HUN_claim_overlordship_over_slovakia_desc:0 "The remainder of Slovakia must also be re-integrated into the Hungarian state, either directly or by becoming a dependency. We will send another ultimatum."

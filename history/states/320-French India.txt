@@ -7,7 +7,13 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = FRA
+		owner = RAJ
+		1700.1.1 = {
+                owner = FRA
+                }
+		1960.1.1 = {
+		owner = RAJ
+                }
 		add_core_of = RAJ
 		victory_points = {
 			10149 1 

@@ -10,8 +10,6 @@ state={
 		owner = RUS
 		buildings = {
 			infrastructure = 3
-			air_base = 8
-
 		}
 		add_core_of = UKR
 		add_core_of = RUS
@@ -21,6 +19,13 @@ state={
 			add_core_of = SOV
 			remove_core_of = RUS
 
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			air_base = 8
+
+		}
 		}
 		1993.1.1 = {
 			owner = UKR

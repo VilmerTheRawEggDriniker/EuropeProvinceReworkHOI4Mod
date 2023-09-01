@@ -159,7 +159,7 @@ factor = 1.0
        }
 }
 	option = { # Seperate both Aden and Burma from India
-		name = "White Peace with Peru"
+		name = "White Peace with Ecuador"
 		ai_chance = { factor = 100 }
 		white_peace = ECU
 		news_event = colonialism.6
@@ -450,32 +450,32 @@ factor = 1.0
 								ROM = { 
 				add_timed_idea = {
 				idea = rom_stalingrad
-				days = 365
+				days = 163
 			}
 				}
 								ITA = { 
 				add_timed_idea = {
 				idea = ita_stalingrad
-				days = 365
+				days = 163
 			}
 				}
 								CRO = { 
 				add_timed_idea = {
 				idea = cro_stalingrad
-				days = 365
+				days = 163
 			}
 				}
 								HUN = { 
 				add_timed_idea = {
 				idea = hun_stalingrad
-				days = 365
+				days = 163
 			}
 				}
 	    
 		SOV = { 
 				add_timed_idea = {
 				idea = sov_stalingrad
-				days = 365
+				days = 163
 			}
 		    }
 		}

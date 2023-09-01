@@ -3212,6 +3212,10 @@ country_event = {
 		name = DOD_hungary.91.a
 	  	transfer_state = 45
 	  	45 = { add_core_of = HUN }
+		transfer_state = 951
+	  	951 = { add_core_of = HUN }
+		transfer_state = 860
+	  	860 = { add_core_of = HUN }
 	}
 }
 
@@ -3599,8 +3603,8 @@ country_event = {
 				102 = { is_claimed_by = GER }
 			}
 			GER = {
-				transfer_state = 102
-				transfer_state = 853
+				transfer_state = 940
+				transfer_state = 859
 			}
 		}
 		if = {	
@@ -3609,6 +3613,8 @@ country_event = {
 			}
 			ITA = {
 				transfer_state = 103
+								transfer_state = 1115
+												transfer_state = 950
 			}
 		}
 		HUN = { transfer_state = 45 }
@@ -4332,7 +4338,7 @@ country_event = {
 		create_wargoal = {
 				type = take_state_focus
 				target = ROM
-				generator = { 83 84 76 }
+				generator = { 887 946 76 }
 			}
 		}
 		create_wargoal = {

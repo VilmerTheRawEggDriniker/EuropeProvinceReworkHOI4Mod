@@ -7,11 +7,21 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = ZZZ
+		1900.1.1 = {
+                owner = FRA
 		add_core_of = RCG
+                }
+		1970.1.1 = {
+                owner = RCG
+		add_core_of = RCG
+                }
+		1900.1.1 = {
 		victory_points = {
 			8193 2 
 		}
+                }
+		1900.1.1 = {
 		buildings = {
 			infrastructure = 2
 			12975 = {
@@ -19,6 +29,10 @@ state={
 
 			}
 
+		}
+                }
+		buildings = {
+			infrastructure = 0
 		}
 
 	}

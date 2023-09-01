@@ -14,7 +14,6 @@ state=
 		}
 		buildings = {
 			infrastructure = 1 #was: 5
-			air_base = 1
 			10007 = {
 				naval_base = 4
 			}
@@ -27,10 +26,20 @@ state=
 			owner = ITA
 			controller = ITA
 		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 1 #was: 5
+			air_base = 1
+			10007 = {
+				naval_base = 4
+			}
+			7003 = {
+				naval_base = 1
+			}
+		}
+		}
 	}
-	provinces=
-	{
-7003 10007 	}
+	provinces={7003 10007}
 
 	local_supplies=0.0 
 }

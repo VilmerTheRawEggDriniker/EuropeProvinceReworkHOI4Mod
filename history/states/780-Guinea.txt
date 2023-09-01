@@ -6,16 +6,32 @@ state={
 	
 	state_category = pastoral
 	history={
-		owner = FRA
+		owner = ZZZ
+		1900.1.1 = {
+                owner = FRA
 		add_core_of = GNA
+                }
+		1970.1.1 = {
+                owner = GNA
+		add_core_of = GNA
+                }
+		1900.1.1 = {
 		victory_points = {
 			1909 1 
 		}
+                }
+		1900.1.1 = {
 		buildings = {
 			infrastructure = 2
 			1909 = {
 				naval_base = 1
+
 			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 0
 		}
 	}
 

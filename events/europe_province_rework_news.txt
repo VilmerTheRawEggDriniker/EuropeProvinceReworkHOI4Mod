@@ -7,7 +7,7 @@ add_namespace = colonialism
 		news_event = {
 	id = colonialism.10
 	title = "Government of India Act 1935"
-	desc = colonialism_10.d:0
+	desc = colonialism_10.d
 	picture = GFX_idi_amin_uganda
 	
 	major = yes

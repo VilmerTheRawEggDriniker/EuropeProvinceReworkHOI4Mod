@@ -6,12 +6,17 @@ state = {
 	state_category = wasteland
       impassable = yes
 	history={
-		owner = RUS
+		owner = ZZZ
+		1700.1.1 = {
+                owner = RUS
+                add_core_of = RUS
+                }
+		1936.1.1 = {
+                add_core_of = FER
+                }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		}
-		add_core_of = FER
-		add_core_of = RUS
 		1920.1.1 = {
 		owner = SOV
 		controller = SOV

@@ -1,3 +1,841 @@
+industrialize_turkey_category = {
+	
+	industrialize_turkey_istanbul = {
+
+ 		icon = generic_form_nation
+                cost = 10
+
+		allowed = {
+		}
+
+		available = {
+				controls_state = 797
+		}
+
+		visible = {
+							controls_state = 797
+																									date > 1936.1.1
+		}
+
+		complete_effect = {
+			random_state = {
+				limit = { is_core_of = TUR state_population > 100000 }
+				add_manpower = -10000
+			}
+                797 = { add_manpower = 10000 }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_adana = {
+
+ 		icon = generic_form_nation
+                cost = 10
+
+		allowed = {
+		}
+
+		available = {
+				controls_state = 344
+		}
+
+		visible = {
+							controls_state = 344
+																									date > 1936.1.1
+		}
+
+		complete_effect = {
+			random_state = {
+				limit = { is_core_of = TUR state_population > 100000 }
+				add_manpower = -10000
+			}
+                344 = { add_manpower = 10000 }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_ankara = {
+
+ 		icon = generic_form_nation
+                cost = 10
+
+		allowed = {
+		}
+
+		available = {
+				controls_state = 49
+		}
+
+		visible = {
+							controls_state = 49
+																		date > 1936.1.1
+		}
+
+		complete_effect = {
+			random_state = {
+				limit = { is_core_of = TUR state_population > 100000 }
+				add_manpower = -10000
+			}
+                49 = { add_manpower = 10000 }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_izmir = {
+
+ 		icon = generic_form_nation
+                cost = 10
+
+		allowed = {
+		}
+
+		available = {
+				controls_state = 339
+		}
+
+		visible = {
+							controls_state = 339
+											date > 1936.1.1
+		}
+
+		complete_effect = {
+			random_state = {
+				limit = { is_core_of = TUR state_population > 100000 }
+				add_manpower = -10000
+			}
+                339 = { add_manpower = 10000 }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_bursa = {
+
+ 		icon = generic_form_nation
+                cost = 10
+
+		allowed = {
+		}
+
+		available = {
+				controls_state = 343
+		}
+
+		visible = {
+							controls_state = 343
+											date > 1936.1.1
+		}
+
+		complete_effect = {
+			random_state = {
+				limit = { is_core_of = TUR state_population > 100000 }
+				add_manpower = -10000
+			}
+                343 = { add_manpower = 10000 }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_istanbul_one = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 797
+				797={state_population > 1000000 }
+		}
+
+		visible = {
+							controls_state = 797
+																		797={state_population < 1900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_istanbul_one_flag }
+		}
+
+		complete_effect = {
+                797 = { set_state_category = town }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_adana_one = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 344
+				344={state_population > 1000000 }
+		}
+
+		visible = {
+							controls_state = 344
+																		344={state_population < 1900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_adana_one_flag }
+		}
+
+		complete_effect = {
+                344 = { set_state_category = town }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_ankara_one = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 49
+				49={state_population > 1000000 }
+		}
+
+		visible = {
+							controls_state = 49
+																		49={state_population < 1900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_ankara_one_flag }
+		}
+
+		complete_effect = {
+                49 = { set_state_category = town }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_izmir_one = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 339
+				339={state_population > 1000000 }
+		}
+
+		visible = {
+							controls_state = 339
+																		339={state_population < 1900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_izmir_one_flag }
+		}
+
+		complete_effect = {
+                339 = { set_state_category = town }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_bursa_one = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 343
+				343={state_population > 1000000 }
+		}
+
+		visible = {
+							controls_state = 343
+											343={state_population < 1900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_bursa_one_flag }
+		}
+
+		complete_effect = {
+                343 = { set_state_category = town }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_istanbul_two = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 797
+		}
+
+		visible = {
+							controls_state = 797
+											797={state_population > 2000000 }
+				797={state_population < 2900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_istanbul_two_flag }
+		}
+
+		complete_effect = {
+                797 = { set_state_category = city }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_adana_two = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 344
+		}
+
+		visible = {
+							controls_state = 344
+											344={state_population > 2000000 }
+				344={state_population < 2900000 }
+												
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_adana_two_flag }
+		}
+
+		complete_effect = {
+                344 = { set_state_category = city }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_ankara_two = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 49
+		}
+
+		visible = {
+							controls_state = 49
+																		49={state_population > 2000000 }
+				49={state_population < 2900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_ankara_two_flag }
+		}
+
+		complete_effect = {
+                49 = { set_state_category = city }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_izmir_two = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 339
+		}
+
+		visible = {
+							controls_state = 339
+																		339={state_population > 2000000 }
+				339={state_population < 2900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_izmir_two_flag }
+		}
+
+		complete_effect = {
+                339 = { set_state_category = city }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_bursa_two = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 343
+		}
+
+		visible = {
+							controls_state = 343
+																		343={state_population > 2000000 }
+				343={state_population < 2900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_bursa_two_flag }
+		}
+
+		complete_effect = {
+                343 = { set_state_category = city }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_istanbul_three = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 797
+		}
+
+		visible = {
+							controls_state = 797
+											797={state_population > 3000000 }
+				797={state_population < 3900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_istanbul_three_flag }
+		}
+
+		complete_effect = {
+                797 = { set_state_category = metropolis }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_adana_three = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 344
+		}
+
+		visible = {
+							controls_state = 344
+											344={state_population > 3000000 }
+				344={state_population < 3900000 }
+												
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_adana_three_flag }
+		}
+
+		complete_effect = {
+                344 = { set_state_category = metropolis }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_ankara_three = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 49
+		}
+
+		visible = {
+							controls_state = 49
+																		49={state_population > 3000000 }
+				49={state_population < 3900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_ankara_three_flag }
+		}
+
+		complete_effect = {
+                49 = { set_state_category = metropolis }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_izmir_three = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 339
+		}
+
+		visible = {
+							controls_state = 339
+																		339={state_population > 3000000 }
+				339={state_population < 3900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_izmir_three_flag }
+		}
+
+		complete_effect = {
+                339 = { set_state_category = metropolis }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_bursa_three = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 343
+		}
+
+		visible = {
+							controls_state = 343
+																		343={state_population > 3000000 }
+				343={state_population < 3900000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_bursa_three_flag }
+		}
+
+		complete_effect = {
+                343 = { set_state_category = metropolis }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_istanbul_four = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 797
+		}
+
+		visible = {
+							controls_state = 797
+											797={state_population > 4000000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_istanbul_four_flag }
+		}
+
+		complete_effect = {
+                797 = { set_state_category = megalopolis }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_adana_four = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 344
+		}
+
+		visible = {
+							controls_state = 344
+											344={state_population > 4000000 }
+												
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_adana_four_flag }
+		}
+
+		complete_effect = {
+                344 = { set_state_category = megalopolis }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_ankara_four = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 49
+		}
+
+		visible = {
+							controls_state = 49
+																		49={state_population > 4000000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_ankara_four_flag }
+		}
+
+		complete_effect = {
+                49 = { set_state_category = megalopolis }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_izmir_four = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 339
+		}
+
+		visible = {
+							controls_state = 339
+																		339={state_population > 4000000 }
+																								date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_izmir_four_flag }
+		}
+
+		complete_effect = {
+                339 = { set_state_category = megalopolis }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+industrialize_turkey_category = {
+	
+	industrialize_turkey_bursa_four = {
+
+ 		icon = generic_form_nation
+		allowed = {
+		}
+
+		available = {
+				controls_state = 343
+		}
+
+		visible = {
+							controls_state = 343
+																		343={state_population > 4000000 }
+																									date > 1936.1.1
+							NOT = { has_global_flag = industrialize_turkey_bursa_four_flag }
+		}
+
+		complete_effect = {
+                343 = { set_state_category = megalopolis }
+		}
+
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 1
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 form_circassia_category = {
 	
 	form_circassia = {
@@ -650,6 +1488,10 @@ form_austria_hungary_category = {
 				43 = { add_core_of = ROOT }
 				154 = { add_core_of = ROOT }
 				928 = { add_core_of = ROOT }
+				1168 = { add_core_of = ROOT }
+				1167 = { add_core_of = ROOT }
+				1169 = { add_core_of = ROOT }
+				1170 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.56 hours = 6 }
@@ -1093,7 +1935,6 @@ form_ottoman_empire_category = {
 
 			controls_state = 679
 			controls_state = 855
-			controls_state = 856
 			controls_state = 293
 			controls_state = 454
 			controls_state = 455
@@ -1150,7 +1991,6 @@ form_ottoman_empire_category = {
 			set_cosmetic_tag = OTT_UNIFIED
 			679 = { add_core_of = ROOT }
 			855 = { add_core_of = ROOT }
-			856 = { add_core_of = ROOT }
 			293 = { add_core_of = ROOT }
 			665 = { add_core_of = ROOT }
 			458 = { add_core_of = ROOT }
@@ -1706,7 +2546,6 @@ form_ottoman_empire_category = {
 			858 = { add_core_of = ROOT }
 			854 = { add_core_of = ROOT }
 			855 = { add_core_of = ROOT }
-			856 = { add_core_of = ROOT }
 			859 = { add_core_of = ROOT }
 			678 = { add_core_of = ROOT }
 			294 = { add_core_of = ROOT }
@@ -1757,7 +2596,6 @@ form_ottoman_empire_category = {
 			controls_state = 293
 			controls_state = 659
 			controls_state = 855
-			controls_state = 856
 		}
 
 		visible = {
@@ -1771,7 +2609,6 @@ form_ottoman_empire_category = {
 			293 = { add_core_of = ROOT }
 			659 = { add_core_of = ROOT }
 			855 = { add_core_of = ROOT }
-			856 = { add_core_of = ROOT } 
 			hidden_effect = {
 				set_global_flag = ottoman_yemen_flag
 			}
@@ -5038,6 +5875,11 @@ JOR = {
         add_core_of = ROOT
     }
 }
+MRT = {
+    every_core_state = {
+        add_core_of = ROOT
+    }
+}
 SAU = {
     every_core_state = {
         add_claim_by = ROOT
@@ -5133,11 +5975,102 @@ JOR = {
         add_claim_by = ROOT
     }
 }
+MRT = {
+    every_core_state = {
+        add_claim_by = ROOT
+    }
+}
 
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.67 hours = 6 }
 				set_global_flag = form_arabia_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
+form_arabia_category = {
+	form_arabia_syria = {
+		icon = generic_form_nation
+		allowed = {
+			OR = {
+				original_tag = WES
+				original_tag = MOR
+				original_tag = RIF
+				original_tag = TUN
+				original_tag = ALG
+				original_tag = LBA
+				original_tag = SUD
+				original_tag = EGY
+				original_tag = PAL
+				original_tag = SYR
+				original_tag = JOR
+				original_tag = LEB
+				original_tag = IRQ
+				original_tag = SAU
+				original_tag = YEM
+				original_tag = OMA
+				original_tag = QAT
+				original_tag = UAE
+				original_tag = KUW
+				original_tag = MRT
+			}
+		}
+		available = {
+					    FRA = { has_war_with = GER }
+					owns_state = 291
+					owns_state = 292
+					owns_state = 293
+					owns_state = 294
+		}
+
+		visible = {
+			OR = {
+				original_tag = WES
+				original_tag = MOR
+				original_tag = RIF
+				original_tag = TUN
+				original_tag = ALG
+				original_tag = LBA
+				original_tag = SUD
+				original_tag = EGY
+				original_tag = PAL
+				original_tag = SYR
+				original_tag = JOR
+				original_tag = LEB
+				original_tag = IRQ
+				original_tag = SAU
+				original_tag = YEM
+				original_tag = OMA
+				original_tag = QAT
+				original_tag = UAE
+				original_tag = KUW
+				original_tag = MRT
+			}
+		NOT = { has_global_flag = form_arabia_syria_flag }
+		}
+
+		complete_effect = {
+			hidden_effect = {
+			set_global_flag = form_arabia_syria_flag
+			root = { 
+			transfer_state = 554
+			transfer_state = 677
+			transfer_state = 680
+			transfer_state = 799
+			transfer_state = 1133
+			transfer_state = 1140
+			transfer_state = 1132
+			transfer_state = 553
+		        }
 			}
 		}
 
@@ -5763,7 +6696,6 @@ form_andalusia_category = {
 				controls_state = 858
 				controls_state = 854
 				controls_state = 855
-				controls_state = 856
 				controls_state = 859
 			}
 			# France
@@ -5817,7 +6749,6 @@ form_andalusia_category = {
 				858 = { add_core_of = ROOT }
 				854 = { add_core_of = ROOT }
 				855 = { add_core_of = ROOT }
-				856 = { add_core_of = ROOT }
 				859 = { add_core_of = ROOT }
 				# French Arabia
 				677 = { add_core_of = ROOT }

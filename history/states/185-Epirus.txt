@@ -16,7 +16,6 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-			air_base = 3
 			9805 = {
 				naval_base = 1
 
@@ -28,6 +27,18 @@ state={
 			owner = GRE
 			controller = GRE
             add_core_of = GRE
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+			9805 = {
+				naval_base = 1
+
+			}
+
+		}
 		}
 
 	}
