@@ -10,13 +10,26 @@ state={
 	}
 
 	history={
+		owner = ATH
+		add_core_of = ATH
+				1600.1.1 = {
+		owner = OTO
+		}
+		1800.1.1 = {
+		add_core_of = GRE
+		remove_core_of = ATH
+		}
+		1836.1.1 = {
 		owner = GRE
-            add_dynamic_modifier = {
+		}
+		add_dynamic_modifier = {
 			modifier = large_jewish_community_modifier
+
 		}
 		victory_points = {
 			4109 20 
 		}
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 5
@@ -28,12 +41,21 @@ state={
 			}
 
 		}
-		add_core_of = GRE
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			4109 = {
+				naval_base = 9
+
+			}
+
+		}
 
 	}
 
 	provinces={
-		4109 13682 
+		4109 
 	}
 	manpower=1500000
 	buildings_max_level_factor=1.000

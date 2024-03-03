@@ -8,11 +8,15 @@ capital = 107
 	}
 
 set_research_slots = 3
-
+1936.1.1 = {
 add_ideas = {
 	anti_german_military
 }
-
+}
+set_technology = {
+	infantry_weapons = 1
+}
+1936.1.1 = {
 set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
@@ -73,7 +77,7 @@ if = {
 		mtg_transport = 1
 	}
 }
-
+}
 recruit_character = SER_acd2
 recruit_character = SER_communist_guy
 recruit_character = SER_acr

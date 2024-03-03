@@ -12,8 +12,11 @@ state={
 			infrastructure = 0
 
 		}
-		add_core_of = TMS
 		add_core_of = KHI
+		1936.1.1 = {
+                add_core_of = TMS
+                remove_core_of = KHI
+                }
 
 		1600.1.1 = {
 			owner = KHI

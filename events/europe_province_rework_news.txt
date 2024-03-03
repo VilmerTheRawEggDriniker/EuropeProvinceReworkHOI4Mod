@@ -152,3 +152,21 @@ news_event = {
 		name = "Ok"
 			}
 		}
+		news_event = {
+	id = colonialism.22
+	title = "German Victory over the USSR"
+	desc = colonialism_22.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = no
+	is_triggered_only = yes
+	
+	option = {
+		name = "Ok"
+			}
+	option = {
+		name = "Ok but what are the semi-implied implications for non-conforming BIPOC VolX?"
+			}
+		}

@@ -220,11 +220,6 @@ country_event = {
 				has_war_with = ROOT
 				any_state = {
 					is_on_continent = europe
-					NOT = { state = 1 }
-					NOT = { state = 735 }
-					NOT = { state = 21 }
-					NOT = { state = 851 }
-					NOT = { state = 31 }
 					is_owned_by = ROOT
 					is_controlled_by = PREV
 				}
@@ -491,91 +486,6 @@ country_event = {
 			limit = { 19 = { owner = { original_tag = FRA } } }
 			set_state_controller = 19
 		}
-		# Italian Occupation Zone (if they did well)
-		if = { #if Italy did really well, they get an extra bonus state (but only if that doesn't lead to bordergore)
-			limit = {
-				AND = {
-					735 = { #Savoy
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-					21 = { #Provence (Bouches-du-Rhone)
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-					851 = { #Provence (Var)
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-					32 = { #Alpes
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 32 }
-		}
-		if = {
-			limit = {
-				AND = {
-					851 = { #Provence (Var)
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 851 }
-		}
-		if = {
-			limit = {
-				AND = {
-					21 = { #Provence (Bouches-du-Rhone)
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 21 }
-		}
-		if = {
-			limit = {
-				AND = {
-					1 = { #Corsica
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 1 }
-		}
-		if = {
-			limit = {
-				AND = {
-					735 = { #Savoy
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 735 }
-		}
-		
-		#Spanish occupation zone
-		if = {
-			limit = {
-				31 = { #Midi-Pyrinees
-					owner = { original_tag = FRA }
-					controller = { original_tag = SPR }
-				}
-			}
-			random_other_country = {
-				limit = {
-					original_tag = SPR
-					has_war_with = FRA
-				}
-				transfer_state = 31
-			}
-		}
 		FRA = {
 			set_capital = { state = 539 }
 
@@ -667,14 +577,6 @@ country_event = {
 				}
 				if = {
 					limit = {
-						851 = {
-							owner = { original_tag = FRA }
-						}
-					}
-					set_state_controller = 851
-				}
-				if = {
-					limit = {
 						31 = {
 							owner = { original_tag = FRA }
 						}
@@ -686,7 +588,7 @@ country_event = {
 				ideology = fascism
 				size = 0.9
 				capital = 26
-				states = { 26 21 22 31 25 20 32 33 1 735 677 680 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 776 777 778 779 780 781 782 786 851 }
+				states = { 1105 1193 1103 981 1065 1076 1140 1133 854 1132 799 26 21 22 31 25 20 32 33 1 735 677 680 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 776 777 778 779 780 781 782 786 }
 				states_filter = {
 					owner = { original_tag = FRA }
 					OR = {		
@@ -834,109 +736,6 @@ country_event = {
             limit = { 806 = { owner = { original_tag = FRA } } }
             set_state_controller = 806
         }
-		# Italian Occupation Zone (if they did well)
-		if = { #if Italy did really well, they get an extra bonus state (but only if that doesn't lead to bordergore)
-			limit = {
-				AND = {
-					735 = { #Savoy
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-					851 = { #Provence (Var)
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-					21 = { #Provence (Bouches-du-Rhone)
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-					32 = { #Alpes
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 32 }
-		}
-		if = {
-			limit = {
-				AND = {
-					851 = { #Provence (Var)
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 851 }
-		}
-		if = {
-			limit = {
-				AND = {
-					21 = { #Provence (Bouches-du-Rhone)
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 21 }
-		}
-		if = {
-			limit = {
-				AND = {
-					1 = { #Corsica
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 1 }
-		}
-		if = {
-			limit = {
-				AND = {
-					735 = { #Savoy
-						owner = { original_tag = FRA }
-						is_controlled_by = ITA
-					}
-				}
-			}
-			ITA = { transfer_state = 735 }
-		}
-		
-		#Spanish occupation zone
-		if = {
-			limit = {
-				31 = { #Midi-Pyrinees
-					owner = { original_tag = FRA }
-					controller = { original_tag = SPR }
-				}
-			}
-			random_other_country = {
-				limit = {
-					original_tag = SPR
-					has_war_with = FRA
-				}
-				transfer_state = 31
-			}
-		}
-		if = {
-            limit = {
-                806 = { #French Basque Country
-                    OR = {
-                        owner = { original_tag = FRA }
-                        owner = { original_tag = GER } #should never go to Vichy
-                    }
-                    controller = { original_tag = SPR }
-                }
-            }
-            random_other_country = {
-                limit = {
-                    original_tag = SPR
-                    has_war_with = FRA
-                }
-                transfer_state = 806
-            }
-        }
 		FRA = {
 			set_capital = { state = 539 }
 			hidden_effect = {
@@ -1020,14 +819,6 @@ country_event = {
 					}
 					if = {
 						limit = {
-							851 = {
-								owner = { original_tag = FRA }
-							}
-						}
-						set_state_controller = 851
-					}
-					if = {
-						limit = {
 							21 = {
 								owner = { original_tag = FRA }
 							}
@@ -1042,12 +833,60 @@ country_event = {
 						}
 						set_state_controller = 31
 					}
+										if = {
+						limit = {
+							1193 = {
+								owner = { original_tag = FRA }
+							}
+						}
+						set_state_controller = 1193
+					}
+										if = {
+						limit = {
+							1103 = {
+								owner = { original_tag = FRA }
+							}
+						}
+						set_state_controller = 1103
+					}
+										if = {
+						limit = {
+							1105 = {
+								owner = { original_tag = FRA }
+							}
+						}
+						set_state_controller = 1105
+					}
+										if = {
+						limit = {
+							981 = {
+								owner = { original_tag = FRA }
+							}
+						}
+						set_state_controller = 981
+					}
+															if = {
+						limit = {
+							460 = {
+								owner = { original_tag = FRA }
+							}
+						}
+						set_state_controller = 460
+					}
+															if = {
+						limit = {
+							665 = {
+								owner = { original_tag = FRA }
+							}
+						}
+						set_state_controller = 665
+					}
 			}
 			start_civil_war = {
 				ideology = neutrality
 				size = 0.5
 				capital = 26
-				states = { 26 21 22 31 25 20 32 33 1 735 677 680 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 851 }
+				states = { 1105 1193 1103 981 1065 1076 1140 1133 854 1132 799 26 21 22 31 25 20 32 33 1 735 677 680 554 458 462 461 513 459 460 665 553 272 556 543 706 708 713 268 557 514 515 }
 				states_filter = {
 					owner = { original_tag = FRA }
 					OR = {		
@@ -1162,9 +1001,12 @@ country_event = {
 						OR = {
 							state = 735
 							state = 21
-							state = 851
 							state = 32
 							state = 20
+							state = 981
+							state = 1116
+							state = 1193
+							state = 1103
 							state = 26
 							state = 22
 							state = 31
@@ -1196,10 +1038,6 @@ country_event = {
 					every_owned_state = {
 						limit = {
 							OR = {
-								state = 21
-								state = 1
-								state = 735
-								state = 851
 							}
 							has_state_flag = vichy_italian_conquest
 						}
@@ -1208,11 +1046,7 @@ country_event = {
 					
 					if = {
 						limit = {
-							21 = { is_controlled_by = ITA }
-							851 = { is_controlled_by = ITA }
-							735 = { is_controlled_by = ITA } 
 						}
-						ITA = { transfer_state = 32 }
 					}
 					
 				}

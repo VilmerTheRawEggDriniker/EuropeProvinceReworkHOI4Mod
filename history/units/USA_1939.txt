@@ -525,8 +525,7 @@ units = {
 
 	}			
 
-	### U.S. Army Forces in the Far East ###
-1900.1.1 = {		
+	### U.S. Army Forces in the Far East ###	
 	division = {										# CO: Grant
 		name = "Philippine Division"			
 		location = 10265
@@ -535,8 +534,7 @@ units = {
 		start_equipment_factor = 0.5
                 }
 
-	}				
-}					
+	}									
 			
 
 

@@ -14,12 +14,14 @@ state = {
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = CHU
 		add_core_of = RUS
+		add_core_of = TAT
 		1920.1.1 = {
 		owner = SOV
 		controller = SOV
 		add_core_of = SOV
+		add_core_of = CHU
+		remove_core_of = TAT
             remove_core_of = RUS
 		}
 		1993.1.1 = {

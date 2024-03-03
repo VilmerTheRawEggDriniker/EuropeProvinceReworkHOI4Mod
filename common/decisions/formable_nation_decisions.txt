@@ -20,9 +20,9 @@ industrialize_turkey_category = {
 		complete_effect = {
 			random_state = {
 				limit = { is_core_of = TUR state_population > 100000 }
-				add_manpower = -10000
+				add_manpower = -1000
 			}
-                797 = { add_manpower = 10000 }
+                797 = { add_manpower = 1000 }
 		}
 
 		ai_will_do = {
@@ -56,9 +56,9 @@ industrialize_turkey_category = {
 		complete_effect = {
 			random_state = {
 				limit = { is_core_of = TUR state_population > 100000 }
-				add_manpower = -10000
+				add_manpower = -1000
 			}
-                344 = { add_manpower = 10000 }
+                344 = { add_manpower = 1000 }
 		}
 
 		ai_will_do = {
@@ -92,9 +92,9 @@ industrialize_turkey_category = {
 		complete_effect = {
 			random_state = {
 				limit = { is_core_of = TUR state_population > 100000 }
-				add_manpower = -10000
+				add_manpower = -1000
 			}
-                49 = { add_manpower = 10000 }
+                49 = { add_manpower = 1000 }
 		}
 
 		ai_will_do = {
@@ -128,9 +128,9 @@ industrialize_turkey_category = {
 		complete_effect = {
 			random_state = {
 				limit = { is_core_of = TUR state_population > 100000 }
-				add_manpower = -10000
+				add_manpower = -1000
 			}
-                339 = { add_manpower = 10000 }
+                339 = { add_manpower = 1000 }
 		}
 
 		ai_will_do = {
@@ -164,9 +164,9 @@ industrialize_turkey_category = {
 		complete_effect = {
 			random_state = {
 				limit = { is_core_of = TUR state_population > 100000 }
-				add_manpower = -10000
+				add_manpower = -1000
 			}
-                343 = { add_manpower = 10000 }
+                343 = { add_manpower = 1000 }
 		}
 
 		ai_will_do = {
@@ -1584,8 +1584,6 @@ form_commonwealth_category = {
 
 		allowed = {
 			OR = {
-				original_tag = POL
-				original_tag = LIT
 			}
 		}
 
@@ -1618,26 +1616,14 @@ form_commonwealth_category = {
 			}
 			OR = {
 				AND = {
-					original_tag = POL
-					core_compliance = {
-						occupied_country_tag = LIT
-						value > 80
 					}
-				}
 				AND = {
-					original_tag = LIT
-					core_compliance = {
-						occupied_country_tag = POL
-						value > 80
 					}
 				}
 			}
-		}
 
 		visible = {
 			OR = {
-				original_tag = POL
-				original_tag = LIT
 			}
 			NOT = { has_global_flag = form_commonwealth_flag }
 		}
@@ -4909,12 +4895,11 @@ form_persian_empire_category = {
 				352 = { add_core_of = ROOT }
 				353 = { add_core_of = ROOT }
 				800 = { add_core_of = ROOT }
-				1007 = { add_core_of = ROOT }
-				1008 = { add_core_of = ROOT }
+				1006 = { add_core_of = ROOT }
+				1005 = { add_core_of = ROOT }
 				229 = { add_core_of = ROOT }
 				1003 = { add_core_of = ROOT }
 				1004 = { add_core_of = ROOT }
-				1009 = { add_core_of = ROOT }
 				1002 = { add_core_of = ROOT }
 				828 = { add_core_of = ROOT }
 				742 = { add_core_of = ROOT }

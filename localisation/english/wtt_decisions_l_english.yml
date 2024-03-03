@@ -107,7 +107,7 @@
  form_roman_empire:1 "Mare Nostrum!"
  form_persian_empire:0 "Recreate the Persian Empire"
 
-form_byzantine_empire_antalya_tt:0 "Antalya Local Population + 4000000"
+form_byzantine_empire_antalya_tt:0 "Bursa Local Population + 4000000"
 form_byzantine_empire_istanbul_tt:0 "Istanbul Local Population - 800000"
 form_byzantine_empire_izmit_tt:0 "Izmit Local Population - 800000"
 form_byzantine_empire_izmir_tt:0 "Izmir Local Population - 500000"

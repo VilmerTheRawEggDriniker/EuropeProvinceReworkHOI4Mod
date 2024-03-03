@@ -8,10 +8,21 @@ state={
 		victory_points = {
 			10024 3 
 		}
-		buildings = {
+				1936.1.1 = {
+							buildings = {
 			infrastructure = 3
 			dockyard = 1
 			air_base = 2
+			10024 = {
+				naval_base = 8
+
+			}
+
+		}
+				}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
 			10024 = {
 				naval_base = 8
 
@@ -25,7 +36,7 @@ state={
 	provinces={
 		1093 7111 10024 10109 14077 
 	}
-	manpower=577987
+	manpower=645449
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

@@ -4,8 +4,27 @@ state={
 	name="STATE_1088"
 
 	history={
+		owner = TYR
+        add_core_of = TYR
+		1500.1.1 = {
 		owner = AUS
-                add_core_of = AUS
+		add_core_of = AUS
+		remove_core_of = STY
+		remove_core_of = TYR
+		remove_core_of = CEL
+		remove_core_of = TRT
+		}
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
 		1808.1.1 = {
                 add_core_of = BAD
                 owner = BAD
@@ -52,7 +71,7 @@ state={
 	provinces={
 		3679 3692 6712 11640 13126 13848 13849 13850 14621 14632 
 	}
-	manpower=1000000
+	manpower=1100000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

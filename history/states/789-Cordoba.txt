@@ -8,6 +8,10 @@ state={
 		victory_points = {
 			10113 1 
 		}
+		add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+
+		}
 		buildings = {
 			infrastructure = 2
 		}
@@ -16,12 +20,6 @@ state={
 			owner = SPR
 			controller = SPR
                 }
-		1920.1.1 = {
-            add_core_of = RIF
-            }
-		1950.1.1 = {
-            remove_core_of = RIF
-		}
 		1970.1.1 = {
 			owner = MOR
 			controller = MOR
@@ -33,7 +31,7 @@ state={
 	provinces={
 		10113 
 	}
-	manpower=40000
+	manpower=50000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -8,34 +8,39 @@ state={
 			6593 10 
 		}
 		owner = LIT
-                add_core_of = LIT
+		add_core_of = LIT
 		1600.1.1 = {
 			owner = POL
-                add_core_of = POL
+			add_core_of = POL
+
 		}
 		1800.1.1 = {
 			owner = RUS
-                add_core_of = RUS
-                remove_core_of = POL
-                remove_core_of = LIT
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = LIT
+
 		}
 		1900.1.1 = {
-                add_core_of = UKR
-                }
+			add_core_of = UKR
+
+		}
 		add_dynamic_modifier = {
 			modifier = large_jewish_community_modifier
 
 		}
 		buildings = {
 			infrastructure = 3
-		}
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 3
-			air_base = 3
 
 		}
-                }
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 3
+
+			}
+
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -54,7 +59,7 @@ state={
 	}
 
 	provinces={
-		441 504 550 3470 3570 6593 9466 9493 9533 11464 11477 11490 11514 
+		441 504 550 1748 2972 3336 3470 3570 4733 6593 7781 7844 9466 9493 9533 10608 10635 10667 11328 11464 11477 11490 11514 12643 12694 
 	}
 	manpower=1200000
 	buildings_max_level_factor=1.000

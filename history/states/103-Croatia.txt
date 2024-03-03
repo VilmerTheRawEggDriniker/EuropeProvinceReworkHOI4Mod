@@ -4,22 +4,28 @@ state={
 	name="STATE_103"
 
 	history={
-		owner = AUS
-                add_core_of = AUS
-		1600.1.1 = {
-		owner = OTO
-                }
-		1700.1.1 = {
+                owner = VNT
+                add_core_of = VNT
+        1804.1.1 = {
                 owner = AUS
-                }
+                add_core_of = AUS
+                remove_core_of = VNT
+				remove_core_of = RAG
+        }
+		1812.1.1 = {
+        owner = FRA
+        }
+		1816.1.1 = {
+        owner = AUS
+        add_core_of = AUS
+        }
 		1900.1.1 = {
                 owner = AUH
 		add_core_of = CRO
-                add_core_of = AUH
                 remove_core_of = AUS
                 }
 		victory_points = {
-			3924 3 
+			3924 10 
 		}
 		buildings = {
 			infrastructure = 3

@@ -15,7 +15,6 @@ state={
             remove_core_of = QIN
 		}
 		1933.1.1 = {
-            add_core_of = PRC
 		}
 		1950.1.1 = {
             remove_core_of = GXC
@@ -24,6 +23,7 @@ state={
 			owner = PRC
 			controller = PRC
             remove_core_of = GXC
+            add_core_of = PRC
 		}
 		victory_points = {
 			4189 1 

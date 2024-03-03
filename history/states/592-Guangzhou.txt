@@ -23,7 +23,6 @@ state={
 
 		}
 		1933.1.1 = {
-			add_core_of = PRC
 
 		}
 		1946.1.1 = {
@@ -35,13 +34,28 @@ state={
 			owner = PRC
 			controller = PRC
 			remove_core_of = GXC
+			add_core_of = PRC
 
+		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 5
+			1047 = {
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
 		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
 			industrial_complex = 1
-			air_base = 5
 			1047 = {
 				naval_base = 5
 				coastal_bunker = 1

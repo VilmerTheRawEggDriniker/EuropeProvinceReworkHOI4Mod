@@ -4,7 +4,14 @@ state={
 	name="STATE_224"
 
 	history={
-		owner = RUS
+		owner = LIT
+		add_core_of = LIT
+		1600.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = LIT
+		remove_core_of = POL
+		}
 		victory_points = {
 			3335 10 
 		}
@@ -12,7 +19,6 @@ state={
 			infrastructure = 3
 
 		}
-		add_core_of = RUS
 		1936.1.1 = {
 			buildings = {
 				infrastructure = 3

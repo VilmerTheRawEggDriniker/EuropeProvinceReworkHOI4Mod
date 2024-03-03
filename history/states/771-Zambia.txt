@@ -18,6 +18,10 @@ state={
 			5199 1 
 		}
                 }
+						1961.1.1 = {
+        owner = ZAM
+		add_core_of = ZAM
+        }
 		buildings = {
 			infrastructure = 0
 

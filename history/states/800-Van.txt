@@ -17,6 +17,9 @@ state={
 		victory_points = {
 			12376 1 
 		}
+		victory_points = {
+			11853 3 
+		}
 		buildings = {
 			infrastructure = 1
 
@@ -38,12 +41,13 @@ state={
 
 			}
 			add_core_of = KUR
+
 		}
 
 	}
 
 	provinces={
-		652 6935 7470 9858 10399 11739 11880 12318 12376 13121 
+		652 6935 6976 7470 9858 9954 10399 11739 11853 11880 12318 12376 13121 
 	}
 	manpower=300000
 	buildings_max_level_factor=1.000

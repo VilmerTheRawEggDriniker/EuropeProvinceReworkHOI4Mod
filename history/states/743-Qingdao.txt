@@ -36,7 +36,6 @@ state=
             owner = CHI
 		}
 		1933.1.1 = {
-            add_core_of = PRC
 		}
 		1938.10.25 = {
 			controller = JAP
@@ -44,6 +43,7 @@ state=
 		1950.1.1 = {
 			owner = PRC
 			controller = PRC
+            add_core_of = PRC
 		}
 	}
 	provinces={

@@ -9,6 +9,7 @@ state={
 		1532.1.1 = {
                 owner = FRA
                 add_core_of = FRA
+		remove_core_of = BRI
 		}
 		1936.1.1 = {
 		buildings = {

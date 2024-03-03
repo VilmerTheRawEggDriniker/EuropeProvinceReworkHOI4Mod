@@ -4,11 +4,14 @@ state={
 	name="STATE_404"
 
 	history={
-		owner = RUS
+		owner = KAZ
+		add_core_of = KAZ
+		1848.1.1 = {
+                owner = RUS
+                }
 		victory_points = {
 			7597 1 
 		}
-		add_core_of = KAZ
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -27,7 +30,6 @@ state={
 			infrastructure = 0
 
 		}
-		add_core_of = RUS
 
 	}
 

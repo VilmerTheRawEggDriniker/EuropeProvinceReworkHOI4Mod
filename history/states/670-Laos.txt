@@ -21,6 +21,10 @@ state={
 			infrastructure = 1
 		}
                 }
+						1946.1.1 = {
+        owner = LAO
+		add_core_of = LAO
+        }
 		buildings = {
 			infrastructure = 0
 		}

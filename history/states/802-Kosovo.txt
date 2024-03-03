@@ -5,7 +5,13 @@ state={
 
 	history={
 		victory_points = {
-			9874 5 
+			13823 5 
+		}
+		victory_points = {
+			13818 1
+		}
+		victory_points = {
+			9849 1
 		}
 		owner = SER
 		add_core_of = SER
@@ -17,9 +23,15 @@ state={
 			add_core_of = KOS
 
 		}
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
+
+		}
+                }
+		buildings = {
+			infrastructure = 1
 
 		}
 		1914.1.1 = {
@@ -49,7 +61,7 @@ state={
 	}
 
 	provinces={
-		6940 9849 9874 13816 13818 
+		6940 9849 9874 13816 13818 13823 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

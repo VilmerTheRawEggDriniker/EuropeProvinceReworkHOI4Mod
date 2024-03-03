@@ -29,6 +29,10 @@ state={
 			controller = FRA
 
 		}
+				1961.1.1 = {
+                owner = TOG
+		add_core_of = TOG
+                }
 		buildings = {
 			infrastructure = 0
 		}

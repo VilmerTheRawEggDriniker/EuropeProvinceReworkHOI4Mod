@@ -14,14 +14,21 @@ state={
 
 		}
 		1933.1.1 = {
-			add_core_of = PRC
 
 		}
 		1950.1.1 = {
 			owner = PRC
 			controller = PRC
+            add_core_of = PRC
 
 		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 2
+
+		}
+		1933.1.1 = {
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
@@ -29,6 +36,7 @@ state={
 			air_base = 2
 
 		}
+}
 		victory_points = {
 			4925 20 
 		}

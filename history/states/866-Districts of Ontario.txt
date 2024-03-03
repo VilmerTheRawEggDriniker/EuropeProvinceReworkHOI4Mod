@@ -4,8 +4,41 @@ state={
 	name="STATE_866"
 
 	history={
-		owner = PRE
-                add_core_of = PRE
+		owner = RUP
+                add_core_of = RUP
+						1950.1.1 = {
+		owner = DDR
+		add_core_of = DDR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+		1525.1.1 = {
+			owner = BDB
+			add_core_of = BDB
+			remove_core_of = RUP
+			remove_core_of = TEU
+
+		}
+						1700.1.1 = {
+			owner = BDB
+			add_core_of = BDB
+			remove_core_of = PRE
+			remove_core_of = TEU
+
+		}
+		1701.1.1 = {
+			owner = PRE
+			add_core_of = PRE
+			remove_core_of = TEU
+			remove_core_of = BDB
+			remove_core_of = POM
+
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER

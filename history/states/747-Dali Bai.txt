@@ -6,7 +6,7 @@ state={
 	}
 	manpower=2000000
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category = pastoral
 	history={
 		owner = QIN
 		add_core_of = CHI
@@ -18,7 +18,6 @@ state={
 		1920.1.1 = {
 			owner = YUN
 			controller = YUN
-            add_core_of = PRC
             add_core_of = YUN 
 		}
 		victory_points = {
@@ -51,6 +50,7 @@ state={
 		1950.1.1 = {
 			owner = PRC
 			controller = PRC
+            add_core_of = PRC
             remove_core_of = YUN
 		}
 

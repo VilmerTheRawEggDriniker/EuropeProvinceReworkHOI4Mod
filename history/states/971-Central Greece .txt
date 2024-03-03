@@ -1,23 +1,39 @@
+
 state={
 	id=971
 	name="STATE_971"
+
 	history={
+		owner = EPI
+		add_core_of = EPI
+				1600.1.1 = {
+		owner = OTO
+		}
+		1800.1.1 = {
+		add_core_of = GRE
+		remove_core_of = EPI
+		}
+		1836.1.1 = {
 		owner = GRE
+		}
 		victory_points = {
 			7127 3 
 		}
 		victory_points = {
 			3988 1 
 		}
+		victory_points = {
+			1205 1 
+		}
 		buildings = {
 			infrastructure = 2
+
 		}
-		add_core_of = GRE
 
 	}
 
 	provinces={
-		976 1109 3988 7127 13684 13686 13687 13688 
+		976 1109 1205 3988 7127 12001 13682 13684 13686 13687 13688 13796 
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000

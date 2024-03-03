@@ -6,13 +6,13 @@ state={
 	history={
 		owner = OTO
 		victory_points = {
-			12758 1 
+			12758 10
 		}
 		victory_points = {
 			12883 1 
 		}
 		victory_points = {
-			5037 1 
+			5037 10
 		}
 		victory_points = {
 			2033 1 

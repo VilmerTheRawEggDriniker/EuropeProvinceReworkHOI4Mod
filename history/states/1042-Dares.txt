@@ -29,6 +29,10 @@ state={
 			owner = ENG
 			controller = ENG
 		}
+						1961.1.1 = {
+        owner = TZN
+		add_core_of = TZN
+        }
 		buildings = {
 			infrastructure = 0
 		}

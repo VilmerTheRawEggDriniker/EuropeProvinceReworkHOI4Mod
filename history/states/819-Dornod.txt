@@ -14,8 +14,6 @@ state={
 			12557 1 #Choibalsan
 		}
 		add_core_of = MON
-		add_core_of = CHI
-		add_claim_by = CHI
 		1913.1.1 = {
 			owner = MON
 			controller = MON
@@ -24,6 +22,6 @@ state={
 	}
 	manpower=88250
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
 	local_supplies=0.000
 }

@@ -10,15 +10,24 @@ state={
 		add_core_of = MOL
 		owner = MOL
 		1600.1.1 = {
-                owner = OTO
-                }
+			owner = OTO
+
+		}
+		1812.1.1 = {
+			owner = MOL
+			controller = MOL
+		}
 		1813.1.1 = {
-                add_core_of = RUS
-                owner = RUS
+			add_core_of = RUS
+			owner = RUS
+
 		}
 		1862.1.1 = {
-                add_core_of = ROM
+			add_core_of = ROM
+			remove_core_of = MOL
+
 		}
+		1813.1.1 = {
 		buildings = {
 			infrastructure = 2
 			dockyard = 1
@@ -28,10 +37,18 @@ state={
 			}
 
 		}
+                }
+		buildings = {
+			infrastructure = 2
+			6727 = {
+				naval_base = 3
+
+			}
+
+		}
 		1920.1.1 = {
 			owner = ROM
 			controller = ROM
-			add_core_of = UKR
 			remove_core_of = RUS
 
 		}
@@ -40,6 +57,7 @@ state={
 			controller = SOV
 			remove_core_of = MOL
 			remove_core_of = ROM
+			add_core_of = UKR
 			add_core_of = SOV
 
 		}
@@ -54,7 +72,7 @@ state={
 	}
 
 	provinces={
-		3704 6727 6743 13577 13581 13582 
+		3704 6727 6743 13574 13577 13581 13582 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

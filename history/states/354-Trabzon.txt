@@ -4,7 +4,7 @@ state={
 	name="STATE_354"
 
 	history={
-		owner = OTO
+		owner = TRE
 		victory_points = {
 			9932 20 
 		}
@@ -16,7 +16,12 @@ state={
 			}
 
 		}
+		add_core_of = TRE
+				1500.1.1 = {
 		add_core_of = OTO
+		remove_core_of = TRE
+		owner = OTO
+		}
 		1920.1.1 = {
 			owner = TUR
 			controller = TUR

@@ -11,9 +11,7 @@ state={
                 add_core_of = SPR
                 remove_core_of = NAV
                 remove_core_of = ADU
-		}
-		1900.1.1 = {
-                add_core_of = NAV
+				remove_core_of = ARA
 		}
 		victory_points = {
 			3933 1 
@@ -28,7 +26,7 @@ state={
 	provinces={
 		932 3737 3931 3933 9857 14489 14500 14504 
 	}
-	manpower=310535	
+	manpower=352108
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=4.000

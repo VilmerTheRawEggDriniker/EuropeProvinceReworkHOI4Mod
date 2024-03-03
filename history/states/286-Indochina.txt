@@ -39,6 +39,10 @@ state={
 
 		}
                 }
+						1946.1.1 = {
+        owner = VIN
+		add_core_of = VIN
+        }
 		buildings = {
 			infrastructure = 0
 		}

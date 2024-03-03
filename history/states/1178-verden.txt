@@ -2,8 +2,36 @@ state={
 	id=1178
 	name="STATE_1178"
 	history={
-		owner = HAN
+		owner = BMN
+                add_core_of = BMN
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+				1700.1.1 = {
+				add_core_of = SWE
+				owner = SWE
+				remove_core_of = BMN
+				}
+				1750.1.1 = {
+				add_core_of = HAN
+				owner = HAN
+				remove_core_of = SWE
+				}
+						1812.1.1 = {
+                owner = FRA
+                }
+				1816.1.1 = {
                 add_core_of = HAN
+                owner = HAN
+                }
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER
@@ -29,6 +57,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
+						arms_factory = 1
 		}
 
 

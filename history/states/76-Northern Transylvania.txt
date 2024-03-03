@@ -11,26 +11,27 @@ state={
 
 		}
 		victory_points = {
-			6711 5
+			6711 5 
 		}
 		add_core_of = TRA
 		1700.1.1 = {
-			owner = AUS
-			controller = AUS
-                add_core_of = HUN
+			owner = HUN
+		add_core_of = HUN
                 remove_core_of = TRA
+		}
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
 		}
 		1900.1.1 = {
 			owner = AUH
-			controller = AUH
-                add_core_of = AUH
-		add_core_of = TRA
-                add_core_of = ROM
-                remove_core_of = HUN
-                remove_core_of = AUS
+                        remove_core_of = AUS
+                        remove_core_of = HUN
+                        add_core_of = AUH
 		}
 		1862.1.1 = {
-                add_core_of = ROM
+			add_core_of = ROM
+
 		}
 		1920.1.1 = {
 			owner = ROM
@@ -47,7 +48,7 @@ state={
 	}
 
 	provinces={
-		727 6711 6714 6731 9672 11676 14257 14265 14269 14276 14281 
+		6711 6714 6731 9672 11676 14257 14265 14269 14276 14281 
 	}
 	manpower=950000
 	buildings_max_level_factor=1.000

@@ -20,11 +20,16 @@ state={
 
 		}
 
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = ITA
-                  remove_core_of = EGY
 			controller = ITA
-            }
+			remove_core_of = EGY
+
+		}
+		1946.1.1 = {
+        owner = LBA
+		add_core_of = LBA
+        }
 
 	}
 

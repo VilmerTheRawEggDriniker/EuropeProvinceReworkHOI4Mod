@@ -3,6 +3,7 @@
 ###########################
 
 add_namespace = germany
+add_namespace = AAT_germany
 
 # Austrian Anschluss Completed
 country_event = {
@@ -658,6 +659,56 @@ country_event = {
 						owns_state = 784
 					}
 				}
+				OR = {
+					owns_state = 1120
+					any_other_country = {
+						is_in_faction_with = GER
+						GER = {
+							is_faction_leader = yes
+						}
+						owns_state = 1120
+					}
+				}
+				OR = {
+					owns_state = 1119
+					any_other_country = {
+						is_in_faction_with = GER
+						GER = {
+							is_faction_leader = yes
+						}
+						owns_state = 1119
+					}
+				}
+				OR = {
+					owns_state = 1117
+					any_other_country = {
+						is_in_faction_with = GER
+						GER = {
+							is_faction_leader = yes
+						}
+						owns_state = 1117
+					}
+				}
+				OR = {
+					owns_state = 965
+					any_other_country = {
+						is_in_faction_with = GER
+						GER = {
+							is_faction_leader = yes
+						}
+						owns_state = 965
+					}
+				}
+				OR = {
+					owns_state = 869
+					any_other_country = {
+						is_in_faction_with = GER
+						GER = {
+							is_faction_leader = yes
+						}
+						owns_state = 869
+					}
+				}
 			}
 			AND = {
 				POL = { has_capitulated = yes }
@@ -1172,11 +1223,11 @@ country_event = {
 							controls_state = 97
 							controls_state = 89
 							controls_state = 784
-						controls_state = 869
-						controls_state = 965
-						controls_state = 1117
-						controls_state = 1119
-						controls_state = 1120
+						    controls_state = 869
+						    controls_state = 965
+						    controls_state = 1117
+						    controls_state = 1119
+						    controls_state = 1120
 						}
 					}
 				}
@@ -1194,11 +1245,11 @@ country_event = {
 							controls_state = 97
 							controls_state = 89
 							controls_state = 784
-						controls_state = 869
-						controls_state = 965
-						controls_state = 1117
-						controls_state = 1119
-						controls_state = 1120
+						    controls_state = 869
+						    controls_state = 965
+						    controls_state = 1117
+						    controls_state = 1119
+						    controls_state = 1120
 						}
 					}
 					if = {
@@ -3459,7 +3510,6 @@ country_event = {
 				NOT = { is_core_of = SLO }
 				NOT = { state = 72 }
 			}
-			add_claim_by = GER
 		}
 
 		if = {
@@ -4846,7 +4896,6 @@ country_event = {
 				transfer_state = 664
 			}
 			GER = { transfer_state = 85 }
-			GER = { transfer_state = 807 }
 		}
 	}
 
@@ -4882,11 +4931,10 @@ country_event = {
 				}
 			}
 			effect_tooltip = {
-				create_wargoal = {
-					type = take_state_focus
-					target = POL
-					generator = { 85 }
-				}
+	declare_war_on = {
+		target = POL
+		type = puppet_wargoal_focus
+	}
 			}
 		}
 	}
@@ -4905,7 +4953,7 @@ country_event = {
 		name = germany.81.a
 		if = {
 			limit = { SLO = { exists = yes } }
-			POL = { annex_country = { target = SLO } }
+			POL = { set_autonomy = { target = SLO autonomy_state = autonomy_integrated_puppet} }
 		}
 		if = {
 			limit = { owns_state = 70 }
@@ -4924,7 +4972,6 @@ country_event = {
 			POL = { transfer_state = 664 }
 		}
 		transfer_state = 85
-		transfer_state = 807
 		if = {
 			limit = {
 				ENG = {
@@ -4968,11 +5015,10 @@ country_event = {
 
 	option = {
 		name = germany.82.a
-		create_wargoal = {
-			type = take_state_focus
-			target = POL
-			generator = { 85 }
-		}
+	declare_war_on = {
+		target = POL
+		type = puppet_wargoal_focus
+	}
 	}
 }
 
@@ -5164,11 +5210,6 @@ country_event = {
 			GER = {
 				transfer_state = 85
 				add_state_core = 85
-				transfer_state = 807
-				add_state_core = 807
-				remove_state_claim = 1194
-				remove_state_claim = 86
-				remove_state_claim = 762
 			}
 		}
 		country_event = { id = poland.1 days = 7 }
@@ -5240,15 +5281,15 @@ country_event = {
 		}
 
 		hidden_effect = {
+		GER = {transfer_state = 85}
 			news_event = { hours = 1 id = news.204 }
 		}
 		effect_tooltip = {
 			GER = {
-				declare_war_on = {
-					target = POL
-					type = take_state
-					generator = { 85 }
-				}
+	declare_war_on = {
+		target = POL
+		type = puppet_wargoal_focus
+	}
 			}
 		}
 	}
@@ -5266,12 +5307,6 @@ country_event = {
 	option = {
 		name = germany.87.a
 		transfer_state = 85
-		transfer_state = 807
-		add_state_core = 807
-		remove_state_claim = 1194
-		remove_state_claim = 86
-		remove_state_claim = 762
-		remove_state_claim = 871
 		if = {
 			limit = {
 				ENG = {
@@ -5352,13 +5387,11 @@ country_event = {
 				}
 			}
 		}
-		create_wargoal = {
-			type = take_state
-			generator = { 85 807 }
-			target = POL
-		}
+	declare_war_on = {
+		target = POL
+		type = puppet_wargoal_focus
+	}
 		add_state_core = 85
-		add_state_core = 807
 		if = {
 			limit = {
 				ENG = {
@@ -5587,7 +5620,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = YUG
-			generator = { 102 }
+			generator = {859 }
 		}
 		hidden_effect = {
 			news_event = { id = news.164 hours = 6 }
@@ -5607,7 +5640,9 @@ country_event = {
 
 	option = {
 		name = germany.94.a
-		GER = { transfer_state = 102 }
+		GER = { transfer_state = 940}
+		GER = { transfer_state = 859}
+
 		set_country_flag = slovenia_acquired
 		hidden_effect = {
 			news_event = { id = news.163 hours = 6 }
@@ -5628,19 +5663,19 @@ country_event = {
 		name = germany.95.a
 		if = {
 			limit = {
-				YUG = { owns_state = 102 }
+				YUG = { owns_state = 859 }
 			}
 			create_wargoal = {
 				type = take_state_focus
 				target = YUG
-				generator = { 102 }
+				generator = { 59 }
 			}
 		}
 		else = {
 			create_wargoal = {
 				type = take_state_focus
 				target = SLV
-				generator = { 102 }
+				generator = { 859 }
 			}
 		}
 		hidden_effect = {
@@ -5663,7 +5698,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = YUG
-			generator = { 102 }
+			generator = { 859 }
 		}
 		hidden_effect = {
 			news_event = { id = news.167 hours = 6 }
@@ -5685,7 +5720,7 @@ country_event = {
 		create_wargoal = {
 			type = take_state_focus
 			target = YUG
-			generator = { 102 }
+			generator = { 859 }
 		}
 		hidden_effect = {
 			news_event = { id = news.165 hours = 6 }
@@ -6384,11 +6419,10 @@ country_event = {
 		GER = {
 			country_event = { id = germany.116 days = 1 }
 			effect_tooltip = {
-				declare_war_on = {
-					target = POL
-					type = take_state
-					generator = { 85 }
-				}
+	declare_war_on = {
+		target = POL
+		type = puppet_wargoal_focus
+	}
 			}
 		}
 	}
@@ -6406,11 +6440,6 @@ country_event = {
 	option = {
 		name = germany.115.a
 		transfer_state = 85
-		remove_state_claim = 86
-		remove_state_claim = 762
-		remove_state_claim = 807
-		remove_state_claim = 1194
-		remove_state_claim = 871
 	}
 }
 
@@ -6429,11 +6458,10 @@ country_event = {
 		ai_chance = {
 			base = 1
 		}
-		declare_war_on = {
-			target = POL
-			type = take_state
-			generator = { 85 }
-		}
+	declare_war_on = {
+		target = POL
+		type = puppet_wargoal_focus
+	}
 	}
 
 	option = {
@@ -6567,7 +6595,7 @@ country_event = {
 				add_state_core = 874
 				add_state_core = 875
 				add_state_core = 972
-
+				add_state_core = 64
 				add_state_core = 1180
 				add_state_core = 1184
 				add_state_core = 841
@@ -6599,12 +6627,13 @@ country_event = {
 				add_state_core = 1186
 				add_state_core = 1175
 				add_state_core = 844
+				add_state_core = 1161
+				add_state_core = 1165
 			}
 			DDR = {
 				add_state_core = 60
 				add_state_core = 61
 				add_state_core = 62
-				add_state_core = 64
 				add_state_core = 65
 				add_state_core = 861
 				add_state_core = 862
@@ -6621,6 +6650,8 @@ country_event = {
 				add_state_core = 901
 				add_state_core = 1197
 				add_state_core = 1185
+				add_state_core = 1156
+				add_state_core = 1159
 			}
 			POL = {
 				add_state_core = 66
@@ -6697,8 +6728,8 @@ country_event = {
 				add_state_core = 874
 				add_state_core = 875
 				add_state_core = 972
-
-								add_state_core = 1180
+				add_state_core = 64
+				add_state_core = 1180
 				add_state_core = 1184
 				add_state_core = 841
 				add_state_core = 1183
@@ -6729,16 +6760,16 @@ country_event = {
 				add_state_core = 1186
 				add_state_core = 1175
 				add_state_core = 844
+				add_state_core = 1161
+				add_state_core = 1165
 			}
 			DDR = {
 				add_state_core = 60
 				add_state_core = 61
 				add_state_core = 62
-				add_state_core = 64
 				add_state_core = 65
 				add_state_core = 861
 				add_state_core = 862
-
 				add_state_core = 846
 				add_state_core = 1188
 				add_state_core = 989
@@ -6752,6 +6783,8 @@ country_event = {
 				add_state_core = 901
 				add_state_core = 1197
 				add_state_core = 1185
+				add_state_core = 1156
+				add_state_core = 1159
 			}
 			POL = {
 				add_state_core = 66
@@ -7697,5 +7730,113 @@ country_event = { #Handed Over.. NOT
 			expire = 0
 			generator = { 69 }
 		}
+	}
+}
+country_event = { #Germany wants resource rights for Sweden
+	id = AAT_germany.1
+	title = AAT_germany.1.t
+	desc = AAT_germany.1.desc
+	picture = GFX_report_event_german_speech
+	is_triggered_only = yes
+	option = { #No
+		name = AAT_germany.1.a
+		ai_chance = {
+			base = 1
+			modifier = {
+				date > 1942.12.1
+				OR = {
+					is_historical_focus_on = yes
+					has_government = democratic
+				}
+				factor = 3
+			} 
+
+			modifier = {
+				FROM = {
+					surrender_progress > 0.2
+				}
+				factor = 10
+			}
+
+			modifier = {
+				FROM = {
+					is_ai = no
+					surrender_progress < 0.03
+				}
+				factor = 0
+			}
+		}
+
+		add_political_power = -25
+		FROM = {
+			country_event = { id = AAT_germany.2 hours = 2 }
+		}
+	}
+
+	option = { #Yes
+		ai_chance = {
+			base = 9
+		}
+		name = AAT_germany.1.b
+
+		add_offsite_building = {
+			type = industrial_complex
+			level = 2
+		}
+
+		add_offsite_building = {
+			type = arms_factory
+			level = 1
+		}
+
+		add_timed_idea = {
+			idea = GER_german_swedish_trade_agreement
+			days = 480
+		}
+
+		give_resource_rights = {
+			receiver = FROM 
+			state = 918 #Västerbotten 
+		}
+
+		add_opinion_modifier = {
+			target = FROM # target of the relation
+			modifier = GER_SWE_historic_trade_Partners
+		}
+
+		FROM = {
+			add_opinion_modifier = {
+				target = PREV # target of the relation
+				modifier = GER_SWE_historic_trade_Partners
+			}
+			country_event = { id = AAT_germany.3 hours = 2 }
+		}
+	}
+}
+
+country_event = { #Rejects deal
+	id = AAT_germany.2
+	title = AAT_germany.2.t
+	desc = AAT_germany.2.desc
+	picture = GFX_report_event_finnish_letter
+
+	is_triggered_only = yes
+
+	option = { #NOPE
+		name = AAT_germany.2.a
+	}
+}
+
+
+country_event = { #Accepts deal
+	id = AAT_germany.3
+	title = AAT_germany.3.t
+	desc = AAT_germany.3.desc
+	picture = GFX_report_event_hitler_croatia_handshake
+
+	is_triggered_only = yes
+
+	option = { #NOPE
+		name = AAT_germany.3.a
 	}
 }

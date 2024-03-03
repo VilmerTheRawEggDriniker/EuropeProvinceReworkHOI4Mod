@@ -7,7 +7,13 @@ state={
 	}
 
 	history={
-		owner = ROM
+		owner = WAL
+		1878.1.1 = {
+			owner = ROM
+			controller = ROM
+                add_core_of = ROM
+                remove_core_of = WAL
+		}
 		victory_points = {
 			9617 20 
 		}
@@ -31,7 +37,7 @@ state={
 			infrastructure = 3
 			arms_factory = 6
 		}
-		add_core_of = ROM
+		add_core_of = WAL
 
 	}
 

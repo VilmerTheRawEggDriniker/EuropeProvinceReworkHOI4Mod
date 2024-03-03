@@ -15,30 +15,45 @@ state={
 		1600.1.1 = {
 			owner = OTO
 		}
-		1700.1.1 = {
+		1716.1.1 = {
+			owner = HUN
                 add_core_of = HUN
                 remove_core_of = TRA
 		}
-		1716.1.1 = {
+		1804.1.1 = {
 			owner = AUS
-                add_core_of = HUN
-                remove_core_of = TRA
+                add_core_of = AUS
 		}
 		1900.1.1 = {
 			owner = AUH
                         add_core_of = AUH
                         add_core_of = ROM
-                        add_core_of = TRA
-                        remove_core_of = HUN         
+                        remove_core_of = HUN   
+                        remove_core_of = AUS      
 		}
+		1919.1.1 = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 
 		}
+                }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		1919.1.1 = {
+			owner = BNT
+			controller = BNT
+                        add_core_of = BNT
+			remove_core_of = AUH
+
+		}
 		1920.1.1 = {
 			owner = ROM
 			controller = ROM
+                        remove_core_of = BNT
 			remove_core_of = AUH
 
 		}

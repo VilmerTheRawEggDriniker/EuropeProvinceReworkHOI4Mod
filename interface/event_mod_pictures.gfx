@@ -1,11 +1,54 @@
 spriteTypes = {
-	
-	spriteType = {
-		name = "GFX_idi_amin"
-		texturefile = "gfx/event_pictures/idi_amin.dds"
+        spriteType = {
+		name = "GFX_goal_russian_antisemitism"
+		texturefile = "gfx/interface/goals/goal_russian_antisemitism.dds"
 	}
-
+        spriteType = {
+		name = "GFX_portrait_can_shawndriscoll_large"
+		texturefile = "gfx/leaders/CAN/portrait_shawndriscoll_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_rus_catherineii_large"
+		texturefile = "gfx/leaders/RUS/portrait_catherineii_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_rus_pauli_large"
+		texturefile = "gfx/leaders/RUS/portrait_pauli_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_rus_alexanderi_large"
+		texturefile = "gfx/leaders/RUS/portrait_alexanderi_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_rus_konstantinpavlovich_large"
+		texturefile = "gfx/leaders/RUS/portrait_konstantinpavlovich_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_rus_nicholasi_large"
+		texturefile = "gfx/leaders/RUS/portrait_nicholasi_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_rus_alexanderii_large"
+		texturefile = "gfx/leaders/RUS/portrait_alexanderii_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_rus_alexanderiii_large"
+		texturefile = "gfx/leaders/RUS/portrait_alexanderiii_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_rus_nicholasii_large"
+		texturefile = "gfx/leaders/RUS/portrait_nicholasii_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_rus_putin_large"
+		texturefile = "gfx/leaders/RUS/portrait_putin_large.dds"
+	}
 	spriteType = {
 		name = "GFX_idi_amin"
 		texturefile = "gfx/event_pictures/idi_amin_uganda.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_russian_flag_paris"
+		texturefile = "gfx/interface/ideas/russian_flag_paris.dds"
+	}
+}

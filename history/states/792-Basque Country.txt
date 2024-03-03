@@ -41,7 +41,7 @@ state={
 	provinces={
 		740 3735 6756 13233 14498 14509 
 	}
-	manpower=603596
+	manpower=891710
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

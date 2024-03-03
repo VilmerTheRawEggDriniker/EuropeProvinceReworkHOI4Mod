@@ -18,7 +18,7 @@ state={
 			infrastructure = 0
 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = FRA
 			controller = FRA
 
@@ -29,8 +29,14 @@ state={
            }
 		1946.1.1 = {
                add_core_of = CHA
+			   owner = FRA
+		remove_core_of = LBA
 
            }
+		   				1970.1.1 = {
+                owner = CHA
+		add_core_of = CHA
+                }
 
 	}
 

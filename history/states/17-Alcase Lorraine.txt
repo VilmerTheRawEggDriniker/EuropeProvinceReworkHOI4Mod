@@ -7,17 +7,34 @@ state={
 	}
 
 	history={
+		owner = BUR
+		add_core_of = BUR
+		1600.1.1 = {
+		owner = SPR
+		add_core_of = FRA
+		remove_core_of = BUR
+		}
+		1700.1.1 = {
 		owner = FRA
+		add_core_of = FRA
+		remove_core_of = BUR
+		}
 		victory_points = {
 			9642 5 
 		}
-		buildings = {
+				1936.1.1 = {
+							buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			air_base = 5
 
 		}
-		add_core_of = FRA
+				}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
 
 	}
 

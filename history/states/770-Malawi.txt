@@ -13,6 +13,10 @@ state={
 			12986 1 
 		}
                 }
+						1961.1.1 = {
+        owner = MLW
+		add_core_of = MLW
+        }
 		buildings = {
 			infrastructure = 0
 

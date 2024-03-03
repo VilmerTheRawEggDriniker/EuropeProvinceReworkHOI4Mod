@@ -11,10 +11,12 @@ state={
 		1878.1.1 = {
 			owner = ROM
 			controller = ROM
+                add_core_of = ROM
+                remove_core_of = WAL
 		}
 		1812.1.1 = {
-			owner = ROM
-			controller = ROM
+			owner = WAL
+			controller = WAL
 		}
 		1813.1.1 = {
 			owner = OTO
@@ -40,7 +42,7 @@ state={
 			dockyard = 1
 
 		}
-		add_core_of = ROM
+		add_core_of = WAL
 
 	}
 

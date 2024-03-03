@@ -1,0 +1,12 @@
+on_actions = {
+	on_startup = {
+		effect = {
+				ITA = {
+					add_timed_idea = {
+						idea = ita_hidden_ai_idea
+						days = 1622
+					}
+				}
+		}
+	}
+}

@@ -1,13 +1,18 @@
+
 state={
 	id=1207
 	name="STATE_1207"
+
 	history={
 		owner = RUS
 		buildings = {
 			infrastructure = 2
+
 		}
-		add_core_of = UKR
 		add_core_of = RUS
+		1900.1.1 = {
+		add_core_of = UKR
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -31,8 +36,9 @@ state={
 		}
 
 	}
+
 	provinces={
-		523 547 570 6519 9476 11487 11513 
+		523 547 570 1839 1863 1865 4728 6519 9476 10540 11487 11513 12522 
 	}
 	manpower=500000
 	buildings_max_level_factor=1.000

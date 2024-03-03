@@ -19,6 +19,10 @@ state={
 		remove_core_of = LBA
 
 		}
+				1970.1.1 = {
+                owner = CHA
+		add_core_of = CHA
+                }
 		buildings = {
 			infrastructure = 0
 		}

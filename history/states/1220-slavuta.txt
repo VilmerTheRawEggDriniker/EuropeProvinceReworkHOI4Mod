@@ -2,24 +2,29 @@
 state={
 	id=1220
 	name="STATE_1220"
+
 	history={
 		owner = LIT
-                add_core_of = LIT
+		add_core_of = LIT
 		1600.1.1 = {
 			owner = POL
-                add_core_of = POL
+			add_core_of = POL
+
 		}
 		1800.1.1 = {
 			owner = RUS
-                add_core_of = RUS
-                remove_core_of = POL
-                remove_core_of = LIT
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = LIT
+
 		}
 		1900.1.1 = {
-                add_core_of = UKR
-                }
+			add_core_of = UKR
+
+		}
 		buildings = {
 			infrastructure = 2
+
 		}
 		1920.1.1 = {
 			owner = SOV
@@ -37,8 +42,9 @@ state={
 		}
 
 	}
+
 	provinces={
-		3511 10164 10295 
+		3511 6509 10164 10295 
 	}
 	manpower=200000
 	buildings_max_level_factor=1.000

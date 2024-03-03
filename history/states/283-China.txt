@@ -8,17 +8,13 @@ state={
 
 	history={
 		owner = QIN
-		add_core_of = MON
 		add_core_of = CHI
-add_claim_by = CHI
 		1913.1.1 = {
 			owner = CHI
 			controller = CHI
             remove_core_of = QIN
 		}
 1919.1.1 = {
-        add_claim_by = PRC
-		add_core_of = PRC
         }
 		1920.1.1 = {
 			owner = XSM
@@ -33,11 +29,18 @@ add_claim_by = CHI
 			owner = PRC
 			controller = PRC
             remove_core_of = XSM
+		add_core_of = PRC
 		}
 		buildings = {
+			infrastructure = 1
+
+		}
+				1936.1.1 = {
+				buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
+		}
 		}
 		1938.10.25 = {
 			if = {
@@ -63,7 +66,7 @@ add_claim_by = CHI
 	}
 	manpower=3705400
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 	local_supplies=0.000
 }
 

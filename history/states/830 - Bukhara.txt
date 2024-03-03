@@ -6,16 +6,17 @@ state={
 	history={
 		owner = PER
 		victory_points = {
-			1573 2 
-		}
-		victory_points = {
-			10671 1 
+			1573 10 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
-		add_core_of = UZB
 		add_core_of = BUK
+		1936.1.1 = {
+                add_core_of = UZB
+                remove_core_of = BUK
+                }
 		1600.1.1 = {
 			owner = BUK
 			controller = BUK
@@ -23,7 +24,6 @@ state={
 			remove_core_of = RUS
 
 		}
-
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -42,7 +42,7 @@ state={
 	}
 
 	provinces={
-		1573 1623 7639 10205 10470 10671 12161 12239 12722 
+		1573 1623 4482 7639 10470 12161 12239 12722 
 	}
 	manpower=2515961
 	buildings_max_level_factor=1.000

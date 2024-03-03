@@ -7,8 +7,24 @@ state={
 	}
 
 	history={
-		owner = HOL
+		owner = HLL
+		add_core_of = HLL
+		1600.1.1 = {
 		add_core_of = HOL
+		owner = HOL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BRB
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		}
+		1812.1.1 = {
+		owner=FRA
+		}
+		1816.1.1 = {
+		owner = HOL
+		}
 		1936.1.1 = {
 		buildings = {
 			infrastructure = 4
@@ -35,6 +51,7 @@ state={
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
+			industrial_complex = 2
 			3314 = {
 				naval_base = 5
 

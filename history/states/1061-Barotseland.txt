@@ -11,6 +11,10 @@ state={
 			infrastructure = 0
 
 		}
+				1961.1.1 = {
+        owner = ZAM
+		add_core_of = ZAM
+        }
 
 	}
 

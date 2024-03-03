@@ -11,6 +11,12 @@ state={
 		1700.1.1 = {
                 owner = FRA
                 }
+		1800.1.1 = {
+                owner = ENG
+        }
+				1816.1.1 = {
+                owner = FRA
+                }
 		1960.1.1 = {
 		owner = RAJ
                 }

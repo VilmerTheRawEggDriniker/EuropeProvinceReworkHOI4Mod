@@ -5,9 +5,10 @@ state={
 		owner = LIT
 		add_core_of = LIT
 		1600.1.1 = {
-			owner = CRI
-                add_core_of = CRI
-                remove_core_of = LIT
+			owner = OTO
+			add_core_of = RUS
+			remove_core_of = LIT
+
 		}
 		1789.1.1 = {
                 add_core_of = RUS

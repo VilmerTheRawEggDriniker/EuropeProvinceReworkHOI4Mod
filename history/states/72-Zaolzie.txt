@@ -4,9 +4,14 @@ state={
 	name="STATE_72"
 
 	history={
-		owner = CZE
-		add_core_of = CZE
-		1600.1.1 = {
+		owner = SIL
+		add_core_of = SIL
+		1748.1.1 = {
+			owner = BOH
+                add_core_of = BOH
+                remove_core_of = SIL
+		}
+		1804.1.1 = {
 			owner = AUS
                 add_core_of = AUS
 		}
@@ -23,10 +28,11 @@ state={
 			arms_factory = 1
 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = CZE
 			controller = CZE
 			remove_core_of = AUH
+                        remove_core_of = BOH
 
 		}
 		1939.3.14 = {
@@ -48,7 +54,7 @@ state={
 	provinces={
 		9567 
 	}
-	manpower=99900
+	manpower=152000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=1.000

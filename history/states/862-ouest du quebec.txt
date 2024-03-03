@@ -4,8 +4,34 @@ state={
 	name="STATE_862"
 
 	history={
-		owner = PRE
-                add_core_of = PRE
+		owner = BDB
+                add_core_of = BDB
+						1950.1.1 = {
+		owner = DDR
+		add_core_of = DDR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+		1700.1.1 = {
+			owner = BDB
+			add_core_of = BDB
+			remove_core_of = PRE
+			remove_core_of = TEU
+
+		}
+		1701.1.1 = {
+			owner = PRE
+			add_core_of = PRE
+			remove_core_of = TEU
+			remove_core_of = BDB
+			remove_core_of = POM
+
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER
@@ -24,8 +50,13 @@ state={
                 remove_core_of = PRE
                 }
 		victory_points = {
-			3499 5
+			3499 10
 		}
+		1936.1.1 = {
+		victory_points = {
+			11505 20
+		}
+                }
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1

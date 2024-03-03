@@ -1,5 +1,11 @@
 ﻿capital = 4
-
+1804.1.1 = {
+set_cosmetic_tag = AUS_empire # austrian empire
+}
+1946.1.1 = {
+set_cosmetic_tag = AUS # austrian republic
+}
+1936.1.1 = {
 oob = "AUS_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -18,8 +24,9 @@ if = {
 		}
 	}
 }
+}
 set_research_slots = 3
-
+1936.1.1 = {
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -28,6 +35,133 @@ set_technology = {
 	tech_support = 1
 	tech_mountaineers = 1
 	basic_train = 1
+}
+}
+set_technology = {
+	infantry_weapons = 1
+}
+
+1836.1.1 = {
+			if = {
+		limit = { has_start_date < 1837.01.02 }
+            }
+    set_autonomy = {
+        target = LBV
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.2
+	}
+    set_autonomy = {
+        target = TOS
+        autonomous_state = autonomy_puppet
+        freedom_level = 0.2
+	}
+        set_autonomy = {
+        target = MOD
+        autonomous_state = autonomy_puppet
+        freedom_level = 0.2
+	}
+        set_autonomy = {
+        target = LUC
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+        set_autonomy = {
+        target = PRM
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+        set_autonomy = {
+        target = KRA
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+}
+1600.1.1 = {
+    set_autonomy = {
+        target = HUN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+    }
+	1804.1.1 = {
+    set_autonomy = {
+        target = HUN
+        autonomous_state = autonomy_free
+        freedom_level = 0.2
+	}
+    }
+	1600.1.1 = {
+    set_autonomy = {
+        target = BOH
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+    }
+	1804.1.1 = {
+    set_autonomy = {
+        target = BOH
+        autonomous_state = autonomy_free
+        freedom_level = 0.2
+	}
+    }
+	1600.1.1 = {
+    set_autonomy = {
+        target = SIL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+    }
+	1789.1.1 = {
+    set_autonomy = {
+        target = SIL
+        autonomous_state = autonomy_free
+        freedom_level = 0.2
+	}
+    }
+	1776.1.1 = {
+    set_autonomy = {
+        target = BKV
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+    }
+	1804.1.1 = {
+    set_autonomy = {
+        target = BKV
+        autonomous_state = autonomy_free
+        freedom_level = 0.2
+	}
+    }
+	1776.1.1 = {
+    set_autonomy = {
+        target = GLL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+    }
+	1804.1.1 = {
+    set_autonomy = {
+        target = GLL
+        autonomous_state = autonomy_free
+        freedom_level = 0.2
+	}
+    }
+	1800.1.1 = {
+    set_autonomy = {
+        target = VNT
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+    }
+	1804.1.1 = {
+    set_autonomy = {
+        target = VNT
+        autonomous_state = autonomy_free
+        freedom_level = 0.2
+	}
+    }
+1740.1.1 = {
+set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 }
 
 recruit_character = AUS_kurt_schuschnigg
@@ -78,6 +212,20 @@ set_popularities = {
 	fascism = 50
 	democratic = 1
 	communism = 1
+}
+}
+1946.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1945.11.9"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	neutrality = 5
+	democratic = 90
+	communism = 5
 }
 }
 

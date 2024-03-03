@@ -16,9 +16,15 @@ state={
 			remove_core_of = SPR
 
 		}
-		buildings = {
+		1936.1.1 = {
+					buildings = {
 			infrastructure = 3
 			air_base = 5
+
+		}
+		}
+		buildings = {
+			infrastructure = 3
 
 		}
 		victory_points = {

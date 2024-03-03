@@ -7,7 +7,13 @@ state={
 	}
 
 	history={
+		owner = PRV
+		add_core_of = PRV
+		1500.1.1 = {
+		add_core_of = FRA
 		owner = FRA
+		remove_core_of = PRV
+		}
 		add_dynamic_modifier = {
 			modifier = large_jewish_community_modifier
 
@@ -21,7 +27,8 @@ state={
 		victory_points = {
 			11834 20 
 		}
-		buildings = {
+		1936.1.1 = {
+					buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 3
@@ -40,7 +47,24 @@ state={
 			}
 
 		}
-		add_core_of = FRA
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 3
+			arms_factory = 1
+			911 = {
+				naval_base = 10
+				coastal_bunker = 1
+
+			}
+			11834 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
 		1939.1.1 = {
 			buildings = {
 				dockyard = 3
@@ -52,7 +76,7 @@ state={
 	}
 
 	provinces={
-		911 956 3928 3961 6975 11834 11849 11875 14512 14517 14518 14519 
+		911 956 3928 11834 11849 11875 14512 14517 14518 14519 
 	}
 	manpower=2361414
 	buildings_max_level_factor=1.000

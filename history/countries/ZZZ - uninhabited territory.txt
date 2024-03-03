@@ -8,6 +8,7 @@ set_convoys = 0
 
 add_ideas = {
     disarmed_nation
+	tissue_necrosis
 }
 
 create_country_leader = {

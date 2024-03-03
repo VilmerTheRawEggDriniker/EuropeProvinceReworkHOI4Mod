@@ -6,16 +6,34 @@ state={
 		owner = CRO
 		add_core_of = CRO
 		1600.1.1 = {
-		owner = AUS
+		owner = HUN
+                add_core_of = HUN
+                remove_core_of = CRO
                 }
 		1700.1.1 = {
-		owner = AUS
-                }
+			owner = HUN
+                remove_core_of = TRA
+		}
+        1804.1.1 = {
+                owner = AUS
+                add_core_of = AUS
+                remove_core_of = VNT
+				remove_core_of = RAG
+        }
+		1812.1.1 = {
+        owner = FRA
+        }
+		1816.1.1 = {
+        owner = AUS
+        add_core_of = AUS
+        }
 		1900.1.1 = {
-		add_core_of = CRO
-                add_core_of = AUH
-                owner = AUH
-                }
+			owner = AUH
+                        remove_core_of = AUS
+                        remove_core_of = HUN
+                        add_core_of = CRO
+                        add_core_of = AUH
+		}
 		buildings = {
 			infrastructure = 3
 		}

@@ -7,7 +7,18 @@ state={
 	}
 
 	history={
+		owner = BUR
+		add_core_of = BUR
+		1600.1.1 = {
+		owner = SPR
+		add_core_of = FRA
+		remove_core_of = BUR
+		}
+		1700.1.1 = {
 		owner = FRA
+		add_core_of = FRA
+		remove_core_of = BUR
+		}
 		add_dynamic_modifier = {
 			modifier = large_jewish_community_modifier
 
@@ -24,21 +35,26 @@ state={
 		victory_points = {
 			6529 1
 		}
-		buildings = {
+		1936.1.1 = {
+					buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			anti_air_building = 5
 			air_base = 5
 
 		}
-		add_core_of = FRA
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
 		1871.1.1 = {
 			owner = GER
 			add_core_of = GER
 			controller = GER
 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = FRA
 			add_core_of = FRA
 			remove_core_of = GER
@@ -55,10 +71,6 @@ state={
 
 			}
 			678 = {
-				bunker = 10
-
-			}
-			6529 = {
 				bunker = 10
 
 			}

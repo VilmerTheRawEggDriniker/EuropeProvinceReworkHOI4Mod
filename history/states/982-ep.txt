@@ -4,23 +4,42 @@ state={
 	name="STATE_982"
 
 	history={
-		victory_points = {
-			1205 1 
-		}
-		owner = GRE
-		buildings = {
-			infrastructure = 2
+		add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
 
 		}
+		victory_points = {
+			11818 15 
+		}
+		owner = OTO
+		buildings = {
+					industrial_complex = 1
+			infrastructure = 2
+			11818 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = BYZ
+		1800.1.1 = {
 		add_core_of = GRE
+		remove_core_of = BYZ
+		}
+		1914.1.1 = {
+			owner = GRE
+			controller = GRE
+			add_core_of = GRE
+
+		}
 
 	}
 
 	provinces={
-		1205 12001 13796 13797 
+		895 3936 11818 13694 
 	}
-	manpower=400000
+	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

@@ -3,13 +3,25 @@ state={
 	name="STATE_842"
 
 	history={
-		owner = HES
-                add_core_of = HES
+		owner = NAS
+                add_core_of = NAS
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER
                 }
 		1920.1.1 = {
+			remove_core_of = NAS
                 remove_core_of = WUR
                 remove_core_of = SAX
                 remove_core_of = OLD

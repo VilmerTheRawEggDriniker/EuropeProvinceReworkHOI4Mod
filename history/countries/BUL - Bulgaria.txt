@@ -14,6 +14,7 @@ capital = 48
 }
 
 #TROOPS
+1936.1.1 = {
 oob = "BUL_1936" #VANILLA & DLC
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -21,6 +22,7 @@ if = {
 	else = {
 		set_air_oob = "BUL_1936_air_legacy"
 	}
+}
 }
 set_convoys = 5 #VANILLA & DLC
 
@@ -58,7 +60,6 @@ if = { #DLC
 	#BUL_fascism
 	#BUL_neutrality
 	set_cosmetic_tag = BUL_neutrality
-
 	#IDEAS SETUP
 	add_ideas = { #DLC
 		BUL_second_national_catastrophe
@@ -323,7 +324,10 @@ if = { #DLC
 	}
 
 }
-
+set_technology = { #VANILLA & DLC
+	infantry_weapons = 1
+}
+1936.1.1 = {
 set_technology = { #VANILLA & DLC
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -344,7 +348,7 @@ if = {
 		early_fighter = 1
 	}
 }
-
+}
 
 ##############
 #### 1939 ####

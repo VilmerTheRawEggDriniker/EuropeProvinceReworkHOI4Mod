@@ -8,13 +8,17 @@ state={
 
 	history={
 		victory_points = {
-			13759 1 
+			11905 1 
 		}
 		owner = OTO
 		buildings = {
 			infrastructure = 1
 		}
+		add_core_of = BYZ
+		1800.1.1 = {
 		add_core_of = GRE
+		remove_core_of = BYZ
+		}
 		1914.1.1 = {
 			owner = BUL
 			controller = BUL

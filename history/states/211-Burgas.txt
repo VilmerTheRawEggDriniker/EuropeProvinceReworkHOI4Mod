@@ -4,7 +4,13 @@ state={
 	name="STATE_211"
 
 	history={
+		owner = BYZ
+		add_core_of = BYZ
+		1453.1.1 = {
+		add_core_of = BUL
 		owner = OTO
+		remove_core_of = BYZ
+		}
 		1880.1.1 = {
 			owner = BUL
 			controller = BUL
@@ -37,7 +43,6 @@ state={
 			infrastructure = 2
 			industrial_complex = 0
 		}
-		add_core_of = BUL
 
 	}
 

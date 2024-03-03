@@ -7,13 +7,17 @@ state={
 		owner = SER
 		1500.1.1 = {
                 owner = OTO
+		add_core_of = BUL
+		remove_core_of = SER
                 }
 		1900.1.1 = {
                 owner = SER
+		add_core_of = SER
                 }
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = YUG
 			controller = YUG
+		remove_core_of = BUL
 			add_core_of = YUG
 
 		}

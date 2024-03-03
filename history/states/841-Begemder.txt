@@ -3,8 +3,25 @@ state={
 	name="STATE_841"
 
 	history={
+		owner = ULM
+        add_core_of = ULM
+						1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+		1810.1.1 = {
 		owner = WUR
-                add_core_of = WUR
+        add_core_of = WUR
+		remove_core_of = BAY
+		remove_core_of = ULM
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER
@@ -35,8 +52,8 @@ state={
 	provinces={
 		11499 
 	}
-	manpower=400000
+	manpower=125000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 	local_supplies=0.000
 }

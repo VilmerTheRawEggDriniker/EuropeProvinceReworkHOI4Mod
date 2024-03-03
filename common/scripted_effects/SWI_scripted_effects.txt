@@ -2710,7 +2710,7 @@ SWI_make_centralized_president = { #This takes the current president of the Conf
 		ROOT = { set_country_flag = SWI_elected_centralized_president }
 	}
 	else_if = {
-		limit = { ROOT = { has_government = neutrality } } #This is a workaround, change when scope issue with Character System is fixed #TODO_Carlo
+		limit = { ROOT = { has_government = neutrality } } # Here lies a temporary workaround that beceme a permanent solution o7  
 		if = {
 		 	limit = {
 		 		var:SWI.SWI_confederation_president = {

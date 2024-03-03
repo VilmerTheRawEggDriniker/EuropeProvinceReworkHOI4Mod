@@ -17,6 +17,16 @@ state={
 		victory_points = {
 			1189 1 
 		}
+		1936.1.1 = {
+					buildings = {
+			infrastructure = 2
+			1149 = {
+				naval_base = 5
+
+			}
+
+		}
+		}
 		buildings = {
 			infrastructure = 2
 			air_base = 10
@@ -27,11 +37,15 @@ state={
 
 		}
 		add_core_of = LBA
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = ITA
 			controller = ITA
 
 		}
+		1946.1.1 = {
+        owner = LBA
+		add_core_of = LBA
+        }
 
 	}
 

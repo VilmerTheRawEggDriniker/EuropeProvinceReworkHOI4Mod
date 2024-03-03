@@ -7,8 +7,11 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = KAZ
 		add_core_of = KAZ
+		1848.1.1 = {
+                owner = RUS
+                }
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -39,7 +42,6 @@ state={
 		victory_points = {
 			11537 1 
 		}
-		add_core_of = RUS
 
 	}
 

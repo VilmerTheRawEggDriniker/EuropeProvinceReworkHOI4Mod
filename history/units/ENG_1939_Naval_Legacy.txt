@@ -435,7 +435,6 @@ units = {
 			ship = { name = "HMS Hunter" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
 			ship = { name = "HMS Hyperion" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
 		}
-1900.1.1 = {
 		task_force = {				
 			name = "South America Squadron"			# CO: Harwood
 			location = 12960 # Falkland Is.
@@ -444,8 +443,7 @@ units = {
 			ship = { name = "HMS Ajax" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = ENG version_name = "Emerald Class" } } }
 			ship = { name = "HMS Havock" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
 			ship = { name = "HMS Hotspur" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = ENG } } }	
-		}
-}				
+		}				
 		task_force = {				
 			name = "7th Submarine Flotilla"			# CO: 	
 			location = 2038 # Sierra Leone

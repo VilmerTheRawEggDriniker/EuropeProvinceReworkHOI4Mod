@@ -7,27 +7,32 @@ state={
 		owner = LIT
 		add_core_of = LIT
 		1600.1.1 = {
-			owner = CRI
-                add_core_of = CRI
-                remove_core_of = LIT
+			owner = OTO
+			add_core_of = RUS
+			remove_core_of = LIT
+
 		}
 		1789.1.1 = {
-                add_core_of = RUS
-                owner = OTO
-                remove_core_of = POL
-                remove_core_of = CRI
-                remove_core_of = LIT
-                }
+			add_core_of = RUS
+			owner = OTO
+			remove_core_of = POL
+			remove_core_of = CRI
+			remove_core_of = LIT
+
+		}
 		1800.1.1 = {
 			owner = RUS
-                add_core_of = RUS
-                remove_core_of = POL
-                remove_core_of = CRI
-                remove_core_of = LIT
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = CRI
+			remove_core_of = LIT
+
 		}
 		1900.1.1 = {
-                add_core_of = UKR
-                }
+			add_core_of = UKR
+
+		}
+		1800.1.1 = {
 		add_dynamic_modifier = {
 			modifier = large_jewish_community_modifier
 
@@ -35,27 +40,30 @@ state={
 		victory_points = {
 			11670 20 
 		}
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			11670 = {
 				naval_base = 3
+
 			}
 
 		}
 		1936.1.1 = {
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			air_base = 6
-			11670 = {
-				naval_base = 3
-				coastal_bunker = 1
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				air_base = 6
+				11670 = {
+					naval_base = 3
+					coastal_bunker = 1
+
+				}
 
 			}
 
 		}
-                }
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -70,12 +78,14 @@ state={
 			remove_core_of = SOV
 
 		}
+
 	}
+
 	provinces={
-		3575 9714 11670 13587 13596 13600 13601 13604 13617 13618 
+		754 3575 9714 11670 13587 13596 13600 13601 13604 13617 
 	}
-	manpower=2000000
+	manpower=1500000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 	local_supplies=6.000
 }

@@ -20,6 +20,10 @@ state={
 			controller = ENG
             add_core_of = NGA
 		}
+												1961.1.1 = {
+                owner = NGA
+		add_core_of = NGA
+                }
 		buildings = {
 			infrastructure = 0
 		}

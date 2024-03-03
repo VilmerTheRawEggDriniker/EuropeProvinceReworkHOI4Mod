@@ -5,14 +5,21 @@ state={
 		victory_points = {
 			9821 1 
 		}
-		owner = AUS
-                add_core_of = AUS
-		1600.1.1 = {
-		owner = OTO
-                }
-		1700.1.1 = {
+                owner = VNT
+                add_core_of = VNT
+        1804.1.1 = {
                 owner = AUS
-                }
+                add_core_of = AUS
+                remove_core_of = VNT
+				remove_core_of = RAG
+        }
+		1812.1.1 = {
+        owner = FRA
+        }
+		1816.1.1 = {
+        owner = AUS
+        add_core_of = AUS
+        }
 		1900.1.1 = {
                 owner = AUH
 		add_core_of = CRO
@@ -20,6 +27,10 @@ state={
                 }
 		buildings = {
 			infrastructure = 0
+			9821 = {
+				naval_base = 1
+
+			}
 		}
 		1945.1.1 = {
             add_core_of = MNT

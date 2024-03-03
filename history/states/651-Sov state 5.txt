@@ -11,14 +11,19 @@ state={
 
 		}
 		victory_points = {
-			1278 5 
+			1278 10
 		}
-		add_core_of = BSK
+		victory_points = {
+			4354 1 
+		}
 		add_core_of = RUS
+		add_core_of = TAT
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
 			add_core_of = SOV
+		add_core_of = BSK
+		remove_core_of = TAT
 			remove_core_of = RUS
 
 		}
@@ -33,9 +38,9 @@ state={
 	}
 
 	provinces={
-		291 1258 1278 6246 6285 7416 7431 7444 10226 12130 
+		273 291 1258 1278 1305 3289 4283 4354 6246 6285 7237 7416 7431 7444 9349 10226 12130 12172 
 	}
-	manpower=2000000
+	manpower=2552075
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

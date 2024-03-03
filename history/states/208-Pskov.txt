@@ -4,19 +4,30 @@ state={
 	name="STATE_208"
 
 	history={
-		owner = RUS
+		owner = LIT
+                add_core_of = LIT
+		1600.1.1 = {
+                add_core_of = POL
+                owner = POL
+                }
+		1776.1.1 = {
+		add_core_of = RUS
+                owner = RUS
+                remove_core_of = POL
+                remove_core_of = LIT
+                }
 		1936.1.1 = {
-		buildings = {
-			infrastructure = 3
-			air_base = 3
+			buildings = {
+				infrastructure = 3
+				air_base = 3
+
+			}
 
 		}
-                }
 		buildings = {
 			infrastructure = 2
+
 		}
-		add_core_of = RUS
-		add_core_of = BSK
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -31,16 +42,14 @@ state={
 			remove_core_of = SOV
 
 		}
-		victory_points = {
-			4354 1 
-		}
+
 	}
 
 	provinces={
-		273 1305 3289 4283 4354 7237 9349 12172 
+		354 387 3333 6242 6293 9353 9386 11259 
 	}
-	manpower=552075
+	manpower=500000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 	local_supplies=0.000
 }

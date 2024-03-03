@@ -9,10 +9,50 @@ state={
 
 	history={
 		owner = NOR
-		buildings = {
+		1524.1.1 = {
+			add_core_of = DEN
+			owner = DEN
+
+		}
+		1816.1.1 = {
+			remove_core_of = DEN
+			owner = SWE
+			add_core_of = SWE
+
+		}
+		1905.1.1 = {
+			owner = NOR
+			add_core_of = NOR
+			remove_core_of = SWE
+			remove_core_of = DEN
+
+		}
+		1936.1.1 = {
+					buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 1
+			53 = {
+				naval_base = 1
+				coastal_bunker = 1
+
+			}
+			122 = {
+				naval_base = 3
+				coastal_bunker = 2
+
+			}
+			9296 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
 			53 = {
 				naval_base = 1
 				coastal_bunker = 1
@@ -44,10 +84,10 @@ state={
 	}
 
 	provinces={
-		53 65 102 122 137 188 199 3049 3090 3093 3096 3114 3129 3180 3188 3192 6145 6176 6204 6216 9047 9096 9127 9170 9196 9216 9296 11100 11101 11176 11198 11367 
+		53 65 122 137 188 199 3049 3090 3096 3114 3129 3188 3192 6145 6176 9096 9127 9196 9216 9296 11100 11176 11367 
 	}
-	manpower=1000000
+	manpower=900000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 	local_supplies=0.000
 }

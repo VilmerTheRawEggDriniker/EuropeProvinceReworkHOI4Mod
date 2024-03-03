@@ -5,17 +5,13 @@ state={
 
 	history={
 		owner = QIN
-		add_core_of = TIB
 		add_core_of = CHI
-add_claim_by = CHI
 		1913.1.1 = {
 			owner = CHI
 			controller = CHI
             remove_core_of = QIN
 		}
 1919.1.1 = {
-        add_claim_by = PRC
-		add_core_of = PRC
         }
 		1920.1.1 = {
 			owner = XSM
@@ -30,17 +26,23 @@ add_claim_by = CHI
 			owner = PRC
 			controller = PRC
             remove_core_of = XSM
+		add_core_of = PRC
 		}
 		victory_points = {
 			7940 10 
 		}
 		victory_points = {
-			12732 3 
+			12732 20
 		}
 		buildings = {
 			infrastructure = 1
+		}
+		1936.1.1 = {
+				buildings = {
+			infrastructure = 1
 			industrial_complex = 1
 
+		}
 		}
 		1938.10.25 = {
 			if = {
@@ -67,6 +69,6 @@ add_claim_by = CHI
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 	local_supplies=0.000
 }

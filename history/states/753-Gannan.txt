@@ -5,17 +5,13 @@ state={
 
 	history={
 		owner = QIN
-		add_core_of = TIB
 		add_core_of = CHI
-            add_claim_by = CHI
 		1913.1.1 = {
 			owner = CHI
 			controller = CHI
             remove_core_of = QIN
 		}
         1919.1.1 = {
-        add_claim_by = PRC
-		add_core_of = PRC
         }
 		1946.1.1 = {
 			owner = CHI
@@ -25,6 +21,7 @@ state={
 			owner = PRC
 			controller = PRC
             remove_core_of = XSM
+		add_core_of = PRC
 		}
 		victory_points = {
 			2045 1 
@@ -58,6 +55,6 @@ state={
 	}
 	manpower=3000000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 	local_supplies=1.000
 }

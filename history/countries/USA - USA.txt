@@ -1,9 +1,12 @@
 ﻿capital = 361
+1936.1.1 = {
+
 
 oob = "USA_1936"
+}
 
 starting_train_buffer = 5
-
+1936.1.1 = {
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "USA_1936_naval_mtg"
@@ -11,6 +14,8 @@ if = {
 		set_naval_oob = "USA_1936_naval_legacy"
 	}
 }
+}
+1936.1.1 = {
 if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "USA_1936_air_bba"
@@ -38,6 +43,7 @@ if = {
 		}
 	}
 }
+}
 
 set_research_slots = 4
 set_stability = 0.75
@@ -56,7 +62,8 @@ USA = {
 	country_event = { id = usa.51 days = 2 }
 }
 # Starting tech
-set_technology = {
+1936.1.1 = {
+	set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_recon = 1
@@ -72,7 +79,11 @@ set_technology = {
 	marines = 1
 	basic_train = 1
 }
-
+}
+set_technology = {
+	infantry_weapons = 1
+}
+1936.1.1 = {
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -138,8 +149,9 @@ if = {
 	}
 	add_ideas = MTG_naval_treaty_adherent
 }
-
+}
 #Monroe Doctrine
+1823.1.1 = {
 give_guarantee = CAN
 give_guarantee = MEX
 give_guarantee = CUB
@@ -161,6 +173,7 @@ give_guarantee = CHL
 give_guarantee = PAR
 give_guarantee = ARG
 give_guarantee = URG
+}
 
 1939.1.1 = {
 

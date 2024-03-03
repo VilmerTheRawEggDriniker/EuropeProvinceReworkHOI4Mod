@@ -1,52 +1,53 @@
+
 state={
 	id=287
 	name="STATE_287"
 
 	history={
 		owner = QIN
-		add_core_of = SIK
 		add_core_of = CHI
-            add_claim_by = CHI
 		1910.1.1 = {
 			owner = CHI
 			controller = CHI
-            remove_core_of = AUH
+			remove_core_of = AUH
+
 		}
-        1919.1.1 = {
-        add_claim_by = PRC
-		add_core_of = PRC
-        }
+		1919.1.1 = {
+
+		}
 		1920.1.1 = {
 			owner = SIK
 			controller = SIK
-            remove_core_of = AUH
+			add_core_of = SIK
+			remove_core_of = AUH
+
 		}
 		1946.1.1 = {
 			owner = CHI
 			controller = CHI
-            remove_core_of = AUH
+			remove_core_of = AUH
+
 		}
 		1950.1.1 = {
 			owner = PRC
 			controller = PRC
-            remove_core_of = AUH
+			remove_core_of = AUH
+			add_core_of = PRC
+			remove_core_of = SIK
+
 		}
 		buildings = {
 			infrastructure = 0
 
 		}
-		victory_points = {
-			4973 1
-		}
 	}
-
 
 	provinces={
-		4973 8042 8086 10885 10911 12864 
+		8042 8086 10885 12864 
 	}
-	manpower=408000
+	manpower=1000
 	buildings_max_level_factor=1.000
-	state_category=rural
-
-	local_supplies=4.0 
+	state_category=wasteland
+	impassable = yes
+	local_supplies=4.000
 }

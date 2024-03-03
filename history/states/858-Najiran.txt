@@ -6,6 +6,17 @@ state={
 	history={
 		owner = BAD
                 add_core_of = BAD
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER
@@ -45,7 +56,7 @@ state={
 	provinces={
 		3530 6542 6568 13852 
 	}
-	manpower=1000000
+	manpower=1100000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

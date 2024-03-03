@@ -1,36 +1,34 @@
+
 state={
 	id=906
 	name="STATE_906"
+
 	history={
-		add_core_of = SCO
-		owner = SCO
-		1707.1.1 = {
-			owner = ENG
-			controller = ENG
-                add_core_of = ENG
+		add_core_of = GRI
+		owner = GRI
+		1800.1.1 = {
+		owner = SWI
+		add_core_of = SWI
+		remove_core_of = GRI
+		remove_core_of = NEU
 		}
 		victory_points = {
-			11064 1 
+			3660 1 
+		}
+		victory_points = {
+			658 2 
 		}
 		buildings = {
 			infrastructure = 2
-			11064 = {
-				naval_base = 8
-
-			}
-			6196 = {
-				naval_base = 1
-
-			}
 		}
 
 	}
 
 	provinces={
-		6196 11064
+		658 3660 3662 14569 
 	}
-	manpower=45020
+	manpower=120000
 	buildings_max_level_factor=1.000
-	state_category=small_island
+	state_category=pastoral
 	local_supplies=0.000
 }

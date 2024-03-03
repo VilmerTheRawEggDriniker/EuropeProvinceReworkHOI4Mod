@@ -4,17 +4,21 @@ state={
 	name="STATE_823"
 
 	history={
+		owner = UZB
+		add_core_of = UZB
+		1900.1.1 = {
+                owner = RUS
+                }
+		1936.1.1 = {
+                add_core_of = KKP
+                }
 		victory_points = {
 			1614 1 
 		}
-		owner = RUS
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = RUS
-		add_core_of = UZB
-		add_core_of = KKP
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -33,7 +37,7 @@ state={
 	}
 
 	provinces={
-		1479 1532 1576 1614 1721 4488 4618 7541 10348 10395 12233 12454 12471 12474 13207 
+		1479 1614 1721 4618 7541 10348 10395 12233 12454 12471 12474 13207 
 	}
 	manpower=258430
 	buildings_max_level_factor=1.000

@@ -6,16 +6,11 @@ state={
 	history={
 		owner = POR
 		add_core_of = MOR
-		1700.1.1 = {
+		1600.1.1 = {
             add_core_of = SPR
             owner = SPR
+			remove_core_of = MOR
             }
-		1920.1.1 = {
-            add_core_of = RIF
-            }
-		1950.1.1 = {
-            remove_core_of = RIF
-		}
 		victory_points = {
 			9945 2 
 		}
@@ -35,7 +30,7 @@ state={
 	provinces={
 		9945 
 	}
-	manpower=20000
+	manpower=60000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

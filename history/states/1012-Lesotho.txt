@@ -11,7 +11,11 @@ state={
 		victory_points = {
 			4556 1 
 		}
-                }
+		}
+				1966.1.1 = {
+        owner = SAF
+		add_core_of = SAF
+        }
 		buildings = {
 			infrastructure = 0
 		}

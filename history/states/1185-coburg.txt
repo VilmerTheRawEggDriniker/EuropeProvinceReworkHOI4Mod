@@ -5,6 +5,27 @@ state={
 	history={
 		owner = MEK
                 add_core_of = MEK
+						1950.1.1 = {
+		owner = DDR
+		add_core_of = DDR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+				1650.1.1 = {
+				add_core_of = SWE
+				owner = SWE
+				remove_core_of = MEK
+				}
+				1803.1.1 = {
+				add_core_of = MEK
+				remove_core_of = SWE
+				owner = MEK
+				}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER

@@ -6,11 +6,36 @@ state={
 	history={
 		owner = BAY
                 add_core_of = BAY
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
+		1800.1.1 = {
+	    add_core_of = FRA
+		owner = FRA
+		remove_core_of = LIE
+		remove_core_of = BRB
+		remove_core_of = FLA
+		remove_core_of = LUX
+		remove_core_of = BAY
+		}
+		1816.1.1 = {
+		owner = BAY
+		add_core_of = BAY
+		remove_core_of = FRA
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER
                 }
-		1920.1.1 = {
+		1919.1.1 = {
                 remove_core_of = WUR
                 remove_core_of = SAX
                 remove_core_of = OLD

@@ -2,7 +2,28 @@ state={
 	id=978
 	name="STATE_978"
 	history={
+		owner = BUR
+		add_core_of = BUR
+		1600.1.1 = {
+		add_core_of = BEL
+		owner = BEL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BUR
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		}
+		1800.1.1 = {
+		owner=FRA
+		add_core_of = FRA
+		remove_core_of = BEL
+		}
+		1816.1.1 = {
 		owner = HOL
+		add_core_of = HOL
+		remove_core_of = FRA
+		}
 		1831.1.1 = {
                 add_core_of = BEL
                 remove_core_of = HOL
@@ -16,7 +37,6 @@ state={
 			industrial_complex = 1
 
 		}
-		add_core_of = HOL
 
 	}
 

@@ -2,6 +2,7 @@
 state={
 	id=246
 	name="STATE_246"
+
 	history={
 		owner = RUS
 		buildings = {

@@ -6,8 +6,7 @@ state={
 	history={
 		owner = OTO
 		buildings = {
-			infrastructure = 3
-			air_base = 2
+			infrastructure = 2
 			4206 = {
 				naval_base = 3
 
@@ -15,7 +14,7 @@ state={
 
 		}
 		victory_points = {
-			4206 5 
+			4206 10
 		}
 		victory_points = {
 			1065 1 
@@ -35,6 +34,18 @@ state={
 		1936.1.1 = {
 			owner = ENG
 			controller = ENG
+
+		}
+		1936.1.1 = {
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			4206 = {
+				naval_base = 3
+
+			}
+
+		}
 
 		}
 		1946.1.1 = {

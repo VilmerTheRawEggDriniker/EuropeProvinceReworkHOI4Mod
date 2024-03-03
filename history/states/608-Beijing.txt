@@ -15,12 +15,22 @@ state={
             remove_core_of = QIN
 		}
 		1933.1.1 = {
-            add_core_of = PRC
 		}
+		1933.1.1 = {
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
 			air_base = 3
+			10068 = {
+				naval_base = 2
+
+			}
+
+		}
+                }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
 			10068 = {
 				naval_base = 2
 
@@ -41,6 +51,7 @@ state={
 			owner = CHI
 			controller = CHI
             remove_core_of = YUN
+            add_core_of = PRC
 		}
 		1950.1.1 = {
 			owner = PRC

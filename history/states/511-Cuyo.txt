@@ -14,7 +14,7 @@ state={
                 owner = ARG
 		add_core_of = ARG
 		}
-		1899.1.1 = {
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1

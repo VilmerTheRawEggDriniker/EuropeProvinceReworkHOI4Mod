@@ -7,7 +7,16 @@ state={
 	}
 
 	history={
+		owner = GEN
+        add_core_of = GEN
+		1600.1.1 = {
 		owner = OTO
+		add_core_of = GEN
+		}
+		1800.1.1 = {
+		add_core_of = GRE
+		remove_core_of = GEN
+		}
 		buildings = {
 			infrastructure = 1
 			8435 = {
@@ -26,16 +35,10 @@ state={
 		victory_points = {
 			8435 1 
 		}
-		add_core_of = GRE
 		1914.1.1 = {
 			owner = GRE
 			controller = GRE
             add_core_of = GRE
-		}
-		1646.1.1 = {
-			owner = GRE
-			controller = GRE
-            remove_core_of = YUG
 		}
 
 	}

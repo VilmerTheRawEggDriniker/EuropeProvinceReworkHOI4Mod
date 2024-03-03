@@ -9,12 +9,12 @@ state={
 		1600.1.1 = {
 			owner = OTO
 		}
-		1700.1.1 = {
-                add_core_of = HUN
-                remove_core_of = TRA
+		1804.1.1 = {
+			owner = AUS
+                add_core_of = AUS
 		}
 		1716.1.1 = {
-			owner = AUS
+			owner = HUN
                 add_core_of = HUN
                 remove_core_of = TRA
 		}
@@ -22,6 +22,7 @@ state={
 			owner = AUH
                         add_core_of = AUH
                         add_core_of = SER
+remove_core_of = AUS
                         remove_core_of = HUN         
 		}
 		victory_points = {
@@ -34,9 +35,17 @@ state={
 			infrastructure = 3
 
 		}
+		1919.1.1 = {
+			owner = BNT
+			controller = BNT
+                        add_core_of = BNT
+			remove_core_of = AUH
+
+		}
 		1920.1.1 = {
 			owner = YUG
 			controller = YUG
+            remove_core_of = BNT
             add_core_of = YUG
             remove_core_of = AUH
 		}

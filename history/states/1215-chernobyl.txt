@@ -8,17 +8,20 @@ state={
 		add_core_of = LIT
 		1600.1.1 = {
 			owner = POL
-                add_core_of = POL
+			add_core_of = POL
+
 		}
 		1700.1.1 = {
 			owner = RUS
-                add_core_of = RUS
-                remove_core_of = POL
-                remove_core_of = LIT
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = LIT
+
 		}
 		1900.1.1 = {
-                add_core_of = UKR
-                }
+			add_core_of = UKR
+
+		}
 		buildings = {
 			infrastructure = 2
 
@@ -41,7 +44,7 @@ state={
 	}
 
 	provinces={
-		9573 11715 13789 13790 
+		9573 11715 13788 13789 13790 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

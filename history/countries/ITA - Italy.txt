@@ -1,5 +1,5 @@
 ﻿capital = 2
-
+1936.1.1 = {
 if = {
 	limit = {
 		NOT = {
@@ -14,20 +14,22 @@ if = {
 	}
 	set_oob = "ITA_1936_nsb"
 }
-
+}
 starting_train_buffer = 1.5
 
 set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
+1936.1.1 = {
 add_ideas = {
+        ita_hidden_ai_idea
 	vittorio_emanuele
 	vittoria_mutilata
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
 }
-
+}
 # RESISTANCE / COMPLIANCE
 
 1900.1.1 = {
@@ -62,7 +64,7 @@ every_owned_state = { #LIBYAN STATES
         }
 }
 
-1948.1.1 = {
+1946.1.1 = {
 550 = { #ERITREA
 	start_resistance = no
 	set_compliance = 0
@@ -88,9 +90,6 @@ every_owned_state = { #LIBYAN STATES
 		NOT = { state = 1000 } #Don't add resistance in the middle of the impassable desert thanks
 	}
 	start_resistance = no
-	set_compliance = 0
-	set_resistance = 0
-	set_garrison_strength = 0.0
         }
 }
 
@@ -362,6 +361,10 @@ set_variable = { ITA_ra_air_interception = 0 } #Airforce
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
+}
+1936.1.1 = {
+set_technology = {
+	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1		
 	tech_engineers = 1
@@ -501,7 +504,7 @@ add_equipment_to_stockpile = {
 	amount = 40
 	variant_name = "Fiat 3000B"
 }
-
+}
 # DIPLOMACY / WAR 36
 1935.1.1 = {
 if = {

@@ -17,6 +17,17 @@ state={
 			5068 1 
 		}
                 }
+						1946.1.1 = {
+			owner = ENG
+			controller = ENG
+			remove_core_of = ENG
+
+		}
+								1961.1.1 = {
+			owner = SOM
+			controller = SOM
+
+		}
 		1898.1.1 = {
 		buildings = {
 			infrastructure = 1

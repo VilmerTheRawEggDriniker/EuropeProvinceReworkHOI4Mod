@@ -11,10 +11,21 @@ state={
             add_dynamic_modifier = {
 			modifier = large_jewish_community_modifier
 		}
-		buildings = {
+		1936.1.1 = {
+				buildings = {
 			infrastructure = 2
 			dockyard = 1
 			air_base = 2
+			4245 = {
+				naval_base = 6
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
 			4245 = {
 				naval_base = 6
 

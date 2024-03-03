@@ -4,7 +4,13 @@ state={
 	name="STATE_864"
 
 	history={
+		owner = LOR
+		add_core_of = LOR
+		1767.1.1 = {
 		owner = FRA
+		add_core_of = FRA
+		remove_core_of = LOR
+		}
 		victory_points = {
 			11516 5 
 		}
@@ -15,7 +21,6 @@ state={
 			infrastructure = 4
 
 		}
-		add_core_of = FRA
 
 	}
 

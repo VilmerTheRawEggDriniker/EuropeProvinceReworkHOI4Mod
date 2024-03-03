@@ -10,25 +10,48 @@ state={
 		victory_points = {
 			3473 1 
 		}
-		owner = PRE
-                add_core_of = PRE
+		owner = BDB
+		add_core_of = BDB
+		1950.1.1 = {
+			owner = POL
+			add_core_of = POL
+			remove_core_of = GER
+
+		}
+		1700.1.1 = {
+			owner = BDB
+			add_core_of = BDB
+			remove_core_of = PRE
+			remove_core_of = TEU
+
+		}
+		1701.1.1 = {
+			owner = PRE
+			add_core_of = PRE
+			remove_core_of = TEU
+			remove_core_of = BDB
+			remove_core_of = POM
+
+		}
 		1871.1.1 = {
-                add_core_of = GER
-                owner = GER
-                }
+			add_core_of = GER
+			owner = GER
+
+		}
 		1920.1.1 = {
-                remove_core_of = WUR
-                remove_core_of = SAX
-                remove_core_of = OLD
-                remove_core_of = HAN
-                remove_core_of = MEK
-                remove_core_of = SHL
-                remove_core_of = BAD
-                remove_core_of = BAY
-                remove_core_of = HES
-                remove_core_of = THU
-                remove_core_of = PRE
-                }
+			remove_core_of = WUR
+			remove_core_of = SAX
+			remove_core_of = OLD
+			remove_core_of = HAN
+			remove_core_of = MEK
+			remove_core_of = SHL
+			remove_core_of = BAD
+			remove_core_of = BAY
+			remove_core_of = HES
+			remove_core_of = THU
+			remove_core_of = PRE
+
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -38,7 +61,7 @@ state={
 	}
 
 	provinces={
-		444 3473 11478 13419 
+		3473 11478 13419 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

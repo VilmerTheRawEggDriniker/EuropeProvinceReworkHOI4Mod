@@ -9701,12 +9701,6 @@ focus_tree = {
 		}
 
 		bypass = {
-			458 = { is_claimed_by = ROOT }
-			665 = { is_claimed_by = ROOT }
-			103 = { is_claimed_by = ROOT }
-			105 = { is_claimed_by = ROOT }
-			44 = { is_claimed_by = ROOT }
-			805 = { is_claimed_by = ROOT }
 		}
 
 		available = {
@@ -9728,7 +9722,6 @@ focus_tree = {
 				limit = {
 					458 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 458 #TUNISIA
 				if = {
 					limit = {
 						458 = {
@@ -9767,7 +9760,6 @@ focus_tree = {
 				limit = {
 					665 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 665 #GABÈS
 				if = {
 					limit = {
 						665 = {
@@ -9793,7 +9785,6 @@ focus_tree = {
 				limit = {
 					103 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 103 #DALMATIA
 				if = {
 					limit = {
 						103 = {
@@ -9833,7 +9824,6 @@ focus_tree = {
 				limit = {
 					105 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 105 #MONTENEGRO
 				if = {
 					limit = {
 						105 = {
@@ -9859,7 +9849,6 @@ focus_tree = {
 				limit = {
 					44 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 44 #ALBANIA
 				if = {
 					limit = {
 						44 = {
@@ -9899,7 +9888,6 @@ focus_tree = {
 				limit = {
 					805 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 805 #NORTHERN EPIRUS
 				if = {
 					limit = {
 						805 = {
@@ -10160,7 +10148,6 @@ focus_tree = {
 				limit = {
 					1 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 1 #CORSICA
 				if = {
 					limit = {
 						1 = {
@@ -10202,7 +10189,6 @@ focus_tree = {
 				limit = {
 					458 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 458 #TUNISIA
 				if = {
 					limit = {
 						458 = {
@@ -10242,7 +10228,6 @@ focus_tree = {
 				limit = {
 					665 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 665 #GABÈS
 				if = {
 					limit = {
 						665 = {
@@ -10269,7 +10254,6 @@ focus_tree = {
 				limit = {
 					116 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 116 #MALTA
 				if = {
 					limit = {
 						116 = {
@@ -10308,7 +10292,6 @@ focus_tree = {
 				limit = {
 					183 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 183 #CYPRUS
 				if = {
 					limit = {
 						183 = {
@@ -10351,7 +10334,6 @@ focus_tree = {
 				limit = {
 					118 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 118 #GIBRALTAR
 				if = {
 					limit = {
 						118 = {
@@ -10391,7 +10373,6 @@ focus_tree = {
 				limit = {
 					446 = { NOT = { is_claimed_by = ROOT } }
 				}
-				add_state_claim = 446 #CAIRO (Suez Canal)
 				if = {
 					limit = {
 						446 = {
@@ -10474,7 +10455,6 @@ focus_tree = {
 					NOT = { is_claimed_by = ROOT }
 				}
 				hidden_effect ={
-					ROOT = { add_state_claim = PREV }
 				}
 				custom_effect_tooltip = generic_ROOT_gains_claim_tt
 			}
@@ -14812,10 +14792,6 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			add_state_claim = 102 #NORTH SLOVENIA
-			add_state_claim = 853 #LJUBLJANA
-			add_state_claim = 103 #DALMATIA
-			add_state_claim = 105 #MONTENEGRO
 
 			if = {
 				limit = {
@@ -15059,15 +15035,9 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			add_state_claim = 802 #KOSOVO
-			add_state_claim = 185 #EPIRUS
-			add_state_claim = 105 #MONTENEGRO
 
 			hidden_effect = { #Representing the Albanian Irredentism recognized by ITA.
 				ALB = {
-					add_state_claim = 802 #KOSOVO
-					add_state_claim = 185 #EPIRUS
-					add_state_claim = 105 #MONTENEGRO
 				}
 			}
 
@@ -15839,8 +15809,6 @@ focus_tree = {
 				44 = { owner = { is_subject_of = ROOT } }
 				owns_state = 102
 				102 = { owner = { is_subject_of = ROOT } }
-				owns_state = 853
-				853 = { owner = { is_subject_of = ROOT } }
 			}
 			is_in_faction = no
 		}
@@ -15966,7 +15934,6 @@ focus_tree = {
 						NOT = { is_claimed_by = ROOT }
 					}
 				}
-				add_state_claim = 103 #DALMATIA
 			}
 			if = {
 				limit = {
@@ -15974,16 +15941,7 @@ focus_tree = {
 						NOT = { is_claimed_by = ROOT }
 					}
 				}
-				add_state_claim = 105 #MONTENEGRO
 			}
-			add_state_claim = 268 #DJIBUTI
-			add_state_claim = 269 #BRITISH SOMALILAND
-			add_state_claim = 735 #SAVOY
-			add_state_claim = 856 #VAR
-			add_state_claim = 185 #CORFU
-			add_state_claim = 1 #CORSICA
-			add_state_claim = 116 #MALTA
-			add_state_claim = 846 #TICINO
 
 			if = {
 				limit = {
@@ -16098,7 +16056,7 @@ focus_tree = {
 		cost = 10
 		available = {
 
-			846 = {
+			849 = {
 				is_owned_and_controlled_by = SWI
 			}
 			is_subject = no
@@ -16174,7 +16132,6 @@ focus_tree = {
 					NOT = { is_claimed_by = ROOT }
 				}
 				hidden_effect ={
-					ROOT = { add_state_claim = PREV }
 				}
 				custom_effect_tooltip = generic_ROOT_gains_claim_tt
 			}
@@ -16227,7 +16184,6 @@ focus_tree = {
 						is_on_continent = europe
 					}
 					ROOT = {
-						add_state_claim = PREV
 					}
 				}
 			}
@@ -16605,6 +16561,7 @@ focus_tree = {
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = { focus = ITA_corpo_di_truppe_volontarie }
 		mutually_exclusive = { focus = ITA_spanish_italian_alliance }
+		available = { date < 1945.1.1 }
 		x = 1
 		y = 2
 		relative_position_id = ITA_corpo_di_truppe_volontarie

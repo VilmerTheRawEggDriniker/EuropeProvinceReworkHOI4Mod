@@ -9,6 +9,10 @@ state={
                 owner = ENG
                 add_core_of = KEN
                 }
+						1961.1.1 = {
+        owner = KEN
+		add_core_of = KEN
+        }
 		buildings = {
 			infrastructure = 0
 

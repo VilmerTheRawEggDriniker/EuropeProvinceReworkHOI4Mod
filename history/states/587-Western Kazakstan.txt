@@ -4,8 +4,15 @@ state={
 	name="STATE_587"
 
 	history={
-		owner = RUS
-		add_core_of = TAJ
+		owner = KYR
+		add_core_of = KYR
+		1900.1.1 = {
+                owner = RUS
+                }
+		1936.1.1 = {
+                add_core_of = TAJ
+                remove_core_of = KYR
+                }
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -24,7 +31,6 @@ state={
 			infrastructure = 0
 
 		}
-		add_core_of = RUS
 
 	}
 

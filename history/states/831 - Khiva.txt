@@ -5,16 +5,19 @@ state={
 
 	history={
 		victory_points = {
-			12465 1 
+			12324 1 
 		}
 		owner = PER
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = UZB
-		add_core_of = KKP
 		add_core_of = KHI
+		1936.1.1 = {
+                add_core_of = UZB
+                add_core_of = KKP
+                remove_core_of = KHI
+                }
 		1600.1.1 = {
 			owner = KHI
 			controller = KHI
@@ -40,7 +43,7 @@ state={
 	}
 
 	provinces={
-		10435 12324 12465 
+		10435 12324 
 	}
 	manpower=258430
 	buildings_max_level_factor=1.000

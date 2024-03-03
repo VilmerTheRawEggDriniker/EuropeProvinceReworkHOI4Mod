@@ -1,6 +1,7 @@
 ﻿capital = 612
-
+1936.1.1 = {
 oob = "MEN_1936"
+}
 
 set_technology = {
 	infantry_weapons = 1

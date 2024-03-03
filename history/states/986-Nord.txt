@@ -4,7 +4,23 @@ state={
 	name="STATE_986"
 
 	history={
-		owner = FRA
+		owner = FLA
+		add_core_of = FLA
+		1600.1.1 = {
+		add_core_of = BEL
+		owner = BEL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BUR
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		}
+		1700.1.1 = {
+		owner=FRA
+		add_core_of = FRA
+		remove_core_of = BEL
+		}
 		victory_points = {
 			11483 20 
 		}
@@ -13,7 +29,6 @@ state={
 			industrial_complex = 3
 
 		}
-		add_core_of = FRA
 	}
 
 	provinces={

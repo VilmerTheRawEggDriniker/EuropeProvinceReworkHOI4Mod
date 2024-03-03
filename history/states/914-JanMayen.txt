@@ -1,0 +1,37 @@
+state={
+	id=914
+	name="STATE_914"
+
+	history={
+		owner = QIN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CHI
+		1913.1.1 = {
+			owner = CHI
+			controller = CHI
+            remove_core_of = QIN
+		}
+        1919.1.1 = {
+			owner = SIK
+			controller = SIK
+		add_core_of = SIK
+        }
+		1952.1.1 = {
+			owner = PRC
+			controller = PRC
+		add_core_of = PRC
+                remove_core_of = SIK
+		}
+	}
+
+	provinces={
+		5042
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

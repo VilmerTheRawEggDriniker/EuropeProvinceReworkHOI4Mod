@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_1812_bookmark"
+		texturefile = "gf/interface/the_invasion_of_russia_1812.dds"
+	}
+}

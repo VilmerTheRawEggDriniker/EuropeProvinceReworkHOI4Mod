@@ -11786,6 +11786,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_ANNEXATION}
 
 		completion_reward = {
+		add_state_core = 329
 			TAN = {	country_event = { id = soviet.14 } }
 		}
 	}
@@ -18217,6 +18218,146 @@ ai_will_do = {
 			GER = {
 				country_event = { id = NSB_soviet_fascist_tsarist.25 hours = 6 }
 			}
+		}
+	}
+		focus = {
+		id = SOV_oblast1
+		icon = GFX_goal_generic_forceful_treaty
+		x = 3
+		y = 2
+		relative_position_id = SOV_claim_on_bessarabia
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = no
+
+		search_filters = {}
+
+		available = {
+		owns_state = 766
+		owns_state = 1146
+		owns_state = 1147
+		}
+
+		completion_reward = {
+		add_stability = -0.01
+		country_event = { 
+		id = ussroblast.4
+		}
+		}
+	}
+			focus = {
+		id = SOV_oblast2
+		icon = GFX_goal_generic_forceful_treaty
+		x = 1
+		y = 2
+		relative_position_id = SOV_claim_on_bessarabia
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = no
+
+		search_filters = {}
+
+		available = {
+		owns_state = 80
+		owns_state = 889
+		}
+
+		completion_reward = {
+		add_stability = -0.01
+		country_event = { 
+		id = ussroblast.3
+		}
+		}
+	}
+			focus = {
+		id = SOV_oblast3
+		icon = GFX_goal_generic_forceful_treaty
+		x = -1
+		y = 2
+		relative_position_id = SOV_claim_on_bessarabia
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = no
+
+		search_filters = {}
+
+		available = {
+					owns_state = 78
+		}
+
+		completion_reward = {
+		add_stability = -0.01
+		country_event = { 
+		id = ussroblast.2
+		}
+		}
+	}
+				focus = {
+		id = SOV_oblast4
+		icon = GFX_goal_generic_forceful_treaty
+		x = -3
+		y = 2
+		relative_position_id = SOV_claim_on_bessarabia
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = no
+
+		search_filters = {}
+
+		available = {
+		owns_state = 834
+		owns_state = 915
+		owns_state = 1226
+		owns_state = 1228
+		}
+
+		completion_reward = {
+		add_stability = -0.01
+				country_event = { 
+		id = ussroblast.1
+		}
+		}
+	}
+					focus = {
+		id = SOV_oblast5
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = SOV_oblast1 }
+		prerequisite = { focus = SOV_oblast2 }
+		prerequisite = { focus = SOV_oblast3 }
+		prerequisite = { focus = SOV_oblast4 }
+		x = 0
+		y = 3
+		relative_position_id = SOV_claim_on_bessarabia
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+		available_if_capitulated = no
+
+		search_filters = {FOCUS_FILTER_ANNEXATION}
+
+		available = {
+		owns_state = 78
+		owns_state = 80
+		owns_state = 889
+		owns_state = 766
+		owns_state = 1146
+		owns_state = 1147
+		}
+
+		completion_reward = {
+		add_stability = 0.05
+				country_event = { 
+		id = ussroblast.5
+		}
 		}
 	}
 }

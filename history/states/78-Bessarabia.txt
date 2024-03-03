@@ -7,26 +7,30 @@ state={
 		add_core_of = MOL
 		owner = MOL
 		1813.1.1 = {
-                add_core_of = RUS
-                owner = RUS
+			add_core_of = RUS
+			owner = RUS
+
 		}
 		1862.1.1 = {
-                add_core_of = ROM
+			add_core_of = ROM
+			remove_core_of = MOL
+
 		}
 		victory_points = {
 			3707 10 
 		}
 		victory_points = {
-			13614 3 
+			6600 3 
 		}
 		1936.1.1 = {
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 2
-			air_base = 2
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				air_base = 2
+
+			}
 
 		}
-                }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
@@ -43,6 +47,7 @@ state={
 			controller = SOV
 			remove_core_of = ROM
 			add_core_of = SOV
+			add_core_of = MOL
 
 		}
 		1993.1.1 = {
@@ -56,9 +61,9 @@ state={
 	}
 
 	provinces={
-		414 565 3577 3707 3724 6600 9683 11686 11705 13589 13592 13593 13595 13599 13605 13607 13612 13614 13616 13621 
+		414 565 3577 3707 3724 6600 9683 11686 11705 13586 13589 13592 13593 13595 13599 13605 13607 13612 13614 13616 13620 13621 
 	}
-	manpower=1600000
+	manpower=1800000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=4.000

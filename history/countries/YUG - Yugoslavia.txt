@@ -1,5 +1,5 @@
 ﻿capital = 107
-
+1936.1.1 = {
 if = {
 	limit = {
 		NOT = {
@@ -35,6 +35,7 @@ if = {
 		set_air_oob = "YUG_1936_air_legacy"
 	}
 }
+}
 
 set_research_slots = 3
 
@@ -65,7 +66,7 @@ recruit_character = YUG_dimitrije_ljotic
 recruit_character = YUG_ivo_lola_ribar
 recruit_character = YUG_peter_ii
 
-
+1936.1.1 = {
 if = {
 	limit = {
 		has_dlc = "Death or Dishonor"
@@ -106,7 +107,11 @@ if = {
 		modifier = BFTB_balkan_pact_enemy
 	}
 }
-
+}
+set_technology = {
+	infantry_weapons = 1
+}
+1936.1.1 = {
 set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
@@ -119,6 +124,8 @@ set_technology = {
 	superior_firepower = 1
 	basic_train = 1
 }
+}
+1936.1.1 = {
 if = {
 	limit = {
 		NOT = { has_dlc = "By Blood Alone" }
@@ -167,6 +174,7 @@ if = {
 		basic_depth_charges = 1
 		coastal_defense_ships = 1
 	}
+}
 }
 
 1939.1.1 = {

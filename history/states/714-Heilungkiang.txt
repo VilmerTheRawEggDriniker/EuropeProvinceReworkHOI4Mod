@@ -7,7 +7,6 @@ state={
 		owner = QIN
 		add_core_of = QIN
 		add_core_of = CHI
-add_claim_by = CHI
 		1900.1.1 = {
                 owner = RUS
 		}
@@ -18,8 +17,6 @@ add_claim_by = CHI
             owner = CHI
 		}
 1919.1.1 = {
-        add_claim_by = PRC
-		add_core_of = PRC
         }
 		1920.1.1 = {
             owner = MAN
@@ -29,6 +26,8 @@ add_claim_by = CHI
 		1946.1.1 = {
 			owner = PRC
 			controller = PRC 
+            add_core_of = PRC
+            remove_core_of = MAN
 		}
 		buildings = {
 			infrastructure = 2

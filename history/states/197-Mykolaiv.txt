@@ -4,15 +4,18 @@ state={
 	name="STATE_197"
 
 	history={
+		1800.1.1 = {
 		victory_points = {
 			11683 10 
+		}
 		}
 		owner = LIT
 		add_core_of = LIT
 		1600.1.1 = {
-			owner = CRI
-                add_core_of = CRI
-                remove_core_of = LIT
+			owner = OTO
+			add_core_of = RUS
+			remove_core_of = LIT
+
 		}
 		1776.1.1 = {
 			owner = RUS
@@ -24,9 +27,11 @@ state={
 		1900.1.1 = {
                 add_core_of = UKR
                 }
+		1800.1.1 = {
 		add_dynamic_modifier = {
 			modifier = large_jewish_community_modifier
 
+		}
 		}
 		buildings = {
 			infrastructure = 3

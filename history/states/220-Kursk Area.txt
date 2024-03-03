@@ -6,15 +6,26 @@ state={
 	state_category = rural
 
 	history={
-		owner = RUS
+		owner = LIT
+		add_core_of = LIT
+		1600.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = LIT
+		remove_core_of = POL
+		}
 		victory_points = {
 			3580 5
 		}
-		buildings = {
+		1936.1.1 = {
+					buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 1
 		}
-		add_core_of = RUS
+		}
+		buildings = {
+			infrastructure = 3 #was: 5
+		}
 		1920.1.1 = {
 		owner = SOV
 		controller = SOV

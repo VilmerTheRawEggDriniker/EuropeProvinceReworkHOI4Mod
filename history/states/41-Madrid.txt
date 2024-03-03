@@ -15,10 +15,17 @@ state={
 		victory_points = {
 			3938 30 
 		}
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 1
 			air_base = 6
+
+		}
+                }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
 
 		}
 		add_core_of = SPR
@@ -26,10 +33,10 @@ state={
 	}
 
 	provinces={
-		977 3794 3938 9767 14475 
+		3938 
 	}
-	manpower=2000000
+	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 	local_supplies=0.000
 }

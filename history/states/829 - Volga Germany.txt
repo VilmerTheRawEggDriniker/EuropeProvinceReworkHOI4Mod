@@ -13,7 +13,6 @@ state={
 			infrastructure = 3
 
 		}
-		add_core_of = VGE
 		add_core_of = RUS
 		1920.1.1 = {
 			owner = SOV

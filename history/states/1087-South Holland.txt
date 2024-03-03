@@ -2,8 +2,24 @@ state={
 	id=1087
 	name="STATE_1087"
 	history={
-		owner = HOL
+		owner = HLL
+		add_core_of = HLL
+		1600.1.1 = {
 		add_core_of = HOL
+		owner = HOL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BRB
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		}
+		1812.1.1 = {
+		owner=FRA
+		}
+		1816.1.1 = {
+		owner = HOL
+		}
 		victory_points = {
 			3211 20 
 		}
@@ -12,7 +28,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
 			dockyard = 3
 			9498 = {
 				naval_base = 10

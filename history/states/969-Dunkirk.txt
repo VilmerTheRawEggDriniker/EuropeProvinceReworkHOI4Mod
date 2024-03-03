@@ -2,7 +2,23 @@ state={
 	id=969
 	name="STATE_969"
 	history={
-		owner = FRA
+		owner = FLA
+		add_core_of = FLA
+		1600.1.1 = {
+		add_core_of = BEL
+		owner = BEL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BUR
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		}
+		1700.1.1 = {
+		owner=FRA
+		add_core_of = FRA
+		remove_core_of = BEL
+		}
 		victory_points = {
 			575 5 
 		}
@@ -14,7 +30,6 @@ state={
 			}
 
 		}
-		add_core_of = FRA
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 6

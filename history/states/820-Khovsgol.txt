@@ -17,8 +17,6 @@ state={
 			1834 1 #Erdenet
 		}
 		add_core_of = MON
-		add_core_of = CHI
-		add_claim_by = CHI
 		1913.1.1 = {
 			owner = MON
 			controller = MON
@@ -27,6 +25,6 @@ state={
 	}
 	manpower=88200
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
 	local_supplies=0.000
 }

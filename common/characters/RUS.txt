@@ -1,0 +1,128 @@
+characters={
+	RUS_catherineii={
+		name=RUS_CHARACTER_CATHERINEII
+		portraits={
+			civilian={
+				large="GFX_portrait_rus_catherineii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp-Romanov}
+			desc = RUS_CATHERINEII_DESC
+			expire="1797.1.1"
+		}
+}
+	RUS_pauli={
+		name=RUS_CHARACTER_PAULI
+		portraits={
+			civilian={
+				large="GFX_portrait_rus_pauli_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp-Romanov}
+			desc = RUS_PAULI_DESC
+			expire="1797.1.1"
+		}
+}
+	RUS_alexanderi={
+		name=RUS_CHARACTER_ALEXANDERI
+		portraits={
+			civilian={
+				large="GFX_portrait_rus_alexanderi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp-Romanov}
+			desc = RUS_ALEXANDERI_DESC
+			expire="1797.1.1"
+		}
+}
+	RUS_konstantinpavlovich={
+		name=RUS_CHARACTER_KONSTANTINPAVLOVICH
+		portraits={
+			civilian={
+				large="GFX_portrait_rus_konstantinpavlovich_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp-Romanov}
+			desc = RUS_KONSTANTINPAVLOVICH_DESC
+			expire="1797.1.1"
+		}
+}
+	RUS_nicholasi={
+		name=RUS_CHARACTER_NICHOLASI
+		portraits={
+			civilian={
+				large="GFX_portrait_rus_nicholasi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp-Romanov}
+			desc = RUS_NICHOLASI_DESC
+			expire="1797.1.1"
+		}
+}
+	RUS_alexanderii={
+		name=RUS_CHARACTER_ALEXANDERII
+		portraits={
+			civilian={
+				large="GFX_portrait_rus_alexanderii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp-Romanov}
+			desc = RUS_ALEXANDERIII_DESC
+			expire="1797.1.1"
+		}
+}
+	RUS_alexanderiii={
+		name=RUS_CHARACTER_ALEXANDERIII
+		portraits={
+			civilian={
+				large="GFX_portrait_rus_alexanderiii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp-Romanov}
+			desc = RUS_ALEXANDERIII_DESC
+			expire="1797.1.1"
+		}
+}
+	RUS_nicholasii={
+		name=RUS_CHARACTER_NICHOLASII
+		portraits={
+			civilian={
+				large="GFX_portrait_rus_nicholasii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp-Romanov}
+			desc = RUS_NICHOLASII_DESC
+			expire="1797.1.1"
+		}
+}
+	RUS_putin={
+		name=RUS_CHARACTER_PUTIN
+		portraits={
+			civilian={
+				large="GFX_portrait_rus_putin_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = RUS_PUTIN_DESC
+			expire="2050.1.1"
+		}
+}
+}
+

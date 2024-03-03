@@ -33,7 +33,7 @@ focus_tree = {
 #		y = 0
 #		relative_position_id = 
 #
-#		cost = 5
+#		cost = 10
 #
 #		ai_will_do = {
 #			factor = 1
@@ -72,7 +72,7 @@ focus_tree = {
 		x = -1
 		y = 0
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -104,7 +104,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_balanced_budget
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -136,7 +136,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_balanced_budget
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -179,7 +179,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_elect_a_king
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -230,7 +230,7 @@ focus_tree = {
 		x = -7
 		y = 4
 
-		cost = 5
+		cost = 10
 
 		cancel_if_invalid = yes
 
@@ -277,7 +277,7 @@ focus_tree = {
 		y = 4
 		will_lead_to_war_with = AUS
 		will_lead_to_war_with = GER #if after Anschluss
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -329,7 +329,7 @@ focus_tree = {
 		x = -4
 		y = 6
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -382,7 +382,7 @@ focus_tree = {
 		x = -4
 		y = 7
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -423,7 +423,7 @@ focus_tree = {
 		x = -5
 		y = 8
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -482,7 +482,7 @@ focus_tree = {
 		x = -5
 		y = 9
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -535,7 +535,7 @@ focus_tree = {
 		x = -5
 		y = 10
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -582,7 +582,7 @@ focus_tree = {
 		x = -3
 		y = 9
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -636,7 +636,7 @@ focus_tree = {
 		x = -3
 		y = 10
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -666,7 +666,7 @@ focus_tree = {
 		x = -5
 		y = 11
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -715,7 +715,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_elect_a_king
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 20
@@ -784,7 +784,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_elect_a_democratic_king
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -850,7 +850,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_elect_a_democratic_king
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -920,7 +920,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_elect_a_democratic_king
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -994,7 +994,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_elect_a_democratic_king
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -1026,7 +1026,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = HUN_elect_a_democratic_king
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -1060,7 +1060,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = HUN_elect_a_democratic_king
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -1106,7 +1106,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_elect_a_king
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 20
@@ -1179,7 +1179,7 @@ focus_tree = {
 		x = 15
 		y = 0
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 100
@@ -1217,7 +1217,7 @@ focus_tree = {
 		x = 15
 		y = 1
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 90
@@ -1251,7 +1251,7 @@ focus_tree = {
 		x = 15
 		y = 8
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -1382,7 +1382,7 @@ focus_tree = {
 		x = 21
 		y = 9
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -1462,7 +1462,7 @@ focus_tree = {
 		x = 21
 		y = 10
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -1502,7 +1502,7 @@ focus_tree = {
 		x = 21
 		y = 11
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -1591,7 +1591,7 @@ focus_tree = {
 			NOT = { GER = { has_government = communism } }
 		}
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -1627,7 +1627,7 @@ focus_tree = {
 		x = 19
 		y = 10
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -1664,7 +1664,7 @@ focus_tree = {
 		x = 19
 		y = 11
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 100
@@ -1724,7 +1724,7 @@ focus_tree = {
 		x = 17
 		y = 10
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -1778,7 +1778,7 @@ focus_tree = {
 		x = 13
 		y = 11
 		will_lead_to_war_with = ROM
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -1843,7 +1843,7 @@ focus_tree = {
 		y = 11
 		will_lead_to_war_with = CZE
 		will_lead_to_war_with = SLO
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -1946,7 +1946,7 @@ focus_tree = {
 		x = 9
 		y = 11
 		will_lead_to_war_with = YUG
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -2068,7 +2068,7 @@ focus_tree = {
 		x = 17
 		y = 12
 		will_lead_to_war_with = SLO
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -2182,14 +2182,13 @@ focus_tree = {
 		x = 23
 		y = 9
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
 		}
 
 		available = {
-			OR = {
 				owns_state = 664
 				owns_state = 73
 				owns_state = 76
@@ -2198,7 +2197,6 @@ focus_tree = {
 				owns_state = 951
 				owns_state = 860
 				owns_state = 45
-			}
 			NOT = { has_global_flag = GER_reformed_austro_hungarian_empire }
 		}
 
@@ -2236,7 +2234,7 @@ focus_tree = {
 		x = 2
 		y = 1
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 30
@@ -2273,7 +2271,7 @@ focus_tree = {
 		prerequisite = { focus = HUN_council_of_peoples_commissars }
 		relative_position_id = HUN_council_of_peoples_commissars
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -2315,7 +2313,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_council_of_peoples_commissars
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -2350,7 +2348,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_council_of_peoples_commissars
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -2388,7 +2386,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_council_of_peoples_commissars
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -2472,7 +2470,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_assassinate_horthy
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -2505,7 +2503,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_council_of_peoples_commissars
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -2546,7 +2544,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_council_of_peoples_commissars
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -2583,7 +2581,7 @@ focus_tree = {
 		x = 22
 		y = 0
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 90
@@ -2620,7 +2618,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_industrial_revitalization
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -2745,7 +2743,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_industrial_revitalization
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -2805,7 +2803,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = HUN_industrial_revitalization
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 90
@@ -2854,7 +2852,7 @@ focus_tree = {
 		x = 1
 		y = 3
 		relative_position_id = HUN_industrial_revitalization
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 90
@@ -2887,7 +2885,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = HUN_industrial_revitalization
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 90
@@ -2929,7 +2927,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_announce_the_gyor_program
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -2992,7 +2990,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_civilian_industry
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -3024,7 +3022,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_civilian_industry
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -3095,7 +3093,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_civilian_industry
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -3133,7 +3131,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_civilian_industry
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 100
@@ -3170,7 +3168,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_announce_the_gyor_program
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -3260,7 +3258,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_domestic_arms_industry
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -3292,7 +3290,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_domestic_arms_industry
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -3358,7 +3356,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_announce_the_gyor_program
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -3395,7 +3393,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_announce_the_gyor_program
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -3464,7 +3462,7 @@ focus_tree = {
 		x = 33
 		y = 0
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -3497,7 +3495,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_secret_rearmament
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -3528,7 +3526,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_secret_rearmament
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -3565,7 +3563,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_secret_rearmament
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -3634,7 +3632,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = HUN_secret_rearmament
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -3675,7 +3673,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = HUN_establish_the_air_force
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 30
@@ -3708,7 +3706,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_indigenous_designs
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -3747,7 +3745,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_indigenous_designs
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -3786,7 +3784,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_indigenous_designs
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -3825,7 +3823,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_indigenous_designs
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -3865,7 +3863,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = HUN_establish_the_air_force
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 30
@@ -3896,7 +3894,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_license_foreign_designs
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -3991,7 +3989,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_license_foreign_designs
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 30
@@ -4088,7 +4086,7 @@ focus_tree = {
 		y = 5
 		relative_position_id = HUN_establish_the_air_force
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 30
@@ -4130,7 +4128,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_bled_agreement
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -4173,7 +4171,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_army_maneuvers
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -4210,7 +4208,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_mobile_focus
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -4247,7 +4245,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = HUN_mobile_focus
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 30
@@ -4286,7 +4284,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_mobile_focus
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -4324,7 +4322,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_mobile_focus
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -4356,7 +4354,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_mobile_focus
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 70
@@ -4395,7 +4393,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_the_botond
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -4432,7 +4430,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_the_botond
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -4474,7 +4472,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_army_maneuvers
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 80
@@ -4511,7 +4509,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_home_defense
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 60
@@ -4548,7 +4546,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_home_defense
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -4585,7 +4583,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_home_defense
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -4674,7 +4672,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_home_defense
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -4715,7 +4713,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_secret_rearmament
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -4754,7 +4752,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_naval_warfare
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -4792,7 +4790,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_naval_warfare
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -4831,7 +4829,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_capital_ships
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 0
@@ -4909,7 +4907,7 @@ focus_tree = {
 		y = 2
 		relative_position_id = HUN_naval_warfare
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -4948,7 +4946,7 @@ focus_tree = {
 		y = 1
 		relative_position_id = HUN_naval_warfare
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -5015,7 +5013,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_naval_warfare
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -5053,7 +5051,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = HUN_naval_warfare
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -5092,7 +5090,7 @@ focus_tree = {
 		y = 3
 		relative_position_id = HUN_naval_warfare
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -5131,7 +5129,7 @@ focus_tree = {
 		y = 4
 		relative_position_id = HUN_naval_warfare
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 50
@@ -5167,7 +5165,7 @@ focus_tree = {
 		x = 13
 		y = 10
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -5219,7 +5217,7 @@ focus_tree = {
 		x = 9
 		y = 10
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -5272,7 +5270,7 @@ focus_tree = {
 		x = 5
 		y = 10
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -5325,7 +5323,7 @@ focus_tree = {
 		x = 1
 		y = 10
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 40
@@ -5379,7 +5377,7 @@ focus_tree = {
         x = -1
 		y = 9
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5417,7 +5415,7 @@ ai_will_do = {
 		x = 3
 		y = 9
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5455,7 +5453,7 @@ ai_will_do = {
 		x = 7
 		y = 9
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5493,7 +5491,7 @@ ai_will_do = {
 		x = 11
 		y = 9
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5531,7 +5529,7 @@ ai_will_do = {
 		x = 15
 		y = 9
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5569,7 +5567,7 @@ ai_will_do = {
 		x = 1
 		y = 9
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5607,7 +5605,7 @@ ai_will_do = {
 		x = 5
 		y = 9
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5645,7 +5643,7 @@ ai_will_do = {
 		x = 9
 		y = 9
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5683,7 +5681,7 @@ ai_will_do = {
 		x = 13
 		y = 9
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5721,7 +5719,7 @@ ai_will_do = {
 		x = 17
 		y = 9
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5759,7 +5757,7 @@ ai_will_do = {
 		x = 0
 		y = 3
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5794,7 +5792,7 @@ ai_will_do = {
 		x = -6
 		y = 3
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5828,7 +5826,7 @@ ai_will_do = {
 		x = 13
 		y = 3
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5862,7 +5860,7 @@ ai_will_do = {
 		x = -8
 		y = 3
 
-		cost = 5
+		cost = 10
 
 ai_will_do = {
             factor = 10
@@ -5925,4 +5923,306 @@ completion_reward = {
 			}
        }
     }
-}
+				focus = {
+		id = HUN_spainitaly1
+		icon = GFX_goal_generic_forceful_treaty
+		x = 1
+		y = 15
+
+		cost = 10
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { add_political_power = 100}
+			}
+							focus = {
+		id = HUN_spainitaly2
+		prerequisite = { focus = HUN_spainitaly1 }
+		mutually_exclusive = { focus = HUN_spainitaly3 }	
+		icon = GFX_goal_generic_forceful_treaty
+		x = -4
+		y = 16
+
+		cost = 10
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { add_political_power = -100 add_stability = -0.15}
+			}
+							focus = {
+		id = HUN_spainitaly3
+		prerequisite = { focus = HUN_spainitaly1 }
+		mutually_exclusive = { focus = HUN_spainitaly2 }
+		icon = GFX_goal_generic_forceful_treaty
+		x = 2
+		y = 16
+
+		cost = 10
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { add_political_power = 100 add_stability =-0.05}
+			}
+
+										focus = {
+		id = HUN_spainitaly4
+		prerequisite = { focus = HUN_spainitaly2 }
+		icon = GFX_goal_generic_forceful_treaty
+		x = -2
+		y = 17
+
+		cost = 10
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = { add_state_claim = 160 add_state_claim = 977 add_state_claim = 856 add_state_claim = 931 add_stability =-0.01}
+			}
+													focus = {
+		id = HUN_spainitaly5
+		prerequisite = { focus = HUN_spainitaly4 }
+		icon = GFX_goal_generic_forceful_treaty
+		x = -4
+		y = 18
+
+		cost = 10
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = { add_state_claim = 1108 add_state_claim = 1101 add_state_claim = 162 add_stability =-0.01}
+			}
+													focus = {
+		id = HUN_spainitaly6
+		prerequisite = { focus = HUN_spainitaly4 }
+		icon = GFX_goal_generic_forceful_treaty
+		x = 0
+		y = 18
+
+		cost = 10
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = { add_state_claim = 1134 add_state_claim = 927 add_stability =-0.01}
+			}
+													focus = {
+		id = HUN_spainitaly7
+		prerequisite = { focus = HUN_spainitaly5 }
+		prerequisite = { focus = HUN_spainitaly6 }
+		prerequisite = { focus = HUN_spainitaly9 }
+		prerequisite = { focus = HUN_spainitaly8 }
+		icon = GFX_goal_generic_forceful_treaty
+		x = -8
+		y = 19
+
+		cost = 10
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = {add_state_claim = 990 add_stability =-0.01}
+			}
+							focus = {
+		id = HUN_spainitaly8
+		icon = GFX_goal_generic_forceful_treaty
+		x = -9
+		y = 15
+
+		cost = 10
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = { add_political_power = 100}
+			}
+													focus = {
+		id = HUN_spainitaly9
+		prerequisite = { focus = HUN_spainitaly2 }
+		icon = GFX_goal_generic_forceful_treaty
+		x = -2
+		y = 18
+
+		cost = 10
+
+ai_will_do = {
+            factor = 10
+            modifier = {
+                factor = 0
+                is_historical_focus_on = yes
+            }
+        }
+
+		available = {
+			is_puppet = no
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+
+	search_filters = { FOCUS_FILTER_ANNEXATION }
+		completion_reward = { add_state_claim = 159 add_state_claim = 1111 add_state_claim = 1110 add_state_claim = 1102 add_stability =-0.01}
+			}
+
+	}

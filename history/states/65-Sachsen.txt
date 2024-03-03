@@ -9,6 +9,17 @@ state={
 	history={
 		owner = SAX
                 add_core_of = SAX
+						1950.1.1 = {
+		owner = DDR
+		add_core_of = DDR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER
@@ -43,7 +54,7 @@ state={
 			3535 15 
 		}
 		victory_points = {
-			9471 5 
+			9471 10 
 		}
 		victory_points = {
 			9441 3 

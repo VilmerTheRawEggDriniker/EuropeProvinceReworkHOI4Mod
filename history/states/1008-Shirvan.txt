@@ -1,40 +1,47 @@
+
 state={
 	id=1008
 	name="STATE_1008"
+
 	history={
-		owner = AZR
-		add_core_of = AZR
-		1600.1.1 = {
-                owner = PER
-                }
-		1836.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-                }
+		owner = POL
+		add_core_of = POL
+		1772.1.1 = {
+			owner = GLL
+                add_core_of = GLL
+
+		}
+		1804.1.1 = {
+			owner = AUS
+			controller = AUS
+
+		}
+		1919.1.1 = {
+			owner = POL
+			controller = POL
+			remove_core_of = RUS
+                        remove_core_of = GLL
+
+		}
+		1900.1.1 = {
+			owner = AUH
+
+		}
 		buildings = {
-			infrastructure = 0
+			infrastructure = 2
+
 		}
-		1920.1.1 = {
-		owner = SOV
-		controller = SOV
-		add_core_of = SOV
-            remove_core_of = RUS
-		}
-		1993.1.1 = {
-		owner = AZR
-		controller = AZR
-		add_core_of = AZR
-            remove_core_of = SOV
+		victory_points = {
+			3410 1 
 		}
 
 	}
 
 	provinces={
-		1450 4545 6763 7554 11645 14052 14055 14060 14061 14067 
+		417 466 3410 6499 14675 14676 14683 14684 14685 14689 
 	}
-	manpower=40000
+	manpower=1000000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
-	impassable = yes
+	state_category=town
 	local_supplies=0.000
 }

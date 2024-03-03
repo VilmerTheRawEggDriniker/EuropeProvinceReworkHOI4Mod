@@ -7,8 +7,22 @@ state={
 	}
 
 	history={
-		owner = AUS
+		owner = SAL
+                add_core_of = SAL
+						1812.1.1 = {
+			owner = BAY
+                add_core_of = BAY
+		}
+		1816.1.1 = {
+			owner = AUS
                 add_core_of = AUS
+                remove_core_of = BAY
+		}
+		1805.1.1 = {
+			owner = AUS
+                add_core_of = AUS
+                remove_core_of = SAL
+		}
 		1900.1.1 = {
 			owner = AUH
                 add_core_of = AUH

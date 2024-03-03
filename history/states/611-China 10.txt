@@ -14,13 +14,14 @@ state={
             owner = MON
 		}
 		1933.1.1 = {
-            add_core_of = PRC
             owner = MEN
+            remove_core_of = MON
 		}
 		1946.1.1 = {
 			owner = PRC
 			controller = PRC 
             remove_core_of = MEN
+		add_core_of = PRC
 		}
 		buildings = {
 			infrastructure = 3

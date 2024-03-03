@@ -1,3 +1,4 @@
+
 state={
 	id=889
 	name="STATE_889"
@@ -6,11 +7,14 @@ state={
 		add_core_of = MOL
 		owner = MOL
 		1813.1.1 = {
-                add_core_of = RUS
-                owner = RUS
+			add_core_of = RUS
+			owner = RUS
+
 		}
 		1862.1.1 = {
-                add_core_of = ROM
+			add_core_of = ROM
+			remove_core_of = MOL
+
 		}
 		victory_points = {
 			3407 3 
@@ -22,27 +26,32 @@ state={
 		1920.1.1 = {
 			owner = ROM
 			controller = ROM
-            add_core_of = UKR
-            remove_core_of = RUS
+			remove_core_of = RUS
+
 		}
 		1946.1.1 = {
 			owner = SOV
 			controller = SOV
-            add_core_of = SOV
-            remove_core_of = ROM
-            remove_core_of = MOL
+			add_core_of = SOV
+			add_core_of = UKR
+			remove_core_of = ROM
+			remove_core_of = MOL
+
 		}
 		1993.1.1 = {
-		owner = UKR
-		controller = UKR
-		add_core_of = UKR
-            remove_core_of = SOV
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = SOV
+
 		}
 
 	}
 
-	provinces={3407 13620 13622 }
-	manpower=400000
+	provinces={
+		3407 13622 
+	}
+	manpower=200000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

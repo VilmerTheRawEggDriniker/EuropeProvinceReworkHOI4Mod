@@ -1,3 +1,4 @@
+
 state={
 	id=1146
 	name="STATE_1146"
@@ -6,17 +7,21 @@ state={
 		add_core_of = MOL
 		owner = MOL
 		1813.1.1 = {
-                add_core_of = RUS
-                owner = RUS
+			add_core_of = RUS
+			owner = RUS
+
 		}
 		1862.1.1 = {
-                add_core_of = ROM
+			add_core_of = ROM
+			remove_core_of = MOL
+
 		}
 		victory_points = {
 			13580 2 
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
 		1920.1.1 = {
 			owner = ROM
@@ -29,6 +34,7 @@ state={
 			controller = SOV
 			remove_core_of = ROM
 			add_core_of = SOV
+			add_core_of = MOL
 
 		}
 		1993.1.1 = {
@@ -42,7 +48,7 @@ state={
 	}
 
 	provinces={
-		13575 13580 13586 
+		13575 13580 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

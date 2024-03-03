@@ -31,20 +31,23 @@ state={
 			10362 5
 		}
             }
-		1800.1.1 = {
-			owner = POR
-			controller = POR
+		1812.1.1 = {
+			owner = ARG
+			controller = ARG
+		add_core_of = ARG
             }
 		1826.1.1 = {
 			owner = BRA
 			controller = BRA
             add_core_of = BRA
+			remove_core_of = ARG
             remove_core_of = SPR
 		}
 		1834.1.1 = {
 			owner = URG
 			controller = URG
             add_core_of = URG
+			remove_core_of = ARG
             remove_core_of = BRA
 		}
 		1900.1.1 = {

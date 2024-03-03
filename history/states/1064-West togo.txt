@@ -12,8 +12,13 @@ state={
 			owner = ENG
 			controller = ENG
                 	add_core_of = GHA
+					remove_core_of = TOG
 
 		}
+				1960.1.1 = {
+                owner = GHA
+		add_core_of = GHA
+                }
 		buildings = {
 			infrastructure = 0
 		}

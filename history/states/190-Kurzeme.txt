@@ -10,13 +10,18 @@ state={
 		victory_points = {
 			3296 1 
 		}
-		owner = LAT
+		owner = LIV
+		add_core_of = LIV
+		1900.1.1 = {
+		add_core_of = LAT
+		}
 		1600.1.1 = {
                 owner = POL
                 }
 		1800.1.1 = {
                 owner = RUS
                 add_core_of = RUS
+				remove_core_of = LIV
                 }
 		buildings = {
 			infrastructure = 2
@@ -26,8 +31,7 @@ state={
 			}
 
 		}
-		add_core_of = LAT
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = LAT
 			controller = LAT
 			add_core_of = LAT

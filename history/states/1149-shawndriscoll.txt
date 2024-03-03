@@ -7,17 +7,13 @@ state={
 		1500.1.1 = {
 			owner = OTO
 		}
-		1822.1.1 = {
+		1800.1.1 = {
 			add_core_of = GRE
+		remove_core_of = CYP
 		}
 		1878.1.1 = {
 		owner = ENG
-		}
-		1961.1.1 = {
-			owner = CYP
-			controller = CYP
-			remove_core_of = YUG
-
+		add_core_of = CYP
 		}
 		buildings = {
 			infrastructure = 1

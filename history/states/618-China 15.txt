@@ -4,26 +4,23 @@ state={
 	name="STATE_618" # Dzungaria
 	manpower = 670800
 
-	state_category = rural
+	state_category =pastoral
 
 	history={
 		owner = QIN
-		add_core_of = SIK
 		add_core_of = CHI
-            add_claim_by = CHI
 		1910.1.1 = {
 			owner = CHI
 			controller = CHI
             remove_core_of = AUH
 		}
         1919.1.1 = {
-        add_claim_by = PRC
-		add_core_of = PRC
         }
 		1920.1.1 = {
 			owner = SIK
 			controller = SIK
             remove_core_of = AUH
+		add_core_of = SIK
 		}
 		1946.1.1 = {
 			owner = CHI
@@ -34,6 +31,8 @@ state={
 			owner = PRC
 			controller = PRC
             remove_core_of = AUH
+		add_core_of = PRC
+                remove_core_of = SIK
 		}
 		buildings = {
 			infrastructure = 2

@@ -6,6 +6,17 @@ state={
 	history={
 		owner = HES
                 add_core_of = HES
+								1950.1.1 = {
+		owner = WGR
+		add_core_of = WGR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER
@@ -36,7 +47,7 @@ state={
 	provinces={
 		3524 6549 13491 
 	}
-	manpower=100000
+	manpower=188500
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

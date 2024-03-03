@@ -8,10 +8,17 @@ state={
             add_dynamic_modifier = {
 			modifier = large_jewish_community_modifier
 		}
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 			air_base = 4
+
+		}
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
 
 		}
 		victory_points = {

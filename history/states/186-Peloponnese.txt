@@ -13,7 +13,25 @@ state={
 		victory_points = {
 			11965 1 
 		}
+		owner = MEA
+		1600.1.1 = {
+		owner = OTO
+		}
+		1700.1.1 = {
+		owner = VNT
+		add_core_of = VNT
+		remove_core_of = MEA
+		}
+		1715.1.1 = {
+		owner = OTO
+		}
+		1800.1.1 = {
+		add_core_of = GRE
+		remove_core_of = VNT
+		}
+		1836.1.1 = {
 		owner = GRE
+		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 2
@@ -27,7 +45,7 @@ state={
 			}
 
 		}
-		add_core_of = GRE
+		add_core_of = MEA
 
 	}
 

@@ -1,10 +1,52 @@
 ﻿capital = 195
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
-
+1762.1.1 = {
+recruit_character=RUS_catherineii
+promote_character=RUS_catherineii
+}
+1797.1.1 = {
+recruit_character=RUS_pauli
+promote_character=RUS_pauli
+retire_character=RUS_catherineii
+}
+1801.1.1 = {
+recruit_character=RUS_alexanderi
+promote_character=RUS_alexanderi
+retire_character=RUS_pauli
+}
+1825.1.1 = {
+recruit_character=RUS_konstantinpavlovich
+promote_character=RUS_konstantinpavlovich
+retire_character=RUS_alexanderi
+}
+1826.1.1 = {
+recruit_character=RUS_nicholasi
+promote_character=RUS_nicholasi
+retire_character=RUS_konstantinpavlovich
+}
+1855.1.1 = {
+recruit_character=RUS_alexanderii
+promote_character=RUS_alexanderii
+retire_character=RUS_nicholasi
+}
+1881.1.1 = {
+recruit_character=RUS_alexanderiii
+promote_character=RUS_alexanderiii
+retire_character=RUS_alexanderii
+}
+1894.1.1 = {
+recruit_character=RUS_nicholasii
+promote_character=RUS_nicholasii
+retire_character=RUS_alexanderiii
+}
+2000.1.1 = {
+recruit_character=RUS_putin
+promote_character=RUS_putin
+retire_character=RUS_nicholasii
+}
 set_convoys = 100
 
 
@@ -66,12 +108,90 @@ set_popularities = {
 	fascism = 33
 	neutrality = 50
 }
-
+1789.1.1 = {
+		if = {
+		limit = { has_start_date > 1788.1.1 has_start_date < 1800.1.1 }
+	set_autonomy = {
+        target = GEO
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	    }
+	}
+}
+1800.1.1 = {
+		if = {
+		limit = {has_start_date > 1799.1.1 has_start_date < 1801.1.1 }
+	set_autonomy = {
+        target = GEO
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	    }
+	}
+}
+1789.1.1 = {
+			if = {
+		limit = {has_start_date > 1788.1.1 has_start_date < 1800.1.1 }
+add_ideas = {
+	russian_jewry alleged_backwardness
+}
+}
+}
 1815.1.1 = {
+			if = {
+		limit = {has_start_date > 1814.1.1 has_start_date < 1919.01.01 }
 add_ideas = {
 	russians_in_paris
 }
 }
+}
+
+
+1444.11.11 = {
+set_party_name = { ideology = neutrality long_name = RUS_RUR_neutrality_party_long name = RUS_RUR_neutrality_party }
+}
+1600.1.1 = {
+set_party_name = { ideology = neutrality long_name = RUS_GOD_neutrality_party_long name = RUS_GOD_neutrality_party }
+}
+1700.1.1 = {
+set_party_name = { ideology = neutrality long_name = RUS_ROM_neutrality_party_long name = RUS_ROM_neutrality_party }
+}
+1715.1.1 = {
+set_party_name = { ideology = neutrality long_name = RUS_ROS_neutrality_party_long name = RUS_ROS_neutrality_party }
+}
+2000.1.1 = {
+set_party_name = { ideology = neutrality long_name = RUS_federation_neutrality_party_long name = RUS_federation_neutrality_party }
+}
+2000.1.1 = {
+set_party_name = { ideology = communism long_name = RUS_federation_communism_party_long name = RUS_federation_communism_party }
+}
+2000.1.1 = {
+set_party_name = { ideology = democratic long_name = RUS_federation_democratic_party_long name = RUS_federation_democratic_party }
+}
+2000.1.1 = {
+set_party_name = { ideology = fascism long_name = RUS_federation_fascism_party_long name = RUS_federation_fascism_party }
+}
+1721.1.1 = {
+set_cosmetic_tag = RUS_empire # 
+}
+2000.1.1 = {
+set_cosmetic_tag = RUS_federation #  russian federation
+}
+1900.1.1 = {
+				if = {
+		limit = {has_start_date > 1899.1.1 has_start_date < 1919.1.1 }
+    set_autonomy = {
+        target = KHI
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+    set_autonomy = {
+        target = BUK
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.2
+	}
+				}
+}
+
 
 
 
@@ -116,5 +236,5 @@ add_ideas = {
 		relation = guarantee
 		active = yes
 	}
-
+}
 

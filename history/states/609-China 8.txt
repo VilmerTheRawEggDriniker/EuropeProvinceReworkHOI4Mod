@@ -13,7 +13,6 @@ state={
             owner = CHI
 		}
 		1933.1.1 = {
-            add_core_of = PRC
 		}
 		1936.1.1 = {
             owner = JAP
@@ -21,6 +20,7 @@ state={
 		1946.1.1 = {
 			owner = PRC
 			controller = PRC 
+		add_core_of = PRC
 		}
 		victory_points = {
 			12043 3

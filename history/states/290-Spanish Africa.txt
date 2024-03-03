@@ -13,12 +13,6 @@ state={
 			owner = SPR
 			controller = SPR
             }
-		1920.1.1 = {
-            add_core_of = RIF
-            }
-		1950.1.1 = {
-            remove_core_of = RIF
-		}
 		1970.1.1 = {
 			owner = MOR
 			controller = MOR
@@ -30,9 +24,15 @@ state={
 		victory_points = {
 			7215 1 
 		}
-		buildings = {
+		1936.1.1 = {
+					buildings = {
 			infrastructure = 1
 			air_base = 3
+
+		}
+		}
+		buildings = {
+			infrastructure = 1
 
 		}
 
@@ -41,7 +41,7 @@ state={
 	provinces={
 		4199 7215 12087 13988 13989 13990 13991 13992 13993 
 	}
-	manpower=666099
+	manpower=566099
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

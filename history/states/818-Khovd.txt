@@ -14,8 +14,6 @@ state={
 			7843 1 #Ulaangom
 		}
 		add_core_of = MON
-		add_core_of = CHI
-		add_claim_by = CHI
 		1913.1.1 = {
 			owner = MON
 			controller = MON

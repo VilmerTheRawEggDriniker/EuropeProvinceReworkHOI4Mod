@@ -6,6 +6,17 @@ state={
 	history={
 		owner = MEK
                 add_core_of = MEK
+						1950.1.1 = {
+		owner = DDR
+		add_core_of = DDR
+		remove_core_of = GER
+		}
+		2000.1.1 = {
+		owner = GER
+		add_core_of = GER
+		remove_core_of = DDR
+		remove_core_of = WGR
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER
@@ -30,6 +41,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+						dockyard = 1
 			321 = {
 				naval_base = 6
 
@@ -41,6 +53,7 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
+						dockyard = 1
 			321 = {
 				naval_base = 6
 

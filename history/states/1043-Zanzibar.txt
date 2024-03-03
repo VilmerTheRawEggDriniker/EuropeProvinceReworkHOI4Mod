@@ -31,6 +31,10 @@ state={
             remove_core_of = KEN
             add_core_of = TZN
 		}
+						1961.1.1 = {
+        owner = TZN
+		add_core_of = TZN
+        }
 	}
 
 	provinces={

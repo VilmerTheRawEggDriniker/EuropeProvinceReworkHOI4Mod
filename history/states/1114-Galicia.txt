@@ -11,7 +11,20 @@ state={
 		owner = POL
 		add_core_of = POL
 		1772.1.1 = {
+			owner = GLL
+                add_core_of = GLL
+
+		}
+		1804.1.1 = {
 			owner = AUS
+			controller = AUS
+
+		}
+		1919.1.1 = {
+			owner = POL
+			controller = POL
+			remove_core_of = RUS
+                        remove_core_of = GLL
 
 		}
 		1900.1.1 = {
@@ -19,29 +32,23 @@ state={
 
 		}
 		victory_points = {
-			6499 1 
+			11413 3 
 		}
 		victory_points = {
-			442 3 
+			14704 1 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 
 		}
-		1920.1.1 = {
-			owner = POL
-			controller = POL
-			remove_core_of = RUS
-
-		}
 
 	}
 
 	provinces={
-		417 442 466 3410 6499 11398 11413 11507 13467 13469 14675 14676 14683 14684 14689 14690 14699 14701 14702 14704 14711 14713 14718 
+		442 11398 11413 11507 13467 13469 14690 14699 14701 14702 14704 14713 14718 
 	}
-	manpower=3000000
+	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

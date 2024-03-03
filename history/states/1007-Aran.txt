@@ -4,46 +4,35 @@ state={
 	name="STATE_1007"
 
 	history={
-		owner = AZR
-		add_core_of = AZR
-		1600.1.1 = {
-			owner = PER
-
+		owner = VAL
+		add_core_of = VAL
+		buildings = {infrastructure = 2 industrial_complex = 1}
+		1800.1.1 = {
+		owner = SWI
+		add_core_of = SWI
+		remove_core_of = VAL
+		remove_core_of = NEU
 		}
-		1836.1.1 = {
-			owner = RUS
-			add_core_of = RUS
-
+    	1812.1.1 = {
+		owner = FRA
+		add_core_of = FRA
+		remove_core_of = SWI
+		remove_core_of = NEU
+		}
+		1816.1.1 = {
+		owner = SWI
+		add_core_of = SWI
+		remove_core_of = FRA
 		}
 		victory_points = {
-			11674 1 
+			9587 1 
 		}
-		buildings = {
-			infrastructure = 2
-
-		}
-		1920.1.1 = {
-			owner = SOV
-			controller = SOV
-			add_core_of = SOV
-			remove_core_of = RUS
-
-		}
-		1993.1.1 = {
-			owner = AZR
-			controller = AZR
-			add_core_of = AZR
-			remove_core_of = SOV
-
-		}
-
 	}
-
 	provinces={
-		1467 1530 1539 1610 4477 4605 4614 11674 11704 14016 14019 14024 14034 14035 14036 14042 14043 14044 14045 14046 14049 14051 14057 14058 
+		636 3612 9587 14564 
 	}
-	manpower=1000000
+	manpower=150000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pastoral
 	local_supplies=0.000
 }

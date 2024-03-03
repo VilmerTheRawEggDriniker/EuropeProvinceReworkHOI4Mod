@@ -32,6 +32,7 @@ ideas = {
                 NOT = { tag = CUB }
                 NOT = { tag = HAI }
                 NOT = { tag = DOM }
+                NOT = { tag = PRC }
 			}
 
 			modifier = {
@@ -69,6 +70,7 @@ ideas = {
                 NOT = { tag = CUB }
                 NOT = { tag = HAI }
                 NOT = { tag = DOM }
+                NOT = { tag = PRC }
 				if = {
 					limit = {
 						original_tag = HUN
@@ -129,6 +131,7 @@ ideas = {
                 NOT = { tag = CUB }
                 NOT = { tag = HAI }
                 NOT = { tag = DOM }
+                NOT = { tag = PRC }
 				if = {
 					limit = {
 						original_tag = AST
@@ -236,6 +239,7 @@ ideas = {
                 NOT = { tag = CUB }
                 NOT = { tag = HAI }
                 NOT = { tag = DOM }
+                NOT = { tag = PRC }
 				OR = {
 					has_government = fascism
 					has_government = communism
@@ -397,6 +401,7 @@ ideas = {
                 NOT = { tag = CUB }
                 NOT = { tag = HAI }
                 NOT = { tag = DOM }
+                NOT = { tag = PRC }
 				OR = {
 					has_government = fascism
 					has_government = communism
@@ -562,6 +567,7 @@ ideas = {
                 NOT = { tag = CUB }
                 NOT = { tag = HAI }
                 NOT = { tag = DOM }
+                NOT = { tag = PRC }
 				has_war = yes
 				OR = {
 					has_war_support > 0.7
@@ -712,6 +718,7 @@ ideas = {
                 NOT = { tag = CUB }
                 NOT = { tag = HAI }
                 NOT = { tag = DOM }
+                NOT = { tag = PRC }
 				has_war = yes
 				OR = {
 					has_war_support > 0.85

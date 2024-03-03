@@ -7,11 +7,19 @@ state={
 	}
 
 	history={
-		owner = CZE
-		add_core_of = CZE
-		1600.1.1 = {
+		owner = BOH
+		add_core_of = BOH
+		1804.1.1 = {
 			owner = AUS
                 add_core_of = AUS
+		}
+		1919.1.1 = {
+			owner = CZE
+			controller = CZE
+                        add_core_of = CZE
+			remove_core_of = AUH
+                        remove_core_of = BOH
+
 		}
 		1900.1.1 = {
 			owner = AUH
@@ -46,12 +54,6 @@ state={
 			industrial_complex = 2
 
 		}
-		1920.1.1 = {
-			owner = CZE
-			controller = CZE
-			remove_core_of = AUH
-
-		}
 		1939.3.14 = {
 			owner = GER
 			controller = GER
@@ -70,7 +72,7 @@ state={
 	provinces={
 		445 494 583 3462 6418 6440 6592 9414 9421 9429 9541 9569 11542 11556 14674 14679 14680 14686 14691 14695 14696 14698 14703 14712 14715 14716 
 	}
-	manpower=5000000
+	manpower=4492600
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

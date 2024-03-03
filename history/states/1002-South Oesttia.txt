@@ -9,7 +9,11 @@ state={
 		1600.1.1 = {
                 owner = PER
                 }
-		1789.1.1 = {
+				1789.1.1 = {
+                owner = GEO
+                add_core_of = GEO
+                }
+		1801.1.1 = {
                 owner = RUS
                 add_core_of = RUS
                 }

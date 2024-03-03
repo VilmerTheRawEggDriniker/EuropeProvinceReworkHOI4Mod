@@ -23,7 +23,6 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = ART
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -32,9 +31,9 @@ state={
 
 		}
 		1993.1.1 = {
-			owner = AZR
-			controller = AZR
-			add_core_of = AZR
+			owner = ART
+			controller = ART
+			add_core_of = ART
 			remove_core_of = SOV
 
 		}

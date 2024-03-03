@@ -4,6 +4,9 @@ state={
 	name="STATE_952"
 
 	history={
+		victory_points = {
+			9890 1
+		}
 		owner = SER
 		add_core_of = SER
 		1500.1.1 = {
@@ -45,7 +48,7 @@ state={
 	}
 
 	provinces={
-		9890 13823 
+		9890 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

@@ -18,7 +18,6 @@ state={
             remove_core_of = QIN
 		}
 		1933.1.1 = {
-            add_core_of = PRC
 		}
 		1950.1.1 = {
             remove_core_of = GXC
@@ -27,13 +26,23 @@ state={
 			owner = PRC
 			controller = PRC
             remove_core_of = GXC
+            add_core_of = PRC
 		}
 		victory_points = {
 			10062 10 
 		}
-		buildings = {
+				1936.1.1 = {
+							buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 1
+			10062 = {
+				naval_base = 6
+				coastal_bunker = 1
+			}
+		}
+				}
+		buildings = {
+			infrastructure = 3 #was: 5
 			10062 = {
 				naval_base = 6
 				coastal_bunker = 1

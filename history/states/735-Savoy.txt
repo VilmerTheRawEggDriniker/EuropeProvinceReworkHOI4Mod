@@ -4,22 +4,28 @@ state={
 	name="STATE_735"
 
 	history={
-		owner = SPM
+		owner = SAV
+                add_core_of = SAV
+		1720.1.1 = {
                 owner = SPM
                 add_core_of = SPM
+		remove_core_of = SAV
+        }
         1800.1.1 = {
                 owner = FRA
                 add_core_of = FRA
+		remove_core_of = SPM
         }
         1815.1.1 = {
                 owner = SPM
                 add_core_of = SPM
+		remove_core_of = FRA
         }
         1871.1.1 = {
                 owner = FRA
                 add_core_of = FRA
         }
-        1920.1.1 = {
+        1919.1.1 = {
                 remove_core_of = SPM
                 remove_core_of = PAP
                 remove_core_of = TOS

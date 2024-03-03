@@ -1,16 +1,40 @@
+
 state={
 	id=1192
 	name="STATE_1192"
+
 	history={
-		owner = AUS
-                add_core_of = AUS
+		owner = BAY
+		add_core_of = BAY
+		1812.1.1 = {
+			owner = BAY
+			add_core_of = BAY
+
+		}
+		1816.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = BAY
+
+		}
+		1789.1.1 = {
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = BAY
+
+		}
 		1900.1.1 = {
 			owner = AUH
-                add_core_of = AUH
-                remove_core_of = AUS
+			add_core_of = AUH
+			remove_core_of = AUS
+
 		}
 		buildings = {
 			infrastructure = 1
+
+		}
+		victory_points = {
+			6708 1 
 		}
 		1920.1.1 = {
 			owner = AUS
@@ -36,9 +60,9 @@ state={
 	}
 
 	provinces={
-		6708
+		3703 6708 14636 
 	}
-	manpower=27583
+	manpower=227583
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

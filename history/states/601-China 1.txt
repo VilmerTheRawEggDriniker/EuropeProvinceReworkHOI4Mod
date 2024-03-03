@@ -8,16 +8,12 @@ state={
 	history={
 		owner = QIN
 		add_core_of = TIB
-		add_core_of = CHI
-            add_claim_by = CHI
 		1913.1.1 = {
 			owner = TIB
 			controller = TIB
             remove_core_of = QIN
 		}
         1919.1.1 = {
-        add_claim_by = PRC
-		add_core_of = PRC
         }
 		1952.1.1 = {
 			owner = PRC
@@ -45,7 +41,7 @@ state={
 	}
 	manpower=368200
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 
 	local_supplies=1.0 
 }

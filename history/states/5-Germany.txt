@@ -7,13 +7,21 @@ state={
 		victory_points = {
 			6375 3 
 		}
-		owner = PRE
-                add_core_of = PRE
+		owner = TEU
+        add_core_of = TEU
+												1950.1.1 = {
+		owner = POL
+		add_core_of = POL
+		remove_core_of = GER
+		remove_claim_by=GER
+		}
 		1500.1.1 = {
-                owner = POL
-                add_core_of = POL
-                remove_core_of = PRE
-                }
+			owner = POL
+			add_core_of = POL
+			remove_core_of = PRE
+			remove_core_of = TEU
+
+		}
 		1789.1.1 = {
                 owner = PRE
                 add_core_of = PRE

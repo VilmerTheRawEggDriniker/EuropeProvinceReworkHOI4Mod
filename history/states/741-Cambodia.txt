@@ -21,6 +21,10 @@ state={
 
 		}
                 }
+						1946.1.1 = {
+        owner = CAM
+		add_core_of = CAM
+        }
 		buildings = {
 			infrastructure = 0
 		}

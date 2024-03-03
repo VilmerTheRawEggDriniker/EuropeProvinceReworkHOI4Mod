@@ -4,12 +4,16 @@ state={
 	name="STATE_321"
 	manpower = 533952
 
-	state_category = enclave
+	state_category = pastoral
 
 	history={
 		owner = RAJ
 		1510.1.1 = {
                 owner = POR
+                }
+						1990.1.1 = {
+                owner = RAJ
+		add_core_of = RAJ
                 }
 		add_core_of = RAJ
             add_dynamic_modifier = {

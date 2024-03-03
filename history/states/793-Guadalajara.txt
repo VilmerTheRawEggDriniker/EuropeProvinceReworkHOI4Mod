@@ -10,7 +10,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 
 		}
 		add_core_of = SPR
@@ -20,7 +19,7 @@ state={
 	provinces={
 		738 9703 11688 
 	}
-	manpower=276003
+	manpower=364147
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -2,11 +2,26 @@ state={
 	id=1176
 	name="STATE_1176"
                 history={
-		owner = FRA
+		owner = BUR
+		add_core_of = BUR
+		1600.1.1 = {
+		add_core_of = BEL
+		owner = BEL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BUR
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		}
+		1700.1.1 = {
+		owner=FRA
+		add_core_of = FRA
+		remove_core_of = BEL
+		}
 		buildings = {
 			infrastructure = 3
 		}
-		add_core_of = FRA
 	}
 	provinces={
 		3536 11606 13483 

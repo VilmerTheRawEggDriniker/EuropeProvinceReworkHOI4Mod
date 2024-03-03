@@ -4,7 +4,12 @@ state={
 	name="STATE_134"
 
 	history={
-		owner = ENG
+		owner = IRE
+	    1660.1.1 = {
+			owner = ENG
+			controller = ENG
+
+		}
 		1920.1.1 = {
 			owner = IRE
 			controller = IRE
@@ -25,7 +30,7 @@ state={
 	}
 
 	provinces={
-		3396 9255 9303 9321 9369 11238 11287 11371 
+		337 3396 9255 9303 9321 9369 11238 11287 11371 
 	}
 	manpower=508500
 	buildings_max_level_factor=1.000

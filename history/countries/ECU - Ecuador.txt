@@ -1,8 +1,13 @@
 ﻿capital = 305
-
+1936.1.1 = {
 oob = "ECU_1936"
+}
 
 # Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+1936.1.1 = {
 set_technology = {
 	infantry_weapons = 1
 	fuel_silos = 1
@@ -17,7 +22,7 @@ if = {
 		
 	}
 }
-
+}
 add_ideas = {
     disarmed_nation
 }

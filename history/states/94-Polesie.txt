@@ -5,20 +5,23 @@ state={
 
 	history={
 		owner = LIT
-                add_core_of = LIT
+		add_core_of = LIT
 		1600.1.1 = {
-                add_core_of = POL
-                owner = POL
-                }
+			add_core_of = POL
+			owner = POL
+
+		}
 		1800.1.1 = {
-		add_core_of = RUS
-                owner = RUS
-                remove_core_of = POL
-                remove_core_of = LIT
-                }
+			add_core_of = RUS
+			owner = RUS
+			remove_core_of = POL
+			remove_core_of = LIT
+
+		}
 		1900.1.1 = {
-                add_core_of = BLR
-                }
+			add_core_of = BLR
+
+		}
 		add_dynamic_modifier = {
 			modifier = large_jewish_community_modifier
 
@@ -34,19 +37,21 @@ state={
 			560 1 
 		}
 		victory_points = {
-		        11528 1 
+			11528 1 
 		}
 		1920.1.1 = {
 			owner = POL
 			controller = POL
 			add_core_of = SOV
+			add_core_of = BLR
+                        remove_core_of = POL
 			remove_core_of = RUS
-
 		}
 		1945.1.1 = {
 			owner = SOV
 			controller = SOV
 			add_core_of = SOV
+                        add_core_of = BLR
 			remove_core_of = RUS
 
 		}
@@ -61,7 +66,7 @@ state={
 	}
 
 	provinces={
-		535 560 3392 3556 6280 6306 6415 6520 6546 6579 11285 11503 11528 11543 
+		535 560 3392 3556 6280 6306 6415 6546 6579 11285 11441 11503 11528 11543 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

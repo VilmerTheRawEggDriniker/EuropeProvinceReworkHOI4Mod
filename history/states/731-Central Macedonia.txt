@@ -5,12 +5,22 @@ state={
 
 	history={
 		owner = OTO
+		1936.1.1 = {
 		buildings = {
 			infrastructure = 1
 			air_base = 1
 
 		}
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BYZ
+		1800.1.1 = {
 		add_core_of = GRE
+		remove_core_of = BYZ
+		}
 		1914.1.1 = {
 			owner = GRE
 			controller = GRE

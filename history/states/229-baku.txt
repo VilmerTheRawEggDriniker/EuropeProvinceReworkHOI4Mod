@@ -10,47 +10,56 @@ state={
 		owner = AZR
 		add_core_of = AZR
 		1600.1.1 = {
-                owner = PER
-                }
-		1836.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-                }
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			fuel_silo = 1
-			air_base = 1
+			owner = PER
 
 		}
-                }
+		1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				fuel_silo = 1
+				air_base = 1
+
+			}
+
+		}
 		victory_points = {
 			7661 10 
 		}
+		victory_points = {
+			11674 1 
+		}
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
 		1920.1.1 = {
-		owner = SOV
-		controller = SOV
-		add_core_of = SOV
-            remove_core_of = RUS
+			owner = SOV
+			controller = SOV
+			add_core_of = SOV
+			remove_core_of = RUS
+
 		}
 		1993.1.1 = {
-		owner = AZR
-		controller = AZR
-		add_core_of = AZR
-            remove_core_of = SOV
+			owner = AZR
+			controller = AZR
+			add_core_of = AZR
+			remove_core_of = SOV
+
 		}
 
 	}
 
 	provinces={
-		1536 4458 7495 7661 14023 14028 14037 14047 14053 14063
+		1450 1467 1530 1536 1539 1610 4458 4473 4477 4545 4605 4614 6763 7495 7554 7661 11645 11674 11704 12434 14014 14016 14017 14019 14021 14023 14024 14027 14028 14034 14035 14036 14037 14042 14043 14044 14045 14046 14047 14049 14051 14052 14053 14055 14057 14058 14060 14061 14063 14067 
 	}
-	manpower=2000000
+	manpower=3120000
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=7.000

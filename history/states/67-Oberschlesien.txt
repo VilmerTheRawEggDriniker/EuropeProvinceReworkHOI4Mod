@@ -14,17 +14,20 @@ state={
 		victory_points = {
 			13390 3 
 		}
-		owner = CZE
-                add_core_of = CZE
-		1600.1.1 = {
-			owner = AUS
-                add_core_of = AUS
+		owner = SIL
+                add_core_of = SIL
+												1950.1.1 = {
+		owner = POL
+		add_core_of = POL
+		remove_core_of = GER
 		}
 		1748.1.1 = {
 			owner = PRE
                 add_core_of = PRE
                 remove_core_of = AUS
                 remove_core_of = CZE
+                remove_core_of = BOH
+                remove_core_of = SIL
 		}
 		1871.1.1 = {
                 add_core_of = GER

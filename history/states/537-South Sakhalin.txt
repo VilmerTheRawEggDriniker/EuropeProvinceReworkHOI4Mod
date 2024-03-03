@@ -9,12 +9,12 @@ state= {
 	state_category = rural
 
 	history= {
-		owner = JAP
+		owner = RUS
 	      add_core_of = RUS
-		add_core_of = FER
-		add_core_of = JAP
 		1920.1.1 = {
 		add_core_of = SOV
+		add_core_of = JAP
+		owner = JAP
             remove_core_of = RUS
 		}
 		1946.1.1 = {

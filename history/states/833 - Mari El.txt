@@ -12,8 +12,10 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = MEL
 		add_core_of = RUS
+		1936.1.1 = {
+		add_core_of = MEL
+                }
 		1920.1.1 = {
 		owner = SOV
 		controller = SOV

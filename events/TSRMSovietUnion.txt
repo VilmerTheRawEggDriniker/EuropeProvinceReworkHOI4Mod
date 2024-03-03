@@ -1,0 +1,293 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = ussroblast
+
+# Act 1935
+country_event = {
+	id = ussroblast.1
+	title = "Fate of the Moldovian ASSR"
+	desc = ussroblast.1.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+	immediate = {
+		
+	}
+fire_only_once = yes
+	option = { # 
+		name = "Split the Transnistrian ASSR (Historical)"
+		ai_chance = { factor = 90 }
+		MOL = { 
+        add_state_core = 834
+        add_state_core = 1226
+        remove_state_core = 915
+        remove_state_core = 1228
+		}
+        UKR = { 
+        remove_state_core = 834
+        remove_state_core = 1226
+        add_state_core = 915
+        add_state_core = 1228
+		}
+        
+	}
+	option = { # 
+		name = "Make Transnistria part of the Moldovan SSR"
+		ai_chance = { factor = 6 }
+        MOL = { 
+        add_state_core = 834
+        add_state_core = 1226
+        add_state_core = 915
+        add_state_core = 1228
+		}
+        UKR = { 
+        remove_state_core = 834
+        remove_state_core = 1226
+        remove_state_core = 915
+        remove_state_core = 1228
+		}
+	}
+	option = { # 
+		name = "Make Transnistria part of the Ukrainian SSR"
+		ai_chance = { factor = 2 }
+		MOL = { 
+        remove_state_core = 834
+        remove_state_core = 1226
+        remove_state_core = 915
+        remove_state_core = 1228
+		}
+        UKR = { 
+        add_state_core = 834
+        add_state_core = 1226
+        add_state_core = 915
+        add_state_core = 1228
+		}
+	}
+	option = { # 
+		name = "Make Transnistria part of the Russian SSR"
+		ai_chance = { factor = 2 }
+        add_stability = -0.06
+        MOL = { 
+        remove_state_core = 834
+        remove_state_core = 1226
+        remove_state_core = 915
+        remove_state_core = 1228
+		}
+        UKR = { 
+        remove_state_core = 834
+        remove_state_core = 1226
+        remove_state_core = 915
+        remove_state_core = 1228
+		}
+        SOV = { 
+        add_state_core = 834
+        add_state_core = 1226
+        add_state_core = 915
+        add_state_core = 1228
+		}
+		}
+	}
+
+
+
+
+
+    country_event = {
+	id = ussroblast.2
+	title = "Establish the Moldovan SSR"
+	desc = ussroblast.2.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+	immediate = {
+		
+	}
+fire_only_once = yes
+	option = { # 
+		name = "Establish the Moldovan SSR"
+		ai_chance = { factor = 100 }
+		MOL = { 
+        add_state_core = 78
+		MOL={set_politics = { ruling_party = communism}}
+		}
+		}
+	}
+
+
+    # Act 1935
+country_event = {
+	id = ussroblast.3
+	title = "Fate of Chernivtsi"
+	desc = ussroblast.3.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+	immediate = {
+		
+	}
+fire_only_once = yes
+	option = { # 
+		name = "Give the Ukrainian SSR north Moldova (Historical)"
+		ai_chance = { factor = 90 }
+					80 = { set_state_name = "West Chernivtsi" }
+                  889 = { set_state_name = "East Chernivtsi" }
+			set_province_name = { id = 577 name = "Chernivtsi" }
+			set_province_name = { id = 3407 name = "Khotin" }
+		MOL = { 
+        remove_state_core = 80
+        remove_state_core = 889
+		}
+        UKR = { 
+        add_state_core = 80
+        add_state_core = 889
+		}
+        
+	}
+	option = { # 
+		name = "Split north Moldova"
+		ai_chance = { factor = 5 }
+							80 = { set_state_name = "Chernivtsi" }
+			set_province_name = { id = 577 name = "Chernivtsi" }
+        MOL = { 
+        add_state_core = 889
+        remove_state_core = 80
+		}
+        UKR = { 
+        add_state_core = 80
+        remove_state_core = 889
+		}
+	}
+	option = { # 
+		name = "Give the Moldov SSR north Moldova"
+		ai_chance = { factor = 5 }
+		MOL = { 
+        add_state_core = 80
+        add_state_core = 889
+		}
+        UKR = { 
+        remove_state_core = 80
+        remove_state_core = 889
+		}
+	}
+	}
+
+
+
+
+    country_event = {
+	id = ussroblast.4
+	title = "Fate of Gagauzia and Budjak"
+	desc = ussroblast.4.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+	immediate = {
+		
+	}
+fire_only_once = yes
+	option = { # 
+		name = "Give Budjak to the Ukrainian SSR (Historical)"
+		ai_chance = { factor = 90 }
+							1147 = { set_state_name = "South Budjak" }
+                  766 = { set_state_name = "North Budjak" }
+			set_province_name = { id = 13572 name = "Izmayil" }
+			set_province_name = { id = 6727 name = "Bilhorod-Dnistrovskyi" }
+		MOL = { 
+        add_state_core = 1146
+        remove_state_core = 1147
+        remove_state_core = 766
+		}
+        UKR = { 
+        remove_state_core = 1146
+        add_state_core = 1147
+        add_state_core = 766
+		}
+        
+	}
+	option = { # 
+		name = "Give Budjak and Gagauzia to the Ukrainian SSR"
+		ai_chance = { factor = 6 }
+									1147 = { set_state_name = "South Budjak" }
+                  766 = { set_state_name = "North Budjak" }
+			set_province_name = { id = 13572 name = "Izmayil" }
+			set_province_name = { id = 6727 name = "Bilhorod-Dnistrovskyi" }
+        MOL = { 
+        remove_state_core = 1146
+        remove_state_core = 1147
+        remove_state_core = 766
+		}
+        UKR = { 
+        add_state_core = 1146
+        add_state_core = 1147
+        add_state_core = 766
+		}
+	}
+	option = { # 
+		name = "Split Budjak between the Ukrainian and Moldovan SSR's"
+		ai_chance = { factor = 2 }
+                  766 = { set_state_name = "North Budjak" }
+			set_province_name = { id = 6727 name = "Bilhorod-Dnistrovskyi" }
+		MOL = { 
+        add_state_core = 1146
+        add_state_core = 1147
+        remove_state_core = 766
+		}
+        UKR = { 
+        remove_state_core = 1146
+        remove_state_core = 1147
+        add_state_core = 766
+		}
+	}
+	option = { # 
+		name = "Give Budjak and Gagauzia to the Moldovan SSR"
+		ai_chance = { factor = 2 }
+        MOL = { 
+        add_state_core = 1146
+        add_state_core = 1147
+        add_state_core = 766
+		}
+        UKR = { 
+        remove_state_core = 1146
+        remove_state_core = 1147
+        remove_state_core = 766
+		}
+		}
+	}
+
+
+
+
+        country_event = {
+	id = ussroblast.5
+	title = "Integrate Moldova"
+	desc = ussroblast.5.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+	immediate = {
+		
+	}
+	
+fire_only_once = yes
+
+	option = { # 
+		name = "Integrate Moldova"
+		ai_chance = { factor = 100 }
+		ROM = { 
+        add_war_support = -0.1
+        remove_state_core = 80
+        remove_state_core = 889
+        remove_state_core = 78
+        remove_state_core = 1146
+        remove_state_core = 1147
+        remove_state_core = 766
+        
+		}
+        SOV = { 
+        add_war_support = 0.1
+        add_state_core = 80
+        add_state_core = 889
+        add_state_core = 78
+        add_state_core = 1146
+        add_state_core = 1147
+        add_state_core = 766
+		}    
+    }
+	}

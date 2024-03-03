@@ -9,6 +9,31 @@ state={
 	history={
 		owner = LUX
 		add_core_of = LUX
+				1600.1.1 = {
+		add_core_of = BEL
+		owner = BEL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BRB
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		remove_core_of = LUX
+		}
+		1800.1.1 = {
+	    add_core_of = FRA
+		owner = FRA
+		remove_core_of = LIE
+		remove_core_of = BRB
+		remove_core_of = FLA
+		remove_core_of = LUX
+		remove_core_of = BEL
+		}
+		1816.1.1 = {
+		owner = LUX
+		add_core_of = LUX
+		remove_core_of = FRA
+		}
 		1831.1.1 = {
                 add_core_of = BEL
                 remove_core_of = HOL

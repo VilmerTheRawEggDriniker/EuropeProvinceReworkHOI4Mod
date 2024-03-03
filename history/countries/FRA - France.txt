@@ -1,5 +1,5 @@
 ﻿capital = 16
-
+1936.1.1 = {
 if = {
 	limit = {
 		NOT = {
@@ -14,8 +14,9 @@ if = {
 	}
 	set_oob = "FRA_1936_nsb"
 }
-
+}
 starting_train_buffer = 2
+1936.1.1 = {
 
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -54,6 +55,7 @@ if = {
 		}
 	}
 }
+}
 
 set_research_slots = 3
 set_stability = 0.5
@@ -61,7 +63,8 @@ add_command_power = 20
 
 
 # Starting tech
-set_technology = {
+1936.1.1 = {
+	set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1
@@ -77,7 +80,12 @@ set_technology = {
 	fuel_refining = 1
 	basic_train = 1
 }
-
+}
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+1936.1.1 = {
 if = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
@@ -162,9 +170,319 @@ if = {
 		armored_car1 = 1
 	}
 }
+}
+1800.1.1 = {
+		if = {
+		limit = { has_start_date < 1801.1.1 }
+ENG={
+create_faction = SecondCoalition
+add_to_faction = AUS
+add_to_faction = TOS
+add_to_faction = BAY
+add_to_faction = RUS
+add_to_faction = OTO
+add_to_faction = NAP
+add_to_faction = POR
+add_to_faction = SPM
+add_to_faction = PRM
+add_to_faction = LUC
+white_peace = SPR
+white_peace = NAP
+white_peace = LUC
+}
+ENG={
+	set_autonomy = {
+        target = INS
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+create_faction = ContinentalSystem
+add_to_faction = SPR
+	    set_autonomy = {
+        target = RHI
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	    set_autonomy = {
+        target = SWI
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = ITA
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = GEN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = HOL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = POR
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SPM
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = NAP
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = OTO
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = BAY
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = AUS
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = TOS
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = LUC
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = PRM
+		type = puppet_wargoal_focus
+	}
+}
+}
+1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+ENG={
+create_faction = SixthCoalition
+add_to_faction = RUS
+add_to_faction = SPR
+add_to_faction = POR
+add_to_faction = SIC
+add_to_faction = SPM
+}
+white_peace = AUS
+white_peace = TOS
+white_peace = BAY
+white_peace = RUS
+white_peace = OTO
+white_peace = NAP
+white_peace = POR
+white_peace = SPM
+white_peace = PRM
+white_peace = LUC
+ENG={
+	set_autonomy = {
+        target = INS
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+create_faction = ContinentalSystem
+add_to_faction = SAX
+add_to_faction = LIP
+add_to_faction = ANH
+add_to_faction = BAY
+add_to_faction = WUR
+add_to_faction = BAD
+add_to_faction = THU
+add_to_faction = MEK
+add_to_faction = HES
+add_to_faction = NAS
+add_to_faction = FKF
+add_to_faction = AUS
+add_to_faction = SWE
+add_to_faction = DEN
+add_to_faction = SHL
+add_to_faction = HLS
+add_to_faction = HOH
+add_to_faction = WLD
+add_to_faction = PRE
+RUS={
+	    set_autonomy = {
+        target = FIN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = MOL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = WAL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+    set_autonomy = {
+        target = WTF
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = BRG
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = POL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = DNZ
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	    set_autonomy = {
+        target = SWI
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = ITA
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = LUC
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = NAP
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	PRE = {
+	declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SPR
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = POR
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SIC
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SPM
+		type = puppet_wargoal_focus
+	}
+	}
+    AUS = {
+	declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SPR
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = POR
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SIC
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SPM
+		type = puppet_wargoal_focus
+	}
+	}
+    POL = {
+	declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SPR
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = POR
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SIC
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SPM
+		type = puppet_wargoal_focus
+	}
+	}
+	declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SPR
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = POR
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = ENG
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SIC
+		type = puppet_wargoal_focus
+	}
+		declare_war_on = {
+		target = SPM
+		type = puppet_wargoal_focus
+	}
+}
+}
 1939.1.1 = {
-
-	add_political_power = 899
+		if = {
+		limit = { has_start_date < 1940.1.1 } 
+				add_political_power = 899
 	add_command_power = 100
 
 	#adding ministers
@@ -198,136 +516,37 @@ if = {
 
 	give_guarantee = POL
 	ENG = { add_to_faction = FRA }
-
-
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "FRA_1939_naval_mtg"
-		else = {
-			set_naval_oob = "FRA_1939_naval_legacy"
 		}
-	}
-	if = {
-		limit = { has_dlc = "By Blood Alone" }
-			set_air_oob = "FRA_1939_air_bba"
-			set_technology = {
-				basic_small_airframe = 1
-				improved_small_airframe = 1
-				basic_medium_airframe = 1
-				basic_large_airframe = 1
-				engines_3 = 1
-				improved_medium_airframe = 1
-			}
-		else = {
-			set_air_oob = "FRA_1939_air_legacy"
-			set_technology = {
-				fighter1 = 1
-				fighter2 = 1
-				heavy_fighter1 = 1
-				tactical_bomber2 = 1
-				strategic_bomber1 = 1
-				cv_fighter1 = 1
-				cv_CAS1 = 1
-			}
-		}
-	}
-
-	set_technology = {
-		interwar_artillery = 1
-		interwar_antitank = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-		support_weapons2 = 1
-
-		#doctrines
-		#Air
-		force_rotation = 1
-		fighter_baiting = 1
-		low_echelon_support = 1
-		dispersed_fighting = 1
-
-			grand_battle_plan = 1
-
-		trench_warfare = 1
-		prepared_defense = 1
-		battlefleet_concentration = 1
-		subsidiary_carrier_role = 1
-		convoy_sailing = 1
-		submarine_operations = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_refining2 = 1
-		construction1 = 1
-		construction2 = 1
-		construction3 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		dispersed_industry3 = 1
-	}
-	if = {
-		limit = {
-			NOT = {
-				has_dlc = "No Step Back"
-			}
-		}
-		set_technology = {
-			improved_light_tank = 1
-			basic_medium_tank = 1
-			basic_heavy_tank = 1
-		}
-		set_oob = "FRA_1939"
-	}
-	if = {
-		limit = {
-			has_dlc = "No Step Back"
-		}
-		set_technology = {
-			improved_light_tank_chassis = 1
-			basic_medium_tank_chassis = 1
-			basic_heavy_tank_chassis = 1
-
-		}
-		set_oob = "FRA_1939_nsb"
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			basic_battleship = 1
-			basic_battlecruiser = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			improved_ship_hull_light = 1
-			improved_ship_hull_heavy = 1
-			basic_ship_hull_carrier = 1
-			improved_heavy_armor_scheme = 1
-			improved_light_battery = 1
-			basic_heavy_battery = 1
-			improved_ship_torpedo_launcher = 1
-		}
-		remove_ideas = MTG_naval_treaty_adherent
-		add_ideas = MTG_naval_treaty_adherent_reduced
-	}
 }
-
 set_convoys = 300
 
 # DIPLOMACY
+
+
+1804.1.1 = {
+set_cosmetic_tag = FRA_empire # French Empire
+}
+1816.1.1 = {
+set_cosmetic_tag = FRA #bourbon
+}
+1830.1.1 = {
+set_cosmetic_tag = FRA_orleans #orleans
+}
+1444.11.11 = {
+set_party_name = { ideology = neutrality long_name = FRA_BOU_neutrality_party_long name = FRA_BOU_neutrality_party }
+}
+1804.1.1 = {
+set_party_name = { ideology = neutrality long_name = FRA_BON_neutrality_party_long name = FRA_BON_neutrality_party }
+}
+1816.1.1 = {
+set_party_name = { ideology = neutrality long_name = FRA_BOU_neutrality_party_long name = FRA_BOU_neutrality_party }
+}
+1830.1.1 = {
+set_party_name = { ideology = neutrality long_name = FRA_ORL_neutrality_party_long name = FRA_ORL_neutrality_party }
+}
+
+
+
 1881.1.1 = {
     set_autonomy = {
         target = TUN
@@ -395,7 +614,7 @@ set_popularities = {
 }
 }
 
-1815.1.1 = {
+1812.1.1 = {
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1785.5.1"
@@ -568,6 +787,7 @@ if = {
 
 ### VARIANTS ###
 # 1936 Start #
+1936.1.1 = {
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 	### Ship Variants ###
@@ -1160,6 +1380,7 @@ if = {
 			mid_1_custom_slot = empty
 		}
 	}
+}
 }
 
 # 1939 Start #

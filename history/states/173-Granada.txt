@@ -18,7 +18,6 @@ state={
 		1936.1.1 = {
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 			air_base = 4
 			9979 = {
 				naval_base = 2
@@ -46,7 +45,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 			9979 = {
 				naval_base = 2
 
@@ -62,8 +60,8 @@ state={
 	provinces={
 		747 1176 1178 4065 7068 7153 7196 9979 10009 10063 11956 12038 12070 
 	}
-	manpower=2000000
+	manpower=1607559
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=town
 	local_supplies=6.000
 }

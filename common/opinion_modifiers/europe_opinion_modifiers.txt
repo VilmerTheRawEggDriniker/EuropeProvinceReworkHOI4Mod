@@ -1,0 +1,30 @@
+	opinion_modifiers = {
+           HUN_revanchism = {
+		value = -25
+		min_trust = -25
+		days = 10
+		months = 120
+		decay = 1
+	}
+
+	HUN_non_revanchism = {
+		value = 25
+		min_trust = 25
+		months = 120
+		decay = 1
+	}
+	RUS_annex_bessarabia = {
+		value = -25
+		min_trust = -25
+		days = 10
+		months = 120
+		decay = 1
+	}
+	RUS_pale_of_settlement = {
+		value = -50
+		min_trust = -50
+		days = 10
+		months = 120
+		decay = 1
+	}
+}

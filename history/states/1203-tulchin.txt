@@ -5,20 +5,27 @@ state={
 
 	history={
 		owner = LIT
-                add_core_of = LIT
+		add_core_of = LIT
 		1600.1.1 = {
 			owner = POL
-                add_core_of = POL
+			add_core_of = POL
+
 		}
 		1800.1.1 = {
 			owner = RUS
-                add_core_of = RUS
-                remove_core_of = POL
-                remove_core_of = LIT
+			add_core_of = RUS
+			remove_core_of = POL
+			remove_core_of = LIT
+
 		}
 		1900.1.1 = {
-                add_core_of = UKR
-                }
+			add_core_of = UKR
+
+		}
+		add_dynamic_modifier = {
+			modifier = large_jewish_community_modifier
+
+		}
 		buildings = {
 			infrastructure = 2
 
@@ -41,7 +48,7 @@ state={
 	}
 
 	provinces={
-		1239 1402 6455 7332 7335 7405 9423 9435 10290 
+		1239 1402 7332 7335 7405 9423 9435 10290 
 	}
 	manpower=300000
 	buildings_max_level_factor=1.000

@@ -4,17 +4,19 @@ state={
 	name="STATE_650"
 
 	history={
-		owner = CZE
-                add_core_of = CZE
-		1600.1.1 = {
-                owner = AUS
-                add_core_of = AUS
-                }
+		owner = BOH
+                add_core_of = BOH
+                								1950.1.1 = {
+		owner = POL
+		add_core_of = POL
+		remove_core_of = GER
+		}
 		1700.1.1 = {
                 owner = SAX
                 add_core_of = SAX
                 remove_core_of = AUS
                 remove_core_of = CZE
+                remove_core_of = BOH
                 }
 		1815.1.1 = {
                 owner = PRE

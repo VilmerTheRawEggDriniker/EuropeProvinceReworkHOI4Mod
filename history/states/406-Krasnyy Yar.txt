@@ -10,7 +10,10 @@ state={
 
 		}
 		add_core_of = BUK
+		1936.1.1 = {
                 add_core_of = TMS
+                remove_core_of = BUK
+                }
 		1600.1.1 = {
 			owner = BUK
 			controller = BUK
@@ -36,7 +39,7 @@ state={
 	}
 
 	provinces={
-		756 1632 9605 
+		756 9605 
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

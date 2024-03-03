@@ -4,11 +4,14 @@ state={
 	name="STATE_589"
 
 	history={
-		owner = RUS
+		owner = KAZ
+		add_core_of = KAZ
+		1848.1.1 = {
+                owner = RUS
+                }
 		victory_points = {
 			1668 1 
 		}
-		add_core_of = KAZ
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -27,11 +30,11 @@ state={
 			infrastructure = 0
 
 		}
-		add_core_of = RUS
+
 	}
 
 	provinces={
-		1668 1840 4651 4764 4845 7711 7784 7795 7856 10146 10218 10547 10550 10584 10619 10653 10680 12529 12662 13148 13149 13197 
+		1668 1840 4651 4845 7711 7784 7795 7856 10146 10547 10550 10619 10680 12529 12662 13148 13149 13197 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

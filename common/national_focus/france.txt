@@ -19,6 +19,7 @@
 	focus = {
 		id = FRA_devalue_the_franc
 		icon = GFX_focus_fra_devalue_the_franc
+		available = { date > 1936.1.1 } available = { date < 1946.1.1 }
 		x = 0
 		y = 0
 		
@@ -769,6 +770,7 @@
 	focus = {
 		id = FRA_begin_rearmament
 		icon = GFX_goal_generic_construct_mil_factory
+		available = { date > 1936.1.1 } available = { date < 1946.1.1 }
 		x = 16
 		y = 0
 		
@@ -1484,6 +1486,7 @@
 	focus = {
 		id = FRA_form_the_popular_front
 		icon = GFX_goal_generic_intelligence_exchange
+		available = { date > 1936.1.1 } available = { date < 1946.1.1 }
 		x = 26
 		y = 0
 		
@@ -3198,12 +3201,6 @@
 			add_state_core = 459
 			add_state_core = 460
 			add_state_core = 513
-			if = {
-				limit = {
-					country_exists = ALG
-				}
-				annex_country = { target = ALG }
-			}
 			FRA_right_wing_riot_effect = yes
 		}
 	}
@@ -4520,6 +4517,7 @@
 	focus = {
 		id = FRA_revive_the_national_bloc
 		icon = GFX_focus_generic_strike_at_democracy2
+		available = { date > 1936.1.1 } available = { date < 1946.1.1 }
 		x = 42
 		y = 0
 		
@@ -6896,7 +6894,7 @@
 		y = 1
 		
 		prerequisite = {
-			focus = FRA_orleanist_restoration
+			focus = FRA_orleanist_restoration 
 		}
 		relative_position_id = FRA_orleanist_restoration
 		cost = 10
@@ -7882,6 +7880,8 @@
 	focus = {
 		id = FRA_naval_rearmament
 		icon = GFX_goal_generic_construct_naval_dockyard
+		available = { date > 1936.1.1 } available = { date < 1946.1.1 }
+		
 		x = 70
 		y = 0
 
@@ -8455,6 +8455,7 @@
 	focus = {
 		id = FRA_air_focus
 		icon = GFX_goal_generic_build_airforce
+		available = { date > 1936.1.1 } available = { date < 1946.1.1 }
 		x = 9
 		y = 0
 		relative_position_id = FRA_naval_rearmament
