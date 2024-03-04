@@ -13,38 +13,44 @@ state={
 		1910.1.1 = {
 			owner = CHI
 			controller = CHI
-            remove_core_of = AUH
+			remove_core_of = AUH
+
 		}
-        1919.1.1 = {
-        }
+		1919.1.1 = {
+
+		}
 		1920.1.1 = {
 			owner = SIK
 			controller = SIK
-		add_core_of = SIK
-            remove_core_of = AUH
+			add_core_of = SIK
+			remove_core_of = AUH
+
 		}
 		1946.1.1 = {
 			owner = CHI
 			controller = CHI
-            remove_core_of = AUH
+			remove_core_of = AUH
+
 		}
 		1950.1.1 = {
 			owner = PRC
 			controller = PRC
-            remove_core_of = AUH
-		add_core_of = PRC
-                remove_core_of = SIK
+			remove_core_of = AUH
+			add_core_of = PRC
+			remove_core_of = SIK
+
 		}
 		buildings = {
 			infrastructure = 1
 
 		}
-				1936.1.1 = {
-				buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
 
-		}
+			}
+
 		}
 		victory_points = {
 			2015 2 
@@ -53,7 +59,7 @@ state={
 	}
 
 	provinces={
-		1766 1970 2015 4828 5016 5087 7790 7949 8112 10821 12119 
+		1766 1970 2015 4682 4828 5016 5087 7702 7790 7792 7949 8042 8086 8112 10821 10885 12119 
 	}
 	manpower=1430700
 	buildings_max_level_factor=1.000
