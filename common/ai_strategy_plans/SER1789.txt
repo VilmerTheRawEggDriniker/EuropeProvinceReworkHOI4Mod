@@ -1,0 +1,48 @@
+German_historical = {
+	name = "1789 1836 Serbian historical plan"
+	desc = "Essentially historical behaviour for 1789 1836 Serbia"
+
+	allowed = {
+		original_tag = SER
+	}
+	enable = {
+				is_historical_focus_on = yes
+		}
+	ai_national_focuses = {
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = -100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "OTO"
+		value = -100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PRE"
+		value = -100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = -100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RUS"
+		value = -500
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "AUS"
+		value = 10000 
+	}
+	ai_strategy = {
+		type = alliance
+		id = "DEN"
+		value = -500
+	}
+}

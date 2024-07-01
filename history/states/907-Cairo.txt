@@ -29,7 +29,7 @@ state={
                 owner = ITA
                 add_core_of = ITA
         }
-        1920.1.1 = {
+        1919.1.1 = {
                 remove_core_of = SPM
                 remove_core_of = PAP
                 remove_core_of = TOS
@@ -41,7 +41,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
+			arms_factory = 2
 
 		}
 

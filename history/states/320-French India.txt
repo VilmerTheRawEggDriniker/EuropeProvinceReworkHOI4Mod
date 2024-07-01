@@ -7,9 +7,14 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = RAJ
-		1700.1.1 = {
+		owner = MUG
+		add_core_of = MUG
+		1900.1.1 = {
+        remove_core_of = MUG
+		}
+		1789.1.1 = {
                 owner = FRA
+		add_core_of = RAJ
                 }
 		1800.1.1 = {
                 owner = ENG
@@ -20,16 +25,20 @@ state={
 		1960.1.1 = {
 		owner = RAJ
                 }
-		add_core_of = RAJ
+				1789.1.1 = {
 		victory_points = {
 			10149 1 
 		}
+				buildings = {
+			infrastructure = 0
+				}
 		buildings = {
 			infrastructure = 3 #was: 5
 			10149 = {
 				naval_base = 1
 			}
 		}
+				}
 	}
 
 	provinces={ 10149 }

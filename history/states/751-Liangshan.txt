@@ -4,8 +4,15 @@ state={
 	name="STATE_751"
 
 	history={
-		owner = QIN
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
 		add_core_of = CHI
+		remove_core_of = MNG
+        }
 		1913.1.1 = {
 			owner = CHI
 			controller = CHI
@@ -22,11 +29,13 @@ state={
 			infrastructure = 0
 
 		}
+		1700.1.1 = {
 		victory_points = {
 			12141 3 
 		}
 		victory_points = {
 			7294 1 
+		}
 		}
 	}
 

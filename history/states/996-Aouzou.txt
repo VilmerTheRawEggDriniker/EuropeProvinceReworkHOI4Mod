@@ -8,6 +8,7 @@ state={
 			owner = LBA
 			controller = LBA
 		add_core_of = LBA
+		add_core_of = CHA
 
 		}
 		1920.1.1 = {
@@ -18,7 +19,7 @@ state={
 			infrastructure = 0
 
 		}
-		1919.1.1 = {
+		1920.1.1 = {
 			owner = FRA
 			controller = FRA
 

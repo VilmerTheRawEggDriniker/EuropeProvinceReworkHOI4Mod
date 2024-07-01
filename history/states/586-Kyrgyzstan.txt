@@ -10,13 +10,20 @@ state={
 	}
 
 	history={
-		owner = KAZ
-		add_core_of = KAZ
+		owner = UZB
+		add_core_of = UZB
+		1500.1.1 = {
+			owner = KAZ
+			controller = KAZ
+			add_core_of = KAZ
+			remove_core_of = UZB
+
+		}
 		1848.1.1 = {
                 owner = RUS
                 }
-           add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
+						1919.1.1 = {
+		owner = KAZ
 		}
 		1920.1.1 = {
 			owner = SOV

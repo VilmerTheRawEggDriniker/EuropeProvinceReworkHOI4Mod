@@ -652,7 +652,6 @@ GER_reichskommissariats = {
 					set_state_controller = 970
 					set_state_controller = 978
 					set_state_controller = 979
-					set_state_controller = 960
 					set_state_controller = 986
 					set_state_controller = 969
 					set_state_controller = 1104
@@ -673,7 +672,6 @@ GER_reichskommissariats = {
 					transfer_state = 970
 					transfer_state = 978
 					transfer_state = 979
-					transfer_state = 960
 					transfer_state = 986
 					transfer_state = 969
 					transfer_state = 1104
@@ -704,7 +702,6 @@ GER_reichskommissariats = {
 					transfer_state = 970
 					transfer_state = 978
 					transfer_state = 979
-					transfer_state = 960
 					transfer_state = 986
 					transfer_state = 969
 					transfer_state = 1104
@@ -1092,6 +1089,7 @@ GER_reichskommissariats = {
 			controls_state = 19
 			controls_state = 23
 			controls_state = 932
+                        controls_state = 960
 			controls_state = 14
 			controls_state = 30
 			controls_state = 15
@@ -1128,6 +1126,7 @@ GER_reichskommissariats = {
 				state = 19
 				state = 23
 				state = 932
+                                state = 960
 				state = 14
 				state = 30
 				state = 15
@@ -1153,6 +1152,7 @@ GER_reichskommissariats = {
 				set_state_controller = 19
 				set_state_controller = 23
 				set_state_controller = 932
+                                set_state_controller = 960
 				set_state_controller = 14
 				set_state_controller = 30
 				set_state_controller = 15
@@ -1626,6 +1626,7 @@ GER_reichskommissariats = {
 			controls_state = 86
 			controls_state = 807
 			controls_state = 1194
+			controls_state = 1248
 			NOT={owns_state = 86}
 		}
 
@@ -1654,6 +1655,7 @@ GER_reichskommissariats = {
 				state = 807
 				state = 871
 				state = 1194
+				state = 1248
 				state = 85
 							}
 						}
@@ -1669,6 +1671,7 @@ GER_reichskommissariats = {
 				set_state_controller = 807
 				set_state_controller = 871
 				set_state_controller = 1194
+				set_state_controller = 1248
 			}
 		}
 	}

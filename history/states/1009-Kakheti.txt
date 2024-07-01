@@ -25,6 +25,15 @@ state={
 		add_core_of = SWI
 		remove_core_of = NEU
 		}
+		1900.1.1 = {
+				buildings = {
+			9622 = {
+				bunker = 3
+
+			}
+
+		}
+		}
 	}
 	provinces={
 		9622 

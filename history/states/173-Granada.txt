@@ -30,9 +30,16 @@ state={
 
 		}
                 }
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
+								        1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+					FRA = {
+				set_province_controller = 10009
+				set_province_controller = 7153
+				set_province_controller = 9979
+				set_province_controller = 1176
+			}
+		}
 		}
 		victory_points = {
 			9979 5 

@@ -24,7 +24,7 @@ state={
 			controller = GER
 		add_core_of = SAM
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = NZL
 			controller = NZL
 		add_core_of = SAM

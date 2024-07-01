@@ -19,10 +19,6 @@ state={
 		1900.1.1 = {
                 add_core_of = BLR
                 }
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			11370 20 
 		}
@@ -38,6 +34,14 @@ state={
 
 		}
                 }
+										1919.1.1 = {
+			owner = BLR
+			controller = SOV
+			add_core_of = BLR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV

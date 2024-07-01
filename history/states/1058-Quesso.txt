@@ -16,7 +16,7 @@ state={
 			controller = GER
                 add_core_of = CMR
             }
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = FRA
 			controller = FRA
             remove_core_of = CMR

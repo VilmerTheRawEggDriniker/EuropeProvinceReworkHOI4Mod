@@ -1,0 +1,99 @@
+German_historical = {
+	name = "1789 1836 Austrian historical plan"
+	desc = "Essentially historical behaviour for 1789 1836 Austria"
+
+	allowed = {
+		original_tag = AUS
+	}
+	enable = {
+				is_historical_focus_on = yes
+		}
+	ai_national_focuses = {
+austria_1789_1815_first_50_focus_1
+austria_1789_1815_first_50_focus_2
+austria_1789_1815_first_50_focus_3
+austria_1789_1815_first_50_focus_4
+austria_1789_1815_first_50_focus_5
+austria_1789_1815_first_50_focus_6
+austria_1789_1815_first_50_focus_7
+austria_1789_1815_first_50_focus_8
+austria_1789_1815_first_50_focus_9
+austria_1789_1815_first_50_focus_10
+austria_1789_1815_first_50_focus_11
+austria_1789_1815_first_50_focus_12
+austria_1789_1815_first_50_focus_13
+austria_1789_1815_first_50_focus_14
+austria_1789_1815_first_50_focus_15
+austria_1789_1815_first_50_focus_16
+austria_1789_1815_first_50_focus_17
+austria_1789_1815_first_50_focus_18
+austria_1789_1815_first_50_focus_19
+austria_1789_1815_first_50_focus_20
+austria_1789_1815_first_50_focus_21
+austria_1789_1815_first_50_focus_22
+austria_1789_1815_first_50_focus_23
+austria_1789_1815_first_50_focus_24
+austria_1789_1815_first_50_focus_25
+austria_1789_1815_first_50_focus_26
+austria_1789_1815_first_50_focus_27
+austria_1789_1815_first_50_focus_28
+austria_1789_1815_first_50_focus_29
+austria_1789_1815_first_50_focus_30
+austria_1789_1815_first_50_focus_31
+austria_1789_1815_first_50_focus_32
+austria_1789_1815_first_50_focus_33
+austria_1789_1815_first_50_focus_34
+austria_1789_1815_first_50_focus_35
+austria_1789_1815_first_50_focus_36
+austria_1789_1815_first_50_focus_37
+austria_1789_1815_first_50_focus_38
+austria_1789_1815_first_50_focus_39
+austria_1789_1815_first_50_focus_40
+austria_1789_1815_first_50_focus_41
+austria_1789_1815_first_50_focus_42
+austria_1789_1815_first_50_focus_43
+austria_1789_1815_first_50_focus_44
+austria_1789_1815_first_50_focus_45
+austria_1789_1815_first_50_focus_46
+austria_1789_1815_first_50_focus_47
+austria_1789_1815_first_50_focus_48
+austria_1789_1815_first_50_focus_49
+austria_1789_1815_first_50_focus_50
+
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = -100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "OTO"
+		value = -100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PRE"
+		value = -100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = -100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "RUS"
+		value = -500
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "SER"
+		value = 10000 
+	}
+	ai_strategy = {
+		type = alliance
+		id = "DEN"
+		value = -500
+	}
+}

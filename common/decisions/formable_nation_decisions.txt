@@ -836,6 +836,207 @@ industrialize_turkey_category = {
 		}
 	}
 }
+form_lcthre_category = {
+	
+	form_lcthre = {
+
+		icon = generic_form_nation
+
+		allowed = {
+			OR = {
+				original_tag = LCT
+			}
+		}
+
+		available = {
+controls_state = 4
+controls_state = 50
+controls_state = 52
+controls_state = 9
+controls_state = 65
+controls_state = 54
+controls_state = 55
+controls_state = 57
+controls_state = 58
+controls_state = 59
+		}
+
+		visible = {
+			OR = {
+				original_tag = LCT
+			}
+			NOT = { has_global_flag = form_lcthre_flag }
+		}
+
+		complete_effect = {
+			set_cosmetic_tag = LCT_HRE
+			hidden_effect = {
+			4 = { add_core_of = ROOT }
+			9 = { add_core_of = ROOT }
+			50 = { add_core_of = ROOT }
+			52 = { add_core_of = ROOT }
+			55 = { add_core_of = ROOT }
+			57 = { add_core_of = ROOT }
+			58 = { add_core_of = ROOT }
+			59 = { add_core_of = ROOT }
+		        54 = { add_core_of = ROOT }
+			65 = { add_core_of = ROOT }
+
+			69 = { add_core_of = ROOT }
+			74 = { add_core_of = ROOT }
+			75 = { add_core_of = ROOT }
+			72 = { add_core_of = ROOT }
+			871 = { add_core_of = ROOT }
+			855 = { add_core_of = ROOT }
+			39 = { add_core_of = ROOT }
+			1190 = { add_core_of = ROOT }
+		        153 = { add_core_of = ROOT }
+			881 = { add_core_of = ROOT }
+
+			857 = { add_core_of = ROOT }
+			736 = { add_core_of = ROOT }
+			963 = { add_core_of = ROOT }
+			102 = { add_core_of = ROOT }
+			940 = { add_core_of = ROOT }
+			859 = { add_core_of = ROOT }
+			883 = { add_core_of = ROOT }
+			884 = { add_core_of = ROOT }
+		        885 = { add_core_of = ROOT }
+			152 = { add_core_of = ROOT }
+
+			882 = { add_core_of = ROOT }
+			1192 = { add_core_of = ROOT }
+			1191 = { add_core_of = ROOT }
+			1249 = { add_core_of = ROOT }
+			53 = { add_core_of = ROOT }
+			1183 = { add_core_of = ROOT }
+			1157 = { add_core_of = ROOT }
+			1154 = { add_core_of = ROOT }
+		        1187 = { add_core_of = ROOT }
+			1184 = { add_core_of = ROOT }
+
+			841 = { add_core_of = ROOT }
+			1089 = { add_core_of = ROOT }
+			1180 = { add_core_of = ROOT }
+			1232 = { add_core_of = ROOT }
+			1088 = { add_core_of = ROOT }
+			1250 = { add_core_of = ROOT }
+			858 = { add_core_of = ROOT }
+			1162 = { add_core_of = ROOT }
+		        880 = { add_core_of = ROOT }
+			1239 = { add_core_of = ROOT }
+
+			979 = { add_core_of = ROOT }
+			980 = { add_core_of = ROOT }
+			970 = { add_core_of = ROOT }
+			851 = { add_core_of = ROOT }
+			8 = { add_core_of = ROOT }
+			978 = { add_core_of = ROOT }
+			34 = { add_core_of = ROOT }
+			6 = { add_core_of = ROOT }
+		        1171 = { add_core_of = ROOT }
+			973 = { add_core_of = ROOT }
+
+			873 = { add_core_of = ROOT }
+			42 = { add_core_of = ROOT }
+			1237 = { add_core_of = ROOT }
+			877 = { add_core_of = ROOT }
+			878 = { add_core_of = ROOT }
+			1243 = { add_core_of = ROOT }
+			466 = { add_core_of = ROOT }
+			690 = { add_core_of = ROOT }
+		        843 = { add_core_of = ROOT }
+			51 = { add_core_of = ROOT }
+
+			1182 = { add_core_of = ROOT }
+			876 = { add_core_of = ROOT }
+			1166 = { add_core_of = ROOT }
+			842 = { add_core_of = ROOT }
+			1174 = { add_core_of = ROOT }
+			1172 = { add_core_of = ROOT }
+			837 = { add_core_of = ROOT }
+			1165 = { add_core_of = ROOT }
+		        1236 = { add_core_of = ROOT }
+			704 = { add_core_of = ROOT }
+
+			868 = { add_core_of = ROOT }
+			1163 = { add_core_of = ROOT }
+			1181 = { add_core_of = ROOT }
+			1198 = { add_core_of = ROOT }
+			891 = { add_core_of = ROOT }
+			1199 = { add_core_of = ROOT }
+			1233 = { add_core_of = ROOT }
+			870 = { add_core_of = ROOT }
+		        60 = { add_core_of = ROOT }
+			1164 = { add_core_of = ROOT }
+
+			898 = { add_core_of = ROOT }
+			872 = { add_core_of = ROOT }
+			703 = { add_core_of = ROOT }
+			845 = { add_core_of = ROOT }
+			1246 = { add_core_of = ROOT }
+			1189 = { add_core_of = ROOT }
+			1155 = { add_core_of = ROOT }
+			847 = { add_core_of = ROOT }
+		        836 = { add_core_of = ROOT }
+			720 = { add_core_of = ROOT }
+
+			900 = { add_core_of = ROOT }
+			909 = { add_core_of = ROOT }
+			850 = { add_core_of = ROOT }
+			693 = { add_core_of = ROOT }
+			1159 = { add_core_of = ROOT }
+			989 = { add_core_of = ROOT }
+			1188 = { add_core_of = ROOT }
+			861 = { add_core_of = ROOT }
+		        846 = { add_core_of = ROOT }
+			1156 = { add_core_of = ROOT }
+
+			1158 = { add_core_of = ROOT }
+			879 = { add_core_of = ROOT }
+			1244 = { add_core_of = ROOT }
+			1245 = { add_core_of = ROOT }
+			1160 = { add_core_of = ROOT }
+			1173 = { add_core_of = ROOT }
+			1178 = { add_core_of = ROOT }
+			875 = { add_core_of = ROOT }
+		        56 = { add_core_of = ROOT }
+			1179 = { add_core_of = ROOT }
+
+			1029 = { add_core_of = ROOT }
+			914 = { add_core_of = ROOT }
+			972 = { add_core_of = ROOT }
+			1161 = { add_core_of = ROOT }
+			867 = { add_core_of = ROOT }
+			1200 = { add_core_of = ROOT }
+			1028 = { add_core_of = ROOT }
+			844 = { add_core_of = ROOT }
+		        874 = { add_core_of = ROOT }
+			1186 = { add_core_of = ROOT }
+
+			1175 = { add_core_of = ROOT }
+			1185 = { add_core_of = ROOT }
+			61 = { add_core_of = ROOT }
+			901 = { add_core_of = ROOT }
+			62 = { add_core_of = ROOT }
+			1235 = { add_core_of = ROOT }
+			1240 = { add_core_of = ROOT }
+			762 = { add_core_of = ROOT }
+		        66 = { add_core_of = ROOT }
+			67 = { add_core_of = ROOT }
+                        set_global_flag = form_lcthre_flag
+			}
+		}
+
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+	}
+}
 form_circassia_category = {
 	
 	form_circassia = {
@@ -896,10 +1097,9 @@ form_circassia_category = {
 				37 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
-			828 = { add_core_of = ROOT }
-			1090 = { add_core_of = ROOT }
 			233 = { add_core_of = ROOT }
 			238 = { add_core_of = ROOT }
+                        set_global_flag = form_circassia_flag
 			}
 		}
 
@@ -1458,6 +1658,7 @@ form_austria_hungary_category = {
 				original_tag = AUS
 			}
 			NOT = { has_global_flag = form_austria_hungary_flag }
+                        date > 1919.1.1
 		}
 
 		complete_effect = {
@@ -1467,31 +1668,6 @@ form_austria_hungary_category = {
 					NOT = { tag = AUS }
 				}
 				AUS = { set_cosmetic_tag = AUS_NOT_WHITE }
-			}
-			# Austria
-			custom_effect_tooltip = form_country_austria_coring_states_tt
-			hidden_effect = {
-				153 = { add_core_of = ROOT }
-				152 = { add_core_of = ROOT }
-				4 = { add_core_of = ROOT }
-				881 = { add_core_of = ROOT }
-				882 = { add_core_of = ROOT }
-				883 = { add_core_of = ROOT }
-				884 = { add_core_of = ROOT }
-				885 = { add_core_of = ROOT }
-				886 = { add_core_of = ROOT }
-			}
-			# Hungary
-			custom_effect_tooltip = form_country_hungary_coring_states_tt
-			hidden_effect = {
-				155 = { add_core_of = ROOT }
-				43 = { add_core_of = ROOT }
-				154 = { add_core_of = ROOT }
-				928 = { add_core_of = ROOT }
-				1168 = { add_core_of = ROOT }
-				1167 = { add_core_of = ROOT }
-				1169 = { add_core_of = ROOT }
-				1170 = { add_core_of = ROOT }
 			}
 			hidden_effect = {
 				news_event = { id = wtt_news.56 hours = 6 }

@@ -1,4 +1,61 @@
 characters={
+	AUS_josephiiaus={
+		name=AUS_CHARACTER_JOSEPHIIAUS
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_josephiiaus_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = AUS_JOSEPHIIAUS_DESC
+			expire="1797.1.1"
+		}
+}
+	AUS_leopoldiiaus={
+		name=AUS_CHARACTER_LEOPOLDIIAUS
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_leopoldiiaus_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = AUS_LEOPOLDIIAUS_DESC
+			expire="1797.1.1"
+		}
+}
+	AUS_francisiiaus={
+		name=AUS_CHARACTER_FRANCISIIAUS
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_francisiiaus_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = AUS_FRANCISIIAUS_DESC
+			expire="1797.1.1"
+		}
+}
+	AUS_ferdinandiaus={
+		name=AUS_CHARACTER_FERDINANDIAUS
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_ferdinandiaus_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = AUS_FERDINANDIAUS_DESC
+			expire="1797.1.1"
+		}
+}
+
 	AUS_kurt_schuschnigg={
 		name=AUS_kurt_schuschnigg
 		portraits={

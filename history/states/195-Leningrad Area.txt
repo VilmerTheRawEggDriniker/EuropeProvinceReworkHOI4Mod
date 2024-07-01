@@ -4,13 +4,24 @@ state={
 	name="STATE_195"
 
 	history={
-		owner = RUS
+		owner = NOV
+		add_core_of = NOV
+		1500.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = NOV
+		remove_core_of = POL
+		}
 		1700.1.1 = {
                 owner = SWE
                 }
 		1708.1.1 = {
                 owner = RUS
                 }
+								1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
 		victory_points = {
 			3151 30 
 		}
@@ -45,7 +56,6 @@ state={
 			}
 
 		}
-		add_core_of = RUS
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -66,8 +76,8 @@ state={
 	provinces={
 		79 104 126 149 181 3072 3120 3151 6139 6174 6197 9097 9098 9164 9197 11032 11068 11080 11139 11186 
 	}
-	manpower=3000000
+	manpower=5000000
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=megalopolis
 	local_supplies=11.000
 }

@@ -19,6 +19,65 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3325;3260;sea;2408;-1;-1;-1;-1;;Skåne-Sjaelland
 14378;9388;sea;2358;-1;-1;-1;-1;;Skåne-Sjaelland
 
+9498;3211;sea;13507;-1;-1;-1;-1;;Rhineland
+11456;9363;sea;13507;-1;-1;-1;-1;;Rhineland
+3444;3512;sea;13507;-1;-1;-1;-1;;Rhineland
+587;13494;sea;3398;-1;-1;-1;-1;;Rhineland
+11494;529;sea;3398;-1;-1;-1;-1;;Rhineland
+13480;13486;sea;13477;-1;-1;-1;-1;;Rhineland
+11560;589;sea;13477;-1;-1;-1;-1;;Rhineland
+3558;6542;sea;13477;-1;-1;-1;-1;;Rhineland
+
+
+
+
+
+
+
+
+
+
+13564;13572;sea;13569;-1;-1;-1;-1;;Romania-Bulgaria
+687;13572;sea;13569;-1;-1;-1;-1;;Romania-Bulgaria
+3076;6706;sea;13569;-1;-1;-1;-1;;Romania-Bulgaria
+9635;674;sea;13549;-1;-1;-1;-1;;Romania-Bulgaria
+13545;6677;sea;13549;-1;-1;-1;-1;;Romania-Bulgaria
+9610;13541;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
+13785;13538;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
+13785;13544;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
+13780;13540;sea;13781;-1;-1;-1;-1;;Romania-Bulgaria
+9771;3630;sea;11754;-1;-1;-1;-1;;Romania-Bulgaria
+
+13444;14367;sea;13450;-1;-1;-1;-1;;Romania-Bulgaria
+3324;14367;sea;13450;-1;-1;-1;-1;;Romania-Bulgaria
+13437;14349;sea;13450;-1;-1;-1;-1;;Romania-Bulgaria
+279;14349;sea;13450;-1;-1;-1;-1;;Romania-Bulgaria
+243;14349;sea;13450;-1;-1;-1;-1;;Romania-Bulgaria
+
+6484;13394;sea;467;-1;-1;-1;-1;;Romania-Bulgaria
+14328;3458;sea;467;-1;-1;-1;-1;;Romania-Bulgaria
+524;3544;sea;467;-1;-1;-1;-1;;Romania-Bulgaria
+13415;14339;sea;13426;-1;-1;-1;-1;;Romania-Bulgaria
+9427;13469;sea;562;-1;-1;-1;-1;;Romania-Bulgaria
+
+6401;13428;sea;13426;-1;-1;-1;-1;;Romania-Bulgaria
+13414;3230;sea;13426;-1;-1;-1;-1;;Romania-Bulgaria
+524;11385;sea;536;-1;-1;-1;-1;;Romania-Bulgaria
+14341;14345;sea;536;-1;-1;-1;-1;;Romania-Bulgaria
+14339;3544;sea;13426;-1;-1;-1;-1;;Romania-Bulgaria
+
+
+
+3755;721;sea;13788;-1;-1;-1;-1;;Ukraine
+11715;588;sea;13788;-1;-1;-1;-1;;Ukraine
+9573;7657;sea;13788;-1;-1;-1;-1;;Ukraine
+9419;11405;sea;13790;-1;-1;-1;-1;;Ukraine
+11437;7354;sea;13790;-1;-1;-1;-1;;Ukraine
+9433;4595;sea;13790;-1;-1;-1;-1;;Ukraine
+12430;12518;sea;1722;-1;-1;-1;-1;;Ukraine
+488;12549;sea;1722;-1;-1;-1;-1;;Ukraine
+11454;9491;sea;1722;-1;-1;-1;-1;;Ukraine
+525;13794;sea;1745;-1;-1;-1;-1;;Ukraine
 
 12702;2048;sea;2691;-1;-1;-1;-1;;Dammam-Bahrain
 8051;2048;sea;2691;-1;-1;-1;-1;;Qatar-Bahrain
@@ -186,18 +245,90 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 10349;12860;impassable;-1;-1;-1;-1;-1;;Himalayas
 2101;12895;impassable;-1;-1;-1;-1;-1;;Himalayas
 1948;12895;impassable;-1;-1;-1;-1;-1;;Himalayas
-
+12789;12724;impassable;-1;-1;-1;-1;-1;;Himalayas
+12789;8126;impassable;-1;-1;-1;-1;-1;;Himalayas
+7965;8126;impassable;-1;-1;-1;-1;-1;;Himalayas
+7965;4937;impassable;-1;-1;-1;-1;-1;;Himalayas
+4559;4937;impassable;-1;-1;-1;-1;-1;;Himalayas
+4559;10726;impassable;-1;-1;-1;-1;-1;;Himalayas
+4559;7294;impassable;-1;-1;-1;-1;-1;;Himalayas
+1319;7294;impassable;-1;-1;-1;-1;-1;;Himalayas
 4087;1581;impassable;-1;-1;-1;-1;-1;;Himalayas
 4087;1525;impassable;-1;-1;-1;-1;-1;;Himalayas
 1197;1525;impassable;-1;-1;-1;-1;-1;;Himalayas
 1197;12322;impassable;-1;-1;-1;-1;-1;;Himalayas
 4318;12322;impassable;-1;-1;-1;-1;-1;;Himalayas
-
+4996;12898;impassable;-1;-1;-1;-1;-1;;Himalayas
+4996;12789;impassable;-1;-1;-1;-1;-1;;Himalayas
+4318;12789;impassable;-1;-1;-1;-1;-1;;Himalayas
+4318;1996;impassable;-1;-1;-1;-1;-1;;Himalayas
+1581;4588;impassable;-1;-1;-1;-1;-1;;Himalayas
+1581;10486;impassable;-1;-1;-1;-1;-1;;Himalayas
+12860;12730;impassable;-1;-1;-1;-1;-1;;Himalayas
 5310;4435;impassable;-1;-1;-1;-1;-1;;Himalayas
 5310;12338;impassable;-1;-1;-1;-1;-1;;Himalayas
 5310;1656;impassable;-1;-1;-1;-1;-1;;Himalayas
 5310;10878;impassable;-1;-1;-1;-1;-1;;Himalayas
 4987;10878;impassable;-1;-1;-1;-1;-1;;Himalayas
+4210;7976;impassable;-1;-1;-1;-1;-1;;Himalayas
+4210;5009;impassable;-1;-1;-1;-1;-1;;Himalayas
+
+4383;4215;impassable;-1;-1;-1;-1;-1;;Ural
+4383;10256;impassable;-1;-1;-1;-1;-1;;Ural
+12200;10256;impassable;-1;-1;-1;-1;-1;;Ural
+4311;10256;impassable;-1;-1;-1;-1;-1;;Ural
+4311;7328;impassable;-1;-1;-1;-1;-1;;Ural
+
+7824;1771;impassable;-1;-1;-1;-1;-1;;Ural
+12659;1771;impassable;-1;-1;-1;-1;-1;;Ural
+12659;10648;impassable;-1;-1;-1;-1;-1;;Ural
+12659;10716;impassable;-1;-1;-1;-1;-1;;Ural
+10216;10716;impassable;-1;-1;-1;-1;-1;;Ural
+11307;10716;impassable;-1;-1;-1;-1;-1;;Ural
+11307;7228;impassable;-1;-1;-1;-1;-1;;Ural
+4758;7228;impassable;-1;-1;-1;-1;-1;;Ural
+4758;12567;impassable;-1;-1;-1;-1;-1;;Ural
+7320;12567;impassable;-1;-1;-1;-1;-1;;Ural
+
+9632;11614;impassable;-1;-1;-1;-1;-1;;alps
+9632;685;impassable;-1;-1;-1;-1;-1;;alps
+11609;685;impassable;-1;-1;-1;-1;-1;;alps
+11609;11664;impassable;-1;-1;-1;-1;-1;;alps
+654;11664;impassable;-1;-1;-1;-1;-1;;alps
+672;11664;impassable;-1;-1;-1;-1;-1;;alps
+672;6674;impassable;-1;-1;-1;-1;-1;;alps
+11617;6674;impassable;-1;-1;-1;-1;-1;;alps
+11647;6674;impassable;-1;-1;-1;-1;-1;;alps
+11647;9674;impassable;-1;-1;-1;-1;-1;;alps
+11647;11633;impassable;-1;-1;-1;-1;-1;;alps
+9663;11633;impassable;-1;-1;-1;-1;-1;;alps
+717;11633;impassable;-1;-1;-1;-1;-1;;alps
+3698;11633;impassable;-1;-1;-1;-1;-1;;alps
+3698;6721;impassable;-1;-1;-1;-1;-1;;alps
+3698;3717;impassable;-1;-1;-1;-1;-1;;alps
+
+6784;11573;impassable;-1;-1;-1;-1;-1;;alps
+6784;9745;impassable;-1;-1;-1;-1;-1;;alps
+14537;9745;impassable;-1;-1;-1;-1;-1;;alps
+14537;14538;impassable;-1;-1;-1;-1;-1;;alps
+3764;14538;impassable;-1;-1;-1;-1;-1;;alps
+3764;9738;impassable;-1;-1;-1;-1;-1;;alps
+3764;14536;impassable;-1;-1;-1;-1;-1;;alps
+3764;11721;impassable;-1;-1;-1;-1;-1;;alps
+3764;11891;impassable;-1;-1;-1;-1;-1;;alps
+3764;3959;impassable;-1;-1;-1;-1;-1;;alps
+
+6975;3959;impassable;-1;-1;-1;-1;-1;;alps
+3928;3959;impassable;-1;-1;-1;-1;-1;;alps
+9909;3959;impassable;-1;-1;-1;-1;-1;;alps
+9909;11891;impassable;-1;-1;-1;-1;-1;;alps
+3772;11891;impassable;-1;-1;-1;-1;-1;;alps
+9738;14538;impassable;-1;-1;-1;-1;-1;;alps
+611;14538;impassable;-1;-1;-1;-1;-1;;alps
+611;764;impassable;-1;-1;-1;-1;-1;;alps
+14553;11570;impassable;-1;-1;-1;-1;-1;;alps
+14553;3782;impassable;-1;-1;-1;-1;-1;;alps
+
 
 
 
@@ -216,19 +347,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13327;9598;impassable;-1;-1;-1;-1;-1;;alps
 13327;13330;impassable;-1;-1;-1;-1;-1;;alps
 3604;13330;impassable;-1;-1;-1;-1;-1;;alps
-
-
-
-11573;6784;impassable;-1;-1;-1;-1;-1;;alps
-9745;6784;impassable;-1;-1;-1;-1;-1;;alps
-9745;14545;impassable;-1;-1;-1;-1;-1;;alps
-9745;14537;impassable;-1;-1;-1;-1;-1;;alps
-9745;3764;impassable;-1;-1;-1;-1;-1;;alps
-14538;3764;impassable;-1;-1;-1;-1;-1;;alps
-14536;3764;impassable;-1;-1;-1;-1;-1;;alps
-11721;3764;impassable;-1;-1;-1;-1;-1;;alps
-3959;3764;impassable;-1;-1;-1;-1;-1;;alps
-3959;6975;impassable;-1;-1;-1;-1;-1;;alps
 
 3612;9603;impassable;-1;-1;-1;-1;-1;;alps
 3612;611;impassable;-1;-1;-1;-1;-1;;alps
@@ -256,60 +374,14 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3660;14590;impassable;-1;-1;-1;-1;-1;;alps
 3660;6680;impassable;-1;-1;-1;-1;-1;;alps
 661;6680;impassable;-1;-1;-1;-1;-1;;alps
-661;14604;impassable;-1;-1;-1;-1;-1;;alps
 
-14555;6661;impassable;-1;-1;-1;-1;-1;;alps
-14555;14566;impassable;-1;-1;-1;-1;-1;;alps
-11568;14566;impassable;-1;-1;-1;-1;-1;;alps
 6631;14566;impassable;-1;-1;-1;-1;-1;;alps
 6631;11587;impassable;-1;-1;-1;-1;-1;;alps
-13331;11587;impassable;-1;-1;-1;-1;-1;;alps
+6631;11568;impassable;-1;-1;-1;-1;-1;;alps
 6675;11587;impassable;-1;-1;-1;-1;-1;;alps
 661;3660;impassable;-1;-1;-1;-1;-1;;alps
 661;658;impassable;-1;-1;-1;-1;-1;;alps
 661;14569;impassable;-1;-1;-1;-1;-1;;alps
-
-636;14582;impassable;-1;-1;-1;-1;-1;;alps
-636;9618;impassable;-1;-1;-1;-1;-1;;alps
-636;14574;impassable;-1;-1;-1;-1;-1;;alps
-11590;14574;impassable;-1;-1;-1;-1;-1;;alps
-11590;14585;impassable;-1;-1;-1;-1;-1;;alps
-
-
-14553;11570;impassable;-1;-1;-1;-1;-1;;alps
-14553;3782;impassable;-1;-1;-1;-1;-1;;alps
-14553;6780;impassable;-1;-1;-1;-1;-1;;alps
-14553;9738;impassable;-1;-1;-1;-1;-1;;alps
-611;9738;impassable;-1;-1;-1;-1;-1;;alps
-611;764;impassable;-1;-1;-1;-1;-1;;alps
-9603;764;impassable;-1;-1;-1;-1;-1;;alps
-9603;14552;impassable;-1;-1;-1;-1;-1;;alps
-6609;14552;impassable;-1;-1;-1;-1;-1;;alps
-778;14552;impassable;-1;-1;-1;-1;-1;;alps
-
-
-3641;14582;impassable;-1;-1;-1;-1;-1;;alps
-661;11623;impassable;-1;-1;-1;-1;-1;;alps
-11601;11623;impassable;-1;-1;-1;-1;-1;;alps
-11601;663;impassable;-1;-1;-1;-1;-1;;alps
-11601;11604;impassable;-1;-1;-1;-1;-1;;alps
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 3711;14061;impassable;-1;-1;-1;-1;-1;;alps
 3711;14060;impassable;-1;-1;-1;-1;-1;;alps
@@ -358,25 +430,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4982;1928;impassable;-1;-1;-1;-1;-1;;guyana
 4982;8107;impassable;-1;-1;-1;-1;-1;;guyana
 
-10888;8149;impassable;-1;-1;-1;-1;-1;;Pastaza
-
-14590;11638;impassable;-1;-1;-1;-1;-1;;bayeren-tirol
-6678;11638;impassable;-1;-1;-1;-1;-1;;bayeren-tirol
-9636;11638;impassable;-1;-1;-1;-1;-1;;bayeren-tirol
-9636;14623;impassable;-1;-1;-1;-1;-1;;bayeren-tirol
-9636;11620;impassable;-1;-1;-1;-1;-1;;bayeren-tirol
-673;11620;impassable;-1;-1;-1;-1;-1;;bayeren-tirol
-673;9652;impassable;-1;-1;-1;-1;-1;;bayeren-tirol
-14597;9652;impassable;-1;-1;-1;-1;-1;;bayeren-tirol
-14597;707;impassable;-1;-1;-1;-1;-1;;bayeren-tirol
-14607;707;impassable;-1;-1;-1;-1;-1;;bayeren-tirol
-
-
-
-
-
-
-
 6675;6678;impassable;-1;-1;-1;-1;-1;;alps
 6675;9633;impassable;-1;-1;-1;-1;-1;;alps
 14576;9633;impassable;-1;-1;-1;-1;-1;;alps
@@ -387,8 +440,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11615;14594;impassable;-1;-1;-1;-1;-1;;alps
 11615;14597;impassable;-1;-1;-1;-1;-1;;alps
 11615;3675;impassable;-1;-1;-1;-1;-1;;alps
-
-707;14605;impassable;-1;-1;-1;-1;-1;;alps
 
 671;3675;impassable;-1;-1;-1;-1;-1;;alps
 14595;3675;impassable;-1;-1;-1;-1;-1;;alps
@@ -401,11 +452,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14616;14615;impassable;-1;-1;-1;-1;-1;;alps
 14616;688;impassable;-1;-1;-1;-1;-1;;alps
 
-14616;14636;impassable;-1;-1;-1;-1;-1;;alps
-3684;14636;impassable;-1;-1;-1;-1;-1;;alps
-3684;9665;impassable;-1;-1;-1;-1;-1;;alps
-3684;732;impassable;-1;-1;-1;-1;-1;;alps
-14624;732;impassable;-1;-1;-1;-1;-1;;alps
 
 
 
@@ -587,55 +633,17 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 6436;670;impassable;-1;-1;-1;-1;-1;;Caucasus
 6436;9628;impassable;-1;-1;-1;-1;-1;;Caucasus
 6436;11614;impassable;-1;-1;-1;-1;-1;;Caucasus
-6436;14062;impassable;-1;-1;-1;-1;-1;;Caucasus
-6436;14064;impassable;-1;-1;-1;-1;-1;;Caucasus
-6436;14065;impassable;-1;-1;-1;-1;-1;;Caucasus
-6436;14068;impassable;-1;-1;-1;-1;-1;;Caucasus
-6436;14071;impassable;-1;-1;-1;-1;-1;;Caucasus
 
 
 
 
-14070;1455;impassable;-1;-1;-1;-1;-1;;Caucasus
-14070;14072;impassable;-1;-1;-1;-1;-1;;Caucasus
-14070;9626;impassable;-1;-1;-1;-1;-1;;Caucasus
-654;9626;impassable;-1;-1;-1;-1;-1;;Caucasus
-654;9632;impassable;-1;-1;-1;-1;-1;;Caucasus
-11609;9632;impassable;-1;-1;-1;-1;-1;;Caucasus
-11609;685;impassable;-1;-1;-1;-1;-1;;Caucasus
-654;685;impassable;-1;-1;-1;-1;-1;;Caucasus
-654;11664;impassable;-1;-1;-1;-1;-1;;Caucasus
-672;11664;impassable;-1;-1;-1;-1;-1;;Caucasus
+
 
 1599;14059;impassable;-1;-1;-1;-1;-1;;Caucasus
 12309;14059;impassable;-1;-1;-1;-1;-1;;Caucasus
 12309;9702;impassable;-1;-1;-1;-1;-1;;Caucasus
 12309;14056;impassable;-1;-1;-1;-1;-1;;Caucasus
 12309;12380;impassable;-1;-1;-1;-1;-1;;Caucasus
-
-9647;685;impassable;-1;-1;-1;-1;-1;;Caucasus
-9647;9628;impassable;-1;-1;-1;-1;-1;;Caucasus
-9647;670;impassable;-1;-1;-1;-1;-1;;Caucasus
-14076;670;impassable;-1;-1;-1;-1;-1;;Caucasus
-14076;14074;impassable;-1;-1;-1;-1;-1;;Caucasus
-
-9674;11617;impassable;-1;-1;-1;-1;-1;;Caucasus
-9674;11647;impassable;-1;-1;-1;-1;-1;;Caucasus
-9674;6721;impassable;-1;-1;-1;-1;-1;;Caucasus
-3698;6721;impassable;-1;-1;-1;-1;-1;;Caucasus
-3698;11633;impassable;-1;-1;-1;-1;-1;;Caucasus
-
-9674;11617;impassable;-1;-1;-1;-1;-1;;Caucasus
-9674;11647;impassable;-1;-1;-1;-1;-1;;Caucasus
-9674;6721;impassable;-1;-1;-1;-1;-1;;Caucasus
-3698;6721;impassable;-1;-1;-1;-1;-1;;Caucasus
-3698;11633;impassable;-1;-1;-1;-1;-1;;Caucasus
-
-3672;14074;impassable;-1;-1;-1;-1;-1;;Caucasus
-3672;666;impassable;-1;-1;-1;-1;-1;;Caucasus
-14075;666;impassable;-1;-1;-1;-1;-1;;Caucasus
-14075;9645;impassable;-1;-1;-1;-1;-1;;Caucasus
-11617;11664;impassable;-1;-1;-1;-1;-1;;Caucasus
 
 12348;10499;impassable;-1;-1;-1;-1;-1;;Himalayas
 10363;10499;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -653,6 +661,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1743;4745;impassable;-1;-1;-1;-1;-1;;Himalayas
 1743;10638;impassable;-1;-1;-1;-1;-1;;Himalayas
 
+12331;4655;impassable;-1;-1;-1;-1;-1;;Himalayas
+12331;1723;impassable;-1;-1;-1;-1;-1;;Himalayas
+12609;1723;impassable;-1;-1;-1;-1;-1;;Himalayas
+12609;1853;impassable;-1;-1;-1;-1;-1;;Himalayas
+10629;1853;impassable;-1;-1;-1;-1;-1;;Himalayas
+10629;12539;impassable;-1;-1;-1;-1;-1;;Himalayas
 12880;12539;impassable;-1;-1;-1;-1;-1;;Himalayas
 12880;10558;impassable;-1;-1;-1;-1;-1;;Himalayas
 7803;10558;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -663,8 +677,19 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 7727;4786;impassable;-1;-1;-1;-1;-1;;Himalayas
 7727;1781;impassable;-1;-1;-1;-1;-1;;Himalayas
 1778;1781;impassable;-1;-1;-1;-1;-1;;Himalayas
+4843;1781;impassable;-1;-1;-1;-1;-1;;Himalayas
+4843;10560;impassable;-1;-1;-1;-1;-1;;Himalayas
+12598;10560;impassable;-1;-1;-1;-1;-1;;Himalayas
+12598;1855;impassable;-1;-1;-1;-1;-1;;Himalayas
 
 
+
+
+4986;10880;impassable;-1;-1;-1;-1;-1;;Himalayas
+4986;7314;impassable;-1;-1;-1;-1;-1;;Himalayas
+3427;7314;impassable;-1;-1;-1;-1;-1;;Himalayas
+3427;7659;impassable;-1;-1;-1;-1;-1;;Himalayas
+10451;7659;impassable;-1;-1;-1;-1;-1;;Himalayas
 
 
 4078;13683;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -753,6 +778,25 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9551;14690;impassable;-1;-1;-1;-1;-1;;carpathian mountains
 9551;9567;impassable;-1;-1;-1;-1;-1;;carpathian mountains
 
+5146;2224;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+5146;11001;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+5146;8195;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+5171;8195;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+5192;8195;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+5192;8253;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+5192;12928;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+12914;12928;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+8194;12928;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+8194;2179;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+
+2215;8229;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+2215;8251;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+8192;8251;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+8192;12920;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+2199;12920;impassable;-1;-1;-1;-1;-1;;Chile Argentina
+
+
+
 
 
 5087;2084;impassable;-1;-1;-1;-1;-1;;peshawar mountains
@@ -783,6 +827,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12218;12248;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 12218;12653;impassable;-1;-1;-1;-1;-1;;stalinabad mountains
 
+1703;1840;impassable;-1;-1;-1;-1;-1;;pamir mountains
+12526;1840;impassable;-1;-1;-1;-1;-1;;pamir mountains
+12526;4845;impassable;-1;-1;-1;-1;-1;;pamir mountains
+12601;4845;impassable;-1;-1;-1;-1;-1;;pamir mountains
+12601;10619;impassable;-1;-1;-1;-1;-1;;pamir mountains
+12601;12529;impassable;-1;-1;-1;-1;-1;;pamir mountains
 
 
 12370;1766;impassable;-1;-1;-1;-1;-1;;pamir mountains

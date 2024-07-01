@@ -22,10 +22,6 @@ state={
 			add_core_of = BLR
 
 		}
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		buildings = {
 			infrastructure = 2
 
@@ -39,13 +35,21 @@ state={
 		victory_points = {
 			11528 1 
 		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
 		1920.1.1 = {
 			owner = POL
 			controller = POL
 			add_core_of = SOV
 			add_core_of = BLR
                         remove_core_of = POL
-			remove_core_of = RUS
+			remove_core_of = UKR
 		}
 		1945.1.1 = {
 			owner = SOV

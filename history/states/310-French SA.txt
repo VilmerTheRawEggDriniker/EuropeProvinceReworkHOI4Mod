@@ -11,6 +11,9 @@ state={
 		1700.1.1 = {
                 owner = FRA
                 }
+		1789.1.1 = {
+        add_core_of = CAY
+        }
 		1699.1.1 = {
 		victory_points = {
 			12885 1 
@@ -25,7 +28,7 @@ state={
 		}
                 }
 		1808.1.1 = {
-                owner = POR
+                owner = BRA
                 }
 		1818.1.1 = {
                 owner = FRA

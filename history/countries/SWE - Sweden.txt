@@ -1,4 +1,38 @@
-﻿capital = 141	
+﻿capital = 141
+1771.1.1 = {
+recruit_character=SWE_gustaviii
+promote_character=SWE_gustaviii
+}
+1792.1.1 = {
+recruit_character=SWE_gustavivadolf
+promote_character=SWE_gustavivadolf
+retire_character=SWE_gustaviii
+}
+1809.1.1 = {
+recruit_character=SWE_charlesxiii
+promote_character=SWE_charlesxiii
+retire_character=SWE_gustavivadolf
+}
+1818.1.1 = {
+recruit_character=SWE_charlesxivjohn
+promote_character=SWE_charlesxivjohn
+retire_character=SWE_charlesxiii
+}
+1845.1.1 = {
+retire_character=SWE_charlesxivjohn
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+set_oob = "SWE_1789_1815"
+}
+}
+1816.1.1 = {
+set_cosmetic_tag = SWE_NOR # Sweden Norway
+}
+1905.1.1 = {
+set_cosmetic_tag = SWE # Norway
+}
 1936.1.1 = {
 #add_opinion_modifier = { target = GER modifier = GER_SWE_historic_trade_Partners } CUT
 oob = "SWE_1936"
@@ -190,7 +224,7 @@ set_party_name = { ideology = neutrality long_name = SWE_BER_neutrality_party_lo
 		complete_national_focus = SWE_radiojanst #70
 		complete_national_focus = SWE_individual_liberty_and_prosperity_for_all #35
 		complete_national_focus = SWE_paid_holidays #35
-		complete_national_focus = SWE_saltsjobaden_agreement #70
+		complete_national_focus = SWE_saltsjobaSWE_agreement #70
 		complete_national_focus = SWE_research_slot_1 #70
 		complete_national_focus = SWE_education_reform #35
 		complete_national_focus = SWE_license_skf_ball_bearings #35
@@ -294,7 +328,17 @@ set_party_name = { ideology = neutrality long_name = SWE_BER_neutrality_party_lo
 		}
 	}
 }
-
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+democratic = 50
+neutrality = 50
+}
+1837.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.9.18"
@@ -307,7 +351,7 @@ set_popularities = {
 	communism = 8
 	fascism = 3
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic

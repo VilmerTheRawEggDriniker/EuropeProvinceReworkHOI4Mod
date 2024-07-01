@@ -4,8 +4,18 @@ state={
 	name="STATE_1189"
 
 	history={
-		owner = HAN
-                add_core_of = HAN
+		owner = OSN
+                add_core_of = OSN
+		1812.1.1 = {
+        owner = FRA
+        add_core_of = HAN
+		remove_core_of = osn
+        }
+		1816.1.1 = {
+        owner = HAN
+        add_core_of = HAN
+		remove_core_of = OSN
+        }
 								1950.1.1 = {
 		owner = WGR
 		add_core_of = WGR
@@ -28,7 +38,7 @@ state={
                 add_core_of = GER
                 owner = GER
                 }
-		1920.1.1 = {
+		1919.1.1 = {
                 remove_core_of = WUR
                 remove_core_of = SAX
                 remove_core_of = OLD

@@ -1219,9 +1219,9 @@ on_actions = {
 					}
 					FROM.FROM = {
 						OR = {
-							state = 847 #W Alps
-							state = 151 #E Alps
- 							state = 846 #Tincio
+							state = 1007 #W Alps
+							state = 906 #E Alps
+ 							state = 849 #Tincio
 						}
 					}
 				}

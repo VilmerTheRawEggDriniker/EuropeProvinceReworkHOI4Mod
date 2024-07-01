@@ -9,5 +9,14 @@ hidden_ideas = {
     ai_join_ally_desire_factor = -1000
             }
         }
+        oto_hidden_ai_idea = {
+            allowed_civil_war = {
+                always = yes
+            }
+            removal_cost = -1
+            modifier = {
+    ai_call_ally_desire_factor = 0
+            }
+        }
     }
 }

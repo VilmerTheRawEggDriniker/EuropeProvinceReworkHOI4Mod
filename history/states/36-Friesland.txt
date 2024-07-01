@@ -23,7 +23,7 @@ state={
 		owner = HOL
 		}
 		victory_points = {
-			9335 3 
+			13519 3 
 		}
 		victory_points = {
 			6336 1 

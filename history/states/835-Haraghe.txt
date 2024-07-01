@@ -5,11 +5,6 @@ state={
 
 	history={
 		owner = EGY
-		1900.1.1 = {
-			owner = ENG
-			controller = ENG
-
-		}
 		buildings = {
 			infrastructure = 0
 			12049 = {
@@ -18,14 +13,22 @@ state={
 			}
 
 		}
+				1600.1.1 = {
+		owner = OTO
+		}
+		1804.1.1 = {
+		owner = EGY
+		}
+		1860.1.1 = {
 		victory_points = {
 			12049 5 
 		}
 		victory_points = {
 			4073 3 
 		}
+		}
 		add_core_of = EGY
-		1936.11.14 = {
+		1936.1.1 = {
 			owner = ENG
 			controller = ENG
 
@@ -40,7 +43,7 @@ state={
 	}
 
 	provinces={
-		1155 4073 9947 12049 
+		1155 4073 12049 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

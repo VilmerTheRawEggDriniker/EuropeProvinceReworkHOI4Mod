@@ -35,7 +35,7 @@ state={
                 add_core_of = GER
                 owner = GER
                 }
-		1920.1.1 = {
+		1919.1.1 = {
                 remove_core_of = WUR
                 remove_core_of = SAX
                 remove_core_of = OLD
@@ -58,9 +58,6 @@ state={
 
 		}
                 }
-            add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-		}
 		victory_points = {
 			6521 50 
 		}
@@ -75,8 +72,8 @@ state={
 	provinces={
 		6521
 	}
-	manpower=4000000
+	manpower=3000000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 	local_supplies=0.000
 }

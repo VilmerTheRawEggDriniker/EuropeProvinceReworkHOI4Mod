@@ -7,11 +7,12 @@ state={
 		victory_points = {
 			488 10 
 		}
-		owner = LIT
-		add_core_of = LIT
+		owner = KIE
+		add_core_of = KIE
 		1600.1.1 = {
 			owner = POL
-			add_core_of = POL
+			add_core_of = ZAP
+			remove_core_of = KIE
 
 		}
 		1800.1.1 = {
@@ -19,6 +20,7 @@ state={
 			add_core_of = RUS
 			remove_core_of = POL
 			remove_core_of = LIT
+			remove_core_of = ZAP
 
 		}
 		1900.1.1 = {
@@ -28,6 +30,14 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
+		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
 
 		}
 		1920.1.1 = {
@@ -48,7 +58,7 @@ state={
 	}
 
 	provinces={
-		458 488 1722 2853 2900 4878 6211 6451 9224 11122 11261 11409 11424 11454 13065 
+		458 488 2853 2900 4878 6211 6451 9224 11122 11261 11409 11424 11454 13065 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

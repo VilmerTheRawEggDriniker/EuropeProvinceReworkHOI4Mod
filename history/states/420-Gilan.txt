@@ -7,7 +7,17 @@ state={
 	state_category = pastoral
 
 	history={
+		owner = QAR
+		add_core_of = QAR
+		1600.1.1 = {
+		add_core_of = PER
+		remove_core_of = QAR
+		owner = OTO
+		}
+		1700.1.1 = {
+		add_core_of = PER
 		owner = PER
+		}
 		victory_points = {
 			7969 5
 		}
@@ -16,9 +26,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
 		}
-		add_core_of = PER
 	}
 
 	provinces={

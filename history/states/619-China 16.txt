@@ -8,8 +8,18 @@ state={
 	}
 
 	history={
-		owner = QIN
-		add_core_of = CHI
+		owner = ZZZ
+		1789.1.1 = {
+			owner = QIN
+			add_core_of = MNG
+
+		}
+		1900.1.1 = {
+			owner = QIN
+			remove_core_of = MNG
+			add_core_of = CHI
+
+		}
 		1910.1.1 = {
 			owner = CHI
 			controller = CHI
@@ -41,7 +51,7 @@ state={
 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 
 		}
 		1936.1.1 = {
@@ -52,14 +62,17 @@ state={
 			}
 
 		}
-		victory_points = {
-			2015 2 
+		1789.1.1 = {
+			victory_points = {
+				2015 2 
+			}
+
 		}
 
 	}
 
 	provinces={
-		1766 1970 2015 4682 4828 5016 5087 7702 7790 7792 7949 8042 8086 8112 10821 10885 12119 
+		1766 1970 2015 4682 4828 5016 5042 5087 7702 7790 7792 7949 8042 8086 8112 10821 10885 12119 
 	}
 	manpower=1430700
 	buildings_max_level_factor=1.000

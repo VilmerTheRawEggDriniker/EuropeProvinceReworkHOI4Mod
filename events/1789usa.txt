@@ -1,0 +1,222 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = unitedstates_event
+
+# Act 1935
+country_event = {
+	id = unitedstates_event.1
+	title = ""
+	desc = unitedstates_event.1.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+				
+		date > 1790.3.29 has_start_date < 1800.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.1
+
+	}
+}
+country_event = {
+	id = unitedstates_event.2
+	title = ""
+	desc = unitedstates_event.2.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1791.4.23 has_start_date < 1800.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.2
+
+	}
+}
+country_event = {
+	id = unitedstates_event.3
+	title = ""
+	desc = unitedstates_event.3.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1795.11.2 has_start_date < 1800.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.3
+
+	}
+}
+country_event = {
+	id = unitedstates_event.4
+	title = ""
+	desc = unitedstates_event.4.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+       
+				
+		 date > 1800.1.7 has_start_date < 1812.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.4
+
+	}
+}
+country_event = {
+	id = unitedstates_event.5
+	title = ""
+	desc = unitedstates_event.5.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1804.11.23 has_start_date < 1812.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.5
+
+	}
+}
+country_event = {
+	id = unitedstates_event.6
+	title = ""
+	desc = unitedstates_event.6.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1808.12.29 has_start_date < 1812.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.6
+
+	}
+}
+country_event = {
+	id = unitedstates_event.7
+	title = ""
+	desc = unitedstates_event.7.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1809.2.12 has_start_date < 1812.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.7
+
+	}
+}
+country_event = {
+	id = unitedstates_event.8
+	title = ""
+	desc = unitedstates_event.8.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1822.4.27 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.8
+
+	}
+}
+country_event = {
+	id = unitedstates_event.9
+	title = ""
+	desc = unitedstates_event.9.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1822.10.4 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.9
+
+	}
+}
+country_event = {
+	id = unitedstates_event.10
+	title = ""
+	desc = unitedstates_event.10.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1829.10.5 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.10
+
+	}
+}
+country_event = {
+	id = unitedstates_event.11
+	title = ""
+	desc = unitedstates_event.11.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1831.11.19 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.11
+
+	}
+}
+country_event = {
+	id = unitedstates_event.12
+	title = ""
+	desc = unitedstates_event.12.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+        
+				
+		date > 1833.8.20 has_start_date < 1836.1.1 }
+fire_only_once = yes
+	option = { # 
+		name = "Accept American demands"
+		ai_chance = { factor = 100 } 
+		news_event = unitedstates_news.12
+
+	}
+}

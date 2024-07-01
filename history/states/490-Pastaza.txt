@@ -9,6 +9,14 @@ state={
 			owner = SPR
 
 		}
+		1789.1.1 = {
+        add_core_of = ECU
+        owner = COL
+        }
+		1812.1.1 = {
+        add_core_of = ECU
+        owner = VEN
+        }
 		1836.1.1 = {
 			add_core_of = ECU
 			owner = ECU

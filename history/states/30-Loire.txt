@@ -9,9 +9,8 @@ state={
 			9478 3 
 		}
 		buildings = {
-			infrastructure = 3			
-                  arms_factory = 1
-
+			infrastructure = 3
+			arms_factory = 1
 
 		}
 		add_core_of = FRA
@@ -19,9 +18,9 @@ state={
 	}
 
 	provinces={
-		503 3495 3509 3523 9478 9867 11463 11521 11613 13339 13344 13456 13457 13458 13459 
+		503 3495 3509 3523 9478 11463 11521 13339 13344 13457 13458 13459 
 	}
-	manpower=1117557
+	manpower=1000000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

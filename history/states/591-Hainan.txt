@@ -4,8 +4,16 @@ state={
 	name="STATE_591"
 
 	history={
-		owner = QIN
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
 		add_core_of = CHI
+		remove_core_of = MNG
+        }
 		1913.1.1 = {
 			owner = CHI
 			controller = CHI
@@ -30,10 +38,21 @@ state={
 		victory_points = {
 			1070 1 
 		}
-		buildings = {
+		1936.1.1={
+				buildings = {
 			infrastructure = 1
 			industrial_complex = 1
 			air_base = 1
+			1070 = {
+				naval_base = 2
+
+			}
+
+		}
+	}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
 			1070 = {
 				naval_base = 2
 

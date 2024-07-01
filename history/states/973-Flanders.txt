@@ -1,34 +1,76 @@
+
 state={
 	id=973
 	name="STATE_973"
+
 	history={
 		owner = FLA
 		add_core_of = FLA
-		1600.1.1 = {
-		add_core_of = BEL
-		owner = BEL
-		remove_core_of = HLL
-		remove_core_of = FLA
-		remove_core_of = BRB
-		remove_core_of = FRI
-		remove_core_of = GEL
-		remove_core_of = UTR
+				1789.1.1 = {
+		buildings = {
+		3576 = {bunker = 2}
+        }
+		buildings = {
+		6446 = {bunker = 2}
+        }
+		buildings = {
+		6560 = {bunker = 2}
+        }
+		buildings = {
+		13081 = {bunker = 2}
+        }
 		}
 		1800.1.1 = {
-		owner=FRA
-		add_core_of = FRA
-		remove_core_of = BEL
+		buildings = {
+		3576 = {bunker = 0}
+        }
+		buildings = {
+		6446 = {bunker = 0}
+        }
+		buildings = {
+		6560 = {bunker = 0}
+        }
+		buildings = {
+		13081 = {bunker = 0}
+        }
+		}
+				1789.1.1 = {
+			set_demilitarized_zone = yes
+
+		}
+		1790.1.1 = {
+			set_demilitarized_zone = no
+
+		}
+		1600.1.1 = {
+			add_core_of = BEL
+			owner = BEL
+			remove_core_of = HLL
+			remove_core_of = FLA
+			remove_core_of = BRB
+			remove_core_of = FRI
+			remove_core_of = GEL
+			remove_core_of = UTR
+
+		}
+		1800.1.1 = {
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = BEL
+
 		}
 		1816.1.1 = {
-		owner = HOL
-		add_core_of = HOL
-		remove_core_of = FRA
+			owner = HOL
+			add_core_of = HOL
+			remove_core_of = FRA
+
 		}
 		1831.1.1 = {
-                add_core_of = BEL
-                remove_core_of = HOL
-                owner = BEL
-                }
+			add_core_of = BEL
+			remove_core_of = HOL
+			owner = BEL
+
+		}
 		victory_points = {
 			6560 5 
 		}
@@ -36,10 +78,10 @@ state={
 			3576 1 
 		}
 		victory_points = {
-			13081 1 
+			6446 10 
 		}
 		victory_points = {
-			6446 10 
+			13081 1 
 		}
 		buildings = {
 			infrastructure = 3
@@ -48,6 +90,7 @@ state={
 				naval_base = 3
 
 			}
+
 		}
 
 	}
@@ -55,8 +98,8 @@ state={
 	provinces={
 		3576 6446 6560 13081 
 	}
-	manpower=1483366
+	manpower=2000000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 	local_supplies=0.000
 }

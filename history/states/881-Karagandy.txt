@@ -4,32 +4,33 @@ state={
 	name="STATE_881"
 
 	history={
-		owner = TYR
-        add_core_of = TYR
+		owner = BGZ
+		add_core_of = BGZ
 		1500.1.1 = {
-		owner = AUS
-		add_core_of = AUS
-		remove_core_of = STY
-		remove_core_of = TYR
-		remove_core_of = CEL
-		remove_core_of = TRT
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = STY
+			remove_core_of = TYR
+			remove_core_of = BGZ
+			remove_core_of = TRT
+
 		}
 		1812.1.1 = {
 			owner = BAY
-                add_core_of = BAY
+			add_core_of = BAY
+
 		}
 		1816.1.1 = {
 			owner = AUS
-                add_core_of = AUS
-                remove_core_of = BAY
+			add_core_of = AUS
+			remove_core_of = BAY
+
 		}
 		1900.1.1 = {
 			owner = AUH
-                add_core_of = AUH
-                remove_core_of = AUS
-		}
-		victory_points = {
-			6680 1 
+			add_core_of = AUH
+			remove_core_of = AUS
+
 		}
 		victory_points = {
 			14604 1 
@@ -38,7 +39,7 @@ state={
 			infrastructure = 2
 
 		}
-		1919.1.1 = {
+		1920.1.1 = {
 			owner = AUS
 			controller = AUS
 			add_core_of = AUS
@@ -62,7 +63,7 @@ state={
 	}
 
 	provinces={
-		6680 14604 
+		14604 
 	}
 	manpower=158300
 	buildings_max_level_factor=1.000

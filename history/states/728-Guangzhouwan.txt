@@ -6,8 +6,16 @@ state={
 	state_category = enclave
 	
 	history={
-		owner = QIN
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
 		add_core_of = CHI
+		remove_core_of = MNG
+        }
 		1900.1.1 = {
                 owner = FRA
                 }

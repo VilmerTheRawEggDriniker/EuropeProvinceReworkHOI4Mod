@@ -7,29 +7,43 @@ state={
 	}
 
 	history={
-		owner = LIT
-		add_core_of = LIT
+		owner = WDF
+		add_core_of = WDF
 		1600.1.1 = {
 			owner = POL
-                add_core_of = POL
+			remove_core_of = WDF
+			remove_core_of = POD
+			remove_core_of = SMG
+			remove_core_of = SMO
+			remove_core_of = KIE
+			remove_core_of = CHE
+			add_core_of = ZAP
+
 		}
 		1700.1.1 = {
 			owner = RUS
-                add_core_of = RUS
-                remove_core_of = POL
-                remove_core_of = LIT
+			add_core_of = RUS
+			remove_core_of = ZAP
+
 		}
 		1900.1.1 = {
-                add_core_of = UKR
-                }
+			add_core_of = UKR
+
+		}
+		1777.1.1 = {
 		victory_points = {
 			11437 20 
 		}
+		}
+		1639.1.1 = {
 		victory_points = {
 			9419 1 
 		}
+		}
+		1750.1.1 = {
 		victory_points = {
 			9433 1 
+		}
 		}
 		buildings = {
 			infrastructure = 3
@@ -43,6 +57,14 @@ state={
 				air_base = 2
 
 			}
+
+		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
 
 		}
 		1920.1.1 = {
@@ -63,7 +85,7 @@ state={
 	}
 
 	provinces={
-		434 3468 6423 6478 9419 9433 10508 11422 11437 12487 
+		434 6423 9419 9433 10508 11422 11437 12487 
 	}
 	manpower=2000000
 	buildings_max_level_factor=1.000

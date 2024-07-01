@@ -249,11 +249,14 @@ every_country = {
 				}
 if = {
   limit = {
-    FIN={controls_state = 213}
+    country_exists = FIN
   }
   FIN={
   transfer_state = 213
-    transfer_state = 215}
+    transfer_state = 215
+  transfer_state = 146
+    transfer_state = 147
+  transfer_state = 722}
 }
 			}
 	}
@@ -359,11 +362,14 @@ every_country = {
 }
 if = {
   limit = {
-    FIN={controls_state = 213}
+    country_exists = FIN
   }
   FIN={
   transfer_state = 213
-    transfer_state = 215}
+    transfer_state = 215
+  transfer_state = 146
+    transfer_state = 147
+  transfer_state = 722}
 }
 			}
 	}
@@ -502,11 +508,14 @@ every_country = {
 }
 if = {
   limit = {
-    FIN={controls_state = 213}
+    country_exists = FIN
   }
   FIN={
   transfer_state = 213
-    transfer_state = 215}
+    transfer_state = 215
+  transfer_state = 146
+    transfer_state = 147
+  transfer_state = 722}
 }
 			}
 	}
@@ -571,11 +580,14 @@ every_country = {
 }
 if = {
   limit = {
-    FIN={controls_state = 213}
+    country_exists = FIN
   }
   FIN={
   transfer_state = 213
-    transfer_state = 215}
+    transfer_state = 215
+  transfer_state = 146
+    transfer_state = 147
+  transfer_state = 722}
 }
 }
 }
@@ -618,9 +630,6 @@ date > 1848.1.1
 			transfer_state = 376
 			transfer_state = 377
 			transfer_state = 1026
-			transfer_state = 1028
-			transfer_state = 1029
-			transfer_state = 1030
 		}
 					USA = { 
 	add_ideas = houston
@@ -656,10 +665,7 @@ if = {
 			transfer_state = 375
 			transfer_state = 376
 			transfer_state = 377
-			transfer_state = 1026
-			transfer_state = 1028
-			transfer_state = 1029
-			transfer_state = 1030	
+			transfer_state = 1026	
 			transfer_state = 1027
 			transfer_state = 1025
 			transfer_state = 1021
@@ -699,10 +705,7 @@ if = {
 			transfer_state = 375
 			transfer_state = 376
 			transfer_state = 377
-			transfer_state = 1026
-			transfer_state = 1028
-			transfer_state = 1029
-			transfer_state = 1030	
+			transfer_state = 1026	
 			transfer_state = 1027
 			transfer_state = 1025
 			transfer_state = 1021
@@ -751,10 +754,7 @@ if = {
 			transfer_state = 375
 			transfer_state = 376
 			transfer_state = 377
-			transfer_state = 1026
-			transfer_state = 1028
-			transfer_state = 1029
-			transfer_state = 1030	
+			transfer_state = 1026	
 			transfer_state = 1027
 			transfer_state = 1025
 			transfer_state = 1021

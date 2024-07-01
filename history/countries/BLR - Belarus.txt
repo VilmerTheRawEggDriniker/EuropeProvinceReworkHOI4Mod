@@ -1,5 +1,22 @@
 ﻿capital = 206 #Minsk
-
+1919.1.1 = {
+		if = {
+		limit = { has_start_date < 1920.1.1 }
+set_oob = "BLR_1919"
+}
+}
+1919.1.1 = {
+		set_capital = {
+  state = 95
+  remember_old_capital = no
+}
+}
+1920.1.1 = {
+		set_capital = {
+  state = 206
+  remember_old_capital = no
+}
+}
 set_research_slots = 3
 
 # Starting tech

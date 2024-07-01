@@ -1,5 +1,31 @@
 ﻿capital = 50
-
+1777.1.1 = {
+recruit_character=WUR_charleseugene
+promote_character=WUR_charleseugene
+}
+1800.1.1 = {
+recruit_character=WUR_louiseugen
+promote_character=WUR_louiseugen
+retire_character=WUR_charleseugene
+}
+1800.1.1 = {
+recruit_character=WUR_frederickiieugene
+promote_character=WUR_frederickiieugene
+retire_character=WUR_louiseugen
+}
+1825.1.1 = {
+recruit_character=WUR_fredericki
+promote_character=WUR_fredericki
+retire_character=WUR_frederickiieugene
+}
+1825.1.1 = {
+recruit_character=WUR_williami
+promote_character=WUR_williami
+retire_character=WUR_fredericki
+}
+1849.1.1 = {
+retire_character=WUR_williami
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -146,20 +172,28 @@ set_stability = 0.75
 
 	}
 }
-1812.1.1 = {
+1444.11.11 = {
+set_cosmetic_tag = WUR_county # Wurtemberg County
+}
+1500.1.1 = {
+set_cosmetic_tag = WUR_duchy # Wurtemberg Duchy
+}
+1803.1.1 = {
+set_cosmetic_tag = WUR_electorate # Wurtemberg Electorate
+}
+1806.1.1 = {
 set_cosmetic_tag = WUR_kingdom # Wurtemberg Kingdom
 }
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1444.11.11"
 	election_frequency = 48
-	elections_allowed = yes
-
+	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	democratic = 50
+	neutrality = 50
 }
 
 add_ideas = {

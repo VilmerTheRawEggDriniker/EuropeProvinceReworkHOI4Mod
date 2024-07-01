@@ -35,7 +35,7 @@ state={
 			671 1 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 		}
 		1920.1.1 = {
 			owner = AUS
@@ -63,7 +63,7 @@ state={
 	provinces={
 		671
 	}
-	manpower=63959
+	manpower=13959
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

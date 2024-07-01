@@ -8,14 +8,13 @@ state={
 		add_core_of = POL
 		1800.1.1 = {
 			owner = GLL
-                add_core_of = GLL
+			add_core_of = GLL
+
 		}
 		1810.1.1 = {
 			owner = POL
-                remove_core_of = GLL
-		}
-		1900.1.1 = {
-			owner = RUS
+			remove_core_of = GLL
+
 		}
 		victory_points = {
 			11466 2 
@@ -30,7 +29,7 @@ state={
 			infrastructure = 2
 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = POL
 			controller = POL
 			add_core_of = POL
@@ -41,7 +40,7 @@ state={
 	}
 
 	provinces={
-		6580 9494 11466 14709 14720 14721 14723 14724 14726 14727 
+		9494 11466 14709 14720 14721 14723 14724 14726 14727 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

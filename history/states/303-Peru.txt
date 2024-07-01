@@ -27,6 +27,10 @@ state={
 			owner = SPR
 			controller = SPR
 		}
+				1789.1.1 = {
+        add_core_of = PRU
+        owner = PRU
+        }
 		1822.1.1 = {
 			owner = PRU
 			controller = PRU

@@ -16,7 +16,7 @@ state={
 			owner = GER
 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			remove_core_of = WUR
 			remove_core_of = SAX
 			remove_core_of = OLD
@@ -31,18 +31,17 @@ state={
 
 		}
 		1950.1.1 = {
-		owner = DDR
-		add_core_of = DDR
-		remove_core_of = GER
+			owner = DDR
+			add_core_of = DDR
+			remove_core_of = GER
+
 		}
 		2000.1.1 = {
-		owner = GER
-		add_core_of = GER
-		remove_core_of = DDR
-		remove_core_of = WGR
-		}
-		victory_points = {
-			6524 5 
+			owner = GER
+			add_core_of = GER
+			remove_core_of = DDR
+			remove_core_of = WGR
+
 		}
 		victory_points = {
 			538 3 
@@ -56,6 +55,12 @@ state={
 		victory_points = {
 			3500 1 
 		}
+		victory_points = {
+			9497 1 
+		}
+		victory_points = {
+			13362 1 
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -66,10 +71,10 @@ state={
 	}
 
 	provinces={
-		482 538 3500 3561 6501 6524 9497 13362 13363 
+		482 538 3500 6501 6524 9497 13362 13363 
 	}
 	manpower=2500000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=city
 	local_supplies=0.000
 }

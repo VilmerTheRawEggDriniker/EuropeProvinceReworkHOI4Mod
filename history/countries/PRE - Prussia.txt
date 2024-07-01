@@ -1,4 +1,58 @@
 ﻿capital = 64
+1700.1.1 = {
+set_cosmetic_tag = PRE_one #13 states
+}
+1750.1.1 = {
+set_cosmetic_tag = PRE_two #15 states
+}
+1801.1.1 = {
+set_cosmetic_tag = PRE_three #20 states
+}
+1803.1.1 = {
+set_cosmetic_tag = PRE_four #21 states
+}
+1900.1.1 = {
+set_cosmetic_tag = PRE_five #23 states
+}
+1740.1.1 = {
+recruit_character=PRE_frederickthegreat
+promote_character=PRE_frederickthegreat
+}
+1786.1.1 = {
+recruit_character=PRE_frederickwilliamii
+promote_character=PRE_frederickwilliamii
+retire_character=PRE_frederickthegreat
+}
+1797.1.1 = {
+recruit_character=PRE_frederickwilliamiii
+promote_character=PRE_frederickwilliamiii
+retire_character=PRE_frederickwilliamii
+}
+1841.1.1 = {
+retire_character=PRE_frederickwilliamiii
+}
+1836.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+    set_autonomy = {
+        target = POS
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1811.1.1 }
+set_oob = "PRE_1789_1815"
+}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+set_oob = "PRE_FRA_1789_1815"
+}
+}
 set_technology = {
 	infantry_weapons = 1
 }
@@ -151,15 +205,14 @@ set_stability = 0.75
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1444.11.11"
 	election_frequency = 48
-	elections_allowed = yes
-
+	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	democratic = 50
+	neutrality = 50
 }
 
 add_ideas = {

@@ -4,12 +4,12 @@ state={
 	name="STATE_925"
 
 	history={
-		owner = CRO
-		add_core_of = CRO
+		owner = SLA
+		add_core_of = SLA
 		1600.1.1 = {
 	        owner = OTO
                 add_core_of = HUN
-                remove_core_of = CRO
+                remove_core_of = SLA
 
 		}
 		1700.1.1 = {
@@ -37,7 +37,7 @@ state={
 		victory_points = {
 			9595 1 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = YUG
 			controller = YUG
 			add_core_of = YUG

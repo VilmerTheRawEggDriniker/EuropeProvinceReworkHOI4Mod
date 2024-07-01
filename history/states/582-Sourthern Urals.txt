@@ -8,19 +8,28 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = TAT
+		add_core_of = TAT
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+
+		}
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = RUS
-		add_core_of = TAT
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
 			add_core_of = SOV
-		add_core_of = BSK
-		remove_core_of = TAT
+			add_core_of = BSK
+			remove_core_of = TAT
 			remove_core_of = RUS
 
 		}
@@ -38,10 +47,10 @@ state={
 	}
 
 	provinces={
-		4265 7300 10136 10142 10329 11223 12117 
+		4261 4265 4311 4383 7300 7373 10185 10329 11223 12200 
 	}
 	manpower=1044991
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

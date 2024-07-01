@@ -1,7 +1,15 @@
 ﻿capital = 79
-
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "MOL_1789"
+}
+}
 1900.1.1 = {
-capital = 78
+		set_capital = {
+  state = 78
+  remember_old_capital = no
+}
 }
 
 #oob = ""
@@ -75,15 +83,15 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 25
-	neutrality = 75
+	democratic = 50
+	neutrality = 50
 }
 1945.1.1 = {
 set_politics = {
 	ruling_party = communism
 	last_election = "1945.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 55

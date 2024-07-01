@@ -4,18 +4,38 @@ state={
 	name="STATE_223"
 
 	history={
-		owner = RUS
+		owner = ODO
+		add_core_of = ODO
+		1550.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = MUS
+			remove_core_of = NOV
+			remove_core_of = PSK
+			remove_core_of = ODO
+		}
 		victory_points = {
 			6262 3 
 		}
-		buildings = {
+										1936.1.1 = {
+				buildings = {
 			infrastructure = 3
 			arms_factory = 1
 			air_base = 1
 			synthetic_refinery = 1
 
 		}
-		add_core_of = RUS
+}
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
 		1920.1.1 = {
 		owner = SOV
 		controller = SOV
@@ -35,6 +55,6 @@ state={
 	}
 	manpower=1635549
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

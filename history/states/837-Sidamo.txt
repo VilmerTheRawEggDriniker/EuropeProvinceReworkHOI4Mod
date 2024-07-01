@@ -4,8 +4,8 @@ state={
 	name="STATE_837"
 
 	history={
-		owner = HES
-                add_core_of = HES
+		owner = WTZ
+                add_core_of = WTZ
 								1950.1.1 = {
 		owner = WGR
 		add_core_of = WGR
@@ -17,6 +17,11 @@ state={
 		remove_core_of = DDR
 		remove_core_of = WGR
 		}
+				1800.1.1 = {
+                add_core_of = HES
+                owner = HES
+				remove_core_of = WTZ
+                }
 				1816.1.1 = {
                 add_core_of = PRE
                 owner = PRE

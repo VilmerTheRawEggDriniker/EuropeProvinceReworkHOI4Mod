@@ -12,6 +12,9 @@ state=
 	history={
 		owner = ZZZ
 		1600.1.1 = {
+                owner = SPR
+                }
+						1700.1.1 = {
                 owner = FRA
                 }
 		1600.1.1 = {
@@ -27,6 +30,9 @@ state=
 			}
 		}
                 }
+		1789.1.1 = {
+        add_core_of = HAI
+        }
 		1803.1.1 = {
                 owner = HAI
                 add_core_of = HAI

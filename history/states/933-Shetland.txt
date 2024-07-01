@@ -2,7 +2,13 @@ state={
 	id=933
 	name="STATE_933"
 	history={
+		owner = ZZZ
+		1900.1.1 = {
+		owner = RAJ
+		controller = RAJ
 		add_core_of = BRM
+            remove_core_of = RAJ
+		}
 		1937.1.1 = {
 			owner = ENG
 			controller = ENG
@@ -13,9 +19,8 @@ state={
 		add_core_of = BRM
             remove_core_of = RAJ
 		}
-		owner = RAJ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		}
 	}
 

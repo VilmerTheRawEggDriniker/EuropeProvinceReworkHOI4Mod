@@ -35,10 +35,6 @@ state={
                 remove_core_of = THU
                 remove_core_of = PRE
                 }
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		buildings = {
 			infrastructure = 3
 
@@ -60,8 +56,8 @@ state={
 	provinces={
 		6488 
 	}
-	manpower=1000000
+	manpower=750000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 	local_supplies=15.000
 }

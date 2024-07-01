@@ -16,6 +16,9 @@ state={
 			153 1
 		}
                 }
+		1789.1.1 = {
+        add_core_of = CRC
+        }
 		1615.1.1 = {
 		buildings = {
 			infrastructure = 1
@@ -24,6 +27,9 @@ state={
 				coastal_bunker = 2
 			}
 		}
+                }
+		1500.1.1 = {
+                owner = SPR
                 }
 		1700.1.1 = {
                 owner = HOL

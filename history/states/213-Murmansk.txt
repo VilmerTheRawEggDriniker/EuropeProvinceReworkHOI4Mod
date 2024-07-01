@@ -2,7 +2,7 @@
 state={
 	id=213
 	name="STATE_213"
-	manpower = 360000
+	manpower = 20000
 	state_category = pastoral
 	resources={
 		steel=14 # was: 28
@@ -10,13 +10,21 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = NOV
+		add_core_of = NOV
+		1500.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = NOV
+		remove_core_of = POL
+		}
 		victory_points = {
 			3134 5 
 		}
 		victory_points = {
 			6181 1
 		}
+				1936.1.1 = {
 		buildings = {
 			infrastructure = 1
 			air_base = 2
@@ -25,7 +33,13 @@ state={
 				coastal_bunker = 1
 			}		
 		}
-		add_core_of = RUS
+		}
+		buildings = {
+			infrastructure = 1
+			3134 = {
+				naval_base = 4
+			}		
+		}
 		1900.1.1 = {
                 }
 		1920.1.1 = {

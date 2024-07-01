@@ -1,0 +1,31 @@
+characters={
+	GEO_heracliusii={
+		name=GEO_CHARACTER_HERACLIUSII
+		portraits={
+			civilian={
+				large="GFX_portrait_geo_heracliusii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bagriatoni}
+			desc = GEO_HERACLIUSII_DESC
+			expire="1797.1.1"
+		}
+}
+	GEO_georgexii={
+		name=GEO_CHARACTER_GEORGEXII
+		portraits={
+			civilian={
+				large="GFX_portrait_geo_georgexii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bagriatoni}
+			desc = GEO_GEORGEXII_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

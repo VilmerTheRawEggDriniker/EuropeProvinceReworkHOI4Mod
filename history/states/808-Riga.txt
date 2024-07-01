@@ -7,8 +7,15 @@ state={
 	}
 
 	history={
-		owner = LIV
-		add_core_of = LIV
+		owner = RGA
+		add_core_of = RGA
+				1600.1.1 = {
+			add_core_of = LIV
+		remove_core_of = DRP
+		remove_core_of = OSE
+		remove_core_of = KRL
+		remove_core_of = RGA
+		}
 		1900.1.1 = {
 		add_core_of = LAT
 		}

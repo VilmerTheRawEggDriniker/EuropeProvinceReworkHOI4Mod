@@ -1,4 +1,89 @@
 ﻿capital = 6
+1781.1.1 = {
+recruit_character=BEL_casimir
+promote_character=BEL_casimir
+}
+1793.1.1 = {
+recruit_character=BEL_charles
+promote_character=BEL_charles
+retire_character=BEL_casimir
+}
+1794.1.1 = {
+recruit_character=BEL_leopoldi
+promote_character=BEL_leopoldi
+retire_character=BEL_charles
+}
+1866.1.1 = {
+retire_character=BEL_leopoldi
+}
+1789.1.1 = {
+		if = {
+limit = { has_start_date < 1790.1.1 }
+	add_ideas = {
+		luxemburg_stronghold
+	}
+}
+}
+2000.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "2000.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+set_popularities = {
+	democratic = 50
+	fascism = 10
+	communism = 10
+	neutrality = 30
+}
+}
+1837.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1832.11.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 83
+	fascism = 11
+	communism = 6
+}
+}
+1936.1.1 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1932.11.27"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+set_popularities = {
+	democratic = 50
+	fascism = 10
+	communism = 10
+	neutrality = 30
+}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1800.1.1 }
+set_oob = "BEL_1789"
+}
+}
+1551.1.1 = {
+set_cosmetic_tag = BEL_spanish # Spanish Netherlands
+}
+1740.1.1 = {
+set_cosmetic_tag = BEL_AUS #austrian puppet
+}
+1790.1.1 = {
+set_cosmetic_tag = BEL_republic # United Belgian States
+}
+1836.1.1 = {
+set_cosmetic_tag = BEL # Belgium Kingdom
+}
 1936.1.1 = {
 oob = "BEL_1936"
 if = {
@@ -126,18 +211,22 @@ recruit_character = BEL_paul_van_zeeland
 
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1932.11.27"
+	ruling_party = neutrality
+	last_election = "1444.11.11"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 83
-	fascism = 11
-	communism = 6
+	democratic = 50
+        neutrality = 50
 }
-
+1740.1.1 = {
+set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
+}
+1836.1.1 = {
+set_party_name = { ideology = neutrality long_name = BEL_neutrality_party_long name = BEL_neutrality_party }
+}
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic
@@ -155,18 +244,4 @@ set_popularities = {
 set_convoys = 80
 
 # DIPLOMACY
-1900.1.1 = {
-set_autonomy = {
-        target = COG
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-            }
-}
-1936.1.1 = {
-    set_autonomy = {
-        target = COG
-        autonomous_state = autonomy_free
-        freedom_level = 0.35
-	}
-    }
 set_stability = 0.75

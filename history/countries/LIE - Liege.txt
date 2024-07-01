@@ -1,5 +1,22 @@
 ﻿capital = 979
-
+1784.1.1 = {
+recruit_character=LIE_cesar
+promote_character=LIE_cesar
+}
+1792.1.1 = {
+recruit_character=LIE_francois
+promote_character=LIE_francois
+retire_character=LIE_cesar
+}
+1836.1.1 = {
+retire_character=LIE_francois
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1800.1.1 }
+set_oob = "LIE_1789"
+}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

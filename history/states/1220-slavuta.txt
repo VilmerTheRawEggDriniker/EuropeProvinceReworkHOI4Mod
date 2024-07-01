@@ -11,12 +11,17 @@ state={
 			add_core_of = POL
 
 		}
+		1789.1.1 = {
+			add_core_of = ZAP
+			remove_core_of = POL
+			remove_core_of = LIT
+
+		}
 		1800.1.1 = {
 			owner = RUS
 			add_core_of = RUS
 			remove_core_of = POL
-			remove_core_of = LIT
-
+			remove_core_of = ZAP
 		}
 		1900.1.1 = {
 			add_core_of = UKR
@@ -24,6 +29,14 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+
+		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
 
 		}
 		1920.1.1 = {
@@ -44,7 +57,7 @@ state={
 	}
 
 	provinces={
-		3511 6509 10164 10295 
+		3511 6509 7337 10164 10295 
 	}
 	manpower=200000
 	buildings_max_level_factor=1.000

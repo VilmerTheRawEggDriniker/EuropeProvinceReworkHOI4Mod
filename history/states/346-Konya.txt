@@ -4,9 +4,10 @@ state={
 	name="STATE_346"
 
 	history={
-		owner = OTO
+		owner = KRM
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
 		victory_points = {
 			9861 5 
@@ -17,7 +18,20 @@ state={
 		victory_points = {
 			3870 5 
 		}
-		add_core_of = OTO
+		add_core_of = KRM
+						1487.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+
+		}
 		1920.1.1 = {
 			owner = TUR
 			controller = TUR
@@ -27,6 +41,7 @@ state={
 		}
 		1936.1.1 = {
 		buildings = {
+			industrial_complex = 1
 			infrastructure = 2
 			air_base = 5
 

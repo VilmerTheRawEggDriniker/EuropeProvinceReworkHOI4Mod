@@ -1,5 +1,10 @@
 ﻿capital = 249 #Kazan
-
+1444.11.11 = {
+set_cosmetic_tag = TAT_horde # Horde
+}
+1900.1.1 = {
+set_cosmetic_tag = TAT # Modern
+}
 #oob = "TAT_1936"
 
 set_research_slots = 3
@@ -86,14 +91,15 @@ if = {
 }
 }
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = neutrality
+	last_election = "1444.11.11"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 70
+	democratic = 20
+        neutrality = 50
 	fascism = 10
 	communism = 20
 }

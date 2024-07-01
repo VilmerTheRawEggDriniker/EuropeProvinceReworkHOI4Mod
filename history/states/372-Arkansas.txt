@@ -22,12 +22,14 @@ state={
                 owner = FRA
                 }
 		1789.1.1 = {
-                owner = SPR
-                }
+        owner = MEX
+		add_core_of = LOU
+        }
 		1803.1.1 = {
-                owner = USA
-                add_core_of = USA
-                }
+        owner = USA
+        add_core_of = USA
+		remove_core_of = LOU
+        }
 		1803.1.1 = {
 		buildings = {
 			infrastructure = 2

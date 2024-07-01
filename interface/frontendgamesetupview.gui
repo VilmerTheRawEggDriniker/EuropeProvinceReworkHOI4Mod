@@ -547,7 +547,7 @@ guiTypes = {
 			name = "history_title"
 			position = { x = 500 y = 620 }
 			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
+			borderSize = {x = 0 y = 100}
 			text = "BM_HISTORY_TITLE"
 			maxWidth = 340
 			maxHeight = 30

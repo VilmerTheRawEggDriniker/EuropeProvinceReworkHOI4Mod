@@ -1,6 +1,37 @@
 ﻿capital = 2
-
-
+set_oob = "PAP_1789"
+1775.1.1 = {
+recruit_character=PAP_piusvi
+promote_character=PAP_piusvi
+}
+1800.1.1 = {
+recruit_character=PAP_piusvii
+promote_character=PAP_piusvii
+retire_character=PAP_piusvi
+}
+1823.1.1 = {
+recruit_character=PAP_leoxii
+promote_character=PAP_leoxii
+retire_character=PAP_piusvii
+}
+1829.1.1 = {
+recruit_character=PAP_piusviii
+promote_character=PAP_piusviii
+retire_character=PAP_leoxii
+}
+1831.1.1 = {
+recruit_character=PAP_gregoryxvi
+promote_character=PAP_gregoryxvi
+retire_character=PAP_piusviii
+}
+1848.1.1 = {
+recruit_character=PAP_piusix
+promote_character=PAP_piusix
+retire_character=PAP_gregoryxvi
+}
+1879.1.1 = {
+retire_character=PAP_piusix
+}
 
 set_research_slots = 3
 set_stability = 0.5
@@ -99,7 +130,9 @@ if = {
 }
 
 set_convoys = 60
-
+1825.1.1 = {
+set_cosmetic_tag = PAP_modern #only flag change 
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1934.3.26"

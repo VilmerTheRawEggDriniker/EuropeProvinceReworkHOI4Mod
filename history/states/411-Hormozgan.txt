@@ -10,9 +10,16 @@ state={
 	
 
 	history={
+		owner = TIM
+		add_core_of = TIM
+		1500.1.1 = {
+		add_core_of = PER
+		remove_core_of = TIM
 		owner = PER
+		}
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
 		}
 		victory_points = {
 			2026 1 
@@ -23,7 +30,6 @@ state={
 		victory_points = {
 			8031 1 
 		}
-		add_core_of = PER
 	}
 
 	provinces={

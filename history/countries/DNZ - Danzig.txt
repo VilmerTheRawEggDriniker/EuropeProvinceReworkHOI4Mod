@@ -1,5 +1,12 @@
 ﻿capital = 85 #Danzig
-
+1812.1.1 = {
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
 set_research_slots = 3
 
 # Starting tech
@@ -86,7 +93,7 @@ if = {
 		basic_torpedo = 1
 	}
 }
-
+1936.1.1 = {
 set_politics = {
 	ruling_party = fascism
 	last_election = "1935.4.7"
@@ -100,7 +107,20 @@ set_popularities = { #popularities based on 1933 election statistics.
 	communism = 6
 	neutrality = 10
 }
+}
+set_politics = {
+	ruling_party = fascism
+	last_election = "1935.4.7"
+	election_frequency = 36
+	elections_allowed = yes
+}
 
+set_popularities = { #popularities based on 1933 election statistics.
+	democratic = 22
+	fascism = 62
+	communism = 6
+	neutrality = 10
+}
 create_country_leader = {
 	name = "Albert Forster"
 	desc = ""

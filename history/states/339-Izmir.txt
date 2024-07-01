@@ -8,9 +8,6 @@ state={
 
 	history={
 		owner = OTO
-            add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-		}
 		victory_points = {
 			4112 20
 		}
@@ -19,7 +16,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 3
+			industrial_complex = 1
 			4112 = {
 				naval_base = 5
 
@@ -37,7 +34,7 @@ state={
 		1920.1.1 = {
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 3
+			industrial_complex = 1
 			air_base = 2
 			4112 = {
 				naval_base = 5

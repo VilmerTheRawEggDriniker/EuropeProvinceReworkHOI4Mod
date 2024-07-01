@@ -11,6 +11,10 @@ form_circassia:0 "Restore Circassia"
 
 form_circassia_category:0 "Restore Circassia"
 
+form_lcthre:0 "Form the Holy Roman Empire of the German Nation"
+
+form_lcthre_category:0 "Form the Holy Roman Empire of the German Nation"
+
 
 industrialize_turkey_category:0 "Industrialize Turkey"
 industrialize_turkey_istanbul:0 "Industrialize Istanbul"
@@ -63,3 +67,24 @@ GER_reichskommissariat_lodzger:0 "Incorporate Litzmannstadt into the Reich"
 GER_reichskommissariat_bialystokger:0 "Incorporate Bialystok into the Reich"
 GER_reichskommissariat_lithuania:0 "Reichskommissariat Lithuania"
 GER_reichskommissariat_bialystoklit:0 "Give Bialystok to Lithuania"
+
+HRE_frenchrevolution:0 "The French Revolution"
+HRE_prussia_russia_patriotic_war_peace:0 "Leave the Continental System"
+HRE_austria_russia_patriotic_war_peace:0 "Leave the Continental System"
+
+FRA_frenchrevolution:0 "The French Revolution"
+FRA_liberteegalitefraternite:0 "Liberté égalité fraternité"
+FRA_changeflag:0 "Change the French Flag"
+
+FRA_italiangambit:0 "The Italian Gambit"
+FRA_invade_sardinia:0 "Invade Sardinia-Piedmont"
+FRA_invade_milan:0 "Invade Milan"
+FRA_invade_venice:0 "Invade Venice"
+FRA_invade_naples:0 "Invade Naples"
+FRA_invade_pope:0 "Invade the Papal States"
+FRA_invade_prmmodmas:0 "Invade Parma Modena and Massa"
+FRA_invade_genoa:0 "Invade Genoa"
+FRA_invade_lucca:0 "Invade Lucca"
+FRA_invade_tuscany:0 "Invade Tuscany"
+FRA_invade_sicily:0 "Invade Sicily"
+FRA_invade_malta:0 "Invade Malta"

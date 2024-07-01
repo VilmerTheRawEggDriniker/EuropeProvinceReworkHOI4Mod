@@ -11,10 +11,6 @@ state={
                 add_core_of = VNT
                 remove_core_of = FEA
                 }
-                1800.1.1 = {
-                owner = ITA
-                add_core_of = ITA
-                }
 		1812.1.1 = {
                 owner = ITA
                 add_core_of = ITA
@@ -44,6 +40,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+                        arms_factory = 1
 
 		}
 

@@ -4,7 +4,13 @@ state={
 	name="STATE_410"
 
 	history={
+		owner = TIM
+		add_core_of = TIM
+		1500.1.1 = {
+		add_core_of = PER
+		remove_core_of = TIM
 		owner = PER
+		}
 		victory_points = {
 			10782 1 
 		}
@@ -12,8 +18,6 @@ state={
 			infrastructure = 1
 
 		}
-		add_core_of = PER
-
 	}
 
 	provinces={

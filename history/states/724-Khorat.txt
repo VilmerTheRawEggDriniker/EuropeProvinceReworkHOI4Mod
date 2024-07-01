@@ -11,14 +11,22 @@ state={
 
 
 	history={
-		owner = SIA
+		owner = ZZZ
 		buildings = {
-			infrastructure = 2
+			infrastructure = 0
 		}
+		1789.1.1 = {
+		buildings = {
+		infrastructure = 2
+		}
+	    }
+		1789.1.1 = {
 		victory_points = {
 			7236 1 
 		}
+		owner = SIA
 		add_core_of = SIA
+		}
 	}
 	
 	provinces={

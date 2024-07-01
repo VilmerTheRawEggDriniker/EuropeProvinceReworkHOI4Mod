@@ -27,9 +27,6 @@ state={
                 remove_core_of = TTS
                 remove_core_of = LBV
 		}
-            add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-		}
 		victory_points = {
 			819 20 
 		}

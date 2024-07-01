@@ -1,4 +1,18 @@
 ﻿capital = 2
+1812.1.1 = {
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+1805.1.1 = {
+set_cosmetic_tag = ITA_FRA # Kingdom of Italy Napoleonic
+}
+1814.1.1 = {
+set_cosmetic_tag = ITA # 
+}
 1936.1.1 = {
 if = {
 	limit = {
@@ -30,70 +44,6 @@ add_ideas = {
 	partial_economic_mobilisation
 }
 }
-# RESISTANCE / COMPLIANCE
-
-1900.1.1 = {
-550 = { #ERITREA
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-
-559 = { #SOMALILAND
-	start_resistance = yes
-	set_compliance = 20
-	set_resistance = 0
-	set_garrison_strength = 1.0
-}
-every_owned_state = { #LIBYAN STATES
-	limit = {
-		is_core_of = LBA
-		NOT = { state = 273 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 663 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 996 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 997 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 998 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 999 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 1000 } #Don't add resistance in the middle of the impassable desert thanks
-	}
-	start_resistance = yes
-	set_compliance = 35
-	set_resistance = 0
-	set_garrison_strength = 1.0
-        }
-}
-
-1946.1.1 = {
-550 = { #ERITREA
-	start_resistance = no
-	set_compliance = 0
-	set_resistance = 0
-	set_garrison_strength = 0.0
-}
-
-559 = { #SOMALILAND
-	start_resistance = no
-	set_compliance = 0
-	set_resistance = 0
-	set_garrison_strength = 0.0
-}
-every_owned_state = { #LIBYAN STATES
-	limit = {
-		is_core_of = LBA
-		NOT = { state = 273 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 663 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 996 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 997 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 998 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 999 } #Don't add resistance in the middle of the impassable desert thanks
-		NOT = { state = 1000 } #Don't add resistance in the middle of the impassable desert thanks
-	}
-	start_resistance = no
-        }
-}
-
-
 #######################################
 ############ MISSIOLINIS ##############
 #######################################
@@ -766,7 +716,7 @@ if = {
 
 
 set_convoys = 200
-
+1936.1.1 = {
 set_politics = {
 	ruling_party = fascism
 	last_election = "1934.3.26"
@@ -779,7 +729,19 @@ set_popularities = {
 	communism = 2
 	neutrality = 5
 }
-
+}
+set_politics = {
+	ruling_party = fascism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 20
+	fascism = 73
+	communism = 2
+	neutrality = 5
+}
 recruit_character = ITA_benito_mussolini
 recruit_character = ITA_grand_council
 recruit_character = ITA_vittorio_emanuele_iii

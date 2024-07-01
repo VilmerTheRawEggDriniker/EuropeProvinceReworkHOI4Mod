@@ -1,6 +1,9 @@
 ﻿capital = 172
 1500.1.1 = {
-capital = 792
+		set_capital = {
+  state = 792
+  remember_old_capital = no
+}
 }
 
 #oob = ""

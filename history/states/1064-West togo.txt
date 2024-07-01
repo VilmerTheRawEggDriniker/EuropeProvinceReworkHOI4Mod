@@ -8,7 +8,7 @@ state={
                 add_core_of = TOG
                 owner = GER
                 }
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = ENG
 			controller = ENG
                 	add_core_of = GHA

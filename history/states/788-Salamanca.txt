@@ -10,10 +10,6 @@ state={
             owner = SPR
 			remove_core_of = MOR
             }
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			12100 2 
 		}

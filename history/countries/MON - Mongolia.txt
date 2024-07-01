@@ -79,7 +79,16 @@ recruit_character = MON_pai_yun_ti
 		concentrated_industry2 = 1
 	}
 }
-
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 100
+}
+1936.1.1 = {
 set_politics = {
 	ruling_party = communism
 	last_election = "1936.1.1"
@@ -89,7 +98,7 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
-
+}
 1939.1.1 = {
 	add_ideas = {
 		limited_conscription

@@ -7,6 +7,9 @@ state={
 		owner = GEO
                 add_core_of = GEO
 		1600.1.1 = {
+                owner = OTO
+                }
+				1700.1.1 = {
                 owner = PER
                 }
 				1789.1.1 = {
@@ -26,6 +29,12 @@ state={
 		buildings = {
 			infrastructure = 0
 
+		}
+				1919.1.1 = {
+		add_core_of = GEO
+		owner = GEO
+		remove_core_of = RUS
+		remove_core_of = PER
 		}
 		1920.1.1 = {
 			owner = SOV

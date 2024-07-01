@@ -8,10 +8,6 @@ state={
 		victory_points = {
 			10113 1 
 		}
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		buildings = {
 			infrastructure = 2
 		}

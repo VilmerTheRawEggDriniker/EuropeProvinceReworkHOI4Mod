@@ -5,10 +5,6 @@ state={
 
 	history={
 		owner = POR
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			9817 20 
 		}

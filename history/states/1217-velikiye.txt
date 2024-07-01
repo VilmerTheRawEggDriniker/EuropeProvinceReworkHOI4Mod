@@ -4,7 +4,14 @@ state={
 	name="STATE_1217"
 
 	history={
-		owner = RUS
+		owner = NOV
+		add_core_of = NOV
+		1500.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = NOV
+		remove_core_of = POL
+		}
 		victory_points = {
 			11234 1 
 		}
@@ -12,13 +19,16 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = RUS
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
 			add_core_of = SOV
 			remove_core_of = RUS
 
+		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
 		}
 		1993.1.1 = {
 			owner = RUS
@@ -33,8 +43,8 @@ state={
 	provinces={
 		95 207 3053 9120 9319 9331 11097 11234 11304 
 	}
-	manpower=200000
+	manpower=500000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 	local_supplies=0.000
 }

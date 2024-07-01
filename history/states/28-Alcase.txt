@@ -7,46 +7,20 @@ state={
 	}
 
 	history={
-		owner = BUR
-		add_core_of = BUR
-		1600.1.1 = {
-		owner = SPR
-		add_core_of = FRA
-		remove_core_of = BUR
-		}
+		owner = STS
+		add_core_of = STS
 		1700.1.1 = {
-		owner = FRA
-		add_core_of = FRA
-		remove_core_of = BUR
-		}
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
+			owner = FRA
+			add_core_of = FRA
+			remove_core_of = STS
 
-		}
-		victory_points = {
-			678 5 
 		}
 		victory_points = {
 			9503 10 
 		}
-		victory_points = {
-			549 1
-		}
-		victory_points = {
-			6529 1
-		}
-		1936.1.1 = {
-					buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			anti_air_building = 5
-			air_base = 5
-
-		}
-		}
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
+			infrastructure = 5
+
 		}
 		1871.1.1 = {
 			owner = GER
@@ -61,33 +35,23 @@ state={
 			controller = FRA
 
 		}
+		1900.1.1 = {
 		buildings = {
-			3629 = {
-				bunker = 10
-
-			}
-			549 = {
-				bunker = 10
-
-			}
-			678 = {
-				bunker = 10
-
-			}
 			9503 = {
 				bunker = 10
 
 			}
 
 		}
+		}
 
 	}
 
 	provinces={
-		549 678 1346 3629 6529 9503 14287 
+		9503 
 	}
-	manpower=1600000
+	manpower=300000
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=city
 	local_supplies=14.000
 }

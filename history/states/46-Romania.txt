@@ -14,9 +14,11 @@ state={
                 add_core_of = ROM
                 remove_core_of = WAL
 		}
+		1459.1.1 = {
 		victory_points = {
 			9617 20 
 		}
+				}
 		victory_points = {
 			3663 5 
 		}

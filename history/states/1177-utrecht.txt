@@ -22,7 +22,7 @@ state={
 		owner = HOL
 		}
 		victory_points = {
-			6241 5 
+			6241 10
 		}
 		buildings = {
 			infrastructure = 3
@@ -34,8 +34,8 @@ state={
 	provinces={
 		6241
 	}
-	manpower=400000
+	manpower=300000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

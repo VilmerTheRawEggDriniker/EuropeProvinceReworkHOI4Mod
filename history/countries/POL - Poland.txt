@@ -1,4 +1,63 @@
-﻿capital = 10
+﻿capital = 88
+1569.1.1 = {
+set_cosmetic_tag = POL_LIT # polish lithuanian commonwealth
+}
+1800.1.1 = {
+set_cosmetic_tag = POL # poland
+}
+1561.1.1 = {
+			if = {
+		limit = { has_start_date < 1796.01.01 }
+	set_autonomy = {
+        target = COU
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1764.1.1 = {
+recruit_character=POL_stanislawiiaugust
+promote_character=POL_stanislawiiaugust
+}
+1812.1.1 = {
+recruit_character=POL_frederickaugustusipol
+promote_character=POL_frederickaugustusipol
+retire_character=POL_stanislawiiaugust
+}
+1836.1.1 = {
+retire_character=POL_frederickaugustusipol
+}
+1926.1.1 = {
+recruit_character=POL_ignacy_moscicki
+promote_character=POL_ignacy_moscicki
+}
+1940.1.1 = {
+retire_character=POL_ignacy_moscicki
+}
+1919.1.1 = {
+		if = {
+		limit = { has_start_date < 1920.1.1 }
+set_oob = "POL_1919"
+}
+}
+1815.11.11 = {
+set_cosmetic_tag = POL_RUS # Kingdom of Poland necessarily Congress Poland
+}
+1915.1.1 = {
+set_cosmetic_tag = POL # Modern
+}
+1800.1.1 = {
+		set_capital = {
+  state = 10
+  remember_old_capital = no
+}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+set_oob = "POL_1789_1815"
+}
+}
 1936.1.1 = {
 oob = "POL_1936"
 if = {
@@ -147,7 +206,7 @@ set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_lo
 1816.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_ROS_neutrality_party_long name = POL_ROS_neutrality_party }
 }
-1936.1.1 = {
+1919.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_neutrality_party_long name = POL_neutrality_party }
 }
 1940.1.1 = {
@@ -390,7 +449,20 @@ set_convoys = 10
         freedom_level = 0.2
 	}
     }
-
+1812.1.1 = {
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1935.9.8"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 32
+	fascism = 11
+	communism = 19
+	neutrality = 38
+}
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.9.8"
@@ -412,8 +484,34 @@ set_popularities = {
 		neutrality = 78
 	}
 }
-
-recruit_character = POL_ignacy_moscicki
+1950.1.1 = {
+set_politics = {
+	ruling_party = communism
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 41
+	fascism = 6
+	communism = 45
+	neutrality = 8
+}
+}
+1993.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1993.9.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 79
+	fascism = 7
+	communism = 7
+	neutrality = 7
+}
+}
 recruit_character = POL_wladyslaw_sikorski
 recruit_character = POL_boleslaw_wieniawa_glugoszowski
 recruit_character = POL_wladyslaw_gomulka

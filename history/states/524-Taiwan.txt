@@ -7,19 +7,20 @@ state=
 	state_category = large_city
 	history=
 	{
-		owner = QIN
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+		add_core_of = CHI
+		remove_core_of = MNG
+        }
 		1900.1.1 = {
                 owner = JAP
                 }
-		add_core_of = CHI
 		1933.1.1 = {
-		}
-		1946.1.1 = {
-			owner = CHI
-			controller = CHI
-            remove_core_of = AUH
-		}
-		buildings = {
+					buildings = {
 			infrastructure = 3 #was: 5
 			arms_factory = 1
 			air_base = 6
@@ -27,13 +28,32 @@ state=
 				naval_base = 10
 			}
 		}
+		}
+		1946.1.1 = {
+			owner = CHI
+			controller = CHI
+            remove_core_of = AUH
+		}
+		1700.1.1 = {
+				buildings = {
+			infrastructure = 3 #was: 5
+			arms_factory = 1
+			12068 = {
+				naval_base = 10
+			}
+		}
+		}
+		buildings = {
+			infrastructure = 0
+		}
+				1700.1.1 = {
 		victory_points = {
 			7186 5 
 		}
 		victory_points = {
 			12068 1 
 		}
-
+				}
 	}
 	provinces={
 		1091 1175 4096 7186 7214 9955 11914 11959 12027 12068

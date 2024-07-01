@@ -5,21 +5,20 @@ state={
 	history={
 		owner = ZZZ
 		1900.1.1 = {
-			owner = FRA
-			controller = FRA
+			owner = LBA
+			controller = LBA
 		add_core_of = LBA
-		add_core_of = ALG
+		add_core_of = FEZ
 		}
 		buildings = {
 			infrastructure = 0
 
 		}
-		1919.1.1 = {
+		1920.1.1 = {
 			owner = ITA
 			controller = ITA
 		remove_core_of = ALG
 		remove_core_of = EGY
-
 		}
 		1946.1.1 = {
         owner = LBA

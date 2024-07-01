@@ -13,11 +13,19 @@ state={
 
 		}
 		add_core_of = SPR
+		1812.1.1 = {
+			controller = FRA
+
+		}
+		1813.1.1 = {
+			controller = SPR
+
+		}
 
 	}
 
 	provinces={
-		738 9703 11688 
+		738 9703 11688 14509 
 	}
 	manpower=364147
 	buildings_max_level_factor=1.000

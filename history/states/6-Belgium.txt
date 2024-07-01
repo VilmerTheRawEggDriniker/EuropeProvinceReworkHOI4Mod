@@ -5,6 +5,24 @@ state={
 	history={
 		owner = BRB
 		add_core_of = BRB
+				1789.1.1 = {
+		buildings = {
+		516 = {bunker = 2}
+        }
+		}
+		1800.1.1 = {
+		buildings = {
+		516 = {bunker = 0}
+        }
+		}
+				1789.1.1 = {
+			set_demilitarized_zone = yes
+
+		}
+		1790.1.1 = {
+			set_demilitarized_zone = no
+
+		}
 		1600.1.1 = {
 		add_core_of = BEL
 		owner = BEL
@@ -50,7 +68,7 @@ state={
 	provinces={
 		516 
 	}
-	manpower=2000000
+	manpower=383366
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

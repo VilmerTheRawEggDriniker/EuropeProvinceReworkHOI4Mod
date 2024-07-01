@@ -4,22 +4,35 @@ state={
 	name="STATE_438"
 
 	history={
-		owner = RAJ
-		victory_points = {
-			12137 1 
+		owner = MUG
+		add_core_of = MUG
+		1900.1.1 = {
+        remove_core_of = MUG
+		}
+		1812.1.1 = {
+			owner = RAJ
+			add_core_of = RAJ
+			victory_points = {
+				1377 1 
+			}
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+
+			}
+
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
+			infrastructure = 0
 
 		}
 
 	}
 
 	provinces={
-		1377 1541 1898 1983 3989 4299 5002 5055 5086 5157 7064 7334 8082 8114 9951 9973 10021 10751 10794 11955 12137 12777 12786 
+		1377 1983 4299 7064 7334 8082 9973 10751 12777 12786 
 	}
-	manpower=40000000
+	manpower=10000000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

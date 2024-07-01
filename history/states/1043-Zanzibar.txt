@@ -25,7 +25,7 @@ state={
 		buildings = {
 			infrastructure = 0
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = ENG
 			controller = ENG
             remove_core_of = KEN
@@ -34,6 +34,9 @@ state={
 						1961.1.1 = {
         owner = TZN
 		add_core_of = TZN
+        }
+		1900.1.1 = {
+		add_core_of = ZAN
         }
 	}
 

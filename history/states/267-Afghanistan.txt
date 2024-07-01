@@ -10,6 +10,15 @@ state={
 		tungsten=3 # was: 3
 	}
 	history={
+		owner = MUG
+		add_core_of = MUG
+		1900.1.1 = {
+        remove_core_of = MUG
+		}
+				buildings = {
+			infrastructure = 0
+				}
+		1789.1.1 = {
 		owner = AFG
 		buildings = {
 			infrastructure = 1
@@ -22,6 +31,7 @@ state={
 			12248 1
 		}
 		add_core_of = AFG
+		}
 	}
 
 	provinces={

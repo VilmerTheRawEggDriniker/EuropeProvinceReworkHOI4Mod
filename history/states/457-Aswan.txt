@@ -9,6 +9,12 @@ state={
 			owner = ENG
 			controller = ENG
             }
+					1600.1.1 = {
+		owner = OTO
+		}
+		1804.1.1 = {
+		owner = EGY
+		}
 		1946.1.1 = {
 			owner = EGY
 			controller = EGY

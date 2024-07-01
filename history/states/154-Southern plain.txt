@@ -23,13 +23,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
+			arms_factory = 2
 
 		}
 		1936.1.1 = {
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
+			arms_factory = 2
 			air_base = 2
 
 		}
@@ -37,7 +37,7 @@ state={
 		victory_points = {
 			11659 1 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = HUN
 			controller = HUN
 			add_core_of = HUN

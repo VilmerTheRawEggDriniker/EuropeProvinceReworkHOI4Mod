@@ -10,12 +10,15 @@ state={
 		add_core_of = LAT
 		}
 		1600.1.1 = {
-                owner = POL
+                owner = COU
+		add_core_of = COU 
+		remove_core_of = LIV 
                 }
 		1800.1.1 = {
                 owner = RUS
                 add_core_of = RUS
 				remove_core_of = LIV
+				remove_core_of = COU 
                 }
 		victory_points = {
 			6222 3 

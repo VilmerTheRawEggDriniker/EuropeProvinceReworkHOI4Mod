@@ -1,4 +1,56 @@
-﻿capital = 7
+﻿capital = 1087
+1750.1.1 = {
+recruit_character=HOL_williamv
+promote_character=HOL_williamv
+}
+1810.1.1 = {
+recruit_character=HOL_louisbonaparte
+promote_character=HOL_louisbonaparte
+retire_character=HOL_williamv
+}
+1811.1.1 = {
+recruit_character=HOL_louisii
+promote_character=HOL_louisii
+retire_character=HOL_louisbonaparte
+}
+1812.1.1 = {
+recruit_character=HOL_williami
+promote_character=HOL_williami
+retire_character=HOL_louisii
+}
+1848.1.1 = {
+retire_character=HOL_williami
+}
+1579.1.1 = {
+set_cosmetic_tag = HOL_republic # 
+}
+1795.1.1 = {
+set_cosmetic_tag = HOL_bat_rep # Netherlands East Indies
+}
+1796.1.1 = {
+set_cosmetic_tag = HOL_bat_com # Netherlands East Indies
+}
+1797.1.1 = {
+set_cosmetic_tag = HOL_kingdom # Netherlands East Indies
+}
+1798.1.1 = {
+set_cosmetic_tag = HOL_principality # Netherlands East Indies
+}
+1836.1.1 = {
+set_cosmetic_tag = HOL # Netherlands East Indies
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1800.1.1 }
+set_oob = "HOL_1789"
+}
+}
+1812.1.1 = {
+		set_capital = {
+  state = 7
+  remember_old_capital = no
+}
+}
 1936.1.1 = {
 oob = "HOL_1936"
 if = {
@@ -116,7 +168,6 @@ if = {
 }
 
 set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
-
 add_ideas = {
 	HOL_wilhelmina
 }
@@ -284,8 +335,19 @@ recruit_character = HOL_wilhelmina
 }
 
 set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+        neutrality = 50
+}
+1837.1.1 = {
+set_politics = {
 	ruling_party = democratic
-	last_election = "1933.4.26"
+	last_election = "1833.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -294,7 +356,7 @@ set_popularities = {
 	fascism = 4
 	communism = 3
 }
-
+}
 set_convoys = 150
 set_stability = 0.75
 

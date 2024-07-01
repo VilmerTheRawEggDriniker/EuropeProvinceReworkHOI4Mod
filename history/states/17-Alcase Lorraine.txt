@@ -7,17 +7,12 @@ state={
 	}
 
 	history={
-		owner = BUR
-		add_core_of = BUR
-		1600.1.1 = {
-		owner = SPR
-		add_core_of = FRA
-		remove_core_of = BUR
-		}
+		owner = CMT
+		add_core_of = CMT
 		1700.1.1 = {
 		owner = FRA
 		add_core_of = FRA
-		remove_core_of = BUR
+		remove_core_of = CMT
 		}
 		victory_points = {
 			9642 5 
@@ -41,7 +36,7 @@ state={
 	provinces={
 		698 3646 3666 6698 9642 14584 14600 14620 
 	}
-	manpower=1000000
+	manpower=700000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

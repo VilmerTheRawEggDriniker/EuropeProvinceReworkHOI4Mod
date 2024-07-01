@@ -9,6 +9,16 @@ state={
 	history={
 		owner = LUX
 		add_core_of = LUX
+				1789.1.1 = {
+		buildings = {
+		6583 = {bunker = 2}
+        }
+		}
+		1800.1.1 = {
+		buildings = {
+		6583 = {bunker = 0}
+        }
+		}
 				1600.1.1 = {
 		add_core_of = BEL
 		owner = BEL
@@ -52,6 +62,9 @@ state={
 		}
 		victory_points = {
 			6583 5 
+		}
+		victory_points = {
+			13476 1
 		}
 	}
 

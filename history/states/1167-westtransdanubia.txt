@@ -26,9 +26,10 @@ remove_core_of = AUS
 		}
 		buildings = {
 			infrastructure = 2
+		industrial_complex = 1
 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = HUN
 			controller = HUN
 			add_core_of = HUN

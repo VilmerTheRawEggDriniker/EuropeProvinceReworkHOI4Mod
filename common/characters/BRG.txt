@@ -1,0 +1,45 @@
+characters={
+	BRG_joachimmurat={
+		name=BRG_CHARACTER_JOACHIMMURAT
+		portraits={
+			civilian={
+				large="GFX_portrait_brg_joachimmurat_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Murat}
+			desc = BRG_JOACHIMMURAT_DESC
+			expire="1797.1.1"
+		}
+}
+	BRG_napoleon={
+		name=BRG_CHARACTER_NAPOLEON
+		portraits={
+			civilian={
+				large="GFX_portrait_brg_napoleon_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bonaparte}
+			desc = BRG_NAPOLEON_DESC
+			expire="1797.1.1"
+		}
+}
+	BRG_louisii={
+		name=BRG_CHARACTER_LOUISII
+		portraits={
+			civilian={
+				large="GFX_portrait_brg_louisii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bonaparte}
+			desc = BRG_LOUISII_DESC
+			expire="1797.1.1"
+		}
+}
+}
+

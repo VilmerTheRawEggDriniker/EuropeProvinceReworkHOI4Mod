@@ -12,25 +12,40 @@ state={
 		victory_points = {
 			351 10 
 		}
+		victory_points = {
+			11332 1 
+		}
+		victory_points = {
+			3311 1 
+		}
 		1936.1.1 = {
-		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			dockyard = 4
-			air_base = 6
-			351 = {
-				naval_base = 6
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				dockyard = 4
+				air_base = 6
+				351 = {
+					naval_base = 6
+
+				}
+				3311 = {
+				naval_base = 1
+
+			}
 
 			}
 
 		}
-		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 4
 			351 = {
 				naval_base = 6
+
+			}
+			3311 = {
+				naval_base = 1
 
 			}
 
@@ -48,9 +63,9 @@ state={
 	}
 
 	provinces={
-		219 351 9285 11270 11299 14217 14218 14219 14220 14221 14222 
+		219 351 3311 6399 9285 11270 11299 11332 14212 14216 14217 14218 14219 14220 14221 14222 
 	}
-	manpower=2000000
+	manpower=2311546
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=14.000

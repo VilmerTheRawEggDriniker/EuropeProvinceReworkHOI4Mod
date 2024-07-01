@@ -1,5 +1,5 @@
 ﻿capital = 906
-
+set_oob = "GRI_1789"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

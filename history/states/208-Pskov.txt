@@ -24,6 +24,10 @@ state={
 			}
 
 		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
 		buildings = {
 			infrastructure = 2
 
@@ -48,8 +52,8 @@ state={
 	provinces={
 		354 387 3333 6242 6293 9353 9386 11259 
 	}
-	manpower=500000
+	manpower=288418
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 	local_supplies=0.000
 }

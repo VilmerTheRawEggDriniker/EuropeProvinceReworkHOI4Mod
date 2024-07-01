@@ -19,9 +19,6 @@ state={
 		1900.1.1 = {
                 add_core_of = LIT
 		}
-            add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-		}
 		victory_points = {
 			6296 10
 		}
@@ -31,7 +28,7 @@ state={
 			industrial_complex = 1
 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = LIT
 			controller = LIT
 			add_core_of = LIT

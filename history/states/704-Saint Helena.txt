@@ -4,8 +4,8 @@ state={
 	name="STATE_704"
 
 	history={
-		owner = HES
-		add_core_of = HES
+		owner = CLW
+		add_core_of = CLW
 		1950.1.1 = {
 			owner = WGR
 			add_core_of = WGR
@@ -19,6 +19,12 @@ state={
 			remove_core_of = WGR
 
 		}
+		1812.1.1 = {
+			add_core_of = HES
+			owner = HES
+			remove_core_of = CLW
+
+		}
 		1816.1.1 = {
 			add_core_of = PRE
 			owner = PRE
@@ -30,7 +36,7 @@ state={
 			owner = GER
 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			remove_core_of = WUR
 			remove_core_of = SAX
 			remove_core_of = OLD
@@ -44,6 +50,9 @@ state={
 			remove_core_of = PRE
 
 		}
+		victory_points = {
+			13501 1 
+		}
 		buildings = {
 			infrastructure = 2
 
@@ -52,10 +61,10 @@ state={
 	}
 
 	provinces={
-		3398 9443 13499 13501 
+		6570 13501 13503 
 	}
-	manpower=900000
+	manpower=700000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

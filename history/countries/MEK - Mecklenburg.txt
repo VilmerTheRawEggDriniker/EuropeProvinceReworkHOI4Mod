@@ -1,5 +1,11 @@
 ﻿capital = 61
-
+1785.1.1 = {
+recruit_character=MEK_frederickfrancisi
+promote_character=MEK_frederickfrancisi
+}
+1837.1.1 = {
+retire_character=MEK_frederickfrancisi
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -158,18 +164,25 @@ set_stability = 0.75
 		}
 	}
 }
-
+1700.1.1 = {
+set_cosmetic_tag = MEK_duchy # 
+}
+1701.1.1 = {
+set_cosmetic_tag = MEK # 
+}
+1816.1.1 = {
+set_cosmetic_tag = MEK_grandduchy # Netherlands East Indies
+}
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1444.11.11"
 	election_frequency = 48
-	elections_allowed = yes
-
+	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	democratic = 50
+	neutrality = 50
 }
 
 add_ideas = {

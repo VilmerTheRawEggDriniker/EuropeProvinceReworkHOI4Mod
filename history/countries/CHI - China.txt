@@ -1,7 +1,10 @@
 ﻿capital = 613 # Nanjing
 1949.1.1 = {
-capital = 524
-	}
+		set_capital = {
+  state = 524
+  remember_old_capital = no
+}
+}
 
 1936.1.1 = {
 oob = "CHI_1936"

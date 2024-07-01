@@ -7,6 +7,9 @@ state={
 	history={
                 owner = ZZZ
 		1789.1.1 = {
+		owner = MEX
+                }
+			1836.1.1 = {
 		owner = SPR
                 }
 		1788.1.1 = {

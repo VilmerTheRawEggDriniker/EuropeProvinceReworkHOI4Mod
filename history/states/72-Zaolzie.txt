@@ -29,9 +29,16 @@ state={
 
 		}
 		1919.1.1 = {
+			owner = POL
+			controller = POL
+			remove_core_of = AUH
+                        remove_core_of = BOH
+
+		}
+		1920.1.1 = {
 			owner = CZE
 			controller = CZE
-			remove_core_of = AUH
+			remove_core_of = POL
                         remove_core_of = BOH
 
 		}

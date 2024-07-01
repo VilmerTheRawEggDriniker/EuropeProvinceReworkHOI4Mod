@@ -12,6 +12,9 @@ state={
 		1848.1.1 = {
                 owner = RUS
                 }
+		1919.1.1 = {
+		owner = KAZ
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV

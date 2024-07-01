@@ -1,6 +1,82 @@
 ﻿capital = 126
+1762.1.1 = {
+recruit_character=ENG_georgeiiieng
+promote_character=ENG_georgeiiieng
+}
+1820.1.1 = {
+recruit_character=ENG_georgeiveng
+promote_character=ENG_georgeiveng
+retire_character=ENG_georgeiiieng
+}
+1835.1.1 = {
+recruit_character=ENG_williamiveng
+promote_character=ENG_williamiveng
+retire_character=ENG_georgeiveng
+}
+1837.1.1 = {
+retire_character=ENG_williamiveng
+}
+1936.1.1 = {
+recruit_character=ENG_stanley_baldwin
+promote_character=ENG_stanley_baldwin
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1801.1.1 }
+    set_autonomy = {
+        target = HAN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+}
+}
+1800.1.1 = {
+		if = {
+		limit = { has_start_date < 1801.1.1 }
+    set_autonomy = {
+        target = HAN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+}
+}
+1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+    set_autonomy = {
+        target = HAN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+}
+}
+1836.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+    set_autonomy = {
+        target = HAN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1800.1.1 }
+set_oob = "ENG_1789_1815"
+}
+}
+1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+set_oob = "ENG_POR_1789_1815"
+}
+}
 1707.1.1 = {
 set_cosmetic_tag = ENG_britain # british empire
+}
+1801.1.1 = {
+set_cosmetic_tag = ENG_britain_newflag # british empire
 }
 1936.1.1 = {
 if = {
@@ -206,10 +282,17 @@ set_convoys = 800
         autonomous_state = autonomy_integrated_puppet
 	}
     }
-1860.1.1 = {
+1789.1.1 = {
     set_autonomy = {
         target = RAJ
         autonomous_state = autonomy_colony
+        freedom_level = 0.35
+	}
+    }
+1946.1.1 = {
+    set_autonomy = {
+        target = RAJ
+        autonomous_state = autonomy_dominion
         freedom_level = 0.35
 	}
     }
@@ -531,10 +614,10 @@ set_popularities = {
 1444.11.11 = {
 set_party_name = { ideology = neutrality long_name = ENG_LAN_neutrality_party_long name = ENG_LAN_neutrality_party }
 }
-1600.1.1 = {
+1485.1.1 = {
 set_party_name = { ideology = neutrality long_name = ENG_TUD_neutrality_party_long name = ENG_TUD_neutrality_party }
 }
-1603.1.1 = {
+1600.1.1 = {
 set_party_name = { ideology = neutrality long_name = ENG_STU_neutrality_party_long name = ENG_STU_neutrality_party }
 }
 1690.1.1 = {
@@ -555,10 +638,10 @@ set_party_name = { ideology = neutrality long_name = ENG_WIG_neutrality_party_lo
 
 
 
-1700.1.1 = {
+1837.1.1 = {
 set_politics = {
 	ruling_party = democratic
-	last_election = "1935.11.14"
+	last_election = "1832.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
 }
@@ -589,7 +672,6 @@ add_to_faction = MAL
 }
 # Order matters - here Chamberlain becomes starting leader
 recruit_character = ENG_oswald_mosley
-recruit_character = ENG_stanley_baldwin
 recruit_character = ENG_winston_churchill
 recruit_character = ENG_harry_pollitt
 recruit_character = ENG_alan_brooke

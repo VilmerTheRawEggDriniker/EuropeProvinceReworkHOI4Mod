@@ -1,12 +1,33 @@
 ﻿capital = 160
-
+country_lock_all_division_template = yes
+1800.1.1 = {
+set_cosmetic_tag = BOH_AUS #austrian puppet
+}
+1805.1.1 = {
+set_cosmetic_tag = BOH #independent
+}
+1797.1.1 = {
+recruit_character=VNT_francisiivnt
+promote_character=VNT_francisiivnt
+}
+1836.1.1 = {
+recruit_character=VNT_ferdinandivnt
+promote_character=VNT_ferdinandivnt
+retire_character=VNT_francisiivnt
+}
+1849.1.1 = {
+retire_character=VNT_ferdinandivnt
+}
+set_oob = "VNT_1789"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
 set_convoys = 20
-
+1800.1.1 = {
+set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
+}
 
 1939.1.1 = {
 	
@@ -55,15 +76,15 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1444.11.11"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 75
-	neutrality = 25
+	democratic = 50
+	neutrality = 50
 }
 
 

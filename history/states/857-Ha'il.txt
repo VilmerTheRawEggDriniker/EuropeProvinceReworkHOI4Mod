@@ -6,12 +6,12 @@ state={
 		victory_points = {
 			6626 10
 		}
-                owner = VNT
-                add_core_of = VNT
-        1804.1.1 = {
+                owner = TRS
+                add_core_of = TRS
+        1500.1.1 = {
                 owner = AUS
                 add_core_of = AUS
-                remove_core_of = VNT
+                remove_core_of = TRS
 				remove_core_of = RAG
         }
 		1812.1.1 = {
@@ -29,7 +29,7 @@ state={
 		1900.1.1 = {
                 add_core_of = SLV
                 }
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = ITA
 			controller = ITA
             add_core_of = ITA

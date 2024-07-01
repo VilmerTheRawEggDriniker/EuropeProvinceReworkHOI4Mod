@@ -10,10 +10,11 @@ state={
 	history={
 		owner = CRI
 		add_core_of = CRI
-				1783.1.1 = {
-		remove_core_of = CRI
-		owner = RUS
-		add_core_of = RUS
+		1783.1.1 = {
+			remove_core_of = CRI
+			owner = RUS
+			add_core_of = RUS
+
 		}
 		victory_points = {
 			3734 10 
@@ -26,7 +27,17 @@ state={
 			industrial_complex = 1
 
 		}
-		1919.1.1 = {
+				1919.1.1 = {
+		owner = KUB
+		add_core_of=KUB
+		}
+		1920.1.1 = {
+		remove_core_of = CRI
+		remove_core_of = DON
+		remove_core_of = KUB
+		remove_core_of = DAG
+		}
+		1920.1.1 = {
 			owner = SOV
 			controller = SOV
 			add_core_of = SOV
@@ -44,7 +55,7 @@ state={
 	}
 
 	provinces={
-		585 735 750 765 3734 3752 3765 6741 6755 6768 6781 6783 9709 9726 9744 11559 11729 
+		585 735 750 765 3734 3752 3765 6741 6755 6768 6781 6783 9709 9744 11559 11729 
 	}
 	manpower=2000000
 	buildings_max_level_factor=1.000

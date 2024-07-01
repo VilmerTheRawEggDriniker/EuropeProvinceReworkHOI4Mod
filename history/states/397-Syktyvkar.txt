@@ -6,18 +6,29 @@ state={
 		oil=7.000
 	}
 	history={
+				1500.1.1 = {
 		victory_points = {
 			99 1 
 		}
-		owner = RUS
+				}
+		owner = ZZZ
+		1500.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = NOV
+		remove_core_of = POL
+		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 
 		}
-		add_core_of = RUS
 		1936.1.1 = {
 		add_core_of = KOM
                 }
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV

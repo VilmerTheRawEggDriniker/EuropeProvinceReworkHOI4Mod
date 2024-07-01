@@ -3,18 +3,25 @@ state={
 	name="STATE_1126"
 
 	history={
+		owner = ZZZ
+		1600.1.1 = {
 		owner = OTO
+		}
+		1900.1.1 = {
+		add_core_of = SAU
+		}
+		1600.1.1 = {
 		victory_points = {
 			1923 1 
 		}
 		victory_points = {
 			8073 1 
 		}
-		buildings = {
-			infrastructure = 1
 		}
-		add_core_of = SAU
-		1920.1.1 = {
+		buildings = {
+			infrastructure = 0
+		}
+		1919.1.1 = {
 			owner = SAU
 			controller = SAU
 			add_core_of = SAU

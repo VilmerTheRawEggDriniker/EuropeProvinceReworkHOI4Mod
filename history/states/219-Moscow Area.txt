@@ -7,16 +7,29 @@ state={
 	}
 
 	history={
-		owner = RUS
+		owner = MUS
+		add_core_of = MUS
+		1550.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = MUS
+			remove_core_of = NOV
+			remove_core_of = PSK
+			remove_core_of = RYA
+		}
 		victory_points = {
 			6380 50 
+		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
 		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 5
 			industrial_complex = 1
 		}
-		add_core_of = RUS
 		1936.1.1 = {
 		buildings = {
 			infrastructure = 4

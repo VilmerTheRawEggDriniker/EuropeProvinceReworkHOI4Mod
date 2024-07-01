@@ -5,15 +5,12 @@ state={
 
 	history={
 		owner = FRA
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			13334 10
 		}
 		buildings = {
 			infrastructure = 3
+			industrial_complex = 1
 
 		}
 		add_core_of = FRA
@@ -25,6 +22,6 @@ state={
 	}
 	manpower=2785750
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 	local_supplies=0.000
 }

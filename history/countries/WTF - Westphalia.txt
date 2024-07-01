@@ -1,5 +1,25 @@
 ﻿capital = 870
-
+1812.1.1 = {
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+1789.1.1 = {
+recruit_character=WTF_jeromebonaparte
+promote_character=WTF_jeromebonaparte
+}
+1936.1.1 = {
+retire_character=WTF_jeromebonaparte
+}
+1811.1.1 = {
+		if = {
+		limit = { has_start_date < 1815.1.1 }
+set_oob = "WTF_1789_1815"
+}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

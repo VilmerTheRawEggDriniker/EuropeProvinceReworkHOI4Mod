@@ -6,17 +6,26 @@ state={
 	}
 
 	history={
-		owner = QIN
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MON
+        }
+		1900.1.1 = {
+        owner = QIN
+		remove_core_of = MNG
+        }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		}
+		1700.1.1 = {
 		victory_points = {
 			1791 1 #Darkhan
 		}
 		victory_points = {
 			1834 1 #Erdenet
 		}
-		add_core_of = MON
+		}
 		1913.1.1 = {
 			owner = MON
 			controller = MON

@@ -4,15 +4,24 @@ state={
 	name="STATE_745"
 
 	history={
-		owner = QIN
+		owner = MNG
+		add_core_of = MNG
+				1700.1.1 = {
+        owner = QIN
+		add_core_of = QIN
+		remove_core_of = MNG
+        }
+		1900.1.1 = {
 		add_core_of = CHI
+		remove_core_of = MNG
+        }
 		1900.1.1 = {
 			owner = RUS
 
 		}
 		1905.1.1 = {
 			owner = JAP
-
+        remove_core_of = QIN
 		}
 		1912.1.1 = {
 			remove_core_of = QIN

@@ -7,10 +7,19 @@ state={
 	}
 
 	history={
+		owner = QAR
+		add_core_of = QAR
+		1600.1.1 = {
+		add_core_of = PER
+		remove_core_of = QAR
+		owner = OTO
+		}
+		1700.1.1 = {
+		add_core_of = PER
 		owner = PER
+		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
 			5005 = {
 				naval_base = 1
 
@@ -20,7 +29,6 @@ state={
 		victory_points = {
 			7953 1 
 		}
-		add_core_of = PER
 	}
 
 	provinces={

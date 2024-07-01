@@ -4,7 +4,17 @@ state={
 	name="STATE_417"
 
 	history={
+		owner = QAR
+		add_core_of = QAR
+		1600.1.1 = {
+		add_core_of = PER
+		remove_core_of = QAR
+		owner = OTO
+		}
+		1700.1.1 = {
+		add_core_of = PER
 		owner = PER
+		}
 		victory_points = {
 			8040 3 
 		}
@@ -15,7 +25,6 @@ state={
 			infrastructure = 2
 
 		}
-		add_core_of = PER
 
 	}
 

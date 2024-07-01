@@ -1,5 +1,21 @@
 ﻿capital = 59
-
+1762.1.1 = {
+recruit_character=HAN_georgeiiihan
+promote_character=HAN_georgeiiihan
+}
+1820.1.1 = {
+recruit_character=HAN_georgeivhan
+promote_character=HAN_georgeivhan
+retire_character=HAN_georgeiiihan
+}
+1835.1.1 = {
+recruit_character=HAN_williamivhan
+promote_character=HAN_williamivhan
+retire_character=HAN_georgeivhan
+}
+1837.1.1 = {
+retire_character=HAN_williamivhan
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -160,15 +176,14 @@ set_cosmetic_tag = HAN_kingdom # Hanover Kingdom
 }
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1444.11.11"
 	election_frequency = 48
-	elections_allowed = yes
-
+	elections_allowed = no
 }
+
 set_popularities = {
-	democratic = 30
-	fascism = 10
-	communism = 60
+	democratic = 50
+	neutrality = 50
 }
 
 add_ideas = {

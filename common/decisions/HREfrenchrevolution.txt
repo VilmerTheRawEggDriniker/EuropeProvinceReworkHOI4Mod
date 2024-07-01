@@ -1,0 +1,78 @@
+HRE_frenchrevolution = {
+	HRE_prussia_russia_patriotic_war_peace = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1812.12.1 date < 1816.1.1 
+			original_tag=PRE
+			has_war_with = RUS
+			or={AUS={has_war_with = RUS}FRA={has_war_with = RUS}}
+		RUS={controls_state = 219}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1812.1.1 date < 1816.1.1 
+			NOT = { has_global_flag = prussia_russia_patriotic_peace_flag }
+		}
+
+		complete_effect = {
+		  leave_faction=yes
+every_country = {
+  limit = {
+    has_war_with = PRE
+  }
+  white_peace = PRE
+}
+
+		hidden_effect={set_global_flag = prussia_russia_patriotic_peace_flag}
+		}
+	}
+}
+HRE_frenchrevolution = {
+	HRE_austria_russia_patriotic_war_peace = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1812.12.1 date < 1816.1.1 
+			original_tag=AUS
+			has_war_with = RUS
+			or={FRA={has_war_with = RUS}}
+		RUS={controls_state = 219}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1812.1.1 date < 1816.1.1 
+			NOT = { has_global_flag = austria_russia_patriotic_peace_flag }
+		}
+
+		complete_effect = {
+		  leave_faction=yes
+every_country = {
+  limit = {
+    has_war_with = AUS
+  }
+  white_peace = AUS
+}
+
+		hidden_effect={set_global_flag = austria_russia_patriotic_peace_flag}
+		}
+	}
+}

@@ -4,9 +4,26 @@ state={
 	name="STATE_450"
 
 	history={
-		owner = OTO
+		owner = CYR
+		1600.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
 		victory_points = {
 			11954 3 
+		}
+				1900.1.1 = {
+		add_core_of = LBA
 		}
 		1936.1.1 = {
 				buildings = {
@@ -25,8 +42,9 @@ state={
 
 			}
 		}
-		add_core_of = LBA
+		add_core_of = CYR
 		1919.1.1 = {
+		remove_core_of=OTO
 			owner = ITA
 			controller = ITA
 

@@ -1,5 +1,5 @@
 ﻿capital = 9
-
+1936.1.1 = {
 if = {
 	limit = {
 		NOT = {
@@ -46,6 +46,11 @@ set_technology = {
 	interwar_antiair = 1
 	fuel_silos = 1
 	basic_train = 1
+}
+}
+set_technology = {
+	infantry_weapons = 1
+
 }
 recruit_character = CZE_karl_albrecht
 recruit_character = CZE_edvard_benesh
@@ -112,7 +117,34 @@ set_popularities = {
 	fascism = 5
 	communism = 10
 }
-
+1950.1.1 = {
+set_politics = {
+	ruling_party = communism
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 41
+	fascism = 6
+	communism = 45
+	neutrality = 8
+}
+}
+1993.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1993.9.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 79
+	fascism = 7
+	communism = 7
+	neutrality = 7
+}
+}
 if = {
 	limit = {
 		has_dlc = "Death or Dishonor"

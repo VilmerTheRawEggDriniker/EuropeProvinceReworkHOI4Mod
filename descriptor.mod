@@ -1,4 +1,4 @@
-version="1.12.14"
+version="1.14.7"
 picture="thumbnail.png"
 tags={
 	"Balance"
@@ -8,6 +8,5 @@ tags={
 	"Events"
 }
 name="The State rework and scenarios mod"
-path=documents/GitHub/EuropeProvinceReworkHOI4Mod
-supported_version="1.12.14"
+supported_version="1.14.7"
 remote_file_id="3000890513"

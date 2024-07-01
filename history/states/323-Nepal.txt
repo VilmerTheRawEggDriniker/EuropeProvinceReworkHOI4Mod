@@ -9,6 +9,11 @@ state={
 		chromium=2 # was: 2
 	}
 	history={
+				buildings = {
+			infrastructure = 0
+				}
+		owner = ZZZ
+		1579.1.1 = {
 		owner = NEP
 		buildings = {
 			infrastructure = 1
@@ -18,6 +23,7 @@ state={
 			4987 3 
 		}
 		add_core_of = NEP
+		}
 	}
 
 	provinces={

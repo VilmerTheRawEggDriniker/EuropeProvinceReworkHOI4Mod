@@ -1,4 +1,10 @@
 ﻿capital = 302
+1444.11.11 = {
+set_cosmetic_tag = BOL_SPR #viceroyalty
+}
+1813.1.1 = {
+set_cosmetic_tag = BOL #independent
+}
 1936.1.1 = {
 oob = "BOL_1936"
 if = {
@@ -28,10 +34,7 @@ set_technology = {
 }
 }
 
-recruit_character = BOL_josé_luis_tejada_sorzano
-recruit_character = BOL_Óscar_Únzaga_de_la_vega
 recruit_character = BOL_jorge_blanco
-recruit_character = BOL_severino_ruíztagle
 recruit_character = BOL_eusebio_ayala
 recruit_character = BOL_tomas_monje_gutierrez
 recruit_character = BOL_gil_ibarra_juarez

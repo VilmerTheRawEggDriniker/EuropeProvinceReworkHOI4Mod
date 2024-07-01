@@ -23,6 +23,9 @@ state={
 		1803.1.1 = {
                 owner = ENG
                 }
+						1789.1.1 = {
+        add_core_of = GYA
+        }
 		1613.1.1 = {
 		buildings = {
 			infrastructure = 1

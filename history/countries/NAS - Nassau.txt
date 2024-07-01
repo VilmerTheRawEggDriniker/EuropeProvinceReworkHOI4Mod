@@ -1,5 +1,21 @@
 ﻿capital = 1174
-
+1775.1.1 = {
+recruit_character=NAS_charleswilliam
+promote_character=NAS_charleswilliam
+}
+1797.1.1 = {
+recruit_character=NAS_frederickaugustus
+promote_character=NAS_frederickaugustus
+retire_character=NAS_charleswilliam
+}
+1816.1.1 = {
+recruit_character=NAS_william
+promote_character=NAS_william
+retire_character=NAS_frederickaugustus
+}
+1840.1.1 = {
+retire_character=NAS_william
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

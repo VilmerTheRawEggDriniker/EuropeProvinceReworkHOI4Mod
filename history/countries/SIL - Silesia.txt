@@ -1,5 +1,10 @@
 ﻿capital = 66
-
+1600.1.1 = {
+set_cosmetic_tag = SIL_AUS #austrian puppet
+}
+1750.1.1 = {
+set_cosmetic_tag = SIL #independent
+}
 #oob = ""
 
 set_research_slots = 3
@@ -199,16 +204,14 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = neutrality
+	last_election = "1444.11.11"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 50
-	fascism = 5
-	communism = 35
-	neutrality = 10
+	neutrality = 50
 }
 
 create_country_leader = {

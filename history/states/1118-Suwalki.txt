@@ -16,20 +16,25 @@ state={
 		1810.1.1 = {
 			owner = POL
 		}
-		1900.1.1 = {
-			owner = RUS
-		}
 		victory_points = {
 			3254 1 
 		}
 		buildings = {
 			infrastructure = 2
                       }
+					  						1919.1.1 = {
+			owner = BLR
+			controller = BLR
+			add_core_of = BLR
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
 		1920.1.1 = {
 			owner = POL
 			controller = POL
 			add_core_of = POL
-			remove_core_of = RUS
+			remove_core_of = BLR
 
 		}
 

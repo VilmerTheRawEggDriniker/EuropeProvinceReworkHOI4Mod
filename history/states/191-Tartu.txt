@@ -4,8 +4,15 @@ state={
 	name="STATE_191"
 
 	history={
-		owner = LIV
-		add_core_of = LIV
+		owner = OSE
+		add_core_of = OSE
+				1600.1.1 = {
+			add_core_of = LIV
+		remove_core_of = DRP
+		remove_core_of = OSE
+		remove_core_of = KRL
+		remove_core_of = RGA
+		}
 		1900.1.1 = {
 		add_core_of = EST
 		}
@@ -25,7 +32,7 @@ state={
 			infrastructure = 1
 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = EST
 			controller = EST
 			add_core_of = EST

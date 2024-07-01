@@ -1,0 +1,435 @@
+FRA_frenchrevolution = {
+	FRA_liberteegalitefraternite = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_16
+			has_completed_focus = france_1789_1815_first_50_focus_17
+			has_completed_focus = france_1789_1815_first_50_focus_18
+			has_government = democratic
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_16
+			has_completed_focus = france_1789_1815_first_50_focus_17
+			has_completed_focus = france_1789_1815_first_50_focus_18
+			has_government = democratic
+			NOT = { has_global_flag = italian_gambit_lef_flag }
+		}
+
+		complete_effect = {
+		add_ideas={liberteegalitefraternite}
+		remove_ideas={liberte egalite fraternite}
+		hidden_effect={set_global_flag = italian_gambit_lef_flag}
+		}
+	}
+}
+FRA_frenchrevolution = {
+	FRA_changeflag = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+                date > 1794.2.15 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1800.1.1 
+			has_government = democratic
+			NOT = { has_global_flag = italian_gambit_bluewhitered_flag }
+		}
+
+		complete_effect = {
+                set_cosmetic_tag = FRA_republic_three
+		hidden_effect={set_global_flag = italian_gambit_bluewhitered_flag}
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_sardinia = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1792.9.12 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_sardinia_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_sardinia_flag}
+		declare_war_on = {
+		target = SPM
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_milan = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1796.3.25 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_milan_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_milan_flag}
+		declare_war_on = {
+		target = MIL
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_venice = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1796.5.12 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_venice_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_venice_flag}
+		declare_war_on = {
+		target = VNT
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_naples = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1796.6.1 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_naples_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_naples_flag}
+		declare_war_on = {
+		target = NAP
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_pope = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1798.2.15 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_pope_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_pope_flag}
+		declare_war_on = {
+		target = PAP
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_prmmodmas = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1796.10.9 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_pope_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_pope_flag}
+		declare_war_on = {
+		target = PRM
+		type = puppet_wargoal_focus
+	    }
+		declare_war_on = {
+		target = MOD
+		type = puppet_wargoal_focus
+	    }
+		declare_war_on = {
+		target = MAS
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_genoa = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1796.6.14 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_genoa_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_genoa_flag}
+		declare_war_on = {
+		target = GEN
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_lucca = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1799.2.22 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_lucca_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_lucca_flag}
+		declare_war_on = {
+		target = LUC
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_tuscany = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1799.3.21 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_tuscany_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_tuscany_flag}
+		declare_war_on = {
+		target = TOS
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_sicily = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1801.1.23 date < 1812.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_sicily_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_sicily_flag}
+		declare_war_on = {
+		target = SIC
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}
+FRA_italiangambit = {
+	FRA_invade_malta = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1798.6.10 date < 1800.1.1 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_malta_flag }
+		}
+
+		complete_effect = {
+		hidden_effect={set_global_flag = italian_gambit_malta_flag}
+		declare_war_on = {
+		target = MLT
+		type = puppet_wargoal_focus
+	    }
+		}
+	}
+}

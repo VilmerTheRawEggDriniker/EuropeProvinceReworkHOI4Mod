@@ -1,4 +1,36 @@
 ﻿capital = 3
+1812.1.1 = {
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1790.1.1 }
+set_oob = "SWI_1789"
+}
+}
+1800.1.1 = {
+		if = {
+		limit = { has_start_date < 1801.1.1 }
+set_oob = "SWI_1800"
+}
+}
+1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+set_oob = "SWI_1812"
+}
+}
+1836.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "SWI_1836"
+}
+}
 	1936.1.1 = {
 if = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -368,6 +400,7 @@ set_cosmetic_tag = SWI_helvetic # Swiss republic
 1812.1.1 = {
 set_cosmetic_tag = SWI # swiss confederation
 }
+1936.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.10.27"
@@ -379,7 +412,18 @@ set_popularities = {
 	fascism = 2
 	communism = 2
 }
-
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.10.27"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 96
+	fascism = 2
+	communism = 2
+}
 #1939.1.1 = {
 #	#next election october 39
 #	set_popularities = {

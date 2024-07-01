@@ -159,20 +159,6 @@ focus_tree = {
 					}
 				}
 			}
-			858 = {
-				if = {
-					limit = { is_controlled_by = ROOT }
-					custom_effect_tooltip = GER_west_wall_forts
-					hidden_effect = {
-						add_building_construction = {
-							type = bunker
-							level = 3
-							province = 3530
-							instant_build = yes
-						}
-					}
-				}
-			}
 			if = {
 				limit = { 42 = { is_demilitarized_zone = yes } }
 				custom_effect_tooltip = GER_west_wall_tt
@@ -3343,7 +3329,6 @@ focus_tree = {
 			876 = { set_demilitarized_zone = no }
 			877 = { set_demilitarized_zone = no }
 			878 = { set_demilitarized_zone = no }
-
 			466 = { set_demilitarized_zone = no }
 			690 = { set_demilitarized_zone = no }
 			843 = { set_demilitarized_zone = no }
@@ -3351,6 +3336,11 @@ focus_tree = {
 			55 = { set_demilitarized_zone = no }
 			1174 = { set_demilitarized_zone = no }
 			1182 = { set_demilitarized_zone = no }
+			1237 = { set_demilitarized_zone = no }
+			1239 = { set_demilitarized_zone = no }
+			1243 = { set_demilitarized_zone = no }
+			1250 = { set_demilitarized_zone = no }
+			1162 = { set_demilitarized_zone = no }
 			set_global_flag = rhineland_remilitarized
 			custom_effect_tooltip = GER_rhineland_ultimatum
 			add_political_power = 120
@@ -5433,6 +5423,7 @@ focus_tree = {
 			has_full_control_of_state = 28
 			has_full_control_of_state = 851
 			has_full_control_of_state = 1112
+			has_full_control_of_state = 1234
 			OR = {
 				FRA = { has_capitulated = yes }
 				FRA = { is_subject_of = GER }
@@ -5470,6 +5461,7 @@ focus_tree = {
 			add_state_core = 28
 			add_state_core = 851
 			add_state_core = 1112
+			add_state_core = 1234
 			if = {
 				limit = {
 					NOT = { owns_state = 28 }
@@ -5478,8 +5470,10 @@ focus_tree = {
 				transfer_state = 8
 				transfer_state = 851
 				transfer_state = 1112
+				transfer_state = 1234
 			}
-			28 = { set_state_name = "Elsass" }
+			28 = { set_state_name = "Strassburg" }
+			1234 = { set_state_name = "Elsass" }
                   1112 = { set_state_name = "Lothringen" }
 			set_province_name = { id = 9503 name = "Strassburg" }
 			set_province_name = { id = 678 name = "Mulhausen" }
@@ -6587,6 +6581,7 @@ focus_tree = {
 			42 = { set_demilitarized_zone = no }
 			51 = { set_demilitarized_zone = no }
 			858 = { set_demilitarized_zone = no }
+			1162 = { set_demilitarized_zone = no }
 			1088 = { set_demilitarized_zone = no }
 			873 = { set_demilitarized_zone = no }
 			880 = { set_demilitarized_zone = no }
@@ -7872,18 +7867,55 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			add_state_core = 8
 			add_state_core = 28
+			add_state_core = 851
+			add_state_core = 1112
+			add_state_core = 1234
 			if = {
 				limit = {
 					NOT = { owns_state = 28 }
 				}
 				transfer_state = 28
+				transfer_state = 8
+				transfer_state = 851
+				transfer_state = 1112
+				transfer_state = 1234
 			}
-			28 = { set_state_name = "Elsass-Lothringen" }
+			28 = { set_state_name = "Strassburg" }
+			1234 = { set_state_name = "Elsass" }
+                  1112 = { set_state_name = "Lothringen" }
 			set_province_name = { id = 9503 name = "Strassburg" }
 			set_province_name = { id = 678 name = "Mulhausen" }
-			FRA = {
-				country_event = { id = wtt_germany.63 }
+			if = {
+				limit = {
+					has_global_flag = flag_franco_british_union
+				}
+				ENG = {
+					country_event = { id = wtt_germany.63 }
+				}
+			}
+			else_if = {
+				limit = {
+					any_country = {
+						original_tag = FRA
+						exists = yes
+					}
+				}
+				FRA = {
+					country_event = { id = wtt_germany.63 }
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						original_tag = LUX
+						exists = yes
+					}
+				}
+				LUX = {
+					country_event = { id = wtt_germany.64 }
+				}
 			}
 		}
 	}

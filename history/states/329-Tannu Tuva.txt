@@ -10,14 +10,17 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = QIN
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MON
+        }
 		buildings = {
 			infrastructure = 0
 		}
 		victory_points = {
 			10627 3
 		}
-		add_core_of = MON
 		1913.1.1 = {
 			owner = TAN
 			controller = TAN

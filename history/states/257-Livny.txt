@@ -4,18 +4,29 @@ state={
 	name="STATE_257" # Tambov
 	manpower = 1779583
 	
-	state_category = rural
+	state_category = town
 	
 	resources={
 		chromium=7 # was: 10
 	}
 
 	history={
-		owner = RUS
+		owner = KAL
+		add_core_of = KAL
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = KAL
+
+		}
 		buildings = {
 			infrastructure = 2
 		}
-		add_core_of = RUS
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
 		1920.1.1 = {
 		owner = SOV
 		controller = SOV

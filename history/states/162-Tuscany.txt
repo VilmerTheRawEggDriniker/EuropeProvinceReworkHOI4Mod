@@ -27,16 +27,12 @@ state={
                 owner = ITA
                 add_core_of = ITA
 		}
-		1920.1.1 = {
+		1919.1.1 = {
                 remove_core_of = SPM
                 remove_core_of = PAP
                 remove_core_of = TOS
                 remove_core_of = TTS
                 remove_core_of = LBV
-		}
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
 		}
 		victory_points = {
 			9907 20 
@@ -78,8 +74,8 @@ state={
 	provinces={
 		1616 6946 9879 9907 11833 11889 13863 13866 
 	}
-	manpower=1578000
+	manpower=2000000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=city
 	local_supplies=0.000
 }

@@ -15,10 +15,15 @@ state={
 		remove_core_of = GEL
 		remove_core_of = UTR
 		}
+		1700.1.1 = {
+		owner=HOL
+		add_core_of = HOL
+		remove_core_of = BEL
+		}
 		1800.1.1 = {
 		owner=FRA
 		add_core_of = FRA
-		remove_core_of = BEL
+		remove_core_of = HOL
 		}
 		1816.1.1 = {
 		owner = HOL
@@ -39,7 +44,10 @@ state={
 			infrastructure = 2
 		}
 		victory_points = {
-			11562 1 
+			11562 2
+		}
+		victory_points = {
+			6500 1
 		}
 
 	}
@@ -47,7 +55,7 @@ state={
 	provinces={
 		6500 11562  
 	}
-	manpower=400000
+	manpower=500000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

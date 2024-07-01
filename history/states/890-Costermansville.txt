@@ -46,7 +46,7 @@ state={
 
 	}
 
-	provinces={ 657 687 3076 9635 13545 13549 13556 13562 13564 13569 13570 }
+	provinces={ 657 687 3076 9635 13545 13556 13562 13564 13570 }
 	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category=rural

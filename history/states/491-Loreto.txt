@@ -7,34 +7,45 @@ state={
 		owner = ZZZ
 		1600.1.1 = {
 			owner = SPR
-			controller = SPR
-            }
-		1810.1.1 = {
-            remove_core_of = SPR
-                owner = ARG
-		add_core_of = ARG
+
 		}
+		1916.1.1 = {
+			add_core_of = PRU
+			owner = PRU
+			remove_core_of = ECU
+
+		}
+		1789.1.1 = {
+        add_core_of = ECU
+        owner = COL
+        }
+		1812.1.1 = {
+        add_core_of = ECU
+        owner = VEN
+        }
+		1836.1.1 = {
+        add_core_of = ECU
+        owner = ECU
+        }
 		1899.1.1 = {
-		buildings = {
-			infrastructure = 2
-		}
-                }
-		1900.1.1 = {
- 		victory_points = {
-			12492 1 
-		}
+			buildings = {
+				infrastructure = 2
+
+			}
+
 		}
 		buildings = {
 			infrastructure = 0
 
 		}
+
 	}
 
 	provinces={
-		2158 5152 5184 5219 7550 11022 12942 12970 
+		12869 
 	}
-	manpower=400000
+	manpower=10000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 	local_supplies=0.000
 }

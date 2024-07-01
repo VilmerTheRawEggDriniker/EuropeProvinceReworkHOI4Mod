@@ -3,11 +3,13 @@ state = {
 	name = "STATE_826"
 
 	history = {
-		owner = GEO
+		owner = IME
+		add_core_of = IME
 		add_core_of = GEO
 		1600.1.1 = {
                 owner = ABK
                 add_core_of = ABK
+				remove_core_of = IME
                 }
 		1867.1.1 = {
                 owner = RUS
@@ -19,6 +21,12 @@ state = {
 		buildings = {
 			infrastructure = 1			
 
+		}
+				1919.1.1 = {
+		add_core_of = GEO
+		owner = GEO
+		remove_core_of = RUS
+		remove_core_of = PER
 		}
 		1920.1.1 = {
 		owner = SOV

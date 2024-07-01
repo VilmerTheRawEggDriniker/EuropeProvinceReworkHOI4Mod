@@ -4,17 +4,23 @@ state={
 	name="STATE_182"
 
 	history={
-		owner = VNT
-		add_core_of = VNT
+		owner = CRE
+		add_core_of = CRE
 		1700.1.1 = {
 		owner = OTO
 		}
 		1800.1.1 = {
 		add_core_of = GRE
-		remove_core_of = VNT
+		remove_core_of = CRE
 		}
 		1900.1.1 = {
+		owner = CRE
+        add_core_of = CRE
+		}
+		1914.1.1 = {
 		owner = GRE
+        add_core_of = GRE
+		remove_core_of=CRE
 		}
 		victory_points = {
 			9940 5 

@@ -1,5 +1,37 @@
 ﻿capital = 37
-
+1770.1.1 = {
+recruit_character=DEN_christianvii
+promote_character=DEN_christianvii
+}
+1808.1.1 = {
+recruit_character=DEN_frederickvi
+promote_character=DEN_frederickvi
+retire_character=DEN_christianvii
+}
+1840.1.1 = {
+retire_character=DEN_frederickvi
+}
+1444.11.11 = {
+set_party_name = { ideology = neutrality long_name = DEN_WIT_neutrality_party_long name = DEN_WIT_neutrality_party }
+}
+1447.11.11 = {
+set_party_name = { ideology = neutrality long_name = DEN_OLD_neutrality_party_long name = DEN_OLD_neutrality_party }
+}
+1836.1.1 = {
+set_party_name = { ideology = neutrality long_name = DEN_GLU_neutrality_party_long name = DEN_GLU_neutrality_party }
+}
+1524.1.1 = {
+set_cosmetic_tag = DEN_NOR # Denmark Norway
+}
+1815.1.1 = {
+set_cosmetic_tag = DEN # Denmark
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+set_oob = "DEN_1789_1815"
+}
+}
 if = {
 	limit = { has_dlc = "Arms Against Tyranny" }
 	set_country_flag = DEN_danish_election_flag
@@ -390,32 +422,17 @@ if = {
 	}
 }
 
-
-
-
-if = {
-	limit = {
-		has_dlc = "Arms Against Tyranny"
-	}
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1935.10.22"
-		election_frequency = 42
-		elections_allowed = yes
-	}
-	set_popularities = {
-		democratic = DEN_democratic_popularity
-		fascism = DEN_fascism_popularity
-		communism = DEN_communism_popularity
-		neutrality = DEN_neutrality_popularity
-	}
-
-	store_core_states_on_game_start = yes
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 36
+	elections_allowed = no
 }
-if = {
-	limit = {
-		NOT = { has_dlc = "Arms Against Tyranny" }
-	}
+set_popularities = {
+democratic = 50
+neutrality = 50
+}
+1837.1.1 = {
 	set_popularities = {
 		democratic = 94
 		fascism = 1
@@ -429,7 +446,6 @@ if = {
 		elections_allowed = yes
 	}
 }
-
 1939.1.1 = {
 	if = {
 		limit = {

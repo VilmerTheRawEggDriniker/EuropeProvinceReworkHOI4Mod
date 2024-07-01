@@ -4,8 +4,8 @@ state={
 	name="STATE_891"
 
 	history={
-		owner = BOH
-		add_core_of = BOH
+		owner = ULU
+		add_core_of = ULU
 		1950.1.1 = {
 			owner = DDR
 			add_core_of = DDR
@@ -24,12 +24,12 @@ state={
 			add_core_of = BDB
 			remove_core_of = PRE
 			remove_core_of = BOH
+			remove_core_of = ULU
 
 		}
 		1701.1.1 = {
 			owner = PRE
 			add_core_of = PRE
-			remove_core_of = PRE
 			remove_core_of = TEU
 			remove_core_of = BDB
 			remove_core_of = POM

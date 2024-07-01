@@ -6,14 +6,20 @@ state={
 	state_category = enclave
 
 	history={
-		owner = RUS
+		owner = NOV
+		add_core_of = NOV
+		1500.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = NOV
+		remove_core_of = POL
+		}
 		buildings = {
 			infrastructure = 1
 			9140 = {
 				naval_base = 1
 			}
 		}	
-            add_core_of = RUS
 		1900.1.1 = {
                 }
 		1920.1.1 = {

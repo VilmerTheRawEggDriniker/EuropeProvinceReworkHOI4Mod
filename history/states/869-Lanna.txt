@@ -17,12 +17,21 @@ state={
 
 		}
 		1919.1.1 = {
+			owner = WUK
+			controller = WUK
+			add_core_of = WUK
+			remove_core_of = RUS
+			remove_core_of = GLL
+
+		}
+		1920.1.1 = {
 			owner = POL
 			controller = POL
 			remove_core_of = RUS
                         remove_core_of = GLL
                         add_core_of = SOV
                         add_core_of = UKR
+						remove_core_of = WUK
 
 		}
 		1812.1.1 = {

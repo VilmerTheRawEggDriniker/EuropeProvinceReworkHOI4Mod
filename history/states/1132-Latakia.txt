@@ -3,7 +3,22 @@ state={
 	name="STATE_1132"
 
 	history={
-		owner = OTO
+		owner = EGY
+		add_core_of = EGY
+		1600.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
 		victory_points = {
 			13258 3
 		}
@@ -14,16 +29,12 @@ state={
 			infrastructure = 2
 		}
 		add_core_of = SYR
-		1920.1.1 = {
-			owner = SYR
-			controller = SYR
+		1919.1.1 = {
+			owner = FRA
+			controller = FRA
 			remove_core_of = OTO
 
 		}
-		1936.1.1 = {
-			owner = FRA
-			controller = FRA
-            }
 		1946.1.1 = {
 			owner = SYR
 			controller = SYR

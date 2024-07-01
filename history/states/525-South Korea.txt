@@ -5,6 +5,11 @@ state={
 
 	history={
 		owner = KOR
+		1946.1.1 = {
+		add_core_of = SKO
+		owner = SKO
+		remove_core_of = KOR
+        }
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -28,14 +33,6 @@ state={
 			remove_core_of = RUS
 
 		}
-		1945.1.1 = {
-			owner = KOR
-			controller = KOR
-			add_core_of = KOR
-			remove_core_of = RUS
-
-		}
-
 	}
 
 	provinces={

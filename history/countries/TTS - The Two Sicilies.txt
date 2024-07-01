@@ -1,5 +1,21 @@
 ﻿capital = 117
-
+1759.1.1 = {
+recruit_character=TTS_ferdinandi
+promote_character=TTS_ferdinandi
+}
+1826.1.1 = {
+recruit_character=TTS_francisi
+promote_character=TTS_francisi
+retire_character=TTS_ferdinandi
+}
+1830.1.1 = {
+recruit_character=TTS_ferdinandii
+promote_character=TTS_ferdinandii
+retire_character=TTS_francisi
+}
+1860.1.1 = {
+retire_character=TTS_ferdinandii
+}
 
 
 set_research_slots = 3

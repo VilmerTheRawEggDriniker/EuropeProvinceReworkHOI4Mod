@@ -54,13 +54,13 @@ state={
                 add_core_of = ALA
                 remove_core_of = RUS
                 }
-		1920.1.1 = {
+		1900.1.1 = {
                 owner = USA
-                remove_core_of = ALA
                 }
 		1959.1.1 = {
                 owner = USA
                 add_core_of = USA
+				remove_core_of = ALA
                 }
 		buildings = {
 			infrastructure = 0

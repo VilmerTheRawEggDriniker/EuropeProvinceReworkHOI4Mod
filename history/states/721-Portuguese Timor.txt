@@ -17,20 +17,23 @@ state={
 		}
 
 		}
+				1520.1.1 = {
+		victory_points = {
+			12190 1
+		}
+                }
 		1520.1.1 = {
 			owner = POR
 			controller = POR
 
 		}
 		1900.1.1 = {
-            add_core_of = PNG
-		}
-		1976.1.1 = {
-			owner = INS
-			controller = INS
-            add_core_of = INS
-            remove_core_of = OTO
-		}
+		add_core_of = TLE
+        }
+		2000.1.1 = {
+		add_core_of = TLE
+		owner = TLE
+        }
 		buildings = {
 			infrastructure = 0
 		}

@@ -1,6 +1,31 @@
 ﻿capital = 162
-
-
+1765.1.1 = {
+recruit_character=TOS_leopoldi
+promote_character=TOS_leopoldi
+}
+1790.1.1 = {
+recruit_character=TOS_ferdinandiii
+promote_character=TOS_ferdinandiii
+retire_character=TOS_leopoldi
+}
+1824.1.1 = {
+recruit_character=TOS_leopoldii
+promote_character=TOS_leopoldii
+retire_character=TOS_ferdinandiii
+}
+1860.1.1 = {
+retire_character=TOS_leopoldii
+}
+set_oob = "TOS_1789"
+1740.1.1 = {
+set_cosmetic_tag = TOS_AUS #austrian puppet
+}
+1790.1.1 = {
+set_cosmetic_tag = TOS #independent
+}
+1740.1.1 = {
+set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
+}
 
 set_research_slots = 3
 set_stability = 0.5
@@ -96,8 +121,8 @@ if = {
 		improved_airplane_launcher = 1
 	}
 }
-
 }
+
 set_convoys = 60
 
 set_politics = {
@@ -107,10 +132,10 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 5
-	communism = 5
-	neutrality = 60
+	democratic = 20
+	fascism = 10
+	communism = 20
+	neutrality = 50
 }
 
 

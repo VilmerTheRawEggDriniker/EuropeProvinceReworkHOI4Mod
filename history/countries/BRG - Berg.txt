@@ -1,4 +1,32 @@
 ﻿capital = 878
+1812.1.1 = {
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+1807.1.1 = {
+recruit_character=BRG_joachimmurat
+promote_character=BRG_joachimmurat
+}
+1808.1.1 = {
+recruit_character=BRG_napoleon
+promote_character=BRG_napoleon
+retire_character=BRG_joachimmurat
+}
+1809.1.1 = {
+recruit_character=BRG_louisii
+promote_character=BRG_louisii
+retire_character=BRG_napoleon
+}
+1832.1.1 = {
+retire_character=BRG_louisii
+}
+1804.1.1 = {
+set_cosmetic_tag = BRG_grandduchy # Berg Grand Duchy
+}
 
 # Starting tech
 set_technology = {

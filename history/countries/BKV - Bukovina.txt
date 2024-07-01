@@ -1,5 +1,39 @@
 ﻿capital = 80
-
+country_lock_all_division_template = yes
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1790.1.1 }
+set_oob = "BKV_1789"
+}
+}
+1600.1.1 = {
+set_cosmetic_tag = BKV_AUS #austrian puppet
+}
+1805.1.1 = {
+set_cosmetic_tag = BKV #independent
+}
+1765.1.1 = {
+recruit_character=BKV_josephiibkv
+promote_character=BKV_josephiibkv
+}
+1790.1.1 = {
+recruit_character=BKV_leopoldiibkv
+promote_character=BKV_leopoldiibkv
+retire_character=BKV_josephiibkv
+}
+1792.1.1 = {
+recruit_character=BKV_francisiibkv
+promote_character=BKV_francisiibkv
+retire_character=BKV_leopoldiibkv
+}
+1836.1.1 = {
+recruit_character=BKV_ferdinandibkv
+promote_character=BKV_ferdinandibkv
+retire_character=BKV_francisiibkv
+}
+1849.1.1 = {
+retire_character=BKV_ferdinandibkv
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

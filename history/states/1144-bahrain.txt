@@ -8,7 +8,7 @@ state={
 		owner = ZZZ
 		1900.1.1 = {
 		owner = ENG
-		add_core_of = QAT
+		add_core_of = BHR
                 }
 		1900.1.1 = {
 		victory_points = {
@@ -16,8 +16,8 @@ state={
 		}
                 }
 		1973.1.1 = {
-			owner = QAT
-			controller = QAT
+			owner = BHR
+			controller = BHR
             remove_core_of = YUG
 		}
 		buildings = {

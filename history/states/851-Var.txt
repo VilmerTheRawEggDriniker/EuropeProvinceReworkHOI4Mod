@@ -3,27 +3,27 @@ state={
 	name="STATE_851"
 
 	history={
-		owner = BDB
-                add_core_of = BDB
-						1700.1.1 = {
-			owner = BDB
-			add_core_of = BDB
-			remove_core_of = PRE
-			remove_core_of = TEU
-
+		owner = LUX
+                add_core_of = LUX
+		1600.1.1 = {
+		add_core_of = BEL
+		owner = BEL
+		remove_core_of = HLL
+		remove_core_of = FLA
+		remove_core_of = BRB
+		remove_core_of = FRI
+		remove_core_of = GEL
+		remove_core_of = UTR
+		remove_core_of = LUX
 		}
-		1701.1.1 = {
-			owner = PRE
-			add_core_of = PRE
-			remove_core_of = TEU
-			remove_core_of = BDB
-			remove_core_of = POM
-
-		}
-				1800.1.1 = {
-			owner = FRA
-			add_core_of = FRA
-		remove_core_of = PRE
+		1800.1.1 = {
+	    add_core_of = FRA
+		owner = FRA
+		remove_core_of = LIE
+		remove_core_of = BRB
+		remove_core_of = FLA
+		remove_core_of = LUX
+		remove_core_of = BEL
 		}
 		1816.1.1 = {
 			owner = PRE
@@ -34,7 +34,10 @@ state={
                 add_core_of = GER
                 owner = GER
                 }
-		1920.1.1 = {
+						1919.1.1 = {
+		owner = FRA
+		}
+		1919.1.1 = {
                 remove_core_of = WUR
                 remove_core_of = SAX
                 remove_core_of = OLD

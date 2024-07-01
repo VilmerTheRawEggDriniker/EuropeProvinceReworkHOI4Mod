@@ -29,9 +29,6 @@ state={
 		}
                 }
 		1700.1.1 = {
-            add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-		}
                 }
 		1789.1.1 = {
                 owner = USA
@@ -40,9 +37,7 @@ state={
 		1800.1.1 = {
 		buildings = {
 			infrastructure = 3 #was: 6
-			industrial_complex = 1
 			dockyard = 4
-			fuel_silo = 1
 			788 = {
 				naval_base = 10
 
@@ -53,7 +48,6 @@ state={
 		1936.1.1 = {
 		buildings = {
 			infrastructure = 3 #was: 6
-			industrial_complex = 1
 			dockyard = 4
 			air_base = 6
 			fuel_silo = 1

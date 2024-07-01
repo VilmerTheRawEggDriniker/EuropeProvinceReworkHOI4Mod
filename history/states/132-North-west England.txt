@@ -9,10 +9,6 @@ state={
 
 	history={
 		owner = ENG
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			6384 20 
 		}

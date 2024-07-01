@@ -22,7 +22,7 @@ state={
                 owner = ITA
                 add_core_of = ITA
 		}
-		1920.1.1 = {
+		1919.1.1 = {
                 remove_core_of = SPM
                 remove_core_of = PAP
                 remove_core_of = TOS
@@ -34,6 +34,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
 
 	}
@@ -41,7 +42,7 @@ state={
 	provinces={
 		6793 13876 
 	}
-	manpower=200000
+	manpower=139000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

@@ -4,8 +4,16 @@ state={
 	name="STATE_1192"
 
 	history={
-		owner = BAY
-		add_core_of = BAY
+		owner = BYL
+		add_core_of = BYL
+		1600.1.1 = {
+			add_core_of = BAY
+			owner = BAY
+			remove_core_of = BYL
+			remove_core_of = BYM
+			remove_core_of = BYI
+
+		}
 		1812.1.1 = {
 			owner = BAY
 			add_core_of = BAY
@@ -30,7 +38,7 @@ state={
 
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
 		victory_points = {
@@ -60,9 +68,9 @@ state={
 	}
 
 	provinces={
-		3703 6708 14636 
+		6708 14636 
 	}
-	manpower=227583
+	manpower=127583
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

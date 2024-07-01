@@ -12,34 +12,37 @@ state={
 		add_core_of = POL
 		1800.1.1 = {
 			owner = GLL
-                        add_core_of = GLL
+			add_core_of = GLL
+
 		}
 		1810.1.1 = {
 			owner = POL
-                remove_core_of = GLL
+			remove_core_of = GLL
+
 		}
 		1816.1.1 = {
 			owner = KRA
-                add_core_of = KRA
+			add_core_of = KRA
+
 		}
 		1846.1.1 = {
 			owner = AUS
-                remove_core_of = KRA
-                add_core_of = GLL
-		}
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 4
-			industrial_complex = 1
-			air_base = 4
+			remove_core_of = KRA
+			add_core_of = GLL
 
 		}
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 1
+				air_base = 4
+
+			}
+
 		}
 		1900.1.1 = {
 			owner = AUH
-		}
-           add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
+
 		}
 		victory_points = {
 			9427 30 
@@ -47,12 +50,13 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
+
 		}
 		1919.1.1 = {
 			owner = POL
 			controller = POL
 			remove_core_of = RUS
-                        remove_core_of = GLL
+			remove_core_of = GLL
 
 		}
 

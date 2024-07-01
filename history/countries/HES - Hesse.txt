@@ -1,5 +1,27 @@
 ﻿capital = 876
-
+1569.1.1 = {
+set_cosmetic_tag = HES_landgraviate # 
+}
+1806.1.1 = {
+set_cosmetic_tag = HES_grandduchy # Netherlands East Indies
+}
+1768.1.1 = {
+recruit_character=HES_louisix
+promote_character=HES_louisix
+}
+1790.1.1 = {
+recruit_character=HES_louisi
+promote_character=HES_louisi
+retire_character=HES_louisix
+}
+1831.1.1 = {
+recruit_character=HES_louisii
+promote_character=HES_louisii
+retire_character=HES_louisi
+}
+1849.1.1 = {
+retire_character=HES_louisii
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -148,14 +170,12 @@ set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 
 }
 set_popularities = {
-      neutrality = 40
-	democratic = 40
-	fascism = 10
-	communism = 10
+      neutrality = 50
+	democratic = 50
 }
 add_ideas = {
 }

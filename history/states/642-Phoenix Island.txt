@@ -20,9 +20,10 @@ state={
 			}
 		}
                 }
-		1965.1.1 = {
+		1960.1.1 = {
                 owner = USA
                 add_core_of = USA
+				remove_core_of = HAW
                 }
 		buildings = {
 			infrastructure = 0

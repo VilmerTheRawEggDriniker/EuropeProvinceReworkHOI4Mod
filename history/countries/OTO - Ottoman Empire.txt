@@ -1,7 +1,72 @@
 ﻿capital = 798
-1453.1.1 = {
-capital = 797
+1444.11.11 = {
+add_ideas = {
+        oto_hidden_ai_idea
+}
+}
+1836.11.11 = {
+remove_ideas = {
+        oto_hidden_ai_idea
+}
+}
+1774.1.1 = {
+recruit_character=OTO_abdulhamidi
+promote_character=OTO_abdulhamidi
+}
+1790.1.1 = {
+recruit_character=OTO_selimiii
+promote_character=OTO_selimiii
+retire_character=OTO_abdulhamidi
+}
+1808.1.1 = {
+recruit_character=OTO_mustafaiv
+promote_character=OTO_mustafaiv
+retire_character=OTO_selimiii
+}
+1809.1.1 = {
+recruit_character=OTO_mahmudii
+promote_character=OTO_mahmudii
+retire_character=OTO_mustafaiv
+}
+1840.1.1 = {
+retire_character=OTO_mahmudii
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1812.01.01 }
+	set_autonomy = {
+        target = ALG
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
 	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1837.01.01 }
+	set_autonomy = {
+        target = TUN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1805.1.1 = {
+			if = {
+		limit = { has_start_date < 1882.01.01 }
+	set_autonomy = {
+        target = EGY
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1453.1.1 = {
+		set_capital = {
+  state = 797
+  remember_old_capital = no
+}
+}
 
 # Starting tech
 set_technology = {
@@ -9,6 +74,12 @@ set_technology = {
 }
 
 set_convoys = 100
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "OTO_1789"
+}
+}
 
 
 1939.1.1 = {

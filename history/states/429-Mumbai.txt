@@ -4,9 +4,22 @@ state={
 	name="STATE_429"
 
 	history={
+		owner = ZZZ
+		1789.1.1 = {
+	    add_core_of = RAJ
 		owner = RAJ
-            add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
+				buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1349 = {
+				naval_base = 6
+
+			}
+
+		}
+		victory_points = {
+			1349 20 
+		}
 		}
 		1936.1.1 = {
 					buildings = {
@@ -21,18 +34,8 @@ state={
 		}
 		}
 		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			1349 = {
-				naval_base = 6
-
-			}
-
+			infrastructure = 0
 		}
-		victory_points = {
-			1349 20 
-		}
-
 	}
 
 	provinces={

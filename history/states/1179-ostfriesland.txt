@@ -3,8 +3,13 @@ state={
 	name="STATE_1179"
 
 	history={
-		owner = FRI
-                add_core_of = FRI
+		owner = EFR
+                add_core_of = EFR
+		1500.1.1 = {
+        owner = EFR
+        add_core_of = EFR
+		remove_core_of = FRI
+        }
 								1950.1.1 = {
 		owner = WGR
 		add_core_of = WGR
@@ -19,7 +24,7 @@ state={
 				1600.1.1 = {
                 add_core_of = HOL
                 owner = HOL
-				remove_core_of = FRI
+				remove_core_of = EFR
                 }
 				1744.1.1 = {
                 add_core_of = PRE

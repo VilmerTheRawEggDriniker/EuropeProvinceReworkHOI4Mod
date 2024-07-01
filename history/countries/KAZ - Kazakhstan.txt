@@ -1,5 +1,16 @@
-﻿capital = 586 #Almaty
-
+﻿capital = 402 #Almaty
+1600.1.1 = {
+		set_capital = {
+  state = 586
+  remember_old_capital = no
+}
+}
+1444.11.11 = {
+set_cosmetic_tag = KAZ_horde # Horde
+}
+1900.1.1 = {
+set_cosmetic_tag = KAZ # Modern
+}
 set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1

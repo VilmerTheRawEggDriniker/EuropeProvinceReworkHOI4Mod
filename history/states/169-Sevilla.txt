@@ -5,10 +5,6 @@ state={
 
 	history={
 		owner = SPR
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			7183 20 
 		}
@@ -27,7 +23,7 @@ state={
 		1936.1.1 = {
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 6
+			industrial_complex = 4
 			arms_factory = 2
 			air_base = 3
 			1048 = {
@@ -37,9 +33,34 @@ state={
 
 		}
                 }
+										        1812.1.1 = {
+		if = {
+		limit = { has_start_date < 1813.1.1 }
+					FRA = {
+				set_province_controller = 7098
+				set_province_controller = 13272
+				set_province_controller = 9891
+				set_province_controller = 875
+				set_province_controller = 879
+				set_province_controller = 3871
+				set_province_controller = 3810
+
+				set_province_controller = 7183
+				set_province_controller = 13265
+				set_province_controller = 13263
+				set_province_controller = 10094
+				set_province_controller = 13267
+				set_province_controller = 13270
+				set_province_controller = 13231
+				set_province_controller = 7198
+				set_province_controller = 6744
+				set_province_controller = 4182
+			}
+		}
+		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 6
+			industrial_complex = 4
 			arms_factory = 2
 			1048 = {
 				naval_base = 5

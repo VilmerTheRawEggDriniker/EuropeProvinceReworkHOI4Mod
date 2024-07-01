@@ -8,26 +8,41 @@ state={
 
 	history={
 		owner = ENG
+				victory_points = {
+			6237 10 
+		}
+		victory_points = {
+			11279 3 
+		}
+		victory_points = {
+			9268 3 
+		}
+		victory_points = {
+			14195 3 
+		}
 		1936.1.1 = {
-		buildings = {
-			infrastructure = 4
-			arms_factory = 2
-			air_base = 5
+			buildings = {
+				infrastructure = 4
+				arms_factory = 2
+				air_base = 5
+
+			}
 
 		}
-                }
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
+
 		}
 		add_core_of = ENG
+
 	}
 
 	provinces={
-		364 3353 9250 14191 14198 14200 
+		364 3353 6237 9250 9268 11279 14182 14187 14189 14191 14195 14198 14200 
 	}
-	manpower=600000
+	manpower=1600000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 	local_supplies=0.000
 }

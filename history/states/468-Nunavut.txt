@@ -45,6 +45,7 @@ aluminium=7.000
 			owner = CAN
 			controller = CAN
                 add_core_of = CAN
+				add_core_of = QUE
 		}
                 1900.1.1 = {
 		buildings = {

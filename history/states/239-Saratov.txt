@@ -4,7 +4,15 @@ state={
 	name="STATE_239"
 
 	history={
-		owner = RUS
+		owner = KAL
+		add_core_of = KAL
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = KAL
+
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -16,7 +24,10 @@ state={
 		victory_points = {
 			11408 1
 		}
-		add_core_of = RUS
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -39,6 +50,6 @@ state={
 	}
 	manpower=1226088
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

@@ -38,6 +38,10 @@ state={
 
 		}
                 }
+						2000.1.1 = {
+		add_core_of = SML
+		owner = SML
+        }
 		buildings = {
 			infrastructure = 0
 		}

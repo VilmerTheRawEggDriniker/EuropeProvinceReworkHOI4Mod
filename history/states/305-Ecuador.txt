@@ -19,6 +19,14 @@ state={
 			8252 1
 		}
                 }
+						1789.1.1 = {
+        add_core_of = ECU
+        owner = COL
+        }
+		1812.1.1 = {
+        add_core_of = ECU
+        owner = VEN
+        }
 		1569.1.1 = {
 		buildings = {
 			infrastructure = 1

@@ -4,13 +4,12 @@ state={
 	name="STATE_224"
 
 	history={
-		owner = LIT
-		add_core_of = LIT
+		owner = CHE
+		add_core_of = CHE
 		1600.1.1 = {
-			owner = RUS
-		add_core_of = RUS
-		remove_core_of = LIT
-		remove_core_of = POL
+		owner = RUS
+        add_core_of = RUS
+	    remove_core_of = CHE
 		}
 		victory_points = {
 			3335 10 
@@ -26,6 +25,10 @@ state={
 
 			}
 
+		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
 		}
 		1920.1.1 = {
 			owner = SOV
@@ -49,6 +52,6 @@ state={
 	}
 	manpower=1507567
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

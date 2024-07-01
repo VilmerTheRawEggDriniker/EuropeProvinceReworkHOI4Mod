@@ -1,4 +1,10 @@
 ﻿capital = 622
+1949.1.1 = {
+		set_capital = {
+  state = 608
+  remember_old_capital = no
+}
+}
 1936.1.1 = {
 oob = "PRC_1936"
 }

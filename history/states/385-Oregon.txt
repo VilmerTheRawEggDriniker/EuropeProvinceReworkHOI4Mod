@@ -44,7 +44,7 @@ state={
 
 		}
                 }
-		1920.1.1 = {
+		1900.1.1 = {
                 owner = USA
                 remove_core_of = CAS
                 add_core_of = USA

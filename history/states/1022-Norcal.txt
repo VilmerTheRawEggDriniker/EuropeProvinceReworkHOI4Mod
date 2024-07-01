@@ -6,9 +6,6 @@ state={
 	history={
                 owner = ZZZ
 		1789.1.1 = {
-                owner = SPR
-                }
-		1789.1.1 = {
 		buildings = {
 			infrastructure = 1
 			610 = {
@@ -18,6 +15,10 @@ state={
 
 		}
                 }
+						1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
 		1822.1.1 = {
                 owner = MEX
                 add_core_of = MEX

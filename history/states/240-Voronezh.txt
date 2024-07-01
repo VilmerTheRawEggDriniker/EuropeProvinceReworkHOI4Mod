@@ -4,22 +4,25 @@ state={
 	name="STATE_240" # Belgorod
 	manpower = 1364537
 	
-	state_category = rural
+	state_category = town
 
 	history={
 		victory_points = {
 			9449 1
 		}
-		owner = LIT
-		add_core_of = LIT
+		owner = CHE
+		add_core_of = CHE
 		1600.1.1 = {
-			owner = RUS
-		add_core_of = RUS
-		remove_core_of = LIT
-		remove_core_of = POL
+		owner = RUS
+        add_core_of = RUS
+	    remove_core_of = CHE
 		}
 		buildings = {
 			infrastructure = 3 #was: 5
+		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
 		}
 		1920.1.1 = {
 		owner = SOV

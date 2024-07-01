@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_1919_bookmark"
+		texturefile = "gf/interface/the_russian_civil_war_1919.dds"
+	}
+}

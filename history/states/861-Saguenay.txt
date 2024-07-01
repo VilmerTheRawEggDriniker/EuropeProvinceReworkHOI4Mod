@@ -41,11 +41,12 @@ state={
 			remove_core_of = PRE
 
 		}
+				victory_points = {
+			11545 1 
+		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			arms_factory = 3
-
 		}
 
 	}
@@ -53,8 +54,8 @@ state={
 	provinces={
 		11545 13367 13370 13372 
 	}
-	manpower=450000 
+	manpower=100000 
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pastoral
 	local_supplies=0.000
 }

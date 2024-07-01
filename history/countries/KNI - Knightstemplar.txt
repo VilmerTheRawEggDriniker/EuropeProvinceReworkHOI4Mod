@@ -1,7 +1,14 @@
 ﻿capital = 164
+1800.1.1 = {
+recruit_character=KNI_paulikni
+promote_character=KNI_paulikni
+}
 1530.1.1 = {
-capital = 116
-	}
+		set_capital = {
+  state = 116
+  remember_old_capital = no
+}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

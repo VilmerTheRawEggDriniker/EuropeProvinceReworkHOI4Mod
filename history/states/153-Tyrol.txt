@@ -67,7 +67,7 @@ state={
 	provinces={
 		673 6678 9633 9636 11618 14587 14590 14594 14597 14607 
 	}
-	manpower=300000
+	manpower=350000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=12.000

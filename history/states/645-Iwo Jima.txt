@@ -8,9 +8,18 @@ state=
 	{
 		owner = JAP
 		add_core_of = JAP
-		buildings = {
+		1936.1.1 = {
+					buildings = {
 			infrastructure = 2
 			air_base = 1
+			13025 = {
+				naval_base = 1
+
+			}
+		}
+		}
+		buildings = {
+			infrastructure = 2
 			13025 = {
 				naval_base = 1
 

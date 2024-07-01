@@ -4,18 +4,21 @@ bookmarks = {
 		desc = "1789_DESC"
 		date = 1789.1.1.12
 		picture = "GFX_select_date_1939"
-		default_country = "AUS"
+		default_country = "FRA"
 	
 		FRA = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
+                        feudalism
 			}
 			focuses = {
-
+                        france_1793_1799_focus_1
+                        france_1789_1815_first_50_focus_32
+                        france_1793_1799_focus_7
 			}
 		}
-		RUS = {
+		ENG = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
@@ -24,7 +27,16 @@ bookmarks = {
 
 			}
 		}
-		POL = {
+		SPR = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		POR = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
@@ -51,7 +63,7 @@ bookmarks = {
 
 			}
 		}
-		ENG = {
+		RUS = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
@@ -60,7 +72,7 @@ bookmarks = {
 
 			}
 		}
-		POR = {
+		SWE = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
@@ -68,21 +80,9 @@ bookmarks = {
 			focuses = {
 
 			}
-		}
-		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
 		}
 
 		# minors from DLC ####
-		"BAY"={
-			minor = yes
-			history = "OTHER_BLITZKRIEG_DESC"
-			ideology = neutrality
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

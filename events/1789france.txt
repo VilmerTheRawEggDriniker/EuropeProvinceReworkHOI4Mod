@@ -1,0 +1,504 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = fra_1789_event
+
+# French Revolution
+country_event = {
+	id = fra_1789_event.1
+	title = "The French Revolution"
+	desc = fra_1789_event.1.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+has_completed_focus = france_1789_1815_first_50_focus_3
+}
+fire_only_once = yes
+	option = { # 
+		name = "The French Revolution"
+		ai_chance = { factor = 100 } 
+		news_event = fra_1789_news.1
+
+	}
+}
+country_event = {
+	id = fra_1789_event.2
+	title = ""
+	desc = fra_1789_event.2.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+				
+		date > 1789.8.18 has_start_date < 1800.1.1 
+					original_tag = LIE
+					FRA={has_completed_focus = france_1789_1815_first_50_focus_3}}
+fire_only_once = yes
+	option = { # 
+		name = "The Happy Revolution"
+		ai_chance = { factor = 100 }
+		set_politics = { ruling_party = democratic elections_allowed = yes} 
+		add_popularity = { ideology = democratic popularity = 0.5 }
+		news_event = fra_1789_news.2
+	}
+	option = { # 
+		name = "Support the Liège Revolution"
+		ai_chance = { factor = 0 } 
+		news_event = fra_1789_news.2
+set_capital = { state = 979 }
+			start_civil_war = {
+				ruling_party = democratic
+				ideology = neutrality
+				size = 0.3
+				capital = 940
+				states = {980 }
+			}
+			random_other_country = {
+				limit = {
+					original_tag = LIE
+					has_government = democratic
+				}
+				set_stability = 0.9
+				set_war_support = 0.8
+			}
+	}
+	option = { # 
+		name = "Oppose the Liège Revolution"
+		ai_chance = { factor = 0 } 
+		news_event = fra_1789_news.2
+		set_capital = { state = 980 }
+			start_civil_war = {
+				ruling_party = neutrality
+				ideology = democratic
+				size = 0.3
+				capital = 979
+				states = {979 }
+			}
+			random_other_country = {
+				limit = {
+					original_tag = LIE
+					has_government = democratic
+				}
+				set_stability = 0.9
+				set_war_support = 0.8
+			}
+
+	}
+}
+country_event = {
+	id = fra_1789_event.3
+	title = "The Brabantian Revolution"
+	desc = fra_1789_event.3.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+				
+		date > 1789.10.24 has_start_date < 1800.1.1 
+		            original_tag = BEL
+					FRA={has_completed_focus = france_1789_1815_first_50_focus_3}}
+fire_only_once = yes
+	option = { # 
+		name = "Oppose the Brabant Revolution"
+		ai_chance = { factor = 100 } 
+		news_event = fra_1789_news.3
+			set_capital = { state = 8 }
+			start_civil_war = {
+				ruling_party = neutrality
+				ideology = democratic
+				size = 0.5
+				capital = 1171
+				states = {1171 }
+			}
+			random_other_country = {
+				limit = {
+					original_tag = BEL
+					has_government = democratic
+
+
+				}
+				set_stability = 0.9
+				set_war_support = 0.8
+			}
+						random_other_country = {
+				limit = {
+					original_tag = BEL
+					has_government = neutrality
+
+
+				}
+				set_cosmetic_tag = BEL_AUS
+				set_stability = 0.3
+				set_war_support = 0.2
+			}
+
+	}
+		option = { # 
+		name = "Support the Brabant Revolution"
+		ai_chance = { factor = 100 } 
+		news_event = fra_1789_news.3
+	set_capital = { state = 1171 }
+	 BEL={set_cosmetic_tag = BEL}
+			start_civil_war = {
+				ruling_party = democratic
+				ideology = neutrality
+				size = 0.5
+				capital = 8
+				states = {970 8 851 6 973 978 34 }
+			}
+			random_other_country = {
+				limit = {
+					original_tag = BEL
+					has_government = democratic
+
+
+				}
+				set_cosmetic_tag = BEL
+				set_stability = 0.9
+				set_war_support = 0.8
+			}
+						random_other_country = {
+				limit = {
+					original_tag = BEL
+					has_government = neutrality
+
+
+				}
+				set_cosmetic_tag = BEL_AUS
+				set_stability = 0.3
+				set_war_support = 0.2
+			}
+	}
+}
+country_event = {
+	id = fra_1789_event.4
+	title = "Storming of the Bastille"
+	desc = fra_1789_event.4.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+				
+		date > 1789.7.14 has_start_date < 1800.1.1 
+		original_tag = FRA
+					has_completed_focus = france_1789_1815_first_50_focus_3}
+fire_only_once = yes
+	option = { # 
+		name = "Storming of the Bastille"
+		ai_chance = { factor = 100 } 
+		add_manpower = 7
+		set_capital = {
+        state = 16
+        remember_old_capital = no
+        }
+		news_event = fra_1789_news.4
+
+	}
+}
+country_event = {
+	id = fra_1789_event.5
+	title = "Join the 1st Coalition"
+	desc = fra_1789_event.5.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Join the 1st Coalition"
+		ai_chance = { factor = 100 } 
+			declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+	}
+}
+country_event = {
+	id = fra_1789_event.6
+	title = "Expel dissidents"
+	desc = fra_1789_event.6.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+fire_only_once = yes
+	option = { # deport
+		name = "Haiti"
+		ai_chance = { factor = 100 } 
+		318 = { add_manpower = 50000 }
+	    hidden_effect = {
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+		}
+	}
+		option = { # deport
+		name = "French Guiana"
+		ai_chance = { factor = 100 } 
+		310 = { add_manpower = 50000 }
+	    hidden_effect = {
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+		}
+	}
+		option = { # deport
+		name = "French Caribbean"
+		ai_chance = { factor = 100 } 
+		694 = { add_manpower = 50000 }
+	    hidden_effect = {
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+		}
+	}
+		option = { # deport
+		name = "Corsica"
+		ai_chance = { factor = 100 } 
+		1 = { add_manpower = 50000 }
+	    hidden_effect = {
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+					random_state = {
+				limit = { is_core_of = FRA state_population > 100000 }
+				add_manpower = -10000
+			}
+		}
+	}
+}
+country_event = {
+	id = fra_1789_event.7
+	title = "Armistice of Cherasco"
+	desc = fra_1789_event.7.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = FRA
+    date > 1796.4.28 date < 1800.1.1 
+	has_war_with = SPM
+or={
+	FRA={controls_state = 158}
+	FRA={controls_state = 114}
+}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Armistice of Cherasco"
+		ai_chance = { factor = 100 } 
+FRA={
+transfer_state = 848
+transfer_state = 1030
+transfer_state = 1106
+transfer_state = 981
+transfer_state = 735
+}
+SPM={ leave_faction = yes}
+SPM={
+give_military_access = FRA
+}
+FRA={
+give_military_access = SPM
+}
+hidden_effect = {
+FRA={set_country_flag = cherasco_flag}
+every_country = {
+  white_peace = SPM
+}
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.8
+	title = "Treaty of Campo Formio"
+	desc = fra_1789_event.8.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = FRA
+    date > 1797.10.17 date < 1800.1.1 
+	has_war_with = AUS
+    has_war_with = VNT
+	FRA={controls_state = 160}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Treaty of Campo Formio"
+		ai_chance = { factor = 100 } 
+puppet = GEN
+puppet = PRM
+puppet = ITA
+puppet = SAV
+AUS={puppet = VNT}
+
+hidden_effect = {
+ITA={
+transfer_state = 161
+transfer_state = 927
+transfer_state = 1109
+transfer_state = 1102
+transfer_state = 1110
+transfer_state = 1111
+transfer_state = 159
+transfer_state = 1134
+
+add_state_core = 161
+add_state_core = 927
+add_state_core = 1109
+add_state_core = 1102
+add_state_core = 1110
+add_state_core = 1111
+add_state_core = 159
+add_state_core = 1134
+}
+SAV={
+transfer_state = 158
+transfer_state = 922
+transfer_state = 1107
+transfer_state = 1106
+transfer_state = 1030
+transfer_state = 1113
+transfer_state = 848
+transfer_state = 907
+add_state_core = 158
+add_state_core = 922
+add_state_core = 1107
+add_state_core = 1106
+add_state_core = 1030
+add_state_core = 1113
+add_state_core = 848
+add_state_core = 907
+}
+		add_state_core = 1193
+		remove_state_core = 1193
+FRA={set_country_flag = campoformio_flag}
+}
+every_country = {
+  limit = {
+  original_tag=AUS
+  }
+  white_peace = FRA
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.9
+	title = ""
+	desc = fra_1789_event.9.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Declare Independence"
+		ai_chance = { factor = 100 } 
+		FRA = {
+			country_event = { days = 1 id = fra_1789_event.10 }
+		}
+	}
+}
+country_event = {
+	id = fra_1789_event.10
+	title = "The War in the Vendée"
+	desc = fra_1789_event.10.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Declare war on the Vendée"
+		ai_chance = { factor = 100 } 
+		FRA={
+			declare_war_on = {
+		target = VND
+		type = annex_everything
+	}
+	}
+	}
+}
+country_event = {
+	id = fra_1789_event.11
+	title = "The Seizure of Counter-Revolutionairy Property"
+	desc = fra_1789_event.11.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Seize Emigree Property"
+		ai_chance = { factor = 100 } 
+						random_owned_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+						random_owned_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = dockyard
+							level = 1
+							instant_build = yes
+						}
+				}
+	}
+}
+
+	

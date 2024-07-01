@@ -88,6 +88,11 @@ set_popularities = {
         autonomous_state = autonomy_integrated_puppet
         freedom_level = 0.2
 	}
+    set_autonomy = {
+        target = CMT
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.2
+	}
 }
 }
 

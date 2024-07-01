@@ -25,6 +25,10 @@ state={
 		1599.1.1 = {
                 owner = SPR
 		}
+				1789.1.1 = {
+        add_core_of = COL
+        owner = COL
+        }
 		1600.1.1 = {
 		victory_points = {
 			2023 1 

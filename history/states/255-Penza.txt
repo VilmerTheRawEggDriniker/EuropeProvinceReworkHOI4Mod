@@ -4,12 +4,23 @@ state={
 	name="STATE_255"
 
 	history={
-		owner = RUS
+		owner = TAT
+		add_core_of = TAT
+		1552.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = TAT
+
+		}
 		buildings = {
 			infrastructure = 2
 
 		}
-		add_core_of = RUS
+				1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -35,6 +46,6 @@ state={
 	}
 	manpower=1342937
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

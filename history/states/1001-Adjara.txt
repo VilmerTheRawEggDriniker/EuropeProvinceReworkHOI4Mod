@@ -4,10 +4,12 @@ state={
 	name="STATE_1001"
 
 	history={
-		owner = GEO
+		owner = IME
+		add_core_of = IME
 		add_core_of = GEO
 		1600.1.1 = {
                 owner = OTO
+		remove_core_of = IME
                 }
 		1811.1.1 = {
                 owner = RUS
@@ -37,6 +39,12 @@ state={
 
 			}
 
+		}
+				1919.1.1 = {
+		add_core_of = GEO
+		owner = GEO
+		remove_core_of = RUS
+		remove_core_of = PER
 		}
 		1920.1.1 = {
 			owner = SOV

@@ -29,9 +29,9 @@ state={
 			3654 2 
 		}
 		victory_points = {
-			596 5 
+			665 5 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = YUG
 			controller = YUG
 			add_core_of = YUG

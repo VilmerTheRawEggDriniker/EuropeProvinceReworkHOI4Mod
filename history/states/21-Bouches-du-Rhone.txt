@@ -14,10 +14,6 @@ state={
 		owner = FRA
 		remove_core_of = PRV
 		}
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			911 3 
 		}
@@ -78,8 +74,8 @@ state={
 	provinces={
 		911 956 3928 11834 11849 11875 14512 14517 14518 14519 
 	}
-	manpower=2361414
+	manpower=2761414
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 	local_supplies=0.000
 }

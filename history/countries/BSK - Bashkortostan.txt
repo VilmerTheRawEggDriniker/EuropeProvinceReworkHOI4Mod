@@ -1,5 +1,10 @@
 ﻿capital = 651 #Ufa
-
+1444.11.11 = {
+set_cosmetic_tag = BSK_horde # Horde
+}
+1900.1.1 = {
+set_cosmetic_tag = BSK # Modern
+}
 #oob = "BSK_1936"
 
 set_research_slots = 3

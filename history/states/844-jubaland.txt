@@ -16,11 +16,18 @@ state={
 		remove_core_of = DDR
 		remove_core_of = WGR
 		}
-				1566.1.1 = {
-                add_core_of = HLS
-                owner = HLS
-				remove_core_of = DIT
-                }
+		1544.1.1 = {
+			owner = SHG
+			add_core_of = SHG
+			remove_core_of = DIT
+
+		}
+		1773.1.1 = {
+			owner = HLS
+			add_core_of = HLS
+			remove_core_of = SHG
+
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER
@@ -39,6 +46,9 @@ state={
                 remove_core_of = THU
                 remove_core_of = PRE
                 }
+						victory_points = {
+			3368 1 
+		}
 		buildings = {
 			infrastructure = 2
 		}

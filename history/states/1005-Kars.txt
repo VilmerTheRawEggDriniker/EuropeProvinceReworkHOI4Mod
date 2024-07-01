@@ -3,11 +3,16 @@ state={
 	name="STATE_1005"
 
 	history={
-                owner = ARM
-                add_core_of = ARM
+		add_core_of = ARM
+		add_core_of = QAR
+		owner = QAR
 		1600.1.1 = {
-                owner = OTO
-                }
+		owner = OTO
+		remove_core_of = QAR
+		}
+		1919.1.1 = {
+		remove_core_of = PER
+		}
 		1880.1.1 = {
                 owner = RUS
                 add_core_of = RUS
@@ -17,6 +22,12 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+		}
+		1919.1.1 = {
+		add_core_of = ARM
+		owner = ARM
+		remove_core_of = RUS
+		remove_core_of = PER
 		}
 		1920.1.1 = {
 			owner = TUR

@@ -18,8 +18,16 @@ state=
                 owner = FRA
                 }
 		1810.1.1 = {
-                owner = SPR
+                owner = MEX
                 }
+				1789.1.1 = {
+        add_core_of = DOM
+        owner = MEX
+        }
+		1836.1.1 = {
+        add_core_of = DOM
+        owner = SPR
+        }
 		1600.1.1 = {
 		victory_points = {
 			7660 5 

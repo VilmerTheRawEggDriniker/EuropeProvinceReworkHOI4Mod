@@ -1,4 +1,10 @@
 ﻿capital = 812
+1919.1.1 = {
+		if = {
+		limit = { has_start_date < 1920.1.1 }
+set_oob = "EST_1919"
+}
+}
 1936.1.1 = {
 oob = "EST_1936"
 if = {

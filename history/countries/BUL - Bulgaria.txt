@@ -1,18 +1,38 @@
 ﻿capital = 974
-
-1444.11.11 = {
-capital = 974
-}
 1500.1.1 = {
-capital = 48
+		set_capital = {
+  state = 48
+  remember_old_capital = no
 }
-1900.1.1 = {
-capital = 48
 }
-1936.1.1 = {
-capital = 48
+1950.1.1 = {
+set_politics = {
+	ruling_party = communism
+	last_election = "1935.9.8"
+	election_frequency = 48
+	elections_allowed = no
 }
-
+set_popularities = {
+	democratic = 41
+	fascism = 6
+	communism = 45
+	neutrality = 8
+}
+}
+1993.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1993.9.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 79
+	fascism = 7
+	communism = 7
+	neutrality = 7
+}
+}
 #TROOPS
 1936.1.1 = {
 oob = "BUL_1936" #VANILLA & DLC

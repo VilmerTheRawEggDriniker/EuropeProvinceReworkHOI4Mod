@@ -1,5 +1,10 @@
 ﻿capital = 838
-
+2024.1.1 = {
+		declare_war_on = {
+		target = HAM
+		type = puppet_wargoal_focus
+	}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

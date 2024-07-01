@@ -1,4 +1,44 @@
 ﻿capital = 111
+1808.1.1 = {
+recruit_character=FIN_georgmagnussprengtporten
+promote_character=FIN_georgmagnussprengtporten
+}
+1809.1.1 = {
+recruit_character=FIN_michaelandreasbarclaydetolly
+promote_character=FIN_michaelandreasbarclaydetolly
+retire_character=FIN_georgmagnussprengtporten
+}
+1810.1.1 = {
+recruit_character=FIN_fabiansteinheil
+promote_character=FIN_fabiansteinheil
+retire_character=FIN_michaelandreasbarclaydetolly
+}
+1824.1.1 = {
+recruit_character=FIN_arsenyzakrevsky
+promote_character=FIN_arsenyzakrevsky
+retire_character=FIN_fabiansteinheil
+}
+1831.1.1 = {
+recruit_character=FIN_alexandersergeyevichmenshikov
+promote_character=FIN_alexandersergeyevichmenshikov
+retire_character=FIN_arsenyzakrevsky
+}
+1855.1.1 = {
+retire_character=FIN_alexandersergeyevichmenshikov
+}
+1932.1.1 = {
+recruit_character=FIN_pehr_evind_svinhufvud
+promote_character=FIN_pehr_evind_svinhufvud
+}
+1938.1.1 = {
+retire_character=FIN_pehr_evind_svinhufvud
+}
+1444.11.11 = {
+set_cosmetic_tag = FIN_RUS # Grand Duchy of Finland not necessarily Russian Finland
+}
+1915.1.1 = {
+set_cosmetic_tag = FIN # Modern
+}
 1936.1.1 = {
 set_oob = "FIN_1936"
 }
@@ -158,7 +198,6 @@ set_party_name = {
 	long_name = FIN_neutrality_party_kokoomus_long
 }
 
-recruit_character = FIN_pehr_evind_svinhufvud
 recruit_character = FIN_kyosti_kallio
 recruit_character = FIN_risto_ryti
 recruit_character = FIN_juho_kusti_paasikivi
@@ -567,7 +606,7 @@ set_convoys = 5
 1444.11.11 = {
 set_party_name = { ideology = neutrality long_name = FIN_ROS_neutrality_party_long name = FIN_ROS_neutrality_party }
 }
-1936.1.1 = {
+1919.1.1 = {
 set_party_name = { ideology = neutrality long_name = FIN_neutrality_party_long name = FIN_neutrality_party }
 }
 1946.1.1 = {
@@ -589,6 +628,17 @@ set_popularities = {
 }
 set_politics = {
 	ruling_party = neutrality
+	last_election = "1444.11.11" 
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+	neutrality = 50
+}
+1936.1.1 = {
+set_politics = {
+	ruling_party = neutrality
 	last_election = "1931.3.2" #Represents Presidential elections (Country leader is President of the Republic, not Prime Minister)
 	election_frequency = 72
 	elections_allowed = yes
@@ -598,6 +648,7 @@ set_popularities = {
 	fascism = 19
 	communism = 1
 	neutrality = 65
+}
 }
 add_stability = -0.1
 

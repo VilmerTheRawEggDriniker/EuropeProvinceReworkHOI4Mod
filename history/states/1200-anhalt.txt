@@ -32,12 +32,14 @@ state={
 			remove_core_of = POM
 
 		}
-						1812.1.1 = {
+		1812.1.1 = {
 		owner = WTF
 		add_core_of = WTF
+		remove_core_of=PRE
 		}
 		1816.1.1 = {
 		owner = PRE
+		add_core_of = PRE
 		remove_core_of = WTF
 		}
 		1871.1.1 = {
@@ -72,7 +74,7 @@ state={
 	provinces={
 		526 9238 11359 13379 
 	}
-	manpower=300000
+	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

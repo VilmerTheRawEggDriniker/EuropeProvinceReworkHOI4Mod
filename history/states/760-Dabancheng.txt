@@ -4,12 +4,20 @@ state={
 	provinces={
 		1838 4704 4843 7732 10839 12524 12598 12671 
 	}
-	manpower=700000
+	manpower=400000
 	buildings_max_level_factor=1.000
 	state_category = pastoral
 	history={
-		owner = QIN
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MNG
+        }
+		1900.1.1 = {
+        owner = QIN
+		remove_core_of = MNG
 		add_core_of = CHI
+        }
 		1910.1.1 = {
 			owner = CHI
 			controller = CHI
@@ -36,7 +44,7 @@ state={
                 remove_core_of = SIK
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 0
 		}
 	}
 

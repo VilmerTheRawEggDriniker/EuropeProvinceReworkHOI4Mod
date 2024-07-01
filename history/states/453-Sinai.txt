@@ -8,11 +8,19 @@ state={
 		1936.1.1 = {
 			owner = ENG
 			controller = ENG
-            }
+
+		}
+				1600.1.1 = {
+		owner = OTO
+		}
+		1804.1.1 = {
+		owner = EGY
+		}
 		1946.1.1 = {
 			owner = EGY
 			controller = EGY
-            remove_core_of = SPR
+			remove_core_of = SPR
+
 		}
 		buildings = {
 			infrastructure = 1
@@ -29,7 +37,7 @@ state={
 	}
 
 	provinces={
-		1112 4161 10002 10099 11922 11979 12073 
+		1112 4161 9947 10002 10099 11922 11979 12073 
 	}
 	manpower=10000
 	buildings_max_level_factor=1.000

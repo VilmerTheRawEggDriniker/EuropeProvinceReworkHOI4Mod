@@ -22,17 +22,13 @@ state={
 		1836.1.1 = {
 		owner = GRE
 		}
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			4109 20 
 		}
 		1936.1.1 = {
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 5
+			industrial_complex = 3
 			dockyard = 2
 			air_base = 4
 			4109 = {
@@ -44,7 +40,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 3
+			industrial_complex = 2
 			4109 = {
 				naval_base = 9
 

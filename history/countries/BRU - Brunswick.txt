@@ -1,5 +1,26 @@
 ﻿capital = 972
-
+1780.1.1 = {
+recruit_character=BRU_charleswilliamferdinand
+promote_character=BRU_charleswilliamferdinand
+}
+1806.1.1 = {
+recruit_character=BRU_frederickwilliam
+promote_character=BRU_frederickwilliam
+retire_character=BRU_charleswilliamferdinand
+}
+1816.1.1 = {
+recruit_character=BRU_charlesii
+promote_character=BRU_charlesii
+retire_character=BRU_frederickwilliam
+}
+1831.1.1 = {
+recruit_character=BRU_william
+promote_character=BRU_william
+retire_character=BRU_charlesii
+}
+1885.1.1 = {
+retire_character=BRU_william
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

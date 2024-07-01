@@ -30,7 +30,7 @@ remove_core_of = AUS
 		victory_points = {
 			6700 5 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = HUN
 			controller = HUN
 			add_core_of = HUN

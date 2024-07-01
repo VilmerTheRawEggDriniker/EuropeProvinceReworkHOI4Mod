@@ -4,18 +4,31 @@ state={
 	name="STATE_253"
 
 	history={
-		owner = RUS
+		owner = MUS
+		add_core_of = MUS
+		1550.1.1 = {
+			owner = RUS
+			controller = RUS
+			add_core_of = RUS
+			remove_core_of = MUS
+			remove_core_of = NOV
+			remove_core_of = PSK
+			remove_core_of = RYA
+		}
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = RUS
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
 			add_core_of = SOV
 			remove_core_of = RUS
 
+		}
+						1919.1.1 = {
+		owner = SOV
+		add_core_of=SOV
 		}
 		1993.1.1 = {
 			owner = RUS
@@ -33,8 +46,8 @@ state={
 	provinces={
 		346 357 3240 3347 6135 6215 6247 6269 6358 9159 9257 9267 11239 11252 11338 
 	}
-	manpower=3252117
+	manpower=1195804
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 	local_supplies=0.000
 }

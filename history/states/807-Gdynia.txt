@@ -28,7 +28,7 @@ state={
 			owner = GER
 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			remove_core_of = WUR
 			remove_core_of = SAX
 			remove_core_of = OLD
@@ -80,7 +80,7 @@ state={
 	}
 
 	provinces={
-		334 389 3324 9263 13437 13439 13444 13449 13450 
+		334 389 3324 9263 13437 13439 13444 13449 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

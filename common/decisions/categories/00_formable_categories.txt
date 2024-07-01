@@ -3,10 +3,19 @@
 #	icon = generic_formable_nations
 #
 #	allowed = {
-#		has_dlc = "Waking the Tiger"
+#		
 #	}
 #}
 industrialize_turkey_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_
+
+	allowed = {
+	}
+}
+form_lcthre_category = {
 
 	icon = generic_formable_nations
 
@@ -33,7 +42,7 @@ form_scandinavia_category = {
 	picture = GFX_decision_cat_generic_scandinavia
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -44,7 +53,7 @@ form_nordic_league_category = {
 	picture = GFX_decision_cat_generic_nordic_league
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -55,7 +64,6 @@ form_gran_colombia_category = {
 	picture = GFX_decision_cat_generic_gran_colombia
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
 	}
 }
 
@@ -66,7 +74,6 @@ form_austria_hungary_category = {
 	picture = GFX_decision_cat_generic_austria_hungary
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
 	}
 }
 
@@ -78,7 +85,7 @@ form_commonwealth_category = {
 
 	allowed = {
 		OR = {
-			has_dlc = "Waking the Tiger"
+			
 			has_dlc = "No Step Back"
 		}
 	}
@@ -92,7 +99,7 @@ form_united_netherlands_category = {
 
 	allowed = {
 		OR = {
-			has_dlc = "Waking the Tiger"
+			
 			AND = {
 				has_dlc = "Man the Guns"
 				tag = HOL
@@ -108,7 +115,7 @@ form_united_central_america_category = {
 	picture = GFX_decision_cat_generic_united_central_america
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -119,7 +126,7 @@ form_baltic_federation_category = {
 	picture = GFX_decision_cat_generic_baltic_federation
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -130,7 +137,7 @@ form_ottoman_empire_category = {
 	picture = GFX_decision_cat_generic_ottoman_empire
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -141,7 +148,7 @@ form_european_union_category = {
 	picture = GFX_decision_cat_generic_european_union
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -152,7 +159,7 @@ form_mutapa_category = {
 	picture = GFX_decision_cat_generic_mutapa
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -163,7 +170,7 @@ form_roman_empire_category = {
 	picture = GFX_decision_cat_generic_roman_empire
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -174,7 +181,7 @@ form_persian_empire_category = {
 	picture = GFX_decision_cat_generic_persian_empire
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -186,7 +193,7 @@ form_byzantine_empire_category = {
 
 	allowed = {
 		OR = {
-			has_dlc = "Waking the Tiger" 
+			 
 			has_dlc = "Battle for the Bosporus"
 		}
 	}
@@ -199,7 +206,7 @@ form_arabia_category = {
 	picture = GFX_decision_cat_generic_arabia
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -210,7 +217,7 @@ form_majapahit_empire_category = {
 	picture = GFX_decision_cat_generic_majapahit_empire
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -221,7 +228,7 @@ form_rattanakosin_kingdom_category = {
 	picture = GFX_decision_cat_generic_rattanakosin_kingdom
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -232,7 +239,7 @@ form_hre_category = {
 	picture = GFX_decision_cat_generic_hre
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 
@@ -243,7 +250,7 @@ form_greater_german_reich_category = {
 	picture = GFX_decision_cat_generic_hre
 
 	allowed = {
-		has_dlc = "Waking the Tiger"
+		
 	}
 }
 

@@ -3,9 +3,6 @@ state={
 	name="STATE_1027"
 	history={
                 owner = ZZZ
-		1789.1.1 = {
-                owner = SPR
-                }
 		1822.1.1 = {
                 owner = MEX
                 add_core_of = MEX
@@ -15,12 +12,16 @@ state={
                 add_core_of = TEX
                 remove_core_of = MEX
                 }
+                		1789.1.1 = {
+        owner = MEX
+		add_core_of = MEX
+        }
 		1850.1.1 = {
                 owner = USA
                 add_core_of = USA
                 remove_core_of = MEX
                 }
-		1920.1.1 = {
+		1900.1.1 = {
                 owner = USA
                 add_core_of = USA
                 remove_core_of = MEX

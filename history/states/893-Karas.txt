@@ -9,6 +9,18 @@ state={
 		}
 		owner = SHL
                 add_core_of = SHL
+						1544.1.1 = {
+			owner = SHG
+			add_core_of = SHG
+			remove_core_of = SHL
+
+		}
+		1773.1.1 = {
+			owner = SHL
+			add_core_of = SHL
+			remove_core_of = SHG
+
+		}
 								1950.1.1 = {
 		owner = WGR
 		add_core_of = WGR
@@ -24,7 +36,7 @@ state={
                 add_core_of = GER
                 owner = GER
                 }
-		1920.1.1 = {
+		1919.1.1 = {
                 remove_core_of = WUR
                 remove_core_of = SAX
                 remove_core_of = OLD

@@ -7,13 +7,25 @@ state={
 	}
 
 	history={
-		owner = AZR
-		add_core_of = AZR
+		owner = SHI
+		add_core_of = SHI
 		1600.1.1 = {
-			owner = PER
-
+		owner = OTO
+		add_core_of = PER
+		remove_core_of = SHI
 		}
-		1836.1.1 = {
+		1700.1.1 = {
+		owner = PER
+		add_core_of = PER
+		remove_core_of = SHI
+		}
+		1919.1.1 = {
+		add_core_of = AZR
+		owner = AZR
+		remove_core_of = RUS
+		remove_core_of = PER
+		}
+		1813.1.1 = {
 			owner = RUS
 			add_core_of = RUS
 

@@ -21,61 +21,145 @@ RMR = "countries/Reichskommissariatmountainrepublic.txt"
 RCO	= "countries/Reichskommissariatcourland.txt"
 RCR	= "countries/Reichskommissariatcrimea.txt"
 
-TRR = "countries/Trier.txt"
-NUR = "countries/Nurnberg.txt"
-AAC = "countries/Aachen.txt"
-MNZ = "countries/Mainz.txt"
-BYR = "countries/Bayreuth.txt"
-ANS = "countries/Ansbach.txt"
-AUG = "countries/Augsburg.txt"
-LUS = "countries/Lusatia.txt"
-STR = "countries/Strelitz.txt"
-FUL = "countries/Fulda.txt"
+MUG = "countries/Mughal Empire.txt" #flagcomplete 
 
-CLE = "countries/Cleves.txt"
-JUL = "countries/Julich.txt"
-EFR = "countries/East Frisia.txt"
-BTH = "countries/Bentheim.txt"
-DOR = "countries/Dortmund.txt"
-PFZ = "countries/Palatinate.txt"
-WRZ = "countries/Wurzburg.txt"
-CLG = "countries/Cologne.txt"
-WEI = "countries/Weimar.txt"
-BAM = "countries/Bamberg.txt"
+BNI = "countries/Brunei.txt" #flagcomplete 
+SIN = "countries/Singapore.txt" #flagcomplete 
+MCU = "countries/Macau.txt" #flagcomplete 
+HKG = "countries/Hong kong.txt" #flagcomplete 
+TLE = "countries/Timor Leste.txt" #flagcomplete 
+SEP = "countries/Ionian Islands.txt" #flagcomplete 
+SKK = "countries/Sikkim.txt" #flagcomplete 
+BHR = "countries/Bahrain.txt" #flagcomplete 
+NKO = "countries/North Korea.txt" #flagcomplete 
+SKO = "countries/South Korea.txt" #flagcomplete
 
-OSN = "countries/Osnabrucka.txt"
-PAS = "countries/Passau.txt"
-NOV = "countries/Novgorod.txt"
-MUS = "countries/Muscovy.txt"
-SXL = "countries/Saxe Lauenburg.txt"
-PSK = "countries/Pskov.txt"
-RYA = "countries/Ryazan.txt"
-COU = "countries/Courland.txt"
-MNG = "countries/Ming.txt"
-ZAP = "countries/Zaporzhian Host.txt"
+HAM = "countries/Hamas.txt" #flagcomplete 
+SYE = "countries/South Yemen.txt" #flagcomplete 
+TRP = "countries/Tripolitania.txt" #flagcomplete 
+CYR = "countries/Cyrenaica.txt" #flagcomplete 
+FEZ = "countries/Fezzan.txt" #flagcomplete
+SSU = "countries/South Sudan.txt" #flagcomplete 
+SML = "countries/Somaliland.txt" #flagcomplete 
+PUN = "countries/Puntland.txt" #flagcomplete 
+JUB = "countries/Jubaland.txt" #flagcomplete 
+ZAN = "countries/Zanzibar.txt" #flagcomplete
 
-POD = "countries/Podolia.txt"
-SMG = "countries/Samogitia.txt"
-SMO = "countries/Smolensk.txt"
-CHE = "countries/Chernigov.txt"
-WDF = "countries/Wild Fields.txt"
-KIE = "countries/Kiev.txt"
-BYI = "countries/Bavaria Inglostadt.txt"
-BYL = "countries/Bavaria Landshut.txt"
-BYM = "countries/Bavaria Munich.txt"
-BYS = "countries/Bavaria Straubing.txt"
+FUR = "countries/Furstenberg.txt" #flagcomplete 
+LCT = "countries/Liechtenstein.txt" #flagcomplete 
+SFF = "countries/Schaffhausen.txt" #flagcomplete 
+CLW = "countries/Cologne Westphalia.txt" #flagcomplete 
+RIE = "countries/Rietburg.txt" #flagcomplete 
 
-KRM = "countries/Karaman.txt"
-CND = "countries/Candar.txt"
-DUL = "countries/Dulkadir.txt"
-RAM = "countries/Ramazan.txt"
-AGQ = "countries/Ag Qoyunlu.txt"
-QAR = "countries/Qara Qoyunlu.txt"
-ALY = "countries/Alaiyye.txt"
-LIM = "countries/Limburg.txt"
-SCH = "countries/Schaumburg.txt"
-TEC = "countries/Tecklenburg.txt"
+DIE = "countries/Diepholz.txt" #flagcomplete 
+LUN = "countries/Luneburg.txt" #flagcomplete 
+KON = "countries/Konstanz.txt" #flagcomplete 
+MUL = "countries/Mulhouse.txt" #flagcomplete 
+NNB = "countries/Nienburg.txt" #flagcomplete 
+HOY = "countries/Hoya.txt" #flagcomplete 
+GRZ = "countries/Gorizia.txt" #flagcomplete 
+ULU = "countries/Upper Lusatia.txt" #flagcomplete 
+CMT = "countries/Franche Comte.txt" #flagcomplete 
+SHB = "countries/Schaunberg.txt" #flagcomplete 
 
+ZWE = "countries/Zweibrucken.txt" #flagcomplete 
+RTH = "countries/Rothenburg.txt" #flagcomplete 
+BGZ = "countries/Bregenz.txt" #flagcomplete 
+NAU = "countries/Naugard.txt" #flagcomplete 
+BRT = "countries/Barth.txt" #flagcomplete 
+WRM = "countries/Warmia.txt" #flagcomplete 
+PEM = "countries/Perm.txt" #flagcomplete 
+ODO = "countries/Odoyev.txt" #flagcomplete 
+BUC = "countries/Buccau.txt" #flagcomplete
+MEM = "countries/Memmingen.txt" #flagcomplete
+
+TRR = "countries/Trier.txt" #flagcomplete
+NUR = "countries/Nurnberg.txt" #flagcomplete
+AAC = "countries/Aachen.txt" #flagcomplete
+MNZ = "countries/Mainz.txt" #flagcomplete
+BYR = "countries/Bayreuth.txt" #flagcomplete
+ANS = "countries/Ansbach.txt" #flagcomplete
+AUG = "countries/Augsburg.txt" #flagcomplete
+LUS = "countries/Lusatia.txt" #flagcomplete
+STR = "countries/Strelitz.txt" #flagcomplete
+FUL = "countries/Fulda.txt" #flagcomplete
+
+CLE = "countries/Cleves.txt"  #flagcomplete
+JUL = "countries/Julich.txt" #flagcomplete
+EFR = "countries/East Frisia.txt" #flagcomplete
+BTH = "countries/Bentheim.txt" #flagcomplete
+DOR = "countries/Dortmund.txt" #flagcomplete
+PFZ = "countries/Palatinate.txt" #flagcomplete
+WRZ = "countries/Wurzburg.txt" #flagcomplete
+CLG = "countries/Cologne.txt" #flagcomplete
+WEI = "countries/Weimar.txt"  #flagcomplete
+BAM = "countries/Bamberg.txt" #flagcomplete
+
+OSN = "countries/Osnabruck.txt" #flagcomplete
+PAS = "countries/Passau.txt" #flagcomplete
+NOV = "countries/Novgorod.txt" #flagcomplete
+MUS = "countries/Muscovy.txt" #flagcomplete
+SXL = "countries/Saxe Lauenburg.txt" #flagcomplete
+PSK = "countries/Pskov.txt" #flagcomplete
+RYA = "countries/Ryazan.txt" #flagcomplete
+COU = "countries/Courland.txt" #flagcomplete
+LIM = "countries/Limburg.txt" #flagcomplete
+ZAP = "countries/Zaporzhian Host.txt" #flagcomplete
+
+POD = "countries/Podolia.txt" #flagcomplete
+SMG = "countries/Samogitia.txt" #flagcomplete
+SMO = "countries/Smolensk.txt"  #flagcomplete
+CHE = "countries/Chernigov.txt" #flagcomplete
+WDF = "countries/Wild Fields.txt"  #flagcomplete
+KIE = "countries/Kiev.txt"  #flagcomplete
+BYI = "countries/Bavaria Inglostadt.txt" #flagcomplete
+BYL = "countries/Bavaria Landshut.txt" #flagcomplete
+BYM = "countries/Bavaria Munich.txt" #flagcomplete
+CRE = "countries/Crete.txt" #flagcomplete
+
+URB = "countries/Urbino.txt" #flagcomplete
+LIC = "countries/Lichtenberg.txt" #flagcomplete
+IME = "countries/Imereti.txt" #flagcomplete
+SMT = "countries/Samtskhe.txt" #flagcomplete
+COB = "countries/Coburg.txt" #flagcomplete
+PAD = "countries/Paderborn.txt" #flagcomplete
+MSV = "countries/Masovia.txt" #flagcomplete
+SHG = "countries/Schleswig-Holstein-Gottorp.txt" #flagcomplete
+SCH = "countries/Schaumburg.txt" #flagcomplete
+TEC = "countries/Tecklenburg.txt" #flagcomplete
+
+VRD = "countries/Verden.txt" #flagcomplete
+PCK = "countries/Plock.txt"  #flagcomplete
+WOL = "countries/Wolgast.txt"  #flagcomplete
+STE = "countries/Stettin.txt"  #flagcomplete
+RUG = "countries/Rugen.txt" #flagcomplete
+GTG = "countries/Gottingen.txt" #flagcomplete
+SLA = "countries/Slavonia.txt"  #flagcomplete
+BRN = "countries/Bremen City.txt" #flagcomplete
+HLD = "countries/Hildesheim.txt"  #flagcomplete
+CBG = "countries/Calenberg.txt"  #flagcomplete
+
+KRL = "countries/Kurland.txt" #flagcomplete
+RGA = "countries/Riga.txt" #flagcomplete
+DRP = "countries/Dorpat.txt" #flagcomplete
+OSE = "countries/Osel Wiek.txt" #flagcomplete
+SCE = "countries/Schauenburg.txt" #flagcomplete
+ATI = "countries/Asti.txt" #flagcomplete
+STS = "countries/Strassburg.txt" #flagcomplete
+WTZ = "countries/Wetzlar.txt" #flagcomplete
+REG = "countries/Regensburg.txt" #flagcomplete
+CMN = "countries/Cammin.txt" #flagcomplete
+
+KRM = "countries/Karaman.txt" #flagcomplete
+CND = "countries/Candar.txt" #flagcomplete
+DUL = "countries/Dulkadir.txt" #flagcomplete
+RAM = "countries/Ramazan.txt" #flagcomplete
+AGQ = "countries/Ag Qoyunlu.txt" #flagcomplete
+QAR = "countries/Qara Qoyunlu.txt" #flagcomplete
+ALY = "countries/Alaiyye.txt" #flagcomplete
+SHI = "countries/Shirvan.txt" #flagcomplete
+TIM = "countries/Timurids.txt" #flagcomplete
+MNG = "countries/Ming.txt" #flagcomplete
 
 
 
@@ -459,3 +543,22 @@ QIN = "countries/Qing China.txt"
 WAD = "countries/Wadai.txt"
 DRF = "countries/Darfur.txt"
 SKT = "countries/Sokoto.txt"
+
+RAP = "countries/Rapa Nui.txt"
+YUC = "countries/Yucatan.txt"
+RIG = "countries/Rio Grande.txt"
+QUE = "countries/Quebec.txt"
+
+# WELSH ARGENTINA
+WLA = "countries/Welsh Argentina.txt"
+
+# AMERINDIAN NATIONS (no starting cores)
+GAR = "countries/Guarani.txt"
+INC = "countries/Inca.txt"
+MIS = "countries/Miskito.txt"
+MAY = "countries/Maya.txt"
+INU = "countries/Inuit.txt"
+CHR = "countries/Charrua.txt"
+ITZ = "countries/Itza.txt"
+NAH = "countries/Nahua.txt"
+IAS = "countries/Isthmo Amerindia.txt"

@@ -42,7 +42,7 @@ bookmarks = {
 
 			}
 		}
-		PRE = {
+	        BDB = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={

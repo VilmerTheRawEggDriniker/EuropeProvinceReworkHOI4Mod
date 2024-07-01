@@ -35,6 +35,9 @@ state={
                 remove_core_of = THU
                 remove_core_of = PRE
                 }
+						victory_points = {
+			11533 1
+		}
 		buildings = {
 			infrastructure = 2
 		}

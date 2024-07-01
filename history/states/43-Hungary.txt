@@ -25,20 +25,14 @@ state={
                         remove_core_of = AUS
                         add_core_of = AUH
 		}
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 3
-			industrial_complex = 5
+			industrial_complex = 2
 		}
 		1936.1.1 = {
 		buildings = {
 			infrastructure = 3
-			arms_factory = 3
-			industrial_complex = 5
+			industrial_complex = 2
 			air_base = 4
 
 		}
@@ -46,7 +40,7 @@ state={
 		victory_points = {
 			9660 30 
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = HUN
 			controller = HUN
 			add_core_of = HUN

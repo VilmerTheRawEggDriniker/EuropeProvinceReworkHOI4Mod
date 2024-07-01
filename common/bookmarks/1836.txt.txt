@@ -4,17 +4,8 @@ bookmarks = {
 		desc = "1836_DESC"
 		date = 1836.1.1.12
 		picture = "GFX_select_date_1939"
-		default_country = "ENG"
+		default_country = "FRA"
 	
-		ENG = {
-			history = OTHER_BLITZKRIEG_DESC
-			ideology = neutrality
-			ideas={
-			}
-			focuses = {
-
-			}
-		}
 		FRA = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
@@ -24,7 +15,25 @@ bookmarks = {
 
 			}
 		}
-		RUS = {
+		ENG = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		SPR = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		POR = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
@@ -42,24 +51,6 @@ bookmarks = {
 
 			}
 		}
-		OTO = {
-			history = OTHER_BLITZKRIEG_DESC
-			ideology = neutrality
-			ideas={
-			}
-			focuses = {
-
-			}
-		}
-		SPM = {
-			history = OTHER_BLITZKRIEG_DESC
-			ideology = neutrality
-			ideas={
-			}
-			focuses = {
-
-			}
-		}
 		PRE = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
@@ -69,20 +60,25 @@ bookmarks = {
 
 			}
 		}
-		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
-		}
-
-		# minors from DLC ####
-		"BAY"={
-			minor = yes
-			history = "OTHER_BLITZKRIEG_DESC"
+		RUS = {
+			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
-			ideas = {
+			ideas={
 			}
 			focuses = {
+
 			}
 		}
+		SWE = {
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+
+			}
+		}
+		# minors from DLC ####
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }

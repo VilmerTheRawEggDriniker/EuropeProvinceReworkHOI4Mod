@@ -12,7 +12,7 @@ state={
 		owner = OTO
 		add_core_of = IRQ
                 }
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = ENG
 			controller = ENG
 			remove_core_of = OTO

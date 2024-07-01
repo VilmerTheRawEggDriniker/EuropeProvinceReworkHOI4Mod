@@ -8,31 +8,25 @@ state={
 		add_core_of = POL
 		1950.1.1 = {
 			remove_claim_by = GER
-
 		}
 		1800.1.1 = {
 			owner = PRE
-
 		}
 		1812.1.1 = {
 			owner = POL
 			add_core_of = POL
-
 		}
 		1815.1.1 = {
 			owner = POS
 			add_core_of = POS
-
 		}
 		1849.1.1 = {
 			owner = PRE
 			remove_core_of = POS
-
 		}
 		1871.1.1 = {
 			add_core_of = GER
 			owner = GER
-
 		}
 		1919.1.1 = {
 			remove_core_of = WUR
@@ -46,7 +40,14 @@ state={
 			remove_core_of = HES
 			remove_core_of = THU
 			remove_core_of = PRE
-
+		}
+		1919.1.1 = {
+		owner = POS
+		add_core_of = POS
+		}
+		1920.1.1 = {
+		owner = POL
+		remove_core_of = POS
 		}
 		1936.1.1 = {
 			buildings = {
@@ -56,7 +57,7 @@ state={
 					bunker = 1
 
 				}
-				13434 = {
+				3532 = {
 					bunker = 1
 
 				}
@@ -69,15 +70,8 @@ state={
 			}
 
 		}
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			6558 20 
-		}
-		victory_points = {
-			279 1 
 		}
 		victory_points = {
 			3381 1 
@@ -85,27 +79,19 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
-
 		}
 		1920.1.1 = {
 			owner = POL
 			add_core_of = POL
 			remove_core_of = GER
 			controller = POL
-
 		}
-		1938.3.12 = {
-			add_claim_by = GER
-
-		}
-
 	}
-
 	provinces={
-		17 243 279 388 3381 3460 3532 6558 9532 11232 11558 13407 13408 13417 13422 13423 13425 13427 13430 13431 13434 
+		17 388 3381 3460 3532 6558 9532 11558 13407 13408 13417 13422 13423 13425 13430 13431 
 	}
-	manpower=2000000
+	manpower=1500000
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=large_town
 	local_supplies=0.000
 }

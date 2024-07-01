@@ -1,4 +1,10 @@
 ﻿capital = 277
+1444.11.11 = {
+set_cosmetic_tag = MEX_SPR #viceroyalty
+}
+1813.1.1 = {
+set_cosmetic_tag = MEX #independent
+}
 1936.1.1 = {
 oob = "MEX_1936"
 if = {

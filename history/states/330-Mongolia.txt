@@ -8,12 +8,22 @@ state={
 	}
 
 	history={
-		owner = QIN
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MON
+        }
+		1900.1.1 = {
+        owner = QIN
+		remove_core_of = MNG
+        }
+		1700.1.1 = {
 		victory_points = {
 			4801 10
 		}
 		victory_points = {
 			7799 1 
+		}
 		}
 		1936.1.1 = {
 					buildings = {
@@ -24,10 +34,9 @@ state={
 		}
 		}
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 
 		}
-		add_core_of = MON
 		1913.1.1 = {
 			owner = MON
 			controller = MON

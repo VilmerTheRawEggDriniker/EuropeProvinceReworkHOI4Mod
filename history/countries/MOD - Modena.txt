@@ -1,5 +1,20 @@
 ﻿capital = 927
-
+1780.1.1 = {
+recruit_character=MOD_ercole
+promote_character=MOD_ercole
+}
+1804.1.1 = {
+recruit_character=MOD_francisiv
+promote_character=MOD_francisiv
+retire_character=MOD_ercole
+}
+1847.1.1 = {
+retire_character=MOD_francisiv
+}
+1804.1.1 = {
+set_party_name = { ideology = neutrality long_name = MOD_LOR_neutrality_party_long name = MOD_LOR_neutrality_party }
+}
+set_oob = "MOD_1789"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -2,7 +2,25 @@
 ####
 #### NO STEP BACK
 ####
-
+1955.1.1 = {
+		if = {
+		limit = { has_start_date < 1961.1.1 }
+create_faction = WarsawPact
+add_to_faction = ALB
+add_to_faction = BUL
+add_to_faction = ROM
+add_to_faction = CZE
+add_to_faction = POL
+add_to_faction = HUN
+add_to_faction = DDR
+}
+}
+1919.1.1 = {
+		if = {
+		limit = { has_start_date < 1933.1.1 }
+set_oob = "SOV_1919"
+}
+}
 
 #You don't want Russian party names? Just remove these lines
 set_party_name = {

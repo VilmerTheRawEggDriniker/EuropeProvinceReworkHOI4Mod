@@ -4,8 +4,8 @@ state={
 	name="STATE_843"
 
 	history={
-		owner = BDB
-                add_core_of = BDB
+		owner = AAC
+                add_core_of = AAC
 								1950.1.1 = {
 		owner = WGR
 		add_core_of = WGR
@@ -17,25 +17,10 @@ state={
 		remove_core_of = DDR
 		remove_core_of = WGR
 		}
-						1700.1.1 = {
-			owner = BDB
-			add_core_of = BDB
-			remove_core_of = PRE
-			remove_core_of = TEU
-
-		}
-		1701.1.1 = {
-			owner = PRE
-			add_core_of = PRE
-			remove_core_of = TEU
-			remove_core_of = BDB
-			remove_core_of = POM
-
-		}
 		1800.1.1 = {
 			owner = RHI
 		add_core_of = RHI
-		remove_core_of = PRE
+		remove_core_of = AAC
 		}
 		1812.1.1 = {
 			owner = FRA
@@ -49,7 +34,13 @@ state={
                 add_core_of = GER
                 owner = GER
                 }
+		1919.1.1 = {
+		owner = FRA
+		}
 		1920.1.1 = {
+		owner = GER
+		}
+		1919.1.1 = {
                 remove_core_of = WUR
                 remove_core_of = SAX
                 remove_core_of = OLD
@@ -62,10 +53,11 @@ state={
                 remove_core_of = THU
                 remove_core_of = PRE
                 }		victory_points = {
-			9522 5 
+			9522 10 
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
 		}
 		1920.1.1 = {
 			set_demilitarized_zone = yes

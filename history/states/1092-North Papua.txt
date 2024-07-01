@@ -9,7 +9,7 @@ state={
 			controller = GER
             add_core_of = PNG
 		}
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = AST
 			controller = AST
             remove_core_of = ENG

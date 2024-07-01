@@ -1,4 +1,134 @@
 ﻿capital = 361
+1955.1.1 = {
+		if = {
+		limit = { has_start_date < 1961.1.1 }
+create_faction = Nato
+add_to_faction = POR
+add_to_faction = FRA
+add_to_faction = LUX
+add_to_faction = BEL
+add_to_faction = HOL
+add_to_faction = WGR
+add_to_faction = ITA
+add_to_faction = GRE
+add_to_faction = TUR
+add_to_faction = NOR
+add_to_faction = DEN
+add_to_faction = ENG
+add_to_faction = ICE
+add_to_faction = CAN
+}
+}
+2000.1.1 = {
+		if = {
+		limit = { has_start_date < 2025.1.1 }
+create_faction = Nato
+add_to_faction = POR
+add_to_faction = FRA
+add_to_faction = LUX
+add_to_faction = BEL
+add_to_faction = HOL
+add_to_faction = GER
+add_to_faction = ITA
+add_to_faction = GRE
+add_to_faction = TUR
+add_to_faction = NOR
+add_to_faction = DEN
+add_to_faction = ENG
+add_to_faction = ICE
+add_to_faction = MAC
+add_to_faction = MNT
+add_to_faction = ALB
+add_to_faction = SLV
+add_to_faction = BUL
+add_to_faction = ROM
+add_to_faction = SPR
+add_to_faction = HUN
+add_to_faction = SLO
+add_to_faction = CZE
+add_to_faction = POL
+add_to_faction = SWE
+add_to_faction = FIN
+add_to_faction = LAT
+add_to_faction = LIT
+add_to_faction = EST
+add_to_faction = CAN
+}
+}
+1789.1.1 = {
+set_party_name = { ideology = democratic name = USA_independent_party }
+}
+1797.1.1 = {
+set_party_name = { ideology = democratic name = USA_federalist_party }
+}
+1800.1.1 = {
+set_party_name = { ideology = democratic name = USA_democraticrepublican_party }
+}
+1836.1.1 = {
+set_party_name = { ideology = democratic name = USA_democratic_party }
+}
+1789.1.1 = {
+set_cosmetic_tag = USA_one #13 states
+}
+1796.1.1 = {
+set_cosmetic_tag = USA_two #15 states
+}
+1819.1.1 = {
+set_cosmetic_tag = USA_three #20 states
+}
+1821.1.1 = {
+set_cosmetic_tag = USA_four #21 states
+}
+1822.1.1 = {
+set_cosmetic_tag = USA_five #23 states
+}
+1823.1.1 = {
+set_cosmetic_tag = USA_six #24 states
+}
+1837.1.1 = {
+set_cosmetic_tag = USA_ #48 states
+}
+1789.1.1 = {
+recruit_character=USA_georgewashington
+promote_character=USA_georgewashington
+}
+1798.1.1 = {
+recruit_character=USA_johnadams
+promote_character=USA_johnadams
+retire_character=USA_georgewashington
+}
+1802.1.1 = {
+recruit_character=USA_thomasjefferson
+promote_character=USA_thomasjefferson
+retire_character=USA_johnadams
+}
+1810.1.1 = {
+recruit_character=USA_jamesmadison
+promote_character=USA_jamesmadison
+retire_character=USA_thomasjefferson
+}
+1818.1.1 = {
+recruit_character=USA_jamesmonroe
+promote_character=USA_jamesmonroe
+retire_character=USA_jamesmadison
+}
+1826.1.1 = {
+recruit_character=USA_johnquincyadams
+promote_character=USA_johnquincyadams
+retire_character=USA_jamesmonroe
+}
+1830.1.1 = {
+recruit_character=USA_andrewjackson
+promote_character=USA_andrewjackson
+retire_character=USA_johnquincyadams
+}
+1840.1.1 = {
+retire_character=USA_andrewjackson
+}
+1936.1.1 = {
+recruit_character=USA_franklin_delano_roosevelt
+promote_character=USA_franklin_delano_roosevelt
+}
 1936.1.1 = {
 
 
@@ -317,8 +447,150 @@ give_guarantee = URG
 
 
 set_convoys = 500
-
-
+1789.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1785.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1793.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1789.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1797.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1793.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1801.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1797.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1805.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1801.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1809.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1805.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1813.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1809.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1817.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1813.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1821.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1817.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1825.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1821.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1829.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1825.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1833.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1829.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1837.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1833.3.4"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 100
+}
+}
+1936.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.11.8"
@@ -329,7 +601,7 @@ set_popularities = {
 	democratic = 99
 	communism = 1
 }
-
+}
 add_ideas = {
 	undisturbed_isolation
 	great_depression
@@ -356,7 +628,6 @@ set_autonomy = {
 
 recruit_character = USA_earl_browder
 recruit_character = USA_william_dudley_pelley
-recruit_character = USA_franklin_delano_roosevelt
 recruit_character = USA_george_s_patton
 recruit_character = USA_omar_bradley
 recruit_character = USA_dwight_d_eisenhower

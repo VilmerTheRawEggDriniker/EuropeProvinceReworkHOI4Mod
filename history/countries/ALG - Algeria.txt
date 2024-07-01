@@ -1,5 +1,13 @@
 ﻿capital = 459
-
+1444.11.11 = {
+set_cosmetic_tag = ALG_tlemcen #13 states if you reading this lets skibidi together
+}
+1557.1.1 = {
+set_cosmetic_tag = ALG_regency #15 states not accurate description
+}
+1836.1.1 = {
+set_cosmetic_tag = ALG #20 states lol not
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

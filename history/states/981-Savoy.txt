@@ -5,28 +5,29 @@ state={
 
 	history={
 		owner = SAV
-                add_core_of = SAV
+		add_core_of = SAV
 		1720.1.1 = {
-                owner = SPM
-                add_core_of = SPM
-		remove_core_of = SAV
-        }
+			owner = SPM
+			add_core_of = SPM
+			remove_core_of = SAV
+
+		}
 		1871.1.1 = {
 			owner = FRA
 			add_core_of = FRA
-		remove_core_of=SPM
+			remove_core_of = SPM
 
 		}
 		1800.1.1 = {
 			owner = FRA
 			add_core_of = FRA
-		remove_core_of = SPM
+			remove_core_of = SPM
 
 		}
 		1815.1.1 = {
 			owner = SPM
 			add_core_of = SPM
-		remove_core_of = FRA
+			remove_core_of = FRA
 
 		}
 		1919.1.1 = {
@@ -41,7 +42,7 @@ state={
 			778 1 
 		}
 		victory_points = {
-		11573 1 
+			11573 1 
 		}
 		buildings = {
 			infrastructure = 2
@@ -51,7 +52,7 @@ state={
 	}
 
 	provinces={
-		764 778 6609 9603 9745 11573 14552 
+		764 778 6609 9603 9745 11573 14538 14552 
 	}
 	manpower=499076
 	buildings_max_level_factor=1.000

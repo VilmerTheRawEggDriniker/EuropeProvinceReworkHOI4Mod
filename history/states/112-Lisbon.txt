@@ -8,10 +8,6 @@ state={
 
 	history={
 		owner = POR
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			11805 30 
 		}
@@ -21,11 +17,24 @@ state={
 		victory_points = {
 			6924 1 
 		}
-		buildings = {
+		1936.1.1 = {
+					buildings = {
 			infrastructure = 3
 			arms_factory = 2
 			industrial_complex = 1
 			air_base = 5
+			dockyard = 2
+			11805 = {
+				naval_base = 8
+
+			}
+
+		}
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
 			dockyard = 2
 			11805 = {
 				naval_base = 8

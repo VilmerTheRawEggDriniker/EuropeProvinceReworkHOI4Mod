@@ -13,6 +13,12 @@ state={
                 remove_core_of = ADU
 				remove_core_of = ARA
 		}
+		1812.1.1 = {
+        controller = FRA
+		}
+		1813.1.1 = {
+        controller = SPR
+		}
 		victory_points = {
 			3933 1 
 		}

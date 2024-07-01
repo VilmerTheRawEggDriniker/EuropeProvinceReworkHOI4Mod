@@ -20,6 +20,14 @@ state={
 			}
 		}
 		}
+		1789.1.1 = {
+        add_core_of = PHI
+        owner = MEX
+        }
+		1836.1.1 = {
+        add_core_of = PHI
+        owner = SPR
+        }
 		1900.1.1 = {
             add_core_of = PHI
             owner = PHI

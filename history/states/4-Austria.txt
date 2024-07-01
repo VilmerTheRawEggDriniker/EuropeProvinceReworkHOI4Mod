@@ -14,21 +14,18 @@ state={
 		buildings = {
 			infrastructure = 5
 			arms_factory = 3
-			industrial_complex = 3
+			industrial_complex = 2
 			air_base = 6
 
 		}
                 }
-            add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-		}
 		victory_points = {
 			11666 35
 		}
 		buildings = {
 			infrastructure = 5
 			arms_factory = 3
-			industrial_complex = 3
+			industrial_complex = 2
 		}
 		1920.1.1 = {
 			owner = AUS
@@ -60,7 +57,7 @@ state={
 	provinces={
 		11666 
 	}
-	manpower=1645071
+	manpower=1634571
 	buildings_max_level_factor=1.000
 	state_category=large_town
 	local_supplies=0.000

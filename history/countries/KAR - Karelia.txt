@@ -1,4 +1,4 @@
-﻿capital = 216 #Olonets (Petrozavodsk)
+﻿capital = 215 #Olonets (Petrozavodsk)
 
 #oob = "KAR_1936"
 

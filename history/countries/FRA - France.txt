@@ -1,4 +1,71 @@
-﻿capital = 16
+﻿capital = 988
+1789.1.1 = {
+		if = {
+limit = { has_start_date < 1790.1.1 }
+	add_ideas = {
+		feudalism
+	}
+}
+}
+1774.1.1 = {
+recruit_character=FRA_louisxvi
+promote_character=FRA_louisxvi
+}
+1800.1.1 = {
+recruit_character=FRA_napoleon
+promote_character=FRA_napoleon
+retire_character=FRA_louisxvi
+}
+1804.1.1 = {
+recruit_character=FRA_napoleoni
+promote_character=FRA_napoleoni
+}
+1814.1.1 = {
+recruit_character=FRA_louisxviii
+promote_character=FRA_louisxviii
+retire_character=FRA_napoleon
+retire_character=FRA_napoleoni
+}
+1824.1.1 = {
+recruit_character=FRA_charlesx
+promote_character=FRA_charlesx
+retire_character=FRA_louisxviii
+}
+1831.1.1 = {
+recruit_character=FRA_louisphilippei
+promote_character=FRA_louisphilippei
+retire_character=FRA_charlesx
+}
+1849.1.1 = {
+retire_character=FRA_louisphilippei
+}
+1936.1.1 = {
+recruit_character=FRA_pierre_laval
+promote_character=FRA_pierre_laval
+}
+1939.1.1 = {
+recruit_character=FRA_philippe_petain
+promote_character=FRA_philippe_petain
+retire_character=FRA_pierre_laval
+}
+1800.1.1 = {
+		set_capital = {
+  state = 16
+  remember_old_capital = no
+}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1801.1.1 }
+set_oob = "FRA_SPM_1789_1815"
+}
+}
+1811.1.1 = {
+		if = {
+		limit = { has_start_date < 1815.1.1 }
+set_oob = "FRA_SPR_1789_1815"
+}
+}
 1936.1.1 = {
 if = {
 	limit = {
@@ -171,7 +238,7 @@ if = {
 	}
 }
 }
-1800.1.1 = {
+1799.1.1 = {
 		if = {
 		limit = { has_start_date < 1801.1.1 }
 ENG={
@@ -186,9 +253,6 @@ add_to_faction = POR
 add_to_faction = SPM
 add_to_faction = PRM
 add_to_faction = LUC
-white_peace = SPR
-white_peace = NAP
-white_peace = LUC
 }
 ENG={
 	set_autonomy = {
@@ -197,8 +261,6 @@ ENG={
         freedom_level = 0.4
 	}
 }
-create_faction = ContinentalSystem
-add_to_faction = SPR
 	    set_autonomy = {
         target = RHI
         autonomous_state = autonomy_dominion
@@ -270,7 +332,7 @@ add_to_faction = SPR
 	}
 }
 }
-1812.1.1 = {
+1811.1.1 = {
 		if = {
 		limit = { has_start_date < 1813.1.1 }
 ENG={
@@ -281,21 +343,17 @@ add_to_faction = POR
 add_to_faction = SIC
 add_to_faction = SPM
 }
-white_peace = AUS
-white_peace = TOS
-white_peace = BAY
-white_peace = RUS
-white_peace = OTO
-white_peace = NAP
-white_peace = POR
-white_peace = SPM
-white_peace = PRM
-white_peace = LUC
 ENG={
 	set_autonomy = {
         target = INS
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
+	}
+}
+PER={
+		declare_war_on = {
+		target = RUS
+		type = puppet_wargoal_focus
 	}
 }
 create_faction = ContinentalSystem
@@ -307,11 +365,14 @@ add_to_faction = WUR
 add_to_faction = BAD
 add_to_faction = THU
 add_to_faction = MEK
+add_to_faction = STR
+add_to_faction = WRZ
+add_to_faction = LCT
+add_to_faction = COB
 add_to_faction = HES
 add_to_faction = NAS
 add_to_faction = FKF
 add_to_faction = AUS
-add_to_faction = SWE
 add_to_faction = DEN
 add_to_faction = SHL
 add_to_faction = HLS
@@ -523,6 +584,16 @@ set_convoys = 300
 # DIPLOMACY
 
 
+
+1791.1.1 = {
+set_cosmetic_tag = FRA_republic_one # French constitutional monarchy
+}
+1792.1.1 = {
+set_cosmetic_tag = FRA_republic_two # French republic reversed flag
+}
+1794.1.1 = {
+set_cosmetic_tag = FRA_republic_three # French republic real flag
+}
 1804.1.1 = {
 set_cosmetic_tag = FRA_empire # French Empire
 }
@@ -554,17 +625,31 @@ set_party_name = { ideology = neutrality long_name = FRA_ORL_neutrality_party_lo
         freedom_level = 0.35
 	}
     }
-1920.1.1 = {
+1901.1.1 = {
     set_autonomy = {
-        target = MOR
+        target = TUN
+        autonomous_state = autonomy_free
+        freedom_level = 0.35
+	}
+    }
+1902.1.1 = {
+    set_autonomy = {
+        target = TUN
         autonomous_state = autonomy_colony
         freedom_level = 0.35
 	}
     }
-1936.1.1 = {
+1920.1.1 = {
     set_autonomy = {
         target = TUN
         autonomous_state = autonomy_free
+        freedom_level = 0.35
+	}
+    }
+1919.1.1 = {
+    set_autonomy = {
+        target = MOR
+        autonomous_state = autonomy_colony
         freedom_level = 0.35
 	}
     }
@@ -583,8 +668,8 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
-	neutrality = 80
+	democratic = 50
+	neutrality = 50
 }
 
 1789.1.1 = {
@@ -683,9 +768,7 @@ give_guarantee = CZE
 give_guarantee = YUG
 give_guarantee = ROM
 
-recruit_character = FRA_philippe_petain
 recruit_character = FRA_maurice_thorez
-recruit_character = FRA_pierre_laval
 recruit_character = FRA_edouard_daladier
 recruit_character = FRA_jean_de_lattre_de_tassigny
 recruit_character = FRA_alphonse_juin

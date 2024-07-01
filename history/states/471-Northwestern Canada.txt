@@ -20,9 +20,6 @@ state={
 		}
                 }
 		1700.1.1 = {
-                add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-		}
                 }
 		1789.1.1 = {
                 owner = USA

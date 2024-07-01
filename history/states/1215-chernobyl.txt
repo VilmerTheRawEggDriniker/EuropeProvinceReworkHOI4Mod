@@ -4,18 +4,23 @@ state={
 	name="STATE_1215"
 
 	history={
-		owner = LIT
-		add_core_of = LIT
+		owner = WDF
+		add_core_of = WDF
 		1600.1.1 = {
 			owner = POL
-			add_core_of = POL
+			remove_core_of = WDF
+			remove_core_of = POD
+			remove_core_of = SMG
+			remove_core_of = SMO
+			remove_core_of = KIE
+			remove_core_of = CHE
+			add_core_of = ZAP
 
 		}
 		1700.1.1 = {
 			owner = RUS
 			add_core_of = RUS
-			remove_core_of = POL
-			remove_core_of = LIT
+			remove_core_of = ZAP
 
 		}
 		1900.1.1 = {
@@ -24,6 +29,14 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+
+		}
+				1919.1.1 = {
+			owner = UKR
+			controller = UKR
+			add_core_of = UKR
+			remove_core_of = RUS
+			remove_core_of = GLL
 
 		}
 		1920.1.1 = {
@@ -44,7 +57,7 @@ state={
 	}
 
 	provinces={
-		9573 11715 13788 13789 13790 
+		6478 9573 11715 13789 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

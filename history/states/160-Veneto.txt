@@ -33,10 +33,6 @@ state={
                 remove_core_of = TTS
                 remove_core_of = LBV
         }
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
-		}
 		victory_points = {
 			11584 20 
 		}
@@ -49,7 +45,7 @@ state={
 		1936.1.1 = {
 					buildings = {
 			infrastructure = 3
-			arms_factory = 5
+			arms_factory = 3
 			industrial_complex = 1
 			dockyard = 2
 			air_base = 3
@@ -62,7 +58,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 3
-			arms_factory = 5
+			arms_factory = 3
 			industrial_complex = 1
 			dockyard = 2
 			11584 = {

@@ -195,7 +195,19 @@ set_popularities = {
 	fascism = 20
 	communism = 5
 }
-
+1936.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1933.5.17"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 75
+	fascism = 20
+	communism = 5
+}
+}
 recruit_character = SAF_j_b_m_hertzog
 recruit_character = SAF_d_f_malan
 recruit_character = SAF_moses_kotane

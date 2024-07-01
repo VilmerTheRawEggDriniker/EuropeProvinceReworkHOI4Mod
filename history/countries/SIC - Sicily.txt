@@ -1,5 +1,12 @@
 ﻿capital = 115
-
+1759.1.1 = {
+recruit_character=SIC_ferdinandi
+promote_character=SIC_ferdinandi
+}
+1826.1.1 = {
+retire_character=SIC_ferdinandi
+}
+set_oob = "SIC_1789"
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

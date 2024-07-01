@@ -1,0 +1,85 @@
+German_historical = {
+	name = "1789 1836 Russian historical plan"
+	desc = "Essentially historical behaviour for 1789 1836 Russia"
+
+	allowed = {
+		original_tag = RUS
+	}
+	enable = {
+				is_historical_focus_on = yes
+		}
+	ai_national_focuses = {
+	russia_1789_1812_focus_18 #1greecesoulite
+	russia_1789_1812_focus_9 #7mykolaiv
+    #1790
+	russia_1789_1812_focus_2 #stagnancyswedenwar
+	#1791
+	russia_1789_1812_focus_10 #foundgreece
+	#1792
+	russia_1789_1812_focus_11 #annexyedisan
+	russia_1789_1812_focus_1 #1792polishwar
+    russia_1789_1812_focus_16 #tiraspolfound
+	#1793
+	#1794
+	russia_1789_1812_focus_8 #foundodessa
+	russia_1789_1812_focus_12 #greecefounding
+	#1795
+	russia_1789_1812_focus_20 #courland
+	#1796
+	#1797
+	#1798
+	#1799
+	#1800
+	russia_1789_1812_focus_3 #annexgeorgia
+	#1801
+	russia_1789_1812_focus_6 #foundkirovplantsaintpetersburg
+	#1802
+	#1803
+	#1804
+	#1805
+	#1806
+	russia_1789_1812_focus_13 #estoniacompanytallinn
+	#1807
+	russia_1789_1812_focus_7 #foundkalashnikovconcern
+	russia_1789_1812_focus_19 #bialystok
+	#1808
+	#1809
+	#1810
+	#1811
+	#1812
+	russia_1789_1812_focus_17 #bessarabiannex
+	#1813
+	#1814
+	#1815
+	#18161835
+	russia_1789_1812_focus_14 #estoniacompanytartu
+	russia_1789_1812_focus_15 #estoniacompanytallinn
+	russia_1789_1812_focus_4 #finlandcompanyhelsinki
+	russia_1789_1812_focus_5 #finlandcompanyhelsinki
+	}
+	ai_strategy = {
+		type = alliance
+		id = "ENG"
+		value = -500
+	}
+	ai_strategy = {
+		type = alliance
+		id = "OTO"
+		value = -500
+	}
+	ai_strategy = {
+		type = alliance
+		id = "PRE"
+		value = -100
+	}
+		ai_strategy = {
+		type = alliance
+		id = "FRA"
+		value = -100
+	}
+	ai_strategy = {
+		type = alliance
+		id = "AUS"
+		value = -500
+	}
+}

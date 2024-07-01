@@ -4,7 +4,22 @@ state={
 	name="STATE_1139"
 
 	history={
-		owner = OTO
+		owner = QAR
+		add_core_of = QAR
+		1500.1.1 = {
+			owner = OTO
+			controller = OTO
+			add_core_of = OTO
+			remove_core_of = ALY
+			remove_core_of = KRM
+			remove_core_of = RAM
+			remove_core_of = CND
+			remove_core_of = DUL
+			remove_core_of = QAR
+			remove_core_of = AGQ
+			remove_core_of = EGY
+
+		}
 		victory_points = {
 			6826 1 
 		}
@@ -17,7 +32,7 @@ state={
 		}
 		add_core_of = IRQ
 		add_core_of = KUR
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = ENG
 			controller = ENG
 			remove_core_of = OTO

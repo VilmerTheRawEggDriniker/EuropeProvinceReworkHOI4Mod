@@ -3,9 +3,6 @@ state={
 	name="STATE_1073"
 	history={
 		owner = ZZZ
-                add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-		}
 		1899.1.1 = {
 		victory_points = {
 			1984 1 

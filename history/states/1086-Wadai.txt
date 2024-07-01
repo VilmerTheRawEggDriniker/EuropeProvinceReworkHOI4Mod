@@ -12,7 +12,7 @@ state={
 		owner = WAD
 	        add_core_of = WAD
                 }
-		1920.1.1 = {
+		1919.1.1 = {
 			owner = FRA
 			controller = FRA
                 add_core_of = CHA

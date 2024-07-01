@@ -1,27 +1,32 @@
+
 state={
 	id=1087
 	name="STATE_1087"
+
 	history={
 		owner = HLL
 		add_core_of = HLL
 		1600.1.1 = {
-		add_core_of = HOL
-		owner = HOL
-		remove_core_of = HLL
-		remove_core_of = FLA
-		remove_core_of = BRB
-		remove_core_of = FRI
-		remove_core_of = GEL
-		remove_core_of = UTR
+			add_core_of = HOL
+			owner = HOL
+			remove_core_of = HLL
+			remove_core_of = FLA
+			remove_core_of = BRB
+			remove_core_of = FRI
+			remove_core_of = GEL
+			remove_core_of = UTR
+
 		}
 		1812.1.1 = {
-		owner=FRA
+			owner = FRA
+
 		}
 		1816.1.1 = {
-		owner = HOL
+			owner = HOL
+
 		}
 		victory_points = {
-			3211 20 
+			3211 25 
 		}
 		victory_points = {
 			9498 20 
@@ -39,7 +44,7 @@ state={
 	}
 
 	provinces={
-		3211 9498 13507 
+		3211 9498 
 	}
 	manpower=2000000
 	buildings_max_level_factor=1.000

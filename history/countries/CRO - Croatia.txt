@@ -1,5 +1,10 @@
-﻿capital = 109
-
+﻿capital = 930
+1500.1.1 = {
+		set_capital = {
+  state = 109
+  remember_old_capital = no
+}
+}
 set_research_slots = 2
 1936.1.1 = {
 oob = "CRO_1936"

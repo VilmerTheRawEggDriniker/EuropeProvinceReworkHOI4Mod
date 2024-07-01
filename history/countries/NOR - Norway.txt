@@ -1,4 +1,22 @@
 ﻿capital = 110
+1444.11.11 = {
+set_party_name = { ideology = neutrality long_name = NOR_WIT_neutrality_party_long name = NOR_WIT_neutrality_party }
+}
+1447.11.11 = {
+set_party_name = { ideology = neutrality long_name = NOR_OLD_neutrality_party_long name = NOR_OLD_neutrality_party }
+}
+1815.1.1 = {
+set_party_name = { ideology = neutrality long_name = NOR_BER_neutrality_party_long name = NOR_BER_neutrality_party }
+}
+1905.1.1 = {
+set_party_name = { ideology = neutrality long_name = NOR_GLU_neutrality_party_long name = NOR_GLU_neutrality_party }
+}
+1816.1.1 = {
+set_cosmetic_tag = NOR_SWE # Sweden Norway
+}
+1905.1.1 = {
+set_cosmetic_tag = NOR # Norway
+}
 1936.1.1 = {
 oob = "NOR_1936"
 if = {
@@ -289,8 +307,17 @@ if = {
 	set_convoys = 400		# 4th biggest merchant marine in the world
 	set_stability = 0.8
 }
-
-
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 36
+	elections_allowed = no
+}
+set_popularities = {
+democratic = 50
+neutrality = 50
+}
+1837.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.10.16"
@@ -302,7 +329,7 @@ set_popularities = {
 	fascism = 2
 	communism = 2
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic

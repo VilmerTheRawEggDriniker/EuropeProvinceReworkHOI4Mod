@@ -6,14 +6,23 @@ state={
 	}
 
 	history={
-		owner = QIN
+		owner = ZZZ
+		1700.1.1 = {
+        owner = QIN
+		add_core_of = MON
+        }
+		1900.1.1 = {
+        owner = QIN
+		remove_core_of = MNG
+        }
 		buildings = {
-			infrastructure = 1
+			infrastructure = 0
 		}
+		1700.1.1 = {
 		victory_points = {
 			7843 1 #Ulaangom
 		}
-		add_core_of = MON
+		}
 		1913.1.1 = {
 			owner = MON
 			controller = MON

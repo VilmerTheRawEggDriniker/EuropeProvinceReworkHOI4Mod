@@ -18,16 +18,12 @@ state={
                 owner = ITA
                 add_core_of = ITA
 		}
-		1920.1.1 = {
+		1919.1.1 = {
                 remove_core_of = SPM
                 remove_core_of = PAP
                 remove_core_of = TOS
                 remove_core_of = TTS
                 remove_core_of = LBV
-		}
-		add_dynamic_modifier = {
-			modifier = large_jewish_community_modifier
-
 		}
 		victory_points = {
 			9904 50 
@@ -49,7 +45,7 @@ state={
 			infrastructure = 4
 			air_base = 8
 			arms_factory = 2
-			industrial_complex = 2
+			industrial_complex = 1
 			11751 = {
 				naval_base = 5
 
@@ -64,7 +60,7 @@ state={
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
-			industrial_complex = 2
+			industrial_complex = 1
 			11751 = {
 				naval_base = 5
 
