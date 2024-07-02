@@ -16,8 +16,8 @@
 	promote_character = AUS_maximilian_i
 }
 1519.1.12 = {
-	recruit_character = AUS_charles_i
-	promote_character = AUS_charles_i
+	recruit_character = AUS_charles_V
+	promote_character = AUS_charles_V
 }
 1521.4.21 = {
 	recruit_character = AUS_ferdinand_i
