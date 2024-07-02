@@ -804,4 +804,13 @@ spriteTypes = {
 		name = "GFX_idea_russian_flag_paris"
 		texturefile = "gfx/interface/ideas/russian_flag_paris.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_ABK_kelesh_ahmed_bey_sharvashidzes"
+		texturefile = "gfx/leaders/ABK/portrait_ABK_kelesh_ahmed_bey_sharvashidzes.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AFG_timur_shah_durrani"
+		texturefile = "gfx/leaders/AFG/portrait_AFG_timur_shah_durrani.dds"
+	}
 }

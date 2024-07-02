@@ -39,6 +39,7 @@ if = {
 	}
 }
 }
+recruit_character = AFG_timur_shah_durrani
 recruit_character = AFG_mohammed_zahir_shah
 recruit_character = AFG_akram_sattari
 recruit_character = AFG_yaqub_khan
