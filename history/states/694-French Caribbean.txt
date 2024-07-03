@@ -28,6 +28,9 @@ state={
 				1789.1.1 = {
         add_core_of = GDL
         }
+						1965.1.1 = {
+                owner = GDL
+                }
 		1764.1.1 = {
 		victory_points = {
 			9377 1

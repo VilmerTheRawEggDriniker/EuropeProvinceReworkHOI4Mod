@@ -26,6 +26,9 @@ state={
 						1789.1.1 = {
         add_core_of = GYA
         }
+						1965.1.1 = {
+                owner = GYA
+                }
 		1613.1.1 = {
 		buildings = {
 			infrastructure = 1

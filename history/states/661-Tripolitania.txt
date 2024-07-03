@@ -25,6 +25,9 @@ state={
 			controller = ITA
 
 		}
+								1945.1.1 = {
+                owner = ENG
+                }
 		1946.1.1 = {
         owner = LBA
 		add_core_of = LBA

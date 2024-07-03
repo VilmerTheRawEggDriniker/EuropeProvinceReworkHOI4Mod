@@ -986,7 +986,6 @@ controls_state = 59
 			850 = { add_core_of = ROOT }
 			693 = { add_core_of = ROOT }
 			1159 = { add_core_of = ROOT }
-			989 = { add_core_of = ROOT }
 			1188 = { add_core_of = ROOT }
 			861 = { add_core_of = ROOT }
 		        846 = { add_core_of = ROOT }

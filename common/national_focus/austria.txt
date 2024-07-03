@@ -434,7 +434,7 @@ allow_branch = { has_start_date > 1789.1.1
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		search_filters = { FOCUS_FILTER_POPE }
+		
 		
 		completion_reward = {
 		}
@@ -917,11 +917,30 @@ allow_branch = { has_start_date > 1789.1.1
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		search_filters = { FOCUS_FILTER_POPE }
+		
 		
 		completion_reward = {
-		}
+			random_other_country = {
+				limit = {
+					original_tag = BEL
+					has_government = democratic
+				}
+	declare_war_on = {
+		target = AUS
+		type = annex_everything
 	}
+	declare_war_on = {
+		target = LIE
+		type = annex_everything
+	}
+			}
+	    set_autonomy = {
+        target = LIE
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	}
+		}
 		focus = {
 		id = austria_1789_1815_first_50_focus_23
 		icon = GFX_
@@ -1006,7 +1025,7 @@ allow_branch = { has_start_date > 1789.1.1
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		search_filters = { FOCUS_FILTER_POPE }
+		
 		
 		completion_reward = {
 		}
@@ -1139,7 +1158,7 @@ allow_branch = { has_start_date > 1789.1.1
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		search_filters = { FOCUS_FILTER_POPE }
+		
 		
 		completion_reward = {
 		}
@@ -1317,7 +1336,7 @@ allow_branch = { has_start_date > 1789.1.1
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		search_filters = { FOCUS_FILTER_ANNEXATION }
-		search_filters = { FOCUS_FILTER_POPE }
+		
 		
 		completion_reward = {
 		}
@@ -1406,7 +1425,7 @@ allow_branch = { has_start_date > 1789.1.1
 		available_if_capitulated = no
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		search_filters = { FOCUS_FILTER_POPE }
+		
 		
 		completion_reward = {
 		}

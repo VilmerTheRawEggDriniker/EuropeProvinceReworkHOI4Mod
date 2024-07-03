@@ -22,7 +22,7 @@ state={
             add_core_of = ROM
             remove_core_of = BUL
 		}
-		1946.1.1 = {
+		1945.1.1 = {
 			owner = BUL
 			controller = BUL
             remove_core_of = ROM

@@ -1,5 +1,4 @@
 ﻿capital = 932
-country_lock_all_division_template = yes
 recruit_character=VND_louisxvii
 promote_character=VND_louisxvii
 # Starting tech

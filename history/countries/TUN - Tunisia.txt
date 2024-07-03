@@ -7,7 +7,6 @@ set_technology = {
 
 set_convoys = 20
 
-recruit_character = TUN_hammuda_ibn_ali
 recruit_character = TUN_acgs
 recruit_character = TUN_acr
 recruit_character = TUN_stc

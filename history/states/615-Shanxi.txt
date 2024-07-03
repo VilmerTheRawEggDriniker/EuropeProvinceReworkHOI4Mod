@@ -51,9 +51,9 @@ state={
 		}
 		}
 		1938.10.25 = {
-			owner = PRC
+			owner = CHI
 			controller = JAP
-			PRC = {
+			CHI = {
 				set_province_controller = 1034
 				set_province_controller = 1531
 				set_province_controller = 4074

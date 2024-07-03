@@ -8,12 +8,6 @@ set_technology = {
 set_convoys = 20
 
 
-1918.12.27 = {
-	set_cosemtic_tag = POS_insurgency
-	recruit_character = POL_ignacy_jan_paderewski
-	promote_character = POL_ignacy_jan_paderewski
-}
-
 1939.1.1 = {
 	
 	#generic focuses

@@ -1,6 +1,11 @@
 ################
 ##### FRA ######
 ################
+division_limit_system = {
+	icon = power_struggle
+	allowed = {
+	}
+}
 HRE_frenchrevolution = {
 	icon = power_struggle
 	allowed = {

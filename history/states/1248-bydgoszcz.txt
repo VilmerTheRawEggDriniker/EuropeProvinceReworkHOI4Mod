@@ -19,6 +19,12 @@ state={
 			owner = POS
 			add_core_of = POS
 		}
+												1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = POL
+		}
 		1849.1.1 = {
 			owner = PRE
 			remove_core_of = POS

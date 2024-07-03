@@ -35,7 +35,7 @@ state={
 			remove_core_of = KEN
 
 		}
-		1946.1.1 = {
+		1945.1.1 = {
 			owner = ENG
 			controller = ENG
 			remove_core_of = ENG

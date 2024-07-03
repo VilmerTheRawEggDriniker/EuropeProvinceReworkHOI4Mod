@@ -25,6 +25,12 @@ state={
 			industrial_complex = 1
 
 		}
+						1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
 		victory_points = {
 			3654 2 
 		}

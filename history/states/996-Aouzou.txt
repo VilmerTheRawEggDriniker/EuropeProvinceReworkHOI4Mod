@@ -28,6 +28,9 @@ state={
 			owner = ITA
 			controller = ITA
            }
+		   				1945.1.1 = {
+                owner = FRA
+                }
 		1946.1.1 = {
                add_core_of = CHA
 			   owner = FRA

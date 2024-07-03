@@ -1,0 +1,703 @@
+division_limit_system = {
+	division_limit_system_one = {
+
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+has_equipment = { infantry_equipment > 9599}
+has_manpower > 100000
+not={has_army_manpower = { size > 95000 }}
+
+if = {
+                    limit = {
+                        original_tag = HUN
+                    }
+                    NOT = { has_idea = HUN_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+					NOT = { has_idea = SLO_nationalism}
+					NOT = { has_idea = CRO_nationalism}
+					NOT = { has_idea = ROM_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = GLL
+                    }
+                    NOT = { has_idea = POL_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BKV
+                    }
+                    NOT = { has_idea = ROM_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BOH
+                    }
+                    NOT = { has_idea = CZE_nationalism}
+                }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+                load_oob = "divisions"
+	    hidden_effect={
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -9600
+    producer = root
+}
+		add_manpower=-100000
+		}
+		}
+	}
+}
+division_limit_system = {
+	division_limit_system_two = {
+
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+has_equipment = { infantry_equipment > 9599}
+has_manpower > 100000
+not={has_army_manpower = { size > 191000 }}
+has_army_manpower = { size > 95000 }
+
+if = {
+                    limit = {
+                        original_tag = HUN
+                    }
+                    NOT = { has_idea = HUN_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+					NOT = { has_idea = SLO_nationalism}
+					NOT = { has_idea = CRO_nationalism}
+					NOT = { has_idea = ROM_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = GLL
+                    }
+                    NOT = { has_idea = POL_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BKV
+                    }
+                    NOT = { has_idea = ROM_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BOH
+                    }
+                    NOT = { has_idea = CZE_nationalism}
+                }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+                load_oob = "divisions"
+	    hidden_effect={
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -9600
+    producer = root
+}
+		add_manpower=-100000
+		}
+		}
+	}
+}
+division_limit_system = {
+	division_limit_system_three = {
+
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+has_equipment = { infantry_equipment > 9599}
+has_manpower > 100000
+not={has_army_manpower = { size > 287000 }}
+has_army_manpower = { size > 191000 }
+
+if = {
+                    limit = {
+                        original_tag = HUN
+                    }
+                    NOT = { has_idea = HUN_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+					NOT = { has_idea = SLO_nationalism}
+					NOT = { has_idea = CRO_nationalism}
+					NOT = { has_idea = ROM_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = GLL
+                    }
+                    NOT = { has_idea = POL_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BKV
+                    }
+                    NOT = { has_idea = ROM_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BOH
+                    }
+                    NOT = { has_idea = CZE_nationalism}
+                }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+                load_oob = "divisions"
+	    hidden_effect={
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -9600
+    producer = root
+}
+		add_manpower=-100000
+		}
+		}
+	}
+}
+division_limit_system = {
+	division_limit_system_four = {
+
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+has_equipment = { infantry_equipment > 9599}
+has_manpower > 100000
+not={has_army_manpower = { size > 383000 }}
+has_army_manpower = { size > 287000 }
+
+if = {
+                    limit = {
+                        original_tag = HUN
+                    }
+                    NOT = { has_idea = HUN_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+					NOT = { has_idea = SLO_nationalism}
+					NOT = { has_idea = CRO_nationalism}
+					NOT = { has_idea = ROM_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = GLL
+                    }
+                    NOT = { has_idea = POL_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BKV
+                    }
+                    NOT = { has_idea = ROM_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BOH
+                    }
+                    NOT = { has_idea = CZE_nationalism}
+                }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+                load_oob = "divisions"
+	    hidden_effect={
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -9600
+    producer = root
+}
+		add_manpower=-100000
+		}
+		}
+	}
+}
+division_limit_system = {
+	division_limit_system_five = {
+
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+has_equipment = { infantry_equipment > 9599}
+has_manpower > 100000
+date > 1800.1.1
+not={has_army_manpower = { size > 479000 }}
+has_army_manpower = { size > 383000 }
+
+if = {
+                    limit = {
+                        original_tag = HUN
+                    }
+                    NOT = { has_idea = HUN_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+					NOT = { has_idea = SLO_nationalism}
+					NOT = { has_idea = CRO_nationalism}
+					NOT = { has_idea = ROM_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = GLL
+                    }
+                    NOT = { has_idea = POL_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BKV
+                    }
+                    NOT = { has_idea = ROM_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BOH
+                    }
+                    NOT = { has_idea = CZE_nationalism}
+                }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+                load_oob = "divisions"
+	    hidden_effect={
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -9600
+    producer = root
+}
+		add_manpower=-100000
+		}
+		}
+	}
+}
+division_limit_system = {
+	division_limit_system_six = {
+
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+has_equipment = { infantry_equipment > 9599}
+has_manpower > 100000
+date > 1800.1.1
+not={has_army_manpower = { size > 575000 }}
+has_army_manpower = { size > 479000 }
+
+if = {
+                    limit = {
+                        original_tag = HUN
+                    }
+                    NOT = { has_idea = HUN_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+					NOT = { has_idea = SLO_nationalism}
+					NOT = { has_idea = CRO_nationalism}
+					NOT = { has_idea = ROM_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = GLL
+                    }
+                    NOT = { has_idea = POL_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BKV
+                    }
+                    NOT = { has_idea = ROM_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BOH
+                    }
+                    NOT = { has_idea = CZE_nationalism}
+                }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+                load_oob = "divisions"
+	    hidden_effect={
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -9600
+    producer = root
+}
+		add_manpower=-100000
+		}
+		}
+	}
+}
+division_limit_system = {
+	division_limit_system_seven = {
+
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+has_equipment = { infantry_equipment > 9599}
+has_manpower > 100000
+date > 1805.1.1
+not={has_army_manpower = { size > 671000 }}
+has_army_manpower = { size > 575000 }
+
+if = {
+                    limit = {
+                        original_tag = HUN
+                    }
+                    NOT = { has_idea = HUN_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+					NOT = { has_idea = SLO_nationalism}
+					NOT = { has_idea = CRO_nationalism}
+					NOT = { has_idea = ROM_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = GLL
+                    }
+                    NOT = { has_idea = POL_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BKV
+                    }
+                    NOT = { has_idea = ROM_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BOH
+                    }
+                    NOT = { has_idea = CZE_nationalism}
+                }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+                load_oob = "divisions"
+	    hidden_effect={
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -9600
+    producer = root
+}
+		add_manpower=-100000
+		}
+		}
+	}
+}
+division_limit_system = {
+	division_limit_system_eight = {
+
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+has_equipment = { infantry_equipment > 9599}
+has_manpower > 100000
+date > 1805.1.1
+not={has_army_manpower = { size > 767000 }}
+has_army_manpower = { size > 671000 }
+
+if = {
+                    limit = {
+                        original_tag = HUN
+                    }
+                    NOT = { has_idea = HUN_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+					NOT = { has_idea = SLO_nationalism}
+					NOT = { has_idea = CRO_nationalism}
+					NOT = { has_idea = ROM_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = GLL
+                    }
+                    NOT = { has_idea = POL_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BKV
+                    }
+                    NOT = { has_idea = ROM_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BOH
+                    }
+                    NOT = { has_idea = CZE_nationalism}
+                }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+                load_oob = "divisions"
+	    hidden_effect={
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -9600
+    producer = root
+}
+		add_manpower=-100000
+		}
+		}
+	}
+}
+division_limit_system = {
+	division_limit_system_nine = {
+
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+has_equipment = { infantry_equipment > 9599}
+has_manpower > 100000
+date > 1810.1.1
+not={has_army_manpower = { size > 863000 }}
+has_army_manpower = { size > 767000 }
+if = {
+                    limit = {
+                        original_tag = HUN
+                    }
+                    NOT = { has_idea = HUN_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+					NOT = { has_idea = SLO_nationalism}
+					NOT = { has_idea = CRO_nationalism}
+					NOT = { has_idea = ROM_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = GLL
+                    }
+                    NOT = { has_idea = POL_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BKV
+                    }
+                    NOT = { has_idea = ROM_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BOH
+                    }
+                    NOT = { has_idea = CZE_nationalism}
+                }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+                load_oob = "divisions"
+	    hidden_effect={
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -9600
+    producer = root
+}
+		add_manpower=-100000
+		}
+		}
+	}
+}
+division_limit_system = {
+	division_limit_system_ten = {
+
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+has_equipment = { infantry_equipment > 9599}
+has_manpower > 100000
+date > 1810.1.1
+not={has_army_manpower = { size > 959000 }}
+has_army_manpower = { size > 863000 }
+if = {
+                    limit = {
+                        original_tag = HUN
+                    }
+                    NOT = { has_idea = HUN_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+					NOT = { has_idea = SLO_nationalism}
+					NOT = { has_idea = CRO_nationalism}
+					NOT = { has_idea = ROM_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = GLL
+                    }
+                    NOT = { has_idea = POL_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BKV
+                    }
+                    NOT = { has_idea = ROM_nationalism}
+					NOT = { has_idea = UKR_nationalism}
+                }
+				if = {
+                    limit = {
+                        original_tag = BOH
+                    }
+                    NOT = { has_idea = CZE_nationalism}
+                }
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+                load_oob = "divisions"
+	    hidden_effect={
+		add_equipment_to_stockpile = {
+    type = infantry_equipment
+    amount = -9600
+    producer = root
+}
+		add_manpower=-100000
+		}
+		}
+	}
+}

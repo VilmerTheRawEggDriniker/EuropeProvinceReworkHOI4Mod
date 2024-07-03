@@ -1,5 +1,4 @@
 ﻿capital = 921
-country_lock_all_division_template = yes
 set_oob = "GEN_1789"
 # Starting tech
 set_technology = {

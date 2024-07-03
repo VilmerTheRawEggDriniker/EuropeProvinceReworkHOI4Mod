@@ -13,19 +13,6 @@ characters = {
 			expire="1797.1.1"
 		}
 }
-	POL_ignacy_jan_paderewski={
-		name=POL_CHARACTER_IGNACY_JAN_PADEREWSKI
-		portraits={
-			civilian={
-				large="GFX_portrait_pol_ignacy_jan_paderewski_large"
-			}
-		}
-		country_leader={
-			ideology=despotism
-			desc = POL_IGNACY_JAN_PADEREWSKI_DESC
-			expire="1941.6.29"
-		}
-	}
 	POL_frederickaugustusipol={
 		name=POL_CHARACTER_FREDERICKAUGUSTUSIPOL
 		portraits={

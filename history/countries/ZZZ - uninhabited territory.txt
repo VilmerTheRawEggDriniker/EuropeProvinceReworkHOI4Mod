@@ -1,5 +1,6 @@
-﻿capital = 543
-
+﻿capital = 713
+country_lock_all_division_template = yes
+set_rule = { can_join_factions = no }
 set_research_slots = 0
 
 # Starting tech

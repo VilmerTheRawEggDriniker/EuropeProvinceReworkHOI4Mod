@@ -12,6 +12,12 @@ state={
 		add_core_of = TTS
 		owner = TTS
 		}
+				1945.1.1 = {
+		controller = ENG
+		}
+		1946.1.1 = {
+		controller = ITA
+		}
 		1871.1.1 = {
                 owner = ITA
                 add_core_of = ITA

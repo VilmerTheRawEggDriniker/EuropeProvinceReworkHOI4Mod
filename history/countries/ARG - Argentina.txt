@@ -88,7 +88,6 @@ IF = {
 		}
 	}
 	recruit_character = ARG_agustin_pedro_justo
-	recruit_character = ARG_roberto_maria_ortiz
 	recruit_character = ARG_ramon_castillo
 	recruit_character = ARG_nimio_de_anquin
 	recruit_character = ARG_marcelo_t_de_alvear
@@ -111,7 +110,6 @@ IF = {
 			has_dlc = "Trial of Allegiance" 
 		}
 		recruit_character = ARG_agustin_pedro_justo
-		recruit_character = ARG_roberto_maria_ortiz
 		recruit_character = ARG_ramon_castillo
 		recruit_character = ARG_nimio_de_anquin
 		recruit_character = ARG_enrique_mosca

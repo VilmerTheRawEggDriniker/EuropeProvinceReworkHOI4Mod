@@ -21,6 +21,9 @@ state={
 			remove_core_of = EGY
 
 		}
+								1945.1.1 = {
+                owner = ENG
+                }
 		victory_points = {
 			1130 5 
 		}

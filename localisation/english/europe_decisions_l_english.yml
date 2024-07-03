@@ -88,3 +88,18 @@ FRA_invade_lucca:0 "Invade Lucca"
 FRA_invade_tuscany:0 "Invade Tuscany"
 FRA_invade_sicily:0 "Invade Sicily"
 FRA_invade_malta:0 "Invade Malta"
+
+division_limit_system:0 "Division Limit System"
+division_limit_system_one:0 "Recruit 12 divisions pt1"
+division_limit_system_two:0 "Recruit 12 divisions pt2"
+division_limit_system_three:0 "Recruit 12 divisions pt3"
+division_limit_system_four:0 "Recruit 12 divisions pt4"
+division_limit_system_five:0 "Recruit 12 divisions pt5"
+division_limit_system_six:0 "Recruit 12 divisions pt6"
+division_limit_system_seven:0 "Recruit 12 divisions pt7"
+division_limit_system_eight:0 "Recruit 12 divisions pt8"
+division_limit_system_nine:0 "Recruit 12 divisions pt9"
+division_limit_system_ten:0 "Recruit 12 divisions pt10"
+
+
+

@@ -27,6 +27,12 @@ state={
 			infrastructure = 2
 
 		}
+						1945.1.1 = {
+		owner = HUN
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
 		victory_points = {
 			6672 2
 		}

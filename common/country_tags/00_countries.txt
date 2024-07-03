@@ -23,6 +23,14 @@ RCR	= "countries/Reichskommissariatcrimea.txt"
 
 MUG = "countries/Mughal Empire.txt" #flagcomplete 
 
+HYD = "countries/Hyderabad.txt" #flagcomplete 
+MYS = "countries/Mysore.txt" #flagcomplete 
+MTH = "countries/Maratha.txt" #flagcomplete 
+AWA = "countries/Awadh.txt" #flagcomplete 
+CTC = "countries/Carnatic.txt" #flagcomplete 
+SKH = "countries/Sikh Empire.txt" #flagcomplete 
+
+
 BNI = "countries/Brunei.txt" #flagcomplete 
 SIN = "countries/Singapore.txt" #flagcomplete 
 MCU = "countries/Macau.txt" #flagcomplete 

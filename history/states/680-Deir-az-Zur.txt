@@ -42,7 +42,7 @@ state={
 			owner = FRA
 			controller = FRA
             }
-		1946.1.1 = {
+		1945.1.1 = {
 			owner = SYR
 			controller = SYR
             remove_core_of = SPR

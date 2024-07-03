@@ -9,6 +9,12 @@ state={
 	history={
 		owner = HRZ
 		add_core_of = HRZ
+								1945.1.1 = {
+		owner = CRO
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
 		1500.1.1 = {
 			owner = OTO
 			controller = OTO

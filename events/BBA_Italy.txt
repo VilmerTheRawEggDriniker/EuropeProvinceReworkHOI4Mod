@@ -10059,92 +10059,7 @@ country_event = {
 		ai_chance = {
 			base = 90
 		}
-
-		effect_tooltip = {
-			if = {
-				limit = {
-					ROOT = {	
-						OR = {		
-							owns_state = 103
-							any_subject_country = {
-								is_ai= yes
-								owns_state = 103
-							}
-						}
-					}
-				}
-				FROM = {
-					transfer_state = 103
-				}
-			}
-			
-			if = {
-				limit = {
-					ROOT = {	
-						OR = {		
-							owns_state = 163
-							any_subject_country = {
-								is_ai= yes
-								owns_state = 163
-							}
-						}
-					}
-				}
-				FROM = {
-					transfer_state = 163
-				}
-			}
-			if = {
-				limit = {
-					ROOT = {	
-						OR = {		
-							owns_state = 852
-							any_subject_country = {
-								is_ai= yes
-								owns_state = 852
-							}
-						}
-					}
-				}
-				FROM = {
-					transfer_state = 852
-				}
-			}
-		}
-
-		ITA = { 
-			country_event = {
-			    id = BBA_italy_interaction_events.9
-			    days = 1
-			    random = 2
-			}
-		}
-	}
-
-	# Hey stop that!
-	option = { 
-		name = BBA_italy_interaction_events.8.b
-		trigger = {
-			NOT = {
-				is_subject_of = FROM
-			}
-		}
-
-		ai_chance = {
-			base = 10
-		}
-
-		ITA = {
-			country_event = {
-			    id = BBA_italy_interaction_events.10
-			    days = 1
-			    random = 2
-			}
-		}
-		hidden_effect = {
-			set_country_flag = ITA_refused_dalmatian_demands
-		}
-	}
+}
 }
 
 # X country accepts our demands
@@ -10160,63 +10075,8 @@ country_event = {
 	option = { 
 		name = BBA_italy_interaction_events.9.a
 
-		if = {
-			limit = {
-				OR = {
-					FROM = {
-						owns_state = 103
-					}
-					FROM = {
-						any_subject_country = {
-							is_ai= yes
-							owns_state = 103
-						}
-					}
-				}
-			}
-			ROOT = {
-				transfer_state = 103
-			}
-		}
-		if = {
-			limit = {
-				OR = {
-					FROM = {
-						owns_state = 163
-					}
-					FROM = {
-						any_subject_country = {
-							is_ai= yes
-							owns_state = 163
-						}
-					}
-				}
-			}
-			ROOT = {
-				transfer_state = 163
-			}
-		}
-		if = {
-			limit = {
-				OR = {
-					FROM = {
-						owns_state = 852
-					}
-					FROM = {
-						any_subject_country = {
-							is_ai= yes
-							owns_state = 852
-						}
-					}
-				}
-			}
-			ROOT = {
-				transfer_state = 852
-			}
-		}	
 	}
 }
-
 # X country rejects our demands
 country_event = {
 	id = BBA_italy_interaction_events.10
@@ -10230,67 +10090,8 @@ country_event = {
 	option = { 
 		name = BBA_italy_interaction_events.10.a
 
-		if = {
-			limit = {
-				ROOT = {
-					NOT = {
-						is_in_faction_with = FROM
-					}
-				}
-			} 
-			if = {
-				limit = {
-					controls_state = 103
-				}
-				ROOT = {
-					create_wargoal = {
-						type = take_state_focus
-						target = FROM
-						generator = { 103 }
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					controls_state = 852
-				}
-				ROOT = {
-					create_wargoal = {
-						type = take_state_focus
-						target = FROM
-						generator = { 852 }
-					}
-				}
-			}
-			else_if = {
-				limit = {
-					controls_state = 163
-				}
-				ROOT = {
-					create_wargoal = {
-						type = take_state_focus
-						target = FROM
-						generator = { 163 }
-					}
-				}
-			}
-		}
-		else = {
-			ROOT = {
-				add_opinion_modifier = {
-					target = FROM
-					modifier = BUL_rejected_our_proposal
-				}
-			}
-		}
-		hidden_effect = {
-			FROM = {
-				clr_country_flag = ITA_sent_dalmatian_demands
-			}
-		}
 	}
 }
-
 # Italy claims the montenegrin throne
 country_event = {
 	id = BBA_italy_interaction_events.11

@@ -17,6 +17,12 @@ state={
 			remove_core_of = TEU
 
 		}
+												1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = POL
+		}
 		1789.1.1 = {
 			owner = PRE
 			add_core_of = PRE

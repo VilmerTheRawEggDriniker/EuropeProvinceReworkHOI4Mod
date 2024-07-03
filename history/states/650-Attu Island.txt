@@ -16,6 +16,9 @@ state={
 						1789.1.1 = {
         add_core_of = BAH
         }
+						1965.1.1 = {
+                owner = BAH
+                }
 		1700.1.1 = {
 		buildings = {
 			infrastructure = 1

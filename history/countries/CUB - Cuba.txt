@@ -1,6 +1,20 @@
 ﻿capital = 315
 
 oob = "CUB_1936"
+1966.1.1 = {
+set_politics = {
+	ruling_party = communism
+	last_election = "1963.9.8"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 41
+	fascism = 1
+	communism = 50
+	neutrality = 8
+}
+}
 
 # Starting tech
 set_technology = {

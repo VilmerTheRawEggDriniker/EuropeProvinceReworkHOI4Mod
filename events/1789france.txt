@@ -105,7 +105,7 @@ fire_only_once = yes
 			start_civil_war = {
 				ruling_party = neutrality
 				ideology = democratic
-				size = 0.5
+				size = 0.6
 				capital = 1171
 				states = {1171 }
 			}
@@ -141,7 +141,7 @@ fire_only_once = yes
 			start_civil_war = {
 				ruling_party = democratic
 				ideology = neutrality
-				size = 0.5
+				size = 0.4
 				capital = 8
 				states = {970 8 851 6 973 978 34 }
 			}
@@ -203,6 +203,9 @@ fire_only_once = yes
 	option = { # 
 		name = "Join the 1st Coalition"
 		ai_chance = { factor = 100 } 
+	AUS = {
+                        add_to_faction = PRE
+}
 			declare_war_on = {
 		target = FRA
 		type = puppet_wargoal_focus
@@ -360,6 +363,50 @@ give_military_access = SPM
 }
 hidden_effect = {
 FRA={set_country_flag = cherasco_flag}
+
+every_country = {
+  white_peace = SPM
+}
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.12
+	title = "Armistice of Cherasco"
+	desc = fra_1789_event.12.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = FRA
+    date > 1789.1.1 date < 1794.4.28
+	has_war_with = SPM
+	SPM = {surrender_progress > 0.5 }
+or={
+	SPM = {surrender_progress > 0.5 }
+	FRA={controls_state = 158}
+	FRA={controls_state = 114}
+}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Armistice of Cherasco"
+		ai_chance = { factor = 100 } 
+FRA={
+transfer_state = 848
+transfer_state = 1030
+transfer_state = 1106
+transfer_state = 981
+transfer_state = 735
+}
+SPM={ leave_faction = yes}
+SPM={
+give_military_access = FRA
+}
+FRA={
+give_military_access = SPM
+}
+hidden_effect = {
+FRA={set_country_flag = cherasco_flag}
 every_country = {
   white_peace = SPM
 }
@@ -378,6 +425,84 @@ original_tag = FRA
 	has_war_with = AUS
     has_war_with = VNT
 	FRA={controls_state = 160}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Treaty of Campo Formio"
+		ai_chance = { factor = 100 } 
+puppet = GEN
+puppet = PRM
+puppet = ITA
+puppet = SAV
+AUS={puppet = VNT}
+
+hidden_effect = {
+ITA={
+transfer_state = 161
+transfer_state = 927
+transfer_state = 1109
+transfer_state = 1102
+transfer_state = 1110
+transfer_state = 1111
+transfer_state = 159
+transfer_state = 1134
+
+add_state_core = 161
+add_state_core = 927
+add_state_core = 1109
+add_state_core = 1102
+add_state_core = 1110
+add_state_core = 1111
+add_state_core = 159
+add_state_core = 1134
+}
+SAV={
+transfer_state = 158
+transfer_state = 922
+transfer_state = 1107
+transfer_state = 1106
+transfer_state = 1030
+transfer_state = 1113
+transfer_state = 848
+transfer_state = 907
+add_state_core = 158
+add_state_core = 922
+add_state_core = 1107
+add_state_core = 1106
+add_state_core = 1030
+add_state_core = 1113
+add_state_core = 848
+add_state_core = 907
+}
+		add_state_core = 1193
+		remove_state_core = 1193
+FRA={set_country_flag = campoformio_flag}
+}
+every_country = {
+  limit = {
+  original_tag=AUS
+  }
+  white_peace = FRA
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.13
+	title = "Treaty of Campo Formio"
+	desc = fra_1789_event.13.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = FRA
+    date > 1789.1.1 date < 1795.10.17
+	has_war_with = AUS
+    has_war_with = VNT
+	FRA={controls_state = 160}
+	or={
+	FRA={controls_state = 4}
+	FRA={controls_state = 109}
+	FRA={controls_state = 9}	
+	}
 }
 fire_only_once = yes
 	option = { # 
@@ -500,5 +625,22 @@ fire_only_once = yes
 				}
 	}
 }
+country_event = {
+	id = fra_1789_event.14
+	title = "Peace Between France and Prussia"
+	desc = fra_1789_event.14.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Peace is in both of our best interests"
+		ai_chance = { factor = 100 } 
+PRE={ leave_faction = yes}
+every_country = {
+  white_peace = PRE
+}
+	}
+}
+
 
 	

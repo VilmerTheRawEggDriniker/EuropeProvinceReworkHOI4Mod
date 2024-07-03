@@ -1,5 +1,4 @@
 ﻿capital = 9
-country_lock_all_division_template = yes
 1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1790.1.1 }

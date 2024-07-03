@@ -10,7 +10,7 @@ state={
  		add_core_of = ERI
 		add_core_of = AFA
 		}
-		1952.1.1 = {
+		1945.1.1 = {
 		      owner = ETH
 			controller = ETH
 

@@ -1,5 +1,4 @@
 ﻿capital = 160
-country_lock_all_division_template = yes
 1800.1.1 = {
 set_cosmetic_tag = BOH_AUS #austrian puppet
 }

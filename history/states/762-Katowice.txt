@@ -21,6 +21,12 @@ state={
                 remove_core_of = BOH
                 remove_core_of = SIL
 		}
+												1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = POL
+		}
 		1871.1.1 = {
                 add_core_of = GER
                 owner = GER

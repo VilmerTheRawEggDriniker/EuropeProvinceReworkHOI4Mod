@@ -1,4 +1,8 @@
 ﻿capital = 219
+2024.1.1 = {
+country_lock_all_division_template = yes
+set_oob = "RUS_2024"
+}
 1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1836.1.1 }
@@ -10,6 +14,67 @@ give_military_access = RUS
 1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1799.1.1 }
+
+MUN={
+give_military_access = AUS
+}
+BTH={
+give_military_access = AUS
+}
+MUN={
+give_military_access = BKV
+}
+BTH={
+give_military_access = BKV
+}
+MUN={
+give_military_access = GLL
+}
+BTH={
+give_military_access = GLL
+}
+MUN={
+give_military_access = HUN
+}
+BTH={
+give_military_access = HUN
+}
+MUN={
+give_military_access = BOH
+}
+BTH={
+give_military_access = BOH
+}
+WRZ={
+give_military_access = AUS
+}
+HOL={
+give_military_access = AUS
+}
+WRZ={
+give_military_access = BKV
+}
+HOL={
+give_military_access = BKV
+}
+WRZ={
+give_military_access = GLL
+}
+HOL={
+give_military_access = GLL
+}
+WRZ={
+give_military_access = HUN
+}
+HOL={
+give_military_access = HUN
+}
+WRZ={
+give_military_access = BOH
+}
+HOL={
+give_military_access = BOH
+}
 AUG={
 give_military_access = AUS
 }

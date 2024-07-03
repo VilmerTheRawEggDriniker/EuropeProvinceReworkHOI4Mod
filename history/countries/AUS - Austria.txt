@@ -1,77 +1,9 @@
 ﻿capital = 4
-
-1440.2.22 = {
-	recruit_character = AUS_ladislaus
-	promote_character = AUS_ladislaus
-}
-1453.1.6 = {
-	set_cosmetic_tag = AUS_archduchy
-}
-1457.11.23 = {
-	recruit_character = AUS_frederick_iii
-	promote_character = AUS_frederick_iii
-}
-1493.8.19 = {
-	recruit_character = AUS_maximilian_i
-	promote_character = AUS_maximilian_i
-}
-1519.1.12 = {
-	recruit_character = AUS_charles_V
-	promote_character = AUS_charles_V
-}
-1521.4.21 = {
-	recruit_character = AUS_ferdinand_i
-	promote_character = AUS_ferdinand_i
-}
-1564.7.25 = {
-	recruit_character = AUS_maximilian_ii
-	promote_character = AUS_maximilian_ii
-}
-1576.10.12 = {
-	recruit_character = AUS_rudolf_ii
-	promote_character = AUS_rudolf_ii
-}
-1608.1.1 = {
-	recruit_character = AUS_matthias
-	promote_character = AUS_matthias
-}
-1619.3.20 = {
-	recruit_character = AUS_ferdinand_ii
-	promote_character = AUS_ferdinand_ii
-}
-1637.2.15 = {
-	recruit_character = AUS_ferdinand_iii
-	promote_character = AUS_ferdinand_iii
-}
-1657.4.2 = {
-	recruit_character = AUS_leopold_i
-	promote_character = AUS_leopold_i
-}
-1705.5.5 = {
-	recruit_character = AUS_joseph_i
-	promote_character = AUS_joseph_i
-}
-1711.4.17 = {
-	recruit_character = AUS_charles_vi
-	promote_character = AUS_charles_vi
-}
 1740.1.1 = {
-	add_ideas = {
-    		aus_extinction_of_the_house_of_habsburg
-    		aus_vulnerable_position
-	}
+add_ideas = {
+    aus_extinction_of_the_house_of_habsburg
+    aus_vulnerable_position
 }
-1740.10.20 = {
-	recruit_character = AUS_maria_theresa
-	promote_character = AUS_maria_theresa
-}
-1740.11.21 = {
-	recruit_character = AUS_francis_i
-	promote_character = AUS_francis_i
-}
-1765.8.18 = {
-	recruit_character=AUS_josephiiaus
-	promote_character=AUS_josephiiaus
 }
 1792.1.1 = {
 remove_ideas = {
@@ -121,81 +53,33 @@ set_oob = "AUS_1812"
 set_oob = "AUS_1836"
 }
 }
-1790.2.20 = {
+1765.1.1 = {
+recruit_character=AUS_josephiiaus
+promote_character=AUS_josephiiaus
+}
+1790.1.1 = {
 recruit_character=AUS_leopoldiiaus
 promote_character=AUS_leopoldiiaus
 retire_character=AUS_josephiiaus
 }
-1792.3.1 = {
+1792.1.1 = {
 recruit_character=AUS_francisiiaus
 promote_character=AUS_francisiiaus
 retire_character=AUS_leopoldiiaus
 }
+1836.1.1 = {
+recruit_character=AUS_ferdinandiaus
+promote_character=AUS_ferdinandiaus
+retire_character=AUS_francisiiaus
+}
+1849.1.1 = {
+retire_character=AUS_ferdinandiaus
+}
 1804.1.1 = {
 set_cosmetic_tag = AUS_empire # austrian empire
 }
-1835.3.2 = {
-	recruit_character=AUS_ferdinandiaus
-	promote_character=AUS_ferdinandiaus
-	retire_character=AUS_francisiiaus
-}
-1848.12.2 = {
-	retire_character=AUS_ferdinandiaus
-	recruit_character=AUS_franz_joseph_i
-	promote_character=AUS_franz_joseph_i
-}
-1916.11.21 = {
-	retire_character=AUS_franz_joseph_i
-	recruit_character=AUS_charles_i
-	promote_character=AUS_charles_i
-}
-1918.11.12 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1911.7.1"
-		election_frequency = 91
-		elections_allowed = yes
-	}
-	set_popularities = {
-		neutrality = 4
-		fascism = 19
-		democratic = 77
-		communism = 0
-	}
-	recruit_character = AUS_karl_renner
-	promote_character = AUS_karl_renner
-	set_cosmetic_tag = AUS_german_austria
-}
-1919.7.10 = {
-	set_cosmetic_tag = AUS
-}
-1920.7.7 = {
-	recruit_character = AUS_michael_mayr
-	promote_character = AUS_michael_mayr
-}
-1921.6.21 = {
-	recruit_character = AUS_johannes_schober
-	promote_character = AUS_johannes_schober
-}
-1922.1.26 = {
-	recruit_character = AUS_walter_breisky
-	promote_character = AUS_walter_breisky
-}
-1922.1.27 = {
-	recruit_character = AUS_johannes_schober
-	promote_character = AUS_johannes_schober
-}
-1922.5.31 = {
-	recruit_character = AUS_ignaz_seipel
-	promote_character = AUS_ignaz_seipel
-}
-1924.11.20 = {
-	recruit_character = AUS_rudolf_ramek
-	promote_character = AUS_rudolf_ramek
-}
-1926.10.20 = {
-	recruit_character = AUS_ignaz_seipel
-	promote_character = AUS_ignaz_seipel
+1936.1.1 = {
+set_cosmetic_tag = AUS # austrian republic
 }
 1936.1.1 = {
 oob = "AUS_1936"
@@ -381,6 +265,12 @@ set_popularities = {
 }
 }
 1946.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1945.11.9"
+	election_frequency = 48
+	elections_allowed = yes
+}
 
 set_popularities = {
 	neutrality = 5

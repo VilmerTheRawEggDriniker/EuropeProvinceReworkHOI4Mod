@@ -65,7 +65,7 @@ focus_tree = {
 
 	focus = {
 		id = russia_1789_1812_focus_1
-		icon = GFX_
+		icon = GFX_goal_polandwarrussia
 		available = { date > 1792.1.1 }
 		available = { date < 1836.1.1 }
 		x = 2
@@ -100,7 +100,7 @@ focus_tree = {
 	}
 		focus = {
 		id = russia_1789_1812_focus_2
-		icon = GFX_
+		icon = GFX_goal_yugoslavia
 		available = { date > 1790.1.1 }
 		available = { date < 1836.1.1 }
 		x = 4
@@ -1036,8 +1036,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		GRE={transfer_state = 185 add_state_core = 185 load_oob = "GRE_1789"}
-        
+        OTO={add_stability=-0.1 add_manpower = -20000}
 		}
 	}
 										focus = {
@@ -1074,7 +1073,7 @@ focus_tree = {
 	}
 										focus = {
 		id = russia_1789_1812_focus_20
-		icon = GFX_
+		icon = GFX_goal_baltics
 		available = { date > 1795.1.1 }
 		available = { date < 1836.1.1 }
 		x = 10
@@ -1109,7 +1108,7 @@ focus_tree = {
 	}
 											focus = {
 		id = russia_1789_1812_focus_31
-		icon = GFX_
+		icon = GFX_goal_polandwarrussia
 		available = { date > 1789.1.1 }
 		available = { date < 1836.1.1 }
 		x = 8
@@ -1157,7 +1156,7 @@ focus_tree = {
 	}
 												focus = {
 		id = russia_1789_1812_focus_32
-		icon = GFX_
+		icon = GFX_goal_polandwarrussia
 		available = { date > 1789.1.1 }
 		available = { date < 1836.1.1 }
 		x = 10

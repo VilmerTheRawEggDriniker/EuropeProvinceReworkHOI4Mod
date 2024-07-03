@@ -25,6 +25,9 @@ state={
 				1900.1.1 = {
 		add_core_of = LBA
 		}
+								1945.1.1 = {
+                owner = ENG
+                }
 		1936.1.1 = {
 				buildings = {
 			infrastructure = 2

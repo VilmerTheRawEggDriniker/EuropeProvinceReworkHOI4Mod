@@ -1,10 +1,4 @@
 ﻿capital = 159
-1789.1.1 = {
-		if = {
-		limit = { has_start_date < 1900.1.1 }
-country_lock_all_division_template = yes
-}
-}
 set_oob = "MIL_1789"
 1740.1.1 = {
 set_cosmetic_tag = MIL_AUS #austrian puppet

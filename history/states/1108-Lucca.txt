@@ -28,6 +28,12 @@ state={
                 remove_core_of = LUC
                 
         }
+        		1945.1.1 = {
+		controller = ENG
+		}
+		1946.1.1 = {
+		controller = ITA
+		}
 		victory_points = {
 			13865 1 
 		}

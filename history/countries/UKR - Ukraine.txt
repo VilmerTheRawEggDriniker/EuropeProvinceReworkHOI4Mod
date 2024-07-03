@@ -5,6 +5,9 @@
 set_oob = "UKR_1919"
 }
 }
+2024.1.1 = {
+set_oob = "UKR_2024"
+}
 set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1

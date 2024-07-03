@@ -19,6 +19,12 @@ state={
         owner = AUS
         add_core_of = AUS
         }
+								1945.1.1 = {
+		owner = CRO
+		}
+		1946.1.1 = {
+		owner = YUG
+		}
 		1900.1.1 = {
                 owner = AUH
 		add_core_of = CRO

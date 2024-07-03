@@ -4,8 +4,11 @@ state={
 	name="STATE_584"
 
 	history={
-		owner = TMS
+		owner = TIM
 		add_core_of = TMS
+				1500.1.1 = {
+                owner = TMS
+                }
 		1900.1.1 = {
                 owner = RUS
                 }

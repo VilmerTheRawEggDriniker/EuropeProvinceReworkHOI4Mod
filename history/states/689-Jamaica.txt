@@ -18,6 +18,9 @@ state={
 			12304 1 
 		}
                 }
+								1965.1.1 = {
+                owner = JAM
+                }
 		1700.1.1 = {
 		buildings = {
 			infrastructure = 1

@@ -10517,8 +10517,23 @@ allow_branch = { has_start_date > 1789.1.1
 		target = AAC
 		type = puppet_wargoal_focus
 	}
+	hidden_effect={
+	AUS = {
+                        add_to_faction = MNZ
+						add_to_faction = PFZ
+						add_to_faction = ZWE
+						add_to_faction = TRR
+						add_to_faction = JUL
+						add_to_faction = BEL
+						add_to_faction = LIE
+						add_to_faction = CLG
+						add_to_faction = SAA
+						add_to_faction = AAC
+
+	}
 		}
 	}
+		}
 		focus = {
 		id = france_1789_1815_first_50_focus_40
 		icon = GFX_goal_generic_allies_build_infantry
@@ -10745,7 +10760,7 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = france_1789_1815_first_50_focus_45
-		icon = GFX_goal_support_communism
+		icon = GFX_goal_internationalclique
 
 		x = 10
 		y = 9
@@ -11277,8 +11292,6 @@ mutually_exclusive = { focus = france_1793_1799_focus_1 }
 		x = 6
 		y = 12
 		prerequisite = {
-		focus =	france_1793_1799_focus_1
-		focus =	france_1793_1799_focus_2
 		}
 		cost = 4.3
 
@@ -11287,7 +11300,10 @@ mutually_exclusive = { focus = france_1793_1799_focus_1 }
 		}
 
 		available = {
-
+or={
+has_completed_focus = france_1793_1799_focus_1
+has_completed_focus = france_1793_1799_focus_2
+}
 		}
 
 		bypass = {
@@ -11882,6 +11898,7 @@ mutually_exclusive = { focus = france_1793_1799_focus_1 }
 		icon = GFX_goal_generic_major_war
 		x = 16
 		y = 18
+		will_lead_to_war_with = HOL
 		prerequisite = {
 		focus =	france_1793_1799_focus_3
 		}
@@ -11906,6 +11923,10 @@ mutually_exclusive = { focus = france_1793_1799_focus_1 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+				declare_war_on = {
+		target = HOL
+		type = puppet_wargoal_focus
+	}
 		}
 	}
 							focus = {
@@ -12032,6 +12053,7 @@ mutually_exclusive = { focus = france_1793_1799_focus_1 }
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+			country_event = fra_1789_event.14
 		}
 	}
 								focus = {

@@ -9,7 +9,7 @@ state={
 			controller = ITA
 		add_core_of = SOM
 		}
-				1946.1.1 = {
+				1945.1.1 = {
 			owner = ENG
 			controller = ENG
 			remove_core_of = ENG

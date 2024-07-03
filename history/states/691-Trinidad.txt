@@ -26,6 +26,9 @@ state={
 			3284 1
 		}
                 }
+								1965.1.1 = {
+                owner = TRI
+                }
 		1600.1.1 = {
 		buildings = {
 			infrastructure = 1

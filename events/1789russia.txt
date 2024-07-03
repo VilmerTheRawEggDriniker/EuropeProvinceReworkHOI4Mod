@@ -133,18 +133,125 @@ every_country = {
 	}
 				country_event = {
 	id = russianempire_1789_1812.7
-	title = ""
+	title = "The treaty of Sistova"
 	desc = russianempire_1789_1812.7.d
 	picture = GFX_idi_amin_india
 	#is_triggered_only = yes
 trigger = {
 original_tag = OTO
-    date > 1791.8.4 date < 1792.1.1 
-	has_war_with = RUS
+    date > 1791.8.4 date < 1793.1.1 
+	has_war_with = AUS
 	OR = {
 	OTO = {surrender_progress > 0.1 }
 	RUS={controls_state = 192}
 	AUS={controls_state = 104}
+	AUS={controls_state = 953}
+	}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Sistova"
+		ai_chance = { factor = 100 } 
+hidden_effect = {
+SER={leave_faction=yes}
+}
+every_country = {
+  limit = {
+  has_war_with = OTO
+	OR = {
+original_tag = AUS
+}
+  }
+  white_peace = OTO
+}
+	}
+
+	}
+					country_event = {
+	id = russianempire_1789_1812.15
+	title = "The treaty of Sistova"
+	desc = russianempire_1789_1812.15.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = OTO
+    date > 1789.1.1 date < 1791.8.4 
+	has_war_with = AUS
+	OR = {
+	OTO = {surrender_progress > 0.25 }
+	AUS = {surrender_progress > 0.25 }
+	}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Treaty of Sistova"
+		ai_chance = { factor = 100 } 
+hidden_effect = {
+SER={leave_faction=yes}
+}
+every_country = {
+  limit = {
+  has_war_with = OTO
+	OR = {
+original_tag = AUS
+}
+  }
+  white_peace = OTO
+}
+	}
+
+	}
+					country_event = {
+	id = russianempire_1789_1812.16
+	title = "The treaty of Jassy"
+	desc = russianempire_1789_1812.16.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = OTO
+    date > 1792.1.9 date < 1793.1.1 
+	has_war_with = RUS
+	OR = {
+	OTO = {surrender_progress > 0.1 }
+	RUS={controls_state = 192}
+	RUS={controls_state = 1204}
+	RUS={controls_state = 1226}
+	}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Treaty of Jassy"
+		ai_chance = { factor = 100 } 
+hidden_effect = {
+SER={leave_faction=yes}
+RUS={set_country_flag = treaty_jassy_flag}
+}
+every_country = {
+  limit = {
+  has_war_with = OTO
+	OR = {
+original_tag = AUS
+original_tag = RUS
+}
+  }
+  white_peace = OTO
+}
+	}
+
+	}
+					country_event = {
+	id = russianempire_1789_1812.17
+	title = "The treaty of Jassy"
+	desc = russianempire_1789_1812.17.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = OTO
+    date > 1789.1.1 date < 1792.1.9
+	has_war_with = RUS
+	OR = {
+	OTO = {surrender_progress > 0.25 }
+	RUS = {surrender_progress > 0.25 }
 	}
 }
 fire_only_once = yes
@@ -170,7 +277,7 @@ original_tag = RUS
 	}
 				country_event = {
 	id = russianempire_1789_1812.8
-	title = ""
+	title = "2nd Partion of Poland"
 	desc = russianempire_1789_1812.8.d
 	picture = GFX_idi_amin_india
 	#is_triggered_only = yes
@@ -201,13 +308,13 @@ every_country = {
 	}
 					country_event = {
 	id = russianempire_1789_1812.9
-	title = ""
+	title = "3rd partion of Poland"
 	desc = russianempire_1789_1812.9.d
 	picture = GFX_idi_amin_india
 	#is_triggered_only = yes
 trigger = {
 original_tag = POL
-    date > 1794.1.1 date < 1795.1.1 
+    date > 1794.1.1 date < 1800.1.1 
 	OR = {
 	POL = {surrender_progress > 0.1 }
 	has_war_with = PRE
@@ -238,10 +345,40 @@ every_country = {
 	#is_triggered_only = yes
 trigger = {
 original_tag = DEN
+
     date > 1789.7.9 date < 1790.1.1 
 	has_war_with = SWE
 	DEN={controls_state = 110}
 	SWE={controls_state = 140}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Peace between Sweden and Denmark"
+		ai_chance = { factor = 100 } 
+hidden_effect = {
+DEN={set_country_flag = denswewhitepeace_flag}
+}
+every_country = {
+  limit = {
+  original_tag=DEN
+  }
+  white_peace = SWE
+}
+	}
+
+	}
+						country_event = {
+	id = russianempire_1789_1812.14
+	title = ""
+	desc = russianempire_1789_1812.14.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = DEN
+
+    date > 1789.1.1 date < 1789.7.9 
+	has_war_with = SWE
+SWE = {surrender_progress > 0.1 }
 }
 fire_only_once = yes
 	option = { # 
@@ -287,6 +424,34 @@ trigger = {
 original_tag = RUS
     date > 1790.8.14 date < 1791.1.1 
 	has_war_with = SWE
+}
+fire_only_once = yes
+	option = { # 
+		name = "Peace between Sweden and Russia"
+		ai_chance = { factor = 100 } 
+hidden_effect = {
+RUS={set_country_flag = russwewhitepeace_flag}
+}
+every_country = {
+  limit = {
+  original_tag=RUS
+  }
+  white_peace = SWE
+}
+	}
+
+	}
+					country_event = {
+	id = russianempire_1789_1812.13
+	title = ""
+	desc = russianempire_1789_1812.13.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = RUS
+    date > 1789.1.11 date < 1790.8.14
+	has_war_with = SWE
+	SWE = {surrender_progress > 0.25 }
 }
 fire_only_once = yes
 	option = { # 

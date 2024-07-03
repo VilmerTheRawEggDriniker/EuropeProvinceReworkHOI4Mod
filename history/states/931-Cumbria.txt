@@ -27,6 +27,12 @@ state={
                 remove_core_of = TTS
                 remove_core_of = LBV
         }
+        		1945.1.1 = {
+		owner = GER
+		}
+		1946.1.1 = {
+		owner = ITA
+		}
 		buildings = {
 			infrastructure = 0
 		}
