@@ -14,6 +14,25 @@ state={
                 add_core_of = AUS
 		}
 		1919.1.1 = {
+			CZE = {
+				set_province_controller = 11414
+				set_province_controller = 14964
+				set_province_controller = 14697
+				set_province_controller = 14964
+				set_province_controller = 14708
+				set_province_controller = 14964
+				set_province_controller = 6470
+				set_province_controller = 3585
+				set_province_controller = 14717
+				set_province_controller = 14710
+				set_province_controller = 3418
+				set_province_controller = 14719
+				set_province_controller = 469
+				set_province_controller = 14722
+				set_province_controller = 11401
+			}
+		}
+		1919.9.10 = {
 			owner = CZE
 			controller = CZE
                         add_core_of = CZE
