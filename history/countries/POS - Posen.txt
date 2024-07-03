@@ -8,6 +8,10 @@ set_technology = {
 set_convoys = 20
 
 
+1918.12.27 = {
+	set_cosemtic_tag = POS_insurgency
+}
+
 1939.1.1 = {
 	
 	#generic focuses
