@@ -80,6 +80,9 @@ set_popularities = {
 		democratic = 77
 		communism = 0
 	}
+	declare_war_on = {
+		target = CZE
+	}
 	recruit_character = AUS_karl_renner
 	promote_character = AUS_karl_renner
 	set_cosmetic_tag = AUS_german_austria
