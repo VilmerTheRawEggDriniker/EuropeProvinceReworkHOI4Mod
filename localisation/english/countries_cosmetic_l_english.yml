@@ -687,6 +687,10 @@
  CRE_crete_DEF:0 "Crete"
  CRE_crete_ADJ:0 "Cretan"
 
+ POS_insurgency_neutrality:0 "Polish insurgents"
+ POS_insurgency_neutrality_DEF:0 "the Polish insurgents"
+ POS_insurgency_neutrality_ADJ:0 "Polish"
+
 
  STR_duchy_fascism:0 "Duchy of Mecklenburg-Strelitz"
  STR_duchy_fascism_DEF:0 "the Duchy of Mecklenburg-Strelitz"
