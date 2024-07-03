@@ -813,4 +813,96 @@ spriteTypes = {
 		name = "GFX_portrait_AFG_timur_shah_durrani"
 		texturefile = "gfx/leaders/AFG/portrait_AFG_timur_shah_durrani.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_pol_ignacy_jan_paderewski_large"
+		texturefile = "gfx/leaders/POL/portrait_pol_ignacy_jan_paderewski_large.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_ladislaus_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_ladislaus.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_frederick_iii_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_frederick_iii.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_maximilian_i_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_maximilian_i.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_charles_v_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_charles_v.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_ferdinand_i_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_ferdinand_i.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_maximilian_ii_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_maximilian_ii.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_rudolf_ii_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_rudolf_ii.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_matthias_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_matthias.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_ferdinand_ii_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_ferdinand_ii.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_ferdinand_iii_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_ferdinand_iii.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_joseph_i_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_joseph_i.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_charles_vi_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_charles_vi.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_maria_theresa_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_maria_theresa.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_francis_i_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_francis_i.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_franz_joseph_i_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_franz_joseph_i.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_charles_i_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_charles_i.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_karl_renner_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_karl_renner.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_michael_mayr_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_michael_mayr.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_johannes_schober_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_johannes_schober.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_ignaz_seipel_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_ignaz_seipel.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_rudolf_ramek_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_rudolf_ramek.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_aus_walter_breisky_large"
+		texturefile = "gfx/leaders/AUS/portrait_aus_walter_breisky.dds"
+	}
 }
