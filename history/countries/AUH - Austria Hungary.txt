@@ -67,16 +67,20 @@ set_popularities = {
 	communism = 15
 	neutrality = 20
 }
-1919.1.1 = {
-set_politics = {
-	ruling_party = democratic
-	last_election = "1918.2.16"
-	election_frequency = 48
-	elections_allowed = yes
-}
-	set_popularities = {
-		democratic = 80
-                neutrality = 10
-		fascism = 10
+1918.11.12 = {
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1911.7.1"
+		election_frequency = 91
+		elections_allowed = yes
 	}
+	set_popularities = {
+		neutrality = 4
+		fascism = 19
+		democratic = 77
+		communism = 0
+	}
+	recruit_character = AUS_karl_renner
+	promote_character = AUS_karl_renner
+	set_cosmetic_tag = AUS_german_austria
 }
