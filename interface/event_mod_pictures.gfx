@@ -905,4 +905,9 @@ spriteTypes = {
 		name = "GFX_portrait_aus_walter_breisky_large"
 		texturefile = "gfx/leaders/AUS/portrait_aus_walter_breisky.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_joseph_franz_auersperg_large"
+		texturefile = "gfx/leaders/AUS/portrait_pas_joseph_franz_auersperg.dds"
+	}
 }

@@ -194,18 +194,6 @@ characters={
 			desc = AUS_FRANZ_JOSEPH_I_DESC
 		}
 	}
-	AUS_franz_joseph_i={
-		name=AUS_CHARACTER_FRANZ_JOSEPH_I
-		portraits={
-			civilian={
-				large="GFX_portrait_aus_franz_joseph_i_large"
-			}
-		}
-		country_leader={
-			ideology=despotism
-			desc = AUS_FRANZ_JOSEPH_I_DESC
-		}
-	}
 	AUS_charles_i={
 		name=AUS_CHARACTER_CHARLES_I
 		portraits={
@@ -356,19 +344,6 @@ characters={
 		}
 		country_leader={
 			ideology=fascism_ideology
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	AUS_karl_renner={
-		name=AUS_karl_renner
-		portraits={
-			civilian={
-				large=GFX_portrait_AUS_karl_renner
-			}
-		}
-		country_leader={
-			ideology=socialism
 			expire="1965.1.1.1"
 			id=-1
 		}

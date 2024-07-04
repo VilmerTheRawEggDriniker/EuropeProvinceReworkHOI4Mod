@@ -1,4 +1,4 @@
-﻿capital = 1187
+capital = 1187
 
 # Starting tech
 set_technology = {
@@ -7,6 +7,10 @@ set_technology = {
 
 set_convoys = 20
 
+1783.5.19 = {
+	recruit_character = PAS_joseph_franz_auersperg
+	promote_character = PAS_joseph_franz_auersperg
+}
 
 1939.1.1 = {
 	
