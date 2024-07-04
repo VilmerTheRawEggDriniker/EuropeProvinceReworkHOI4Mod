@@ -29,6 +29,10 @@ state={
 		buildings = {
 			infrastructure = 2
 		}
+		1919.1.1 = {
+			owner = HUN
+			controller = HUN
+		}
 		1920.1.1 = {
 			owner = AUS
 			controller = AUS

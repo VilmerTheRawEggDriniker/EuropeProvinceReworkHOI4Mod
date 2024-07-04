@@ -16,12 +16,17 @@ state={
                 add_core_of = AUS
 		}
 		1919.1.1 = {
-			owner = CZE
-			controller = CZE
+			owner = AUH
+			controller = AUH
                         add_core_of = CZE
-			remove_core_of = AUH
+			add_claim_by = CZE
                         remove_core_of = BOH
 
+		}
+		1920.7.16 = {
+			owner = CZE
+			controller = CZE
+                        remove_core_of = AUH
 		}
 		1900.1.1 = {
 			owner = AUH
@@ -49,7 +54,7 @@ state={
 			add_core_of = GER
 
 		}
-		1946.1.1 = {
+		1945.1.1 = {
 			owner = CZE
 			controller = CZE
 			add_core_of = CZE

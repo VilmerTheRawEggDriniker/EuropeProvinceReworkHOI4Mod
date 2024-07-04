@@ -1,4 +1,10 @@
-﻿capital = 43
+capital = 43
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1900.1.1 }
+country_lock_all_division_template = yes
+}
+}
 1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1790.1.1 }
@@ -485,5 +491,37 @@ recruit_character = HUN_franz_friedrich
 		democratic = 27
 		fascism = 70
 		communism = 3
+	}
+}
+
+1918.11.16 = {
+	set_cosmetic_tag = HUN_peoples_republic
+	set_politics = {
+		ruling_party = neutrality
+		elections_allowed = no
+	}
+	set_popularities = {
+		neutrality = 100
+	}
+	set_party_name = {
+		ideology = neutrality
+		long_name = HUN_peoples_republic_neutrality_party_long
+		name = HUN_peoples_republic_neutrality_party
+	}
+	recruit_character = 
+}
+
+1919.1.1 = {
+	CZE = {
+		declare_war_on = {
+			target = HUN
+			type = annex_everything
+		}
+	}
+	ROM = {
+		declare_war_on = {
+			target = HUN
+			type = annex_everything
+		}
 	}
 }
