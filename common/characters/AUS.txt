@@ -1,4 +1,295 @@
 characters={
+	AUS_ladislaus={
+		name=AUS_CHARACTER_LADISLAUS
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_ladislaus_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_LADISLAUS_DESC
+			expire="1457.11.23"
+		}
+	}
+	AUS_frederick_iii={
+		name=AUS_CHARACTER_FREDERICK_III
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_frederick_iii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_FREDERICK_III_DESC
+			expire="1493.8.19"
+		}
+	}
+	AUS_maximilian_i={
+		name=AUS_CHARACTER_MAXIMILIAN_I
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_maximilian_i_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_MAXIMILIAN_I_DESC
+			expire="1519.1.12"
+		}
+	}
+	AUS_charles_v={
+		name=AUS_CHARACTER_CHARLES_V
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_charles_v_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_CHARLES_V_DESC
+		}
+	}
+	AUS_ferdinand_i={
+		name=AUS_CHARACTER_FERDINAND_I
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_ferdinand_i_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_FERDINAND_I_DESC
+		}
+	}
+	AUS_maximilian_ii={
+		name=AUS_CHARACTER_MAXIMILIAN_II
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_maximilian_ii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_MAXIMILIAN_II_DESC
+		}
+	}
+	AUS_rudolf_ii={
+		name=AUS_CHARACTER_RUDOLF_II
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_rudolf_ii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_RUDOLF_II_DESC
+		}
+	}
+	AUS_matthias={
+		name=AUS_CHARACTER_MATTHIAS
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_matthias_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_RUDOLF_II_DESC
+		}
+	}
+	AUS_ferdinand_ii={
+		name=AUS_CHARACTER_FERDINAND_II
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_ferdinand_ii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_FERDINAND_II_DESC
+		}
+	}
+	AUS_ferdinand_iii={
+		name=AUS_CHARACTER_FERDINAND_III
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_ferdinand_iii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_FERDINAND_III_DESC
+		}
+	}
+	AUS_leopold_i={
+		name=AUS_CHARACTER_LEOPOLD_I
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_leopold_i_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_LEOPOLD_I_DESC
+		}
+	}
+	AUS_joseph_i={
+		name=AUS_CHARACTER_JOSEPH_I
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_joseph_i_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_JOSEPH_I_DESC
+		}
+	}
+	AUS_charles_vi={
+		name=AUS_CHARACTER_CHARLES_VI
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_charles_vi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_CHARLES_VI_DESC
+		}
+	}
+	AUS_maria_theresa={
+		name=AUS_CHARACTER_MARIA_THERESA
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_maria_theresa_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_MARIA_THERESA_DESC
+		}
+	}
+	AUS_francis_i={
+		name=AUS_CHARACTER_FRANCIS_I
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_francis_i_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_FRANCIS_I_DESC
+		}
+	}
+	AUS_franz_joseph_i={
+		name=AUS_CHARACTER_FRANZ_JOSEPH_I
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_franz_joseph_i_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_FRANZ_JOSEPH_I_DESC
+		}
+	}
+	AUS_franz_joseph_i={
+		name=AUS_CHARACTER_FRANZ_JOSEPH_I
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_franz_joseph_i_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_FRANZ_JOSEPH_I_DESC
+		}
+	}
+	AUS_charles_i={
+		name=AUS_CHARACTER_CHARLES_I
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_charles_i_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = AUS_CHARLES_I_DESC
+		}
+	}
+	AUS_karl_renner={
+		name=AUS_CHARACTER_KARL_RENNER
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_karl_renner_large"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			desc = AUS_KARL_RENNER_DESC
+		}
+	}
+	AUS_michael_mayr={
+		name=AUS_CHARACTER_MICHAEL_MAYR
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_michael_mayr_large"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			desc = AUS_MICHAEL_MAYR_DESC
+		}
+	}
+	AUS_johannes_schober={
+		name=AUS_CHARACTER_JOHANNES_SCHOBER
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_johannes_schober_large"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			desc = AUS_JOHANNES_SCHOBER_DESC
+		}
+	}
+	AUS_ignaz_seipel={
+		name=AUS_CHARACTER_IGNAZ_SEIPEL
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_ignaz_seipel_large"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			desc = AUS_IGNAZ_SEIPEL_DESC
+		}
+	}
+	AUS_rudolf_ramek={
+		name=AUS_CHARACTER_RUDOLF_RAMEK
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_rudolf_ramek_large"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			desc = AUS_RUDOLF_RAMEK_DESC
+		}
+	}
+	AUS_walter_breisky={
+		name=AUS_CHARACTER_WALTER_BREISKY
+		portraits={
+			civilian={
+				large="GFX_portrait_aus_walter_breisky_large"
+			}
+		}
+		country_leader={
+			ideology = conservatism
+			desc = AUS_WALTER_BREISKY_DESC
+		}
+	}
 	AUS_josephiiaus={
 		name=AUS_CHARACTER_JOSEPHIIAUS
 		portraits={
@@ -12,7 +303,7 @@ characters={
 			desc = AUS_JOSEPHIIAUS_DESC
 			expire="1797.1.1"
 		}
-}
+	}
 	AUS_leopoldiiaus={
 		name=AUS_CHARACTER_LEOPOLDIIAUS
 		portraits={
