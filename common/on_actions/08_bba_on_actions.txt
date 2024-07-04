@@ -48,74 +48,176 @@ on_actions = {
 		effect = {
 			# League of Nations Members
 			IF = {
-				limit = {
-					date < 1939.1.1 # don't bother with LoN after 1939
-				}
 				every_country = {
 					limit = {
+						has_start_date < 1939.12.14
 						OR = {
-							### Original Members
-							tag = ARG 
-							tag = BEL
-							tag = BOL
-							tag = ENG
-							tag = AST
-							tag = CAN
-							tag = RAJ
-							tag = NZL
-							tag = SAF
-							tag = CHI
-							tag = COL
-							tag = CUB
-							tag = CZE
-							tag = DEN
-							tag = FRA
-							tag = GRE
-							tag = HAI
-							tag = ITA
-							tag = LIB
-							tag = HOL
-							tag = NOR
-							tag = PAN
-							tag = PER
-							tag = PRU
-							tag = POL
-							tag = POR
-							tag = ROM
-							tag = SIA
-							tag = SPR
-							tag = SWE
-							tag = SWI
-							tag = URU
-							tag = VEN
-							tag = YUG
-							### 1920
-							tag = AUS
-							tag = BUL
-							tag = COS
-							tag = FIN
-							tag = LUX
-							tag = ALB
-							### 1921
-							tag = EST
-							tag = LAT
-							tag = LIT
-							### 1922
-							tag = HUN
-							### 1923
-							tag = IRE
-							tag = ETH
-							### 1924
-							tag = DOM
-							### 1931
-							tag = MEX
-							### 1932
-							tag = TUR
-							tag = IRQ 
-							### 1934
-							tag = SOV
-							tag = AFG
-							tag = ECU 
+							AND = {
+								has_start_date > 1920.1.10
+								OR = {
+									tag = BEL
+									tag = BOL
+									tag = ENG
+									tag = CAN
+									tag = CHI
+									tag = COL
+									tag = CUB
+									tag = CZE
+									tag = DEN
+									tag = FRA
+									tag = GRE
+									tag = GUA
+									tag = HAI
+									tag = HON
+									tag = RAJ
+									tag = LIB
+									tag = HOL
+									tag = NZL
+									tag = NOR
+									tag = PAN
+									tag = PAR
+									tag = PER
+									tag = POL
+									tag = POR
+									tag = YUG
+									tag = SIA
+									tag = SAF
+									tag = SWE
+									tag = SWI
+									tag = URG
+									AND = {
+										has_start_date < 1920.12.4
+										tag = ARG
+									}
+									AND = {
+										has_start_date < 1926.6.14
+										tag = BRA
+									}
+									AND = {
+										has_start_date < 1938.5.14
+										tag = CHL
+									}
+									AND = {
+										has_start_date < 1937.8.11
+										tag = ELS
+									}
+									AND = {
+										has_start_date < 1941.4.18
+										tag = VIC
+									}
+									AND = {
+										has_start_date < 1936.5.26
+										tag = GUA
+									}
+									AND = {
+										has_start_date < 1942.2.16
+										tag = HAI
+									}
+									AND = {
+										has_start_date < 1936.7.10
+										tag = HON
+									}
+									AND = {
+										has_start_date < 1937.12.11
+										tag = ITA
+									}
+									AND = {
+										has_start_date < 1933.3.27
+										tag = JAP
+									}
+									AND = {
+										has_start_date < 1936.6.27
+										tag = NIC
+									}
+									AND = {
+										has_start_date < 1935.2.23
+										tag = PAR
+									}
+									AND = {
+										has_start_date < 1939.4.8
+										tag = PRU
+									}
+									AND = {
+										has_start_date < 1940.7.11
+										tag = ROM
+									}
+									AND = {
+										has_start_date < 1939.5.9
+										tag = SPR
+									}
+									AND = {
+										has_start_date < 1938.7.12
+										tag = VEN
+									}
+								}
+							}
+							AND = {
+								has_start_date > 1920.12.15
+								tag = AUS											}
+							AND = {
+								has_start_date > 1920.12.16
+								OR = {
+									tag = BUL
+									tag = FIN
+									tag = LUX
+									AND = {
+										has_start_date < 1925.1.22
+										tag = COS
+									}
+								}
+							}
+							AND = {
+								has_start_date > 1920.12.17
+								tag = ALB											}
+							AND = {
+								has_start_date > 1921.9.22
+								OR = {
+									tag = EST
+									tag = LAT
+									tag = LIT
+								}
+							}
+							AND = {
+								has_start_date > 1922.9.18
+								has_start_date < 1939.4.11
+								tag = HUN
+							}
+							AND = {
+								has_start_date > 1923.9.10
+								tag = IRE											}
+							AND = {
+								has_start_date > 1923.9.28
+								tag = ETH											}
+							AND = {
+								has_start_date > 1924.9.28
+								tag = DOM											}
+							AND = {
+								has_start_date > 1926.9.8
+								has_start_date < 1933.10.19
+								tag = GER
+							}
+							AND = {
+								has_start_date > 1931.9.9
+								tag = MEX											}
+							AND = {
+								has_start_date > 1932.7.18
+								tag = TUR											}
+							AND = {
+								has_start_date > 1932.10.3
+								tag = IRQ											}
+							AND = {
+								has_start_date > 1934.9.18
+								has_start_date < 1939.12.14
+								tag = SOV											}
+							AND = {
+								has_start_date > 1934.9.27
+								tag = AFG											}
+							AND = {
+								has_start_date > 1934.9.28
+								tag = ECU											}
+							AND = {
+								has_start_date > 1937.5.26
+								tag = EGY											}
 						}
 					}
 					add_ideas = league_of_nations_member_idea
