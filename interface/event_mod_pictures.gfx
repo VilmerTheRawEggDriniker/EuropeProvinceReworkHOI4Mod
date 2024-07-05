@@ -945,14 +945,14 @@ spriteTypes = {
 	}
 	spriteType = {
 		name = "GFX_portrait_MEX_manuel_antonio_florez"
-		texturefile = "gfx/leaders/MEX/portrait_MEX_manuel_antonio_florez"
+		texturefile = "gfx/leaders/MEX/portrait_MEX_manuel_antonio_florez.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_ARG_nicolas_del_campo"
-		texturefile = "gfx/leaders/ARG/portrait_ARG_nicolas_del_campo"
+		texturefile = "gfx/leaders/ARG/portrait_ARG_nicolas_del_campo.dds"
 	}
 	spriteType = {
 		name = "GFX_portrait_COL_antonio_caballero_y_gongora"
-		texturefile = "gfx/leaders/COL/portrait_COL_antonio_caballero_y_gongora"
+		texturefile = "gfx/leaders/COL/portrait_COL_antonio_caballero_y_gongora.dds"
 	}
 }
