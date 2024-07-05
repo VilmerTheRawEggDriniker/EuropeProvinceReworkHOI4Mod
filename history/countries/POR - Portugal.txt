@@ -4,7 +4,7 @@
 		limit = { has_start_date < 1790.01.02 }
 	set_autonomy = {
         target = BRA
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_colony
         freedom_level = 0.4
 	}
 }
@@ -14,7 +14,7 @@
 		limit = { has_start_date < 1801.01.02 }
 	set_autonomy = {
         target = BRA
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_colony
         freedom_level = 0.4
 	}
 }
@@ -24,7 +24,7 @@
 		limit = { has_start_date < 1813.01.02 }
 	set_autonomy = {
         target = BRA
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_colony
         freedom_level = 0.4
 	}
 }

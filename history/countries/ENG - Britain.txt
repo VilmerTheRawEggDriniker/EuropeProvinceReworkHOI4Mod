@@ -25,7 +25,7 @@ promote_character=ENG_stanley_baldwin
 		limit = { has_start_date < 1801.1.1 }
     set_autonomy = {
         target = HAN
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_personal_union
         freedom_level = 0.35
 	}
 }
@@ -35,7 +35,7 @@ promote_character=ENG_stanley_baldwin
 		limit = { has_start_date < 1801.1.1 }
     set_autonomy = {
         target = HAN
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_personal_union
         freedom_level = 0.35
 	}
 }
@@ -45,7 +45,7 @@ promote_character=ENG_stanley_baldwin
 		limit = { has_start_date < 1813.1.1 }
     set_autonomy = {
         target = HAN
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_personal_union
         freedom_level = 0.35
 	}
 }
@@ -55,7 +55,7 @@ promote_character=ENG_stanley_baldwin
 		limit = { has_start_date < 1837.1.1 }
     set_autonomy = {
         target = HAN
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_personal_union
         freedom_level = 0.35
 	}
 }

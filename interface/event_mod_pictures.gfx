@@ -920,4 +920,8 @@ spriteTypes = {
 		name = "GFX_portrait_cze_karel_kramar_large"
 		texturefile = "gfx/leaders/HUN/portrait_CZE_karel_kramar.dds"
 	}
+	spriteType = {
+		name = "GFX_autonomy_hre_subject_icon"
+		textureFile = "gfx/interface/autonomy/autonomy_hre_subject.dds"
+	}
 }
