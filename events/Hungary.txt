@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # Hungarian Events
 ###########################
 
@@ -122,5 +122,85 @@ country_event = {
 		HUN = { transfer_state = 45 }
 		HUN = { transfer_state = 860 }
 		HUN = { transfer_state = 951 }
+	}
+}
+
+country_event = {
+	id = hungary.7
+	title = hungary.7.t
+	desc = hungary.7.d
+	picture = GFX_report_event_karolyi_concedes_ministerial_powers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hungary.7.a
+		create_country_leader = {
+			name = "Dénes Berinkey"
+			picture = GFX_portrait_hun_denes_berinkey_large
+			expire = "1944.6.25"
+			ideology = moderatism
+			traits = {
+			}
+		}
+		political_power_gain = 0.5
+	}
+}
+
+country_event = {
+	id = hungary.8
+	title = hungary.8.t
+	desc = hungary.8.d
+	picture = GFX_report_event_karolyi_concedes_ministerial_powers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = hungary.7.a
+		add_stability = -0.2
+		HUN = {
+			set_state_owner = 946
+		}
+		white_peace = ROM
+		946 = {
+			set_demilitarized_zone = yes
+		}
+	}
+	option = {
+		name = hungary.7.b
+		add_stability = -0.3
+		FRA = {
+			create_wargoal = {
+				type = topple_government
+				target = HUN
+			}
+		}
+	}
+	option = {
+		name = hungary.7.c
+		effect_tooltip = {
+			set_politics = {
+    				ruling_party = democratic
+    				elections_allowed = yes
+			}
+		}
+		hidden_effect = {
+			add_popularity = {
+    				ideology = communism
+    				popularity = party_popularity@democratic
+			}
+			set_politics = {
+    				ruling_party = communism
+    				elections_allowed = no
+			}
+			create_country_leader = {
+				name = "Béla Kun"
+				picture = GFX_portrait_hun_bela_kun_large
+				expire = "1938.8.29"
+				ideology = leninism
+				traits = {
+				}
+			}
+		}
 	}
 }

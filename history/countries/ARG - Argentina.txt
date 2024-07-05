@@ -1,9 +1,13 @@
-﻿capital = 278
+capital = 278
 1444.11.11 = {
 set_cosmetic_tag = ARG_SPR #viceroyalty
 }
 1812.1.1 = {
 set_cosmetic_tag = ARG #independent
+}
+1784.3.7 = {
+`	recruit_character = ARG_nicolas_del_campo
+`	promote_character = ARG_nicolas_del_campo
 }
 1936.1.1 = {
 oob = "ARG_1936"

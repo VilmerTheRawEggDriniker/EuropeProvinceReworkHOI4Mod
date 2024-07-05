@@ -1,6 +1,10 @@
-﻿capital = 306
+capital = 306
 1444.11.11 = {
 set_cosmetic_tag = COL_SPR #viceroyalty
+}
+1782.1.1 = {
+	recruit_character = COL_antonio_caballero_y_gongora
+	promote_character = COL_antonio_caballero_y_gongora
 }
 1812.1.1 = {
 set_cosmetic_tag = COL #independent

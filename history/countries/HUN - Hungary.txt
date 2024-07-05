@@ -508,7 +508,9 @@ recruit_character = HUN_franz_friedrich
 		long_name = HUN_peoples_republic_neutrality_party_long
 		name = HUN_peoples_republic_neutrality_party
 	}
-	recruit_character = 
+	recruit_character = HUN_mihaly_karolyi
+	recruit_character = HUN_denes_berinkey
+	promote_character = HUN_mihaly_karolyi
 }
 
 1919.1.1 = {
@@ -524,4 +526,9 @@ recruit_character = HUN_franz_friedrich
 			type = annex_everything
 		}
 	}
+}
+
+1921.7.26 = {
+	white_peace = CZE
+	white_peace = ROM
 }
