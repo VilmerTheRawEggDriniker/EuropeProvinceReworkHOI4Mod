@@ -6,7 +6,7 @@ country_event = {
 	id = royal_scripting.1
 	title = royal_scripting.1.t
 	desc = royal_scripting.1.d
-	
+	hidden = yes
 	is_triggered_only = yes
 	
 	option = { 
