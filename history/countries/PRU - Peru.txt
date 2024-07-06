@@ -6,6 +6,9 @@ set_cosmetic_tag = PRU_SPR #viceroyalty
 	recruit_character = PRU_teodoro_de_croix
 	promote_character = PRU_teodoro_de_croix
 }
+1790.3.25 = {
+	retire_character = PRU_teodoro_de_croix
+}
 1813.1.1 = {
 set_cosmetic_tag = PRU #independent
 }

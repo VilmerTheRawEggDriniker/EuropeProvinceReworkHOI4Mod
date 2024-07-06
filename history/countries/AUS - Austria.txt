@@ -607,11 +607,9 @@ set_cosmetic_tag = AUS_empire # austrian empire
         retire_character = AUS_johannes_schober
 }
 1922.1.27 = {
-	recruit_character = AUS_johannes_schober
 	promote_character = AUS_johannes_schober
 }
 1922.5.31 = {
-	recruit_character = AUS_ignaz_seipel
 	promote_character = AUS_ignaz_seipel
 }
 1924.11.20 = {
