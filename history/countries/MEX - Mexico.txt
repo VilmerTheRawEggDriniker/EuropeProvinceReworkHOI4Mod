@@ -9,6 +9,9 @@ set_cosmetic_tag = MEX #independent
 	recruit_character = MEX_manuel_antonio_florez
 	promote_character = MEX_manuel_antonio_florez
 }
+1789.10.16 = {
+	retire_character = MEX_manuel_antonio_florez
+}
 1936.1.1 = {
 oob = "MEX_1936"
 if = {
