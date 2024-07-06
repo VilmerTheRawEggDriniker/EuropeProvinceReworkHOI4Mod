@@ -10,5 +10,28 @@ on_actions = {
 				every_country = { add_dynamic_modifier = { modifier = economic_addgold } }
 
 		}
-}
+		effect = {
+			IF = {
+				limit = {
+					always = yes
+				}
+				every_country = {
+					country_event = royal_scripting.1
+				}
+			}
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			IF = {
+				limit = {
+					always = yes
+				}
+				every_country = {
+					country_event = royal_scripting.1
+				}
+			}
+		}
+	}
 }
