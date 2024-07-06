@@ -473,6 +473,8 @@ WAL={
 		type = annex_everything
 	}
 }
+		}
+}
 1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1790.1.1 }
@@ -481,6 +483,8 @@ MOL={
 		target = RUS
 		type = annex_everything
 	}
+}
+		}
 }
 SWE={
 	declare_war_on = {
