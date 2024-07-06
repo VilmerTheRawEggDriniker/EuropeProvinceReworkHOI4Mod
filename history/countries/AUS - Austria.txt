@@ -600,11 +600,9 @@ set_cosmetic_tag = AUS_empire # austrian empire
 	promote_character = AUS_walter_breisky
 }
 1922.1.27 = {
-	recruit_character = AUS_johannes_schober
 	promote_character = AUS_johannes_schober
 }
 1922.5.31 = {
-	recruit_character = AUS_ignaz_seipel
 	promote_character = AUS_ignaz_seipel
 }
 1924.11.20 = {
@@ -749,7 +747,6 @@ set_technology = {
 set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 }
 recruit_character = AUS_kurt_schuschnigg
-recruit_character = AUS_karl_renner
 recruit_character = AUS_arthur_seyss-inquart
 recruit_character = AUS_alfred_klahr
 recruit_character = AUS_karl_eglseer
