@@ -65,7 +65,7 @@ spriteTypes = {
 	}
         spriteType = {
 		name = "GFX_portrait_hol_louisii_large"
-		texturefile = "gfx/leaders/HOL/portrait_louis_large.dds"
+		texturefile = "gfx/leaders/HOL/portrait_louisii_large.dds"
 	}
         spriteType = {
 		name = "GFX_portrait_hol_louisbonaparte_large"

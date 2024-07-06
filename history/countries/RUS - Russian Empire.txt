@@ -5,14 +5,6 @@ set_oob = "RUS_2024"
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1836.1.1 }
-CIR={
-give_military_access = RUS
-}
-}
-}
-1789.1.1 = {
-		if = {
 		limit = { has_start_date < 1799.1.1 }
 
 MUN={
@@ -469,6 +461,24 @@ OTO={
 	}
 	declare_war_on = {
 		target = SER
+		type = annex_everything
+	}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1790.1.1 }
+WAL={
+	declare_war_on = {
+		target = RUS
+		type = annex_everything
+	}
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1790.1.1 }
+MOL={
+	declare_war_on = {
+		target = RUS
 		type = annex_everything
 	}
 }

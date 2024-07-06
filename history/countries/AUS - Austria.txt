@@ -85,10 +85,16 @@ set_autonomy = {
 }    
 
 set_autonomy = {
-	target = GRI
+	target = AAC
 	autonomous_state = autonomy_hre_subject
 	freedom_level = 0.1
-}    
+}   
+
+set_autonomy = {
+	target = LCT
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}   
 
 
 set_autonomy = {
@@ -598,6 +604,7 @@ set_cosmetic_tag = AUS_empire # austrian empire
 1922.1.26 = {
 	recruit_character = AUS_walter_breisky
 	promote_character = AUS_walter_breisky
+        retire_character = AUS_johannes_schober
 }
 1922.1.27 = {
 	recruit_character = AUS_johannes_schober
@@ -610,6 +617,7 @@ set_cosmetic_tag = AUS_empire # austrian empire
 1924.11.20 = {
 	recruit_character = AUS_rudolf_ramek
 	promote_character = AUS_rudolf_ramek
+        retire_character = AUS_ignaz_seipel
 }
 1926.10.20 = {
 	recruit_character = AUS_ignaz_seipel
@@ -749,7 +757,6 @@ set_technology = {
 set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 }
 recruit_character = AUS_kurt_schuschnigg
-recruit_character = AUS_karl_renner
 recruit_character = AUS_arthur_seyss-inquart
 recruit_character = AUS_alfred_klahr
 recruit_character = AUS_karl_eglseer

@@ -13,6 +13,14 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
+	Auersperg = {
+		random = no
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Saxe-Coburg-Gotha = {
 		random = no
 
@@ -78,6 +86,14 @@ leader_traits = {
 		}
 	}
 	Bourbon-Parma = {
+		random = no
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Bourbon-Anjou = {
 		random = no
 
 
