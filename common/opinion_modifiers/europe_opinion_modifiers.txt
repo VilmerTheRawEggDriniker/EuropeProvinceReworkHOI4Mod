@@ -10,11 +10,13 @@
 	same_house = {
 		value = 30
 		max_trust = 30
+		decay = 30
 	}
 
 	same_parent_house = {
 		value = 20
 		max_trust = 20
+		decay = 20
 	}
 
 	HUN_non_revanchism = {
