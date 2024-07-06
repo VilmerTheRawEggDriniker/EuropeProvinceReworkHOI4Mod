@@ -1,0 +1,362 @@
+
+
+add_namespace = royal_scripting
+
+country_event = {
+	id = royal_scripting.1
+	title = royal_scripting.1.t
+	desc = royal_scripting.1.d
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = royal_scripting.1.a
+		if = {
+			limit = {
+				ROOT = {
+					has_country_leader_with_trait = Bourbon
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Bourbon
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Bourbon-Parma
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_leader_with_trait = Bourbon-Parma
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Bourbon-Parma
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Bourbon
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_leader_with_trait = Auersperg
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Auersperg
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_house
+					}
+				}
+			}
+			
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_leader_with_trait = Saxe-Coburg-Gotha
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Saxe-Coburg-Gotha
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_house
+					}
+				}
+			}
+			
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_leader_with_trait = Waldeck-Pyrmont
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Waldeck-Pyrmont
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_house
+					}
+				}
+			}	
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_leader_with_trait = Este
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Este
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Habsburg-Lorraine
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_leader_with_trait = Orange-Nassau
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Orange-Nassau
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau-Usingen
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau-Weilburg
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_leader_with_trait = Nassau
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Orange-Nassau
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau-Usingen
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau-Weilburg
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_leader_with_trait = Nassau-Usingen
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau-Usingen
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Orange-Nassau
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau-Weilburg
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				ROOT = {
+					has_country_leader_with_trait = Nassau-Weilburg
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau-Weilburg
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Orange-Nassau
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau-Usingen
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					has_country_leader_with_trait = Nassau
+				}
+				ROOT = {
+					add_opinion_modifier = {
+						target = PREV
+						modifier = same_parent_house
+					}
+				}
+			}
+		}		
+	}
+}
