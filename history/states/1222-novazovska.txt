@@ -15,6 +15,11 @@ state={
 			infrastructure = 2
 
 		}
+		1804.1.1 = {
+				victory_points = {
+			12340 3 
+		}
+		}
 								1919.1.1 = {
 		owner = DON
 		add_core_of=DON

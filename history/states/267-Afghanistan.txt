@@ -20,6 +20,7 @@ state={
 				}
 		1789.1.1 = {
 		owner = AFG
+		remove_core_of = MUG
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

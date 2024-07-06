@@ -5,9 +5,9 @@ state={
 
 	history={
 		owner = ZZZ
-		1784.1.1 = {
-                add_core_of = RUS
-                owner = RUS
+		1741.1.1 = {
+                add_core_of = ALA
+                owner = ALA
                 }
 		1784.1.1 = {
 		victory_points = {
@@ -52,7 +52,6 @@ state={
 		1867.1.1 = {
                 owner = USA
                 add_core_of = ALA
-                remove_core_of = RUS
                 }
 		1900.1.1 = {
                 owner = USA

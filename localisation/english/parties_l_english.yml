@@ -498,8 +498,8 @@
  MOD_LOR_neutrality_party:0 "House of Habsburg-Este"
  MOD_LOR_neutrality_party_long:0 "House of Habsburg-Este"
 
- HUN_peoples_republic_neutrality_party:0 "F48P"
- HUN_peoples_republic_neutrality_party_long:0 "Party of Independence and '48"
+
+
 
 
 
@@ -602,6 +602,9 @@ POL_PON_neutrality_party_long:1 "House of Poniatowski"
  FLC_democratic_party_long:0 "House of Medici"
  FLC_fascism_party:0 "House of Medici"
  FLC_fascism_party_long:0 "House of Medici"
+
+ TOS_BOU_neutrality_party:0 "House of Bourbon-Parma"
+ TOS_BOU_neutrality_party_long:0 "House of Bourbon-Parma"
  
 
  
@@ -1319,7 +1322,7 @@ POL_PON_neutrality_party_long:1 "House of Poniatowski"
  SIC_neutrality_party:0 "House of Bourbon"
  NAP_neutrality_party:0 "House of Bourbon"
  PRM_neutrality_party:0 "House of Bourbon-Parma"
- LUC_neutrality_party:0 "House of Bourbon"
+ LUC_neutrality_party:0 "House of Bourbon-Parma"
  PRV_neutrality_party:0 "House of Bourbon"
  BUR_neutrality_party:0 "House of Bourbon"
 

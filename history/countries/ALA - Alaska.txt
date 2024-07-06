@@ -1,5 +1,10 @@
 ﻿capital = 463
-
+1444.11.11 = {
+set_cosmetic_tag = ALA_RUS # Russian America
+}
+1960.1.1 = {
+set_cosmetic_tag = ALA # Modern
+}
 
 set_research_slots = 2
 set_stability = 0.75

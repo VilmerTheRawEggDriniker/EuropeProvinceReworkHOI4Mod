@@ -2,6 +2,34 @@ MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
+FIN_RUS = {
+	color = rgb { 23 103 46 }
+	color_ui = rgb { 23 103 46 }
+}
+ALA_RUS = {
+	color = rgb { 23 103 46 }
+	color_ui = rgb { 23 103 46 }
+}
+POL_RUS = {
+	color = rgb { 23 103 46 }
+	color_ui = rgb { 23 103 46 }
+}
+ITA_formable = {
+	color = rgb { 67 127 63 }
+	color_ui = rgb { 87 165 82 }
+}
+GER_formable = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+RUS_formable = {
+	color = rgb { 23 103 46 }
+	color_ui = rgb { 23 103 46 }
+}
+FRA_formable = {
+	color = rgb { 0 85 164 }
+	color_ui = rgb { 74 147 255 }
+}
 LCT_HRE = {
 	color = rgb { 254 204 30 }
 	color_ui = rgb { 254 204 30 }

@@ -153,7 +153,7 @@ industrial_capacity_factory = -0.01
 			removal_cost = -1
 			
 			modifier = {
-weekly_manpower = -100
+weekly_manpower = -25
 army_defence_factor = 0.1
 army_core_attack_factor = 0.1
 training_time_factor = 0.05
@@ -250,6 +250,45 @@ targeted_modifier = {
     tag = FRA
     attack_bonus_against = -0.1
 }
+		}																																										
+fra_cross_the_rhine={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+targeted_modifier = {
+    tag = AUS
+    attack_bonus_against = -0.1
+}
+targeted_modifier = {
+    tag = PRE
+    attack_bonus_against = -0.1
+}
+targeted_modifier = {
+    tag = HOL
+    attack_bonus_against = -0.25
+}
+		}
+																								sorbian_minority={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						conscription = -0.1
+									}
 		}
 	}
 }

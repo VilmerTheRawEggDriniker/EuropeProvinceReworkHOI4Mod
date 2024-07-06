@@ -619,6 +619,25 @@ focus_tree = {
 		remove_state_core = 183
 		remove_state_core = 1149
 		}
+		CND={
+		remove_state_core = 47
+		remove_state_core = 731
+		remove_state_core = 939
+		remove_state_core = 184
+		remove_state_core = 923
+		remove_state_core = 185
+		remove_state_core = 971
+		remove_state_core = 982
+		remove_state_core = 186
+		remove_state_core = 964
+		remove_state_core = 182
+		remove_state_core = 947
+		remove_state_core = 187
+		remove_state_core = 164
+		remove_state_core = 924
+		remove_state_core = 183
+		remove_state_core = 1149
+		}
 		KNI={
 		remove_state_core = 47
 		remove_state_core = 731

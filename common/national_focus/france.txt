@@ -10576,9 +10576,12 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		add_ideas={fra_volunteer_army}
+		add_timed_idea = {
+        idea = fra_volunteer_army
+		days = 1100
 		}
 	}
+		}
 		focus = {
 		id = france_1789_1815_first_50_focus_41
 		icon = GFX_goal_generic_major_war
@@ -11291,6 +11294,8 @@ mutually_exclusive = { focus = france_1793_1799_focus_1 }
 		icon = GFX_goal_generic_neutrality_focus
 		x = 6
 		y = 12
+		allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
 		prerequisite = {
 		}
 		cost = 4.3
@@ -11923,6 +11928,10 @@ has_completed_focus = france_1793_1799_focus_2
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+			add_timed_idea = { idea = fra_cross_the_rhine days = 365 }
+				AUS = {
+                        add_to_faction = HOL
+				}
 				declare_war_on = {
 		target = HOL
 		type = puppet_wargoal_focus
@@ -12071,6 +12080,7 @@ has_completed_focus = france_1793_1799_focus_2
 		}
 
 		available = {
+		HOL={is_puppet_of = root}
 
 		}
 
@@ -12085,6 +12095,8 @@ has_completed_focus = france_1793_1799_focus_2
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+			transfer_state = 984
+			transfer_state = 985
 		}
 	}
 									focus = {
@@ -12195,7 +12207,8 @@ has_completed_focus = france_1793_1799_focus_2
 		}
 
 		available = {
-
+		979 = {is_controlled_by = ROOT }
+        980 = {is_controlled_by = ROOT }
 		}
 
 		bypass = {
@@ -12209,6 +12222,7 @@ has_completed_focus = france_1793_1799_focus_2
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		annex_country = { target = LIE transfer_troops = no }
 		}
 	}
 									focus = {
@@ -12226,7 +12240,14 @@ has_completed_focus = france_1793_1799_focus_2
 		}
 
 		available = {
-
+		8 = {is_controlled_by = ROOT }
+        851 = {is_controlled_by = ROOT }
+		970 = {is_controlled_by = ROOT }
+        6 = {is_controlled_by = ROOT }
+		1171 = {is_controlled_by = ROOT }
+        973 = {is_controlled_by = ROOT }
+		978 = {is_controlled_by = ROOT }
+        34 = {is_controlled_by = ROOT }
 		}
 
 		bypass = {
@@ -12240,6 +12261,7 @@ has_completed_focus = france_1793_1799_focus_2
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		annex_country = { target = BEL transfer_troops = no }
 		}
 	}
 }

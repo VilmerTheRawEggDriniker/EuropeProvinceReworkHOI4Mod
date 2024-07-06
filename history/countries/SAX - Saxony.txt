@@ -1,4 +1,14 @@
 ﻿capital = 65
+1740.1.1 = {
+	add_ideas = {
+    		sorbian_minority
+	}
+}
+1900.1.1 = {
+	remove_ideas = {
+    		sorbian_minority
+	}
+}
 1764.1.1 = {
 recruit_character=SAX_frederickaugustusi
 promote_character=SAX_frederickaugustusi
