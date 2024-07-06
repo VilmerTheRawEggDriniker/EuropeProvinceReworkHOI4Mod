@@ -12,6 +12,18 @@ characters={
 			id=-1
 		}
 	}
+	PRU_teodoro_de_croix {
+		name="Teodoro de Croix"
+		portraits={
+			civilian={
+				large="portrait_PRU_teodoro_de_croix"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1792.1.1.1"
+		}
+	}
 	PRU_sebastián_lynch={
 		name="Sebastián Lynch"
 		portraits={

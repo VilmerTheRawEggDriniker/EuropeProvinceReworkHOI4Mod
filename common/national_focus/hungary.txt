@@ -1,4 +1,4 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -60,6 +60,37 @@ focus_tree = {
 #		}
 #	}
 
+	focus = {
+		id = hungary_1919_focus_1 #A Semi-Presidential Republic
+		available = { }
+		mutually_exclusive = { }
+		x = 7
+		y = 0
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		completion_reward = {
+			country_event = hungary.7
+		}
+	}
+
 	############################
 	##### BALANCED BUDGET ######
 	############################
@@ -69,8 +100,9 @@ focus_tree = {
 		icon = GFX_goal_generic_consumer_goods
 		available = { date > 1936.1.1 }
 		mutually_exclusive = { focus = HUN_economic_intervention }
-		x = -1
-		y = 0
+		x = -8
+		y = 1
+		relative_position_id = HUN_a_semi_presidential_republic
 
 		cost = 10
 
@@ -1176,8 +1208,9 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		available = { date > 1936.1.1 }
 		mutually_exclusive = { focus = HUN_balanced_budget }
-		x = 15
-		y = 0
+		x = 8
+		y = 1
+		relative_position_id = HUN_a_semi_presidential_republic
 
 		cost = 10
 

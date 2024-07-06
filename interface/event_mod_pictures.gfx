@@ -644,6 +644,12 @@ spriteTypes = {
 		name = "GFX_news_event_usa_president_12"
 		texturefile = "gfx/event_pictures/news_event_usa_president_12.dds"
 	}
+
+	spriteType = {
+		name = "GFX_report_event_karolyi_concedes_ministerial_powers"
+		texturefile = "gfx/event_pictures/report_event_karolyi_concedes_ministerial_powers.dds"
+	}
+
         spriteType = {
 		name = "GFX_goal_russian_antisemitism"
 		texturefile = "gfx/interface/goals/goal_russian_antisemitism.dds"
@@ -912,6 +918,14 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_portrait_hun_bela_kun_large"
+		texturefile = "gfx/leaders/HUN/portrait_HUN_bela_kun.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_hun_denes_berinkey_large"
+		texturefile = "gfx/leaders/HUN/portrait_HUN_denes_berinkey.dds"
+	}
+	spriteType = {
 		name = "GFX_portrait_hun_mihaly_karolyi_large"
 		texturefile = "gfx/leaders/HUN/portrait_HUN_mihaly_karolyi.dds"
 	}
@@ -920,8 +934,25 @@ spriteTypes = {
 		name = "GFX_portrait_cze_karel_kramar_large"
 		texturefile = "gfx/leaders/HUN/portrait_CZE_karel_kramar.dds"
 	}
+
 	spriteType = {
 		name = "GFX_autonomy_hre_subject_icon"
 		textureFile = "gfx/interface/autonomy/autonomy_hre_subject.dds"
+	}
+	spriteType = {
+		name = "portrait_PRU_teodoro_de_croix"
+		texturefile = "gfx/leaders/PRU/portrait_PRU_teodoro_de_croix.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_MEX_manuel_antonio_florez"
+		texturefile = "gfx/leaders/MEX/portrait_MEX_manuel_antonio_florez.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_ARG_nicolas_del_campo"
+		texturefile = "gfx/leaders/ARG/portrait_ARG_nicolas_del_campo.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_COL_antonio_caballero_y_gongora"
+		texturefile = "gfx/leaders/COL/portrait_COL_antonio_caballero_y_gongora.dds"
 	}
 }

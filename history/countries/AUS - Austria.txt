@@ -4,7 +4,80 @@ set_autonomy = {
 	target = WRZ
 	autonomous_state = autonomy_hre_subject
 	freedom_level = 0.1
-}    
+}
+
+set_autonomy = {
+	target = REG
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = PAS
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = GOS
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = HBG
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = HLS
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = HLD
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = OSN
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = RIE
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = LIP
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = WLD
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = BAD
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = BRU
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
 set_autonomy = {
 	target = WRZ
 	autonomous_state = autonomy_hre_subject

@@ -1,9 +1,13 @@
-﻿capital = 277
+capital = 277
 1444.11.11 = {
 set_cosmetic_tag = MEX_SPR #viceroyalty
 }
 1813.1.1 = {
 set_cosmetic_tag = MEX #independent
+}
+1787.8.17 = {
+	recruit_character = MEX_manuel_antonio_florez
+	promote_character = MEX_manuel_antonio_florez
 }
 1936.1.1 = {
 oob = "MEX_1936"
