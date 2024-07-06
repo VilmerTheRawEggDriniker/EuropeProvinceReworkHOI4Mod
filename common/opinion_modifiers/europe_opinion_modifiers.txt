@@ -7,6 +7,16 @@
 		decay = 1
 	}
 
+	same_house = {
+		value = 30
+		max_trust = 30
+	}
+
+	same_parent_house = {
+		value = 20
+		max_trust = 20
+	}
+
 	HUN_non_revanchism = {
 		value = 25
 		min_trust = 25
