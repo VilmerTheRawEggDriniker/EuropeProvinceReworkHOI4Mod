@@ -439,6 +439,9 @@ set_popularities = {
 	election_frequency = 48
 	elections_allowed = no
 }
+1919.3.21 = {
+	retire_character = HUN_mihaly_karolyi
+}
 set_popularities = {
 	democratic = 25
 	fascism = 31
@@ -447,6 +450,8 @@ set_popularities = {
 }
 
 #Start Horty as neutral if DOD
+
+1936.1.1 = {
 recruit_character = HUN_matyas_rakosi
 recruit_character = HUN_arpad_szakasits
 recruit_character = HUN_geza_lakatos
@@ -478,7 +483,7 @@ recruit_character = HUN_gusztav_gratz
 recruit_character = HUN_gyula_gombos_de_jakfa
 recruit_character = HUN_otto_von_habsburg
 recruit_character = HUN_franz_friedrich
-
+}
 
 1939.1.1 = {
 	set_politics = {
