@@ -5,7 +5,11 @@ resources = {
 		cic = 0.125
 		convoys = 0.1
 	}
-
+	gold = {
+		icon_frame = 9
+		cic = 1.0
+		convoys = 0.1
+	}
 	wood = {
 		icon_frame = 7
 		cic = 0.125
@@ -16,11 +20,21 @@ resources = {
 		cic = 0.125
 		convoys = 0.1
 	}		
-	gold = {
-		icon_frame = 9
+	steel = {
+		icon_frame = 5
+		cic = 0.125
+		convoys = 0.1
+	}
+	tea = {
+		icon_frame = 10
 		cic = 0.125
 		convoys = 0.1
 	}	
+	slaves = {
+		icon_frame = 11
+		cic = 0.125
+		convoys = 1.0
+	}
 	aluminium = {
 		icon_frame = 2
 		cic = 0.125
@@ -39,11 +53,7 @@ resources = {
 		convoys = 0.1
 	}
 	
-	steel = {
-		icon_frame = 5
-		cic = 0.125
-		convoys = 0.1
-	}
+
 	
 	chromium = {
 		icon_frame = 6
