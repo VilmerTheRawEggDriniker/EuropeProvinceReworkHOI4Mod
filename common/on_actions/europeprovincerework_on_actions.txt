@@ -7,8 +7,6 @@ on_actions = {
 						days = 1622
 					}
 				}
-				every_country = { add_dynamic_modifier = { modifier = economic_addgold } }
-
 		}
 		effect = {
 			IF = {
