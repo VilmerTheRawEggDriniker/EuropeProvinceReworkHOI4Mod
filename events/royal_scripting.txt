@@ -11,6 +11,7 @@ country_event = {
 	
 	option = { 
 		name = royal_scripting.1.a
+		every_country = {
 		if = {
 			limit = {
 				ROOT = {
@@ -357,6 +358,7 @@ country_event = {
 					}
 				}
 			}
+		}
 		}		
 	}
 }
