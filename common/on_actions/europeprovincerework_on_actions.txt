@@ -8,8 +8,7 @@ on_actions = {
 					}
 				}
 				every_country = { add_dynamic_modifier = { modifier = economic_addgold } }
-				every_state	 = { add_dynamic_modifier = { modifier = nocacao } }
-				
+
 		}
 		effect = {
 			IF = {
@@ -27,7 +26,7 @@ on_actions = {
 		effect = {
 			IF = {
 				limit = {
-					always = yes
+					original_tag = ZZZ
 				}
 				every_country = {
 					country_event = royal_scripting.1
