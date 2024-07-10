@@ -1,4 +1,37 @@
-capital = 126
+﻿capital = 126
+1533.1.1 = {
+recruit_character=ENG_elizabethi
+promote_character=ENG_elizabethi
+}
+1603.1.1 = {
+recruit_character=ENG_jamesi
+promote_character=ENG_jamesi
+retire_character=ENG_elizabethi
+}
+1626.1.1 = {
+recruit_character=ENG_charlesi
+promote_character=ENG_charlesi
+retire_character=ENG_jamesi
+}
+1650.1.1 = {
+recruit_character=ENG_charlesii
+promote_character=ENG_charlesii
+retire_character=ENG_charlesi
+}
+1685.1.1 = {
+recruit_character=ENG_jamesii
+promote_character=ENG_jamesii
+retire_character=ENG_charlesii
+}
+1690.1.1 = {
+recruit_character=ENG_kingwilliamoforangeisaslutforbigjewishcock
+promote_character=ENG_kingwilliamoforangeisaslutforbigjewishcock
+retire_character=ENG_jamesii
+}
+1703.1.1 = {
+retire_character=ENG_kingwilliamoforangeisaslutforbigjewishcock
+}
+
 1762.1.1 = {
 recruit_character=ENG_georgeiiieng
 promote_character=ENG_georgeiiieng
@@ -21,6 +54,7 @@ recruit_character=ENG_stanley_baldwin
 promote_character=ENG_stanley_baldwin
 }
 2022.10.25 = {
+retire_character=ENG_stanley_baldwin
 recruit_character=ENG_rishi_sunak
 promote_character=ENG_rishi_sunak
 }

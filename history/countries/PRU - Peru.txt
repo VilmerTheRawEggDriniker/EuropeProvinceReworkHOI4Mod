@@ -6,7 +6,7 @@ set_cosmetic_tag = PRU_SPR #viceroyalty
 	recruit_character = PRU_teodoro_de_croix
 	promote_character = PRU_teodoro_de_croix
 }
-1790.3.25 = {
+1836.1.1 = {
 	retire_character = PRU_teodoro_de_croix
 }
 1813.1.1 = {

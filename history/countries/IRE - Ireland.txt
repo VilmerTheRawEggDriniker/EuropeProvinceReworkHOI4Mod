@@ -1,4 +1,31 @@
 ﻿capital = 113
+1533.1.1 = {
+recruit_character=IRE_elizabethi
+promote_character=IRE_elizabethi
+}
+1603.1.1 = {
+recruit_character=IRE_jamesi
+promote_character=IRE_jamesi
+retire_character=IRE_elizabethi
+}
+1626.1.1 = {
+recruit_character=IRE_charlesi
+promote_character=IRE_charlesi
+retire_character=IRE_jamesi
+}
+1650.1.1 = {
+recruit_character=IRE_charlesii
+promote_character=IRE_charlesii
+retire_character=IRE_charlesi
+}
+1685.1.1 = {
+recruit_character=IRE_jamesii
+promote_character=IRE_jamesii
+retire_character=IRE_charlesii
+}
+1789.1.1 = {
+retire_character=IRE_jamesii
+}
 1938.1.1 = {
 set_cosmetic_tag = IRE_free # 
 }
@@ -90,7 +117,17 @@ recruit_character = IRE_sean_ceallaigh
 		fuel_refining = 1
 	}
 }
-
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+        neutrality = 50
+}
+1936.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.1.24"
@@ -102,7 +139,7 @@ set_popularities = {
 	fascism = 1
 	communism = 1
 }
-
+}
 1939.1.1 = {
 	set_politics = {
 		ruling_party = democratic

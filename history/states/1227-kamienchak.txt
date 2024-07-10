@@ -5,6 +5,9 @@ state={
 	history={
 		owner = CHE
 		add_core_of = CHE
+				victory_points = {
+			12518 2
+		}
 		1600.1.1 = {
 		owner = POL
         add_core_of = ZAP

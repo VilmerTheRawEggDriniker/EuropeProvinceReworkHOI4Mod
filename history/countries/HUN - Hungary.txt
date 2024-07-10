@@ -45,9 +45,6 @@ retire_character=HUN_francisiihun
 1849.1.1 = {
 retire_character=HUN_ferdinandihun
 }
-1920.1.1 = {
-recruit_character=HUN_miklos_horthy
-}
 1945.1.1 = {
 retire_character=HUN_miklos_horthy
 }
@@ -439,9 +436,6 @@ set_popularities = {
 	election_frequency = 48
 	elections_allowed = no
 }
-1919.3.21 = {
-	retire_character = HUN_mihaly_karolyi
-}
 set_popularities = {
 	democratic = 25
 	fascism = 31
@@ -450,8 +444,7 @@ set_popularities = {
 }
 
 #Start Horty as neutral if DOD
-
-1936.1.1 = {
+recruit_character = HUN_miklos_horthy
 recruit_character = HUN_matyas_rakosi
 recruit_character = HUN_arpad_szakasits
 recruit_character = HUN_geza_lakatos
@@ -483,7 +476,7 @@ recruit_character = HUN_gusztav_gratz
 recruit_character = HUN_gyula_gombos_de_jakfa
 recruit_character = HUN_otto_von_habsburg
 recruit_character = HUN_franz_friedrich
-}
+
 
 1939.1.1 = {
 	set_politics = {
@@ -500,6 +493,8 @@ recruit_character = HUN_franz_friedrich
 }
 
 1918.11.16 = {
+			if = {
+		limit = { has_start_date < 1921.1.1 }
 	set_cosmetic_tag = HUN_peoples_republic
 	set_politics = {
 		ruling_party = neutrality
@@ -513,12 +508,11 @@ recruit_character = HUN_franz_friedrich
 		long_name = HUN_peoples_republic_neutrality_party_long
 		name = HUN_peoples_republic_neutrality_party
 	}
-	recruit_character = HUN_mihaly_karolyi
-	recruit_character = HUN_denes_berinkey
-	promote_character = HUN_mihaly_karolyi
 }
-
+}
 1919.1.1 = {
+			if = {
+		limit = { has_start_date < 1921.1.1 }
 	CZE = {
 		declare_war_on = {
 			target = HUN
@@ -532,8 +526,5 @@ recruit_character = HUN_franz_friedrich
 		}
 	}
 }
-
-1921.7.26 = {
-	white_peace = CZE
-	white_peace = ROM
+}
 }

@@ -255,11 +255,10 @@ create_faction = SecondCoalition
 add_to_faction = AUS
 add_to_faction = TOS
 add_to_faction = BAY
-add_to_faction = RUS
 add_to_faction = OTO
 add_to_faction = NAP
 add_to_faction = POR
-add_to_faction = SPM
+add_to_faction = SIC
 add_to_faction = PRM
 add_to_faction = LUC
 }
@@ -272,6 +271,11 @@ ENG={
 }
 	    set_autonomy = {
         target = RHI
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	    set_autonomy = {
+        target = SAV
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
 	}
@@ -297,10 +301,6 @@ ENG={
 	}
 	declare_war_on = {
 		target = ENG
-		type = puppet_wargoal_focus
-	}
-		declare_war_on = {
-		target = RUS
 		type = puppet_wargoal_focus
 	}
 		declare_war_on = {

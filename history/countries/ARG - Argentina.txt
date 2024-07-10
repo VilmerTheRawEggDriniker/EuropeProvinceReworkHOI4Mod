@@ -6,8 +6,11 @@ set_cosmetic_tag = ARG_SPR #viceroyalty
 set_cosmetic_tag = ARG #independent
 }
 1784.3.7 = {
-`	recruit_character = ARG_nicolas_del_campo
-`	promote_character = ARG_nicolas_del_campo
+	recruit_character = ARG_nicolas_del_campo
+	promote_character = ARG_nicolas_del_campo
+}
+1836.1.1 = {
+	retire_character = ARG_nicolas_del_campo
 }
 1936.1.1 = {
 oob = "ARG_1936"

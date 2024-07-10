@@ -1,5 +1,8 @@
 ﻿capital = 4
 #HRE
+1788.1.1 = {
+			if = {
+		limit = { has_start_date < 1790.01.01 }
 set_autonomy = {
 	target = WRZ
 	autonomous_state = autonomy_hre_subject
@@ -423,6 +426,8 @@ set_autonomy = {
 	target = BTH
 	autonomous_state = autonomy_hre_subject
 	freedom_level = 0.1
+}
+}
 }    
 1440.2.22 = {
 	recruit_character = AUS_ladislaus
@@ -517,7 +522,7 @@ remove_ideas = {
 		if = {
 		limit = { has_start_date < 1790.1.1 }
 AUS={
-create_faction = FirstCoalition
+create_faction = HolyRomanEmpireoftheGermanNation
 }
 }
 }
@@ -607,9 +612,11 @@ set_cosmetic_tag = AUS_empire # austrian empire
         retire_character = AUS_johannes_schober
 }
 1922.1.27 = {
+	recruit_character = AUS_johannes_schober
 	promote_character = AUS_johannes_schober
 }
 1922.5.31 = {
+	recruit_character = AUS_ignaz_seipel
 	promote_character = AUS_ignaz_seipel
 }
 1924.11.20 = {

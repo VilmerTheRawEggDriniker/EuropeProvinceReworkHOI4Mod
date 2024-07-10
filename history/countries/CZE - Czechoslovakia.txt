@@ -1,9 +1,4 @@
 capital = 9
-1918.11.14 = {
-	recruit_character = CZE_karel_kramar
-	promote_character = CZE_karel_kramar
-}
-
 1936.1.1 = {
 if = {
 	limit = {

@@ -6,6 +6,9 @@ set_cosmetic_tag = COL_SPR #viceroyalty
 	recruit_character = COL_antonio_caballero_y_gongora
 	promote_character = COL_antonio_caballero_y_gongora
 }
+1836.1.1 = {
+	retire_character = COL_antonio_caballero_y_gongora
+}
 1812.1.1 = {
 set_cosmetic_tag = COL #independent
 }

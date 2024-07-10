@@ -12,11 +12,11 @@ characters={
 			id=-1
 		}
 	}
-	PRU_teodoro_de_croix {
+	PRU_teodoro_de_croix={
 		name="Teodoro de Croix"
 		portraits={
 			civilian={
-				large="portrait_PRU_teodoro_de_croix"
+				large="GFX_portrait_PRU_teodoro_de_croix"
 			}
 		}
 		country_leader={

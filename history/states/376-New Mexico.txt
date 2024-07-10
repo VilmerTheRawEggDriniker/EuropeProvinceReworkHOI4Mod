@@ -30,7 +30,7 @@ state={
                 }
 		buildings = {
 			infrastructure = 0
-			plantation_cacao = 3
+
 		}
 	}
 

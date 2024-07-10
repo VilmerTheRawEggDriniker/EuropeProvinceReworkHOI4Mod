@@ -121,31 +121,17 @@ characters={
 		}
 	}
 
-	HUN_otto_von_habsburg={
-		name=HUN_otto_von_habsburg
+	HUN_matyas_rakosi={
+		name=HUN_matyas_rakosi
 		portraits={
 			civilian={
-				large="GFX_Portrait_hungary_otto_von_hapsburg"
+				large="GFX_Portrait_hungary_matyas_rakosi"
 			}
 		}
 		country_leader={
-			ideology=despotism
-			traits={  }
+			ideology=stalinism
 			expire="1965.1.1.1"
 			id=-1
-		}
-	}
-
-	HUN_mihaly_karolyi={
-		name=HUN_CHARACTER_MIHALY_KAROLYI
-		portraits={
-			civilian={
-				large="GFX_portrait_hun_mihaly_karolyi_large"
-			}
-		}
-		country_leader={
-			ideology=moderatism
-			expire="1955.3.19.1"
 		}
 	}
 

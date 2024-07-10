@@ -1,6 +1,6 @@
 characters={
 	ISR_benjamin_netanyahu={
-		name=LIE_CHARACTER_CESAR
+		name="Benjamin Netanyahu"
 		portraits={
 			civilian={
 				large="GFX_portrait_isr_benjamin_netanyahu"

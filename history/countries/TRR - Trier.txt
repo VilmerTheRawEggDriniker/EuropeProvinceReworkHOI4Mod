@@ -1,4 +1,11 @@
 ﻿capital = 42
+1740.1.1 = {
+recruit_character=TRR_clemenswenceslaus
+promote_character=TRR_clemenswenceslaus
+}
+1813.1.1 = {
+retire_character=TRR_clemenswenceslaus
+}
 1800.1.1 = {
 capital = 877
 }

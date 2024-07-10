@@ -1,4 +1,16 @@
 ﻿capital = 1239
+1777.1.1 = {
+recruit_character=ZWE_charlesiiaugust
+promote_character=ZWE_charlesiiaugust
+}
+1800.1.1 = {
+recruit_character=ZWE_maximilianijoseph
+promote_character=ZWE_maximilianijoseph
+retire_character=ZWE_charlesiiaugust
+}
+1825.1.1 = {
+retire_character=ZWE_maximilianijoseph
+}
 1460.1.1 = {
 set_cosmetic_tag = ZWE_duchy # 
 }

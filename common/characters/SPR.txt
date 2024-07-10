@@ -8,7 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={Bourbon}
+			traits={Bourbon-Anjou}
 			desc = SPR_CHARLESIV_DESC
 			expire="1797.1.1"
 		}
@@ -22,7 +22,7 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={Bourbon}
+			traits={Bourbon-Anjou}
 			desc = SPR_FERDINANDVII_DESC
 			expire="1797.1.1"
 		}
@@ -36,7 +36,7 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-			traits={Bourbon}
+			traits={Bourbon-Anjou}
 			desc = SPR_ISABELLAII_DESC
 			expire="1797.1.1"
 		}

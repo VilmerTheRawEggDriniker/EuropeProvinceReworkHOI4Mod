@@ -1,4 +1,15 @@
 characters={
+	USA_joe_biden={
+		name="Joe Biden"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_joe_biden
+			}
+		}
+		country_leader={
+			ideology=liberalism
+		}
+	}
 	USA_georgewashington={
 		name=USA_CHARACTER_GEORGEWASHINGTON
 		portraits={
@@ -102,17 +113,6 @@ characters={
 			traits={ dislikes_germany }
 			expire="1947.1.1.1"
 			id=-1
-		}
-	}
-	USA_joe_biden={
-		name="Joe Biden"
-		portraits={
-			civilian={
-				large=GFX_portrait_USA_joe_biden
-			}
-		}
-		country_leader={
-			ideology=liberalism
 		}
 	}
 

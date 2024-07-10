@@ -1,4 +1,16 @@
 ﻿capital = 880
+1777.1.1 = {
+recruit_character=PFZ_charlestheodore
+promote_character=PFZ_charlestheodore
+}
+1800.1.1 = {
+recruit_character=PFZ_maximilianijoseph
+promote_character=PFZ_maximilianijoseph
+retire_character=PFZ_charlestheodore
+}
+1825.1.1 = {
+retire_character=PFZ_maximilianijoseph
+}
 1800.1.1 = {
 		set_capital = {
   state = 1162

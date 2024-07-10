@@ -21,6 +21,22 @@ leader_traits = {
 			factor = 1
 		}
 	}
+	Stuart = {
+		random = no
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Tudor = {
+		random = no
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Saxe-Coburg-Gotha = {
 		random = no
 
@@ -11154,7 +11170,6 @@ leader_traits = {
 			}
 		}
 	}
-
 	Antisemite = { 
 		sprite = 5
 		targeted_modifier = {

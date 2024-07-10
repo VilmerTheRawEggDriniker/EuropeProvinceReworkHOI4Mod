@@ -80,11 +80,11 @@ set_popularities = {
 		democratic = 77
 		communism = 0
 	}
-	recruit_character = AUS_karl_renner
-	promote_character = AUS_karl_renner
 	set_cosmetic_tag = AUS_german_austria
 }
 1919.1.1 = {
+			if = {
+		limit = { has_start_date < 1920.1.1 }
 	CZE = {
 		declare_war_on = {
 			target = AUH
@@ -92,3 +92,5 @@ set_popularities = {
 		}
 	}
 }
+}
+

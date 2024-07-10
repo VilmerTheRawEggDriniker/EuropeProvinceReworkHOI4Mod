@@ -1,4 +1,11 @@
 ﻿capital = 1087
+1690.1.1 = {
+recruit_character=HOL_kingwilliamoforangeisaslutforbigjewishcock
+promote_character=HOL_kingwilliamoforangeisaslutforbigjewishcock
+}
+1703.1.1 = {
+retire_character=HOL_kingwilliamoforangeisaslutforbigjewishcock
+}
 1750.1.1 = {
 recruit_character=HOL_williamv
 promote_character=HOL_williamv
@@ -168,10 +175,11 @@ if = {
 }
 
 set_variable = { var = gateway_to_europe_influence_pp_total value = 0 }
+1936.1.1 = {
 add_ideas = {
 	HOL_wilhelmina
 }
-
+}
 if = {
 	limit = {
 		has_dlc = "Man the Guns"

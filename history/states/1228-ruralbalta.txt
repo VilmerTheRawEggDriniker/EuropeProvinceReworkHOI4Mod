@@ -22,7 +22,6 @@ state={
 
 		}
 		1789.1.1 = {
-			add_core_of = RUS
 			owner = OTO
 			remove_core_of = POL
 			remove_core_of = CRI

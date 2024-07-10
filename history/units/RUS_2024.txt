@@ -46,7 +46,7 @@ units = {
 	#Russian Army
 	division = {
 		name = "Russian Division"
-		location = 12329
+		location = 11700
 		division_template = "Russian Division"
 		start_experience_factor = 0.3
 	}

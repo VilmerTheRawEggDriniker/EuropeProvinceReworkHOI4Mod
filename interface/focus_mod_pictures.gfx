@@ -1,0 +1,22 @@
+spriteTypes = {
+        spriteType = {
+		name = "GFX_goal_jews_enslaving_ukraine"
+		texturefile = "gfx/interface/goals/goal_jews_enslaving_ukraine.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_yugoslavia"
+		texturefile = "gfx/interface/goals/goal_yugoslavia.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_baltics"
+		texturefile = "gfx/interface/goals/goal_baltics.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_polandwarrussia"
+		texturefile = "gfx/interface/goals/goal_polandwarrussia.dds"
+	}
+        spriteType = {
+		name = "GFX_goal_internationalclique"
+		texturefile = "gfx/interface/goals/goal_internationalclique.dds"
+	}
+}

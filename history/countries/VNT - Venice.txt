@@ -5,9 +5,19 @@ set_cosmetic_tag = BOH_AUS #austrian puppet
 1805.1.1 = {
 set_cosmetic_tag = BOH #independent
 }
+1789.1.1 = {
+recruit_character=VNT_paolorenier
+promote_character=VNT_paolorenier
+}
+1790.1.1 = {
+recruit_character=VNT_lodovicomanin
+promote_character=VNT_lodovicomanin
+retire_character=VNT_paolorenier
+}
 1797.1.1 = {
 recruit_character=VNT_francisiivnt
 promote_character=VNT_francisiivnt
+retire_character=VNT_lodovicomanin
 }
 1836.1.1 = {
 recruit_character=VNT_ferdinandivnt

@@ -1,4 +1,18 @@
 characters={
+	HOL_kingwilliamoforangeisaslutforbigjewishcock={
+		name=HOL_CHARACTER_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK
+		portraits={
+			civilian={
+				large="GFX_portrait_hol_kingwilliamoforangeisaslutforbigjewishcock_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Orange-Nassau}
+			desc = HOL_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK_DESC
+			expire="1797.1.1"
+		}
+}
 	HOL_williamv={
 		name=HOL_CHARACTER_WILLIAMV
 		portraits={

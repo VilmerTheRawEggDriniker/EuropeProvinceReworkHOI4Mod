@@ -1,5 +1,31 @@
 ﻿capital = 121
-
+1567.1.1 = {
+recruit_character=SCO_jamesi
+promote_character=SCO_jamesi
+}
+1626.1.1 = {
+recruit_character=SCO_charlesi
+promote_character=SCO_charlesi
+retire_character=SCO_jamesi
+}
+1650.1.1 = {
+recruit_character=SCO_charlesii
+promote_character=SCO_charlesii
+retire_character=SCO_charlesi
+}
+1685.1.1 = {
+recruit_character=SCO_jamesii
+promote_character=SCO_jamesii
+retire_character=SCO_charlesii
+}
+1690.1.1 = {
+recruit_character=SCO_kingwilliamoforangeisaslutforbigjewishcock
+promote_character=SCO_kingwilliamoforangeisaslutforbigjewishcock
+retire_character=SCO_jamesii
+}
+1703.1.1 = {
+retire_character=SCO_kingwilliamoforangeisaslutforbigjewishcock
+}
 #oob = ""
 
 # Starting tech
@@ -85,7 +111,17 @@ set_party_name = { ideology = neutrality long_name = SCO_ORA_neutrality_party_lo
 1707.1.1 = {
 set_party_name = { ideology = neutrality long_name = SCO_STU_neutrality_party_long name = SCO_STU_neutrality_party }
 }
-
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+        neutrality = 50
+}
+1936.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.1"
@@ -97,7 +133,7 @@ set_popularities = {
 	fascism = 3
 	communism = 4
 }
-
+}
 #create_country_leader = {
 #	
 #	name = "Jonas Lote"

@@ -1,4 +1,4 @@
-capital = 768
+﻿capital = 768
 
 # Starting tech
 set_technology = {
@@ -73,7 +73,6 @@ recruit_character = RWA_mt
 		dispersed_industry2 = 1
 	}
 }
-
 2001.10.25 = {
 	set_cosmetic_tag = RWA_2001
 }

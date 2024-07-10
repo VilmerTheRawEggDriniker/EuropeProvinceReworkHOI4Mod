@@ -23,8 +23,14 @@ retire_character=SWE_charlesxivjohn
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1813.1.1 }
-set_oob = "SWE_1789_1815"
+		limit = { has_start_date < 1800.1.1 }
+set_oob = "SWE_1789"
+}
+}
+1800.1.1 = {
+		if = {
+		limit = { has_start_date < 1836.1.1 }
+set_oob = "SWE_1800"
 }
 }
 1816.1.1 = {
