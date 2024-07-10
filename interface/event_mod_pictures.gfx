@@ -955,4 +955,38 @@ spriteTypes = {
 		name = "GFX_portrait_COL_antonio_caballero_y_gongora"
 		texturefile = "gfx/leaders/COL/portrait_COL_antonio_caballero_y_gongora.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_ham_yahya_sinwar_large"
+		texturefile = "gfx/leaders/HAM/portrait_ham_yahya_sinwar.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_isr_benjamin_netanyahu"
+		texturefile = "gfx/leaders/ISR/portrait_isr_benjamin_netanyahu.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_USA_joe_biden"
+		texturefile = "gfx/leaders/USA/portrait_usa_joe_biden.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_per_mohammad_mokhber_large"
+		texturefile = "gfx/leaders/PER/portrait_per_mohammad_mokhber.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_ENG_rishi_sunak"
+		texturefile = "gfx/leaders/ENG/portrait_eng_rishi_sunak.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_HAM_mohammed_deif"
+		texturefile = "gfx/interface/ideas/portrait_ham_mohammed_dief.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_HAM_yunis_al_astal"
+		texturefile = "gfx/interface/ideas/portrait_ham_yunis_al_astal.dds"
+	}
 }

@@ -1,0 +1,54 @@
+characters={
+	HAM_yahya_sinwar{
+		name="Yahya Sinwar"
+		portraits={
+			civilian={
+				large="GFX_portrait_ham_yahya_sinwar_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2055.1.1"
+		}
+	}
+
+	HAM_mohammed_deif{
+		name = "Mohammed Deif"
+		portraits = {
+			army={
+				small="GFX_idea_HAM_mohammed_deif"
+			}
+		}
+		advisor={
+			slot = army_chief
+			idea_token = mohammed_deif
+			allowed = {
+				original_tag = HAM
+			}
+			traits = {
+				army_chief_morale_1
+			}
+			cost = 150
+		}
+	}
+
+	HAM_yunis_al_astal{
+		name = "Yunis Al Astal"
+		portraits = {
+			army={
+				small="GFX_idea_HAM_yunis_al_astal"
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = yunis_al_astal
+			allowed = {
+				original_tag = HAM
+			}
+			traits = {
+				Antisemite
+			}
+			cost = 150
+		}		
+	}
+}

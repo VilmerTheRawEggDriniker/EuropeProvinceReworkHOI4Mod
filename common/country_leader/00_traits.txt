@@ -11154,4 +11154,12 @@ leader_traits = {
 			}
 		}
 	}
+
+	Antisemite = { 
+		sprite = 5
+		targeted_modifier = {
+    			original_tag = ISR
+    			attack_bonus_against = -0.1
+		}
+	}
 }

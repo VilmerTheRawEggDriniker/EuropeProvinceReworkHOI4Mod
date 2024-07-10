@@ -1,0 +1,14 @@
+characters={
+	ISR_benjamin_netanyahu={
+		name=LIE_CHARACTER_CESAR
+		portraits={
+			civilian={
+				large="GFX_portrait_isr_benjamin_netanyahu"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+		}
+	}
+}
+

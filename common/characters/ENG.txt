@@ -103,6 +103,18 @@ characters={
 		}
 	}
 
+	ENG_rishi_sunak={
+		name="Rishi Sunak"
+		portraits={
+			civilian={
+				large=GFX_portrait_ENG_rishi_sunak
+			}
+		}
+		country_leader={
+			ideology=conservatism
+		}
+	}
+
 	ENG_oswald_mosley={
 		name=ENG_oswald_mosley
 		portraits={

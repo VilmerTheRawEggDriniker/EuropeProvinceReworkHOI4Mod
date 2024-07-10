@@ -1,4 +1,4 @@
-﻿capital = 126
+capital = 126
 1762.1.1 = {
 recruit_character=ENG_georgeiiieng
 promote_character=ENG_georgeiiieng
@@ -19,6 +19,10 @@ retire_character=ENG_williamiveng
 1936.1.1 = {
 recruit_character=ENG_stanley_baldwin
 promote_character=ENG_stanley_baldwin
+}
+2022.10.25 = {
+recruit_character=ENG_rishi_sunak
+promote_character=ENG_rishi_sunak
 }
 1789.1.1 = {
 		if = {

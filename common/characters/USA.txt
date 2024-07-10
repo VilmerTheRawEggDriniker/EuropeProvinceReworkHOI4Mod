@@ -104,6 +104,17 @@ characters={
 			id=-1
 		}
 	}
+	USA_joe_biden={
+		name="Joe Biden"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_joe_biden
+			}
+		}
+		country_leader={
+			ideology=liberalism
+		}
+	}
 
 	USA_william_dudley_pelley={
 		name=USA_william_dudley_pelley

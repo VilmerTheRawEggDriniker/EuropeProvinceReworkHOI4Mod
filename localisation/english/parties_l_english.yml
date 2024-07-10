@@ -1326,8 +1326,14 @@ POL_PON_neutrality_party_long:1 "House of Poniatowski"
  PRV_neutrality_party:0 "House of Bourbon"
  BUR_neutrality_party:0 "House of Bourbon"
 
-
-
+ HAM_neutrality_party:0 "Hamas"
+ HAM_neutrality_party_long:0 "Harakat al-Muqāwamah al-ʾIslāmiyyah"
+ HAM_democratic_party:0 "Fath"
+ HAM_democratic_party_long:0 "Fath"
+ HAM_communism_party:0 "PFLP"
+ HAM_communism_party_long:0 "al-Jabha ash-Shaʿbīyya li-Taḥrīr Filasṭīn"
+ HAM_fascism_party:0 "PNI"
+ HAM_fascism_party_long:0 "al-Mubādara al-Waṭaniyya al-Filasṭīniyya"
 
   SWE_kings_party: "The Royalist Movement"
  SWE_kings_party_long: "Royalists"
@@ -1363,6 +1369,14 @@ POL_PON_neutrality_party_long:1 "House of Poniatowski"
  GRN_communism_party_long: "Inuit Ataqatigiit"
  GRN_fascism_party: "Naleraq"
  GRN_fascism_party_long: "Partii Naleraq"
+
+ RWA_neutrality_party: "FPR"
+ RWA_neutrality_party_long: "Front patriotique rwandais"
+ RWA_democratic_party_long: "Atassut"
+ RWA_communism_party: "Ataqatigiit"
+ RWA_communism_party_long: "Inuit Ataqatigiit"
+ RWA_fascism_party: "Naleraq"
+ RWA_fascism_party_long: "Partii Naleraq"
  
  
  

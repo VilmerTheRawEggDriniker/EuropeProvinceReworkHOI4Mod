@@ -13,6 +13,17 @@ characters={
 			expire="1797.1.1"
 		}
 }
+	PER_mohammad_mokhber ={
+		name="Mohammad Mokhber"
+		portraits={
+			civilian={
+				large="GFX_portrait_per_mohammad_mokhber_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+		}
+	}
 	PER_lotfalikhan={
 		name=PER_CHARACTER_LOTFALIKHAN
 		portraits={

@@ -1,4 +1,4 @@
-﻿capital = 266
+capital = 266
 1444.1.1 = {
 set_cosmetic_tag = PER_safavid #  Safavid Iran
 }
@@ -57,6 +57,10 @@ set_party_name = { ideology = neutrality name = PER_qajar_neutrality_party }
 1920.1.1 = {
 set_party_name = { ideology = neutrality name = PER_pahlavi_neutrality_party }
 }
+2024.5.19 = {
+recruit_character=PER_mohammad_mokhber
+promote_character=PER_mohammad_mokhber
+}
 1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1790.1.1 }
@@ -103,6 +107,7 @@ set_technology = {
 	infantry_weapons1 = 1
 	tech_trucks = 1
 	gw_artillery = 1
+	early_ship_hull_submarine = 1
 }
 	}
 # Starting tech
@@ -131,6 +136,34 @@ recruit_character = PER_hossein_afkhami
 recruit_character = PER_ali_zohayli
 recruit_character = PER_mahmud_jam
 recruit_character = PER_ali_khan_mansour
+
+
+	create_equipment_variant = {			# represents O/R class, S class
+		name = "S Class"
+		type = ship_hull_submarine_1
+		name_group = USA_SS_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+
+	create_equipment_variant = {			
+		name = "Kilo-class"
+		type = ship_hull_submarine_13
+		name_group = SOV_SS_SHCHUKA
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_5
+			fixed_ship_engine_slot = sub_ship_engine_1
+		}
+		obsolete = yes
+	}
+	set_naval_oob = PER_2024_naval_MTG
+
 
 1939.1.1 = {
 
@@ -197,6 +230,26 @@ recruit_character = PER_ali_khan_mansour
 		set_technology = {
 			gwtank = 1
 		}
+	}
+}
+
+1992.10.1 = {
+	limit = {
+		has_dlc = "Man The Guns"
+	}
+	set_technology = {
+		basic_ship_hull_submarine = 1
+		improved_ship_hull_submarine = 1
+		advanced_ship_hull_submarine = 1
+		advanced_ship_hull_submarine_1948 = 1
+		advanced_ship_hull_submarine_1952 = 1
+		advanced_ship_hull_submarine_1956 = 1
+		advanced_ship_hull_submarine_1960 = 1
+		advanced_ship_hull_submarine_1964 = 1
+		advanced_ship_hull_submarine_1968 = 1
+		advanced_ship_hull_submarine_1972 = 1
+		advanced_ship_hull_submarine_1976 = 1
+		advanced_ship_hull_submarine_1980 = 1
 	}
 }
 
