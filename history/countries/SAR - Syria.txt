@@ -66,16 +66,13 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 50
-	fascism = 10
-	communism = 10
-	neutrality = 30
+	neutrality = 100
 }
 
 create_country_leader = {
@@ -118,15 +115,28 @@ create_country_leader = {
 	}
 }
 
+2000.7.17 = {
+	recruit_character = bashar_al_assad
+	promote_character = bashar_al_assad
+}
+
 2024.1.1 = {
-	set_province_controller = 13743
-	set_province_controller = 6883
+	set_province_controller = 7671
+	set_province_controller = 12473
+	set_province_controller = 1072
+	set_province_controller = 13736
+	set_province_controller = 13257
+	set_province_controller = 12316
+	set_province_controller = 7513
+	set_province_controller = 12442
+	set_province_controller = 3942
+	set_province_controller = 2013
+	set_province_controller = 10383
+	set_province_controller = 1056
+	set_province_controller = 13256
+	set_province_controller = 13255
 	declare_war_on = {
-		target = KUR
-    		type = annex_everything
-	}
-	declare_war_on = {
-		target = SAR
+    		target = KUR
     		type = annex_everything
 	}
 }

@@ -54,6 +54,9 @@ state={
 			remove_core_of = SPR
 
 		}
+		2024.1.1 = {
+			add_core_of = SAR
+		}
 
 	}
 

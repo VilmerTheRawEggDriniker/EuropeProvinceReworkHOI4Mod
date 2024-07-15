@@ -1,4 +1,4 @@
-
+SAR = "countries/Arabrepublicsyria"
 
 RUK	= "countries/Reichskommissariatukraine.txt"
 RBL	= "countries/Reichskommissariatbelarus.txt"

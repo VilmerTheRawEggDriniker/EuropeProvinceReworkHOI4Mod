@@ -2143,6 +2143,11 @@ EGY = {
 	color_ui = rgb { 230 230 70 }
 }
 
+SAR = {
+	color = rgb { 230 130 70 }
+	color_ui = rgb { 230 130 70 }
+}
+
 PAL = {
 	color = rgb { 170  125  80 }
 	color_ui = rgb { 170  125  80 }

@@ -40,6 +40,11 @@ state={
 			controller = SYR
             remove_core_of = SPR
 		}
+		2024.1.1 = {
+			owner = SAR
+			controller = SAR
+			add_core_of = SAR
+		}
 
 	}
 

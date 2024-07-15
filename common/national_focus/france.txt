@@ -1,4 +1,4 @@
-﻿focus_tree = {
+focus_tree = {
 	id = french_focus
 	
 	country = {
@@ -1492,8 +1492,15 @@ continuous_focus_position = { x = 100 y = 2400 }
 		x = 26
 		y = 0
 		
-		allow_branch = { has_start_date > 1936.1.1
-    has_start_date < 1946.1.1 }
+		allow_branch = {
+			OR = {
+				AND = {
+					has_start_date > 1936.1.1
+   		 			has_start_date < 1946.1.1
+				}
+				has_country_flag = france1936scenario
+			} 
+		}
 		allow_branch = {
 			if = {
 				limit = {
@@ -1562,8 +1569,15 @@ continuous_focus_position = { x = 100 y = 2400 }
 		icon = GFX_goal_support_communism
 		x = -3
 		y = 1
-				allow_branch = { has_start_date > 1936.1.1
-    has_start_date < 1946.1.1 }
+		allow_branch = {
+			OR = {
+				AND = {
+					has_start_date > 1936.1.1
+   		 			has_start_date < 1946.1.1
+				}
+				has_country_flag = france1936scenario
+			} 
+		}
 		relative_position_id = FRA_form_the_popular_front
 		
 		allow_branch = {
@@ -4366,8 +4380,15 @@ continuous_focus_position = { x = 100 y = 2400 }
 		icon = GFX_goal_generic_propaganda
 	 	available = {
 		}
-				allow_branch = { has_start_date > 1936.1.1
-    has_start_date < 1946.1.1 }
+		allow_branch = {
+			OR = {
+				AND = {
+					has_start_date > 1936.1.1
+   		 			has_start_date < 1946.1.1
+				}
+				has_country_flag = france1936scenario
+			} 
+		}
 	 	prerequisite = { focus = FRA_form_the_popular_front }
 		x = -3
 		y = 1
@@ -4524,8 +4545,15 @@ continuous_focus_position = { x = 100 y = 2400 }
 		available = { date > 1936.1.1 } available = { date < 1946.1.1 }
 		x = 42
 		y = 0
-				allow_branch = { has_start_date > 1936.1.1
-    has_start_date < 1946.1.1 }
+		allow_branch = {
+			OR = {
+				AND = {
+					has_start_date > 1936.1.1
+   		 			has_start_date < 1946.1.1
+				}
+				has_country_flag = france1936scenario
+			} 
+		}
 		offset = {
 			x = -9
 			y = 0
@@ -4910,8 +4938,15 @@ continuous_focus_position = { x = 100 y = 2400 }
 		x = 8
 		y = 1
 		relative_position_id = FRA_revive_the_national_bloc
-				allow_branch = { has_start_date > 1936.1.1
-    has_start_date < 1946.1.1 }
+		allow_branch = {
+			OR = {
+				AND = {
+					has_start_date > 1936.1.1
+   		 			has_start_date < 1946.1.1
+				}
+				has_country_flag = france1936scenario
+			} 
+		}
 		offset = {
 			x = -1
 			y = 0
@@ -4978,8 +5013,15 @@ continuous_focus_position = { x = 100 y = 2400 }
 		y = 1
 		
 		relative_position_id = FRA_utilize_the_leagues
-		allow_branch = { has_start_date > 1936.1.1
-    has_start_date < 1946.1.1 }
+		allow_branch = {
+			OR = {
+				AND = {
+					has_start_date > 1936.1.1
+   		 			has_start_date < 1946.1.1
+				}
+				has_country_flag = france1936scenario
+			} 
+		}
 		allow_branch = {
 			has_dlc = "La Resistance"
 			if = {
@@ -6250,8 +6292,15 @@ continuous_focus_position = { x = 100 y = 2400 }
 		y = 1
 		relative_position_id = FRA_revive_the_national_bloc
 		cost = 10
-		allow_branch = { has_start_date > 1936.1.1
-    has_start_date < 1946.1.1 }
+		allow_branch = {
+			OR = {
+				AND = {
+					has_start_date > 1936.1.1
+   		 			has_start_date < 1946.1.1
+				}
+				has_country_flag = france1936scenario
+			} 
+		}
 		available_if_capitulated = yes
 		allow_branch = {
 			NOT = { has_dlc = "La Resistance" }
@@ -6693,8 +6742,15 @@ continuous_focus_position = { x = 100 y = 2400 }
 		icon = GFX_goal_generic_major_alliance
 		x = 14
 		y = 1
-				allow_branch = { has_start_date > 1936.1.1
-    has_start_date < 1946.1.1 }
+		allow_branch = {
+			OR = {
+				AND = {
+					has_start_date > 1936.1.1
+   		 			has_start_date < 1946.1.1
+				}
+				has_country_flag = france1936scenario
+			} 
+		}
 		offset = {
 			x = -14
 			y = 0
@@ -7905,8 +7961,15 @@ continuous_focus_position = { x = 100 y = 2400 }
 		
 		x = 70
 		y = 0
-		allow_branch = { has_start_date > 1936.1.1
-    has_start_date < 1946.1.1 }
+		allow_branch = {
+			OR = {
+				AND = {
+					has_start_date > 1936.1.1
+   		 			has_start_date < 1946.1.1
+				}
+				has_country_flag = france1936scenario
+			} 
+		}
 		offset = {
 			x = -16
 			y = 0
@@ -8484,8 +8547,15 @@ continuous_focus_position = { x = 100 y = 2400 }
 		
 		cost = 10
 		available_if_capitulated = yes
-		allow_branch = { has_start_date > 1936.1.1
-    has_start_date < 1946.1.1 }
+		allow_branch = {
+			OR = {
+				AND = {
+					has_start_date > 1936.1.1
+   		 			has_start_date < 1946.1.1
+				}
+				has_country_flag = france1936scenario
+			} 
+		}
 		bypass = {
 			custom_trigger_tooltip = {
 				tooltip = air_focus_bypass_tt
@@ -11907,6 +11977,9 @@ has_completed_focus = france_1793_1799_focus_2
 		prerequisite = {
 		focus =	france_1793_1799_focus_3
 		}
+				prerequisite = {
+		focus =	france_1793_1799_focus_18
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -12048,7 +12121,6 @@ has_completed_focus = france_1793_1799_focus_2
 		}
 
 		available = {
-
 		}
 
 		bypass = {
@@ -12062,7 +12134,7 @@ has_completed_focus = france_1793_1799_focus_2
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-			country_event = fra_1789_event.14
+		PRE={country_event = fra_1789_event.14}
 		}
 	}
 								focus = {
@@ -12163,7 +12235,7 @@ has_completed_focus = france_1793_1799_focus_2
 	}
 									focus = {
 		id = france_1793_1799_focus_30
-		icon = GFX_focus_renounce_the_treaty_of_trianon
+		icon = GFX_focus_focus_fra_border
 		x = 20
 		y = 20
 		prerequisite = {
@@ -12190,6 +12262,7 @@ has_completed_focus = france_1793_1799_focus_2
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+        SPR={country_event = fra_1789_event.15}
 		}
 	}
 									focus = {

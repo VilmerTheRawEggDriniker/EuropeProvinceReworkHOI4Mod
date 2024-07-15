@@ -1,4 +1,4 @@
-﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_POLITICAL}
 ### search_filters = {FOCUS_FILTER_RESEARCH}
 ### search_filters = {FOCUS_FILTER_INDUSTRY}
 ### search_filters = {FOCUS_FILTER_STABILITY}
@@ -3301,10 +3301,25 @@ focus_tree = {
 	}
 
 	focus = {
+		id = GER_enabling_act
+		icon = GFX_goal_generic_military_sphere
+		available = { date > 1936.1.1 } available = { date < 1946.1.1 }
+		x = 1
+		y = -2
+		relative_position_id = GER_naval_rearmament
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }			
+	}
+
+	focus = {
 		id = GER_rhineland
 		icon = GFX_goal_generic_military_sphere
 		available = { date > 1936.1.1 } available = { date < 1946.1.1 }
 		mutually_exclusive = { focus = GER_oppose_hitler }
+		prerequisite = { focus = GER_enabling_act }
 		x = 25
 		y = 0
 		cost = 10
@@ -6541,6 +6556,7 @@ focus_tree = {
 	focus = {
 		id = GER_oppose_hitler
 		icon = GFX_focus_ger_oppose_hitler
+		prerequisite = { focus = GER_enabling_act }
 		available = { date > 1936.1.1 } available = { date < 1946.1.1 }
 		mutually_exclusive = { focus = GER_rhineland }
 

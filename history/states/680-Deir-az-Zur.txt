@@ -43,9 +43,14 @@ state={
 			controller = FRA
             }
 		1945.1.1 = {
-			owner = SYR
-			controller = SYR
+			owner = KUR
+			controller = KUR
             remove_core_of = SPR
+		}
+		2024.7.1 = {
+			owner = KUR
+			controller = KUR
+			add_core_of = SAR
 		}
 
 	}
