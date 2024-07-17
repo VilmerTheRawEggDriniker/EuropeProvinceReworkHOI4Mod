@@ -1,4 +1,4 @@
-﻿###########################
+###########################
 # USA Events
 ###########################
 
@@ -1941,5 +1941,71 @@ country_event = {
 
 	immediate = {
 		play_arsenal_of_democracy_effect = yes
+	}
+}
+
+country_event = {
+	id = usa.177 # Trump attempted assassination scripting
+	hidden = yes
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		owns_state = 360
+		controls_state = 360
+		date > 2024.7.12
+		has_country_flag = trump24
+	}
+
+	option = {
+		name = usa.177.a
+		random_list = {
+			1 = {
+				modifier = {
+					factor = 2
+					NOT = {
+						has_country_flag = secret_service
+					}
+				}
+				country_event = usa.178
+			}
+			1 = {
+				country_event = usa.179
+			}
+		}
+	}
+}
+
+country_event = {
+	id = usa.178 # Trump attempted assassination
+	title = usa.178.t
+	desc = usa.178.desc
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+
+	option = {
+		name = usa.178.a
+		retire_character = USA_donald_trump
+	}
+}
+
+country_event = {
+	id = usa.179 # Trump attempted assassination
+	title = usa.179.t
+	desc = usa.179.desc
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = usa.179.a
+		add_trait = {
+			character = USA_donald_trump
+			trait = assassination_survivor
+		}
 	}
 }

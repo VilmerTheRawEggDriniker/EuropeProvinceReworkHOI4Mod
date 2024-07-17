@@ -10,6 +10,17 @@ characters={
 			ideology=liberalism
 		}
 	}
+	USA_donald_trump={
+		name="Donald Trump"
+		portraits={
+			civilian={
+				large=GFX_portrait_USA_donald_trump
+			}
+		}
+		country_leader={
+			ideology=conservatism
+		}
+	}
 	USA_georgewashington={
 		name=USA_CHARACTER_GEORGEWASHINGTON
 		portraits={

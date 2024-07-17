@@ -50,3 +50,11 @@ germany.1047.a:0 "We need a new path."
 germany.1048.t:0 "No Majority Formed in the Elections!"
 germany.1048.desc:0 "Today we tried to form a new government, but the political situation is too divided. No parties have been able to form a government, the Reichstag has already determined that a vote of no-confidence will be held, and another election will be held in 4 months."
 germany.1048.a:0 "Hold a vote of no confidence"
+
+usa.178.t:0 "Donald Trump Assassinated"
+usa.178.desc:0 "Former President Donald Trump and presidential candidate was shot in the head during a rally in Butler County by 20-year-old Thomas Matthew Crooks. The Secret Service attempted to save the former President, but he was killed along with a rally attender."
+usa.178.a:0 "God Bless His Family"
+
+usa.179.t:0 "Donald Trump Shot At Rally"
+usa.179.desc:0 "Former President Donald Trump and presidential candidate was shot in the ear during a rally in Butler County by 20-year-old Thomas Matthew Crooks. The Secret Service was able to save the former President; however, a rally attender was killed."
+usa.179.a:0 "God Bless Him and His Family"

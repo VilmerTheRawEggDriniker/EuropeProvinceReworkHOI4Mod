@@ -1188,6 +1188,10 @@ spriteTypes = {
 		name = "GFX_portrait_USA_joe_biden"
 		texturefile = "gfx/leaders/USA/portrait_usa_joe_biden.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_USA_donald_trump"
+		texturefile = "gfx/leaders/USA/portrait_usa_donald_trump.dds"
+	}
 
 	spriteType = {
 		name = "GFX_portrait_per_mohammad_mokhber_large"
