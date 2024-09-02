@@ -1,4 +1,7 @@
 ﻿capital = 164
+	add_ideas = {
+        mezzogiorno
+	}
 1800.1.1 = {
 recruit_character=KNI_paulikni
 promote_character=KNI_paulikni

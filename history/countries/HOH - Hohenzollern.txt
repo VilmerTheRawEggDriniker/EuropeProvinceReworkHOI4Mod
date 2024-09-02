@@ -1,5 +1,16 @@
 ﻿capital = 1180
-
+1785.1.1 = {
+recruit_character=HOH_antonaloys
+promote_character=HOH_antonaloys
+}
+1831.1.1 = {
+recruit_character=HOH_karl
+promote_character=HOH_karl
+retire_character=HOH_antonaloys
+}
+1849.1.1 = {
+retire_character=HOH_karl
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

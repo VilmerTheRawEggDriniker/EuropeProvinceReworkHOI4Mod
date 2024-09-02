@@ -416,7 +416,10 @@ leader_traits = {
 			factor = 1
 		}
 	}
-
+	imprisoned_monarch = {
+		random = no
+		stability_factor = -0.10
+	}
 	underage_monarch = {
 		random = no
 		stability_factor = 0.10
@@ -438,7 +441,12 @@ leader_traits = {
 		fascism_acceptance = 75
 		political_power_factor = 0.1
 	}
-
+	hardlineleftist = {
+		random = no
+		neutrality_drift = -0.1
+		neutrality_acceptance = -100
+		political_power_factor = 0.2
+	}
 	imperial_sanction = {
 		random = no
 
@@ -6948,6 +6956,32 @@ leader_traits = {
 		neutrality_drift = 0.05
 	}
 
+	ultraroyalist = {
+		random = no
+                war_support_factor=-0.1
+		stability_factor = 0.05
+		neutrality_drift = 0.05
+                trade_opinion_factor = -0.1
+                production_speed_industrial_complex_factor = -0.01
+                political_power_factor = -0.1
+	}
+
+	prestigious_foreign_minister = {
+		random = no
+		consumer_goods_factor = -0.1
+		neutrality_drift = 0.05
+                trade_opinion_factor = 0.33
+	}
+
+	prestigious_self_serving_foreign_minister = {
+		random = no
+		consumer_goods_factor = -0.1
+		neutrality_drift = 0.05
+                democratic_drift = 0.05
+				war_support_factor=-0.1
+                trade_opinion_factor = 0.33
+	}
+
 	anti_german_personality = {
 		random = no
 		sprite = 13
@@ -11168,13 +11202,6 @@ leader_traits = {
 				factor = 0
 				command_power < @tier2
 			}
-		}
-	}
-	Antisemite = { 
-		sprite = 5
-		targeted_modifier = {
-    			original_tag = ISR
-    			attack_bonus_against = -0.1
 		}
 	}
 }

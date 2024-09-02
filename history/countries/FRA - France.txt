@@ -1,5 +1,109 @@
 ﻿capital = 988
 1789.1.1 = {
+recruit_character=FRA_talleyrand
+}
+1839.1.1 = {
+retire_character=FRA_talleyrand
+}
+1799.1.1 = {
+			if = {
+		limit = { has_start_date < 1801.1.1 }
+FRA={activate_advisor = FRA_talleyrand}
+create_faction = FrenchSphere
+FRA={set_country_flag = napoleonfrance}
+set_party_name = { ideology = neutrality long_name = FRA_BON_neutrality_party_long name = FRA_BON_neutrality_party}
+ENG={
+	set_autonomy = {
+		target = INS
+		autonomous_state = autonomy_protectorate
+	}
+}
+}
+}
+1900.1.1 = {
+			if = {
+		limit = { has_start_date < 1961.1.1 }
+SEN={set_cosmetic_tag = SEN_FRA}
+RCG={set_cosmetic_tag = RCG_FRA}
+	set_autonomy = {
+        target = SEN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = RCG
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1919.1.1 = {
+			if = {
+		limit = { has_start_date < 1961.1.1 }
+CMR={set_cosmetic_tag = CMR_FRA}
+	set_autonomy = {
+        target = CMR
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1882.1.1 = {
+			if = {
+		limit = { has_start_date < 1955.1.1 }
+TUN={set_cosmetic_tag = TUN_FRA}
+	set_autonomy = {
+        target = TUN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1919.1.1 = {
+			if = {
+		limit = { has_start_date < 1944.1.1 }
+LEB={set_cosmetic_tag = LEB_FRA}
+	set_autonomy = {
+        target = LEB
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1920.1.1 = {
+			if = {
+		limit = { has_start_date < 1944.1.1 }
+SYR={set_cosmetic_tag = SYR_FRA}
+	set_autonomy = {
+        target = SYR
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1900.1.1 = {
+			if = {
+		limit = { has_start_date < 1946.1.1 }
+VIN={set_cosmetic_tag = VIN_FRA}
+	set_autonomy = {
+        target = VIN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1912.1.1 = {
+			if = {
+		limit = { has_start_date < 1955.1.1 }
+MOR={set_cosmetic_tag = MOR_FRA}
+	set_autonomy = {
+        target = MOR
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
+1789.1.1 = {
 		if = {
 limit = { has_start_date < 1836.1.1 }
 every_country = {
@@ -13,48 +117,71 @@ set_rule = { can_join_factions = no }
 limit = { has_start_date < 1790.1.1 }
 	add_ideas = {
 		feudalism
+                aristocracy
+                imperialunits
+	}
+}
+}
+1800.1.1 = {
+		if = {
+limit = { has_start_date < 1839.1.1 }
+	add_ideas = {
+		metricsystem
 	}
 }
 }
 1774.1.1 = {
 recruit_character=FRA_louisxvi
 promote_character=FRA_louisxvi
+recruit_character=FRA_ruhl
+promote_character=FRA_ruhl
+recruit_character=FRA_napoleon
+recruit_character=FRA_napoleoni
+recruit_character=FRA_louisxviii
+recruit_character=FRA_charlesx
+recruit_character=FRA_louisphilippei
+recruit_character=FRA_max
+recruit_character=FRA_marie
+recruit_character=FRA_rewbell
+recruit_character=FRA_emmanuel
+recruit_character=FRA_barras
+recruit_character=FRA_lafayette
+recruit_character=FRA_herbois
 }
 1800.1.1 = {
-recruit_character=FRA_napoleon
 promote_character=FRA_napoleon
-retire_character=FRA_louisxvi
-}
-1804.1.1 = {
-recruit_character=FRA_napoleoni
 promote_character=FRA_napoleoni
+retire_character=FRA_louisxvi
+retire_character=FRA_max
+retire_character=FRA_ruhl
+retire_character=FRA_herbois
 }
 1814.1.1 = {
-recruit_character=FRA_louisxviii
-promote_character=FRA_louisxviii
 retire_character=FRA_napoleon
 retire_character=FRA_napoleoni
+retire_character=FRA_rewbell
 }
 1824.1.1 = {
-recruit_character=FRA_charlesx
-promote_character=FRA_charlesx
 retire_character=FRA_louisxviii
 }
 1831.1.1 = {
-recruit_character=FRA_louisphilippei
 promote_character=FRA_louisphilippei
 retire_character=FRA_charlesx
+retire_character=FRA_marie
+retire_character=FRA_barras
+retire_character=FRA_lafayette
 }
 1849.1.1 = {
 retire_character=FRA_louisphilippei
+retire_character=FRA_emmanuel
 }
 1936.1.1 = {
 recruit_character=FRA_pierre_laval
 promote_character=FRA_pierre_laval
-}
-1939.1.1 = {
 recruit_character=FRA_philippe_petain
 promote_character=FRA_philippe_petain
+}
+1939.1.1 = {
 retire_character=FRA_pierre_laval
 }
 1800.1.1 = {
@@ -159,7 +286,8 @@ add_command_power = 20
 }
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
+	transport = 1
+	early_submarine = 1
 }
 1936.1.1 = {
 if = {
@@ -284,6 +412,7 @@ ENG={
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
 	}
+ITA={set_cosmetic_tag = ITA_FRA_two}
 	set_autonomy = {
         target = ITA
         autonomous_state = autonomy_dominion
@@ -346,7 +475,6 @@ ENG={
 		limit = { has_start_date < 1813.1.1 }
 ENG={
 create_faction = SixthCoalition
-add_to_faction = RUS
 add_to_faction = SPR
 add_to_faction = POR
 add_to_faction = SIC
@@ -391,22 +519,27 @@ add_to_faction = PRE
 RUS={
 	    set_autonomy = {
         target = FIN
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = MOL
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = WAL
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 }
     set_autonomy = {
         target = WTF
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = NEU
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
 	}
@@ -430,6 +563,9 @@ RUS={
         autonomous_state = autonomy_dominion
         freedom_level = 0.4
 	}
+ITA={set_cosmetic_tag = ITA_FRA_four}
+NAP={set_cosmetic_tag = NAP_FRA_kingdom}
+ITA={set_party_name = { ideology = neutrality long_name = ITA_BON_neutrality_party_long name = ITA_BON_neutrality_party}}
 	set_autonomy = {
         target = ITA
         autonomous_state = autonomy_dominion
@@ -624,52 +760,6 @@ set_party_name = { ideology = neutrality long_name = FRA_BOU_neutrality_party_lo
 1830.1.1 = {
 set_party_name = { ideology = neutrality long_name = FRA_ORL_neutrality_party_long name = FRA_ORL_neutrality_party }
 }
-
-
-
-1881.1.1 = {
-    set_autonomy = {
-        target = TUN
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-    }
-1901.1.1 = {
-    set_autonomy = {
-        target = TUN
-        autonomous_state = autonomy_free
-        freedom_level = 0.35
-	}
-    }
-1902.1.1 = {
-    set_autonomy = {
-        target = TUN
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-    }
-1920.1.1 = {
-    set_autonomy = {
-        target = TUN
-        autonomous_state = autonomy_free
-        freedom_level = 0.35
-	}
-    }
-1919.1.1 = {
-    set_autonomy = {
-        target = MOR
-        autonomous_state = autonomy_colony
-        freedom_level = 0.35
-	}
-    }
-1936.1.1 = {
-    set_autonomy = {
-        target = MOR
-        autonomous_state = autonomy_free
-        freedom_level = 0.2
-	}
-    }
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1440.11.11"
@@ -776,7 +866,7 @@ add_ideas = {
 give_guarantee = CZE
 give_guarantee = YUG
 give_guarantee = ROM
-
+1936.1.1 = {
 recruit_character = FRA_maurice_thorez
 recruit_character = FRA_edouard_daladier
 recruit_character = FRA_jean_de_lattre_de_tassigny
@@ -832,7 +922,7 @@ recruit_character = FRA_paul_baudouin
 recruit_character = FRA_maurice_gauche
 recruit_character = FRA_jacques_duclos
 recruit_character = FRA_marcel_bucard
-
+}
 
 if = {
 	limit = { has_dlc = "La Resistance" }

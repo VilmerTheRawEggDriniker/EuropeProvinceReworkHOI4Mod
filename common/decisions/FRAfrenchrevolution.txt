@@ -23,6 +23,7 @@ FRA_frenchrevolution = {
 			has_completed_focus = france_1789_1815_first_50_focus_17
 			has_completed_focus = france_1789_1815_first_50_focus_18
 			has_government = democratic
+			original_tag=FRA
 			NOT = { has_global_flag = italian_gambit_lef_flag }
 		}
 
@@ -30,6 +31,374 @@ FRA_frenchrevolution = {
 		add_ideas={liberteegalitefraternite}
 		remove_ideas={liberte egalite fraternite}
 		hidden_effect={set_global_flag = italian_gambit_lef_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_naturalborderpuppetrhine = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        controls_state = 1182 
+        controls_state = 880  
+        controls_state = 1237
+        controls_state = 873 
+        controls_state = 1239
+        controls_state = 690 
+        controls_state = 42 
+        controls_state = 843  
+        controls_state = 51 
+        controls_state = 466  
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_puppet_rhine_flag }
+                date > 1789.1.1 date < 1800.1.1 
+		}
+
+		complete_effect = {
+		white_peace = CLG
+		white_peace = JUL
+		white_peace = AAC
+		white_peace = TRR
+		white_peace = ZWE
+		white_peace = PFZ
+		white_peace = MNZ
+		white_peace = SAA
+        FRA={
+	    set_autonomy = {
+        target = CLG
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = JUL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = AAC
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = TRR
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = ZWE
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = PFZ
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = MNZ
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+	    set_autonomy = {
+        target = SAA
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+		}
+		hidden_effect={set_global_flag = fra_puppet_rhine_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_naturalborderpuppetbelgium = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        controls_state = 8
+        controls_state = 851 
+        controls_state = 970
+        controls_state = 6
+        controls_state = 1171
+        controls_state = 973
+        controls_state = 978
+        controls_state = 34  
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_puppet_belgium_flag }
+                date > 1789.1.1 date < 1800.1.1 
+		}
+
+		complete_effect = {
+		white_peace = BEL
+        FRA={
+	    set_autonomy = {
+        target = BEL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+		}
+		hidden_effect={set_global_flag = fra_puppet_belgium_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_naturalborderpuppetliege = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        controls_state = 979
+        controls_state = 980 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_puppet_liege_flag }
+                date > 1789.1.1 date < 1800.1.1 
+		}
+
+		complete_effect = {
+		white_peace = LIE
+        FRA={
+	    set_autonomy = {
+        target = LIE
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+		}
+		hidden_effect={set_global_flag = fra_puppet_liege_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_corerhine = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        owns_state = 1239
+        owns_state = 873
+        owns_state = 880
+        owns_state = 1182
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_core_rhine_flag }
+                date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+1239 = { add_core_of = ROOT }
+873 = { add_core_of = ROOT }
+880 = { add_core_of = ROOT }
+1182 = { add_core_of = ROOT }
+		hidden_effect={set_global_flag = fra_core_rhine_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_corebelgium = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        owns_state = 8
+        owns_state = 851 
+        owns_state = 970
+        owns_state = 6
+        owns_state = 1171
+        owns_state = 973
+        owns_state = 978
+        owns_state = 34  
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_core_belgium_flag }
+                date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+8 = { add_core_of = ROOT }
+851 = { add_core_of = ROOT }
+970 = { add_core_of = ROOT }
+6 = { add_core_of = ROOT }
+1171 = { add_core_of = ROOT }
+973 = { add_core_of = ROOT }
+978 = { add_core_of = ROOT }
+34 = { add_core_of = ROOT }
+		hidden_effect={set_global_flag = fra_core_belgium_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_coreliege = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        owns_state = 979
+        owns_state = 980 
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_core_liege_flag }
+                date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+979 = { add_core_of = ROOT }
+980 = { add_core_of = ROOT }
+		hidden_effect={set_global_flag = fra_core_liege_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_corelimburg = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        owns_state = 984
+        owns_state = 985
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_core_limburg_flag }
+                date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+984 = { add_core_of = ROOT }
+985 = { add_core_of = ROOT }
+		hidden_effect={set_global_flag = fra_core_limburg_flag}
+		}
+	}
+}
+FRA_naturalborder = {
+	FRA_corebasel = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+        owns_state = 864
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1793_1799_focus_26
+			has_government = democratic
+		original_tag=FRA
+			NOT = { has_global_flag = fra_core_basel_flag }
+                date > 1789.1.1 date < 1836.1.1 
+		}
+
+		complete_effect = {
+864 = { add_core_of = ROOT }
+		hidden_effect={set_global_flag = fra_core_basel_flag}
 		}
 	}
 }
@@ -105,6 +474,7 @@ FRA_italiangambit = {
 			has_completed_focus = france_1789_1815_first_50_focus_39
 			has_government = democratic
 			date > 1796.3.25 date < 1800.1.1 
+                NOT={has_war_with = MIL}
 		}
 
 		cost = 0
@@ -282,7 +652,7 @@ FRA_italiangambit = {
 		available = {
 			has_completed_focus = france_1789_1815_first_50_focus_39
 			has_government = democratic
-			date > 1796.6.14 date < 1800.1.1 
+			date > 1797.6.14 date < 1800.1.1 
 		}
 
 		cost = 0
@@ -299,14 +669,13 @@ FRA_italiangambit = {
 		}
 
 		complete_effect = {
-		hidden_effect={set_global_flag = italian_gambit_genoa_flag AUS = {
-                        add_to_faction = GEN}}
-		declare_war_on = {
+	set_autonomy = {
 		target = GEN
-		type = puppet_wargoal_focus
-	    }
-		}
+		autonomous_state = autonomy_dominion
 	}
+		hidden_effect={set_global_flag = italian_gambit_genoa_flag}
+	}
+}
 }
 FRA_italiangambit = {
 	FRA_invade_lucca = {
@@ -316,7 +685,7 @@ FRA_italiangambit = {
 		available = {
 			has_completed_focus = france_1789_1815_first_50_focus_39
 			has_government = democratic
-			date > 1799.2.22 date < 1800.1.1 
+			date > 1799.5.1 date < 1800.1.1 
 		}
 
 		cost = 0
@@ -343,6 +712,49 @@ FRA_italiangambit = {
 	}
 }
 FRA_italiangambit = {
+	FRA_seperate_peace_tuscany = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			has_government = democratic
+			date > 1799.5.1 date < 1800.1.1 
+                has_war_with = TOS
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			has_completed_focus = france_1789_1815_first_50_focus_39
+			NOT = { has_global_flag = italian_gambit_tuscany_peace_flag }
+		}
+
+		complete_effect = {
+		AUS={
+			            set_autonomy = {
+        target = TOS
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+    }
+		}
+		every_country = {
+  limit = {
+    has_war_with = TOS
+  }
+  white_peace = TOS
+}
+		hidden_effect={set_global_flag = italian_gambit_tuscany_peace_flag}
+		}
+	}
+}
+FRA_italiangambit = {
 	FRA_invade_tuscany = {
 
 		icon = ger_reichskommissariats
@@ -350,7 +762,8 @@ FRA_italiangambit = {
 		available = {
 			has_completed_focus = france_1789_1815_first_50_focus_39
 			has_government = democratic
-			date > 1799.3.21 date < 1800.1.1 
+			date > 1799.5.1 date < 1800.1.1 
+                NOT={has_war_with = TOS}
 		}
 
 		cost = 0

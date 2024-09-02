@@ -1,4 +1,36 @@
 characters={
+	AUS_metternich={
+		name=AUS_CHARACTER_METTERNICH
+		portraits={
+                        army={
+				small="GFX_portrait_aus_metternich_small"
+			}
+			civilian = {
+				large = GFX_portrait_aus_metternich_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = AUS_metternich
+			allowed  = {
+				original_tag  = AUS
+			}
+			available  = {
+                        has_completed_focus = austria_1793_1836_focus_151
+		        }
+			traits  = {
+				prestigious_foreign_minister 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}		
 	AUS_ladislaus={
 		name=AUS_CHARACTER_LADISLAUS
 		portraits={

@@ -976,28 +976,6 @@ SWE_is_finland_mostly_occupied = {
 
 			add_to_temp_variable = { occupation_counter = 1 }
 		}
-
-		if = {
-			limit = {
-				722 = {    ##Petsamo
-					SWE_the_cross_we_bear_am_i_occupied_by_fascists_or_communists = yes
-				}
-			}
-
-			add_to_temp_variable = { occupation_counter = 1 }
-		}
-
-		
-		if = {
-			limit = {
-				929 = {    #Wololo Oulolo
-					SWE_the_cross_we_bear_am_i_occupied_by_fascists_or_communists = yes
-				}
-			}
-
-			add_to_temp_variable = { occupation_counter = 1 }
-		}
-
 		if = {
 			limit = {
 				150 = {    ##Kuopio
@@ -1017,47 +995,6 @@ SWE_is_finland_mostly_occupied = {
 
 			add_to_temp_variable = { occupation_counter = 1 }
 		}
-
-		if = {
-			limit = {
-				926 = {    #Turku
-					SWE_the_cross_we_bear_am_i_occupied_by_fascists_or_communists = yes
-				}
-			}
-
-			add_to_temp_variable = { occupation_counter = 1 }
-		}
-
-		if = {
-			limit = {
-				927 = {    #Häme
-					SWE_the_cross_we_bear_am_i_occupied_by_fascists_or_communists = yes
-				}
-			}
-
-			add_to_temp_variable = { occupation_counter = 1 }
-		}
-
-		if = {
-			limit = {
-				930 = {    #Milelli
-					SWE_the_cross_we_bear_am_i_occupied_by_fascists_or_communists = yes
-				}
-			}
-
-			add_to_temp_variable = { occupation_counter = 1 }
-		}
-
-		if = {
-			limit = {
-				928 = {    #Kymi
-					SWE_the_cross_we_bear_am_i_occupied_by_fascists_or_communists = yes
-				}
-			}
-
-			add_to_temp_variable = { occupation_counter = 1 }
-		}
-
 		if = {
 			limit = {
 				111 = {  #Uusima

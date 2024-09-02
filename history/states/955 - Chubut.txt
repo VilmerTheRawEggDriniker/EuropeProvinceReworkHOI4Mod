@@ -6,11 +6,13 @@ state={
 	history={
 		owner = HRZ
 		add_core_of = HRZ
-								1945.1.1 = {
-		owner = CRO
+		1945.1.1 = {
+			owner = CRO
+
 		}
 		1946.1.1 = {
-		owner = YUG
+			owner = YUG
+
 		}
 		1500.1.1 = {
 			owner = OTO
@@ -61,7 +63,7 @@ state={
 	}
 
 	provinces={
-		953 11845 
+		953 11845 13825 13827 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

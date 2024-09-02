@@ -1,4 +1,16 @@
 ﻿capital = 921
+1789.1.1 = {
+recruit_character=GEN_maria
+promote_character=GEN_maria
+}
+1792.1.1 = {
+recruit_character=GEN_michelangelo
+promote_character=GEN_michelangelo
+retire_character=GEN_maria
+}
+1814.1.1 = {
+retire_character=GEN_michelangelo
+}
 set_oob = "GEN_1789"
 # Starting tech
 set_technology = {

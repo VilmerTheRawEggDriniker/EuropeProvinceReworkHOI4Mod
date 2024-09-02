@@ -1,25 +1,41 @@
 ﻿capital = 41
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1836.1.1 }
+	add_ideas = {
+spainjew
+	}
+}
+}
+1812.1.1 = {
+			if = {
+		limit = { has_start_date < 1813.1.1 }
+	add_ideas = {
+guerrillaspain
+	}
+}
+}
 1788.1.1 = {
 			if = {
 		limit = { has_start_date < 1790.01.02 }
 	set_autonomy = {
         target = MEX
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = PRU
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = COL
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = ARG
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 }
@@ -29,22 +45,22 @@
 		limit = { has_start_date < 1801.01.02 }
 	set_autonomy = {
         target = MEX
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = PRU
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = COL
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = ARG
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 }
@@ -54,22 +70,22 @@
 		limit = { has_start_date < 1813.01.02 }
 	set_autonomy = {
         target = MEX
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = PRU
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = VEN
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
         target = BOL
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 }
@@ -120,7 +136,7 @@ set_oob = "SPR_1836"
 		limit = { has_start_date < 1699.01.01 }
 	set_autonomy = {
         target = BEL
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 }
@@ -130,7 +146,7 @@ set_oob = "SPR_1836"
 		limit = { has_start_date < 1701.01.01 }
 	set_autonomy = {
         target = BEL
-        autonomous_state = autonomy_colony
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 }

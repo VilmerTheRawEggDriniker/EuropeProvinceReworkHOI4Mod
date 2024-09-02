@@ -1,5 +1,17 @@
 ﻿capital = 1
-
+1789.1.1 = {
+set_cosmetic_tag = COR_ENG # 
+}
+1836.1.1 = {
+set_cosmetic_tag = COR # 
+}
+1750.1.1 = {
+recruit_character=COR_gilbert
+promote_character=COR_gilbert
+}
+1815.1.1 = {
+retire_character=COR_gilbert
+}
 #oob = ""
 
 set_research_slots = 3
@@ -233,14 +245,12 @@ set_convoys = 20
 	}
 }
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = neutrality
+	last_election = "1444.11.11"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 53
-	fascism = 20
-	communism = 2
-	neutrality = 25
+	democratic = 50
+	neutrality = 50
 }

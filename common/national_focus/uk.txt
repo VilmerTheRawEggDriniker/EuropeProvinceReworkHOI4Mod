@@ -8,7 +8,7 @@
 
 focus_tree = {
 	id = british_focus
-	
+	continuous_focus_position = { x = 1200 y = 3000 }
 	country = {
 		factor = 0
 		
@@ -11946,5 +11946,4 @@ focus_tree = {
 			add_ideas = ENG_spirit_of_the_industrial_revolution_idea
 		}
 	}
-
 }

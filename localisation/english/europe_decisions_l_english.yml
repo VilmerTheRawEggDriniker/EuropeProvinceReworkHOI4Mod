@@ -15,6 +15,26 @@ form_lcthre:0 "Form the Holy Roman Empire of the German Nation"
 
 form_lcthre_category:0 "Form the Holy Roman Empire of the German Nation"
 
+form_france:0 "Form France"
+
+form_france_category:0 "Form France"
+
+form_russia:0 "Form Russia"
+
+form_russia_category:0 "Form Russia"
+
+form_thugborea:0 "Proclaim Thugborea"
+
+thugborea_category:0 "Form Thugborea"
+
+form_germany:0 "German Unification"
+
+form_germany_category:0 "Form Germany"
+
+form_italy:0 "Form Italy"
+
+form_italy_category:0 "Form Italy"
+
 
 industrialize_turkey_category:0 "Industrialize Turkey"
 industrialize_turkey_istanbul:0 "Industrialize Istanbul"
@@ -68,6 +88,9 @@ GER_reichskommissariat_bialystokger:0 "Incorporate Bialystok into the Reich"
 GER_reichskommissariat_lithuania:0 "Reichskommissariat Lithuania"
 GER_reichskommissariat_bialystoklit:0 "Give Bialystok to Lithuania"
 
+RUS_frenchrevolution:0 "The French Revolution"
+HRE_hungary_russia_protectorate_war_peace:0 "Establish the Holstein-Gottorp-Romanov Kingdom of Hungary"
+
 HRE_frenchrevolution:0 "The French Revolution"
 HRE_prussia_russia_patriotic_war_peace:0 "Leave the Continental System"
 HRE_austria_russia_patriotic_war_peace:0 "Leave the Continental System"
@@ -76,6 +99,19 @@ FRA_frenchrevolution:0 "The French Revolution"
 FRA_liberteegalitefraternite:0 "Liberté égalité fraternité"
 FRA_changeflag:0 "Change the French Flag"
 
+BAY_wittelsbach:0 "The Wittelsbach Dynasty"
+BAY_wittelsbach_mannheim:0 "Inherit Mannheim"
+
+FRA_naturalborder:0 "France's Natural Borders"
+FRA_naturalborderpuppetrhine:0 "Puppet the Rheinish States"
+FRA_naturalborderpuppetbelgium:0 "Puppet Belgium"
+FRA_naturalborderpuppetliege:0 "Puppet Liege"
+FRA_corerhine:0 "Integrate the Paltinate and the Saarland"
+FRA_corebelgium:0 "Integrate Belgium"
+FRA_coreliege:0 "Integrate Liege"
+FRA_corelimburg:0 "Integrate Limburg and Zeelandic Flanders"
+FRA_corebasel:0 "Integrate Basel"
+
 FRA_italiangambit:0 "The Italian Gambit"
 FRA_invade_sardinia:0 "Invade Sardinia-Piedmont"
 FRA_invade_milan:0 "Invade Milan"
@@ -83,9 +119,10 @@ FRA_invade_venice:0 "Invade Venice"
 FRA_invade_naples:0 "Invade Naples"
 FRA_invade_pope:0 "Invade the Papal States"
 FRA_invade_prmmodmas:0 "Invade Parma Modena and Massa"
-FRA_invade_genoa:0 "Invade Genoa"
+FRA_invade_genoa:0 "Overthrow the Genoese Government"
 FRA_invade_lucca:0 "Invade Lucca"
 FRA_invade_tuscany:0 "Invade Tuscany"
+FRA_seperate_peace_tuscany:0 "Seperate Peace with Tuscany"
 FRA_invade_sicily:0 "Invade Sicily"
 FRA_invade_malta:0 "Invade Malta"
 
@@ -101,5 +138,23 @@ division_limit_system_eight:0 "Recruit 12 divisions pt8"
 division_limit_system_nine:0 "Recruit 12 divisions pt9"
 division_limit_system_ten:0 "Recruit 12 divisions pt10"
 
+performance:0 "Performance"
+performance_south_america:0 "Combine South America"
+performance_colonies:0 "Remove the Added Colonies"
 
+USA_admission:0 "Admission of the States into the Union"
+
+USA_admissionnc:0 "Admission of North Carolina into the Union"
+USA_admissionri:0 "Admission of Rhode Island into the Union"
+USA_admissionvt:0 "Admission of Vermont into the Union"
+USA_admissionky:0 "Admission of Kentucky into the Union"
+USA_admissiontn:0 "Admission of Tennessee into the Union"
+USA_admissionoh:0 "Admission of Ohio into the Union"
+USA_admissionla:0 "Admission of Louisiana into the Union"
+USA_admissionin:0 "Admission of Indiana into the Union"
+USA_admissionms:0 "Admission of Mississippi into the Union"
+USA_admissionil:0 "Admission of Illinois into the Union"
+USA_admissional:0 "Admission of Alabama into the Union"
+USA_admissionme:0 "Admission of Maine into the Union"
+USA_admissionmo:0 "Admission of Missouri into the Union"
 

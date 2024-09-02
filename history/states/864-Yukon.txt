@@ -4,29 +4,47 @@ state={
 	name="STATE_864"
 
 	history={
-		owner = LOR
-		add_core_of = LOR
-		1767.1.1 = {
+		owner = BSL
+		add_core_of = BSL
+				1800.1.1 = {
 			owner = FRA
 			add_core_of = FRA
-			remove_core_of = LOR
+			remove_core_of = VAL
+			remove_core_of = BSL
+
+		}
+		1816.1.1 = {
+			owner = SWI
+			remove_core_of = BSL
+			add_core_of = SWI
+			remove_core_of = FRA
 
 		}
 		victory_points = {
-			11516 5 
+			9622 3 
 		}
 		buildings = {
 			infrastructure = 4
+
+		}
+				1900.1.1 = {
+			buildings = {
+				9622 = {
+					bunker = 3
+
+				}
+
+			}
 
 		}
 
 	}
 
 	provinces={
-		521 11516 14289 14308 
+		9622 
 	}
-	manpower=300000
+	manpower=125000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=pastoral
 	local_supplies=0.000
 }

@@ -46,8 +46,7 @@ state={
 		}
 		add_core_of = LEB
 		1919.1.1 = {
-			owner = FRA
-			controller = FRA
+			owner = LEB
 			remove_core_of = OTO
 
 		}

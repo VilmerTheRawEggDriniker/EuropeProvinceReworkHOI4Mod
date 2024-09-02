@@ -82,10 +82,6 @@ recruit_character = RWA_mt
 		democratic = 26
 	}
 }
-2024.7.1 = {
-	set_oob = RWA_2024
-}
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1936.1.1"

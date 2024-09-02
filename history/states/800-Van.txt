@@ -22,7 +22,7 @@ state={
 		}
 		1919.1.1 = {
 			owner = OTO
-		remove_core_of=OTO
+			remove_core_of = OTO
 
 		}
 		1920.1.1 = {
@@ -31,9 +31,10 @@ state={
 			remove_core_of = ARM
 
 		}
-					1936.1.1 = {
-			remove_core_of=OTO
-            }
+		1936.1.1 = {
+			remove_core_of = OTO
+
+		}
 		victory_points = {
 			6935 5 
 		}
@@ -42,6 +43,12 @@ state={
 		}
 		victory_points = {
 			11853 3 
+		}
+		victory_points = {
+			3979 3 
+		}
+		victory_points = {
+			9868 1 
 		}
 		buildings = {
 			infrastructure = 1
@@ -70,7 +77,7 @@ state={
 	}
 
 	provinces={
-		652 6935 6976 7470 9858 9954 10399 11739 11853 11880 12318 12376 13121 
+		652 3979 6935 6976 7470 9858 9868 9886 9954 10399 11739 11853 11880 12318 12376 13121 
 	}
 	manpower=300000
 	buildings_max_level_factor=1.000

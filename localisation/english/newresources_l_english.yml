@@ -6,9 +6,4 @@
  GOLD_MANA_TOOLTIP:0 "§HGold" #ЗОЛОТО
  GOLD_MANA_TOOLTIP_DELAYED:0 "§WBasic - 10\n§R  Export - [resource_exported@gold|Y]"  #Золото - это валюта, деньги. Оно нужно для оплаты производства, на содержание зданий.
  PRODUCTION_MATERIALS_COAL:0 "Coal"
- COAL_desc:0 "Coal" 
- PRODUCTION_MATERIALS_TEA:0 "Luxury food"
- TEA_desc:0 "Aristocrats, wealthy people, and officers eat luxurious food. It's really delicious!"
- plantation_cacao:0 "Plantation Cacao"
- PRODUCTION_MATERIALS_SLAVES:0 "Slaves"
- SLAVES_desc:0 "Coal" 
+ COAL_desc:0 "Coal"

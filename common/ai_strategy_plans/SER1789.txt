@@ -1,4 +1,4 @@
-German_historical = {
+serbia_historical = {
 	name = "1789 1836 Serbian historical plan"
 	desc = "Essentially historical behaviour for 1789 1836 Serbia"
 

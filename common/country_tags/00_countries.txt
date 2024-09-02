@@ -1,4 +1,4 @@
-SAR = "countries/Arabrepublicsyria"
+
 
 RUK	= "countries/Reichskommissariatukraine.txt"
 RBL	= "countries/Reichskommissariatbelarus.txt"
@@ -21,8 +21,40 @@ RMR = "countries/Reichskommissariatmountainrepublic.txt"
 RCO	= "countries/Reichskommissariatcourland.txt"
 RCR	= "countries/Reichskommissariatcrimea.txt"
 
-MUG = "countries/Mughal Empire.txt" #flagcomplete 
+LES = "countries/Lesotho.txt" #flagcomplete 
+SWA = "countries/Swaziland.txt" #flagcomplete 
 
+KUM = "countries/Kumul Khanate.txt" #flagcomplete 
+BER = "countries/Berry.txt" #flagcomplete 
+IDA = "countries/Indiana.txt" #flagcomplete 
+PEN = "countries/Pennsylvania.txt" #flagcomplete 
+MCH = "countries/Michigan.txt" #flagcomplete 
+ILL = "countries/Illinois.txt" #flagcomplete 
+MRI = "countries/Missouri.txt" #flagcomplete 
+ABM = "countries/Alabama.txt" #flagcomplete 
+ARK = "countries/Arkansas.txt" #flagcomplete 
+MSP = "countries/Mississippi.txt" #flagcomplete 
+
+SWT = "countries/Southwest Territory.txt" #flagcomplete 
+NWT = "countries/Northwest Territory.txt" #flagcomplete 
+UNO = "countries/Unorganized Territory.txt" #flagcomplete 
+NCR = "countries/North Carolina.txt" #flagcomplete 
+ROD = "countries/Rhode Island.txt" #flagcomplete 
+CAL = "countries/California.txt" #flagcomplete 
+CAS = "countries/Cascadia.txt" #flagcomplete 
+TEX = "countries/Texas.txt" #flagcomplete 
+FLO = "countries/Florida.txt" #flagcomplete 
+LOU = "countries/Louisiana.txt" #flagcomplete 
+NEW = "countries/New England.txt" #flagcomplete 
+UTH = "countries/Deseret.txt" #flagcomplete 
+ALA = "countries/Alaska.txt" #flagcomplete 
+CAF = "countries/Central America.txt" #flagcomplete 
+
+MUG = "countries/Mughal Empire.txt" #flagcomplete 
+HEJ = "countries/Hejaz.txt" #flagcomplete 
+BSL = "countries/Basel.txt" #flagcomplete 
+VRM = "countries/Vermont.txt" #flagcomplete 
+SVI = "countries/South Vietnam.txt" #flagcomplete 
 HYD = "countries/Hyderabad.txt" #flagcomplete 
 MYS = "countries/Mysore.txt" #flagcomplete 
 MTH = "countries/Maratha.txt" #flagcomplete 
@@ -261,15 +293,6 @@ GOS = "countries/Goslar.txt"
 MUN = "countries/Munster.txt"
 HLS = "countries/Holstein.txt"
 DIT = "countries/Dithmarschen.txt"
-CAL	= "countries/California.txt"
-CAS	= "countries/Cascadia.txt"
-TEX	= "countries/Texas.txt"
-FLO = "countries/Florida.txt"
-LOU = "countries/Louisiana.txt"
-NEW = "countries/New England.txt"
-UTH = "countries/Deseret.txt"
-ALA = "countries/Alaska.txt"
-CAF = "countries/Central America.txt"
 MRD	= "countries/Mordovia.txt"
 CIR	= "countries/Circassia.txt"
 JAN = "countries/Jan Mayen.txt"

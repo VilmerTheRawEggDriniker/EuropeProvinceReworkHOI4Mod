@@ -34,11 +34,13 @@ state={
 
 		}
 		1919.1.1 = {
-		owner = BAY
+			owner = BAY
+
 		}
 		1920.1.1 = {
-		owner = GER
-		remove_core_of = BAY
+			owner = GER
+			remove_core_of = BAY
+
 		}
 		victory_points = {
 			692 20 
@@ -66,7 +68,7 @@ state={
 	}
 
 	provinces={
-		692 707 3688 6693 9652 11620 11653 14625 14633 14635 14649 
+		692 707 3688 6693 9636 9652 11620 11653 14605 14625 14633 14635 14649 
 	}
 	manpower=1500000
 	buildings_max_level_factor=1.000

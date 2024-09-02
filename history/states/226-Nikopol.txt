@@ -20,7 +20,7 @@ state={
 			add_core_of = ZAP
 
 		}
-		1700.1.1 = {
+		1689.1.1 = {
 			owner = RUS
 			add_core_of = RUS
 			remove_core_of = ZAP

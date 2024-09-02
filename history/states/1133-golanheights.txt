@@ -29,19 +29,16 @@ state={
 			remove_core_of = OTO
 
 		}
-		1936.1.1 = {
-			owner = FRA
-			controller = FRA
+				1936.1.1 = {
+			owner = SYR
+            }
+							2000.1.1 = {
+			owner = ISR
             }
 		1945.1.1 = {
 			owner = SYR
 			controller = SYR
             remove_core_of = SPR
-		}
-		2024.1.1 = {
-			owner = ISR
-			controller = ISR
-			add_core_of = SAR
 		}
 
 	}

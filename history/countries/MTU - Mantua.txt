@@ -1,5 +1,32 @@
 ﻿capital = 1102
-
+1765.8.18 = {
+recruit_character=MTU_josephiimtu
+promote_character=MTU_josephiimtu
+}
+1790.2.20 = {
+recruit_character=MTU_leopoldiimtu
+promote_character=MTU_leopoldiimtu
+retire_character=MTU_josephiimtu
+}
+1792.3.1 = {
+recruit_character=MTU_francisiimtu
+promote_character=MTU_francisiimtu
+retire_character=MTU_leopoldiimtu
+}
+1835.3.2 = {
+recruit_character=MTU_ferdinandimtu
+promote_character=MTU_ferdinandimtu
+retire_character=MTU_francisiimtu
+}
+1848.12.2 = {
+retire_character=MTU_ferdinandimtu
+}
+1740.1.1 = {
+set_cosmetic_tag = MTU_AUS #austrian puppet
+}
+1790.1.1 = {
+set_cosmetic_tag = MTU #independent
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

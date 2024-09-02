@@ -5,14 +5,11 @@ state={
 	history={
 		owner = ZZZ
 		1900.1.1 = {
+        owner = RCG
 		add_core_of = CHA
-                add_core_of = CMR
-                owner = GER
-                }
-		1911.1.1 = {
-			owner = FRA
-			controller = FRA
-            remove_core_of = CMR
+        }
+		1939.1.1 = {
+        owner = RCG
 		}
 				1970.1.1 = {
                 owner = CHA

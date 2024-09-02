@@ -5,41 +5,49 @@ state={
 
 	history={
 		owner = TYR
-        add_core_of = TYR
+		add_core_of = TYR
 		1500.1.1 = {
-		owner = AUS
-		add_core_of = AUS
-		remove_core_of = STY
-		remove_core_of = TYR
-		remove_core_of = CEL
-		remove_core_of = TRT
+			owner = AUS
+			add_core_of = AUS
+			remove_core_of = STY
+			remove_core_of = TYR
+			remove_core_of = CEL
+			remove_core_of = TRT
+
 		}
-						1812.1.1 = {
+		1812.1.1 = {
 			owner = BAY
-                add_core_of = BAY
+			add_core_of = BAY
+
 		}
 		1816.1.1 = {
 			owner = AUS
-                add_core_of = AUS
-                remove_core_of = BAY
+			add_core_of = AUS
+			remove_core_of = BAY
+
 		}
 		1900.1.1 = {
 			owner = AUH
-                add_core_of = AUH
-                remove_core_of = AUS
-		}
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 2
-			air_base = 3
+			add_core_of = AUH
+			remove_core_of = AUS
 
 		}
-                }
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				air_base = 3
+
+			}
+
+		}
 		victory_points = {
 			673 5 
 		}
 		buildings = {
 			infrastructure = 2
+			industrial_complex = 1
+
 		}
 		1920.1.1 = {
 			owner = AUS
@@ -65,7 +73,7 @@ state={
 	}
 
 	provinces={
-		673 6678 9633 9636 11618 14587 14590 14594 14597 14607 
+		673 6678 9633 11618 14587 14590 14594 14597 14607 
 	}
 	manpower=350000
 	buildings_max_level_factor=1.000

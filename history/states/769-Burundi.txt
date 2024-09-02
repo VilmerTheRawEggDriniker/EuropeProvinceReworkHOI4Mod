@@ -21,11 +21,7 @@ state={
                 add_core_of = BRD
             remove_core_of = TZN
 		}
-		1936.1.1 = {
-			owner = BEL
-			controller = BEL
-            }
-		1946.1.1 = {
+		1939.1.1 = {
 			owner = COG
 			controller = COG
             remove_core_of = SPR

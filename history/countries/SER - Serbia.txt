@@ -14,7 +14,13 @@ retire_character=SER_milosobrenovici
 1789.1.1 = {
 set_cosmetic_tag = SER_uprising # 1789-1791 austrian ottoman war
 }
-1791.1.1 = {
+1790.1.1 = {
+set_cosmetic_tag = SER_principality # Serbian principality
+}
+1889.1.1 = {
+set_cosmetic_tag = SER_kingdom # kingdom of serbia
+}
+1947.1.1 = {
 set_cosmetic_tag = SER # Regular Serbia
 }
 1789.1.1 = {

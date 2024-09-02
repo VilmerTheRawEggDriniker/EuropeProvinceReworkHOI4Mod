@@ -1,3 +1,4 @@
+
 state={
 	id=1228
 	name="STATE_1228"
@@ -44,7 +45,7 @@ state={
 			infrastructure = 1
 
 		}
-				1919.1.1 = {
+		1919.1.1 = {
 			owner = UKR
 			controller = UKR
 			add_core_of = UKR
@@ -70,7 +71,7 @@ state={
 	}
 
 	provinces={
-		13611
+		13611 13617 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

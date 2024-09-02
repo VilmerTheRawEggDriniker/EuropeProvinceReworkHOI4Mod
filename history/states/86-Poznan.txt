@@ -8,31 +8,39 @@ state={
 		add_core_of = POL
 		1950.1.1 = {
 			remove_claim_by = GER
+
 		}
 		1800.1.1 = {
 			owner = PRE
+
 		}
 		1812.1.1 = {
 			owner = POL
 			add_core_of = POL
+
 		}
-												1945.1.1 = {
-		owner = GER
+		1945.1.1 = {
+			owner = GER
+
 		}
 		1946.1.1 = {
-		owner = POL
+			owner = POL
+
 		}
 		1815.1.1 = {
 			owner = POS
 			add_core_of = POS
+
 		}
 		1849.1.1 = {
 			owner = PRE
 			remove_core_of = POS
+
 		}
 		1871.1.1 = {
 			add_core_of = GER
 			owner = GER
+
 		}
 		1919.1.1 = {
 			remove_core_of = WUR
@@ -46,20 +54,23 @@ state={
 			remove_core_of = HES
 			remove_core_of = THU
 			remove_core_of = PRE
+
 		}
 		1919.1.1 = {
-		owner = POS
-		add_core_of = POS
+			owner = POS
+			add_core_of = POS
+
 		}
 		1920.1.1 = {
-		owner = POL
-		remove_core_of = POS
+			owner = POL
+			remove_core_of = POS
+
 		}
 		1936.1.1 = {
 			buildings = {
 				infrastructure = 3
 				industrial_complex = 2
-				13430 = {
+				388 = {
 					bunker = 1
 
 				}
@@ -85,16 +96,20 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+
 		}
 		1920.1.1 = {
 			owner = POL
 			add_core_of = POL
 			remove_core_of = GER
 			controller = POL
+
 		}
+
 	}
+
 	provinces={
-		17 388 3381 3460 3532 6558 9532 11558 13407 13408 13417 13422 13423 13425 13430 13431 
+		17 388 3381 3460 3532 6558 9252 9532 11558 13407 13408 13417 13422 13423 13425 13431 
 	}
 	manpower=1500000
 	buildings_max_level_factor=1.000

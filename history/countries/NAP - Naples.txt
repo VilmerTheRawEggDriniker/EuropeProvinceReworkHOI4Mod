@@ -1,4 +1,7 @@
 ﻿capital = 117
+	add_ideas = {
+        mezzogiorno
+	}
 1812.1.1 = {
 set_politics = {
 	ruling_party = neutrality

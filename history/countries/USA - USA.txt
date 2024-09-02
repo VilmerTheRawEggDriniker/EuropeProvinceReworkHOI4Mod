@@ -1,4 +1,138 @@
-capital = 361
+﻿capital = 361
+1603.1.1 = {
+			if = {
+		limit = { has_start_date < 1788.1.1 }
+		set_capital = {
+  state = 360
+  remember_old_capital = yes
+}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1790.1.1 }
+		set_capital = {
+  state = 358
+  remember_old_capital = no
+}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1799.1.1 }
+	add_ideas = {
+                        americanpatriotism
+                        extremepoverty
+                        spiritoftheamericanrevolution
+						articlesofconfederation
+	}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1799.1.1 }
+	set_autonomy = {
+        target = ROD
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = NCR
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = UNO
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = NWT
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1800.1.1 = {
+			if = {
+		limit = { has_start_date < 1801.1.1 }
+	set_autonomy = {
+        target = UNO
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = NWT
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1812.1.1 = {
+			if = {
+		limit = { has_start_date < 1813.1.1 }
+	set_autonomy = {
+        target = MRI
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = MSP
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = LOU
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = ILL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = MCH
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = IDA
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1836.1.1 = {
+			if = {
+		limit = { has_start_date < 1837.1.1 }
+	set_autonomy = {
+        target = UNO
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = FLO
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = ARK
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = MCH
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = CAS
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
 1955.1.1 = {
 		if = {
 		limit = { has_start_date < 1961.1.1 }
@@ -91,39 +225,39 @@ set_cosmetic_tag = USA_ #48 states
 }
 1789.1.1 = {
 recruit_character=USA_georgewashington
+recruit_character=USA_johnadams
+recruit_character=USA_thomasjefferson
+recruit_character=USA_jamesmadison
+recruit_character=USA_jamesmonroe
+recruit_character=USA_johnquincyadams
+recruit_character=USA_andrewjackson
 promote_character=USA_georgewashington
 }
 1798.1.1 = {
-recruit_character=USA_johnadams
 promote_character=USA_johnadams
-retire_character=USA_georgewashington
 }
 1802.1.1 = {
-recruit_character=USA_thomasjefferson
 promote_character=USA_thomasjefferson
-retire_character=USA_johnadams
 }
 1810.1.1 = {
-recruit_character=USA_jamesmadison
 promote_character=USA_jamesmadison
-retire_character=USA_thomasjefferson
 }
 1818.1.1 = {
-recruit_character=USA_jamesmonroe
 promote_character=USA_jamesmonroe
-retire_character=USA_jamesmadison
 }
 1826.1.1 = {
-recruit_character=USA_johnquincyadams
 promote_character=USA_johnquincyadams
-retire_character=USA_jamesmonroe
 }
 1830.1.1 = {
-recruit_character=USA_andrewjackson
 promote_character=USA_andrewjackson
-retire_character=USA_johnquincyadams
 }
-1840.1.1 = {
+1900.1.1 = {
+retire_character=USA_georgewashington
+retire_character=USA_johnadams
+retire_character=USA_thomasjefferson
+retire_character=USA_jamesmadison
+retire_character=USA_jamesmonroe
+retire_character=USA_johnquincyadams
 retire_character=USA_andrewjackson
 }
 1865.7.5 = {
@@ -134,10 +268,11 @@ recruit_character=USA_franklin_delano_roosevelt
 promote_character=USA_franklin_delano_roosevelt
 }
 1946.6.14 = {
+retire_character=USA_franklin_delano_roosevelt
 recruit_character = USA_donald_trump
+promote_character = USA_donald_trump
 }
 2021.1.21 = {
-retire_character=USA_franklin_delano_roosevelt
 recruit_character=USA_joe_biden
 promote_character=USA_joe_biden
 }
@@ -227,6 +362,8 @@ USA = {
 }
 set_technology = {
 	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
 }
 1936.1.1 = {
 if = {
@@ -617,6 +754,9 @@ set_popularities = {
 	communism = 1
 }
 }
+1936.1.1 = {
+		if = {
+		limit = { has_start_date < 1945.1.1 }
 add_ideas = {
 	undisturbed_isolation
 	great_depression
@@ -624,7 +764,8 @@ add_ideas = {
 	free_trade
 	home_of_the_free
 }
-
+}
+}
 
 # DIPLOMACY
 set_autonomy = {

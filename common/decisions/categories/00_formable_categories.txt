@@ -6,6 +6,15 @@
 #		
 #	}
 #}
+thugborea_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_
+
+	allowed = {
+	}
+}
 industrialize_turkey_category = {
 
 	icon = generic_formable_nations
@@ -16,6 +25,42 @@ industrialize_turkey_category = {
 	}
 }
 form_lcthre_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_
+
+	allowed = {
+	}
+}
+form_germany_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_
+
+	allowed = {
+	}
+}
+form_italy_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_
+
+	allowed = {
+	}
+}
+form_france_category = {
+
+	icon = generic_formable_nations
+
+	picture = GFX_
+
+	allowed = {
+	}
+}
+form_russia_category = {
 
 	icon = generic_formable_nations
 

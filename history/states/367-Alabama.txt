@@ -6,8 +6,26 @@ state={
 	history={
 		owner = ZZZ
 		1789.1.1 = {
+                owner = UNO
+		add_core_of = UNO
+                }
+				1812.1.1 = {
+                owner = MSP
+		add_core_of = MSP
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=NCR
+                }
+						1813.1.1 = {
                 owner = USA
 		add_core_of = USA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=MSP
                 }
 		1871.1.1 = {
 		victory_points = {

@@ -33,6 +33,12 @@ state={
 			remove_core_of = LUN
 
 		}
+				1812.1.1 = {
+        add_core_of = WTF
+        }
+		1816.1.1 = {
+		remove_core_of = WTF
+        }
 		1812.1.1 = {
 			owner = FRA
 

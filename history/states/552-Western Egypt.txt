@@ -22,11 +22,6 @@ state={
 			remove_core_of = LBA
 
 		}
-		1936.1.1 = {
-			owner = ENG
-			controller = ENG
-
-		}
 		1946.1.1 = {
 			owner = EGY
 			controller = EGY

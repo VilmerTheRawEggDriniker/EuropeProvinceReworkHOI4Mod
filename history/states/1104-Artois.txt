@@ -17,7 +17,7 @@ state={
 			remove_core_of = UTR
 
 		}
-		1700.1.1 = {
+		1689.1.1 = {
 			owner = FRA
 			add_core_of = FRA
 			remove_core_of = BEL

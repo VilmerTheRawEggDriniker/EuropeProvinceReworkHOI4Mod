@@ -37,6 +37,9 @@ state={
 			remove_core_of = OTO
 
 		}
+						1936.1.1 = {
+			owner = ISR
+            }
 		1946.1.1 = {
 			owner = ISR
 			controller = ISR

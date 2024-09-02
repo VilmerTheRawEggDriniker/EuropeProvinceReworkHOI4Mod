@@ -105,7 +105,7 @@ fire_only_once = yes
 			start_civil_war = {
 				ruling_party = neutrality
 				ideology = democratic
-				size = 0.6
+				size = 0.3
 				capital = 1171
 				states = {1171 }
 			}
@@ -141,7 +141,7 @@ fire_only_once = yes
 			start_civil_war = {
 				ruling_party = democratic
 				ideology = neutrality
-				size = 0.4
+				size = 0.5
 				capital = 8
 				states = {970 8 851 6 973 978 34 }
 			}
@@ -349,7 +349,6 @@ fire_only_once = yes
 		ai_chance = { factor = 100 } 
 FRA={
 transfer_state = 848
-transfer_state = 1030
 transfer_state = 1106
 transfer_state = 981
 transfer_state = 735
@@ -393,7 +392,6 @@ fire_only_once = yes
 		ai_chance = { factor = 100 } 
 FRA={
 transfer_state = 848
-transfer_state = 1030
 transfer_state = 1106
 transfer_state = 981
 transfer_state = 735
@@ -421,63 +419,24 @@ country_event = {
 	#is_triggered_only = yes
 trigger = {
 original_tag = FRA
-    date > 1797.10.17 date < 1800.1.1 
+    date > 1797.10.17 date < 1803.1.1 
 	has_war_with = AUS
     has_war_with = VNT
-	FRA={controls_state = 160}
+	any_country={
+	or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 160
+	}
 }
 fire_only_once = yes
 	option = { # 
 		name = "Treaty of Campo Formio"
 		ai_chance = { factor = 100 } 
-puppet = GEN
-puppet = PRM
-puppet = ITA
-puppet = SAV
 AUS={puppet = VNT}
-
-hidden_effect = {
-ITA={
-transfer_state = 161
-transfer_state = 927
-transfer_state = 1109
-transfer_state = 1102
-transfer_state = 1110
-transfer_state = 1111
-transfer_state = 159
-transfer_state = 1134
-
-add_state_core = 161
-add_state_core = 927
-add_state_core = 1109
-add_state_core = 1102
-add_state_core = 1110
-add_state_core = 1111
-add_state_core = 159
-add_state_core = 1134
-}
-SAV={
-transfer_state = 158
-transfer_state = 922
-transfer_state = 1107
-transfer_state = 1106
-transfer_state = 1030
-transfer_state = 1113
-transfer_state = 848
-transfer_state = 907
-add_state_core = 158
-add_state_core = 922
-add_state_core = 1107
-add_state_core = 1106
-add_state_core = 1030
-add_state_core = 1113
-add_state_core = 848
-add_state_core = 907
-}
-		add_state_core = 1193
-		remove_state_core = 1193
 FRA={set_country_flag = campoformio_flag}
-}
 every_country = {
   limit = {
   original_tag=AUS
@@ -494,68 +453,29 @@ country_event = {
 	#is_triggered_only = yes
 trigger = {
 original_tag = FRA
-    date > 1789.1.1 date < 1795.10.17
+    date > 1789.1.1 date < 1797.10.17
 	has_war_with = AUS
     has_war_with = VNT
-	FRA={controls_state = 160}
+	any_country={
 	or={
-	FRA={controls_state = 4}
-	FRA={controls_state = 109}
-	FRA={controls_state = 9}	
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 160
+	}
+	or={
+	AUS = {surrender_progress > 0.2 }
+	HUN = {surrender_progress > 0.2 }
+	BOH = {surrender_progress > 0.5 }
 	}
 }
 fire_only_once = yes
 	option = { # 
 		name = "Treaty of Campo Formio"
 		ai_chance = { factor = 100 } 
-puppet = GEN
-puppet = PRM
-puppet = ITA
-puppet = SAV
 AUS={puppet = VNT}
-
-hidden_effect = {
-ITA={
-transfer_state = 161
-transfer_state = 927
-transfer_state = 1109
-transfer_state = 1102
-transfer_state = 1110
-transfer_state = 1111
-transfer_state = 159
-transfer_state = 1134
-
-add_state_core = 161
-add_state_core = 927
-add_state_core = 1109
-add_state_core = 1102
-add_state_core = 1110
-add_state_core = 1111
-add_state_core = 159
-add_state_core = 1134
-}
-SAV={
-transfer_state = 158
-transfer_state = 922
-transfer_state = 1107
-transfer_state = 1106
-transfer_state = 1030
-transfer_state = 1113
-transfer_state = 848
-transfer_state = 907
-add_state_core = 158
-add_state_core = 922
-add_state_core = 1107
-add_state_core = 1106
-add_state_core = 1030
-add_state_core = 1113
-add_state_core = 848
-add_state_core = 907
-}
-		add_state_core = 1193
-		remove_state_core = 1193
 FRA={set_country_flag = campoformio_flag}
-}
 every_country = {
   limit = {
   original_tag=AUS
@@ -566,17 +486,15 @@ every_country = {
 }
 country_event = {
 	id = fra_1789_event.9
-	title = ""
+	title = "Cooperate with the Bordeaux Counter-revolutionaries"
 	desc = fra_1789_event.9.d
 	picture = GFX_idi_amin_india
 	is_triggered_only = yes
 fire_only_once = yes
 	option = { # 
-		name = "Declare Independence"
+		name = "Cooperate with Regionalists"
 		ai_chance = { factor = 100 } 
-		FRA = {
-			country_event = { days = 1 id = fra_1789_event.10 }
-		}
+PRS={add_manpower = 50000 load_oob = "PRS_1793"}
 	}
 }
 country_event = {
@@ -589,9 +507,9 @@ fire_only_once = yes
 	option = { # 
 		name = "Declare war on the Vendée"
 		ai_chance = { factor = 100 } 
-		FRA={
+		VND={
 			declare_war_on = {
-		target = VND
+		target = FRA
 		type = annex_everything
 	}
 	}
@@ -630,17 +548,1080 @@ country_event = {
 	title = "Peace Between France and Prussia"
 	desc = fra_1789_event.14.d
 	picture = GFX_idi_amin_india
-	#is_triggered_only = yes
+	is_triggered_only = yes
 fire_only_once = yes
 	option = { # 
 		name = "Peace is in both of our best interests"
 		ai_chance = { factor = 100 } 
-PRE={ leave_faction = yes}
+		JUL={transfer_state = 466
+		add_state_core = 466}
+		PRE={
+		remove_state_core = 466
+		}
 every_country = {
   white_peace = PRE
 }
 	}
 }
-
-
+country_event = {
+	id = fra_1789_event.15
+	title = "Peace Between France and Spain"
+	desc = fra_1789_event.15.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Peace is in both of our best interests"
+		ai_chance = { factor = 100 } 
+SPR={ leave_faction = yes}
+every_country = {
+  white_peace = SPR
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.16
+	title = "The Haitian Revolution"
+	desc = fra_1789_event.16.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+    date > 1791.8.21 date < 1792.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Declare independence"
+		ai_chance = { factor = 100 } 
+		HAI={
+		transfer_state = 318
+		}
+	}
+}
+country_event = {
+	id = fra_1789_event.17
+	title = "The Haitian Revolution"
+	desc = fra_1789_event.17.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+original_tag = FRA
+country_exists = HAI
+    date > 1789.9.1 date < 1799.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Declare war on the Haitian Slave rebellion"
+		ai_chance = { factor = 100 } 
+		add_stability=-0.1
+			declare_war_on = {
+		target = HAI
+		type = puppet_wargoal_focus
+	}
+	}
+		option = { # 
+		name = "reluctantly Accept Haitian Independence"
+		ai_chance = { factor = 0 } 
+        add_political_power = -250
+		add_stability=0.01
+	}
+}
+country_event = {
+	id = fra_1789_event.18
+	title = "Ventôse Decrees"
+	desc = fra_1789_event.18.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Accept the failure and lack of support"
+		ai_chance = { factor = 100 } 
+        add_political_power=-150
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = -1
+					instant_build = yes
+				}
+			}
+				random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = -1
+					instant_build = yes
+				}
+			}
+	}
+}
+country_event = {
+	id = fra_1789_event.19
+	title = "Premptive Strike on the Conspirators"
+	desc = fra_1789_event.19.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+FRA={has_completed_focus = france_1793_1799_focus_82}
+FRA={has_completed_focus = france_1793_1799_focus_87}
+original_tag=FRA
+date > 1800.9.10 date < 1801.1.1 
+	}
+fire_only_once = yes
+	option = { # 
+		name = "We took the precautions"
+		ai_chance = { factor = 100 } 
+		add_stability=0.05
+	}
+}	
+country_event = {
+	id = fra_1789_event.20
+	title = "Failed Assassination Attempt on Napoleon Bonaparte!"
+	desc = fra_1789_event.20.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+FRA={has_completed_focus = france_1793_1799_focus_82}
+FRA={NOT={has_completed_focus = france_1793_1799_focus_82}}
+original_tag=FRA
+date > 1800.9.10 date < 1801.1.1 
+	}
+fire_only_once = yes
+	option = { # 
+		name = "YHWH SWT Be Damned!"
+		ai_chance = { factor = 100 } 
+	add_stability=-0.25
+	add_political_power=25
 	
+	}
+}	
+country_event = {
+	id = fra_1789_event.21
+	title = "The Public's Dismay with the Reign of Terror"
+	desc = fra_1789_event.21.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Opportunities have come"
+		ai_chance = { factor = 100 } 
+	add_manpower=100000
+	add_political_power=100
+	}
+}
+country_event = {
+	id = fra_1789_event.22
+	title = "Rough Earthquake in Brittany and Poitvou"
+	desc = fra_1789_event.22.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+original_tag=FRA
+date > 1799.1.25 date < 1800.1.1 
+	}
+fire_only_once = yes
+	option = { # 
+		name = "This Naturally Occured"
+		ai_chance = { factor = 100 } 
+	add_political_power=-150
+	add_stability=-0.01
+	hidden_effect={
+	random_list = {
+	10 = {	
+					14 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					14 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					14 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+		random_list = {
+	10 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+		random_list = {
+	10 = {	
+					30 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					30 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					30 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+		random_list = {
+	10 = {	
+					23 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					23 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					23 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+		random_list = {
+	10 = {	
+					932 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					932 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					932 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+		random_list = {
+	10 = {	
+					960 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					960 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					960 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+	}
+}
+	option = { # 
+		name = "Was this Weather modification?"
+		ai_chance = { factor = 0 } 
+	add_political_power=-150
+	add_stability=-0.01
+	hidden_effect={
+	random_list = {
+	10 = {	
+					14 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					14 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					14 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+		random_list = {
+	10 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+		random_list = {
+	10 = {	
+					30 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					30 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					30 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+		random_list = {
+	10 = {	
+					23 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					23 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					23 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+		random_list = {
+	10 = {	
+					932 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					932 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					932 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+		random_list = {
+	10 = {	
+					960 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = dockyard
+							level = -1
+							instant_build = yes
+						}
+					}
+	}
+		10 = {	
+					960 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = industrial_complex
+							level = -1
+							instant_build = yes
+						}
+					}
+		}
+			10 = {	
+					960 = {
+                        add_extra_state_shared_building_slots = -1
+						add_building_construction = {
+							type = arms_factory
+							level = -1
+							instant_build = yes
+						}
+					}
+			}
+				70 = {	
+				}
+	}
+	}
+	}
+}
+country_event = {
+	id = fra_1789_event.23
+	title = "The Departments of Cher and Indre rise up"
+	desc = fra_1789_event.23.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+original_tag=FRA
+date > 1796.4.1 date < 1797.1.1 
+	}
+fire_only_once = yes
+	option = { # 
+		name = "This will end badly for the province of Berry"
+		ai_chance = { factor = 100 } 
+               hidden_effect={
+		BER={
+		add_state_core = 33
+		}
+		BER={
+		transfer_state = 33
+		}
+	}
+	}
+}
+country_event = {
+	id = fra_1789_event.24
+	title = "The Departments of Cher and Indre rise up"
+	desc = fra_1789_event.24.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+date > 1796.4.8 date < 1797.1.1 
+	}
+fire_only_once = yes
+	option = { # 
+		name = "This will end badly for the province of Berry"
+		ai_chance = { factor = 100 } 
+               hidden_effect={
+                BER={add_manpower = 25000 load_oob = "BER_1793"}
+BER={
+				declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+}
+	}
+	}
+}
+country_event = {
+	id = fra_1789_event.25
+	title = "Declaration of the Rights of Man and of the Citizen"
+	desc = fra_1789_event.25.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This will be a stepping stone for total Equality and Equity"
+		ai_chance = { factor = 100 } 
+	add_stability=0.01
+	add_popularity = { ideology = democratic popularity = 0.1 }
+	}
+}
+country_event = {
+	id = fra_1789_event.26
+	title = "The Treaties of Tilsit"
+	desc = fra_1789_event.26.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+trigger = {
+original_tag = PRE
+PRE={has_country_flag=prussiacoalition}
+	has_war_with = FRA
+	PRE = {surrender_progress > 0.6 }
+}
+fire_only_once = yes
+	option = { # 
+		name = "Surrender"
+		ai_chance = { factor = 100 } 
+	add_war_support=-0.1
+	add_political_power=-150
+    FRA={set_country_flag=treatiesoftilsit}
+	}
+}
+country_event = {
+	id = fra_1789_event.27
+	title = "Peace Between France and Naples"
+	desc = fra_1789_event.27.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Peace is in both of our best interests"
+		ai_chance = { factor = 100 } 
+NAP={ leave_faction = yes}
+every_country = {
+  white_peace = NAP
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.28
+	title = "Armistice of Bologna"
+	desc = fra_1789_event.28.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+trigger = {
+original_tag = PAP
+	has_war_with = FRA
+	PAP = {surrender_progress > 0.05 }
+}
+fire_only_once = yes
+	option = { # 
+		name = "Peace is in both of our best interests"
+		ai_chance = { factor = 100 } 
+FRA={set_country_flag = armisticeofbologna_flag}
+PAP={ leave_faction = yes}
+every_country = {
+  white_peace = PAP
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.29
+	title = "The royal Flight to Varennes"
+	desc = fra_1789_event.29.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We cant let this happen again..."
+		ai_chance = { factor = 100 } 
+    add_war_support=-0.1
+	add_stability=-0.05
+	}
+	option = { # 
+		name = "Just make sure to not do it again"
+		ai_chance = { factor = 0 } 
+    add_war_support=-0.05
+	add_stability=-0.1
+	}
+}
+country_event = {
+	id = fra_1789_event.30
+	title = "The Treaties of Tilsit"
+	desc = fra_1789_event.30.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Vassalize Poland"
+		ai_chance = { factor = 100 } 
+every_state = {
+limit = {
+and={
+NOT={state=85}
+is_core_of = POL
+is_owned_by=PRE
+}
+}
+transfer_state_to = POL
+}
+		set_autonomy = {
+        target = POL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}	
+	}
+}
+country_event = {
+	id = fra_1789_event.31
+	title = "The Treaties of Tilsit"
+	desc = fra_1789_event.31.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Vassalize Hanover"
+		ai_chance = { factor = 100 } 
+every_state = {
+limit = {
+and={
+is_core_of = HAN
+is_owned_by=PRE
+}
+}
+transfer_state_to = HAN
+}
+		set_autonomy = {
+        target = HAN
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}	
+	}
+}
+country_event = {
+	id = fra_1789_event.32
+	title = "The Treaties of Tilsit"
+	desc = fra_1789_event.32.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Establish the Free City of Danzig"
+		ai_chance = { factor = 100 } 
+every_state = {
+limit = {
+state=85
+}
+DNZ={add_state_core=85}
+transfer_state_to = DNZ
+}
+		set_autonomy = {
+        target = DNZ
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}	
+	}
+}
+country_event = {
+	id = fra_1789_event.33
+	title = "The Treaties of Tilsit"
+	desc = fra_1789_event.33.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Give Magdeburg-Anhalt to Westphalia"
+		ai_chance = { factor = 100 } 
+every_country = {
+limit = {
+HSE={is_subject_of=FRA}
+}
+WTF={add_state_core=870}
+WTF={add_state_core=1029}
+WTF={annex_country = { target = HSE transfer_troops = yes }}
+}
+every_state = {
+limit = {
+or={
+state=867
+state=1200
+}
+}
+transfer_state_to = WTF
+WTF={add_state_core=867}
+WTF={add_state_core=1200}
+PRE={remove_state_core=867}
+PRE={remove_state_core=1200}
+}
+FRA={
+		set_autonomy = {
+        target = WTF
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	}
+	}
+	option = { # 
+		name = "Give Magdeburg-Anhalt to Saxony"
+		ai_chance = { factor = 0 }
+every_country = {
+limit = {
+HSE={is_subject_of=FRA}
+}
+WTF={add_state_core=870}
+WTF={add_state_core=1029}
+WTF={annex_country = { target = HSE transfer_troops = yes }}
+} 
+every_state = {
+limit = {
+or={
+state=867
+state=1200
+}
+}
+transfer_state_to = SAX
+SAX={add_state_core=867}
+SAX={add_state_core=1200}
+PRE={remove_state_core=867}
+PRE={remove_state_core=1200}
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.34
+	title = "The Treaties of Tilsit"
+	desc = fra_1789_event.34.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Ionian Islands for Bialystok"
+		ai_chance = { factor = 100 } 
+every_state = {
+limit = {
+state=97
+}
+transfer_state_to = RUS
+}
+FRA={
+		set_autonomy = {
+        target = SEP
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+	}	
+	}
+	option = { # 
+		name = "Give up the Ionian Islands? no way"
+		ai_chance = { factor = 0 } 
+add_political_power=50	
+	}
+}
+country_event = {
+	id = fra_1789_event.35
+	title = "The Treaties of Tilsit"
+	desc = fra_1789_event.35.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Becoming a French Vassal can't be too bad..."
+		ai_chance = { factor = 100 } 
+SAX={set_cosmetic_tag = SAX_kingdom}
+every_state = {
+limit = {
+state=891
+}
+transfer_state_to = SAX
+SAX={add_state_core=891}
+PRE={remove_state_core=891}
+}
+FRA={
+		set_autonomy = {
+        target = SAX
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	}	
+	}
+}
+country_event = {
+	id = fra_1789_event.36
+	title = "Choose Thugborea's Political Leader"
+	desc = fra_1789_event.36.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Yes King"
+		ai_chance = { factor = 100 } 
+promote_character = CSA_love
+add_popularity = { ideology = neutrality popularity = 1 }
+set_politics = { ruling_party = neutrality elections_allowed = no}
+		set_capital = {
+  state = 375
+  remember_old_capital = yes
+}
+hidden_effect={
+promote_character = CSA_dreamy
+promote_character = CSA_erotic
+promote_character = CSA_bosinn
+}
+	}
+	option = { # 
+		name = "It's Humpday to day"
+		ai_chance = { factor = 100 } 
+promote_character = CSA_erotic
+add_popularity = { ideology = democratic popularity = 1 }
+set_politics = { ruling_party = democratic elections_allowed = no}
+		set_capital = {
+  state = 365
+  remember_old_capital = yes
+}
+hidden_effect={
+promote_character = CSA_dreamy
+promote_character = CSA_love
+promote_character = CSA_bosinn
+}
+	}
+	option = { # 
+		name = "Ambatukam"
+		ai_chance = { factor = 100 } 
+promote_character = CSA_dreamy
+add_popularity = { ideology = communism popularity = 1 }
+set_politics = { ruling_party = communism elections_allowed = no}
+		set_capital = {
+  state = 363
+  remember_old_capital = yes
+}
+hidden_effect={
+promote_character = CSA_erotic
+promote_character = CSA_love
+promote_character = CSA_bosinn
+}
+	}
+	option = { # 
+		name = "The Snob will be sent to Nunavut"
+		ai_chance = { factor = 100 } 
+promote_character = CSA_bosinn
+add_popularity = { ideology = fascism popularity = 1 }
+set_politics = { ruling_party = fascism elections_allowed = no}
+		set_capital = {
+  state = 366
+  remember_old_capital = yes
+}
+hidden_effect={
+promote_character = CSA_dreamy
+promote_character = CSA_erotic
+promote_character = CSA_love
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.37
+	title = "Day of Daggers"
+	desc = fra_1789_event.37.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Tell the Nobles to disarm themselves"
+		ai_chance = { factor = 100 } 
+		add_political_power=150	
+	}
+	option = { # 
+		name = "Tell the Nobles to riot"
+		ai_chance = { factor = 100 } 
+		add_popularity = { ideology = neutrality popularity = 0.05 }
+		add_stability=-0.05
+		add_political_power=-150	
+	}
+}
+country_event = {
+	id = fra_1789_event.38
+	title = "Louis Philippe II, Duke of Orléans Votes for the Death of the King"
+	desc = fra_1789_event.38.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Does he not know hes next on the choping block?"
+		ai_chance = { factor = 100 } 
+		add_political_power=150	
+		VND={add_war_support=-0.05 add_popularity = { ideology = democratic popularity = -0.1 }}
+	}
+}
+country_event = {
+	id = fra_1789_event.39
+	title = "Treaty of Tolentino"
+	desc = fra_1789_event.39.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = PAP
+	has_war_with = FRA
+	PAP = {surrender_progress > 0.05 }
+}
+fire_only_once = yes
+	option = { # 
+		name = "Peace is in both of our best interests"
+		ai_chance = { factor = 100 }
+		ITA={
+		transfer_state=161
+		transfer_state=1109
+		add_state_core=161
+		add_state_core=1109
+		} 
+FRA={set_country_flag = tolentino_flag}
+PAP={ leave_faction = yes}
+every_country = {
+  white_peace = PAP
+}
+	}
+}

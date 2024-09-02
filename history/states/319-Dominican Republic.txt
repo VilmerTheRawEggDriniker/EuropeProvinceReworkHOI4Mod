@@ -26,7 +26,11 @@ state=
         }
 		1836.1.1 = {
         add_core_of = DOM
-        owner = SPR
+        owner = HAI
+        }
+		1845.1.1 = {
+        add_core_of = DOM
+        owner = DOM
         }
 		1600.1.1 = {
 		victory_points = {

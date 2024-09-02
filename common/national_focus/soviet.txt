@@ -17790,7 +17790,7 @@ ai_will_do = {
 			create_wargoal = { 
 				type = take_state_focus 
 				target = CAN 
-				generator = { 471 739 740 473 864 }
+				generator = { 471 739 740 473 }
 			}
 			create_wargoal = { 
 				type = take_state_focus 

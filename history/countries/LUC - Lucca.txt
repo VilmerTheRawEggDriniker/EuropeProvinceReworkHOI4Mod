@@ -1,4 +1,16 @@
 ﻿capital = 1108
+1765.1.1 = {
+recruit_character=LUC_ferdinandi
+promote_character=LUC_ferdinandi
+}
+1802.1.1 = {
+recruit_character=LUC_marie
+promote_character=LUC_marie
+retire_character=LUC_ferdinandi
+}
+1848.1.1 = {
+retire_character=LUC_marie
+}
 1812.1.1 = {
 set_politics = {
 	ruling_party = neutrality

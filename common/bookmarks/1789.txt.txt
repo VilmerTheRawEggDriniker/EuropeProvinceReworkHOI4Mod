@@ -11,11 +11,13 @@ bookmarks = {
 			ideology = neutrality
 			ideas={
                         feudalism
+                        aristocracy
+                        imperialunits
 			}
 			focuses = {
                         france_1793_1799_focus_1
                         france_1789_1815_first_50_focus_32
-                        france_1793_1799_focus_7
+                        france_1793_1799_focus_82
 			}
 		}
 		ENG = {
@@ -24,7 +26,6 @@ bookmarks = {
 			ideas={
 			}
 			focuses = {
-
 			}
 		}
 		SPR = {
@@ -49,9 +50,13 @@ bookmarks = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
+                        aus_extinction_of_the_house_of_habsburg
+    		        aus_vulnerable_position
 			}
 			focuses = {
-
+                        austria_1789_1815_first_100_focus_21
+                        austria_1789_1815_first_100_focus_24
+                        austria_1789_1815_first_100_focus_85
 			}
 		}
 		PRE = {
@@ -67,9 +72,13 @@ bookmarks = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
+                        russian_jewry 
+                        alleged_backwardness
 			}
 			focuses = {
-
+                        russianempire_1789_1815_first_50_focus_49
+                        russianempire_1789_1815_first_50_focus_2
+                        russianempire_1789_1815_first_50_focus_25
 			}
 		}
 		SWE = {
@@ -81,7 +90,21 @@ bookmarks = {
 
 			}
 		}
-
+		USA = {
+                        minor = yes
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        americanpatriotism
+                        extremepoverty
+                        spiritoftheamericanrevolution
+			}
+			focuses = {
+                        america_1789_1815_first_100_focus_41
+                        america_1789_1815_first_100_focus_80
+                        america_1789_1815_first_100_focus_92
+			}
+		}
 		# minors from DLC ####
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

@@ -1,9 +1,8 @@
 focus_tree = {
 	id = polish_focus
-	
+	continuous_focus_position = { x = 0000 y = 7000 }
 	country = {
 		factor = 0
-		
 		modifier = {
 			add = 10
 			tag = POL
@@ -15603,5 +15602,4 @@ focus_tree = {
 			#1x50% bonus to Naval Doctrine research
 		}
 	}
-
 }

@@ -26,25 +26,23 @@ state={
 		victory_points = {
 			11590 5 
 		}
-		victory_points = {
-			6683 2 
-		}
-				1900.1.1 = {
-				buildings = {
-			6666 = {
-				bunker = 3
+		1900.1.1 = {
+			buildings = {
+				6666 = {
+					bunker = 3
+
+				}
 
 			}
 
-		}
 		}
 
 	}
 
 	provinces={
-		6666 6683 11590 13124 
+		6666 11590 13124 
 	}
-	manpower=580000
+	manpower=655000
 	buildings_max_level_factor=1.000
 	state_category=rural
 	local_supplies=0.000

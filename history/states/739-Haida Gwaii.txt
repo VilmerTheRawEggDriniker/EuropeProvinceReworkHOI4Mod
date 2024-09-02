@@ -6,7 +6,22 @@ state={
 	history={
             owner = ZZZ
 		1700.1.1 = {
-                owner = ENG
+                owner = USA
+		add_core_of = USA
+                }
+				1789.1.1 = {
+                owner = ROD
+		add_core_of = ROD
+		remove_core_of = USA
+                }
+				1800.1.1 = {
+                owner = USA
+		add_core_of = USA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=NCR
                 }
 		1700.1.1 = {
 		buildings = {
@@ -22,12 +37,6 @@ state={
 		victory_points = {
 			9832 1 
 		}
-                }
-		1700.1.1 = {
-                }
-		1789.1.1 = {
-                owner = USA
-		add_core_of = USA
                 }
 		buildings = {
 			infrastructure = 0

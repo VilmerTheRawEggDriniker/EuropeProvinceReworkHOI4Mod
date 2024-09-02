@@ -1,4 +1,14 @@
 ﻿capital = 2
+1774.1.1 = {
+recruit_character=ITA_napoleon
+recruit_character=ITA_napoleoni
+promote_character=ITA_napoleon
+promote_character=ITA_napoleoni
+}
+1836.1.1 = {
+retire_character=ITA_napoleon
+retire_character=ITA_napoleoni
+}
 1812.1.1 = {
 set_politics = {
 	ruling_party = neutrality
@@ -730,6 +740,30 @@ set_popularities = {
 	neutrality = 5
 }
 }
+1946.1.1 = {
+set_politics = {
+	ruling_party = democratic
+	last_election = "1944.3.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+	communism = 40
+	neutrality = 10
+}
+}
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 50
+	neutrality = 50
+}
+1936.1.1 = {
 set_politics = {
 	ruling_party = fascism
 	last_election = "1934.3.26"
@@ -741,6 +775,7 @@ set_popularities = {
 	fascism = 73
 	communism = 2
 	neutrality = 5
+}
 }
 recruit_character = ITA_benito_mussolini
 recruit_character = ITA_grand_council

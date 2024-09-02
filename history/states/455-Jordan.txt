@@ -38,20 +38,10 @@ state={
 
 		}
 		1920.1.1 = {
-			owner = ISR
-			controller = ISR
+			owner = ENG
 			add_core_of = JOR
 			remove_core_of = SYR
 
-		}
-		1936.1.1 = {
-			owner = ENG
-			controller = ENG
-            }
-		1946.1.1 = {
-			owner = ISR
-			controller = ISR
-            remove_core_of = SPR
 		}
 		1947.1.1 = {
 			owner = JOR

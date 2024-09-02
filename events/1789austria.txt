@@ -1,0 +1,119 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = aus_1789_event
+
+# French Revolution
+country_event = {
+	id = aus_1789_event.1
+	title = "Form the Austrian Empire"
+	desc = aus_1789_event.1.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Formation of the Austrian Empire"
+		ai_chance = { factor = 100 } 
+		set_cosmetic_tag = AUS_empire
+		news_event = aus_1789_news.1
+
+	}
+}
+country_event = {
+	id = aus_1789_event.2
+	title = "Austrian Annexation of Bohemia"
+	desc = aus_1789_event.2.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annexation into the Austrian Empire"
+		ai_chance = { factor = 100 } 
+every_state = { #vichy north africa
+                    limit = {
+                        is_core_of = BOH
+                    }
+                    add_core_of = AUS
+                }
+AUS={annex_country = { target = BOH transfer_troops = yes }}
+	}
+	option = { # 
+		name = "Tasteless and Futile Resistance"
+		ai_chance = { factor = 0 } 
+	}
+}
+country_event = {
+	id = aus_1789_event.3
+	title = "Austrian Annexation of Galicia-Lodomeria"
+	desc = aus_1789_event.3.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annexation into the Austrian Empire"
+		ai_chance = { factor = 100 } 
+AUS={annex_country = { target = GLL transfer_troops = yes }}
+	}
+	option = { # 
+		name = "Tasteless and Futile Resistance"
+		ai_chance = { factor = 0 } 
+	}
+}
+country_event = {
+	id = aus_1789_event.4
+	title = "Austrian Annexation of Bukovina"
+	desc = aus_1789_event.4.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annexation into the Austrian Empire"
+		ai_chance = { factor = 100 } 
+AUS={annex_country = { target = BKV transfer_troops = yes }}
+	}
+	option = { # 
+		name = "Tasteless and Futile Resistance"
+		ai_chance = { factor = 0 } 
+	}
+}
+country_event = {
+	id = aus_1789_event.5
+	title = "Austrian Annexation of Hungary"
+	desc = aus_1789_event.5.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annexation into the Austrian Empire"
+		ai_chance = { factor = 100 } 
+every_state = { #vichy north africa
+                    limit = {
+                        is_core_of = HUN
+                    }
+                    add_core_of = AUS
+                }
+AUS={annex_country = { target = HUN transfer_troops = yes }}
+	}
+	option = { # 
+		name = "Tasteless and Futile Resistance"
+		ai_chance = { factor = 0 } 
+	}
+}
+country_event = {
+	id = aus_1789_event.6
+	title = "Austrian Annexation of Venice"
+	desc = aus_1789_event.6.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annexation into the Austrian Empire"
+		ai_chance = { factor = 100 } 
+AUS={annex_country = { target = VNT transfer_troops = yes }}
+	}
+	option = { # 
+		name = "Tasteless and Futile Resistance"
+		ai_chance = { factor = 0 } 
+	}
+}

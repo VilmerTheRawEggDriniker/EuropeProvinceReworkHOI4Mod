@@ -9,7 +9,18 @@ state={
 		owner = OTO
 		}
 		1900.1.1 = {
-		add_core_of = SAU
+		add_core_of = HEJ
+		}
+		1919.1.1 = {
+		add_core_of = HEJ
+		owner = HEJ
+		}
+		1920.1.1 = {
+			owner = SAU
+			controller = SAU
+			add_core_of = SAU
+			remove_core_of = HEJ
+
 		}
 		1600.1.1 = {
 		victory_points = {
@@ -36,14 +47,6 @@ state={
 				buildings = {
 			infrastructure = 0
 		}
-		1919.1.1 = {
-			owner = SAU
-			controller = SAU
-			add_core_of = SAU
-			remove_core_of = OTO
-
-		}
-
 	}
 
 	provinces={

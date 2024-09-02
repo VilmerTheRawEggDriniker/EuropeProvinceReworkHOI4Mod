@@ -1,7 +1,9 @@
+
 state={
 	id=1242
 	name="STATE_1242"
-			history={
+
+	history={
 		owner = STE
 		add_core_of = STE
 		1950.1.1 = {
@@ -47,10 +49,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
+
 	provinces={
-		13433 13435 13440 
+		13433 13440 
 	}
 	manpower=150000
 	buildings_max_level_factor=1.000

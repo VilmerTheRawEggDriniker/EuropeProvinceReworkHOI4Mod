@@ -1,4 +1,7 @@
 ﻿capital = 115
+	add_ideas = {
+        mezzogiorno
+	}
 1759.1.1 = {
 recruit_character=SIC_ferdinandi
 promote_character=SIC_ferdinandi

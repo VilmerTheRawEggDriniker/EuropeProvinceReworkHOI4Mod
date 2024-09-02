@@ -9,7 +9,7 @@ state={
 		}
 		owner = OTO
 		buildings = {
-					industrial_complex = 1
+			industrial_complex = 1
 			infrastructure = 2
 			11818 = {
 				naval_base = 3
@@ -19,8 +19,9 @@ state={
 		}
 		add_core_of = BYZ
 		1800.1.1 = {
-		add_core_of = GRE
-		remove_core_of = BYZ
+			add_core_of = GRE
+			remove_core_of = BYZ
+
 		}
 		1914.1.1 = {
 			owner = GRE
@@ -32,7 +33,7 @@ state={
 	}
 
 	provinces={
-		895 3936 11818 13694 
+		895 11818 13694 
 	}
 	manpower=1000000
 	buildings_max_level_factor=1.000

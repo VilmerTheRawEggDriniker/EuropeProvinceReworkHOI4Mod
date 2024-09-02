@@ -7,6 +7,11 @@ state={
 		owner = GEN
 				add_core_of = GEN
 		1750.1.1 = {
+		add_core_of = COR
+		owner = FRA
+		remove_core_of = GEN
+		}
+		1801.1.1 = {
 		add_core_of = FRA
 		owner = FRA
 		remove_core_of = GEN
@@ -19,7 +24,6 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
-			industrial_complex = 1
 			3838 = {
 				naval_base = 3
 

@@ -1,5 +1,23 @@
 ﻿capital = 1087
-1690.1.1 = {
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1836.1.1 }
+	add_ideas = {
+wonthegamble
+	}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1799.1.1 }
+	set_autonomy = {
+        target = INS
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1689.1.1 = {
 recruit_character=HOL_kingwilliamoforangeisaslutforbigjewishcock
 promote_character=HOL_kingwilliamoforangeisaslutforbigjewishcock
 }
@@ -151,21 +169,10 @@ if = {
 }
 # DIPLOMACY
 1700.1.1 = {
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
 	set_autonomy = {
 		target = INS
 		autonomous_state = autonomy_integrated_puppet
 	}
-	else = {
-		puppet = INS
-	}
-}
 }
 1946.1.1 = {
 	set_autonomy = {

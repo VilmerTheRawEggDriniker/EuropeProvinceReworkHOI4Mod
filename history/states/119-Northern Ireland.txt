@@ -5,9 +5,10 @@ state={
 
 	history={
 		owner = IRE
-	    1660.1.1 = {
+	    1700.1.1 = {
 			owner = ENG
 			controller = ENG
+			add_core_of=ENG
 					add_core_of = NIR
 
 		}
@@ -25,7 +26,6 @@ state={
 				naval_base = 4
 			}
 		}
-		add_core_of = ENG
 		add_core_of = IRE
 	}
 

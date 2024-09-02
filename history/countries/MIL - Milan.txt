@@ -1,5 +1,26 @@
 ﻿capital = 159
-set_oob = "MIL_1789"
+1765.8.18 = {
+recruit_character=MIL_josephiimil
+promote_character=MIL_josephiimil
+}
+1790.2.20 = {
+recruit_character=MIL_leopoldiimil
+promote_character=MIL_leopoldiimil
+retire_character=MIL_josephiimil
+}
+1792.3.1 = {
+recruit_character=MIL_francisiimil
+promote_character=MIL_francisiimil
+retire_character=MIL_leopoldiimil
+}
+1835.3.2 = {
+recruit_character=MIL_ferdinandimil
+promote_character=MIL_ferdinandimil
+retire_character=MIL_francisiimil
+}
+1848.12.2 = {
+retire_character=MIL_ferdinandimil
+}
 1740.1.1 = {
 set_cosmetic_tag = MIL_AUS #austrian puppet
 }

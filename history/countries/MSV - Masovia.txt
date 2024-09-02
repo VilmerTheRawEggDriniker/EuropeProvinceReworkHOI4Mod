@@ -1,5 +1,35 @@
 ﻿capital = 10
-
+1747.1.1 = {
+recruit_character=MSV_tadeusz
+promote_character=MSV_tadeusz
+}
+1818.1.1 = {
+retire_character=MSV_tadeusz
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1836.1.1 }
+set_oob = "MSV_1789"
+}
+}
+1789.1.1 = {
+		set_capital = {
+  state = 88
+  remember_old_capital = no
+}
+}
+1836.1.1 = {
+		set_capital = {
+  state = 10
+  remember_old_capital = no
+}
+}
+1789.1.1 = {
+set_cosmetic_tag = MSV_POL_LIT # ksoyiscncnscco uprising
+}
+1836.1.1 = {
+set_cosmetic_tag = MSV #
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

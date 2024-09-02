@@ -1,4 +1,7 @@
 ﻿capital = 158
+	add_ideas = {
+        mezzogiornotwo
+	}
 1773.1.1 = {
 recruit_character=SPM_victoramadeusiii
 promote_character=SPM_victoramadeusiii

@@ -42,14 +42,15 @@ state={
 
 		}
 		1800.1.1 = {
-		victory_points = {
-			11670 20 
-		}
+			victory_points = {
+				11670 20 
+			}
+
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-						dockyard = 1
+			dockyard = 1
 			11670 = {
 				naval_base = 3
 
@@ -60,7 +61,7 @@ state={
 			buildings = {
 				infrastructure = 3
 				industrial_complex = 1
-							dockyard = 1
+				dockyard = 1
 				air_base = 6
 				11670 = {
 					naval_base = 3
@@ -71,7 +72,7 @@ state={
 			}
 
 		}
-				1919.1.1 = {
+		1919.1.1 = {
 			owner = UKR
 			controller = UKR
 			add_core_of = UKR
@@ -97,7 +98,7 @@ state={
 	}
 
 	provinces={
-		754 3575 9714 11670 13587 13596 13600 13601 13604 13617 
+		754 3575 9714 11670 13587 13596 13600 13601 13604 
 	}
 	manpower=1500000
 	buildings_max_level_factor=1.000

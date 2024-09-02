@@ -7,9 +7,32 @@ state={
 
 	history={
 		owner = ZZZ
+		1800.1.1 = {
+		victory_points = {
+			870 5
+		}
+}
 		1789.1.1 = {
+                owner = NWT
+		add_core_of = NWT
+                }
+				1812.1.1 = {
+                owner = IDA
+		add_core_of = IDA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=NCR
+                }
+						1813.1.1 = {
                 owner = USA
 		add_core_of = USA
+		remove_core_of=UNO
+		remove_core_of=SWT
+		remove_core_of=NWT
+		remove_core_of=ROD
+		remove_core_of=IDA
                 }
 		1821.1.1 = {
 		victory_points = {

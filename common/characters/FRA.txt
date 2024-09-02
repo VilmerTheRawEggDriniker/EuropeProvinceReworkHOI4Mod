@@ -1,4 +1,36 @@
 characters={
+	FRA_talleyrand={
+		name=FRA_CHARACTER_TALLEYRAND
+		portraits={
+                        army={
+				small="GFX_idea_fra_talleyrand_small"
+			}
+			civilian = {
+				large = GFX_portrait_fra_talleyrand_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FRA_talleyrand
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+                        has_completed_focus = france_1793_1799_focus_81
+		        }
+			traits  = {
+				prestigious_self_serving_foreign_minister 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}	
 	FRA_louisxvi={
 		name=FRA_CHARACTER_LOUISXVI
 		portraits={
@@ -10,6 +42,118 @@ characters={
 			ideology=despotism
 			traits={Bourbon}
 			desc = FRA_LOUISXVI_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_max={
+		name=FRA_CHARACTER_MAX
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_max_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+            traits={hardlineleftist}
+			desc = FRA_MAX_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_ruhl={
+		name=FRA_CHARACTER_RUHL
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_ruhl_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			
+			desc = FRA_RUHL_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_marie={
+		name=FRA_CHARACTER_MARIE
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_marie_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			
+			desc = FRA_MARIE_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_emmanuel={
+		name=FRA_CHARACTER_EMMANUEL
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_emmanuel_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			
+			desc = FRA_EMMANUEL_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_rewbell={
+		name=FRA_CHARACTER_REWBELL
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_rewbell_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			
+			desc = FRA_REWBELL_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_barras={
+		name=FRA_CHARACTER_BARRAS
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_barras_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			
+			desc = FRA_BARRAS_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_herbois={
+		name=FRA_CHARACTER_HERBOIS
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_herbois_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			
+			desc = FRA_HERBOIS_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_lafayette={
+		name=FRA_CHARACTER_LAFAYETTE
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_lafayette_large"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			
+			desc = FRA_LAFAYETTE_DESC
 			expire="1797.1.1"
 		}
 }

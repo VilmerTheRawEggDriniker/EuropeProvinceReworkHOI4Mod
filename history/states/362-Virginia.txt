@@ -6,7 +6,8 @@ state={
 	history={
             owner = ZZZ
 		1700.1.1 = {
-                owner = ENG
+                owner = USA
+		add_core_of = USA
                 }
 		1700.1.1 = {
 		buildings = {
@@ -22,7 +23,7 @@ state={
 			788 10 
 		}
 		victory_points = {
-			10412 10 
+			10412 15
 		}
 		victory_points = {
 			11873 2

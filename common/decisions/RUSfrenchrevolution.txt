@@ -1,0 +1,46 @@
+RUS_frenchrevolution = {
+	HRE_hungary_russia_protectorate_war_peace = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+		HUN={is_subject_of=RUS}
+		or={
+		has_country_leader = { character = RUS_pauli }
+		has_country_leader = { character = RUS_alexanderi }
+		has_country_leader = { character = RUS_konstantinpavlovich }
+		has_country_leader = { character = RUS_nicholasi }
+		}
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1900.1.1 
+			original_tag=RUS
+			NOT = { has_global_flag = hungary_russia_protectorate_peace_flag }
+		}
+
+		complete_effect = {
+		set_autonomy = {
+        target = HUN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	    }
+		HUN={
+		promote_character=HUN_mikhail
+		set_cosmetic_tag = HUN_RUS
+        set_party_name = { ideology = neutrality long_name = HUN_ROS_neutrality_party_long name = HUN_ROS_neutrality_party }
+		}
+		hidden_effect={set_global_flag = hungary_russia_protectorate_peace_flag}
+		}
+	}
+}

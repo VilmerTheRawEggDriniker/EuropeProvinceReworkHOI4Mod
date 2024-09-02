@@ -118,6 +118,20 @@
  AUS_democratic_party_long:0 "Sozialdemokratische Partei Österreichs"
  AUS_fascism_party:1 "Vaterländische Front"
  AUS_neutrality_party:1 "House of Habsburg"
+
+ CSA_thugs_neutrality_party:1 "House of Loveandlighttv"
+ CSA_thugs_fascism_party:1 "Thugborean Oligarchy"
+ CSA_thugs_democratic_party:1 "The Barbershop"
+ CSA_thugs_communism_party:1 "Ambatukam"
+
+
+
+
+
+
+
+
+
  SIL_neutrality_party:1 "House of Habsburg"
  BOH_neutrality_party:1 "House of Habsburg"
  MRV_neutrality_party:1 "House of Habsburg"
@@ -137,7 +151,7 @@
  AUH_neutrality_party:1 "House of Habsburg-Lorraine"
  GLL_neutrality_party:1 "House of Habsburg-Lorraine"
  BKV_neutrality_party:1 "House of Habsburg-Lorraine"
- MAS_neutrality_party:1 "House of Habsburg-Lorraine"
+ MAS_neutrality_party:1 "House of Este"
  MOD_neutrality_party:1 "House of Este"
  PAS_neutrality_party:1 "House of Auersperg"
  TRR_neutrality_party:1 "House of Wettin"
@@ -156,9 +170,10 @@
  MUS_neutrality_party:1 "House of Rurikovich"
  LCT_neutrality_party:1 "House of Liechtenstein"
  OTO_neutrality_party:1 "House of Osman"
- SHL_neutrality_party:0 "House of Glücksburg"
- HLS_neutrality_party:0 "House of Glücksburg"
+ SHL_neutrality_party:0 "House of Oldenburg"
+ HLS_neutrality_party:0 "House of Oldenburg"
  HAN_neutrality_party:0 "House of Hanover"
+ OSN_neutrality_party:0 "House of Hanover"
  BRU_neutrality_party:0 "House of Brunswick-Bevern"
  MEK_neutrality_party:0 "House of Mecklenburg-Schwerin"
  STR_neutrality_party:0 "House of Mecklenburg-Strelitz"
@@ -166,7 +181,10 @@
  WUR_neutrality_party:0 "House of Württemberg"
  BAY_neutrality_party:0 "House of Wittelsbach"
  PFZ_neutrality_party:0 "House of Wittelsbach"
+ JUL_neutrality_party:0 "House of Wittelsbach"
+ BRG_neutrality_party:0 "House of Wittelsbach"
  ZWE_neutrality_party:0 "House of Wittelsbach"
+ SAA_neutrality_party:0 "House of Nassau"
  PRE_neutrality_party:0 "House of Hohenzollern"
  BAD_neutrality_party:0 "House of Zähringen"
  OLD_neutrality_party:0 "House of Oldenburg"
@@ -187,6 +205,7 @@
  LUC_neutrality_party:0 "House of Bourbon-Parma"
  PRV_neutrality_party:0 "House of Bourbon"
  BUR_neutrality_party:0 "House of Bourbon"
+ LIP_neutrality_party:0 "House of Lippe"
  CHI_communism_party:0 "CPC"
  CHI_communism_party_long:0 "Communist Party of China"
  CHI_democratic_party:0 "China Democratic League"
@@ -514,6 +533,8 @@
  DEN_WIT_neutrality_party_long:0 "House of Wittelsbach"
  DEN_OLD_neutrality_party:0 "House of Oldenburg"
  DEN_OLD_neutrality_party_long:0 "House of Oldenburg"
+ SXL_OLD_neutrality_party:0 "House of Oldenburg"
+ SXL_OLD_neutrality_party_long:0 "House of Oldenburg"
  DEN_GLU_neutrality_party:0 "House of Glücksburg"
  DEN_GLU_neutrality_party_long:0 "House of Glücksburg"
  NOR_WIT_neutrality_party:0 "House of Wittelsbach"
@@ -528,6 +549,10 @@
  MOD_ETE_neutrality_party_long:0 "House of Este"
  MOD_LOR_neutrality_party:0 "House of Habsburg-Este"
  MOD_LOR_neutrality_party_long:0 "House of Habsburg-Este"
+ MAS_ETE_neutrality_party:0 "House of Este"
+ MAS_ETE_neutrality_party_long:0 "House of Este"
+ MAS_LOR_neutrality_party:0 "House of Habsburg-Este"
+ MAS_LOR_neutrality_party_long:0 "House of Habsburg-Este"
  IRE_neutrality_party:0 "House of Stuart"
  IRE_neutrality_party_long:0 "House of Stuart"
  SCO_neutrality_party:0 "House of Stuart"
@@ -546,6 +571,8 @@
  RUS_GOD_neutrality_party_long:0 "House of Godunov"
  RUS_ROM_neutrality_party:0 "House of Romanov"
  RUS_ROM_neutrality_party_long:0 "House of Romanov"
+ HUN_ROS_neutrality_party:0 "House of Holstein-Gottorp-Romanov"
+ HUN_ROS_neutrality_party_long:0 "House of Holstein-Gottorp-Romanov"
  RUS_ROS_neutrality_party:0 "House of Holstein-Gottorp-Romanov"
  RUS_ROS_neutrality_party_long:0 "House of Holstein-Gottorp-Romanov"
  FIN_ROS_neutrality_party:0 "House of Holstein-Gottorp-Romanov"
@@ -566,6 +593,8 @@
  FRA_BOU_neutrality_party_long:0 "House of Bourbon
  FRA_BON_neutrality_party:0 "House of Bonaparte"
  FRA_BON_neutrality_party_long:0 "House of Bonaparte"
+ ITA_BON_neutrality_party:0 "House of Bonaparte"
+ ITA_BON_neutrality_party_long:0 "House of Bonaparte"
  FRA_ORL_neutrality_party:0 "House of Orléans"
  FRA_ORL_neutrality_party_long:0 "House of Orléans"
  VND_neutrality_party:0 "House of Bourbon"
@@ -810,7 +839,7 @@ POL_PON_neutrality_party_long:1 "House of Poniatowski"
  PAL_democratic_party_long:0 "Supreme Muslim Council"
  PAL_neutrality_party:0 "Loyalists"
  ISR_communism_party:0 "Maki"
- ISR_democratic_party:0 "Mapai"
+ ISR_democratic_party:0 "Likud"
  ISR_fascism_party:0 "Helpam"
  ISR_neutrality_party:0 "Central Council"
  VIN_fascism_party:0 "Vietnamese Restoration League" #or Reformation Society   

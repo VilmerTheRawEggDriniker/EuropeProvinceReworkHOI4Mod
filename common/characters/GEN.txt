@@ -1,0 +1,28 @@
+characters={
+	GEN_maria={
+		name=GEN_CHARACTER_MARIA
+		portraits={
+			civilian={
+				large="GFX_portrait_gen_maria_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = GEN_MARIA_DESC
+			expire="1797.1.1"
+		}
+}
+	GEN_michelangelo={
+		name=GEN_CHARACTER_MICHELANGELO
+		portraits={
+			civilian={
+				large="GFX_portrait_gen_michelangelo_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = GEN_MICHELANGELO_DESC
+			expire="1797.1.1"
+		}
+}
+}

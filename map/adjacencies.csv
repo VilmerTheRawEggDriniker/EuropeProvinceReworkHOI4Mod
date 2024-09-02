@@ -27,7 +27,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13480;13486;sea;13477;-1;-1;-1;-1;;Rhineland
 11560;589;sea;13477;-1;-1;-1;-1;;Rhineland
 3558;6542;sea;13477;-1;-1;-1;-1;;Rhineland
+549;3530;sea;13848;-1;-1;-1;-1;;Rhineland
+9503;6712;sea;13848;-1;-1;-1;-1;;Rhineland
 
+11465;13336;sea;503;-1;-1;-1;-1;;Nantes
 
 
 
@@ -85,6 +88,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11901;11735;;5786;-1;-1;-1;-1;;Zara-Istria
 11564;11735;;5786;-1;-1;-1;-1;;Fiume-Istria
 13318;3868;sea;5838;-1;-1;-1;-1;;SouthDalmatia-NorthDalmatia
+6889;3868;sea;5838;-1;-1;-1;-1;;SouthDalmatia-NorthDalmatia
 185;6201;sea;1885;-1;-1;-1;-1;;Ösel-Dagö
 83;6201;sea;1660;-1;-1;-1;-1;;Dagö-Estonia
 6891;3838;sea;5579;-1;-1;-1;-1;;Sardinia-Corsica
@@ -323,11 +327,43 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 9909;3959;impassable;-1;-1;-1;-1;-1;;alps
 9909;11891;impassable;-1;-1;-1;-1;-1;;alps
 3772;11891;impassable;-1;-1;-1;-1;-1;;alps
+
+3612;9603;impassable;-1;-1;-1;-1;-1;;alps
+3612;611;impassable;-1;-1;-1;-1;-1;;alps
+9587;611;impassable;-1;-1;-1;-1;-1;;alps
+9587;14553;impassable;-1;-1;-1;-1;-1;;alps
+6635;14553;impassable;-1;-1;-1;-1;-1;;alps
+6635;11570;impassable;-1;-1;-1;-1;-1;;alps
+14564;11570;impassable;-1;-1;-1;-1;-1;;alps
+14564;14565;impassable;-1;-1;-1;-1;-1;;alps
+3641;14565;impassable;-1;-1;-1;-1;-1;;alps
+9600;14565;impassable;-1;-1;-1;-1;-1;;alps
+9600;14548;impassable;-1;-1;-1;-1;-1;;alps
+9600;9584;impassable;-1;-1;-1;-1;-1;;alps
+9600;14566;impassable;-1;-1;-1;-1;-1;;alps
+9600;6661;impassable;-1;-1;-1;-1;-1;;alps
+3641;6661;impassable;-1;-1;-1;-1;-1;;alps
+14569;6661;impassable;-1;-1;-1;-1;-1;;alps
+3662;6661;impassable;-1;-1;-1;-1;-1;;alps
+3662;11587;impassable;-1;-1;-1;-1;-1;;alps
+6675;3660;impassable;-1;-1;-1;-1;-1;;alps
+6675;11587;impassable;-1;-1;-1;-1;-1;;alps
+6631;11587;impassable;-1;-1;-1;-1;-1;;alps
+6631;14555;impassable;-1;-1;-1;-1;-1;;alps
+6631;11568;impassable;-1;-1;-1;-1;-1;;alps
 9738;14538;impassable;-1;-1;-1;-1;-1;;alps
 611;14538;impassable;-1;-1;-1;-1;-1;;alps
 611;764;impassable;-1;-1;-1;-1;-1;;alps
 14553;11570;impassable;-1;-1;-1;-1;-1;;alps
 14553;3782;impassable;-1;-1;-1;-1;-1;;alps
+9738;14536;impassable;-1;-1;-1;-1;-1;;alps
+9738;3782;impassable;-1;-1;-1;-1;-1;;alps
+
+3660;661;impassable;-1;-1;-1;-1;-1;;alps
+658;661;impassable;-1;-1;-1;-1;-1;;alps
+14569;661;impassable;-1;-1;-1;-1;-1;;alps
+14569;14582;impassable;-1;-1;-1;-1;-1;;alps
+14569;636;impassable;-1;-1;-1;-1;-1;;alps
 
 
 
@@ -348,40 +384,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13327;13330;impassable;-1;-1;-1;-1;-1;;alps
 3604;13330;impassable;-1;-1;-1;-1;-1;;alps
 
-3612;9603;impassable;-1;-1;-1;-1;-1;;alps
-3612;611;impassable;-1;-1;-1;-1;-1;;alps
-3612;14553;impassable;-1;-1;-1;-1;-1;;alps
-9587;14553;impassable;-1;-1;-1;-1;-1;;alps
-9587;11570;impassable;-1;-1;-1;-1;-1;;alps
-14564;11570;impassable;-1;-1;-1;-1;-1;;alps
-14564;14565;impassable;-1;-1;-1;-1;-1;;alps
-636;14565;impassable;-1;-1;-1;-1;-1;;alps
-3641;14565;impassable;-1;-1;-1;-1;-1;;alps
-3641;607;impassable;-1;-1;-1;-1;-1;;alps
-
-9600;607;impassable;-1;-1;-1;-1;-1;;alps
-9600;9584;impassable;-1;-1;-1;-1;-1;;alps
-14569;9584;impassable;-1;-1;-1;-1;-1;;alps
-14569;6661;impassable;-1;-1;-1;-1;-1;;alps
-658;6661;impassable;-1;-1;-1;-1;-1;;alps
-3662;6661;impassable;-1;-1;-1;-1;-1;;alps
-3662;14566;impassable;-1;-1;-1;-1;-1;;alps
-3662;11587;impassable;-1;-1;-1;-1;-1;;alps
-14569;14582;impassable;-1;-1;-1;-1;-1;;alps
-3660;6675;impassable;-1;-1;-1;-1;-1;;alps
-
-3660;6678;impassable;-1;-1;-1;-1;-1;;alps
+3660;9633;impassable;-1;-1;-1;-1;-1;;alps
 3660;14590;impassable;-1;-1;-1;-1;-1;;alps
 3660;6680;impassable;-1;-1;-1;-1;-1;;alps
 661;6680;impassable;-1;-1;-1;-1;-1;;alps
-
-6631;14566;impassable;-1;-1;-1;-1;-1;;alps
-6631;11587;impassable;-1;-1;-1;-1;-1;;alps
-6631;11568;impassable;-1;-1;-1;-1;-1;;alps
-6675;11587;impassable;-1;-1;-1;-1;-1;;alps
-661;3660;impassable;-1;-1;-1;-1;-1;;alps
-661;658;impassable;-1;-1;-1;-1;-1;;alps
-661;14569;impassable;-1;-1;-1;-1;-1;;alps
 
 3711;14061;impassable;-1;-1;-1;-1;-1;;alps
 3711;14060;impassable;-1;-1;-1;-1;-1;;alps
@@ -400,6 +406,20 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11595;6626;impassable;-1;-1;-1;-1;-1;;alps
 3631;6626;impassable;-1;-1;-1;-1;-1;;alps
 6673;6626;impassable;-1;-1;-1;-1;-1;;alps
+
+14616;688;impassable;-1;-1;-1;-1;-1;;alps
+14616;14615;impassable;-1;-1;-1;-1;-1;;alps
+14616;14595;impassable;-1;-1;-1;-1;-1;;alps
+6691;14595;impassable;-1;-1;-1;-1;-1;;alps
+14588;14595;impassable;-1;-1;-1;-1;-1;;alps
+3674;14595;impassable;-1;-1;-1;-1;-1;;alps
+3674;3675;impassable;-1;-1;-1;-1;-1;;alps
+671;3675;impassable;-1;-1;-1;-1;-1;;alps
+11615;3675;impassable;-1;-1;-1;-1;-1;;alps
+11615;14597;impassable;-1;-1;-1;-1;-1;;alps
+
+9630;14597;impassable;-1;-1;-1;-1;-1;;alps
+9630;11618;impassable;-1;-1;-1;-1;-1;;alps
 
 
 
@@ -426,8 +446,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 13565;6679;impassable;-1;-1;-1;-1;-1;;carpathian
 13567;6679;impassable;-1;-1;-1;-1;-1;;carpathian
 13567;6709;impassable;-1;-1;-1;-1;-1;;carpathian
-13567;13667;impassable;-1;-1;-1;-1;-1;;carpathian
-13568;13667;impassable;-1;-1;-1;-1;-1;;carpathian
+13568;6709;impassable;-1;-1;-1;-1;-1;;carpathian
+11592;14228;impassable;-1;-1;-1;-1;-1;;carpathian
 
 
 9932;9886;impassable;-1;-1;-1;-1;-1;;trebizond
@@ -455,22 +475,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 14576;9633;impassable;-1;-1;-1;-1;-1;;alps
 14576;14587;impassable;-1;-1;-1;-1;-1;;alps
 14576;11618;impassable;-1;-1;-1;-1;-1;;alps
-9630;11618;impassable;-1;-1;-1;-1;-1;;alps
-9630;14594;impassable;-1;-1;-1;-1;-1;;alps
-11615;14594;impassable;-1;-1;-1;-1;-1;;alps
-11615;14597;impassable;-1;-1;-1;-1;-1;;alps
-11615;3675;impassable;-1;-1;-1;-1;-1;;alps
 
-671;3675;impassable;-1;-1;-1;-1;-1;;alps
-14595;3675;impassable;-1;-1;-1;-1;-1;;alps
-14595;14605;impassable;-1;-1;-1;-1;-1;;alps
-14595;14602;impassable;-1;-1;-1;-1;-1;;alps
-14588;14602;impassable;-1;-1;-1;-1;-1;;alps
-14598;14602;impassable;-1;-1;-1;-1;-1;;alps
-6691;14602;impassable;-1;-1;-1;-1;-1;;alps
-14616;14602;impassable;-1;-1;-1;-1;-1;;alps
-14616;14615;impassable;-1;-1;-1;-1;-1;;alps
-14616;688;impassable;-1;-1;-1;-1;-1;;alps
 
 
 

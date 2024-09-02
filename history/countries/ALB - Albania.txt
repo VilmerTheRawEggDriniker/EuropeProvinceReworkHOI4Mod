@@ -1,4 +1,36 @@
 ﻿capital = 44
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1813.1.1 }
+		set_capital = {
+  state = 185
+  remember_old_capital = yes
+}
+}
+}
+1820.1.1 = {
+		set_capital = {
+  state = 44
+  remember_old_capital = no
+}
+}
+1789.1.1 = {
+recruit_character=ALB_alipasha
+promote_character=ALB_alipasha
+}
+1823.1.1 = {
+retire_character=ALB_alipasha
+}
+1923.1.1 = {
+recruit_character=ALB_king_zog
+promote_character=ALB_king_zog
+}
+1789.1.1 = {
+set_cosmetic_tag = ALB_GRE # Ionia
+}
+1836.1.1 = {
+set_cosmetic_tag = ALB # Regular Albania
+}
 1936.1.1 = {
 OOB = "ALB_1936"
 }
@@ -13,7 +45,6 @@ set_technology = {
 	tech_recon = 1
 }
 }
-recruit_character = ALB_king_zog
 recruit_character = ALB_enver_hoxha
 recruit_character = ALB_xhemal_aranitasi
 recruit_character = ALB_eqrem_belishi

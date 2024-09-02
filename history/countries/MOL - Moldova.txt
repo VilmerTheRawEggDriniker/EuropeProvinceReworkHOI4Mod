@@ -1,5 +1,45 @@
 ﻿capital = 79
 1789.1.1 = {
+recruit_character=MOL_emanuel
+promote_character=MOL_emanuel
+recruit_character=MOL_alexander
+recruit_character=MOL_michael
+recruit_character=MOL_callimachi
+recruit_character=MOL_constantine
+recruit_character=MOL_alexandros
+recruit_character=MOL_scarlat
+recruit_character=MOL_hangerli
+recruit_character=MOL_soutzos
+recruit_character=MOL_ypsilantis
+recruit_character=MOL_stefan
+recruit_character=MOL_ioan
+recruit_character=MOL_mihail
+}
+1800.1.1 = {
+promote_character=MOL_constantine
+}
+1812.1.1 = {
+promote_character=MOL_ypsilantis
+}
+1836.1.1 = {
+promote_character=MOL_mihail
+}
+1900.1.1 = {
+retire_character=MOL_emanuel
+retire_character=MOL_alexander
+retire_character=MOL_michael
+retire_character=MOL_callimachi
+retire_character=MOL_constantine
+retire_character=MOL_alexandros
+retire_character=MOL_scarlat
+retire_character=MOL_hangerli
+retire_character=MOL_soutzos
+retire_character=MOL_ypsilantis
+retire_character=MOL_stefan
+retire_character=MOL_ioan
+retire_character=MOL_mihail
+}
+1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1837.1.1 }
 set_oob = "MOL_1789"

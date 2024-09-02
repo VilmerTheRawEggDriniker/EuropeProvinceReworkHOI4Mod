@@ -149,7 +149,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			modifier = {
+			targeted_modifier = {
 			tag = MEX
 			attack_bonus_against = 0.1
 			defense_bonus_against = 0.1
@@ -168,7 +168,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			modifier = {
+			targeted_modifier = {
 			tag = MEX
 			attack_bonus_against = 0.2
 			defense_bonus_against = 0.2
@@ -186,7 +186,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			modifier = {
+			targeted_modifier = {
 			tag = MEX
 			attack_bonus_against = 0.3
 			defense_bonus_against = 0.3
@@ -204,7 +204,7 @@ ideas = {
 			}
 			removal_cost = -1
 			
-			modifier = {
+			targeted_modifier = {
 			tag = MEX
 			attack_bonus_against = 0.4
 			defense_bonus_against = 0.4

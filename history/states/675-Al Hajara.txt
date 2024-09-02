@@ -7,11 +7,13 @@ state={
 		owner = ZZZ
 		buildings = {
 			infrastructure = 0
+
 		}
 		1900.1.1 = {
-		owner = OTO
-		add_core_of = IRQ
-                }
+			owner = OTO
+			add_core_of = IRQ
+
+		}
 		1919.1.1 = {
 			owner = ENG
 			controller = ENG
@@ -28,10 +30,11 @@ state={
 	}
 
 	provinces={
-		1631 4951 10744 13720 
+		1631 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
+	impassable = yes
 	local_supplies=0.000
 }

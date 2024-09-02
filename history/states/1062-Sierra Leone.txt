@@ -7,7 +7,7 @@ state={
 	history={
 		owner = ZZZ
 		1900.1.1 = {
-                owner = FRA
+                owner = SEN
 		add_core_of = GNA
                 }
 		1970.1.1 = {

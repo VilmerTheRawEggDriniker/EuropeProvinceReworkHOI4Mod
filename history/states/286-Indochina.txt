@@ -7,9 +7,18 @@ state={
 
 	history={
 		owner = ZZZ
-		1900.1.1 = {
-		owner = FRA
+		1789.1.1 = {
+		owner = VIN
 		add_core_of = VIN
+                }
+				1960.1.1 = {
+		owner = SVI
+		add_core_of = SVI
+                }
+						1975.1.1 = {
+		owner = VIN
+		add_core_of = VIN
+		remove_core_of = SVI
                 }
 		1900.1.1 = {
 		victory_points = {

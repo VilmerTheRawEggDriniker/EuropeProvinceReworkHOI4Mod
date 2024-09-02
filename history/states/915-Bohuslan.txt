@@ -28,15 +28,16 @@ state={
 
 		}
 		1527.1.1 = {
-		victory_points = {
-			3757 2 
-		}
+			victory_points = {
+				3757 2 
+			}
+
 		}
 		buildings = {
 			infrastructure = 1
 
 		}
-				1919.1.1 = {
+		1919.1.1 = {
 			owner = UKR
 			controller = UKR
 			add_core_of = UKR
@@ -49,6 +50,7 @@ state={
 			controller = SOV
 			remove_core_of = RUS
 			add_core_of = SOV
+
 		}
 		1945.1.1 = {
 			owner = SOV
@@ -68,7 +70,7 @@ state={
 	}
 
 	provinces={
-		3757 13609 
+		3757 
 	}
 	manpower=200000
 	buildings_max_level_factor=1.000

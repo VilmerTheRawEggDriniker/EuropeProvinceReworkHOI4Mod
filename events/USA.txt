@@ -2003,9 +2003,5 @@ country_event = {
 
 	option = {
 		name = usa.179.a
-		add_trait = {
-			character = USA_donald_trump
-			trait = assassination_survivor
-		}
 	}
 }

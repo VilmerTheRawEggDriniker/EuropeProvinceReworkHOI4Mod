@@ -7,9 +7,24 @@ set_politics = {
 	elections_allowed = no
 }
 }
+1777.1.1 = {
+recruit_character=BRG_charlestheodore
+promote_character=BRG_charlestheodore
+}
+1800.1.1 = {
+recruit_character=BRG_maximilianijoseph
+promote_character=BRG_maximilianijoseph
+retire_character=BRG_charlestheodore
+}
+1801.1.1 = {
+recruit_character=BRG_ludwigi
+promote_character=BRG_ludwigi
+retire_character=BRG_maximilianijoseph
+}
 1807.1.1 = {
 recruit_character=BRG_joachimmurat
 promote_character=BRG_joachimmurat
+retire_character=BRG_ludwigi
 }
 1808.1.1 = {
 recruit_character=BRG_napoleon

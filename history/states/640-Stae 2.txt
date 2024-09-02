@@ -15,7 +15,7 @@ state={
 			controller = ENG
 
 		}
-		1948.1.1 = {
+		1937.1.1 = {
 			owner = BRM
 			controller = BRM
 			add_core_of = BRM

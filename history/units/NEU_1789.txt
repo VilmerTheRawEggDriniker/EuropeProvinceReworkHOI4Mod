@@ -19,7 +19,7 @@ units = {
 	#Neuchatel Army
 	division = {
 		name = "Neuchatel Division"
-		location = 9622
+		location = 6683
 		division_template = "Neuchatel Division"
 		start_experience_factor = 0.3
 	}

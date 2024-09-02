@@ -1,0 +1,89 @@
+performance = {
+performance_south_america = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1936.1.1 date < 1936.1.2
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+        date > 1936.1.1 date < 1936.1.2 
+		}
+
+		complete_effect = {
+	    WLA = {
+		annex_country = { target = BRA transfer_troops = no }
+		annex_country = { target = ARG transfer_troops = no }
+		annex_country = { target = URG transfer_troops = no }
+		annex_country = { target = PAR transfer_troops = no }
+		annex_country = { target = CHL transfer_troops = no }
+		annex_country = { target = BOL transfer_troops = no }
+		annex_country = { target = PRU transfer_troops = no }
+		annex_country = { target = ECU transfer_troops = no }
+		annex_country = { target = COL transfer_troops = no }
+		annex_country = { target = VEN transfer_troops = no }
+		annex_country = { target = PAN transfer_troops = no }
+		annex_country = { target = COS transfer_troops = no }
+		annex_country = { target = NIC transfer_troops = no }
+		annex_country = { target = HON transfer_troops = no }
+		annex_country = { target = GUA transfer_troops = no }
+		annex_country = { target = ELS transfer_troops = no }
+		annex_country = { target = MEX transfer_troops = no }
+		annex_country = { target = HAI transfer_troops = no }
+		annex_country = { target = DOM transfer_troops = no }
+		annex_country = { target = CUB transfer_troops = no }
+	    } 
+		}
+	}
+}
+performance = {
+performance_colonies = {
+		icon = ger_reichskommissariats
+				
+		available = {
+		has_capitulated = no
+		date > 1936.1.1 date < 1936.1.2
+			}
+		cost = 0
+		ai_will_do = {
+			factor = -6000000
+			modifier = {
+				add = -6000000
+			}
+		}
+
+		visible = {
+		not={original_tag=ZZZ}
+        date > 1936.1.1 date < 1936.1.2 
+		}
+
+		complete_effect = {
+		BEL = {
+		annex_country = { target = COG transfer_troops = no }
+	    } 
+		FRA = {
+		annex_country = { target = SYR transfer_troops = no }
+		annex_country = { target = LEB transfer_troops = no }
+		annex_country = { target = MOR transfer_troops = no }
+		annex_country = { target = TUN transfer_troops = no }
+		annex_country = { target = SEN transfer_troops = no }
+		annex_country = { target = CMR transfer_troops = no }
+		annex_country = { target = RCG transfer_troops = no }
+		annex_country = { target = VIN transfer_troops = no }
+	    } 
+		ENG = {
+		annex_country = { target = EGY transfer_troops = no }
+		annex_country = { target = ISR transfer_troops = no }
+	    } 
+		}
+	}
+}

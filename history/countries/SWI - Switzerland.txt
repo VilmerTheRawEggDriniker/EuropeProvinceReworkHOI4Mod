@@ -1,4 +1,64 @@
 ﻿capital = 3
+1789.1.1 = {
+NEU={
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 50
+	neutrality = 50
+}
+}
+}
+1789.1.1 = {
+BSL={
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1444.11.11"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	democratic = 50
+	neutrality = 50
+}
+}
+}
+1444.11.11 = {
+			if = {
+		limit = { has_start_date < 1799.1.1 }
+	set_autonomy = {
+        target = VAL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = GRI
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = NEU
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1444.11.11 = {
+			if = {
+		limit = { has_start_date < 1501.1.1 }
+	set_autonomy = {
+        target = SFF
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
 1812.1.1 = {
 set_politics = {
 	ruling_party = neutrality

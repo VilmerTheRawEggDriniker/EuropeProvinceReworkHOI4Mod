@@ -5,10 +5,6 @@ state={
 
 	history={
 		owner = EGY
-		1936.1.1 = {
-			owner = ENG
-			controller = ENG
-            }
 					1600.1.1 = {
 		owner = OTO
 		}

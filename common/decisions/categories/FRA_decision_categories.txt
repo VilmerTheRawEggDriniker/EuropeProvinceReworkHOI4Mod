@@ -1,7 +1,32 @@
 ################
 ##### FRA ######
 ################
+BAY_wittelsbach = {
+	icon = power_struggle
+	allowed = {
+	}
+}
+USA_admission = {
+	icon = power_struggle
+	allowed = {
+	}
+}
+FRA_naturalborder = {
+	icon = power_struggle
+	allowed = {
+	}
+}
 division_limit_system = {
+	icon = power_struggle
+	allowed = {
+	}
+}
+performance = {
+	icon = power_struggle
+	allowed = {
+	}
+}
+RUS_frenchrevolution = {
 	icon = power_struggle
 	allowed = {
 	}

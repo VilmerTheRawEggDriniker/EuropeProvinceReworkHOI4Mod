@@ -1,4 +1,16 @@
 ﻿capital = 893
+1770.1.1 = {
+recruit_character=SHL_christianvii
+promote_character=SHL_christianvii
+}
+1808.1.1 = {
+recruit_character=SHL_frederickvi
+promote_character=SHL_frederickvi
+retire_character=SHL_christianvii
+}
+1840.1.1 = {
+retire_character=SHL_frederickvi
+}
 set_technology = {
 	infantry_weapons = 1
 	

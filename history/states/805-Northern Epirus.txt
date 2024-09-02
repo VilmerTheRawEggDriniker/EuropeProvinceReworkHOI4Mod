@@ -15,6 +15,12 @@ state={
 		1500.1.1 = {
                 owner = OTO
                 }
+								1789.1.1 = {
+                owner = ALB
+                }
+				1823.1.1 = {
+                owner = OTO
+                }
 		1913.1.1 = {
 			owner = ALB
 			controller = ALB

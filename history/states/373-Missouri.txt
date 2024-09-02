@@ -32,9 +32,14 @@ state={
 		add_core_of = LOU
         }
 		1803.1.1 = {
+        owner = MRI
+        add_core_of = MRI
+		remove_core_of = LOU
+        }
+				1836.1.1 = {
         owner = USA
         add_core_of = USA
-		remove_core_of = LOU
+		remove_core_of = MRI
         }
 		1803.1.1 = {
 		buildings = {

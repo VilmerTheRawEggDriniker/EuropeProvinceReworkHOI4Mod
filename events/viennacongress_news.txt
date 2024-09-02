@@ -1,0 +1,43 @@
+﻿###########################
+# News Events
+###########################
+
+add_namespace = viennacongress_news
+
+		news_event = {
+	id = viennacongress_news.1
+	title = "The Treaty of Fontainebleau"
+	desc = viennacongress_news.1.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "Finally the War is over..."
+			}
+		option = {
+		name = "We still have Territorial Disputes to deal with."
+			}
+		}
+
+		news_event = {
+	id = viennacongress_news.2
+	title = "The Congress of Vienna"
+	desc = viennacongress_news.2.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "We have Saxony to deal with!"
+			}
+		option = {
+		name = "We have Poland to deal with!"
+			}
+		}

@@ -1,5 +1,7 @@
 ﻿capital = 116
-
+	add_ideas = {
+        mezzogiorno
+	}
 #oob = ""
 
 # Starting tech

@@ -7,6 +7,13 @@ state={
 
 	history={
 		owner = ZZZ
+		1920.1.1 = {
+        owner = RCG
+		add_core_of = CHA
+        }
+		1939.1.1 = {
+        owner = RCG
+		}
 		1900.1.1 = {
 			owner = LBA
 			controller = LBA
@@ -14,8 +21,6 @@ state={
 		add_core_of = CHA
 		}
 		1920.1.1 = {
-			owner = FRA
-			controller = FRA
 		remove_core_of = LBA
 
 		}

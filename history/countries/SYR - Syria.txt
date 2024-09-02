@@ -1,4 +1,4 @@
-capital = 554
+﻿capital = 554
 
 # Starting tech
 set_technology = {
@@ -115,18 +115,5 @@ create_country_leader = {
 	ideology = leninism
 	traits = {
 		#
-	}
-}
-
-2024.1.1 = {
-	set_province_controller = 13743
-	set_province_controller = 6883
-	declare_war_on = {
-		target = KUR
-    		type = annex_everything
-	}
-	declare_war_on = {
-		target = SAR
-    		type = annex_everything
 	}
 }

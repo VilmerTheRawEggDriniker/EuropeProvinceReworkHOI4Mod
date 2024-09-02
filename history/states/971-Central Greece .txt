@@ -13,6 +13,12 @@ state={
 		add_core_of = GRE
 		remove_core_of = EPI
 		}
+						1789.1.1 = {
+                owner = ALB
+                }
+				1823.1.1 = {
+                owner = OTO
+                }
 		1836.1.1 = {
 		owner = GRE
 		}

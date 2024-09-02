@@ -6,11 +6,13 @@ state={
 	history={
 		owner = BOS
 		add_core_of = BOS
-								1945.1.1 = {
-		owner = CRO
+		1945.1.1 = {
+			owner = CRO
+
 		}
 		1946.1.1 = {
-		owner = YUG
+			owner = YUG
+
 		}
 		1500.1.1 = {
 			owner = OTO
@@ -53,7 +55,7 @@ state={
 	}
 
 	provinces={
-		606 982 9588 11741 13827 
+		606 982 9588 11741 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

@@ -44,18 +44,13 @@ state={
 
 		}
 		1936.1.1 = {
-			owner = FRA
-			controller = FRA
-
-		}
+			owner = SYR
+            }
 		1945.1.1 = {
 			owner = SYR
 			controller = SYR
 			remove_core_of = SPR
 
-		}
-		2024.1.1 = {
-			add_core_of = SAR
 		}
 
 	}

@@ -1,5 +1,7 @@
 ﻿capital = 114
-
+	add_ideas = {
+        mezzogiorno
+	}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

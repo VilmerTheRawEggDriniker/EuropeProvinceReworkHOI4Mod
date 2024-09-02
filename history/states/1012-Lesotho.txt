@@ -4,7 +4,7 @@ state={
 	history={
 		owner = ZZZ
 		1900.1.1 = {
-		add_core_of = SAF
+		add_core_of = LES
                 owner = ENG
                 }
 		1900.1.1 = {
@@ -13,8 +13,8 @@ state={
 		}
 		}
 				1966.1.1 = {
-        owner = SAF
-		add_core_of = SAF
+        owner = LES
+		add_core_of = LES
         }
 		buildings = {
 			infrastructure = 0

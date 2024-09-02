@@ -8,7 +8,7 @@ state={
 		add_core_of = DEN
 		owner = DEN
 		}
-		1700.1.1 = {
+		1689.1.1 = {
 		owner = SWE
                 add_core_of = SWE
                 remove_core_of = NOR

@@ -9,14 +9,6 @@ state={
 	history={
 		owner = BRB
 		add_core_of = BRB
-						1789.1.1 = {
-			set_demilitarized_zone = yes
-
-		}
-		1790.1.1 = {
-			set_demilitarized_zone = no
-
-		}
 				1789.1.1 = {
 		buildings = {
 		6598 = {bunker = 2}

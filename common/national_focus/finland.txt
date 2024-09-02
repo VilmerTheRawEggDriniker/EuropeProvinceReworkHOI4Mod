@@ -1321,7 +1321,7 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				prioritize = { 149 926 111 } #VAASA TURKU UUSIMAA (Helsinki)
+				prioritize = { 149 149 111 } #VAASA TURKU UUSIMAA (Helsinki)
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
@@ -1442,11 +1442,11 @@ focus_tree = {
 			# KYMI (Only if Naval Base)
 			if = {
 				limit = {
-					928 = {
+					149 = {
 						naval_base > 0
 					}
 				}
-				928 = { #KYMI
+				149 = { #KYMI
 					add_building_construction = { #Coastal Bunker in Kotka
 						type = coastal_bunker
 						level = 4
@@ -1499,7 +1499,7 @@ focus_tree = {
 			}
 
 			#TURKU
-			926 = {
+			149 = {
 				add_building_construction = { #Coastal Bunker in Turku
 					type = coastal_bunker
 					level = 4
@@ -3262,9 +3262,6 @@ focus_tree = {
 			666 = { #NORRBOTTEN
 				add_core_of = ROOT
 			}
-			925 = { #FINNMARK
-				add_core_of = ROOT
-			}
 
 			if = {
 				limit = {
@@ -4326,10 +4323,7 @@ focus_tree = {
 			count_triggers = {
 				amount = 6
 				controls_state = 666 #NORRBOTTEN
-				controls_state = 918 #VÄSTERBOTTEN
 				controls_state = 144 #NORDLAND
-				controls_state = 924 #TROMS
-				controls_state = 925 #FINNMARK
 				controls_state = 213 #MURMANSK
 				controls_state = 215 #ONEGA
 				controls_state = 216 #OLONETS
@@ -4358,19 +4352,13 @@ focus_tree = {
 			666 = { #NORRBOTTEN
 				add_core_of = ROOT
 			}
-			925 = { #FINNMARK
-				add_core_of = ROOT
-			}
 
 			if = {
 				limit = {
 					any_controlled_state = {
 						OR = {
 							state = 666
-							state = 918
 							state = 144
-							state = 924
-							state = 925
 							state = 213
 							state = 215
 							state = 216
@@ -4387,10 +4375,7 @@ focus_tree = {
 					limit = {
 						OR = {
 							state = 666
-							state = 918
 							state = 144
-							state = 924
-							state = 925
 							state = 213
 							state = 215
 							state = 216
@@ -4471,10 +4456,7 @@ focus_tree = {
 		bypass = {
 			is_subject = no
 			controls_state = 666 #NORRBOTTEN
-			controls_state = 918 #VÄSTERBOTTEN
 			controls_state = 144 #NORDLAND
-			controls_state = 924 #TROMS
-			controls_state = 925 #FINNMARK
 		}
 
 		available = {
@@ -4494,16 +4476,6 @@ focus_tree = {
 				}
 				
 				#VÄSTERBOTTEN
-				918 = {
-					controller = {
-						if = {
-							limit = {
-								NOT = { is_in_array = { ROOT.target_countries = THIS } }
-							}
-							add_to_array = { ROOT.target_countries = THIS }
-						}
-					}
-				}
 
 				#NORDLAND
 				144 = {
@@ -4518,29 +4490,8 @@ focus_tree = {
 				}
 
 				#TROMS
-				924 = {
-					controller = {
-						if = {
-							limit = {
-								NOT = { is_in_array = { ROOT.target_countries = THIS } }
-							}
-							add_to_array = { ROOT.target_countries = THIS }
-						}
-					}
-				}
 
 				#FINNMARK
-				925 = {
-					controller = {
-						if = {
-							limit = {
-								NOT = { is_in_array = { ROOT.target_countries = THIS } }
-							}
-							add_to_array = { ROOT.target_countries = THIS }
-						}
-					}
-				}
-
 				for_each_scope_loop = {
 					array = ROOT.target_countries			
 					country_event = { id = AAT_finland_diplomacy.08 hours =  1 }
@@ -4873,15 +4824,15 @@ focus_tree = {
 			#Railway to Pori and Rauma and Naval Base in Pori
 			if = {
 				limit = {
-					has_full_control_of_state = 926 #TURKU
+					has_full_control_of_state = 149 #TURKU
 				}
 				if = {
 					limit = {
-						926 = {
+						149 = {
 							naval_base < 10
 						}
 					}
-					926 = {
+					149 = {
 						add_extra_state_shared_building_slots = 1
 						add_building_construction = {
 							type = naval_base
@@ -4929,7 +4880,7 @@ focus_tree = {
 					controls_province = 136 #Varkaus
 					controls_province = 11043
 				}
-				930 = { #MIKKELI
+				150 = { #MIKKELI
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = supply_node
@@ -7068,9 +7019,6 @@ focus_tree = {
 				add_core_of = ROOT
 			}
 			666 = { #NORRBOTTEN
-				add_core_of = ROOT
-			}
-			925 = { #FINNMARK
 				add_core_of = ROOT
 			}
 
@@ -9611,9 +9559,9 @@ focus_tree = {
 			#TURKU
 			if = {
 				limit = {
-					controls_state = 926
+					controls_state = 149
 				}
-				926 = {
+				149 = {
 					create_unit = {
 						division = "division_template = \"Suojeluskunta\" start_experience_factor = 0.7 start_equipment_factor = 1.0"
 						owner = ROOT
@@ -9639,9 +9587,9 @@ focus_tree = {
 			#MIKKELI
 			if = {
 				limit = {
-					controls_state = 930
+					controls_state = 150
 				}
-				930 = {
+				150 = {
 					create_unit = {
 						division = "division_template = \"Suojeluskunta\" start_experience_factor = 0.7 start_equipment_factor = 1.0"
 						owner = ROOT
@@ -9666,16 +9614,6 @@ focus_tree = {
 
 			#OULU
 			if = {
-				limit = {
-					controls_state = 929
-				}
-				929 = {
-					create_unit = {
-						division = "division_template = \"Suojeluskunta\" start_experience_factor = 0.7 start_equipment_factor = 1.0"
-						owner = ROOT
-						count = 1
-					}
-				}
 			}
 		}
 	}
@@ -9893,7 +9831,7 @@ focus_tree = {
 		cost = 10
 		available = {
 			has_full_control_of_state = 111 #UUSIMAA (Helsinki)
-			has_full_control_of_state = 926 #TURKU
+			has_full_control_of_state = 149 #TURKU
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -9910,7 +9848,7 @@ focus_tree = {
 			}
 
 			#TURKU
-			926 = {
+			149 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = infrastructure
@@ -9927,9 +9865,9 @@ focus_tree = {
 			#HÄME
 			if = {
 				limit = {
-					has_full_control_of_state = 927
+					has_full_control_of_state = 150
 				}
-				927 = { #HÄME
+				150 = { #HÄME
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = infrastructure
@@ -9955,9 +9893,9 @@ focus_tree = {
 			#KYME
 			if = {
 				limit = {
-					has_full_control_of_state = 928
+					has_full_control_of_state = 149
 				}
-				928 = { #KYME
+				149 = { #KYME
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = infrastructure
@@ -9975,8 +9913,8 @@ focus_tree = {
 
 				if = {
 					limit = {
-						has_full_control_of_state = 930
-						has_full_control_of_state = 927
+						has_full_control_of_state = 150
+						has_full_control_of_state = 150
 					}
 					# Helsinki - Hämeenlinna - Lahti - Kouvola - Kotka
 					build_railway = {
@@ -10009,9 +9947,9 @@ focus_tree = {
 			#MIKKELI
 			if = {
 				limit = {
-					has_full_control_of_state = 930
+					has_full_control_of_state = 150
 				}
-				930 = { #MIKKELI
+				150 = { #MIKKELI
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = infrastructure
@@ -10059,7 +9997,7 @@ focus_tree = {
 			}
 			else = {
 				random_owned_state = {
-					prioritize = { 928 } #KYME
+					prioritize = { 149 } #KYME
 					limit = {
 						is_controlled_by = ROOT
 					}
@@ -10074,9 +10012,9 @@ focus_tree = {
 			#TURKU
 			if = {
 				limit = {
-					controls_state = 926
+					controls_state = 149
 				}
-				926 = { #TURKU
+				149 = { #TURKU
 					add_extra_state_shared_building_slots = 2
 					add_building_construction = {
 						type = industrial_complex
@@ -10255,13 +10193,13 @@ focus_tree = {
 		relative_position_id = FIN_janiskoski_power_plant
 		cost = 5
 		available = {
-			has_full_control_of_state = 928 #KYME
+			has_full_control_of_state = 149 #KYME
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			928 = { #KYME
+			149 = { #KYME
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -10287,13 +10225,12 @@ focus_tree = {
 		cost = 5
 		available = {
 			has_tech = excavation3
-			has_full_control_of_state = 929 #OULU
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			929 = { #OULU
+			149 = { #OULU
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -10373,7 +10310,7 @@ focus_tree = {
 			}
 
 			random_core_state = {
-				prioritize = { 927 } #HÄME (Tampere)
+				prioritize = { 150 } #HÄME (Tampere)
 				limit = {
 					is_fully_controlled_by = ROOT
 					free_building_slots = {
@@ -10393,7 +10330,7 @@ focus_tree = {
 			}
 
 			random_core_state = {
-				prioritize = { 930 } #MIKKELI
+				prioritize = { 150 } #MIKKELI
 				limit = {
 					is_fully_controlled_by = ROOT
 					free_building_slots = {
@@ -10424,7 +10361,7 @@ focus_tree = {
 		relative_position_id = FIN_industrial_development
 		cost = 10
 		available = {
-			has_full_control_of_state = 927 #HÄME (Tampere - Nokia)
+			has_full_control_of_state = 150 #HÄME (Tampere - Nokia)
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_RESEARCH FOCUS_FILTER_INDUSTRY }
@@ -10446,7 +10383,7 @@ focus_tree = {
 			else = {
 				custom_effect_tooltip = FIN_tire_factory_at_nokia_tech_tt
 				effect_tooltip = {
-					927 = {
+					150 = {
 						add_extra_state_shared_building_slots = 3
 						custom_effect_tooltip = FIN_tire_factory_at_nokia_add_synthetic_refineries_tt
 					}
@@ -10573,13 +10510,13 @@ focus_tree = {
 		relative_position_id = FIN_tire_factory_at_nokia
 		cost = 5
 		available = {
-			has_full_control_of_state = 926 #TURKU
+			has_full_control_of_state = 149 #TURKU
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			926 = { #TURKU
+			149 = { #TURKU
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = industrial_complex
@@ -10652,9 +10589,9 @@ focus_tree = {
 			#OULU Chromium
 			if = {
 				limit = {
-					controls_state = 929
+					controls_state = 149
 				}
-				929 = {
+				149 = {
 					add_resource = {
 						type = chromium
 						amount = 2
@@ -10665,9 +10602,9 @@ focus_tree = {
 			#TURKU Chromium
 			if = {
 				limit = {
-					controls_state = 926
+					controls_state = 149
 				}
-				926 = {
+				149 = {
 					add_resource = {
 						type = chromium
 						amount = 2
@@ -10763,13 +10700,13 @@ focus_tree = {
 		relative_position_id = FIN_tire_factory_at_nokia
 		cost = 10
 		available = {
-			has_full_control_of_state = 926 #TURKU (Pori)
+			has_full_control_of_state = 149 #TURKU (Pori)
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			926 = { #TURKU (Pori)
+			149 = { #TURKU (Pori)
 				add_extra_state_shared_building_slots = 3
 				add_building_construction = {
 					type = industrial_complex
@@ -12333,8 +12270,8 @@ focus_tree = {
 			if = {
 				limit = {
 					has_full_control_of_state = 146 #KARJALA
-					has_full_control_of_state = 928 #KYME
-					has_full_control_of_state = 930 #MIKKELI
+					has_full_control_of_state = 149 #KYME
+					has_full_control_of_state = 150 #MIKKELI
 				}
 				146 = {
 					#Viipuri
@@ -12345,7 +12282,7 @@ focus_tree = {
 						province = 9206
 					}
 				}
-				928 = {
+				149 = {
 					#Lappeenranta
 					add_building_construction = {
 						type = bunker
@@ -12360,7 +12297,7 @@ focus_tree = {
 						province = 52
 					}
 				}
-				930 = {
+				150 = {
 					add_building_construction = {
 						type = bunker
 						level = 2
@@ -12526,12 +12463,12 @@ focus_tree = {
 			# TURKU (Pori)
 			if = {
 				limit = {
-					controls_state = 926
-					926 = {
+					controls_state = 149
+					149 = {
 						air_base < 9
 					}
 				}
-				926 = {
+				149 = {
 					add_building_construction = {
 						type = air_base
 						level = 2
@@ -12543,12 +12480,12 @@ focus_tree = {
 			#KYME (Kouvola)
 			if = {
 				limit = {
-					controls_state = 928
-					928 = {
+					controls_state = 149
+					149 = {
 						air_base < 9
 					}
 				}
-				928 = {
+				149 = {
 					add_building_construction = {
 						type = air_base
 						level = 2
@@ -14403,7 +14340,7 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				prioritize = { 926 111 149 } #TURKU HELSINKI VAASA
+				prioritize = { 149 111 149 } #TURKU HELSINKI VAASA
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -14695,7 +14632,7 @@ focus_tree = {
 						include_locked = yes
 					}
 				}
-				prioritize = { 926 111 149 } #TURKU HELSINKI VAASA
+				prioritize = { 149 111 149 } #TURKU HELSINKI VAASA
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
 					type = dockyard
@@ -15051,10 +14988,10 @@ focus_tree = {
 
 			if = {
 				limit = {
-					has_full_control_of_state = 926
+					has_full_control_of_state = 149
 				}
 				#TURKU
-				926 = {
+				149 = {
 					add_building_construction = {
 						type = naval_base
 						level = 2
@@ -15135,10 +15072,10 @@ focus_tree = {
 				
 			if = {
 				limit = {
-					has_full_control_of_state = 929
+					has_full_control_of_state = 149
 				}
 				#OULU
-				929 = {
+				149 = {
 					add_building_construction = {
 						type = naval_base
 						level = 2
@@ -15166,7 +15103,7 @@ focus_tree = {
 		relative_position_id = FIN_suomen_merivoimat
 		cost = 5
 		available = {
-			has_full_control_of_state = 926
+			has_full_control_of_state = 149
 		}
 
 		search_filters = { FOCUS_FILTER_HISTORICAL FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH }
@@ -15180,7 +15117,7 @@ focus_tree = {
 
 			if = {
 				limit = {
-					926 = {
+					149 = {
 						free_building_slots = {
 							building = dockyard
 							size > 0
@@ -15188,7 +15125,7 @@ focus_tree = {
 						}
 					}
 				}
-				926 = {
+				149 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard
@@ -15226,7 +15163,7 @@ focus_tree = {
 		available = {
 			OR = {
 				has_full_control_of_state = 111 #UUSIMAA (Helsinki)
-				has_full_control_of_state = 928 #KYME (Kotka)
+				has_full_control_of_state = 149 #KYME (Kotka)
 				has_full_control_of_state = 149 #VAASA (Vaasa)
 			}
 		}
@@ -15261,7 +15198,7 @@ focus_tree = {
 			#KYME (Kotka)
 			if = {
 				limit = {
-					928 = {
+					149 = {
 						free_building_slots = {
 							building = dockyard
 							size > 0
@@ -15269,7 +15206,7 @@ focus_tree = {
 						}
 					}
 				}
-				928 = {
+				149 = {
 					add_extra_state_shared_building_slots = 1
 					add_building_construction = {
 						type = dockyard

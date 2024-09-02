@@ -25,10 +25,20 @@ state={
         owner = MEX
 		add_core_of = LOU
         }
-		1803.1.1 = {
+		1812.1.1 = {
+        owner = MRI
+		add_core_of = MRI
+		remove_core_of=LOU
+        }
+		1815.1.1 = {
+        owner = ARK
+		add_core_of = ARK
+		remove_core_of = MRI
+        }
+		1837.1.1 = {
         owner = USA
-        add_core_of = USA
-		remove_core_of = LOU
+		add_core_of = USA
+		remove_core_of = ARK
         }
 		1803.1.1 = {
 		buildings = {

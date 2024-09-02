@@ -26,6 +26,7 @@ set_cosmetic_tag = HUN #independent
 1765.1.1 = {
 recruit_character=HUN_josephiihun
 promote_character=HUN_josephiihun
+recruit_character=HUN_mikhail
 }
 1790.1.1 = {
 recruit_character=HUN_leopoldiihun
@@ -49,6 +50,7 @@ retire_character=HUN_ferdinandihun
 retire_character=HUN_miklos_horthy
 }
 1936.1.1 = {
+add_manpower = 100000
 oob = "HUN_1936"
 if = {
 	limit = { has_dlc = "By Blood Alone" }

@@ -1,5 +1,21 @@
 ﻿capital = 690
-
+1777.1.1 = {
+recruit_character=JUL_charlestheodore
+promote_character=JUL_charlestheodore
+}
+1800.1.1 = {
+recruit_character=JUL_maximilianijoseph
+promote_character=JUL_maximilianijoseph
+retire_character=JUL_charlestheodore
+}
+1825.1.1 = {
+recruit_character=JUL_ludwigi
+promote_character=JUL_ludwigi
+retire_character=JUL_maximilianijoseph
+}
+1849.1.1 = {
+retire_character=JUL_ludwigi
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -1,4 +1,10 @@
 ﻿capital = 448
+1837.1.1 = {
+set_cosmetic_tag = LBA_senussi # 
+}
+1920.1.1 = {
+set_cosmetic_tag = LBA
+}
 1900.1.1 = {
 		set_capital = {
   state = 999

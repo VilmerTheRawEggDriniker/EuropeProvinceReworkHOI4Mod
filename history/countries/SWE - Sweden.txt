@@ -182,7 +182,7 @@ set_party_name = { ideology = neutrality long_name = SWE_WIT_neutrality_party_lo
 1600.1.1 = {
 set_party_name = { ideology = neutrality long_name = SWE_VAS_neutrality_party_long name = SWE_VAS_neutrality_party }
 }
-1700.1.1 = {
+1689.1.1 = {
 set_party_name = { ideology = neutrality long_name = SWE_WIT_neutrality_party_long name = SWE_WIT_neutrality_party }
 }
 1789.1.1 = {

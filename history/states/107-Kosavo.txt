@@ -7,18 +7,6 @@ state={
 		owner = HUN
 		add_core_of = SER
 		1500.1.1 = {
-			owner = OTO
-
-		}
-				1789.1.1 = {
-			owner = SER
-
-		}
-		1791.1.1 = {
-			owner = OTO
-
-		}
-		1812.1.1 = {
 			owner = SER
 
 		}

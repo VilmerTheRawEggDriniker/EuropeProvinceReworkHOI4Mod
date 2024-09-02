@@ -1100,7 +1100,6 @@ GER_reichskommissariats = {
 			controls_state = 17
 			controls_state = 18
 			controls_state = 27
-			controls_state = 864
 		}
 
 		cost = 0
@@ -1137,7 +1136,6 @@ GER_reichskommissariats = {
 				state = 17
 				state = 18
 				state = 27
-				state = 864
 
 
 							}
@@ -1163,7 +1161,6 @@ GER_reichskommissariats = {
 				set_state_controller = 17
 				set_state_controller = 18
 				set_state_controller = 27
-				set_state_controller = 864
 				GER = {
 					puppet = PREV
 					set_autonomy = { target = PREV autonomy_state = autonomy_integrated_puppet }

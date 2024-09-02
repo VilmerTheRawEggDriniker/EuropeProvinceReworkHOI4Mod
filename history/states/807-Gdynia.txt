@@ -17,11 +17,13 @@ state={
 			remove_core_of = TEU
 
 		}
-												1945.1.1 = {
-		owner = GER
+		1945.1.1 = {
+			owner = GER
+
 		}
 		1946.1.1 = {
-		owner = POL
+			owner = POL
+
 		}
 		1789.1.1 = {
 			owner = PRE
@@ -86,7 +88,7 @@ state={
 	}
 
 	provinces={
-		334 389 3324 9263 13437 13439 13444 13449 
+		334 389 3324 9263 13437 13439 13442 13444 13449 
 	}
 	manpower=400000
 	buildings_max_level_factor=1.000

@@ -11,7 +11,6 @@ state={
 		add_core_of = QAR
 		1500.1.1 = {
 			owner = OTO
-			controller = OTO
 			add_core_of = OTO
 			remove_core_of = ALY
 			remove_core_of = KRM
@@ -23,6 +22,14 @@ state={
 			remove_core_of = EGY
 
 		}
+				1705.1.1 = {
+			owner = IRQ
+		remove_core_of = OTO
+		}
+		1832.1.1 = {
+			owner = OTO
+		add_core_of = OTO
+		}
 		victory_points = {
 			2097 20 
 		}
@@ -33,6 +40,7 @@ state={
 			infrastructure = 2
 			arms_factory = 1
 			industrial_complex = 1
+
 		}
 		add_core_of = IRQ
 		1919.1.1 = {
@@ -48,13 +56,13 @@ state={
 
 		}
 		1936.1.1 = {
-		buildings = {
-			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 1
-			air_base = 4
+			buildings = {
+				infrastructure = 2
+				arms_factory = 1
+				industrial_complex = 1
+				air_base = 4
 
-		}
+			}
 
 		}
 

@@ -31,7 +31,7 @@ state={
 			infrastructure = 2
 
 		}
-				1919.1.1 = {
+		1919.1.1 = {
 			owner = UKR
 			controller = UKR
 			add_core_of = UKR
@@ -57,7 +57,7 @@ state={
 	}
 
 	provinces={
-		1239 1402 7332 7335 9423 9435 10290 
+		1239 1402 7332 7335 9423 9435 10290 13609 
 	}
 	manpower=300000
 	buildings_max_level_factor=1.000

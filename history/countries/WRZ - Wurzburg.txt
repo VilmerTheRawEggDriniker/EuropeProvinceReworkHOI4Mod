@@ -1,7 +1,17 @@
 ﻿capital = 868
+1789.1.1 = {
+recruit_character=WRZ_franz
+promote_character=WRZ_franz
+}
+1794.1.1 = {
+recruit_character=WRZ_chris
+promote_character=WRZ_chris
+retire_character=WRZ_franz
+}
 1805.1.1 = {
 recruit_character=WRZ_ferdinandiii
 promote_character=WRZ_ferdinandiii
+retire_character=WRZ_chris
 }
 1815.1.1 = {
 retire_character=WRZ_ferdinandiii

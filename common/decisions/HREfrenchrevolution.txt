@@ -21,6 +21,7 @@ HRE_frenchrevolution = {
 
 		visible = {
 			date > 1812.1.1 date < 1816.1.1 
+original_tag=PRE
 			NOT = { has_global_flag = prussia_russia_patriotic_peace_flag }
 		}
 
@@ -60,6 +61,7 @@ HRE_frenchrevolution = {
 
 		visible = {
 			date > 1812.1.1 date < 1816.1.1 
+original_tag=AUS
 			NOT = { has_global_flag = austria_russia_patriotic_peace_flag }
 		}
 
@@ -73,6 +75,50 @@ every_country = {
 }
 
 		hidden_effect={set_global_flag = austria_russia_patriotic_peace_flag}
+		}
+	}
+}
+BAY_wittelsbach = {
+	BAY_wittelsbach_mannheim = {
+
+		icon = ger_reichskommissariats
+
+		available = {
+		date > 1789.1.1 date < 1836.1.1 
+		has_capitulated = no
+		original_tag=BAY
+		FRA={has_war_with = PFZ}
+		or={
+		FRA={controls_state = 1162}
+		FRA={controls_state = 880}
+                PFZ={is_subject_of = FRA}
+		}
+		PFZ={owns_state = 1162}
+		PFZ={owns_state = 880}
+                
+		}
+
+		cost = 0
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				add = 1
+			}
+		}
+
+		visible = {
+			date > 1789.1.1 date < 1836.1.1 
+			NOT = { has_global_flag =  bavaria_annex_mannheim_flag }
+                original_tag=BAY
+		}
+
+		complete_effect = {
+		transfer_state = 1162
+		add_state_core = 1162
+		PFZ={
+		remove_state_core = 1162
+		}
+		hidden_effect={set_global_flag = bavaria_annex_mannheim_flag}
 		}
 	}
 }

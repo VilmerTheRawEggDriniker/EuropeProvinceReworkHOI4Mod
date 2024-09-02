@@ -1,4 +1,4 @@
-###########################
+﻿###########################
 # French Events
 ###########################
 
@@ -2116,34 +2116,4 @@ news_event = {
 			}
 		}
 	}
-}
-
-news_event = {
-	id = france.35
-	title = france.35.title
-	desc = france.35.desc
-	
-	picture = GFX_news_event_degaulle_churchill
-	
-	is_triggered_only = no
-
-	trigger = {
-		has_elections = yes
-		any_neighbor_country = {
-			limit = {
-				is_major = yes
-			}
-			has_government = fascism
-		}
-		original_tag = FRA
-		NOT = {
-			has_start_date > 1936.1.1
-		}
-	}
-	
-	option = {
-		name = france.35.a
-		set_country_flag = france1936scenario
-	}
-
 }

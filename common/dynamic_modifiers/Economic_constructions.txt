@@ -1,5 +1,0 @@
-nocacao = { # on Region
-	state_production_speed_plantation_cacao_factor = -10	
-	icon = GFX_modifiers_generic_military_plans
-
-}

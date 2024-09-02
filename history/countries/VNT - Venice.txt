@@ -1,16 +1,16 @@
 ﻿capital = 160
 1800.1.1 = {
-set_cosmetic_tag = BOH_AUS #austrian puppet
+set_cosmetic_tag = VNT_AUS #austrian puppet
 }
 1805.1.1 = {
-set_cosmetic_tag = BOH #independent
+set_cosmetic_tag = VNT #independent
 }
 1789.1.1 = {
 recruit_character=VNT_paolorenier
+recruit_character=VNT_lodovicomanin
 promote_character=VNT_paolorenier
 }
 1790.1.1 = {
-recruit_character=VNT_lodovicomanin
 promote_character=VNT_lodovicomanin
 retire_character=VNT_paolorenier
 }

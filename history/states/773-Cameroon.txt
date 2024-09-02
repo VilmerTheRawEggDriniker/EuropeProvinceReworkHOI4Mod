@@ -25,8 +25,7 @@ state={
                 owner = GER
                 }
 		1919.1.1 = {
-			owner = FRA
-			controller = FRA
+			owner = CMR
 		}
 		1936.1.1 = {
 		buildings = {
@@ -39,7 +38,7 @@ state={
 
 		}
                 }
-						1961.1.1 = {
+						1939.1.1 = {
                 owner = CMR
 		add_core_of = CMR
                 }

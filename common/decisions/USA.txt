@@ -2632,6 +2632,7 @@ USA_intervention_mandate = {
 			
 		}
 		visible = {
+                date > 1937.1.1
 			OR = {
 				has_country_flag = USA_china_window
 				OR = {

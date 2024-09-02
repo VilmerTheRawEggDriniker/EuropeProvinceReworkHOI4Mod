@@ -1,6 +1,6 @@
 division_limit_system = {
 	division_limit_system_one = {
-
+cost = 100
 		icon = ger_reichskommissariats
 				
 		available = {
@@ -8,39 +8,57 @@ division_limit_system = {
 has_equipment = { infantry_equipment > 9599}
 has_manpower > 100000
 not={has_army_manpower = { size > 95000 }}
-
-if = {
-                    limit = {
-                        original_tag = HUN
-                    }
-                    NOT = { has_idea = HUN_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-					NOT = { has_idea = SLO_nationalism}
-					NOT = { has_idea = CRO_nationalism}
-					NOT = { has_idea = ROM_nationalism}
-                }
 				if = {
-                    limit = {
-                        original_tag = GLL
-                    }
-                    NOT = { has_idea = POL_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
+					limit = {
+						original_tag = POL
+					}
+					NOT = {date < 1800.1.1}
+				}
 				if = {
-                    limit = {
-                        original_tag = BKV
-                    }
-                    NOT = { has_idea = ROM_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
+					limit = {
+						original_tag = HOL
+					}
+					NOT = {date < 1800.1.1}
+				}
 				if = {
-                    limit = {
-                        original_tag = BOH
-                    }
-                    NOT = { has_idea = CZE_nationalism}
-                }
-		}
-
+					limit = {
+					or={
+						original_tag = HUN 
+						original_tag = BOH 
+						original_tag = GLL 
+						original_tag = BKV
+					}
+					}
+					date > 1795.1.1
+				}
+								if = {
+					limit = {
+						original_tag = PEN
+					}
+					NOT={original_tag = PEN}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = FRA
+					}
+					}
+					NOT = {has_country_flag=fontainebleau_flag}
+				}
+				if = {
+					limit = {
+					or={
+					capital_scope = { is_on_continent = asia } 
+					capital_scope = { is_on_continent = africa }
+					capital_scope = { is_on_continent = australia } 
+					capital_scope = { is_on_continent = middle_east }
+					capital_scope = { is_on_continent = north_america } 
+					capital_scope = { is_on_continent = south_america }
+					}
+					}
+					has_war=yes NOT = {is_subject = yes}
+				}
+			}
 		cost = 0
 		ai_will_do = {
 			factor = 1
@@ -69,7 +87,7 @@ date > 1789.1.1 date < 1836.1.1
 }
 division_limit_system = {
 	division_limit_system_two = {
-
+cost = 100
 		icon = ger_reichskommissariats
 				
 		available = {
@@ -78,37 +96,64 @@ has_equipment = { infantry_equipment > 9599}
 has_manpower > 100000
 not={has_army_manpower = { size > 191000 }}
 has_army_manpower = { size > 95000 }
-
-if = {
-                    limit = {
-                        original_tag = HUN
-                    }
-                    NOT = { has_idea = HUN_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-					NOT = { has_idea = SLO_nationalism}
-					NOT = { has_idea = CRO_nationalism}
-					NOT = { has_idea = ROM_nationalism}
-                }
 				if = {
-                    limit = {
-                        original_tag = GLL
-                    }
-                    NOT = { has_idea = POL_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
+					limit = {
+						original_tag = POL
+					}
+					NOT = {date < 1800.1.1}
+				}
 				if = {
-                    limit = {
-                        original_tag = BKV
-                    }
-                    NOT = { has_idea = ROM_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
+					limit = {
+						original_tag = HOL
+					}
+					NOT = {date < 1800.1.1}
+				}
 				if = {
-                    limit = {
-                        original_tag = BOH
-                    }
-                    NOT = { has_idea = CZE_nationalism}
-                }
+					limit = {
+					or={
+						original_tag = HUN 
+						original_tag = BOH 
+						original_tag = GLL 
+						original_tag = BKV
+					}
+					}
+					date > 1795.1.1
+				}
+								if = {
+					limit = {
+						original_tag = PEN
+					}
+					NOT={original_tag = PEN}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = FRA
+					}
+					}
+					NOT = {has_country_flag=fontainebleau_flag}
+				}
+				if = {
+					limit = {
+					or={
+					capital_scope = { is_on_continent = asia } 
+					capital_scope = { is_on_continent = africa }
+					capital_scope = { is_on_continent = australia } 
+					capital_scope = { is_on_continent = middle_east }
+					capital_scope = { is_on_continent = north_america } 
+					capital_scope = { is_on_continent = south_america }
+					}
+					}
+					has_war=yes NOT = {is_subject = yes}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = SWI 
+					}
+					}
+					num_of_factories > 50
+				}
 		}
 
 		cost = 0
@@ -139,7 +184,7 @@ date > 1789.1.1 date < 1836.1.1
 }
 division_limit_system = {
 	division_limit_system_three = {
-
+cost = 100
 		icon = ger_reichskommissariats
 				
 		available = {
@@ -148,37 +193,66 @@ has_equipment = { infantry_equipment > 9599}
 has_manpower > 100000
 not={has_army_manpower = { size > 287000 }}
 has_army_manpower = { size > 191000 }
+				if = {
+					limit = {
+						original_tag = POL
+					}
+					NOT = {date < 1800.1.1}
+				}
+				if = {
+					limit = {
+						original_tag = HOL
+					}
+					NOT = {date < 1800.1.1}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = HUN 
+						original_tag = BOH 
+						original_tag = GLL 
+						original_tag = BKV
+					}
+					}
+					date > 1795.1.1
+				}
+								if = {
+					limit = {
+						original_tag = PEN
+					}
+					NOT={original_tag = PEN}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = FRA
+					}
+					}
+					NOT = {has_country_flag=fontainebleau_flag}
+				}
+				if = {
+					limit = {
+					or={
+					capital_scope = { is_on_continent = asia } 
+					capital_scope = { is_on_continent = africa }
+					capital_scope = { is_on_continent = australia } 
+					capital_scope = { is_on_continent = middle_east }
+					capital_scope = { is_on_continent = north_america } 
+					capital_scope = { is_on_continent = south_america }
+					}
+					}
+					has_war=yes NOT = {is_subject = yes}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = SWI 
+					}
+					}
+					num_of_factories > 50
+				}
 
-if = {
-                    limit = {
-                        original_tag = HUN
-                    }
-                    NOT = { has_idea = HUN_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-					NOT = { has_idea = SLO_nationalism}
-					NOT = { has_idea = CRO_nationalism}
-					NOT = { has_idea = ROM_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = GLL
-                    }
-                    NOT = { has_idea = POL_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = BKV
-                    }
-                    NOT = { has_idea = ROM_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = BOH
-                    }
-                    NOT = { has_idea = CZE_nationalism}
-                }
+
 		}
 
 		cost = 0
@@ -209,7 +283,7 @@ date > 1789.1.1 date < 1836.1.1
 }
 division_limit_system = {
 	division_limit_system_four = {
-
+cost = 100
 		icon = ger_reichskommissariats
 				
 		available = {
@@ -218,37 +292,64 @@ has_equipment = { infantry_equipment > 9599}
 has_manpower > 100000
 not={has_army_manpower = { size > 383000 }}
 has_army_manpower = { size > 287000 }
-
-if = {
-                    limit = {
-                        original_tag = HUN
-                    }
-                    NOT = { has_idea = HUN_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-					NOT = { has_idea = SLO_nationalism}
-					NOT = { has_idea = CRO_nationalism}
-					NOT = { has_idea = ROM_nationalism}
-                }
 				if = {
-                    limit = {
-                        original_tag = GLL
-                    }
-                    NOT = { has_idea = POL_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
+					limit = {
+						original_tag = POL
+					}
+					NOT = {date < 1800.1.1}
+				}
 				if = {
-                    limit = {
-                        original_tag = BKV
-                    }
-                    NOT = { has_idea = ROM_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
+					limit = {
+						original_tag = HOL
+					}
+					NOT = {date < 1800.1.1}
+				}
 				if = {
-                    limit = {
-                        original_tag = BOH
-                    }
-                    NOT = { has_idea = CZE_nationalism}
-                }
+					limit = {
+					or={
+						original_tag = HUN 
+						original_tag = BOH 
+						original_tag = GLL 
+						original_tag = BKV
+					}
+					}
+					date > 1795.1.1
+				}
+								if = {
+					limit = {
+						original_tag = PEN
+					}
+					NOT={original_tag = PEN}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = FRA
+					}
+					}
+					NOT = {has_country_flag=fontainebleau_flag}
+				}
+				if = {
+					limit = {
+					or={
+					capital_scope = { is_on_continent = asia } 
+					capital_scope = { is_on_continent = africa }
+					capital_scope = { is_on_continent = australia } 
+					capital_scope = { is_on_continent = middle_east }
+					capital_scope = { is_on_continent = north_america } 
+					capital_scope = { is_on_continent = south_america }
+					}
+					}
+					has_war=yes NOT = {is_subject = yes}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = SWI 
+					}
+					}
+					num_of_factories > 50
+				}
 		}
 
 		cost = 0
@@ -279,7 +380,7 @@ date > 1789.1.1 date < 1836.1.1
 }
 division_limit_system = {
 	division_limit_system_five = {
-
+cost = 100
 		icon = ger_reichskommissariats
 				
 		available = {
@@ -289,37 +390,53 @@ has_manpower > 100000
 date > 1800.1.1
 not={has_army_manpower = { size > 479000 }}
 has_army_manpower = { size > 383000 }
+				if = {
+					limit = {
+					or={
+						original_tag = HUN 
+						original_tag = BOH 
+						original_tag = GLL 
+						original_tag = BKV
+					}
+					}
+					date > 1795.1.1
+				}
+								if = {
+					limit = {
+						original_tag = PEN
+					}
+					NOT={original_tag = PEN}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = FRA
+					}
+					}
+					NOT = {has_country_flag=fontainebleau_flag}
+				}
+				if = {
+					limit = {
+					or={
+					capital_scope = { is_on_continent = asia } 
+					capital_scope = { is_on_continent = africa }
+					capital_scope = { is_on_continent = australia } 
+					capital_scope = { is_on_continent = middle_east }
+					capital_scope = { is_on_continent = north_america } 
+					capital_scope = { is_on_continent = south_america }
+					}
+					}
+					has_war=yes NOT = {is_subject = yes}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = SWI 
+					}
+					}
+					num_of_factories > 50
+				}
 
-if = {
-                    limit = {
-                        original_tag = HUN
-                    }
-                    NOT = { has_idea = HUN_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-					NOT = { has_idea = SLO_nationalism}
-					NOT = { has_idea = CRO_nationalism}
-					NOT = { has_idea = ROM_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = GLL
-                    }
-                    NOT = { has_idea = POL_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = BKV
-                    }
-                    NOT = { has_idea = ROM_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = BOH
-                    }
-                    NOT = { has_idea = CZE_nationalism}
-                }
 		}
 
 		cost = 0
@@ -350,7 +467,7 @@ date > 1789.1.1 date < 1836.1.1
 }
 division_limit_system = {
 	division_limit_system_six = {
-
+cost = 100
 		icon = ger_reichskommissariats
 				
 		available = {
@@ -360,37 +477,53 @@ has_manpower > 100000
 date > 1800.1.1
 not={has_army_manpower = { size > 575000 }}
 has_army_manpower = { size > 479000 }
+				if = {
+					limit = {
+					or={
+						original_tag = HUN 
+						original_tag = BOH 
+						original_tag = GLL 
+						original_tag = BKV
+					}
+					}
+					date > 1795.1.1
+				}
+								if = {
+					limit = {
+						original_tag = PEN
+					}
+					NOT={original_tag = PEN}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = FRA
+					}
+					}
+					NOT = {has_country_flag=fontainebleau_flag}
+				}
+				if = {
+					limit = {
+					or={
+					capital_scope = { is_on_continent = asia } 
+					capital_scope = { is_on_continent = africa }
+					capital_scope = { is_on_continent = australia } 
+					capital_scope = { is_on_continent = middle_east }
+					capital_scope = { is_on_continent = north_america } 
+					capital_scope = { is_on_continent = south_america }
+					}
+					}
+					has_war=yes NOT = {is_subject = yes}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = SWI 
+					}
+					}
+					num_of_factories > 50
+				}
 
-if = {
-                    limit = {
-                        original_tag = HUN
-                    }
-                    NOT = { has_idea = HUN_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-					NOT = { has_idea = SLO_nationalism}
-					NOT = { has_idea = CRO_nationalism}
-					NOT = { has_idea = ROM_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = GLL
-                    }
-                    NOT = { has_idea = POL_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = BKV
-                    }
-                    NOT = { has_idea = ROM_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = BOH
-                    }
-                    NOT = { has_idea = CZE_nationalism}
-                }
 		}
 
 		cost = 0
@@ -421,7 +554,7 @@ date > 1789.1.1 date < 1836.1.1
 }
 division_limit_system = {
 	division_limit_system_seven = {
-
+cost = 100
 		icon = ger_reichskommissariats
 				
 		available = {
@@ -431,37 +564,53 @@ has_manpower > 100000
 date > 1805.1.1
 not={has_army_manpower = { size > 671000 }}
 has_army_manpower = { size > 575000 }
+				if = {
+					limit = {
+					or={
+						original_tag = HUN 
+						original_tag = BOH 
+						original_tag = GLL 
+						original_tag = BKV
+					}
+					}
+					date > 1795.1.1
+				}
+								if = {
+					limit = {
+						original_tag = PEN
+					}
+					NOT={original_tag = PEN}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = FRA
+					}
+					}
+					NOT = {has_country_flag=fontainebleau_flag}
+				}
+				if = {
+					limit = {
+					or={
+					capital_scope = { is_on_continent = asia } 
+					capital_scope = { is_on_continent = africa }
+					capital_scope = { is_on_continent = australia } 
+					capital_scope = { is_on_continent = middle_east }
+					capital_scope = { is_on_continent = north_america } 
+					capital_scope = { is_on_continent = south_america }
+					}
+					}
+					has_war=yes NOT = {is_subject = yes}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = SWI 
+					}
+					}
+					num_of_factories > 50
+				}
 
-if = {
-                    limit = {
-                        original_tag = HUN
-                    }
-                    NOT = { has_idea = HUN_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-					NOT = { has_idea = SLO_nationalism}
-					NOT = { has_idea = CRO_nationalism}
-					NOT = { has_idea = ROM_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = GLL
-                    }
-                    NOT = { has_idea = POL_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = BKV
-                    }
-                    NOT = { has_idea = ROM_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = BOH
-                    }
-                    NOT = { has_idea = CZE_nationalism}
-                }
 		}
 
 		cost = 0
@@ -492,7 +641,7 @@ date > 1789.1.1 date < 1836.1.1
 }
 division_limit_system = {
 	division_limit_system_eight = {
-
+cost = 100
 		icon = ger_reichskommissariats
 				
 		available = {
@@ -502,37 +651,53 @@ has_manpower > 100000
 date > 1805.1.1
 not={has_army_manpower = { size > 767000 }}
 has_army_manpower = { size > 671000 }
+				if = {
+					limit = {
+					or={
+						original_tag = HUN 
+						original_tag = BOH 
+						original_tag = GLL 
+						original_tag = BKV
+					}
+					}
+					date > 1795.1.1
+				}
+								if = {
+					limit = {
+						original_tag = PEN
+					}
+					NOT={original_tag = PEN}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = FRA
+					}
+					}
+					NOT = {has_country_flag=fontainebleau_flag}
+				}
+				if = {
+					limit = {
+					or={
+					capital_scope = { is_on_continent = asia } 
+					capital_scope = { is_on_continent = africa }
+					capital_scope = { is_on_continent = australia } 
+					capital_scope = { is_on_continent = middle_east }
+					capital_scope = { is_on_continent = north_america } 
+					capital_scope = { is_on_continent = south_america }
+					}
+					}
+					has_war=yes NOT = {is_subject = yes}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = SWI 
+					}
+					}
+					num_of_factories > 50
+				}
 
-if = {
-                    limit = {
-                        original_tag = HUN
-                    }
-                    NOT = { has_idea = HUN_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-					NOT = { has_idea = SLO_nationalism}
-					NOT = { has_idea = CRO_nationalism}
-					NOT = { has_idea = ROM_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = GLL
-                    }
-                    NOT = { has_idea = POL_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = BKV
-                    }
-                    NOT = { has_idea = ROM_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
-				if = {
-                    limit = {
-                        original_tag = BOH
-                    }
-                    NOT = { has_idea = CZE_nationalism}
-                }
 		}
 
 		cost = 0
@@ -563,7 +728,7 @@ date > 1789.1.1 date < 1836.1.1
 }
 division_limit_system = {
 	division_limit_system_nine = {
-
+cost = 100
 		icon = ger_reichskommissariats
 				
 		available = {
@@ -573,36 +738,52 @@ has_manpower > 100000
 date > 1810.1.1
 not={has_army_manpower = { size > 863000 }}
 has_army_manpower = { size > 767000 }
-if = {
-                    limit = {
-                        original_tag = HUN
-                    }
-                    NOT = { has_idea = HUN_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-					NOT = { has_idea = SLO_nationalism}
-					NOT = { has_idea = CRO_nationalism}
-					NOT = { has_idea = ROM_nationalism}
-                }
 				if = {
-                    limit = {
-                        original_tag = GLL
-                    }
-                    NOT = { has_idea = POL_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
+					limit = {
+					or={
+						original_tag = HUN 
+						original_tag = BOH 
+						original_tag = GLL 
+						original_tag = BKV
+					}
+					}
+					date > 1795.1.1
+				}
+								if = {
+					limit = {
+						original_tag = PEN
+					}
+					NOT={original_tag = PEN}
+				}
 				if = {
-                    limit = {
-                        original_tag = BKV
-                    }
-                    NOT = { has_idea = ROM_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
+					limit = {
+					or={
+						original_tag = FRA
+					}
+					}
+					NOT = {has_country_flag=fontainebleau_flag}
+				}
 				if = {
-                    limit = {
-                        original_tag = BOH
-                    }
-                    NOT = { has_idea = CZE_nationalism}
-                }
+					limit = {
+					or={
+					capital_scope = { is_on_continent = asia } 
+					capital_scope = { is_on_continent = africa }
+					capital_scope = { is_on_continent = australia } 
+					capital_scope = { is_on_continent = middle_east }
+					capital_scope = { is_on_continent = north_america } 
+					capital_scope = { is_on_continent = south_america }
+					}
+					}
+					has_war=yes NOT = {is_subject = yes}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = SWI 
+					}
+					}
+					num_of_factories > 50
+				}
 		}
 
 		cost = 0
@@ -633,7 +814,7 @@ date > 1789.1.1 date < 1836.1.1
 }
 division_limit_system = {
 	division_limit_system_ten = {
-
+cost = 100
 		icon = ger_reichskommissariats
 				
 		available = {
@@ -643,36 +824,52 @@ has_manpower > 100000
 date > 1810.1.1
 not={has_army_manpower = { size > 959000 }}
 has_army_manpower = { size > 863000 }
-if = {
-                    limit = {
-                        original_tag = HUN
-                    }
-                    NOT = { has_idea = HUN_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-					NOT = { has_idea = SLO_nationalism}
-					NOT = { has_idea = CRO_nationalism}
-					NOT = { has_idea = ROM_nationalism}
-                }
 				if = {
-                    limit = {
-                        original_tag = GLL
-                    }
-                    NOT = { has_idea = POL_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
+					limit = {
+					or={
+						original_tag = HUN 
+						original_tag = BOH 
+						original_tag = GLL 
+						original_tag = BKV
+					}
+					}
+					date > 1795.1.1
+				}
+								if = {
+					limit = {
+						original_tag = PEN
+					}
+					NOT={original_tag = PEN}
+				}
 				if = {
-                    limit = {
-                        original_tag = BKV
-                    }
-                    NOT = { has_idea = ROM_nationalism}
-					NOT = { has_idea = UKR_nationalism}
-                }
+					limit = {
+					or={
+						original_tag = FRA
+					}
+					}
+					NOT = {has_country_flag=fontainebleau_flag}
+				}
 				if = {
-                    limit = {
-                        original_tag = BOH
-                    }
-                    NOT = { has_idea = CZE_nationalism}
-                }
+					limit = {
+					or={
+					capital_scope = { is_on_continent = asia } 
+					capital_scope = { is_on_continent = africa }
+					capital_scope = { is_on_continent = australia } 
+					capital_scope = { is_on_continent = middle_east }
+					capital_scope = { is_on_continent = north_america } 
+					capital_scope = { is_on_continent = south_america }
+					}
+					}
+					has_war=yes NOT = {is_subject = yes}
+				}
+				if = {
+					limit = {
+					or={
+						original_tag = SWI 
+					}
+					}
+					num_of_factories > 50
+				}
 		}
 
 		cost = 0

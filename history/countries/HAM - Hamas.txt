@@ -68,26 +68,6 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
-
-2002.7.22 = {
-	recruit_character = HAM_mohammed_deif
-}
-
-2006.1.1 = {
-	recruit_character = HAM_yunis_al_astal
-}
-
-2012.12.1 = {
-	add_ideas = {
-		mohammed_deif
-	}
-}
-
-2017.2.13 = {
-	recruit_character = HAM_yahya_sinwar
-	promote_character = HAM_yahya_sinwar
-}
-
 2024.1.1 = {
 	839 = {
 		add_manpower = 2066343

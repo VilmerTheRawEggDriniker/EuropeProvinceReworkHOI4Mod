@@ -1,0 +1,75 @@
+###########################
+# Europe Province Rework Events
+###########################
+
+add_namespace = viennacongress_event
+
+# French Revolution
+country_event = {
+	id = viennacongress_event.1
+	title = "The Treaty of Fontainebleau"
+	desc = viennacongress_event.1.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=FRA	
+date > 1812.1.1 has_start_date < 1815.1.1
+FRA={owns_state=16}
+or={
+FRA = {surrender_progress > 0.5 }
+NOT={FRA={controls_state=16}}
+}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Sign the Treaty"
+		ai_chance = { factor = 100 } 
+		news_event = viennacongress_news.1
+		every_country = {
+  limit = {
+  has_war_with = FRA
+  }
+  white_peace = FRA
+}
+		every_country = {
+  limit = {
+  is_in_faction_with = FRA
+  }
+  leave_faction=yes
+    }
+		every_subject_country = {
+  limit = {
+  is_subject_of=FRA
+  }
+FRA={
+set_autonomy = { target = PREV autonomy_state = autonomy_free }
+}
+}
+every_state = { #vichy north africa
+                    limit = {
+                        is_owned_by = FRA
+					NOT={state=21}
+                    }
+                    VND = {transfer_state = PREV}
+                }
+				21={set_demilitarized_zone = yes}
+FRA={set_country_flag = fontainebleau_flag}
+FRA={set_cosmetic_tag = FRA_ELB}
+FRA={delete_unit = {}}
+	}
+}
+
+country_event = {
+	id = viennacongress_event.2
+	title = "The Congress of Vienna"
+	desc = viennacongress_event.2.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We are so back"
+		ai_chance = { factor = 100 } 
+    add_political_power=150
+		news_event = viennacongress_news.2
+	}
+}

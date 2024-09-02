@@ -111,6 +111,8 @@ set_research_slots = 3
 }
 set_technology = {
 	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
 }
 1936.1.1 = {
 if = {
