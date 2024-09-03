@@ -1,4 +1,10 @@
 ﻿capital = 113
+1801.1.1 = {
+set_party_name = { ideology = neutrality long_name = ENG_STU_neutrality_party_long name = ENG_STU_neutrality_party }
+}
+1714.1.1 = {
+set_party_name = { ideology = neutrality long_name = ENG_HAN_neutrality_party_long name = ENG_HAN_neutrality_party }
+}
 1533.1.1 = {
 recruit_character=IRE_elizabethi
 promote_character=IRE_elizabethi

@@ -42,6 +42,17 @@ ENG={
         }
 }
 }
+1782.1.1 = {
+			if = {
+		limit = { has_start_date < 1801.1.1 }
+IRE={set_cosmetic_tag = IRE_ENG}
+	set_autonomy = {
+        target = IRE
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
 1937.1.1 = {
 			if = {
 		limit = { has_start_date < 1948.1.1 }

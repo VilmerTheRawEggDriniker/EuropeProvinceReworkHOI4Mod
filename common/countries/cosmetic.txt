@@ -6,6 +6,10 @@ ISR_ENG = {
 	color = rgb { 150 0 0 }
 	color_ui = rgb { 150 0 0 }
 }
+IRE_ENG = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
 BRM_ENG = {
 	color = rgb { 150 0 0 }
 	color_ui = rgb { 150 0 0 }

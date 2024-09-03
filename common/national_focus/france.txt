@@ -10843,6 +10843,7 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		will_lead_to_war_with = AAC
 		will_lead_to_war_with = JUL
 		will_lead_to_war_with = SAA
+		will_lead_to_war_with = BSL
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_21
 		}
@@ -10899,6 +10900,10 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		add_named_threat = { threat = 5 name = FRA_first_coalition }
 		declare_war_on = {
 		target = AUS
+		type = puppet_wargoal_focus
+	}
+			declare_war_on = {
+		target = BSL
 		type = puppet_wargoal_focus
 	}
 			declare_war_on = {
@@ -14183,10 +14188,6 @@ MNZ={is_subject_of = FRA}
 		type = puppet_wargoal_focus
 	}
 					declare_war_on = {
-		target = BSL
-		type = puppet_wargoal_focus
-	}
-					declare_war_on = {
 		target = VAL
 		type = puppet_wargoal_focus
 	}
@@ -14698,6 +14699,7 @@ SPM={
 		}
 
 		available = {
+		NOT={has_war_with=AUS}
 		}
 
 		bypass = {

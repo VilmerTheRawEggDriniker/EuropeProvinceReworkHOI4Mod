@@ -377,7 +377,14 @@ FRA_naturalborder = {
 		available = {
 			has_completed_focus = france_1793_1799_focus_26
 			has_government = democratic
-        owns_state = 864
+					any_country={
+	or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 864
+	}
 		}
 
 		cost = 0
@@ -397,6 +404,7 @@ FRA_naturalborder = {
 		}
 
 		complete_effect = {
+transfer_state=864
 864 = { add_core_of = ROOT }
 		hidden_effect={set_global_flag = fra_core_basel_flag}
 		}
