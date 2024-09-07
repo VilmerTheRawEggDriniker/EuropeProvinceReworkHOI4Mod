@@ -24,6 +24,28 @@ RUS_CHARACTER_OROURKE:0 "Joseph Cornelius O'Rourke"
 RUS_CHARACTER_BARCLAY:0 "Michael Andreas Barclay de Tolly"
 HUN_CHARACTER_MIKHAIL:0 "Mikhail Pavlovich"
 
+FRA_CHARACTER_NAPOLEONGENERAL:0 "Napoleon Bonaparte"
+FRA_CHARACTER_JOACHIMMURATGENERAL:0 "Joachim Murat"
+FRA_CHARACTER_CHARLESXIVJOHNGENERAL:0 "Charles John"
+FRA_CHARACTER_LAFAYETTEGENERAL:0 "Gilbert du Motier"
+
+FRA_CHARACTER_MICHELGENERAL:0 "Michel Ney"
+FRA_CHARACTER_JEANGENERAL:0 "Jean-Baptiste Kléber"
+FRA_CHARACTER_VICTORGENERAL:0 "Jean Victor Marie Moreau"
+FRA_CHARACTER_THOMASGENERAL:0 "Thomas-Alexandre Dumas"
+
+FRA_CHARACTER_SOULTGENERAL:0 "Jean-de-Dieu Soult"
+FRA_CHARACTER_LANNESGENERAL:0 "Jean Lannes"
+FRA_CHARACTER_LOUISGENERAL:0 "Louis-René"
+FRA_CHARACTER_ANDREGENERAL:0 "André Masséna"
+
+
+
+
+
+
+
+
 WAL_CHARACTER_NICHOLAS:0 "Nicholas Mavrogenes"
 WAL_NICHOLAS_DESC:0 "Nicholas Mavrogenes anian was a Phanariote Prince of Wallachia (reigned 1786–1789). He was the great-uncle of Manto Mavrogenous, a heroine of the Greek War of Independence."
 

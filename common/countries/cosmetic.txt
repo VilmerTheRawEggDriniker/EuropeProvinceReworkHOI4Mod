@@ -66,6 +66,10 @@ SER_OTO = {
 	color = rgb { 126  203  120 }
 	color_ui = rgb { 126  203  120 }
 }
+LEB_OTO = {
+	color = rgb { 126  203  120 }
+	color_ui = rgb { 126  203  120 }
+}
 IRQ_OTO = {
 	color = rgb { 126  203  120 }
 	color_ui = rgb { 126  203  120 }

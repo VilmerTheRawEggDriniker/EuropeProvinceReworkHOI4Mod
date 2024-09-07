@@ -3,7 +3,7 @@ characters={
 		name=AUS_CHARACTER_METTERNICH
 		portraits={
                         army={
-				small="GFX_portrait_aus_metternich_small"
+				small="GFX_idea_aus_metternich_small"
 			}
 			civilian = {
 				large = GFX_portrait_aus_metternich_large

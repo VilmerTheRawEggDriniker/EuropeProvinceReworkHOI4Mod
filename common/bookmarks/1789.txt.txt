@@ -32,6 +32,7 @@ bookmarks = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
+                        spainjew
 			}
 			focuses = {
 

@@ -526,6 +526,13 @@ add_to_faction = KHI
 add_to_faction = CZE
 add_to_faction = MON
 add_to_faction = TAN
+SOV={
+    set_autonomy = {
+        target = MAK
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.35
+	}
+}
 UKR={
 	declare_war_on = {
 		target = RUS

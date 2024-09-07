@@ -28,9 +28,8 @@ state={
 
 		}
 		1919.1.1 = {
-			owner = UKR
-			controller = UKR
-			add_core_of = UKR
+			owner = MAK
+			add_core_of = MAK
 			remove_core_of = RUS
 			remove_core_of = GLL
 
@@ -48,6 +47,7 @@ state={
 			owner = SOV
 			controller = SOV
 			add_core_of = SOV
+			remove_core_of = MAK
 			remove_core_of = RUS
 
 		}

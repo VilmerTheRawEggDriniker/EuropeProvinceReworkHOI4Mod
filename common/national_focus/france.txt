@@ -15071,7 +15071,7 @@ FRA={set_party_name = { ideology = neutrality long_name = FRA_BON_neutrality_par
 		has_completed_focus=france_althistory_1
 		has_completed_focus=france_althistory_2
 		}
-		date > 1799.1.1
+		date > 1800.1.1
 		}
 
 		bypass = {
@@ -16034,8 +16034,8 @@ remember_old_capital = no
 		NOT = {
 		has_war_with=SPR
 		}
-		MEX={is_puppet_of = SPR}
-		TOS={is_puppet_of = FRA}
+		MEX={is_subject_of = SPR}
+		TOS={is_subject_of = FRA}
 		}
 
 		bypass = {
@@ -16539,7 +16539,7 @@ promote_character=TOS_louisi
 		}
 
 		available = {
-		RHI={is_puppet_of = FRA}
+		RHI={is_subject_of = FRA}
 		}
 
 		bypass = {
@@ -20103,6 +20103,18 @@ PRE={owns_state=1200}
 		}
 
 		available = {
+		SWE={
+		owns_state=1235
+		owns_state=1240
+		owns_state=62
+		owns_state=1185
+		}
+		or={
+		SWE={is_ally_with=FRA}
+		MEK={is_subject_of = FRA}
+		STR={is_subject_of = FRA}
+		PRE={is_subject_of = FRA}
+		}
 		}
 
 		bypass = {
@@ -20116,6 +20128,12 @@ PRE={owns_state=1200}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_political_power=-50
+		transfer_state=1235
+		transfer_state=1240
+		transfer_state=62
+		MEK={transfer_state=1185}
+		MEK={add_state_core=1185}
 		}
 	}
 										focus = {

@@ -1,4 +1,7 @@
 ﻿capital = 927
+1830.1.1 = {
+set_cosmetic_tag = MOD_AUS # 
+}
 1780.1.1 = {
 recruit_character=MOD_ercole
 promote_character=MOD_ercole

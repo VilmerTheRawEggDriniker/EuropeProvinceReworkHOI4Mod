@@ -10,6 +10,17 @@ SER={set_cosmetic_tag = SER_OTO}
 	}
 }
 }
+1516.1.1 = {
+			if = {
+		limit = { has_start_date < 1842.1.1 }
+LEB={set_cosmetic_tag = LEB_OTO}
+	set_autonomy = {
+        target = LEB
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
 1705.1.1 = {
 			if = {
 		limit = { has_start_date < 1832.1.1 }
@@ -58,7 +69,7 @@ retire_character=OTO_mahmudii
 		limit = { has_start_date < 1812.1.1 }
 	set_autonomy = {
         target = ALG
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 	set_autonomy = {
@@ -88,7 +99,7 @@ retire_character=OTO_mahmudii
 		limit = { has_start_date < 1837.1.1 }
 	set_autonomy = {
         target = TUN
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 }
@@ -98,7 +109,7 @@ retire_character=OTO_mahmudii
 		limit = { has_start_date < 1882.1.1 }
 	set_autonomy = {
         target = EGY
-        autonomous_state = autonomy_dominion
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
 }

@@ -1,5 +1,43 @@
 ﻿capital = 988
 1789.1.1 = {
+recruit_character=FRA_napoleongeneral
+recruit_character=FRA_joachimmuratgeneral
+recruit_character=FRA_charlesxivjohngeneral
+recruit_character=FRA_lafayettegeneral
+
+recruit_character=FRA_jeangeneral
+recruit_character=FRA_thomasgeneral
+recruit_character=FRA_victorgeneral
+recruit_character=FRA_lannesgeneral
+
+recruit_character=FRA_soultgeneral
+recruit_character=FRA_michelgeneral
+recruit_character=FRA_louisgeneral
+recruit_character=FRA_andregeneral
+}
+1800.1.1 = {
+retire_character=FRA_lafayettegeneral
+}
+1812.1.1 = {
+retire_character=FRA_charlesxivjohngeneral
+
+retire_character=FRA_jeangeneral
+retire_character=FRA_thomasgeneral
+retire_character=FRA_victorgeneral
+retire_character=FRA_lannesgeneral
+
+retire_character=FRA_louisgeneral
+}
+1836.1.1 = {
+retire_character=FRA_napoleongeneral
+retire_character=FRA_joachimmuratgeneral
+retire_character=FRA_michelgeneral
+retire_character=FRA_andregeneral
+}
+1852.1.1 = {
+retire_character=FRA_soultgeneral
+}
+1789.1.1 = {
 recruit_character=FRA_talleyrand
 }
 1839.1.1 = {
@@ -103,12 +141,60 @@ MOR={set_cosmetic_tag = MOR_FRA}
 	}
 }
 }
+IDA = {country_lock_all_division_template = yes}
+PEN = {country_lock_all_division_template = yes}
+MCH = {country_lock_all_division_template = yes}
+ILL = {country_lock_all_division_template = yes}
+MRI = {country_lock_all_division_template = yes}
+ABM = {country_lock_all_division_template = yes}
+ARK = {country_lock_all_division_template = yes}
+MSP = {country_lock_all_division_template = yes}
+SWT = {country_lock_all_division_template = yes}
+NWT = {country_lock_all_division_template = yes}
+UNO = {country_lock_all_division_template = yes}
+NCR = {country_lock_all_division_template = yes}
+ROD = {country_lock_all_division_template = yes}
+CAL = {country_lock_all_division_template = yes}
+CAS = {country_lock_all_division_template = yes} 
+TEX = {country_lock_all_division_template = yes}
+FLO = {country_lock_all_division_template = yes}
+LOU = {country_lock_all_division_template = yes}
+NEW = {country_lock_all_division_template = yes}
+UTH = {country_lock_all_division_template = yes}
+ALA = {country_lock_all_division_template = yes} 
+VRM = {country_lock_all_division_template = yes}
+
+
+
+
+
 1789.1.1 = {
 		if = {
 limit = { has_start_date < 1836.1.1 }
 every_country = {
 country_lock_all_division_template = yes
 set_rule = { can_join_factions = no }
+}
+}
+}
+1700.1.1 = {
+		if = {
+limit = { has_start_date < 1800.1.1 }
+FRA={set_country_flag = eight_century}
+every_country = {
+add_ideas = {
+eighteenth_century
+}
+}
+}
+}
+1800.1.1 = {
+		if = {
+limit = { has_start_date < 1900.1.1 }
+every_country = {
+add_ideas = {
+nineteenth_century
+}
 }
 }
 }

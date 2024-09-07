@@ -20,12 +20,6 @@ RLV = "countries/Reichskommissariatlivonia.txt"
 RMR = "countries/Reichskommissariatmountainrepublic.txt"
 RCO	= "countries/Reichskommissariatcourland.txt"
 RCR	= "countries/Reichskommissariatcrimea.txt"
-
-LES = "countries/Lesotho.txt" #flagcomplete 
-SWA = "countries/Swaziland.txt" #flagcomplete 
-
-KUM = "countries/Kumul Khanate.txt" #flagcomplete 
-BER = "countries/Berry.txt" #flagcomplete 
 IDA = "countries/Indiana.txt" #flagcomplete 
 PEN = "countries/Pennsylvania.txt" #flagcomplete 
 MCH = "countries/Michigan.txt" #flagcomplete 
@@ -34,7 +28,6 @@ MRI = "countries/Missouri.txt" #flagcomplete
 ABM = "countries/Alabama.txt" #flagcomplete 
 ARK = "countries/Arkansas.txt" #flagcomplete 
 MSP = "countries/Mississippi.txt" #flagcomplete 
-
 SWT = "countries/Southwest Territory.txt" #flagcomplete 
 NWT = "countries/Northwest Territory.txt" #flagcomplete 
 UNO = "countries/Unorganized Territory.txt" #flagcomplete 
@@ -48,32 +41,37 @@ LOU = "countries/Louisiana.txt" #flagcomplete
 NEW = "countries/New England.txt" #flagcomplete 
 UTH = "countries/Deseret.txt" #flagcomplete 
 ALA = "countries/Alaska.txt" #flagcomplete 
+VRM = "countries/Vermont.txt" #flagcomplete 
 CAF = "countries/Central America.txt" #flagcomplete 
+WIF = "countries/West Indies Federation.txt" #flagcomplete 
+
+MAK = "countries/Makhnovshchina.txt" #flagcomplete 
+BER = "countries/Berry.txt" #flagcomplete 
+BSL = "countries/Basel.txt" #flagcomplete
+SEP = "countries/Ionian Islands.txt" #flagcomplete
 
 MUG = "countries/Mughal Empire.txt" #flagcomplete 
 HEJ = "countries/Hejaz.txt" #flagcomplete 
-BSL = "countries/Basel.txt" #flagcomplete 
-VRM = "countries/Vermont.txt" #flagcomplete 
 SVI = "countries/South Vietnam.txt" #flagcomplete 
+KUM = "countries/Kumul Khanate.txt" #flagcomplete 
 HYD = "countries/Hyderabad.txt" #flagcomplete 
 MYS = "countries/Mysore.txt" #flagcomplete 
 MTH = "countries/Maratha.txt" #flagcomplete 
 AWA = "countries/Awadh.txt" #flagcomplete 
 CTC = "countries/Carnatic.txt" #flagcomplete 
 SKH = "countries/Sikh Empire.txt" #flagcomplete 
-
-
+ISI = "countries/ISIS.txt" #flagcomplete 
+LES = "countries/Lesotho.txt" #flagcomplete 
+SWA = "countries/Swaziland.txt" #flagcomplete 
 BNI = "countries/Brunei.txt" #flagcomplete 
 SIN = "countries/Singapore.txt" #flagcomplete 
 MCU = "countries/Macau.txt" #flagcomplete 
 HKG = "countries/Hong kong.txt" #flagcomplete 
 TLE = "countries/Timor Leste.txt" #flagcomplete 
-SEP = "countries/Ionian Islands.txt" #flagcomplete 
 SKK = "countries/Sikkim.txt" #flagcomplete 
 BHR = "countries/Bahrain.txt" #flagcomplete 
 NKO = "countries/North Korea.txt" #flagcomplete 
 SKO = "countries/South Korea.txt" #flagcomplete
-
 HAM = "countries/Hamas.txt" #flagcomplete 
 SYE = "countries/South Yemen.txt" #flagcomplete 
 TRP = "countries/Tripolitania.txt" #flagcomplete 

@@ -52,11 +52,11 @@ spriteTypes = {
 
         spriteType = {
 		name = "GFX_idea_fra_talleyrand_small"
-		texturefile = "gfx/leaders/ideas/idea_talleyrand_small.dds"
+		texturefile = "gfx/interface/ideas/idea_talleyrand_small.dds"
 	}
         spriteType = {
-		name = "GFX_portrait_aus_metternich_large"
-		texturefile = "gfx/leaders/AUS/portrait_metternich_large.dds"
+		name = "GFX_idea_aus_metternich_large"
+		texturefile = "gfx/interface/ideas/idea_metternich_large.dds"
 	}
 
         spriteType = {
@@ -79,6 +79,71 @@ spriteTypes = {
 		name = "GFX_portrait_rus_suvorov_large"
 		texturefile = "gfx/leaders/RUS/portrait_suvorov_large.dds"
 	}
+
+
+
+
+
+        spriteType = {
+		name = "GFX_portrait_fra_napoleongeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_napoleongeneral_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_fra_joachimmuratgeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_joachimmuratgeneral_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_fra_lafayettegeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_lafayettegeneral_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_fra_charlesxivjohngeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_charlesxivjohngeneral_large.dds"
+	}
+
+	        spriteType = {
+		name = "GFX_portrait_fra_jeangeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_jeangeneral_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_fra_louisgeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_louisgeneral_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_fra_victorgeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_victorgeneral_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_fra_thomasgeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_thomasgeneral_large.dds"
+	}
+
+	        spriteType = {
+		name = "GFX_portrait_fra_michelgeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_michelgeneral_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_fra_lannesgeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_lannesgeneral_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_fra_soultgeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_soultgeneral_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_fra_andregeneral_large"
+		texturefile = "gfx/leaders/FRA/portrait_andregeneral_large.dds"
+	}
+
+
+
+
+
+
+
+
+
+
 
 
         spriteType = {

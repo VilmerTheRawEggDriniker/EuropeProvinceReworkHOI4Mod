@@ -1625,3 +1625,30 @@ every_country = {
 }
 	}
 }
+country_event = {
+	id = fra_1789_event.40
+	title = "The 19th Century"
+	desc = fra_1789_event.40.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = ZZZ
+date > 1800.1.1 has_start_date < 1801.1.1 
+FRA={has_country_flag = eight_century}
+}
+fire_only_once = yes
+	option = { # 
+		name = "The 19th Century"
+		ai_chance = { factor = 100 }
+every_country = {
+remove_ideas = {
+eighteenth_century
+}
+}
+	every_country = {
+add_ideas = {
+nineteenth_century
+}
+}
+	}
+}

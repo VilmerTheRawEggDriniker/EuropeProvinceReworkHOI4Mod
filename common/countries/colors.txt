@@ -1,4 +1,16 @@
 #reload countrycolors
+WIF = {
+	color = rgb { 0 45 130 }
+	color_ui = rgb { 0 45 130 }
+}
+ISI = {
+	color = rgb { 1 1 1 }
+	color_ui = rgb { 1 1 1 }
+}
+MAK = {
+	color = rgb { 1 1 1 }
+	color_ui = rgb { 1 1 1 }
+}
 CAL = {
 	color = rgb { 186 12 47 }
 	color_ui = rgb { 186 12 47 }
