@@ -13,5 +13,19 @@ characters={
 			expire="1797.1.1"
 		}
 }
+	COU_frederickaugustusi={
+		name=COU_CHARACTER_FREDERICKAUGUSTUSI
+		portraits={
+			civilian={
+				large="GFX_portrait_cou_frederickaugustusi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wettin}
+			desc = COU_FREDERICKAUGUSTUSI_DESC
+			expire="1797.1.1"
+		}
+}
 }
 

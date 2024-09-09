@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_2024_bookmark"
-		texturefile = "gf/interface/ukraine_russia_war_2024.dds"
-	}
-}

@@ -13,6 +13,20 @@ characters={
 			expire="1797.1.1"
 		}
 }
+	IRE_henrybenedict={
+		name=IRE_CHARACTER_HENRYBENEDICT
+		portraits={
+			civilian={
+				large="GFX_portrait_ire_henrybenedict_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Stuart}
+			desc = IRE_HENRYBENEDICT_DESC
+			expire="1797.1.1"
+		}
+}
 	IRE_jamesi={
 		name=IRE_CHARACTER_JAMESI
 		portraits={

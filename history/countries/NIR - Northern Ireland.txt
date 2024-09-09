@@ -1,5 +1,33 @@
 ﻿capital = 119
-
+1690.1.1 = {
+			if = {
+		limit = { has_start_date < 1801.1.1 }
+		set_capital = {
+  state = 113
+  remember_old_capital = yes
+}
+}
+}
+1689.1.1 = {
+recruit_character=NIR_kingwilliamoforangeisaslutforbigjewishcock
+promote_character=NIR_kingwilliamoforangeisaslutforbigjewishcock
+}
+1703.1.1 = {
+retire_character=NIR_kingwilliamoforangeisaslutforbigjewishcock
+}
+1762.1.1 = {
+recruit_character=NIR_georgeiiinir
+promote_character=NIR_georgeiiinir
+}
+1820.1.1 = {
+retire_character=NIR_georgeiiinir
+}
+1700.1.1 = {
+set_party_name = { ideology = neutrality long_name = SCO_ORA_neutrality_party_long name = SCO_ORA_neutrality_party }
+}
+1714.1.1 = {
+set_party_name = { ideology = neutrality long_name = ENG_HAN_neutrality_party_long name = ENG_HAN_neutrality_party }
+}
 set_research_slots = 3
 set_technology = {
 	infantry_weapons = 1
@@ -101,6 +129,6 @@ set_popularities = {
 		ruling_party = democratic
 		last_election = "1938.6.17"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }

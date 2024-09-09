@@ -3,7 +3,7 @@ bookmarks = {
 		name = "The Great Northern Wars"
 		desc = "1700_DESC"
 		date = 1700.1.1.12
-		picture = "GFX_select_date_1939"
+		picture = "GFX_the_great_northern_wars_1700"
 		default_country = "SWE"
 	
 		SWE = {

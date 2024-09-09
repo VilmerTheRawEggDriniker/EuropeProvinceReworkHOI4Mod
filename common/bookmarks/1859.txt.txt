@@ -3,7 +3,7 @@ bookmarks = {
 		name = "Unification of Italy"
 		desc = "1859_DESC"
 		date = 1859.1.1.12
-		picture = "GFX_select_date_1939"
+		picture = "GFX_unifyitaly_1859"
 		default_country = "FRA"
 	
 		FRA = {

@@ -49,6 +49,7 @@ retire_character=FRA_talleyrand
 FRA={activate_advisor = FRA_talleyrand}
 create_faction = FrenchSphere
 FRA={set_country_flag = napoleonfrance}
+AUS={set_country_flag = napoleonaustria}
 set_party_name = { ideology = neutrality long_name = FRA_BON_neutrality_party_long name = FRA_BON_neutrality_party}
 ENG={
 	set_autonomy = {
@@ -171,7 +172,7 @@ VRM = {country_lock_all_division_template = yes}
 1789.1.1 = {
 		if = {
 limit = { has_start_date < 1836.1.1 }
-every_country = {
+every_possible_country = {
 country_lock_all_division_template = yes
 set_rule = { can_join_factions = no }
 }

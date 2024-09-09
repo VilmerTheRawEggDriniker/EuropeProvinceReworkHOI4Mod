@@ -3,7 +3,7 @@ bookmarks = {
 		name = "The Glorious Revolution"
 		desc = "1689_DESC"
 		date = 1689.1.1.12
-		picture = "GFX_select_date_1939"
+		picture = "GFX_gloriousrevolution_1689"
 		default_country = "ENG"
 	
 		HOL = {

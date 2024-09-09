@@ -16,8 +16,10 @@ state={
 			industrial_complex = 1
 
 		}
+		1870.1.1 = {
 		victory_points = {
 			6474 20 
+		}
 		}
 		1900.1.1 = {
 		add_core_of = UKR

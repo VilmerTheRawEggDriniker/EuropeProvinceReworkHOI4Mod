@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_1444_bookmark"
-		texturefile = "gf/interface/varna_1444.dds"
-	}
-}

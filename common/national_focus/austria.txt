@@ -2071,7 +2071,6 @@ random_other_country = {
 
 		x = 18
 		y = 4
-		will_lead_to_war_with = AUS
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_21
 		}
@@ -5172,7 +5171,7 @@ focus = {
 		focus =	austria_1789_1815_first_100_focus_81
 		}
 		prerequisite = {
-		focus =	austria_1789_1815_first_100_focus_81
+		focus =	austria_1789_1815_first_100_focus_82
 		}
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_83
@@ -5231,7 +5230,7 @@ focus = {
 		focus =	austria_1789_1815_first_100_focus_81
 		}
 		prerequisite = {
-		focus =	austria_1789_1815_first_100_focus_81
+		focus =	austria_1789_1815_first_100_focus_82
 		}
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_83
@@ -5290,7 +5289,7 @@ focus = {
 		focus =	austria_1789_1815_first_100_focus_81
 		}
 		prerequisite = {
-		focus =	austria_1789_1815_first_100_focus_81
+		focus =	austria_1789_1815_first_100_focus_82
 		}
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_83
@@ -5349,7 +5348,7 @@ focus = {
 		focus =	austria_1789_1815_first_100_focus_81
 		}
 		prerequisite = {
-		focus =	austria_1789_1815_first_100_focus_81
+		focus =	austria_1789_1815_first_100_focus_82
 		}
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_83
@@ -5408,7 +5407,7 @@ focus = {
 		focus =	austria_1789_1815_first_100_focus_81
 		}
 		prerequisite = {
-		focus =	austria_1789_1815_first_100_focus_81
+		focus =	austria_1789_1815_first_100_focus_82
 		}
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_83
@@ -5467,7 +5466,7 @@ focus = {
 		focus =	austria_1789_1815_first_100_focus_81
 		}
 		prerequisite = {
-		focus =	austria_1789_1815_first_100_focus_81
+		focus =	austria_1789_1815_first_100_focus_82
 		}
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_83
@@ -5527,7 +5526,7 @@ focus = {
 		focus =	austria_1789_1815_first_100_focus_81
 		}
 		prerequisite = {
-		focus =	austria_1789_1815_first_100_focus_81
+		focus =	austria_1789_1815_first_100_focus_82
 		}
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_83
@@ -5586,7 +5585,7 @@ focus = {
 		focus =	austria_1789_1815_first_100_focus_81
 		}
 		prerequisite = {
-		focus =	austria_1789_1815_first_100_focus_81
+		focus =	austria_1789_1815_first_100_focus_82
 		}
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_83
@@ -5646,7 +5645,7 @@ focus = {
 		focus =	austria_1789_1815_first_100_focus_81
 		}
 		prerequisite = {
-		focus =	austria_1789_1815_first_100_focus_81
+		focus =	austria_1789_1815_first_100_focus_82
 		}
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_83
@@ -5705,7 +5704,7 @@ focus = {
 		focus =	austria_1789_1815_first_100_focus_81
 		}
 		prerequisite = {
-		focus =	austria_1789_1815_first_100_focus_81
+		focus =	austria_1789_1815_first_100_focus_82
 		}
 		prerequisite = {
 		focus =	austria_1789_1815_first_100_focus_83
@@ -5758,10 +5757,38 @@ focus = {
 		id = austria_1793_1836_focus_1
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 24
-		y = 1
-allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1812.6.24 }
+		x = 2
+		y = 11
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_100
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -5769,21 +5796,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-		OR={
-		AND={
-		has_completed_focus = austria_1789_1815_first_100_focus_91
-		has_completed_focus = austria_1789_1815_first_100_focus_92
-		has_completed_focus = austria_1789_1815_first_100_focus_93
-		has_completed_focus = austria_1789_1815_first_100_focus_94
-		has_completed_focus = austria_1789_1815_first_100_focus_95
-		has_completed_focus = austria_1789_1815_first_100_focus_96
-		has_completed_focus = austria_1789_1815_first_100_focus_97
-		has_completed_focus = austria_1789_1815_first_100_focus_98
-		has_completed_focus = austria_1789_1815_first_100_focus_99
-        has_completed_focus = austria_1789_1815_first_100_focus_100
-		}
-		has_country_flag=napoleondemocratic
-		}
+
 		}
 
 		bypass = {
@@ -5803,11 +5816,39 @@ allow_branch = { has_start_date > 1789.1.1
 		focus = {
 		id = austria_1793_1836_focus_2
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1812.6.24 }
-		x = 26
-		y = 1
 
+		x = 4
+		y = 11
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_100
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -5815,21 +5856,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-		OR={
-		AND={
-		has_completed_focus = austria_1789_1815_first_100_focus_91
-		has_completed_focus = austria_1789_1815_first_100_focus_92
-		has_completed_focus = austria_1789_1815_first_100_focus_93
-		has_completed_focus = austria_1789_1815_first_100_focus_94
-		has_completed_focus = austria_1789_1815_first_100_focus_95
-		has_completed_focus = austria_1789_1815_first_100_focus_96
-		has_completed_focus = austria_1789_1815_first_100_focus_97
-		has_completed_focus = austria_1789_1815_first_100_focus_98
-		has_completed_focus = austria_1789_1815_first_100_focus_99
-        has_completed_focus = austria_1789_1815_first_100_focus_100
-		}
-		has_country_flag=napoleondemocratic
-		}
+
 		}
 
 		bypass = {
@@ -5848,11 +5875,39 @@ allow_branch = { has_start_date > 1789.1.1
 		focus = {
 		id = austria_1793_1836_focus_3
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1812.6.24 }
-		x = 28
-		y = 1
 
+		x = 6
+		y = 11
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_100
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -5860,21 +5915,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-		OR={
-		AND={
-		has_completed_focus = austria_1789_1815_first_100_focus_91
-		has_completed_focus = austria_1789_1815_first_100_focus_92
-		has_completed_focus = austria_1789_1815_first_100_focus_93
-		has_completed_focus = austria_1789_1815_first_100_focus_94
-		has_completed_focus = austria_1789_1815_first_100_focus_95
-		has_completed_focus = austria_1789_1815_first_100_focus_96
-		has_completed_focus = austria_1789_1815_first_100_focus_97
-		has_completed_focus = austria_1789_1815_first_100_focus_98
-		has_completed_focus = austria_1789_1815_first_100_focus_99
-        has_completed_focus = austria_1789_1815_first_100_focus_100
-		}
-		has_country_flag=napoleondemocratic
-		}
+
 		}
 
 		bypass = {
@@ -5893,11 +5934,39 @@ allow_branch = { has_start_date > 1789.1.1
 		focus = {
 		id = austria_1793_1836_focus_4
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1812.6.24 }
-		x = 30
-		y = 1
 
+		x = 8
+		y = 11
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_100
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -5905,21 +5974,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-		OR={
-		AND={
-		has_completed_focus = austria_1789_1815_first_100_focus_91
-		has_completed_focus = austria_1789_1815_first_100_focus_92
-		has_completed_focus = austria_1789_1815_first_100_focus_93
-		has_completed_focus = austria_1789_1815_first_100_focus_94
-		has_completed_focus = austria_1789_1815_first_100_focus_95
-		has_completed_focus = austria_1789_1815_first_100_focus_96
-		has_completed_focus = austria_1789_1815_first_100_focus_97
-		has_completed_focus = austria_1789_1815_first_100_focus_98
-		has_completed_focus = austria_1789_1815_first_100_focus_99
-        has_completed_focus = austria_1789_1815_first_100_focus_100
-		}
-		has_country_flag=napoleondemocratic
-		}
+
 		}
 
 		bypass = {
@@ -5938,11 +5993,39 @@ allow_branch = { has_start_date > 1789.1.1
 		focus = {
 		id = austria_1793_1836_focus_5
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1812.6.24 }
-		x = 32
-		y = 1
 
+		x = 10
+		y = 11
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_100
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -5950,21 +6033,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-		OR={
-		AND={
-		has_completed_focus = austria_1789_1815_first_100_focus_91
-		has_completed_focus = austria_1789_1815_first_100_focus_92
-		has_completed_focus = austria_1789_1815_first_100_focus_93
-		has_completed_focus = austria_1789_1815_first_100_focus_94
-		has_completed_focus = austria_1789_1815_first_100_focus_95
-		has_completed_focus = austria_1789_1815_first_100_focus_96
-		has_completed_focus = austria_1789_1815_first_100_focus_97
-		has_completed_focus = austria_1789_1815_first_100_focus_98
-		has_completed_focus = austria_1789_1815_first_100_focus_99
-        has_completed_focus = austria_1789_1815_first_100_focus_100
-		}
-		has_country_flag=napoleondemocratic
-		}
+
 		}
 
 		bypass = {
@@ -5983,32 +6052,46 @@ allow_branch = { has_start_date > 1789.1.1
 		focus = {
 		id = austria_1793_1836_focus_6
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1812.6.24 }
-		x = 34
-		y = 1
-		cost = 4.3
 
+		x = 12
+		y = 11
+		cost = 4.3
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_100
+		}
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-		OR={
-		AND={
-		has_completed_focus = austria_1789_1815_first_100_focus_91
-		has_completed_focus = austria_1789_1815_first_100_focus_92
-		has_completed_focus = austria_1789_1815_first_100_focus_93
-		has_completed_focus = austria_1789_1815_first_100_focus_94
-		has_completed_focus = austria_1789_1815_first_100_focus_95
-		has_completed_focus = austria_1789_1815_first_100_focus_96
-		has_completed_focus = austria_1789_1815_first_100_focus_97
-		has_completed_focus = austria_1789_1815_first_100_focus_98
-		has_completed_focus = austria_1789_1815_first_100_focus_99
-        has_completed_focus = austria_1789_1815_first_100_focus_100
-		}
-		has_country_flag=napoleondemocratic
-		}
+
 		}
 
 		bypass = {
@@ -6027,11 +6110,39 @@ allow_branch = { has_start_date > 1789.1.1
 		focus = {
 		id = austria_1793_1836_focus_7
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1812.6.24 }
-		x = 36
-		y = 1
 
+		x = 14
+		y = 11
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_100
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -6039,21 +6150,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-		OR={
-		AND={
-		has_completed_focus = austria_1789_1815_first_100_focus_91
-		has_completed_focus = austria_1789_1815_first_100_focus_92
-		has_completed_focus = austria_1789_1815_first_100_focus_93
-		has_completed_focus = austria_1789_1815_first_100_focus_94
-		has_completed_focus = austria_1789_1815_first_100_focus_95
-		has_completed_focus = austria_1789_1815_first_100_focus_96
-		has_completed_focus = austria_1789_1815_first_100_focus_97
-		has_completed_focus = austria_1789_1815_first_100_focus_98
-		has_completed_focus = austria_1789_1815_first_100_focus_99
-        has_completed_focus = austria_1789_1815_first_100_focus_100
-		}
-		has_country_flag=napoleondemocratic
-		}
+
 		}
 
 		bypass = {
@@ -6073,11 +6170,39 @@ allow_branch = { has_start_date > 1789.1.1
 		focus = {
 		id = austria_1793_1836_focus_8
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1812.6.24 }
-		x = 38
-		y = 1
 
+		x = 16
+		y = 11
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_100
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -6085,21 +6210,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-		OR={
-		AND={
-		has_completed_focus = austria_1789_1815_first_100_focus_91
-		has_completed_focus = austria_1789_1815_first_100_focus_92
-		has_completed_focus = austria_1789_1815_first_100_focus_93
-		has_completed_focus = austria_1789_1815_first_100_focus_94
-		has_completed_focus = austria_1789_1815_first_100_focus_95
-		has_completed_focus = austria_1789_1815_first_100_focus_96
-		has_completed_focus = austria_1789_1815_first_100_focus_97
-		has_completed_focus = austria_1789_1815_first_100_focus_98
-		has_completed_focus = austria_1789_1815_first_100_focus_99
-        has_completed_focus = austria_1789_1815_first_100_focus_100
-		}
-		has_country_flag=napoleondemocratic
-		}
+
 		}
 
 		bypass = {
@@ -6118,11 +6229,39 @@ allow_branch = { has_start_date > 1789.1.1
 		focus = {
 		id = austria_1793_1836_focus_9
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1812.6.24 }
-		x = 40
-		y = 1
 
+		x = 18
+		y = 11
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_100
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -6130,21 +6269,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-		OR={
-		AND={
-		has_completed_focus = austria_1789_1815_first_100_focus_91
-		has_completed_focus = austria_1789_1815_first_100_focus_92
-		has_completed_focus = austria_1789_1815_first_100_focus_93
-		has_completed_focus = austria_1789_1815_first_100_focus_94
-		has_completed_focus = austria_1789_1815_first_100_focus_95
-		has_completed_focus = austria_1789_1815_first_100_focus_96
-		has_completed_focus = austria_1789_1815_first_100_focus_97
-		has_completed_focus = austria_1789_1815_first_100_focus_98
-		has_completed_focus = austria_1789_1815_first_100_focus_99
-        has_completed_focus = austria_1789_1815_first_100_focus_100
-		}
-		has_country_flag=napoleondemocratic
-		}
+
 		}
 
 		bypass = {
@@ -6164,11 +6289,39 @@ allow_branch = { has_start_date > 1789.1.1
 		focus = {
 		id = austria_1793_1836_focus_10
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1812.6.24 }
-		x = 42
-		y = 1
 
+		x = 20
+		y = 11
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	austria_1789_1815_first_100_focus_100
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -6176,21 +6329,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-		OR={
-		AND={
-		has_completed_focus = austria_1789_1815_first_100_focus_91
-		has_completed_focus = austria_1789_1815_first_100_focus_92
-		has_completed_focus = austria_1789_1815_first_100_focus_93
-		has_completed_focus = austria_1789_1815_first_100_focus_94
-		has_completed_focus = austria_1789_1815_first_100_focus_95
-		has_completed_focus = austria_1789_1815_first_100_focus_96
-		has_completed_focus = austria_1789_1815_first_100_focus_97
-		has_completed_focus = austria_1789_1815_first_100_focus_98
-		has_completed_focus = austria_1789_1815_first_100_focus_99
-        has_completed_focus = austria_1789_1815_first_100_focus_100
-		}
-		has_country_flag=napoleondemocratic
-		}
+
 		}
 
 		bypass = {
@@ -7404,33 +7543,6 @@ allow_branch = { has_start_date > 1789.1.1
 		x = 0
 		y = 3
 		prerequisite = {
-		focus =	austria_1793_1836_focus_21
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_22
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_23
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_24
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_25
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_26
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_27
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_28
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_29
-		}
-		prerequisite = {
 		focus =	austria_1793_1836_focus_30
 		}
 		cost = 4.3
@@ -7462,37 +7574,10 @@ allow_branch = { has_start_date > 1789.1.1
 		id = austria_1793_1836_focus_32
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = austria_1793_1836_focus_1
-		x = 2
-		y = 3
+		x = 0
+		y = 4
 		prerequisite = {
-		focus =	austria_1793_1836_focus_21
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_22
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_23
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_24
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_25
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_26
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_27
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_28
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_29
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_30
+		focus =	austria_1793_1836_focus_31
 		}
 		cost = 4.3
 
@@ -7521,37 +7606,10 @@ allow_branch = { has_start_date > 1789.1.1
 		id = austria_1793_1836_focus_33
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = austria_1793_1836_focus_1
-		x = 4
-		y = 3
+		x = 0
+		y = 5
 		prerequisite = {
-		focus =	austria_1793_1836_focus_21
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_22
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_23
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_24
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_25
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_26
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_27
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_28
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_29
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_30
+		focus =	austria_1793_1836_focus_32
 		}
 		cost = 4.3
 
@@ -7575,6 +7633,8 @@ allow_branch = { has_start_date > 1789.1.1
 		
 		
 		completion_reward = {
+		set_country_flag=napoleonaustria
+		mark_focus_tree_layout_dirty = yes
 		}
 	}
 		focus = {
@@ -7583,36 +7643,8 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 6
 		y = 3
-		prerequisite = {
-		focus =	austria_1793_1836_focus_21
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_22
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_23
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_24
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_25
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_26
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_27
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_28
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_29
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_30
-		}
+				allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		cost = 4.3
 
 		ai_will_do = {
@@ -7620,7 +7652,9 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-
+				or={
+		has_country_flag=napoleonaustria
+		}
 		}
 
 		bypass = {
@@ -7642,36 +7676,8 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 8
 		y = 3
-		prerequisite = {
-		focus =	austria_1793_1836_focus_21
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_22
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_23
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_24
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_25
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_26
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_27
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_28
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_29
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_30
-		}
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		cost = 4.3
 
 		ai_will_do = {
@@ -7679,7 +7685,9 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-
+				or={
+		has_country_flag=napoleonaustria
+		}
 		}
 
 		bypass = {
@@ -7701,36 +7709,8 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 10
 		y = 3
-		prerequisite = {
-		focus =	austria_1793_1836_focus_21
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_22
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_23
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_24
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_25
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_26
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_27
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_28
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_29
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_30
-		}
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		cost = 4.3
 
 		ai_will_do = {
@@ -7738,7 +7718,9 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-
+				or={
+		has_country_flag=napoleonaustria
+		}
 		}
 
 		bypass = {
@@ -7760,36 +7742,8 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 12
 		y = 3
-		prerequisite = {
-		focus =	austria_1793_1836_focus_21
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_22
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_23
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_24
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_25
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_26
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_27
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_28
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_29
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_30
-		}
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		cost = 4.3
 
 		ai_will_do = {
@@ -7797,7 +7751,9 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-
+				or={
+		has_country_flag=napoleonaustria
+		}
 		}
 
 		bypass = {
@@ -7819,36 +7775,8 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 14
 		y = 3
-		prerequisite = {
-		focus =	austria_1793_1836_focus_21
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_22
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_23
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_24
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_25
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_26
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_27
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_28
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_29
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_30
-		}
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		cost = 4.3
 
 		ai_will_do = {
@@ -7856,7 +7784,9 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-
+				or={
+		has_country_flag=napoleonaustria
+		}
 		}
 
 		bypass = {
@@ -7878,37 +7808,8 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 16
 		y = 3
-		will_lead_to_war_with = AUS
-		prerequisite = {
-		focus =	austria_1793_1836_focus_21
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_22
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_23
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_24
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_25
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_26
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_27
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_28
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_29
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_30
-		}
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		cost = 4.3
 
 		ai_will_do = {
@@ -7916,7 +7817,9 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-
+				or={
+		has_country_flag=napoleonaustria
+		}
 		}
 
 		bypass = {
@@ -7938,36 +7841,8 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 18
 		y = 3
-		prerequisite = {
-		focus =	austria_1793_1836_focus_21
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_22
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_23
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_24
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_25
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_26
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_27
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_28
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_29
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_30
-		}
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		cost = 4.3
 
 		ai_will_do = {
@@ -7975,7 +7850,9 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-
+				or={
+		has_country_flag=napoleonaustria
+		}
 		}
 
 		bypass = {
@@ -7997,15 +7874,7 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 0
 		y = 4
-		prerequisite = {
-		focus =	austria_1793_1836_focus_31
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_32
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_33
-		}
+
 		prerequisite = {
 		focus =	austria_1793_1836_focus_34
 		}
@@ -8056,15 +7925,7 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 2
 		y = 4
-		prerequisite = {
-		focus =	austria_1793_1836_focus_31
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_32
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_33
-		}
+
 		prerequisite = {
 		focus =	austria_1793_1836_focus_34
 		}
@@ -8115,15 +7976,7 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 4
 		y = 4
-		prerequisite = {
-		focus =	austria_1793_1836_focus_31
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_32
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_33
-		}
+
 		prerequisite = {
 		focus =	austria_1793_1836_focus_34
 		}
@@ -8174,15 +8027,7 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 6
 		y = 4
-		prerequisite = {
-		focus =	austria_1793_1836_focus_31
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_32
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_33
-		}
+
 		prerequisite = {
 		focus =	austria_1793_1836_focus_34
 		}
@@ -8233,15 +8078,7 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 8
 		y = 4
-		prerequisite = {
-		focus =	austria_1793_1836_focus_31
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_32
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_33
-		}
+
 		prerequisite = {
 		focus =	austria_1793_1836_focus_34
 		}
@@ -8292,15 +8129,7 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 10
 		y = 4
-		prerequisite = {
-		focus =	austria_1793_1836_focus_31
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_32
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_33
-		}
+
 		prerequisite = {
 		focus =	austria_1793_1836_focus_34
 		}
@@ -8352,15 +8181,7 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 12
 		y = 4
-		prerequisite = {
-		focus =	austria_1793_1836_focus_31
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_32
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_33
-		}
+
 		prerequisite = {
 		focus =	austria_1793_1836_focus_34
 		}
@@ -8411,15 +8232,7 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 14
 		y = 4
-		prerequisite = {
-		focus =	austria_1793_1836_focus_31
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_32
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_33
-		}
+
 		prerequisite = {
 		focus =	austria_1793_1836_focus_34
 		}
@@ -8471,15 +8284,7 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 16
 		y = 4
-		prerequisite = {
-		focus =	austria_1793_1836_focus_31
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_32
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_33
-		}
+
 		prerequisite = {
 		focus =	austria_1793_1836_focus_34
 		}
@@ -8530,15 +8335,7 @@ allow_branch = { has_start_date > 1789.1.1
         relative_position_id = austria_1793_1836_focus_1
 		x = 18
 		y = 4
-		prerequisite = {
-		focus =	austria_1793_1836_focus_31
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_32
-		}
-		prerequisite = {
-		focus =	austria_1793_1836_focus_33
-		}
+
 		prerequisite = {
 		focus =	austria_1793_1836_focus_34
 		}
@@ -11610,11 +11407,11 @@ focus = {
 focus = {
 		id = austria_1793_1836_focus_101
 		icon = GFX_goal_generic_neutrality_focus
-
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 46
 		y = 1
-allow_branch = { has_start_date > 1800.1.1
-    has_start_date < 1836.1.1 }
+
 		cost = 4.3
 
 		ai_will_do = {
@@ -11622,20 +11419,8 @@ allow_branch = { has_start_date > 1800.1.1
 		}
 
 		available = {
-		OR={
-	    AND={ 
-		has_completed_focus = austria_1793_1836_focus_91
-		has_completed_focus = austria_1793_1836_focus_92
-		has_completed_focus = austria_1793_1836_focus_93
-		has_completed_focus = austria_1793_1836_focus_94
-		has_completed_focus = austria_1793_1836_focus_95
-		has_completed_focus = austria_1793_1836_focus_96
-		has_completed_focus = austria_1793_1836_focus_97
-		has_completed_focus = austria_1793_1836_focus_98
-		has_completed_focus = austria_1793_1836_focus_99
-        has_completed_focus = austria_1793_1836_focus_100
-				}
-		has_country_flag=napoleondictator
+				or={
+		has_country_flag=napoleonaustria
 		}
 		}
 
@@ -11656,8 +11441,8 @@ allow_branch = { has_start_date > 1800.1.1
 		focus = {
 		id = austria_1793_1836_focus_102
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1800.1.1
-    has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 48
 		y = 1
 
@@ -11668,20 +11453,8 @@ allow_branch = { has_start_date > 1800.1.1
 		}
 
 		available = {
-		OR={
-	    AND={ 
-		has_completed_focus = austria_1793_1836_focus_91
-		has_completed_focus = austria_1793_1836_focus_92
-		has_completed_focus = austria_1793_1836_focus_93
-		has_completed_focus = austria_1793_1836_focus_94
-		has_completed_focus = austria_1793_1836_focus_95
-		has_completed_focus = austria_1793_1836_focus_96
-		has_completed_focus = austria_1793_1836_focus_97
-		has_completed_focus = austria_1793_1836_focus_98
-		has_completed_focus = austria_1793_1836_focus_99
-        has_completed_focus = austria_1793_1836_focus_100
-				}
-		has_country_flag=napoleondictator
+				or={
+		has_country_flag=napoleonaustria
 		}
 		}
 
@@ -11701,8 +11474,8 @@ allow_branch = { has_start_date > 1800.1.1
 		focus = {
 		id = austria_1793_1836_focus_103
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1800.1.1
-    has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 50
 		y = 1
 
@@ -11713,20 +11486,8 @@ allow_branch = { has_start_date > 1800.1.1
 		}
 
 		available = {
-		OR={
-	    AND={ 
-		has_completed_focus = austria_1793_1836_focus_91
-		has_completed_focus = austria_1793_1836_focus_92
-		has_completed_focus = austria_1793_1836_focus_93
-		has_completed_focus = austria_1793_1836_focus_94
-		has_completed_focus = austria_1793_1836_focus_95
-		has_completed_focus = austria_1793_1836_focus_96
-		has_completed_focus = austria_1793_1836_focus_97
-		has_completed_focus = austria_1793_1836_focus_98
-		has_completed_focus = austria_1793_1836_focus_99
-        has_completed_focus = austria_1793_1836_focus_100
-				}
-		has_country_flag=napoleondictator
+				or={
+		has_country_flag=napoleonaustria
 		}
 		}
 
@@ -11746,8 +11507,8 @@ allow_branch = { has_start_date > 1800.1.1
 		focus = {
 		id = austria_1793_1836_focus_104
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1800.1.1
-    has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 52
 		y = 1
 
@@ -11758,20 +11519,8 @@ allow_branch = { has_start_date > 1800.1.1
 		}
 
 		available = {
-		OR={
-	    AND={ 
-		has_completed_focus = austria_1793_1836_focus_91
-		has_completed_focus = austria_1793_1836_focus_92
-		has_completed_focus = austria_1793_1836_focus_93
-		has_completed_focus = austria_1793_1836_focus_94
-		has_completed_focus = austria_1793_1836_focus_95
-		has_completed_focus = austria_1793_1836_focus_96
-		has_completed_focus = austria_1793_1836_focus_97
-		has_completed_focus = austria_1793_1836_focus_98
-		has_completed_focus = austria_1793_1836_focus_99
-        has_completed_focus = austria_1793_1836_focus_100
-				}
-		has_country_flag=napoleondictator
+				or={
+		has_country_flag=napoleonaustria
 		}
 		}
 
@@ -11791,8 +11540,8 @@ allow_branch = { has_start_date > 1800.1.1
 		focus = {
 		id = austria_1793_1836_focus_105
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1800.1.1
-    has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 54
 		y = 1
 
@@ -11803,20 +11552,8 @@ allow_branch = { has_start_date > 1800.1.1
 		}
 
 		available = {
-		OR={
-	    AND={ 
-		has_completed_focus = austria_1793_1836_focus_91
-		has_completed_focus = austria_1793_1836_focus_92
-		has_completed_focus = austria_1793_1836_focus_93
-		has_completed_focus = austria_1793_1836_focus_94
-		has_completed_focus = austria_1793_1836_focus_95
-		has_completed_focus = austria_1793_1836_focus_96
-		has_completed_focus = austria_1793_1836_focus_97
-		has_completed_focus = austria_1793_1836_focus_98
-		has_completed_focus = austria_1793_1836_focus_99
-        has_completed_focus = austria_1793_1836_focus_100
-				}
-		has_country_flag=napoleondictator
+				or={
+		has_country_flag=napoleonaustria
 		}
 		}
 
@@ -11836,8 +11573,8 @@ allow_branch = { has_start_date > 1800.1.1
 		focus = {
 		id = austria_1793_1836_focus_106
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1800.1.1
-    has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 56
 		y = 1
 		cost = 4.3
@@ -11847,20 +11584,8 @@ allow_branch = { has_start_date > 1800.1.1
 		}
 
 		available = {
-		OR={
-	    AND={ 
-		has_completed_focus = austria_1793_1836_focus_91
-		has_completed_focus = austria_1793_1836_focus_92
-		has_completed_focus = austria_1793_1836_focus_93
-		has_completed_focus = austria_1793_1836_focus_94
-		has_completed_focus = austria_1793_1836_focus_95
-		has_completed_focus = austria_1793_1836_focus_96
-		has_completed_focus = austria_1793_1836_focus_97
-		has_completed_focus = austria_1793_1836_focus_98
-		has_completed_focus = austria_1793_1836_focus_99
-        has_completed_focus = austria_1793_1836_focus_100
-				}
-		has_country_flag=napoleondictator
+				or={
+		has_country_flag=napoleonaustria
 		}
 		}
 
@@ -11880,8 +11605,8 @@ allow_branch = { has_start_date > 1800.1.1
 		focus = {
 		id = austria_1793_1836_focus_107
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1800.1.1
-    has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 58
 		y = 1
 
@@ -11892,20 +11617,8 @@ allow_branch = { has_start_date > 1800.1.1
 		}
 
 		available = {
-		OR={
-	    AND={ 
-		has_completed_focus = austria_1793_1836_focus_91
-		has_completed_focus = austria_1793_1836_focus_92
-		has_completed_focus = austria_1793_1836_focus_93
-		has_completed_focus = austria_1793_1836_focus_94
-		has_completed_focus = austria_1793_1836_focus_95
-		has_completed_focus = austria_1793_1836_focus_96
-		has_completed_focus = austria_1793_1836_focus_97
-		has_completed_focus = austria_1793_1836_focus_98
-		has_completed_focus = austria_1793_1836_focus_99
-        has_completed_focus = austria_1793_1836_focus_100
-				}
-		has_country_flag=napoleondictator
+				or={
+		has_country_flag=napoleonaustria
 		}
 		}
 
@@ -11926,8 +11639,8 @@ allow_branch = { has_start_date > 1800.1.1
 		focus = {
 		id = austria_1793_1836_focus_108
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1800.1.1
-    has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 60
 		y = 1
 
@@ -11938,20 +11651,8 @@ allow_branch = { has_start_date > 1800.1.1
 		}
 
 		available = {
-		OR={
-	    AND={ 
-		has_completed_focus = austria_1793_1836_focus_91
-		has_completed_focus = austria_1793_1836_focus_92
-		has_completed_focus = austria_1793_1836_focus_93
-		has_completed_focus = austria_1793_1836_focus_94
-		has_completed_focus = austria_1793_1836_focus_95
-		has_completed_focus = austria_1793_1836_focus_96
-		has_completed_focus = austria_1793_1836_focus_97
-		has_completed_focus = austria_1793_1836_focus_98
-		has_completed_focus = austria_1793_1836_focus_99
-        has_completed_focus = austria_1793_1836_focus_100
-				}
-		has_country_flag=napoleondictator
+				or={
+		has_country_flag=napoleonaustria
 		}
 		}
 
@@ -11971,8 +11672,8 @@ allow_branch = { has_start_date > 1800.1.1
 		focus = {
 		id = austria_1793_1836_focus_109
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1800.1.1
-    has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 62
 		y = 1
 
@@ -11983,20 +11684,8 @@ allow_branch = { has_start_date > 1800.1.1
 		}
 
 		available = {
-		OR={
-	    AND={ 
-		has_completed_focus = austria_1793_1836_focus_91
-		has_completed_focus = austria_1793_1836_focus_92
-		has_completed_focus = austria_1793_1836_focus_93
-		has_completed_focus = austria_1793_1836_focus_94
-		has_completed_focus = austria_1793_1836_focus_95
-		has_completed_focus = austria_1793_1836_focus_96
-		has_completed_focus = austria_1793_1836_focus_97
-		has_completed_focus = austria_1793_1836_focus_98
-		has_completed_focus = austria_1793_1836_focus_99
-        has_completed_focus = austria_1793_1836_focus_100
-				}
-		has_country_flag=napoleondictator
+				or={
+		has_country_flag=napoleonaustria
 		}
 		}
 
@@ -12017,8 +11706,8 @@ allow_branch = { has_start_date > 1800.1.1
 		focus = {
 		id = austria_1793_1836_focus_110
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1800.1.1
-    has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 64
 		y = 1
 
@@ -12029,20 +11718,8 @@ allow_branch = { has_start_date > 1800.1.1
 		}
 
 		available = {
-		OR={
-	    AND={ 
-		has_completed_focus = austria_1793_1836_focus_91
-		has_completed_focus = austria_1793_1836_focus_92
-		has_completed_focus = austria_1793_1836_focus_93
-		has_completed_focus = austria_1793_1836_focus_94
-		has_completed_focus = austria_1793_1836_focus_95
-		has_completed_focus = austria_1793_1836_focus_96
-		has_completed_focus = austria_1793_1836_focus_97
-		has_completed_focus = austria_1793_1836_focus_98
-		has_completed_focus = austria_1793_1836_focus_99
-        has_completed_focus = austria_1793_1836_focus_100
-				}
-		has_country_flag=napoleondictator
+				or={
+		has_country_flag=napoleonaustria
 		}
 		}
 
@@ -13735,7 +13412,6 @@ allow_branch = { has_start_date > 1800.1.1
         relative_position_id = austria_1793_1836_focus_101
 		x = 16
 		y = 3
-		will_lead_to_war_with = AUS
 		prerequisite = {
 		focus =	austria_1793_1836_focus_121
 		}
@@ -17416,7 +17092,7 @@ focus = {
 		icon = GFX_goal_generic_neutrality_focus
 
 		x = 2
-		y = 12
+		y = 22
 allow_branch = { has_start_date > 1812.6.24
      has_start_date < 1836.1.1 }
 		cost = 4.3
@@ -17458,7 +17134,7 @@ allow_branch = { has_start_date > 1812.6.24
 allow_branch = { has_start_date > 1812.6.24
      has_start_date < 1836.1.1 }
 		x = 4
-		y = 12
+		y = 22
 
 		cost = 4.3
 
@@ -17498,7 +17174,7 @@ allow_branch = { has_start_date > 1812.6.24
 allow_branch = { has_start_date > 1812.6.24
      has_start_date < 1836.1.1 }
 		x = 6
-		y = 12
+		y = 22
 
 		cost = 4.3
 
@@ -17538,7 +17214,7 @@ allow_branch = { has_start_date > 1812.6.24
 allow_branch = { has_start_date > 1812.6.24
      has_start_date < 1836.1.1 }
 		x = 8
-		y = 12
+		y = 22
 
 		cost = 4.3
 
@@ -17578,7 +17254,7 @@ allow_branch = { has_start_date > 1812.6.24
 allow_branch = { has_start_date > 1812.6.24
      has_start_date < 1836.1.1 }
 		x = 10
-		y = 12
+		y = 22
 
 		cost = 4.3
 
@@ -17618,7 +17294,7 @@ allow_branch = { has_start_date > 1812.6.24
 allow_branch = { has_start_date > 1812.6.24
      has_start_date < 1836.1.1 }
 		x = 12
-		y = 12
+		y = 22
 		cost = 4.3
 
 		ai_will_do = {
@@ -17657,7 +17333,7 @@ allow_branch = { has_start_date > 1812.6.24
 allow_branch = { has_start_date > 1812.6.24
      has_start_date < 1836.1.1 }
 		x = 14
-		y = 12
+		y = 22
 
 		cost = 4.3
 
@@ -17698,7 +17374,7 @@ allow_branch = { has_start_date > 1812.6.24
 allow_branch = { has_start_date > 1812.6.24
      has_start_date < 1836.1.1 }
 		x = 16
-		y = 12
+		y = 22
 
 		cost = 4.3
 
@@ -17738,7 +17414,7 @@ allow_branch = { has_start_date > 1812.6.24
 allow_branch = { has_start_date > 1812.6.24
      has_start_date < 1836.1.1 }
 		x = 18
-		y = 12
+		y = 22
 
 		cost = 4.3
 
@@ -17779,7 +17455,7 @@ allow_branch = { has_start_date > 1812.6.24
 allow_branch = { has_start_date > 1812.6.24
      has_start_date < 1836.1.1 }
 		x = 20
-		y = 12
+		y = 22
 
 		cost = 4.3
 
@@ -19490,7 +19166,6 @@ FRA={has_country_flag = fontainebleau_flag}
         relative_position_id = austria_1793_1836_focus_201
 		x = 16
 		y = 3
-		will_lead_to_war_with = AUS
 		prerequisite = {
 		focus =	austria_1793_1836_focus_221
 		}
@@ -25268,7 +24943,6 @@ allow_branch = { has_start_date > 1812.6.24
         relative_position_id = austria_1793_1836_focus_301
 		x = 16
 		y = 3
-		will_lead_to_war_with = AUS
 		prerequisite = {
 		focus =	austria_1793_1836_focus_321
 		}
@@ -31087,7 +30761,6 @@ allow_branch = { has_start_date > 1812.6.24
         relative_position_id = austria_1793_1836_focus_401
 		x = 16
 		y = 3
-		will_lead_to_war_with = AUS
 		prerequisite = {
 		focus =	austria_1793_1836_focus_421
 		}

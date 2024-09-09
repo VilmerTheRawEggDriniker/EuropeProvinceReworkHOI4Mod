@@ -3,7 +3,7 @@ bookmarks = {
 		name = "End of the Battle Of Varna"
 		desc = "1444_DESC"
 		date = 1444.11.11.12
-		picture = "GFX_select_date_1939"
+		picture = "GFX_varna_1444"
 		default_country = "AUS"
 	
 		AUS = {

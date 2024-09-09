@@ -205,6 +205,17 @@ set_party_name = { ideology = neutrality long_name = POL_PON_neutrality_party_lo
 1800.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }
 }
+1800.1.1 = {
+COU={
+set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }
+}
+}
+1800.1.1 = {
+			if = {
+		limit = { has_start_date < 1900.1.1 }
+LIT={set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }}
+}
+}
 1816.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_ROS_neutrality_party_long name = POL_ROS_neutrality_party }
 }

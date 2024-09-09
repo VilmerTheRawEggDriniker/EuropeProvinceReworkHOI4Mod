@@ -187,6 +187,9 @@ MSV_TADEUSZ_DESC:0 "Andrzej Tadeusz Bonawentura Kościuszko was a Polish militar
 ALB_CHARACTER_ALIPASHA:0 "Ali Pasha"
 ALB_ALIPASHA_DESC:0 "Ali Pasha was an Albanian ruler who served as Ottoman pasha of the Pashalik of Yanina, a large part of western Rumelia. Under his rule, it acquired a high degree of autonomy and even managed to stay de facto independent. The capital of the Pashalik was Ioannina, which, along with Tepelena, was Ali's headquarters."
 
+NIR_CHARACTER_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK:0 "William II"
+NIR_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK_DESC:0 "William III also widely known as William of Orange, was the sovereign Prince of Orange from birth, Stadtholder of Holland, Zeeland, Utrecht, Guelders, and Overijssel in the Dutch Republic from the 1670s, and King of England, Ireland, and Scotland from 1689 until his death in 1702. As King of Scotland, he is known as William II. He ruled Britain and Ireland alongside his wife, Queen Mary II, and their joint reign is known as that of William and Mary."
+
 SCO_CHARACTER_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK:0 "William II"
 SCO_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK_DESC:0 "William III also widely known as William of Orange, was the sovereign Prince of Orange from birth, Stadtholder of Holland, Zeeland, Utrecht, Guelders, and Overijssel in the Dutch Republic from the 1670s, and King of England, Ireland, and Scotland from 1689 until his death in 1702. As King of Scotland, he is known as William II. He ruled Britain and Ireland alongside his wife, Queen Mary II, and their joint reign is known as that of William and Mary."
 
@@ -848,13 +851,16 @@ SCO_CHARLESII_DESC:0 "Charles II was King of Scotland from 1649 until 1651 and K
 SCO_CHARACTER_JAMESII:0 "James VII"
 SCO_JAMESII_DESC:0 "James VII and II was King of England and Ireland as James II and King of Scotland as James VII from the death of his elder brother, Charles II, on 6 February 1685. He was deposed in the Glorious Revolution of 1688. He was the last Catholic monarch of England, Scotland, and Ireland. His reign is now remembered primarily for conflicts over religious tolerance, but it also involved struggles over the principles of absolutism and the divine right of kings. His deposition ended a century of political and civil strife in England by confirming the primacy of the English Parliament over the Crown."
 
+IRE_CHARACTER_HENRYBENEDICT:0 "Henry Benedict"
+
+DNZ_CHARACTER_JEANRAPP:0 "Jean Rapp"
+DNZ_JEANRAPP_DESC:0 "General Count Jean Rapp was a French Army officer during the French Revolutionary Wars and the Napoleonic Wars and twice governor of the Free City of Danzig. He served as Aide-de-camp to French Generals Louis Desaix and later Napoleon Bonaparte, whose life he saved on multiple occasions."
 
 
 
 
-
-
-
+NIR_CHARACTER_GEORGEIIINIR:0 "George III"
+NIR_GEORGEIIINIR_DESC:0 "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland, with George as its king. He was concurrently Duke and Prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was a monarch of the House of Hanover, who, unlike his two predecessors, was born in Great Britain, spoke English as his first language, and never visited Hanover."
 
 ENG_CHARACTER_GEORGEIIIENG:0 "George III"
 ENG_GEORGEIIIENG_DESC:0 "George III was King of Great Britain and Ireland from 25 October 1760 until his death in 1820. The Acts of Union 1800 unified Great Britain and Ireland into the United Kingdom of Great Britain and Ireland, with George as its king. He was concurrently Duke and Prince-elector of Hanover in the Holy Roman Empire before becoming King of Hanover on 12 October 1814. He was a monarch of the House of Hanover, who, unlike his two predecessors, was born in Great Britain, spoke English as his first language, and never visited Hanover."
@@ -932,6 +938,12 @@ POR_MARIAI_DESC:0 "Dona Maria I was Queen of Portugal from 24 February 1777 unti
 
 VND_CHARACTER_LOUISXVII:0 "Louis XVII"
 VND_LOUISXVII_DESC:0 ""
+
+LIT_CHARACTER_FREDERICKAUGUSTUSI:0 "Frederick Augustus I"
+LIT_FREDERICKAUGUSTUSI_DESC:0 "Frederick Augustus I was a member of the House of Wettin who reigned as the last Elector of Saxony from 1763 to 1806 and as the first King of Saxony from 1806 to 1827.He was also Duke of Warsaw from 1807 to 1815."
+
+COU_CHARACTER_FREDERICKAUGUSTUSI:0 "Frederick Augustus I"
+COU_FREDERICKAUGUSTUSI_DESC:0 "Frederick Augustus I was a member of the House of Wettin who reigned as the last Elector of Saxony from 1763 to 1806 and as the first King of Saxony from 1806 to 1827.He was also Duke of Warsaw from 1807 to 1815."
 
 SAX_CHARACTER_FREDERICKAUGUSTUSI:0 "Frederick Augustus I"
 SAX_FREDERICKAUGUSTUSI_DESC:0 "Frederick Augustus I was a member of the House of Wettin who reigned as the last Elector of Saxony from 1763 to 1806 and as the first King of Saxony from 1806 to 1827.He was also Duke of Warsaw from 1807 to 1815."

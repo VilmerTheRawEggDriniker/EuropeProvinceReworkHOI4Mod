@@ -1,4 +1,11 @@
 ﻿capital = 11
+1770.1.1 = {
+recruit_character=LIT_frederickaugustusi
+promote_character=LIT_frederickaugustusi
+}
+1836.1.1 = {
+retire_character=LIT_frederickaugustusi
+}
 1919.1.1 = {
 		if = {
 		limit = { has_start_date < 1920.1.1 }

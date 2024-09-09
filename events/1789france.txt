@@ -438,9 +438,6 @@ fire_only_once = yes
 AUS={puppet = VNT}
 FRA={set_country_flag = campoformio_flag}
 every_country = {
-  limit = {
-  original_tag=AUS
-  }
   white_peace = FRA
 }
 	}
@@ -477,9 +474,6 @@ fire_only_once = yes
 AUS={puppet = VNT}
 FRA={set_country_flag = campoformio_flag}
 every_country = {
-  limit = {
-  original_tag=AUS
-  }
   white_peace = FRA
 }
 	}
@@ -641,10 +635,10 @@ fire_only_once = yes
 					is_controlled_by = ROOT
 					is_core_of = ROOT
 				}
-				add_building_construction = {
+				remove_building = {
 					type = industrial_complex
-					level = -1
-					instant_build = yes
+					level = 1
+					
 				}
 			}
 				random_owned_state = {
@@ -652,10 +646,10 @@ fire_only_once = yes
 					is_controlled_by = ROOT
 					is_core_of = ROOT
 				}
-				add_building_construction = {
+				remove_building = {
 					type = industrial_complex
-					level = -1
-					instant_build = yes
+					level = 1
+					
 				}
 			}
 	}
@@ -735,30 +729,30 @@ fire_only_once = yes
 	10 = {	
 					14 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					14 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					14 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -769,30 +763,30 @@ fire_only_once = yes
 	10 = {	
 					15 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					15 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					15 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -803,30 +797,30 @@ fire_only_once = yes
 	10 = {	
 					30 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					30 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					30 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -837,30 +831,30 @@ fire_only_once = yes
 	10 = {	
 					23 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					23 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					23 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -871,30 +865,30 @@ fire_only_once = yes
 	10 = {	
 					932 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					932 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					932 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -905,30 +899,30 @@ fire_only_once = yes
 	10 = {	
 					960 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					960 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					960 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -947,30 +941,30 @@ fire_only_once = yes
 	10 = {	
 					14 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					14 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					14 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -981,30 +975,30 @@ fire_only_once = yes
 	10 = {	
 					15 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					15 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					15 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -1015,30 +1009,30 @@ fire_only_once = yes
 	10 = {	
 					30 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					30 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					30 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -1049,30 +1043,30 @@ fire_only_once = yes
 	10 = {	
 					23 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					23 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					23 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -1083,30 +1077,30 @@ fire_only_once = yes
 	10 = {	
 					932 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					932 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					932 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -1117,30 +1111,30 @@ fire_only_once = yes
 	10 = {	
 					960 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = dockyard
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 	}
 		10 = {	
 					960 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = industrial_complex
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 		}
 			10 = {	
 					960 = {
                         add_extra_state_shared_building_slots = -1
-						add_building_construction = {
+						remove_building = {
 							type = arms_factory
-							level = -1
-							instant_build = yes
+							level = 1
+							
 						}
 					}
 			}
@@ -1650,5 +1644,345 @@ add_ideas = {
 nineteenth_century
 }
 }
+	}
+}
+
+
+
+
+
+country_event = {
+	id = fra_1789_event.41
+	title = "Heavy flooding of the Seine"
+	desc = fra_1789_event.41.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+original_tag=FRA
+date > 1799.2.6 date < 1800.1.1 
+	}
+fire_only_once = yes
+	option = { # 
+		name = "This Will be Even Worse"
+		ai_chance = { factor = 100 } 
+	add_political_power=-150
+	add_stability=-0.01
+	random_list = {
+	30 = {	
+					16 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = infrastructure
+							level = 1
+							
+						}
+					}
+	}
+		30 = {	
+					16 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+							
+						}
+					}
+		}
+			40 = {	
+					16 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = arms_factory
+							level = 1
+							
+						}
+					}
+			}
+
+	}
+		random_list = {
+	30 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = dockyard
+							level = 1
+							
+						}
+					}
+	}
+		30 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+							
+						}
+					}
+		}
+			40 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = arms_factory
+							level = 1
+							
+						}
+					}
+			}
+
+	}
+		random_list = {
+	30 = {	
+					988 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = infrastructure
+							level = 1
+							
+						}
+					}
+	}
+		30 = {	
+					988 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+							
+						}
+					}
+		}
+			40 = {	
+					988 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = arms_factory
+							level = 1
+							
+						}
+					}
+			}
+
+	}
+		random_list = {
+	30 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = dockyard
+							level = 1
+							
+						}
+					}
+	}
+		30 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+							
+						}
+					}
+		}
+			40 = {	
+					15 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = arms_factory
+							level = 1
+							
+						}
+					}
+			}
+
+	}
+		random_list = {
+	30 = {	
+					16 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = infrastructure
+							level = 1
+							
+						}
+					}
+	}
+		30 = {	
+					16 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+							
+						}
+					}
+		}
+			40 = {	
+					16 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = arms_factory
+							level = 1
+							
+						}
+					}
+			}
+
+	}
+		random_list = {
+	30 = {	
+					988 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = infrastructure
+							level = 1
+							
+						}
+					}
+	}
+		30 = {	
+					988 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = industrial_complex
+							level = 1
+							
+						}
+					}
+		}
+			40 = {	
+					988 = {
+                        add_extra_state_shared_building_slots = -1
+						remove_building = {
+							type = arms_factory
+							level = 1
+							
+						}
+					}
+			}
+
+	}
+	}
+}
+country_event = {
+	id = fra_1789_event.42
+	title = "Irish Rebellion of 1798"
+	desc = fra_1789_event.42.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+original_tag=ZZZ
+date > 1798.5.1 date < 1799.1.1 
+	}
+fire_only_once = yes
+	option = { # 
+		name = "Irish Rebellion of 1798"
+		ai_chance = { factor = 100 } 
+IRE={
+transfer_state = 113
+transfer_state = 134
+transfer_state = 135
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.43
+	title = "Irish Rebellion of 1798"
+	desc = fra_1789_event.43.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+original_tag=IRE
+date > 1798.5.24 date < 1799.1.1 
+	}
+fire_only_once = yes
+	option = { # 
+		name = "Irish Rebellion of 1798"
+		ai_chance = { factor = 100 } 
+IRE={set_politics = { ruling_party = democratic elections_allowed = no } }
+IRE={set_cosmetic_tag=IRE_FRA}
+IRE={load_oob = "IRE_1789"}
+IRE={
+			declare_war_on = {
+		target = NIR
+		type = puppet_wargoal_focus
+	}
+}
+	}
+}
+country_event = {
+	id = fra_1789_event.44
+	title = "The Women's March on Versailles"
+	desc = fra_1789_event.44.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Price of Bread is really unreasonable"
+		ai_chance = { factor = 100 } 
+		add_political_power=25
+		add_stability=-0.01
+		add_war_support=0.05
+	}
+	option = { # 
+		name = "The French Royal Army should back down"
+		ai_chance = { factor = 0 } 
+		add_political_power=25
+		add_stability=-0.01
+		add_war_support=0.05
+		hidden_effect={
+		add_popularity = { ideology = neutrality popularity = -0.05 }
+		}
+	}
+}
+country_event = {
+	id = fra_1789_event.45
+	title = "Equal Citizenship for Coloured Folk"
+	desc = fra_1789_event.45.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "This is only for the Free Coloured Folk"
+		ai_chance = { factor = 100 } 
+		add_political_power=25
+	}
+	option = { # 
+		name = "Expect the Coloured Slaves to be Freed very soon! This is only the First step"
+		ai_chance = { factor = 0 } 
+		add_political_power=25
+		hidden_effect={add_political_power=150}
+	}
+}
+country_event = {
+	id = fra_1789_event.46
+	title = "the International Clique with Britain"
+	desc = fra_1789_event.46.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We will cooperate with Britain in Enslaving Europe and Dethroning the Goy kings"
+		ai_chance = { factor = 100 } 
+		add_political_power=150
+		ENG={add_political_power=150}
+		HOL={add_political_power=150}
+		USA={add_political_power=150}
+	}
+}
+country_event = {
+	id = fra_1789_event.47
+	title = "Delusional Ambition between 1689-1789"
+	desc = fra_1789_event.47.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Its probably too late to make things right..."
+		ai_chance = { factor = 100 } 
+		add_political_power=-150
 	}
 }

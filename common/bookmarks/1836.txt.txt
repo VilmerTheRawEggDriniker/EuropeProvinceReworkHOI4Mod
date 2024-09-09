@@ -3,7 +3,7 @@ bookmarks = {
 		name = "Victorian Age"
 		desc = "1836_DESC"
 		date = 1836.1.1.12
-		picture = "GFX_select_date_1939"
+		picture = "GFX_victoria_1836"
 		default_country = "FRA"
 	
 		FRA = {

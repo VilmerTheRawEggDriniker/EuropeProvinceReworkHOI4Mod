@@ -2,9 +2,13 @@
 1770.1.1 = {
 recruit_character=COU_petervonbiron
 promote_character=COU_petervonbiron
+recruit_character=COU_frederickaugustusi
 }
 1801.1.1 = {
 retire_character=COU_petervonbiron
+}
+1836.1.1 = {
+retire_character=COU_frederickaugustusi
 }
 # Starting tech
 set_technology = {

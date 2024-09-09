@@ -281,6 +281,18 @@ spriteTypes = {
 		texturefile = "gfx/leaders/MOL/portrait_mihail_large.dds"
 	}
 
+	        spriteType = {
+		name = "GFX_portrait_dnz_jeanrapp_large"
+		texturefile = "gfx/leaders/DNZ/portrait_jeanrapp_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_ire_henrybenedict_large"
+		texturefile = "gfx/leaders/IRE/portrait_henrybenedict_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_nir_kingwilliamoforangeisaslutforbigjewishcock_large"
+		texturefile = "gfx/leaders/NIR/portrait_kingwilliamoforangeisaslutforbigjewishcock_large.dds"
+	}
         spriteType = {
 		name = "GFX_portrait_eng_kingwilliamoforangeisaslutforbigjewishcock_large"
 		texturefile = "gfx/leaders/ENG/portrait_kingwilliamoforangeisaslutforbigjewishcock_large.dds"
@@ -1278,6 +1290,10 @@ spriteTypes = {
 		name = "GFX_portrait_eng_georgeiiieng_large"
 		texturefile = "gfx/leaders/ENG/portrait_georgeiiieng_large.dds"
 	}
+	        spriteType = {
+		name = "GFX_portrait_nir_georgeiiinir_large"
+		texturefile = "gfx/leaders/NIR/portrait_georgeiiinir_large.dds"
+	}
         spriteType = {
 		name = "GFX_portrait_eng_georgeiveng_large"
 		texturefile = "gfx/leaders/ENG/portrait_georgeiveng_large.dds"
@@ -1373,6 +1389,14 @@ spriteTypes = {
         spriteType = {
 		name = "GFX_portrait_pol_frederickaugustusipol_large"
 		texturefile = "gfx/leaders/POL/portrait_frederickaugustusipol_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_cou_frederickaugustusi_large"
+		texturefile = "gfx/leaders/COU/portrait_frederickaugustusi_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_lit_frederickaugustusi_large"
+		texturefile = "gfx/leaders/LIT/portrait_frederickaugustusi_large.dds"
 	}
         spriteType = {
 		name = "GFX_portrait_sax_frederickaugustusi_large"

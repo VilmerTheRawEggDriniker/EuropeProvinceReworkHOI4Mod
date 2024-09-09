@@ -3,7 +3,7 @@ bookmarks = {
 		name = "The Great War"
 		desc = "1914_DESC"
 		date = 1914.7.28.12
-		picture = "GFX_select_date_1939"
+		picture = "GFX_worldwarone_1914"
 		default_country = "FRA"
 	
 		FRA = {
@@ -42,7 +42,7 @@ bookmarks = {
 
 			}
 		}
-		AUS = {
+		AUH = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
@@ -51,7 +51,7 @@ bookmarks = {
 
 			}
 		}
-		PRE = {
+		GER = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={

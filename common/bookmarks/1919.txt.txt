@@ -3,7 +3,7 @@ bookmarks = {
 		name = "Russian Civil War"
 		desc = "1919_DESC"
 		date = 1919.1.1.12
-		picture = "GFX_select_date_1939"
+		picture = "GFX_the_russian_civil_war_1919"
 		default_country = "RUS"
 	
 		RUS = {

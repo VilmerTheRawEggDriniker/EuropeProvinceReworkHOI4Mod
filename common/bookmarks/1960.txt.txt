@@ -3,7 +3,7 @@ bookmarks = {
 		name = "The Coldwar"
 		desc = "1960_DESC"
 		date = 1960.1.1.12
-		picture = "GFX_select_date_1939"
+		picture = "GFX_coldwar_1960"
 		default_country = "SOV"
 	
 		SOV = {

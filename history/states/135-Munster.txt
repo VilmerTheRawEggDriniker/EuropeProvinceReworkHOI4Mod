@@ -8,6 +8,9 @@ state={
 
 	history={
 		owner = IRE
+				1700.1.1 = {
+		owner = NIR
+		}
 	    1801.1.1 = {
 			owner = ENG
 			controller = ENG

@@ -13,7 +13,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_industrial_complex_factor = -0.99
+			production_speed_buildings_factor = -0.99
 industrial_capacity_factory = -0.99
 
 			}
@@ -31,7 +31,7 @@ industrial_capacity_factory = -0.99
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_industrial_complex_factor = -0.89
+			production_speed_buildings_factor = -0.89
 industrial_capacity_factory = -0.89
 
 			}
@@ -49,7 +49,7 @@ industrial_capacity_factory = -0.89
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_industrial_complex_factor = -0.79
+			production_speed_buildings_factor = -0.79
 industrial_capacity_factory = -0.79
 
 			}
@@ -67,7 +67,7 @@ industrial_capacity_factory = -0.79
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_industrial_complex_factor = -0.69
+			production_speed_buildings_factor = -0.69
 industrial_capacity_factory = -0.69
   
 			}
@@ -85,7 +85,7 @@ industrial_capacity_factory = -0.69
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_industrial_complex_factor = -0.59
+			production_speed_buildings_factor = -0.59
                         industrial_capacity_factory = -0.59
 
 			}
@@ -103,7 +103,7 @@ industrial_capacity_factory = -0.69
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_industrial_complex_factor = -0.49
+			production_speed_buildings_factor = -0.49
 industrial_capacity_factory = -0.49
 
 			}
@@ -121,7 +121,7 @@ industrial_capacity_factory = -0.49
 			removal_cost = -1
 			
 			modifier = {
-			production_speed_industrial_complex_factor = -0.39
+			production_speed_buildings_factor = -0.39
 industrial_capacity_factory = -0.39
 
 			}

@@ -1,4 +1,11 @@
 ﻿capital = 85 #Danzig
+1789.1.1 = {
+recruit_character=DNZ_jeanrapp
+promote_character=DNZ_jeanrapp
+}
+1822.1.1 = {
+retire_character=DNZ_jeanrapp
+}
 1812.1.1 = {
 set_politics = {
 	ruling_party = neutrality

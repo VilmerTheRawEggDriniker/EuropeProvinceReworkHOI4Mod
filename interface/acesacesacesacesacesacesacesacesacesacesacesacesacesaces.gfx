@@ -1,6 +1,0 @@
-spriteTypes = {
-	spriteType = {
-		name = "GFX_1914_bookmark"
-		texturefile = "gf/interface/worldwarone_1914.dds"
-	}
-}
