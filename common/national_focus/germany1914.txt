@@ -27,6 +27,8 @@ focus_tree = {
 		icon = placeholder
 		x = 5
 		y = 0
+		allow_branch = { has_start_date > 1914.1.1
+    has_start_date < 1919.1.1 }
 		cost = 1
 		ai_will_do = { 
 			base = 10
@@ -46,6 +48,8 @@ focus_tree = {
 		prerequisite = { focus = GER_july_crisis }
 		x = 5
 		y = 1
+		allow_branch = { has_start_date > 1914.1.1
+    has_start_date < 1919.1.1 }
 		cost = 1
 		ai_will_do = { 
 			base = 10
@@ -64,6 +68,8 @@ focus_tree = {
 		prerequisite = { focus = GER_supp_aus }
 		x = 5
 		y = 2
+		allow_branch = { has_start_date > 1914.1.1
+    has_start_date < 1919.1.1 }		
 		cost = 1
 		ai_will_do = { 
 			base = 10
@@ -82,6 +88,8 @@ focus_tree = {
 		prerequisite = { focus = GER_war_ser }
 		x = 5
 		y = 3
+		allow_branch = { has_start_date > 1914.1.1
+    has_start_date < 1919.1.1 }		
 		cost = 1
 		ai_will_do = { 
 			base = 10
