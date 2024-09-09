@@ -1,0 +1,98 @@
+﻿### search_filters = {FOCUS_FILTER_POLITICAL}
+### search_filters = {FOCUS_FILTER_RESEARCH}
+### search_filters = {FOCUS_FILTER_INDUSTRY}
+### search_filters = {FOCUS_FILTER_STABILITY}
+### search_filters = {FOCUS_FILTER_WAR_SUPPORT}
+### search_filters = {FOCUS_FILTER_MANPOWER}
+### search_filters = {FOCUS_FILTER_ANNEXATION}
+
+focus_tree = {
+	id = germany1914
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	
+	default = no
+
+    continuous_focus_position = { x = 50 y = 1600 }
+
+	focus = {
+		id = GER_july_crisis
+		icon = placeholder
+		x = 5
+		y = 0
+		cost = 1
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+			add_political_power = 50
+			GER = { country_event = placeholder }
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	}
+
+	focus = {
+		id = GER_supp_aus
+		icon = placeholder
+		prerequisite = { focus = GER_july_crisis }
+		x = 5
+		y = 1
+		cost = 1
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+			placeholder
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	}
+
+		focus = {
+		id = GER_war_ser
+		icon = placeholder
+		prerequisite = { focus = GER_supp_aus }
+		x = 5
+		y = 2
+		cost = 1
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+			declare_war_on = { target = SER  type = puppet_wargoal_focus }
+		}		
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	}
+
+		focus = {
+		id = GER_achainreaction
+		icon = placeholder
+		prerequisite = { focus = GER_war_ser }
+		x = 5
+		y = 3
+		cost = 1
+		ai_will_do = { 
+			base = 10
+		}		
+		completion_reward = {
+            GER = { country_event = placeholder }
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+	}
+
+
+}
