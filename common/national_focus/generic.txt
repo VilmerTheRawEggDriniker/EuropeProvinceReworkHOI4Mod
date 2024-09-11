@@ -150,7 +150,7 @@ focus_tree = {
 		x = 2
 		y = 5
 		cost = 3
-		prerequisite = { focus = military_efforts_3 }
+		prerequisite = { focus = militaryfactories_efforts_3 }
 		prerequisite = { focus = counstruction_efforts_3 }
 		prerequisite = { focus = infrastructure_efforts_3}
 		ai_will_do = { 
