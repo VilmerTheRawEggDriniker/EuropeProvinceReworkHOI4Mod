@@ -343,5 +343,38 @@ focus_tree = {
 			base = 10
 		}
 	}
-
+	focus = {
+		id = more_factories
+		icon = placeholder
+		x = 15
+		y = 2
+		cost = 3
+		prerequisite = { focus = army_efforts }
+		ai_will_do = {
+			base = 10
+		}
+	}
+	focus = {
+		id = artillery_supremacy
+		icon = placeholder
+		x = 14
+		y = 3
+		cost = 3
+		prerequisite = { focus = more_factories }
+		mutually_exclusive = { focus = cavarly_supremacy }
+		ai_will_do = {
+			base = 10
+		}
+	}
+		focus = {
+		id = cavarly_supremacy
+		icon = placeholder
+		x = 16
+		y = 3
+		cost = 3
+		prerequisite = { focus = more_factories }
+		ai_will_do = {
+			base = 10
+		}
+	}
 }
