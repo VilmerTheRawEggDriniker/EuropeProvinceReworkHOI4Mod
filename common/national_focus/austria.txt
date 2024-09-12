@@ -7573,9 +7573,9 @@ focus = {
 		focus = {
 		id = austria_1793_1836_focus_32
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = austria_1793_1836_focus_1
-		x = 0
-		y = 4
+		relative_position_id = austria_1793_1836_focus_1
+		x = 2
+		y = 3
 		prerequisite = {
 		focus =	austria_1793_1836_focus_31
 		}
@@ -7606,8 +7606,8 @@ focus = {
 		id = austria_1793_1836_focus_33
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = austria_1793_1836_focus_1
-		x = 0
-		y = 5
+		x = 4
+		y = 3
 		prerequisite = {
 		focus =	austria_1793_1836_focus_32
 		}
@@ -17093,8 +17093,8 @@ focus = {
 
 		x = 2
 		y = 22
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		cost = 4.3
 
 		ai_will_do = {
@@ -17131,8 +17131,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_202
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 4
 		y = 22
 
@@ -17171,8 +17171,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_203
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 6
 		y = 22
 
@@ -17211,8 +17211,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_204
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 8
 		y = 22
 
@@ -17251,8 +17251,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_205
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 10
 		y = 22
 
@@ -17291,8 +17291,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_206
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 12
 		y = 22
 		cost = 4.3
@@ -17330,8 +17330,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_207
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 14
 		y = 22
 
@@ -17371,8 +17371,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_208
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 16
 		y = 22
 
@@ -17411,8 +17411,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_209
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 18
 		y = 22
 
@@ -17452,8 +17452,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_210
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 20
 		y = 22
 
@@ -22859,8 +22859,8 @@ focus = {
 
 		x = 24
 		y = 12
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		cost = 4.3
 
 		ai_will_do = {
@@ -22891,14 +22891,14 @@ allow_branch = { has_start_date > 1812.6.24
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		
+		country_event=viennacongress_event.3
 		}
 	}
 		focus = {
 		id = austria_1793_1836_focus_302
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 26
 		y = 12
 
@@ -22937,8 +22937,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_303
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 28
 		y = 12
 
@@ -22977,8 +22977,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_304
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 30
 		y = 12
 
@@ -23017,8 +23017,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_305
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 32
 		y = 12
 
@@ -23057,8 +23057,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_306
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 34
 		y = 12
 		cost = 4.3
@@ -23096,8 +23096,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_307
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 36
 		y = 12
 
@@ -23137,8 +23137,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_308
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 38
 		y = 12
 
@@ -23177,8 +23177,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_309
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 40
 		y = 12
 
@@ -23218,8 +23218,8 @@ allow_branch = { has_start_date > 1812.6.24
 		focus = {
 		id = austria_1793_1836_focus_310
 		icon = GFX_goal_generic_neutrality_focus
-allow_branch = { has_start_date > 1812.6.24
-     has_start_date < 1836.1.1 }
+		allow_branch = { has_country_flag=napoleonaustria
+    date < 1836.1.1 }
 		x = 42
 		y = 12
 

@@ -221,7 +221,7 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
-                        has_completed_focus = france_1793_1799_focus_81
+                        has_country_flag=talleyrand_hired
 		        }
 			traits  = {
 				prestigious_self_serving_foreign_minister 
@@ -235,6 +235,39 @@ characters={
 			}
 		}	
 	}	
+		FRA_jacquesnecker={
+		name=FRA_CHARACTER_JACQUESNECKER
+		portraits={
+                        army={
+				small="GFX_idea_fra_jacquesnecker_small"
+			}
+			civilian = {
+				large = GFX_portrait_fra_jacquesnecker_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FRA_jacquesnecker
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+                        has_country_flag=jacquesnecker_hired
+						NOT={has_country_flag=jacquesnecker_fired}
+		        }
+			traits  = {
+				chief_minister_of_the_french_monarch 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
 	FRA_louisxvi={
 		name=FRA_CHARACTER_LOUISXVI
 		portraits={

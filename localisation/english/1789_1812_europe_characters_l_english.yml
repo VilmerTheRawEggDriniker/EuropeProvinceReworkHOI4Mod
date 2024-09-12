@@ -15,6 +15,7 @@ FRA_CHARACTER_LAFAYETTE:0 "Gilbert du Motier, Marquis de Lafayette"
 FRA_CHARACTER_HERBOIS:0 "Jean-Marie Collot d'Herbois"
 FRA_CHARACTER_RUHL:0 "Philippe Rühl"
 
+FRA_CHARACTER_JACQUESNECKER:0 "Jacques Necker"
 FRA_CHARACTER_TALLEYRAND:0 "Charles Maurice de Talleyrand-Périgord"
 AUS_CHARACTER_METTERNICH:0 "Klemens von Metternich"
 RUS_CHARACTER_KUTUZOV:0 "Mikhail Kutuzov"
@@ -523,9 +524,11 @@ HSE_WILLIAMII_DESC:0 "William II was the penultimate Elector of Hesse.[1]"
 
 
 
+MEX_CHARACTER_MIGUEL:0 "Miguel Barragán"
+MEX_MIGUEL_DESC:0 "Miguel Francisco Barragán Andrade was a Mexican soldier and politician who served as interim president of Mexico in 1836. He had previously served as Governor of Veracruz, and gained national fame for the capture of the Fortress of San Juan de Ulúa in 1824, through which Spanish military presence was finally expelled from Mexico.""
 
-
-
+CAF_CHARACTER_FRANCISCO:0 "Francisco Morazán"
+CAF_FRANCISCO_DESC:0 "José Francisco Morazán Quesada was a liberal Central American politician and general who served as president of the Federal Republic of Central America from 1830 to 1839. Before he was president of Central America he was the head of state of Honduras. He rose to prominence at the Battle of La Trinidad on November 11, 1827. Morazán then dominated the political and military scene of Central America until his execution in 1842."
 
 LIE_CHARACTER_CESAR:0 "César-Constantin-François de Hoensbroeck"
 LIE_CESAR_DESC:0 "César-Constantin-François de Hoensbroeck was a German ecclesiastic of the Van Hoensbroeck family, most notable as prince-bishop of Liège from 1784 to 1792, in which post he was nicknamed the red executioner."
@@ -598,6 +601,12 @@ MNT_PETARIPETROVICNJEGOS_DESC:0 "Petar I Petrović-Njegoš was the ruler of the 
 
 MNT_CHARACTER_PETARIIPETROVICNJEGOS:0 "Petar II Petrović-Njegoš"
 MNT_PETARIIPETROVICNJEGOS_DESC:0 "Petar II Petrović-Njegoš was a Prince-Bishop of Montenegro, poet and philosopher whose works are widely considered some of the most important in Montenegrin and Serbian literature."
+
+VRM_CHARACTER_THOMAS:0 "Thomas Chittenden"
+VRM_THOMAS_DESC:0 "Thomas Chittenden was an American politician from Vermont, who was a leader of the territory for nearly two decades. He was the state's first and third governor, serving from 1778 to 1789—when it was a largely unrecognized independent state called the Vermont Republic—and again from 1790 until his death. Vermont was admitted to the Union in 1791 as its 14th state."
+
+NWT_CHARACTER_ARTHUR:0 "Arthur St. Clair"
+NWT_ARTHUR_DESC:0 "Major-General Arthur St. Clair was a Scottish-born American military officer and politician. Born in Thurso, Caithness, he served in the British Army during the French and Indian War before settling in the Province of Pennsylvania. During the American Revolutionary War, he rose to the rank of major general in the Continental Army, but lost his command after a controversial retreat from Fort Ticonderoga."
 
 USA_CHARACTER_GEORGEWASHINGTON:0 "George Washington"
 USA_GEORGEWASHINGTON_DESC:0 "George Washington was an American Founding Father, military officer, and politician who served as the first president of the United States from 1789 to 1797. Appointed by the Second Continental Congress as commander of the Continental Army in 1775, Washington led Patriot forces to victory in the American Revolutionary War and then served as president of the Constitutional Convention in 1787, which drafted the current Constitution of the United States. Washington has thus become commonly known as the "Father of his Country"."

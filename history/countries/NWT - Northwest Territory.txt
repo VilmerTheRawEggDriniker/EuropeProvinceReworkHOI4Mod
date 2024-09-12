@@ -1,5 +1,11 @@
 ﻿capital = 261
-
+1738.1.1 = {
+recruit_character=NWT_arthur
+promote_character=NWT_arthur
+}
+1820.1.1 = {
+retire_character=NWT_arthur
+}
 
 set_research_slots = 2
 set_stability = 0.75

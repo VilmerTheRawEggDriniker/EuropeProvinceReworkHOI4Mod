@@ -1,4 +1,11 @@
 capital = 277
+1836.1.1 = {
+recruit_character=MEX_miguel
+promote_character=MEX_miguel
+}
+1837.1.1 = {
+retire_character=MEX_miguel
+}
 1444.11.11 = {
 set_cosmetic_tag = MEX_SPR #viceroyalty
 }

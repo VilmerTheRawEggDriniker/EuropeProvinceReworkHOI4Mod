@@ -6966,6 +6966,15 @@ leader_traits = {
                 political_power_factor = -0.1
 	}
 
+	chief_minister_of_the_french_monarch = {
+		random = no
+                political_power_factor = -1.25
+		consumer_goods_factor = -0.05
+		neutrality_drift = 0.01
+                trade_opinion_factor = 0.5
+                stability_factor = 0.2
+	}
+
 	prestigious_foreign_minister = {
 		random = no
 		consumer_goods_factor = -0.1

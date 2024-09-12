@@ -8,13 +8,10 @@ state={
 
 	history={
 		owner = ZZZ
-		1700.1.1 = {
+		1789.1.1 = {
 		victory_points = {
 			1827 5 
 		}
-                }
-		1700.1.1 = {
-                owner = FRA
                 }
 		1789.1.1 = {
         owner = MEX

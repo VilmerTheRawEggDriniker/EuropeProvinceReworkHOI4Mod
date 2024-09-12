@@ -711,10 +711,12 @@ recruit_character=RUS_nicholasii
 promote_character=RUS_nicholasii
 retire_character=RUS_alexanderiii
 }
+1918.1.1 = {
+retire_character=RUS_nicholasii
+}
 2000.1.1 = {
 recruit_character=RUS_putin
 promote_character=RUS_putin
-retire_character=RUS_nicholasii
 }
 set_convoys = 100
 
@@ -817,9 +819,19 @@ set_popularities = {
 	}
 }
 }
+1914.1.1 = {
+		if = {
+		limit = { has_start_date < 1915.1.1 }
+    set_autonomy = {
+        target = FIN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+	}
+}
+}
 1836.1.1 = {
 		if = {
-		limit = { has_start_date < 1937.1.1 }
+		limit = { has_start_date < 1919.1.1 }
     set_autonomy = {
         target = POL
         autonomous_state = autonomy_dominion

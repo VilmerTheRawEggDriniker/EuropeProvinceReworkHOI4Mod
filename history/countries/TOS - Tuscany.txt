@@ -1,15 +1,15 @@
 ﻿capital = 162
 1765.1.1 = {
 recruit_character=TOS_leopoldi
+recruit_character=TOS_ferdinandiii
+recruit_character=TOS_leopoldii
 promote_character=TOS_leopoldi
 }
-1790.1.1 = {
-recruit_character=TOS_ferdinandiii
+1800.1.1 = {
 promote_character=TOS_ferdinandiii
 retire_character=TOS_leopoldi
 }
-1824.1.1 = {
-recruit_character=TOS_leopoldii
+1836.1.1 = {
 promote_character=TOS_leopoldii
 retire_character=TOS_ferdinandiii
 }

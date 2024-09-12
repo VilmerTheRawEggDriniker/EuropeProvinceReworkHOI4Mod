@@ -66,7 +66,7 @@ retire_character=POR_antonio_de_oliveira_salazar
 1444.11.11 = {
 set_cosmetic_tag = POR_kingdom # Portugal Kingdom
 }
-1933.1.1 = {
+1914.1.1 = {
 set_cosmetic_tag = POR # Salazar
 }
 1970.1.1 = {
@@ -78,7 +78,7 @@ set_party_name = { ideology = neutrality long_name = POR_BRA_neutrality_party_lo
 1836.1.1 = {
 set_party_name = { ideology = neutrality long_name = POR_BSA_neutrality_party_long name = POR_BSA_neutrality_party }
 }
-1933.1.1 = {
+1914.1.1 = {
 set_party_name = { ideology = neutrality long_name = POR_neutrality_party_long name = POR_neutrality_party }
 }
 1970.1.1 = {

@@ -1,22 +1,22 @@
 ﻿capital = 159
-1765.8.18 = {
+1789.1.1 = {
 recruit_character=LBV_josephiilbv
+recruit_character=LBV_leopoldiilbv
+recruit_character=LBV_francisiilbv
+recruit_character=LBV_ferdinandilbv
 promote_character=LBV_josephiilbv
 }
-1790.2.20 = {
-recruit_character=LBV_leopoldiilbv
-promote_character=LBV_leopoldiilbv
-retire_character=LBV_josephiilbv
-}
-1792.3.1 = {
-recruit_character=LBV_francisiilbv
+1800.1.1 = {
 promote_character=LBV_francisiilbv
 retire_character=LBV_leopoldiilbv
+retire_character=LBV_josephiilbv
 }
-1835.3.2 = {
-recruit_character=LBV_ferdinandilbv
+1836.1.1 = {
 promote_character=LBV_ferdinandilbv
 retire_character=LBV_francisiilbv
+}
+1849.1.1 = {
+retire_character=LBV_ferdinandilbv
 }
 1848.12.2 = {
 retire_character=LBV_ferdinandilbv

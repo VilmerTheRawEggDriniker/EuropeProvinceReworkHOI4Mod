@@ -53,6 +53,12 @@ set_autonomy = {
 }
 
 set_autonomy = {
+	target = NEU
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
 	target = TRT
 	autonomous_state = autonomy_hre_subject
 	freedom_level = 0.1
@@ -605,30 +611,29 @@ set_oob = "AUS_1812"
 set_oob = "AUS_1836"
 }
 }
-1765.8.18 = {
+1789.1.1 = {
 recruit_character=AUS_josephiiaus
+recruit_character=AUS_leopoldiiaus
+recruit_character=AUS_francisiiaus
+recruit_character=AUS_ferdinandiaus
 promote_character=AUS_josephiiaus
 }
-1790.2.20 = {
-recruit_character=AUS_leopoldiiaus
-promote_character=AUS_leopoldiiaus
-retire_character=AUS_josephiiaus
-}
-1792.3.1 = {
-recruit_character=AUS_francisiiaus
+1800.1.1 = {
 promote_character=AUS_francisiiaus
 retire_character=AUS_leopoldiiaus
+retire_character=AUS_josephiiaus
+}
+1836.1.1 = {
+promote_character=AUS_ferdinandiaus
+retire_character=AUS_francisiiaus
+}
+1849.1.1 = {
+retire_character=AUS_ferdinandiaus
 }
 1804.1.1 = {
 set_cosmetic_tag = AUS_empire # austrian empire
 }
-1835.3.2 = {
-	recruit_character=AUS_ferdinandiaus
-	promote_character=AUS_ferdinandiaus
-	retire_character=AUS_francisiiaus
-}
 1848.12.2 = {
-	retire_character=AUS_ferdinandiaus
 	recruit_character=AUS_franz_joseph_i
 	promote_character=AUS_franz_joseph_i
 }

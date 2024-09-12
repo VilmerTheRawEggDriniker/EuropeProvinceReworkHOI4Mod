@@ -12190,6 +12190,25 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+															add_victory_points = {
+			  province = 6710
+			  value = 10
+			}
+							393 = {
+						add_building_construction = {
+							type = infrastructure
+							level = 1
+							instant_build = yes
+						}
+				}
+											393 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
 		}
 	}
 		focus = {
@@ -12249,18 +12268,18 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-													add_victory_points = {
-			  province = 6710
+								add_victory_points = {
+			  province = 6890
 			  value = 20
 			}
-							393 = {
+							1263 = {
 						add_building_construction = {
 							type = infrastructure
 							level = 1
 							instant_build = yes
 						}
 				}
-											393 = {
+											1263 = {
                         add_extra_state_shared_building_slots = 1
 						add_building_construction = {
 							type = industrial_complex
@@ -14866,6 +14885,18 @@ allow_branch = { has_start_date > 1789.1.1
 						add_political_power=50
 		IDA={transfer_state = 396}
 		IDA={add_state_core = 396}
+		IDA={transfer_state = 1267}
+		IDA={add_state_core = 1267}
+				IDA={transfer_state = 1266}
+		IDA={add_state_core = 1266}
+				IDA={transfer_state = 1265}
+		IDA={add_state_core = 1265}
+				IDA={transfer_state = 395}
+		IDA={add_state_core = 395}
+				IDA={transfer_state = 394}
+		IDA={add_state_core = 394}
+				IDA={transfer_state = 934}
+		IDA={add_state_core = 934}
 			set_autonomy = {
         target = IDA
         autonomous_state = autonomy_protectorate
@@ -18532,6 +18563,10 @@ focus = {
 				add_political_power=50
 		MCH={transfer_state = 393}
 		MCH={add_state_core = 393}
+		MCH={transfer_state = 1268}
+		MCH={add_state_core = 1268}
+		MCH={transfer_state = 1267}
+		MCH={add_state_core = 1267}
 			set_autonomy = {
         target = MCH
         autonomous_state = autonomy_protectorate
@@ -18659,6 +18694,8 @@ focus = {
 				add_political_power=50
 		LOU={transfer_state = 371}
 		LOU={add_state_core = 371}
+		LOU={transfer_state = 1098}
+		LOU={add_state_core = 1098}
 			set_autonomy = {
         target = LOU
         autonomous_state = autonomy_protectorate

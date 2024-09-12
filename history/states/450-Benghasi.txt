@@ -46,7 +46,7 @@ state={
 			}
 		}
 		add_core_of = CYR
-		1919.1.1 = {
+		1914.1.1 = {
 		remove_core_of=OTO
 			owner = ITA
 			controller = ITA

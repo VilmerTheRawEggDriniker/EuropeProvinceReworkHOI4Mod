@@ -43,9 +43,16 @@ recruit_character=FRA_talleyrand
 1839.1.1 = {
 retire_character=FRA_talleyrand
 }
+1789.1.1 = {
+recruit_character=FRA_jacquesnecker
+}
+1812.1.1 = {
+retire_character=FRA_jacquesnecker
+}
 1799.1.1 = {
 			if = {
 		limit = { has_start_date < 1801.1.1 }
+FRA={set_country_flag=talleyrand_hired}
 FRA={activate_advisor = FRA_talleyrand}
 create_faction = FrenchSphere
 FRA={set_country_flag = napoleonfrance}
@@ -178,6 +185,36 @@ set_rule = { can_join_factions = no }
 }
 }
 }
+1444.11.11 = {
+		if = {
+limit = { has_start_date < 1500.1.1 }
+every_country = {
+add_ideas = {
+fifteenth_century
+}
+}
+}
+}
+1500.1.1 = {
+		if = {
+limit = { has_start_date < 1600.1.1 }
+every_country = {
+add_ideas = {
+sixteenth_century
+}
+}
+}
+}
+1600.1.1 = {
+		if = {
+limit = { has_start_date < 1700.1.1 }
+every_country = {
+add_ideas = {
+seventeenth_century
+}
+}
+}
+}
 1700.1.1 = {
 		if = {
 limit = { has_start_date < 1800.1.1 }
@@ -202,6 +239,8 @@ nineteenth_century
 1789.1.1 = {
 		if = {
 limit = { has_start_date < 1790.1.1 }
+FRA={set_country_flag=jacquesnecker_hired}
+FRA={activate_advisor = FRA_jacquesnecker}
 	add_ideas = {
 		feudalism
                 aristocracy

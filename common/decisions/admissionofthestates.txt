@@ -16,9 +16,10 @@ USA_admissionnc = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionnc_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionnc_flag}
 		transfer_state = 363
 		363 = { add_core_of = ROOT }
 		}
@@ -42,9 +43,10 @@ USA_admissionri = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionri_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionri_flag}
 		transfer_state = 739
 		739 = { add_core_of = ROOT }
 		}
@@ -68,9 +70,10 @@ USA_admissionvt = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionvt_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionvt_flag}
 		transfer_state = 471
 		471 = { add_core_of = ROOT }
 		}
@@ -94,9 +97,10 @@ USA_admissionky = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionky_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionky_flag}
 		transfer_state = 369
 		369 = { add_core_of = ROOT }
 		}
@@ -120,9 +124,10 @@ USA_admissiontn = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissiontn_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissiontn_flag}
 		transfer_state = 368
 		368 = { add_core_of = ROOT }
 		}
@@ -146,11 +151,16 @@ USA_admissionoh = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionoh_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionoh_flag}
 		transfer_state = 261
 		261 = { add_core_of = ROOT }
+		transfer_state = 1263
+		1263 = { add_core_of = ROOT }
+		transfer_state = 1264
+		1264 = { add_core_of = ROOT }
 		}
 	}
 }
@@ -172,9 +182,10 @@ USA_admissionla = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionla_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionla_flag}
 		transfer_state = 371
 		371 = { add_core_of = ROOT }
 		transfer_state = 1098
@@ -200,9 +211,10 @@ USA_admissionin = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionin_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionin_flag}
 		transfer_state = 396
 		396 = { add_core_of = ROOT }
 		}
@@ -226,9 +238,10 @@ USA_admissionms = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionms_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionms_flag}
 		transfer_state = 370
 		370 = { add_core_of = ROOT }
 		transfer_state = 1097
@@ -254,11 +267,14 @@ USA_admissionil = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionil_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionil_flag}
 		transfer_state = 395
 		395 = { add_core_of = ROOT }
+		transfer_state = 1265
+		1265 = { add_core_of = ROOT }
 		}
 	}
 }
@@ -280,9 +296,10 @@ USA_admissional = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissional_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissional_flag}
 		transfer_state = 367
 		367 = { add_core_of = ROOT }
 		transfer_state = 1096
@@ -308,11 +325,14 @@ USA_admissionme = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionme_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionme_flag}
 		transfer_state = 472
 		472 = { add_core_of = ROOT }
+		transfer_state = 1251
+		1251 = { add_core_of = ROOT }
 		}
 	}
 }
@@ -334,9 +354,10 @@ USA_admissionmo = {
 		visible = {
 		original_tag=USA
         date > 1789.1.1 date < 1836.1.2 
+		NOT = { has_global_flag = USA_admissionmo_flag }
 		}
 
-		complete_effect = {
+		complete_effect = {hidden_effect={set_global_flag = USA_admissionmo_flag}
 		transfer_state = 373
 		373 = { add_core_of = ROOT }
 		}

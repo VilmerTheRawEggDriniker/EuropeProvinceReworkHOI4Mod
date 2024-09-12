@@ -23,28 +23,26 @@ set_cosmetic_tag = HUN_AUS #austrian puppet
 1805.1.1 = {
 set_cosmetic_tag = HUN #independent
 }
-1765.1.1 = {
+1789.1.1 = {
 recruit_character=HUN_josephiihun
-promote_character=HUN_josephiihun
-recruit_character=HUN_mikhail
-}
-1790.1.1 = {
 recruit_character=HUN_leopoldiihun
-promote_character=HUN_leopoldiihun
-retire_character=HUN_josephiihun
-}
-1792.1.1 = {
 recruit_character=HUN_francisiihun
+recruit_character=HUN_ferdinandihun
+recruit_character=HUN_mikhail
+promote_character=HUN_josephiihun
+}
+1800.1.1 = {
 promote_character=HUN_francisiihun
 retire_character=HUN_leopoldiihun
+retire_character=HUN_josephiihun
 }
 1836.1.1 = {
-recruit_character=HUN_ferdinandihun
 promote_character=HUN_ferdinandihun
 retire_character=HUN_francisiihun
 }
 1849.1.1 = {
 retire_character=HUN_ferdinandihun
+retire_character=HUN_mikhail
 }
 1945.1.1 = {
 retire_character=HUN_miklos_horthy

@@ -45,18 +45,34 @@ spriteTypes = {
 		texturefile = "gfx/leaders/FRA/portrait_ruhl_large.dds"
 	}
 
-
-
-
-
+        spriteType = {
+		name = "GFX_portrait_nwt_arthur_large"
+		texturefile = "gfx/leaders/NWT/portrait_arthur_large.dds"
+	}
+        spriteType = {
+		name = "GFX_portrait_vrm_thomas_large"
+		texturefile = "gfx/leaders/VRM/portrait_thomas_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_caf_francisco_large"
+		texturefile = "gfx/leaders/CAF/portrait_francisco_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_mex_miguel_large"
+		texturefile = "gfx/leaders/MEX/portrait_miguel_large.dds"
+	}
+        spriteType = {
+		name = "GFX_idea_fra_jacquesnecker_small"
+		texturefile = "gfx/interface/ideas/idea_Jacquesnecker_small.dds"
+	}
 
         spriteType = {
 		name = "GFX_idea_fra_talleyrand_small"
 		texturefile = "gfx/interface/ideas/idea_talleyrand_small.dds"
 	}
         spriteType = {
-		name = "GFX_idea_aus_metternich_large"
-		texturefile = "gfx/interface/ideas/idea_metternich_large.dds"
+		name = "GFX_idea_aus_metternich_small"
+		texturefile = "gfx/interface/ideas/idea_metternich_small.dds"
 	}
 
         spriteType = {

@@ -9717,6 +9717,8 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		
 		completion_reward = {
 		add_political_power=-150
+		deactivate_advisor = FRA_jacquesnecker
+		FRA={set_country_flag=jacquesnecker_fired}
 		}
 	}
 		focus = {
@@ -9838,6 +9840,9 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POPE }
 		
 		completion_reward = {
+		add_political_power=-25
+		add_popularity = { ideology = neutrality popularity = 0.05 }
+		add_stability=0.1
 		}
 	}
 		focus = {
@@ -9961,6 +9966,15 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		completion_reward = {
 		add_stability=-0.05
 		add_ideas={nationalguard}
+		hidden_effect={
+		FRA={
+						add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2500
+					producer = FRA
+				}
+		}
+		}
 		}
 	}
 		focus = {
@@ -11216,6 +11230,11 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+						add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2500
+					producer = FRA
+				}
 		add_timed_idea = {
         idea = fatherlandindanger
 		days = 100
@@ -12240,6 +12259,13 @@ mutually_exclusive = { focus = france_1793_1799_focus_1 }
 		days = 365
 		}
 		add_war_support=0.05
+		FRA={
+						add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 1000
+					producer = FRA
+				}
+		}
 		}
 	}
 						focus = {
@@ -12576,6 +12602,13 @@ mutually_exclusive = { focus = france_1793_1799_focus_1 }
 		completion_reward = {
 		add_political_power=100
 		add_war_support=0.25
+		FRA={
+						add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 10000
+					producer = FRA
+				}
+		}
 		}
 	}
 							focus = {
@@ -13114,6 +13147,15 @@ NOT={controls_state=1}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+				hidden_effect={
+		FRA={
+						add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 2500
+					producer = FRA
+				}
+		}
+		}
 		if={
 		limit={
 		country_exists = PRS
@@ -13240,9 +13282,6 @@ NOT={controls_state=1}
 		prerequisite = {
 		focus =	france_1793_1799_focus_18
 		}
-				prerequisite = {
-		focus =	france_1793_1799_focus_24
-		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -13271,9 +13310,6 @@ NOT={controls_state=1}
 		icon = GFX_focus_chi_reach_out_to_france
 		x = 11
 		y = 12
-		prerequisite = {
-		focus =	france_1793_1799_focus_24
-		}
 				prerequisite = {
 		focus =	france_1793_1799_focus_28
 		}
@@ -13309,9 +13345,6 @@ NOT={controls_state=1}
 		icon = GFX_goal_generic_construct_mil_factory
 		x = 7
 		y = 12
-		prerequisite = {
-		focus =	france_1793_1799_focus_24
-		}
 				prerequisite = {
 		focus =	france_1793_1799_focus_28
 		}
@@ -13745,7 +13778,7 @@ remember_old_capital = no
 	}
 										focus = {
 		id = france_1793_1799_focus_46
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_goal_generic_more_territorial_claims
 		x = 10
 		y = 14
 		prerequisite = {
@@ -13771,6 +13804,15 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		country_event = fra_1789_event.48
+		add_political_power=-150
+		add_war_support=-0.05
+		add_stability=0.05
+		USA={
+		add_political_power=-150
+		add_war_support=-0.05
+		add_stability=0.05
+		}
 		}
 	}
 										focus = {
@@ -14104,6 +14146,9 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_stability=0.05
+		add_political_power=-25
+		add_popularity = { ideology = democratic popularity = -0.05 }
 		}
 	}
 										focus = {
@@ -15071,6 +15116,7 @@ SPM={
 		
 		completion_reward = {
 		activate_advisor = FRA_talleyrand
+		FRA={set_country_flag=talleyrand_hired}
 		}
 	}
 										focus = {

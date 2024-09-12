@@ -11,6 +11,19 @@ characters={
 			expire="1799.3.20"
 		}
 	}
+	MEX_miguel={
+		name=MEX_CHARACTER_MIGUEL
+		portraits={
+			civilian={
+				large="GFX_portrait_mex_miguel_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = CAF_MIGUEL_DESC
+			expire="1799.3.20"
+		}
+	}
 
 	MEX_salvador_abascal={
 		name=MEX_salvador_abascal

@@ -1,24 +1,21 @@
 ﻿capital = 1102
-1765.8.18 = {
+1789.1.1 = {
 recruit_character=MTU_josephiimtu
+recruit_character=MTU_leopoldiimtu
+recruit_character=MTU_francisiimtu
+recruit_character=MTU_ferdinandimtu
 promote_character=MTU_josephiimtu
 }
-1790.2.20 = {
-recruit_character=MTU_leopoldiimtu
-promote_character=MTU_leopoldiimtu
-retire_character=MTU_josephiimtu
-}
-1792.3.1 = {
-recruit_character=MTU_francisiimtu
+1800.1.1 = {
 promote_character=MTU_francisiimtu
 retire_character=MTU_leopoldiimtu
+retire_character=MTU_josephiimtu
 }
-1835.3.2 = {
-recruit_character=MTU_ferdinandimtu
+1836.1.1 = {
 promote_character=MTU_ferdinandimtu
 retire_character=MTU_francisiimtu
 }
-1848.12.2 = {
+1849.1.1 = {
 retire_character=MTU_ferdinandimtu
 }
 1740.1.1 = {

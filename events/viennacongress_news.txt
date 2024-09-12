@@ -41,3 +41,22 @@ add_namespace = viennacongress_news
 		name = "We have Poland to deal with!"
 			}
 		}
+
+				news_event = {
+	id = viennacongress_news.3
+	title = "The Congress of Vienna"
+	desc = viennacongress_news.3.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "They are going to come crying asking for this peace when allied troops are in Paris!"
+			}
+		option = {
+		name = "The House of Bourbon Needs to be restored in France we have had enough of the Revolution!"
+			}
+		}

@@ -1,4 +1,15 @@
 ﻿capital = 798
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1788.1.1 }
+SER={set_cosmetic_tag = SER_OTO}
+	set_autonomy = {
+        target = SER
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
 1799.1.1 = {
 			if = {
 		limit = { has_start_date < 1801.1.1 }

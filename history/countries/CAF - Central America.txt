@@ -1,5 +1,10 @@
 ﻿capital = 314
-
+1836.1.1 = {
+recruit_character=CAF_francisco
+}
+1837.1.1 = {
+promote_character=CAF_francisco
+}
 
 set_research_slots = 2
 set_stability = 0.75

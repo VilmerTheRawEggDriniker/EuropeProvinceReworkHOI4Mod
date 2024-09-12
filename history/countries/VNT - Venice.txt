@@ -8,19 +8,18 @@ set_cosmetic_tag = VNT #independent
 1789.1.1 = {
 recruit_character=VNT_paolorenier
 recruit_character=VNT_lodovicomanin
+recruit_character=VNT_francisiivnt
+recruit_character=VNT_ferdinandivnt
 promote_character=VNT_paolorenier
 }
-1790.1.1 = {
-promote_character=VNT_lodovicomanin
+1800.1.1 = {
+promote_character=VNT_francisiivnt
 retire_character=VNT_paolorenier
 }
-1797.1.1 = {
-recruit_character=VNT_francisiivnt
-promote_character=VNT_francisiivnt
+1803.1.1 = {
 retire_character=VNT_lodovicomanin
 }
 1836.1.1 = {
-recruit_character=VNT_ferdinandivnt
 promote_character=VNT_ferdinandivnt
 retire_character=VNT_francisiivnt
 }

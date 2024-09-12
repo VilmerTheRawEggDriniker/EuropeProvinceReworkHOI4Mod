@@ -800,9 +800,9 @@ add_war_support=-0.05
 add_manpower=-600
 every_state = {
 limit = {
-state=360
+state=1252
 }
-PEN={add_state_core=360}
+PEN={add_state_core=1252}
 transfer_state_to = PEN
 }
 		name = "We are a bit busy to stop the rebellion albeit we will stop it sooner or later"

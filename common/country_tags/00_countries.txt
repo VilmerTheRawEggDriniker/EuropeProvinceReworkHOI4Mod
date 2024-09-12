@@ -50,6 +50,9 @@ BER = "countries/Berry.txt" #flagcomplete
 BSL = "countries/Basel.txt" #flagcomplete
 SEP = "countries/Ionian Islands.txt" #flagcomplete
 
+IRO = "countries/Iroquois Confederacy.txt" #flagcomplete 
+WAB = "countries/Wabanaki Confederacy.txt" #flagcomplete 
+
 MUG = "countries/Mughal Empire.txt" #flagcomplete 
 HEJ = "countries/Hejaz.txt" #flagcomplete 
 SVI = "countries/South Vietnam.txt" #flagcomplete 

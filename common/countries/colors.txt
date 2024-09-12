@@ -1,4 +1,12 @@
 #reload countrycolors
+IRO = {
+	color = rgb { 89 62 182 }
+	color_ui = rgb { 89 62 182 }
+}
+WAB = {
+	color = rgb { 53 75 189 }
+	color_ui = rgb { 53 75 189 }
+}
 WIF = {
 	color = rgb { 0 45 130 }
 	color_ui = rgb { 0 45 130 }

@@ -1986,3 +1986,182 @@ fire_only_once = yes
 		add_political_power=-150
 	}
 }
+country_event = {
+	id = fra_1789_event.48
+	title = "Strike the United States slightly"
+	desc = fra_1789_event.48.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "We can get away with allot"
+		ai_chance = { factor = 100 } 
+		add_political_power=-25
+		USA={
+					add_equipment_to_stockpile = {
+			type = convoy
+			amount = -365
+			}
+		}
+				FRA={
+					add_equipment_to_stockpile = {
+			type = convoy
+			amount = 365
+			producer = USA
+			}
+		}
+	}
+		option = { # 
+		name = "Lets not piss of the United States of America"
+		ai_chance = { factor = 0 } 
+		add_political_power=25
+	}
+}
+country_event = {
+	id = fra_1789_event.49
+	title = "The French Nation is at war will you arm yourself and fight for Her?"
+	desc = fra_1789_event.49.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+original_tag=FRA
+FRA={has_war = yes}
+date > 1789.1.1 date < 1800.1.1 
+	}
+fire_only_once = yes
+	option = { # 
+		name = "To arms citizens Form your battalions"
+		ai_chance = { factor = 100 } 
+		add_political_power=-150
+		FRA={add_manpower=25000}
+				FRA={
+						add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 33000
+					producer = FRA
+				}
+		}
+		FRA={
+															random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+																			random_owned_controlled_state = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+		}
+	}
+}

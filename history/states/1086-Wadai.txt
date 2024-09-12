@@ -12,7 +12,7 @@ state={
 		owner = WAD
 	        add_core_of = WAD
                 }
-		1919.1.1 = {
+		1914.1.1 = {
         owner = RCG
 		add_core_of = CHA
         }

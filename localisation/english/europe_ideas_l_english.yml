@@ -176,6 +176,10 @@ napoleonfrance:0 "Has 1800 Startdate or Has completed 1789-1800 branch of the Fr
 napoleondemocratic:0 "Has 1800 Startdate"
 napoleondictator:0 "Has 1812 Startdate"
 napoleondead:0 "Has 1836 Startdate"
+talleyrand_hired:0 "Has Hired Talleyrand"
+jacquesnecker_hired:0 "Jaques Necker has been Hired"
+jacquesnecker_fired:0 "Jaques Necker has Resigned"
+chief_minister_of_the_french_monarch:0"Chief Minister of the French Monarch"
 
 ultraroyalist:0 "Ultra Royalist Politician"
 prestigious_foreign_minister:0 "Prestigious Foreign Minister"

@@ -1,5 +1,11 @@
 ﻿capital = 471
-
+1731.1.1 = {
+recruit_character=VRM_thomas
+promote_character=VRM_thomas
+}
+1800.1.1 = {
+retire_character=VRM_thomas
+}
 
 set_research_slots = 2
 set_stability = 0.75

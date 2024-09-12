@@ -11,22 +11,19 @@ set_cosmetic_tag = BKV_AUS #austrian puppet
 1805.1.1 = {
 set_cosmetic_tag = BKV #independent
 }
-1765.1.1 = {
+1789.1.1 = {
 recruit_character=BKV_josephiibkv
+recruit_character=BKV_leopoldiibkv
+recruit_character=BKV_francisiibkv
+recruit_character=BKV_ferdinandibkv
 promote_character=BKV_josephiibkv
 }
-1790.1.1 = {
-recruit_character=BKV_leopoldiibkv
-promote_character=BKV_leopoldiibkv
-retire_character=BKV_josephiibkv
-}
-1792.1.1 = {
-recruit_character=BKV_francisiibkv
+1800.1.1 = {
 promote_character=BKV_francisiibkv
 retire_character=BKV_leopoldiibkv
+retire_character=BKV_josephiibkv
 }
 1836.1.1 = {
-recruit_character=BKV_ferdinandibkv
 promote_character=BKV_ferdinandibkv
 retire_character=BKV_francisiibkv
 }

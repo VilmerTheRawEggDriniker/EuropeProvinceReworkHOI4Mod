@@ -42,11 +42,6 @@ set_popularities = {
         autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
-	set_autonomy = {
-        target = NEU
-        autonomous_state = autonomy_protectorate
-        freedom_level = 0.4
-	}
 }
 }
 1444.11.11 = {
@@ -460,7 +455,7 @@ set_cosmetic_tag = SWI_helvetic # Swiss republic
 1812.1.1 = {
 set_cosmetic_tag = SWI # swiss confederation
 }
-1936.1.1 = {
+1836.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.10.27"
