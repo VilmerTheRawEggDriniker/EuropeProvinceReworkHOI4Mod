@@ -241,7 +241,8 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_research_slot = 1
+			add_war_support = 0.2
+			add_political_power = 50
 		}
 	}
 		focus = {
@@ -252,6 +253,7 @@ focus_tree = {
 		x = -5
 		y = 1
 		relative_position_id = Qin_dealing_with_the_boxers
+        NOT={has_war_with=FRA}
 
 		cost = 4
 
@@ -275,10 +277,9 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			add_research_slot = 1
+			lose_stability = 1
 		}
 	}
 	shared_focus = CHI_invite_foreign_investors
 }   
    
-
