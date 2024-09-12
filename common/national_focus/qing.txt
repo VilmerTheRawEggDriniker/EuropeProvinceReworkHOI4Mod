@@ -5,37 +5,68 @@ focus_tree = {
 		factor = 0
 		modifier = {
 			add = 10
-			tag = QIN
+			tag = qin
 		}
 	}
 
 
 	default = no
 
-	continuous_focus_position = { x = 20 y = 1600 }
+	continuous_focus_position = { x = 20 y = 3000 }
 
 	############################
 	##### POLITICS SECTION #####
 	############################
 
+
 	focus = {
-		id = QIN_era_of_humiliation
-		icon = GFX_goal_generic_consumer_goods
-		x = 0
+		id = Qin_era_of_humiliation
+		icon = GFX_goal_generic_major_war
+		x = 6
 		y = 0
-        #prerequisite = { focus = CAN_rowell_sirois_commission }
-        #mutually_exclusive = { focus =  CAN_compromise_with_quebec }
 
 		cost = 10
 
 		ai_will_do = {
-			factor = 24
+			factor = 1
 		}
-	
+
 		available = {
-		
+
 		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
 		
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = Qin_state_of_military
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_era_of_humiliation }
+		x = -1
+		y = 1
+		relative_position_id = Qin_era_of_humiliation
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
 		bypass = {
 
 		}
@@ -43,10 +74,176 @@ focus_tree = {
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = yes
-		search_filters = { FOCUS_FILTER_POLITICAL }
+
+		
 
 		completion_reward = {
-			add_political_power = 120
 		}
-    }
-}    
+	}
+
+	focus = {
+		id = Qin_military_modernisation
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = Qin_state_of_military }
+		x = 0
+		y = 1
+		relative_position_id = Qin_state_of_military
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}	
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+		
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = Qin_failures_of_the_1800s
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = Qin_era_of_humiliation }
+		x = 1
+		y = 1
+		relative_position_id = Qin_era_of_humiliation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+	}
+
+	}
+	focus = {
+		id = Qin_land_reorganisation
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Qin_failures_of_the_1800s }
+		x = 0
+		y = 1
+		relative_position_id = Qin_failures_of_the_1800s
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			every_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+
+	focus = {
+		id = Qin_gengzi_reforms
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = Qin_military_modernisation focus = Qin_land_reorganisation focus = MAN_expand_the_textile_industry }
+		x = 6
+		y = 3
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	focus = {
+		id = Qin_boxer_rebellion
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = Qin_gengzi_reforms }
+		x = 0
+		y = 1
+		relative_position_id = Qin_gengzi_reforms
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+	shared_focus = CHI_invite_foreign_investors
+}   
+   
