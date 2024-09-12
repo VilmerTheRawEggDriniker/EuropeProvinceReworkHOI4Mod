@@ -141,7 +141,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_land_reorganisation
-		icon = GFX_goal_generic_construction
+		icon = GFX_focus_CHL_enlarge_the_textile_industries
 		prerequisite = { focus = Qin_failures_of_the_1800s }
 		x = 0
 		y = 1
