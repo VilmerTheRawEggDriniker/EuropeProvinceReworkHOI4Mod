@@ -250,7 +250,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = Qin_dealing_with_the_boxers }
 		mutually_exclusive = { focus =  Qin_suporting_the_rebellion }
-		x = -5
+		x = -5`
 		y = 1
 		relative_position_id = Qin_dealing_with_the_boxers
         NOT={has_war_with=FRA}
@@ -262,7 +262,7 @@ focus_tree = {
 		}
 
 		available = {
-
+        
 		}
 
 		bypass = {
@@ -280,18 +280,16 @@ focus_tree = {
 			lose_stability = 1
 		}
 	}
-
-	############################
-	##### ECONOMIC SECTION #####
-	############################
-
+     ############################
+	 ##### INDUSTRY SECTION #####
+	 ############################
 	    focus = {
-		id = Qin_Industrial_and_economic_modernisation
-		icon = GFX_goal_generic_production
+		id = Qin_state_of_the_industry
+		icon = GFX_focus_generic_modernize_industry
 
 		x = 20
-		y = 5
-
+		y = 0
+W
 		cost = 10
 
 		ai_will_do = {
@@ -321,10 +319,10 @@ focus_tree = {
 	focus = {
 		id = Qin_attract_foreign_investers
 		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = Qin_Industrial_and_economic_modernisation }
+		prerequisite = { focus = Qin_state_of_the_industry }
 		x = -1
 		y = 1
-		relative_position_id = Qin_Industrial_and_economic_modernisation
+		relative_position_id = Qin_state_of_the_industry
 		cost = 10
 
 		ai_will_do = {
@@ -394,11 +392,11 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_study_our_failures
-		icon = GFX_goal_generic_construction2
-		prerequisite = { focus = Qin_attract_foreign_investers }
-		x = -2
+		icon = GFX_focus_NORDIC_com_research
+		prerequisite = { focus = Qin_state_of_the_industry }
+		x = -3
 		y = 1
-		relative_position_id = Qin_attract_foreign_investers
+		relative_position_id = Qin_state_of_the_industry
 
 		cost = 10
 
@@ -428,11 +426,11 @@ focus_tree = {
 				set_technology = { excavation1 = 1 }
 			}
 		}
-	}
+	
 
 	focus = {
-		id = Qin_expand_steel_works
-		icon = GFX_goal_generic_construct_civ_factory
+		id = Qin_establish_the_shaanxi_petroleum
+		icon = GFX_goal_generic_production
 		prerequisite = { focus = Qin_study_our_failures }
 		x = 0
 		y = 1
@@ -459,25 +457,17 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			716 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-			unlock_decision_tooltip = MAN_develop_liaotung_iron_ore_deposits
+		
 		}
 	}
 
 	focus = {
-		id = MAN_social_research_unit
-		icon = GFX_focus_research
-		prerequisite = { focus = MAN_expand_the_railways }
+		id = Qin_expand_the_oil_production
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = Qin_establish_the_shaanxi_petroleum }
 		x = 0
-		y = 2
-		relative_position_id = MAN_invite_japanese_investors
+		y = 1
+		relative_position_id = Qin_establish_the_shaanxi_petroleum
 
 		cost = 10
 
@@ -506,42 +496,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MAN_second_five_year_plan
-		icon = GFX_goal_generic_production
-		prerequisite = { focus = MAN_social_research_unit }
-		prerequisite = { focus = MAN_expand_showa_steel_works }
-		prerequisite = { focus = MAN_mamc }
+		id = Qin_founding_national_banks
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Qin_renew_the_commercial_press }
 		x = 0
-		y = 4
-		relative_position_id = MAN_first_five_year_plan
+		y = 1
+		relative_position_id = Qin_renew_the_commercial_press
 
 		cost = 10
 
 		ai_will_do = {
 			factor = 4
-		}
-
-		available = {
-			if = {
-				limit = { has_idea = MAN_five_year_plan_air }
-				NOT = { has_idea = MAN_five_year_plan_air }
-			}
-			if = {
-				limit = { has_idea = MAN_five_year_plan_tank }
-				NOT = { has_idea = MAN_five_year_plan_tank }
-			}
-			if = {
-				limit = { has_idea = MAN_five_year_plan_industry }
-				NOT = { has_idea = MAN_five_year_plan_industry }
-			}
-			if = {
-				limit = {
-					NOT = { has_idea = MAN_five_year_plan_air }
-					NOT = { has_idea = MAN_five_year_plan_tank }
-					NOT = { has_idea = MAN_five_year_plan_industry }
-				}
-				NOT = { has_idea = MAN_five_year_plan_air }
-			}
 		}
 
 		bypass = {
@@ -556,17 +521,18 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			country_event = wtt_manchukou.11
 		}
 	}
 
 	focus = {
-		id = MAN_national_defense_state
-		icon = GFX_goal_generic_build_tank
-		prerequisite = { focus = MAN_second_five_year_plan }
-		x = 0
+		id = Qin_slight_economic_aprovements
+		icon = GFX_focus_generic_industry_1
+		prerequisite = { focus = Qin_founding_national_banks }
+		prerequisite = { focus = Qin_expand_the_oil_production }
+
+		x = -1
 		y = 1
-		relative_position_id = MAN_second_five_year_plan
+		relative_position_id = Qin_founding_national_banks
 
 		cost = 10
 
@@ -595,21 +561,17 @@ focus_tree = {
 	}
 
 	focus = {
-		id = MAN_mukden_arsenal
-		icon = GFX_goal_generic_construct_mil_factory
-		prerequisite = { focus = MAN_first_five_year_plan }
+		id = Qin_renew_tax_colletion
+		icon = GFX_goal_generic_trade
+		prerequisite = { focus = Qin_state_of_the_industry }
 		x = 1
 		y = 1
-		relative_position_id = MAN_first_five_year_plan
+		relative_position_id = Qin_state_of_the_industry
 
 		cost = 10
 
 		ai_will_do = {
 			factor = 1
-		}
-
-		available = {
-			716 = { is_fully_controlled_by = ROOT }
 		}
 
 		bypass = {
@@ -634,8 +596,233 @@ focus_tree = {
 			}
 		}
 	}
-	
-	
+
+		focus = {
+		id = Qin_expand_taxation
+		icon = GFX_focus_eng_concessions_to_the_trade_unions
+		prerequisite = { focus = Qin_renew_tax_colletion }
+		x = 0
+		y = 1
+		relative_position_id = Qin_renew_tax_colletion
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			716 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+		focus = {
+		id = Qin_enforce_taxation
+		icon = GFX_goal_continuous_suppression
+		prerequisite = { focus = Qin_expand_taxation }
+		x = 0
+		y = 1
+		relative_position_id = Qin_expand_taxation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			716 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+			focus = {
+		id = Qin_abolish_traditional_examination_system
+		icon = GFX_focus_BUL_destroy_the_zveno
+		prerequisite = { focus = Qin_state_of_the_industry }
+		x = 3
+		y = 1
+		relative_position_id = Qin_state_of_the_industry
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		
+		}
+	}
+
+			focus = {
+		id = Qin_set_up_peking_univeristy
+		icon = GFX_focus_NORDIC_dem_capstone_civilian
+		prerequisite = { focus = Qin_abolish_traditional_examination_system }
+		x = 0
+		y = 1
+		relative_position_id = Qin_abolish_traditional_examination_system
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		
+		}
+	}
+
+			focus = {
+		id = Qin_construct_agricultural_schools
+		icon = GFX_focus_generic_agricultural_subsidies
+		prerequisite = { focus = Qin_set_up_peking_univeristy }
+		x = 0
+		y = 1
+		relative_position_id = Qin_set_up_peking_univeristy
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		
+		}
+	}
+
+			focus = {
+		id = Qin_pay_of_the_debt
+		icon = GFX_focus_CHL_silverworking
+		prerequisite = { focus = Qin_slight_economic_aprovements }
+		prerequisite = { focus = Qin_semi-westernized_education }
+
+		x = 0
+		y = 5
+		relative_position_id = Qin_state_of_the_industry
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		
+		}
+	}
+			focus = {
+		id = Qin_semi-westernized_education
+		icon = GFX_focus_SWE_education_reform
+		prerequisite = { focus = Qin_enforce_taxation }
+		prerequisite = { focus = Qin_construct_agricultural_schools }
+
+		x = 1
+		y = 1
+		relative_position_id = Qin_enforce_taxation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+		
+		}
+	}
 	shared_focus = CHI_invite_foreign_investors
 }   
    
+
