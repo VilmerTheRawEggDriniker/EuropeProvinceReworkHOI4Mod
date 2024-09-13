@@ -1599,4 +1599,19 @@ spriteTypes = {
 		name = "GFX_portrait_ENG_rishi_sunak"
 		texturefile = "gfx/leaders/ENG/portrait_eng_rishi_sunak.dds"
 	}
+
+	spriteType = {
+		name = "GFX_portrait_OTO_suleimanii"
+		texturefile = "gfx/leaders/OTO/portrait_suleimanii_large.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_koprulu_mustafa"
+		texturefile = "gfx/leaders/OTO/portrait_koprulu_mustafa_large.dds"
+	}
+
+	spriteType = {
+		name = "GFX_portrait_OTO_koprulu_fazil"
+		texturefile = "gfx/leaders/OTO/portrait_fazil_large.dds"
+	}
 }
