@@ -331,6 +331,13 @@ W
 
 		available = {
 			NOT = { has_war_with = JAP }
+			NOT = { has_war_with = ENG }
+			NOT = { has_war_with = FRA }
+			NOT = { has_war_with = GER }
+			NOT = { has_war_with = USA }
+			NOT = { has_war_with = RUS }
+			NOT = { has_war_with = AUH }
+
 		}
 
 		bypass = {
@@ -344,8 +351,6 @@ W
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			custom_effect_tooltip = available_political_advisor
-			show_ideas_tooltip = MAN_songgotu_zhanshan
 			random_core_state = {
 				prioritize = { 328 }
 				limit = {
@@ -387,9 +392,21 @@ W
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			random_core_state = {
+				prioritize = { 328 }
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+	}
+	}
 
-	}
-	}
 	focus = {
 		id = Qin_study_our_failures
 		icon = GFX_focus_NORDIC_com_research
@@ -420,7 +437,7 @@ W
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-
+        add_political_power = 50
 			}
 			else = {
 				set_technology = { excavation1 = 1 }
@@ -441,10 +458,6 @@ W
 			factor = 4
 		}
 
-		available = {
-			716 = { is_fully_controlled_by = ROOT }
-		}
-
 		bypass = {
 
 		}
@@ -456,7 +469,27 @@ W
 		
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
+		completion_reward = { 
+			random_owned_controlled_state = {
+                    limit = { has_resources_amount = { resource = oil amount > 0 } }
+
+	        add_resource = {
+		    type = oil
+		    amount = 10
+	    }
+        }
+			random_core_state = {
+				prioritize = { 662 }
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}	    	
 		
 		}
 	}
@@ -489,10 +522,16 @@ W
 
 		
 
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_research_slot = 1
-		}
+random_owned_controlled_state = {
+	limit = { has_resources_amount = { resource = oil amount > 0 } }
+
+	add_resource = {
+		type = oil
+		amount = 12
+	}
+}		}
 	}
 
 	focus = {
@@ -521,6 +560,8 @@ W
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 25
 		}
 	}
 
@@ -660,14 +701,7 @@ W
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			716 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
+		
 		}
 	}
 			focus = {
@@ -825,5 +859,4 @@ W
 	shared_focus = CHI_invite_foreign_investors
 }   
    
-
 
