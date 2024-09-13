@@ -55,5 +55,21 @@ characters={
 			expire="1797.1.1"
 		}
 }
+
+	OTO_suleimanii={
+		name=OTO_CHARACTER_SULEIMANII
+		portraits={
+			civilian={
+				large="GFX_portrait_OTO_suleimanii"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Osman}
+			desc = OTO_SULEIMANII_DESC
+			expire="1692.1.1"
+		}
+}
+
 }
 
