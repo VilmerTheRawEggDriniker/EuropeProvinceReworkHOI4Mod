@@ -55,6 +55,10 @@ IRQ={set_cosmetic_tag = IRQ_OTO}
 	}
 }
 }
+1689.1.1 = {
+recruit_character=OTO_suleimanii
+promote_character=OTO_suleimanii
+}
 1444.11.11 = {
 add_ideas = {
         oto_hidden_ai_idea
