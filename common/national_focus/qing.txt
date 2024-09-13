@@ -244,8 +244,11 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
+			Create_faction = "Boxer Rebellion"
+            Add_to_faction = CHI
 			add_war_support = 0.2
 			add_political_power = 50
+			
 		}
 	}
 		focus = {
@@ -281,6 +284,382 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
 			lose_stability = 1
+		}
+	}
+
+	focus = {
+		id = Qin_mobilization
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_suporting_the_rebellion }
+		x = -1
+		y = 1
+		relative_position_id = Qin_suporting_the_rebellion
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = Qin_recruit_militias
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_suporting_the_rebellion }
+		x = 1
+		y = 1
+		relative_position_id = Qin_suporting_the_rebellion
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = Qin_control_beijing
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_assault_the_embasseys }
+		prerequisite = { focus = Qin_evacuate_the_imperial_court }
+
+		x = 0
+		y = 3
+		relative_position_id = Qin_suporting_the_rebellion
+		cost = 1
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = Qin_assault_the_embasseys
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_recruit_militias }
+		x = 0
+		y = 1
+		relative_position_id = Qin_recruit_militias
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = Qin_evacuate_the_imperial_court
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_mobilization }
+		x = 0
+		y = 1
+		relative_position_id = Qin_mobilization
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			set_capital = 744
+		}
+	}
+	focus = {
+		id = Qin_build_defenses
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_control_beijing }
+		x = 0
+		y = 1
+		relative_position_id = Qin_control_beijing
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+
+		}
+	}
+	focus = {
+		id = Qin_build_defenses
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_control_beijing }
+		x = 0
+		y = 1
+		relative_position_id = Qin_control_beijing
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Qin_under_new_leadership
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_control_beijing }
+		x = -2
+		y = 1
+		relative_position_id = Qin_control_beijing
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Qin_plan_a_offensive
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_control_beijing }
+		x = 2
+		y = 1
+		relative_position_id = Qin_control_beijing
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Qin_tianjing_offensive
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_under_new_leadership }
+		prerequisite = { focus = Qin_plan_a_offensive }
+		prerequisite = { focus = Qin_build_defenses }
+
+		x = 0
+		y = 1
+		relative_position_id = Qin_build_defenses
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Qin_detrimental_defeat
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_tianjing_offensive }
+        mutually_exclusive = { focus =  Qin_grand_victory }
+		x = 4
+		y = 1
+		relative_position_id = Qin_tianjing_offensive
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			
+		}
+	}
+	focus = {
+		id = Qin_grand_victory
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = Qin_tianjing_offensive }
+        mutually_exclusive = { focus =  Qin_detrimental_defeat }
+		x = -4
+		y = 1
+		relative_position_id = Qin_tianjing_offensive
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			
 		}
 	}
      ############################
