@@ -9,6 +9,8 @@ focus_tree = {
 		}
 	}
 
+    allow_branch = { has_start_date > 1900.1.1 has_start_date < 1936.1.1}
+
 
 	default = no
 
@@ -24,6 +26,7 @@ focus_tree = {
 		icon = GFX_goal_generic_major_war
 		x = 6
 		y = 0
+        allow_branch = { has_start_date > 1900.1.1 has_start_date < 1936.1.1}
 
 		cost = 1
 
@@ -289,7 +292,8 @@ focus_tree = {
 
 		x = 20
 		y = 0
-W
+        allow_branch = { has_start_date > 1900.1.1 has_start_date < 1936.1.1}
+
 		cost = 10
 
 		ai_will_do = {
@@ -597,7 +601,7 @@ random_owned_controlled_state = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			add_ideas = MAN_national_defense_state
+			add_ideas = CHI_public_works
 		}
 	}
 
@@ -635,6 +639,7 @@ random_owned_controlled_state = {
 					instant_build = yes
 				}
 			}
+			add_ideas = CHI_land_value_tax
 		}
 	}
 
@@ -664,14 +669,16 @@ random_owned_controlled_state = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
+			add_political_power = 5
 			716 = {
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
-					type = arms_factory
+					type = industrial_complex
 					level = 1
 					instant_build = yes
 				}
 			}
+			
 		}
 	}
 
@@ -701,7 +708,16 @@ random_owned_controlled_state = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-		
+			add_stability = -0.05
+			add_political_power = 25
+						716 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 			focus = {
@@ -728,9 +744,18 @@ random_owned_controlled_state = {
 
 		
 
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-		
+						add_stability = -0.025
+			add_political_power = 25
+						716 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -758,9 +783,18 @@ random_owned_controlled_state = {
 
 		
 
-		search_filters = { FOCUS_FILTER_INDUSTRY }
+		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-		
+			add_political_power = 5
+			add_research_slot = 1
+						716 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -790,7 +824,15 @@ random_owned_controlled_state = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-		
+			add_political_power = 10
+						716 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 
@@ -853,8 +895,17 @@ random_owned_controlled_state = {
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-		
-		}
+			add_stability = 0.10
+			add_political_power = 25
+						716 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}		
 	}
 	shared_focus = CHI_invite_foreign_investors
 }   
