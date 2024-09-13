@@ -562,7 +562,7 @@ W
 
 	focus = {
 		id = Qin_renew_tax_colletion
-		icon = GFX_goal_generic_trade
+		icon = GFX_focus_chi_examination_yuan
 		prerequisite = { focus = Qin_state_of_the_industry }
 		x = 1
 		y = 1
@@ -770,7 +770,7 @@ W
 		y = 5
 		relative_position_id = Qin_state_of_the_industry
 
-		cost = 10
+		cost = 15
 
 		ai_will_do = {
 			factor = 1
@@ -825,4 +825,5 @@ W
 	shared_focus = CHI_invite_foreign_investors
 }   
    
+
 
