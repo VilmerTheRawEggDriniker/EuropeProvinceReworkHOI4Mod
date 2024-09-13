@@ -1142,3 +1142,8 @@ SWI_helvetic_republic = {
 	color_ui = rgb { 140 140 140 }
 }
 
+HEJ_mecca = {
+	color = rgb { 48 158 4 }
+	color_ui = rgb { 53 110 53 }
+}
+
