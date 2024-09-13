@@ -280,6 +280,362 @@ focus_tree = {
 			lose_stability = 1
 		}
 	}
+
+	############################
+	##### ECONOMIC SECTION #####
+	############################
+
+	    focus = {
+		id = Qin_Industrial_and_economic_modernisation
+		icon = GFX_goal_generic_production
+
+		x = 20
+		y = 5
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			country_event = wtt_manchukou.11
+		}
+	}
+
+	focus = {
+		id = Qin_attract_foreign_investers
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = Qin_Industrial_and_economic_modernisation }
+		x = -1
+		y = 1
+		relative_position_id = Qin_Industrial_and_economic_modernisation
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			NOT = { has_war_with = JAP }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+
+		completion_reward = {
+			custom_effect_tooltip = available_political_advisor
+			show_ideas_tooltip = MAN_songgotu_zhanshan
+			random_core_state = {
+				prioritize = { 328 }
+				limit = {
+					is_fully_controlled_by = ROOT
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = Qin_renew_the_commercial_press
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = Qin_attract_foreign_investers }
+		x = 0
+		y = 1
+		relative_position_id = Qin_attract_foreign_investers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+	}
+	}
+	focus = {
+		id = Qin_study_our_failures
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = Qin_attract_foreign_investers }
+		x = -2
+		y = 1
+		relative_position_id = Qin_attract_foreign_investers
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 2
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+
+			}
+			else = {
+				set_technology = { excavation1 = 1 }
+			}
+		}
+	}
+
+	focus = {
+		id = Qin_expand_steel_works
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = Qin_study_our_failures }
+		x = 0
+		y = 1
+		relative_position_id = Qin_study_our_failures
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			716 = { is_fully_controlled_by = ROOT }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			716 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			unlock_decision_tooltip = MAN_develop_liaotung_iron_ore_deposits
+		}
+	}
+
+	focus = {
+		id = MAN_social_research_unit
+		icon = GFX_focus_research
+		prerequisite = { focus = MAN_expand_the_railways }
+		x = 0
+		y = 2
+		relative_position_id = MAN_invite_japanese_investors
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 8
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	focus = {
+		id = MAN_second_five_year_plan
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = MAN_social_research_unit }
+		prerequisite = { focus = MAN_expand_showa_steel_works }
+		prerequisite = { focus = MAN_mamc }
+		x = 0
+		y = 4
+		relative_position_id = MAN_first_five_year_plan
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		available = {
+			if = {
+				limit = { has_idea = MAN_five_year_plan_air }
+				NOT = { has_idea = MAN_five_year_plan_air }
+			}
+			if = {
+				limit = { has_idea = MAN_five_year_plan_tank }
+				NOT = { has_idea = MAN_five_year_plan_tank }
+			}
+			if = {
+				limit = { has_idea = MAN_five_year_plan_industry }
+				NOT = { has_idea = MAN_five_year_plan_industry }
+			}
+			if = {
+				limit = {
+					NOT = { has_idea = MAN_five_year_plan_air }
+					NOT = { has_idea = MAN_five_year_plan_tank }
+					NOT = { has_idea = MAN_five_year_plan_industry }
+				}
+				NOT = { has_idea = MAN_five_year_plan_air }
+			}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			country_event = wtt_manchukou.11
+		}
+	}
+
+	focus = {
+		id = MAN_national_defense_state
+		icon = GFX_goal_generic_build_tank
+		prerequisite = { focus = MAN_second_five_year_plan }
+		x = 0
+		y = 1
+		relative_position_id = MAN_second_five_year_plan
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 5
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_ideas = MAN_national_defense_state
+		}
+	}
+
+	focus = {
+		id = MAN_mukden_arsenal
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = MAN_first_five_year_plan }
+		x = 1
+		y = 1
+		relative_position_id = MAN_first_five_year_plan
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			716 = { is_fully_controlled_by = ROOT }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			716 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	
 	shared_focus = CHI_invite_foreign_investors
 }   
    
