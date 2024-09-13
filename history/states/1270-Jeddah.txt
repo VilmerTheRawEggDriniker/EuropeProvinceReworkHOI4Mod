@@ -1,0 +1,45 @@
+state={
+	id=1270
+	name="STATE_1270"
+
+	history={
+		owner = ZZZ
+		1600.1.1 = {
+		add_core_of = OTO
+		owner = HEJ
+		}
+		victory_points = {
+			14728 1
+		}
+		buildings = {
+			infrastructure = 2
+			14728 = {
+				naval_base = 1
+
+			}
+
+		}
+		1919.1.1 = {
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			14728 = {
+				naval_base = 3
+
+			}
+
+		}
+    set_owner = SAU
+		}
+
+	}
+
+	provinces={
+		14728 
+	}
+	manpower=622900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}
