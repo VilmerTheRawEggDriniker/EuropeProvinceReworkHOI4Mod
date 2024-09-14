@@ -1,5 +1,5 @@
 
-#music_station = "napoleonic_marches_and_music"
+music_station = "napoleonic_marches_and_music"
 
 music = {
 	song = "maintheme"
