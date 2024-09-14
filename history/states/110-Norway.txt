@@ -51,7 +51,7 @@ state={
 			}
 
 		}
-		1946.1.1 = {
+		2003.1.1 = {
 			buildings = {
 				6115 = {
 					coastal_bunker = 0
