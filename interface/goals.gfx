@@ -6,6 +6,10 @@ spriteTypes = {
 	name = "GFX_era_of_humiliation"
 	texturefile = "gfx/interface/goals/focus_QIN_era_of_humiliation.dds"			
 	}	
+        	SpriteType = {
+	name = "GFX_economic_go_up"
+	texturefile = "gfx/interface/goals/focus_QIN_economic_reactivation_act.dds"			
+	}	
 
 	SpriteType = {
 	name = "GFX_goal_continuous_air_production"
