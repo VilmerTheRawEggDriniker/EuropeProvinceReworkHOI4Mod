@@ -23,7 +23,7 @@ focus_tree = {
 
 	focus = {
 		id = Qin_era_of_humiliation
-		icon = GFX_goal_generic_major_war
+		icon = GFX_era_of_humiliation
 		x = 6
 		y = 0
         allow_branch = { has_start_date > 1900.1.1 has_start_date < 1936.1.1}
@@ -47,7 +47,7 @@ focus_tree = {
 		available_if_capitulated = no
 
 		
-
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 
 		}
@@ -55,7 +55,7 @@ focus_tree = {
 
 	focus = {
 		id = Qin_state_of_military
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_generic_military_sphere
 		prerequisite = { focus = Qin_era_of_humiliation }
 		x = -1
 		y = 1
@@ -86,7 +86,7 @@ focus_tree = {
 
 	focus = {
 		id = Qin_military_modernisation
-		icon = GFX_goal_generic_position_armies
+		icon = GFX_focus_FIN_strengthen_military_administration
 		prerequisite = { focus = Qin_state_of_military }
 		x = 0
 		y = 1
@@ -209,14 +209,14 @@ focus_tree = {
 
 		
 
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_research_slot = 1
 		}
 	}
 	focus = {
 		id = Qin_suporting_the_rebellion
-		icon = GFX_goal_generic_demand_territory
+		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = Qin_dealing_with_the_boxers }
 		x = 5
 		y = 1
@@ -242,7 +242,7 @@ focus_tree = {
 
 		
 
-		search_filters = { FOCUS_FILTER_RESEARCH }
+		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			Create_faction = "Boxer Rebellion"
             Add_to_faction = CHI
@@ -289,7 +289,7 @@ focus_tree = {
 
 	focus = {
 		id = Qin_mobilization
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_full_social_mobilization
 		prerequisite = { focus = Qin_suporting_the_rebellion }
 		x = -1
 		y = 1
@@ -319,7 +319,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_recruit_militias
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_generic_dangerous_deal
 		prerequisite = { focus = Qin_suporting_the_rebellion }
 		x = 1
 		y = 1
@@ -349,7 +349,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_control_beijing
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_annex_country_2
 		prerequisite = { focus = Qin_assault_the_embasseys }
 		prerequisite = { focus = Qin_evacuate_the_imperial_court }
 
@@ -381,7 +381,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_assault_the_embasseys
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_generic_attack_allies
 		prerequisite = { focus = Qin_recruit_militias }
 		x = 0
 		y = 1
@@ -411,7 +411,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_evacuate_the_imperial_court
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_SWE_per_albin_bus
 		prerequisite = { focus = Qin_mobilization }
 		x = 0
 		y = 1
@@ -442,7 +442,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_build_defenses
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_generic_fortify_city
 		prerequisite = { focus = Qin_control_beijing }
 		x = 0
 		y = 1
@@ -471,40 +471,10 @@ focus_tree = {
 
 		}
 	}
-	focus = {
-		id = Qin_build_defenses
-		icon = GFX_goal_generic_small_arms
-		prerequisite = { focus = Qin_control_beijing }
-		x = 0
-		y = 1
-		relative_position_id = Qin_control_beijing
-		cost = 2
 
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-			
-		}
-	}
 	focus = {
 		id = Qin_under_new_leadership
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_generic_military_dictatorship
 		prerequisite = { focus = Qin_control_beijing }
 		x = -2
 		y = 1
@@ -535,7 +505,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_plan_a_offensive
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_SOV_mobilization_plan
 		prerequisite = { focus = Qin_control_beijing }
 		x = 2
 		y = 1
@@ -566,7 +536,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_tianjing_offensive
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_generic_territory_or_war
 		prerequisite = { focus = Qin_under_new_leadership }
 		prerequisite = { focus = Qin_plan_a_offensive }
 		prerequisite = { focus = Qin_build_defenses }
@@ -600,7 +570,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_detrimental_defeat
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_focus_SWE_neither_death_nor_dishonor
 		prerequisite = { focus = Qin_tianjing_offensive }
         mutually_exclusive = { focus =  Qin_grand_victory }
 		x = 4
@@ -632,7 +602,7 @@ focus_tree = {
 	}
 	focus = {
 		id = Qin_grand_victory
-		icon = GFX_goal_generic_small_arms
+		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = Qin_tianjing_offensive }
         mutually_exclusive = { focus =  Qin_detrimental_defeat }
 		x = -4
@@ -1289,4 +1259,3 @@ random_owned_controlled_state = {
 	shared_focus = CHI_invite_foreign_investors
 }   
    
-
