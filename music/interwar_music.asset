@@ -1,0 +1,28 @@
+music = {
+	name = "beat_the_bolshevik"
+	file = "beat_the_bolshevik.ogg"
+}
+music = {
+	name = "hard_times_of_a_legionary"
+	file = "hard_times_of_a_legionary.ogg"
+}
+music = {
+	name = "letter_to_the_tsar"
+	file = "letter_to_the_tsar.ogg"
+}
+music = {
+	name = "mother_anarchy_loves_her_sons"
+	file = "mother_anarchy_loves_her_sons.ogg"
+}
+music = {
+	name = "solovey_razboynik"
+	file = "solovey_razboynik.ogg"
+}
+music = {
+	name = "when_all_the_roads_end"
+	file = "when_all_the_roads_end.ogg"
+}
+music = {
+	name = "reoi_no_uta"
+	file = "reoi_no_uta.ogg"
+}
