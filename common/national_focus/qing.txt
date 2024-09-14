@@ -1781,7 +1781,7 @@ random_owned_controlled_state = {
 						add_tech_bonus = {
 							name = secret_bonus
 							bonus = 0.5
-							uses = 4
+							uses = 1
 							category = electronics
 							category = nuclear
 							category = rocketry
@@ -1988,6 +1988,8 @@ random_owned_controlled_state = {
 					
 		}
 		completion_reward = {
+			add_political_power = 10			
+
 		}
 	}
 	focus = {
@@ -2089,3 +2091,4 @@ random_owned_controlled_state = {
 	shared_focus = CHI_invite_foreign_investors
 }   
    
+
