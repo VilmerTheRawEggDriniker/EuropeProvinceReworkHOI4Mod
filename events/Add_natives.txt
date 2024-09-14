@@ -15,7 +15,7 @@ country_event = {
 			if = {
 				limit = { is_owned_by = ZZZ }
 				add_core_of = AZT
-				setowner = AZT
+				AZT = { transfer_state = 277 }
 			}
 		}
 	}
