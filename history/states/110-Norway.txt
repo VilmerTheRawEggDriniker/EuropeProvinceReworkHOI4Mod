@@ -51,6 +51,16 @@ state={
 			}
 
 		}
+		1946.1.1 = {
+			buildings = {
+				6115 = {
+					coastal_bunker = 0
+
+				}
+
+			}
+
+		}
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
