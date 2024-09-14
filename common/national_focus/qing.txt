@@ -640,7 +640,7 @@ focus_tree = {
 		id = Qin_state_of_the_industry
 		icon = GFX_focus_generic_modernize_industry
 
-		x = 20
+		x = 22.5
 		y = 0
         allow_branch = { has_start_date > 1900.1.1 has_start_date < 1936.1.1}
 
@@ -1257,7 +1257,835 @@ random_owned_controlled_state = {
 			}
 		}		
 	}
+	#Construction Effort II
+	focus = {
+		id = QIN_construction_effort_ii
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = Qin_Civilian_build_up
+		prerequisite = { focus = Qin_Civilian_build_up  }
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = construction_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size < 1
+									include_locked = yes
+								}
+							}
+						}
+					
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = industrial_complex
+													size > 0
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Armament Effort II
+	focus = {
+		id = QIN_armament_effort_ii
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = QIN_armament_effort
+		prerequisite = { focus = QIN_armament_effort  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = production_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size < 1
+									include_locked = yes
+								}
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = arms_factory
+													size > 0
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Infrastructure Effort
+	focus = {
+		id = Qin_infrastructure_effort
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = Qin_Industrialization
+		prerequisite = { focus = Qin_Industrialization  }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = infrastructure_effort_tt
+							all_owned_state = {			
+								free_building_slots = {
+									building = infrastructure
+									size < 1
+								}
+							}
+						}
+					
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = infrastructure
+													size > 0
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_building_construction = {
+								type = infrastructure
+								level = 1
+								instant_build = yes
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = infrastructure
+									size > 1
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = infrastructure
+													size > 1
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_building_construction = {
+								type = infrastructure
+								level = 2
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Armament Effort III
+	focus = {
+		id = QIN_armament_effort_iii
+		icon = GFX
+		x = 0
+		y = 1
+		relative_position_id = QIN_armament_effort_ii
+		prerequisite = { focus = QIN_armament_effort_ii  }
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = production_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size < 1
+									include_locked = yes
+								}					
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = arms_factory
+													size > 0
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Infrastructure Effort II
+	focus = {
+		id = QIN_infrastructure_effort_ii
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = Qin_infrastructure_effort
+		prerequisite = { focus = Qin_infrastructure_effort  }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = infrastructure_effort_tt
+							all_owned_state = {			
+								free_building_slots = {
+									building = infrastructure
+									size < 1
+								}
+							}
+						}
+					
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = infrastructure
+									size > 0
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = infrastructure
+													size > 0
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_building_construction = {
+								type = infrastructure
+								level = 1
+								instant_build = yes
+							}
+						}
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = infrastructure
+									size > 1
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = infrastructure
+													size > 1
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_building_construction = {
+								type = infrastructure
+								level = 2
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Construction Effort III
+	focus = {
+		id = QIN_construction_effort_iii
+		icon = GFX_goal_generic_construct_civilian
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = QIN_construction_effort_ii
+		prerequisite = { focus = QIN_construction_effort_ii }
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = construction_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size < 2
+									include_locked = yes
+								}
+							}
+						}
+					
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 1
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = industrial_complex
+													size > 1
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 2
+							add_building_construction = {
+								type = industrial_complex
+								level = 2
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+
+	#Extra Research Slot
+	focus = {
+		id = QIN_beijing_uni
+		icon = GFX_focus_research
+		x = -2
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		relative_position_id = Qin_Industrialization
+		prerequisite = { focus = Qin_Industrialization }
+		completion_reward = {
+			
+						add_research_slot = 1
+					
+		}
+	}
+
+	#Extra Research Slot II
+	focus = {
+		id = QIN_establish_more_schools
+		icon = GFX_focus_research
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		relative_position_id = QIN_beijing_uni
+		prerequisite = { focus = QIN_beijing_uni }
+		available = {
+			
+						num_of_factories > 50
+					
+		}
+		completion_reward = {
+			
+						add_research_slot = 1
+					
+		}
+	}
+	#Extra Research Slot III
+	focus = {
+		id = QIN_reform_education
+		icon = GFX_focus_research
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		relative_position_id = QIN_establish_more_schools
+		prerequisite = { focus = QIN_establish_more_schools }
+		available = {
+			
+						num_of_factories > 50
+					
+		}
+		completion_reward = {
+			
+						add_research_slot = 1
+					
+		}
+	}
+
+	#electronics manufacture
+	focus = {
+		id = QIN_study_electronics
+		icon = GFX
+		x = -4
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		relative_position_id = Qin_Industrialization
+		prerequisite = { focus = Qin_Industrialization  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = secret_bonus
+							bonus = 0.5
+							uses = 4
+							category = electronics
+							category = nuclear
+							category = rocketry
+						}
+					
+		}
+	}
+	focus = {
+		id = QIN_build_the_fushi_copperweld
+		icon = GFX
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		relative_position_id = QIN_study_electronics
+		prerequisite = { focus = Qin_Industrialization  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = secret_bonus
+							bonus = 0.5
+							uses = 2
+							category = electronics
+							category = nuclear
+							category = rocketry
+						}
+					
+		}
+	}
+	focus = {
+		id = QIN_expand_the_copperweld_industry
+		icon = GFX
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		relative_position_id = QIN_build_the_fushi_copperweld
+		prerequisite = { focus = QIN_build_the_fushi_copperweld  }
+		ai_will_do = { factor = 1 }
+		completion_reward = {
+			
+						add_tech_bonus = {
+							name = secret_bonus
+							bonus = 0.5
+							uses = 2
+							category = electronics
+							category = nuclear
+							category = rocketry
+						}
+					
+		}
+	}
+	#Armament Effort
+	focus = {
+		id = QIN_armament_effort
+		icon = GFX
+		x = 2
+		y = 1
+		prerequisite = { focus = Qin_Industrialization  }
+		relative_position_id = Qin_Industrialization
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		available_if_capitulated = yes
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = production_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = arms_factory
+									size < 1
+									include_locked = yes
+								}
+							}
+						}
+					
+		}
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = arms_factory
+									size > 0
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = arms_factory
+													size > 0
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = arms_factory
+								level = 1
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+	#Construction Effort
+	focus = {
+		id = Qin_Civilian_build_up
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 4
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = Qin_Industrialization  }
+		relative_position_id = Qin_Industrialization
+		ai_will_do = { factor = 1 }
+		bypass = {
+			
+						custom_trigger_tooltip = {
+							tooltip = construction_effort_tt
+							all_owned_state = {
+								free_building_slots = {
+									building = industrial_complex
+									size < 1
+									include_locked = yes
+								}					
+							}
+						}
+					
+		}
+		completion_reward = {
+			
+						random_owned_controlled_state = {
+							limit = {
+								free_building_slots = {
+									building = industrial_complex
+									size > 0
+									include_locked = yes
+								}
+								OR = {
+									is_in_home_area = yes
+									NOT = {
+										owner = {
+											any_owned_state = {
+												free_building_slots = {
+													building = industrial_complex
+													size > 0
+													include_locked = yes
+												}
+												is_in_home_area = yes
+											}
+										}
+									}
+								}
+							}
+							add_extra_state_shared_building_slots = 1
+							add_building_construction = {
+								type = industrial_complex
+								level = 1
+								instant_build = yes
+							}
+						}
+					
+		}
+	}
+	focus = {
+		id = Qin_Industrialization
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 0
+		y = 1
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		relative_position_id = Qin_pay_of_the_debt
+		prerequisite = { focus = Qin_pay_of_the_debt  }
+		ai_will_do = { factor = 1 }
+		bypass = {
+					
+		}
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = Qin_finishing_industrialisation
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = QIN_armament_effort_iii }
+		prerequisite = { focus = QIN_construction_effort_iii }
+		x = 1
+		y = 1
+		relative_position_id = QIN_armament_effort_iii
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 5
+		}
+	}
+	focus = {
+		id = Qin_ending_reforms
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = QIN_reform_education }
+		prerequisite = { focus = QIN_expand_the_copperweld_industry }
+
+		x = -1
+		y = 1
+		relative_position_id = QIN_reform_education
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 5
+		}
+	}
+	focus = {
+		id = Qin_industrial_superpower
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = Qin_ending_reforms }
+		prerequisite = { focus = Qin_finishing_industrialisation }
+
+		x = 0
+		y = 5
+		relative_position_id = Qin_Industrialization
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 4
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		
+
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 25
+		}
+	}
+
 	shared_focus = CHI_invite_foreign_investors
 }   
    
-
