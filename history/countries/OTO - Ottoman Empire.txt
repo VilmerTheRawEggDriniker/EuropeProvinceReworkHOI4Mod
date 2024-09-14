@@ -1,9 +1,15 @@
 ﻿capital = 798
-
+1689.1.1 = {
+recruit_character=OTO_suleimanii
+promote_character=OTO_suleimanii
+}
+1691.1.1 = {
+retire_character=OTO_suleimanii
+}
 1600.1.1 = {
 			if = {
 		limit = { has_start_date < 1918.1.1 }
-HEJ=
+HEJ={set_cosmetic_tag = HEJ_mecca}
 	set_autonomy = {
         target = HEJ
         autonomous_state = autonomy_integrated_puppet
@@ -11,6 +17,42 @@ HEJ=
 	}
 }
 }
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1811.1.1 }
+GUR={set_cosmetic_tag = GUR_OTO}
+	set_autonomy = {
+        target = GUR
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1811.1.1 }
+IME={set_cosmetic_tag = IME_OTO}
+	set_autonomy = {
+        target = IME
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1811.1.1 }
+ABK={set_cosmetic_tag = ABK_OTO}
+	set_autonomy = {
+        target = ABK
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+
+
+
 1500.1.1 = {
 			if = {
 		limit = { has_start_date < 1788.1.1 }
@@ -54,10 +96,6 @@ IRQ={set_cosmetic_tag = IRQ_OTO}
         freedom_level = 0.4
 	}
 }
-}
-1689.1.1 = {
-recruit_character=OTO_suleimanii
-promote_character=OTO_suleimanii
 }
 1444.11.11 = {
 add_ideas = {

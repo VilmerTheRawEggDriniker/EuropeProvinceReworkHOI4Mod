@@ -1,10 +1,10 @@
 ﻿capital = 231 #Tbilisi
-1762.1.1 = {
+1789.1.1 = {
 recruit_character=GEO_heracliusii
 promote_character=GEO_heracliusii
-}
-1798.1.1 = {
 recruit_character=GEO_georgexii
+}
+1800.1.1 = {
 promote_character=GEO_georgexii
 retire_character=GEO_heracliusii
 }
@@ -20,7 +20,7 @@ set_oob = "GEO_1789"
 1789.1.1 = {
 set_cosmetic_tag = GEO_Kartli_Kakheti # Netherlands East Indies
 }
-1900.1.1 = {
+1812.1.1 = {
 set_cosmetic_tag = GEO # Netherlands East Indies
 }
 

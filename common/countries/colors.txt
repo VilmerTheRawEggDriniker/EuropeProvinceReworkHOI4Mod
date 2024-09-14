@@ -3,6 +3,10 @@ IRO = {
 	color = rgb { 89 62 182 }
 	color_ui = rgb { 89 62 182 }
 }
+GUR = {
+	color = rgb { 178 135 191 }
+	color_ui = rgb { 178 135 191 }
+}
 WAB = {
 	color = rgb { 53 75 189 }
 	color_ui = rgb { 53 75 189 }

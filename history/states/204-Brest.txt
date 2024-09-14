@@ -19,9 +19,11 @@ state={
 		1900.1.1 = {
                 add_core_of = BLR
                 }
+		1960.1.1 = {
 		victory_points = {
 			11313 1 
 		}
+	    }
 		victory_points = {
 			3350 3 
 		}

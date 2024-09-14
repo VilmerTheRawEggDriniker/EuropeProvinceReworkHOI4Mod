@@ -23,14 +23,9 @@ state={
 		remove_core_of = LUX
 		remove_core_of = BEL
 		}
-		1816.1.1 = {
-		owner = LUX
-		add_core_of = LUX
-		remove_core_of = FRA
-		}
 		1831.1.1 = {
                 add_core_of = BEL
-                remove_core_of = LUX
+                remove_core_of = FRA
                 owner = BEL
                 }
 		victory_points = {

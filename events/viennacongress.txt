@@ -82,14 +82,48 @@ country_event = {
 	is_triggered_only = yes
 fire_only_once = yes
 	option = { # 
-		name = "Sign the Frankfurt Proposals"
+		name = "Reject the Frankfurt Proposals"
 		ai_chance = { factor = 100 } 
     add_political_power=150
 		news_event = viennacongress_news.3
 	}
 		option = { # 
-		name = "Reject the Frankfurt Proposals"
-		ai_chance = { factor = 100 } 
+		name = "Sign the Frankfurt Proposals"
+		ai_chance = { factor = 0 } 
+		FRA={add_manpower=-100000}
+		every_country = {
+  limit = {
+  has_war_with = FRA
+  }
+  white_peace = FRA
+}
+		every_country = {
+  limit = {
+  is_in_faction_with = FRA
+  }
+  leave_faction=yes
+    }
+	FRA={
+		every_subject_country = {
+  limit = {
+  is_subject_of=FRA
+  }
+FRA={
+set_autonomy = { target = PREV autonomy_state = autonomy_free }
+}
+AUS={
+set_autonomy = { target = PREV autonomy_state = autonomy_protectorate}
+}
+}
+	}
+every_state = { #vichy north africa
+                    limit = {
+                        is_owned_by = FRA
+					NOT={is_core_of=FRA}
+                    }
+                    AUS = {transfer_state = PREV}
+                }
+FRA={set_country_flag = frankfurtproposals_flag}
     add_political_power=150
 		news_event = viennacongress_news.3
 	}

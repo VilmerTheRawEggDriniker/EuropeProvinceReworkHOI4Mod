@@ -55,7 +55,6 @@ characters={
 			expire="1797.1.1"
 		}
 }
-
 	OTO_suleimanii={
 		name=OTO_CHARACTER_SULEIMANII
 		portraits={
@@ -70,6 +69,5 @@ characters={
 			expire="1692.1.1"
 		}
 }
-
 }
 

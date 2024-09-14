@@ -584,6 +584,13 @@ SPM_CHARLESFELIX_DESC:0 "Charles Felix was the King of Sardinia and ruler of the
 SPM_CHARACTER_CHARLESALBERT:0 "Charles Albert"
 SPM_CHARLESALBERT_DESC:0 "Charles Albert was the King of Sardinia and ruler of the Savoyard state from 27 April 1831 until his abdication in 1849. His name is bound up with the first Italian constitution, the Albertine Statute, and with the First Italian War of Independence (1848–1849)."
 
+IME_CHARACTER_SOLOMONII:0 "Solomon II"
+IME_SOLOMONII_DESC:0 "Solomon II of the Bagrationi dynasty, was the last king of Imereti from 1789 to 1790 and from 1792 until his deposition by the Imperial Russian government in 1810."
+
+IME_CHARACTER_DAVIDII:0 "David II"
+IME_DAVIDII_DESC:0 "David II was king of Imereti from 1784 to 1789 and from 1790 to 1791."
+
+
 GEO_CHARACTER_HERACLIUSII:0 "Heraclius II"
 GEO_HERACLIUSII_DESC:0 "Heraclius II was a Georgian monarch of the Bagrationi dynasty, reigning as the king of Kakheti from 1744 to 1762, and of Kartli and Kakheti from 1762 until 1798."
 
@@ -667,6 +674,9 @@ SWE_CHARLESXIII_DESC:0 "Charles XIII was King of Sweden from 1809 and King of No
 
 SWE_CHARACTER_CHARLESXIVJOHN:0 "Charles XIV John"
 SWE_CHARLESXIVJOHN_DESC:0 "Charles XIV John was King of Sweden and Norway from 1818 until his death in 1844 and the first monarch of the Bernadotte dynasty. During the Napoleonic Wars, he participated in several battles as a Marshal of France."
+
+NOR_CHARACTER_CHARLESXIVJOHN:0 "Charles XIV John"
+NOR_CHARLESXIVJOHN_DESC:0 "Charles XIV John was King of Sweden and Norway from 1818 until his death in 1844 and the first monarch of the Bernadotte dynasty. During the Napoleonic Wars, he participated in several battles as a Marshal of France."
 
 COU_CHARACTER_PETERVONBIRON:0 "Peter von Biron"
 COU_PETERVONBIRON_DESC:0 "Peter von Biron was the last Duke of Courland and Semigallia, from 1769 to 1795."

@@ -1,4 +1,11 @@
 ﻿capital = 110
+1789.1.1 = {
+recruit_character=NOR_charlesxivjohn
+promote_character=NOR_charlesxivjohn
+}
+1848.1.1 = {
+retire_character=NOR_charlesxivjohn
+}
 1444.11.11 = {
 set_party_name = { ideology = neutrality long_name = NOR_WIT_neutrality_party_long name = NOR_WIT_neutrality_party }
 }

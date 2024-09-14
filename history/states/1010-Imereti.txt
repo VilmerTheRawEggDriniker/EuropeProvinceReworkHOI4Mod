@@ -7,13 +7,10 @@ state={
 		owner = IME
 		add_core_of = IME
 		add_core_of = GEO
-		1600.1.1 = {
-                owner = OTO
-		remove_core_of = IME
-                }
 		1811.1.1 = {
                 owner = RUS
                 add_core_of = RUS
+				remove_core_of = IME
                 }
 		victory_points = {
 			772 1 
@@ -27,6 +24,12 @@ state={
 		owner = GEO
 		remove_core_of = RUS
 		remove_core_of = PER
+		}
+				1789.1.1 = {
+		remove_core_of = GEO
+		}
+		1812.1.1 = {
+		add_core_of = GEO
 		}
 		1920.1.1 = {
 			owner = SOV

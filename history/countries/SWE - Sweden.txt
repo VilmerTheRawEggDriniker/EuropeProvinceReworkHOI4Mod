@@ -1,25 +1,25 @@
 ﻿capital = 141
-1771.1.1 = {
+1789.1.1 = {
 recruit_character=SWE_gustaviii
+recruit_character=SWE_gustavivadolf
+recruit_character=SWE_charlesxiii
+recruit_character=SWE_charlesxivjohn
 promote_character=SWE_gustaviii
 }
-1792.1.1 = {
-recruit_character=SWE_gustavivadolf
+1800.1.1 = {
 promote_character=SWE_gustavivadolf
 retire_character=SWE_gustaviii
 }
-1809.1.1 = {
-recruit_character=SWE_charlesxiii
+1812.1.1 = {
 promote_character=SWE_charlesxiii
-retire_character=SWE_gustavivadolf
 }
-1818.1.1 = {
-recruit_character=SWE_charlesxivjohn
+1836.1.1 = {
 promote_character=SWE_charlesxivjohn
 retire_character=SWE_charlesxiii
 }
-1845.1.1 = {
+1848.1.1 = {
 retire_character=SWE_charlesxivjohn
+retire_character=SWE_gustavivadolf
 }
 1789.1.1 = {
 		if = {

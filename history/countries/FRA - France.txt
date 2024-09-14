@@ -49,6 +49,46 @@ recruit_character=FRA_jacquesnecker
 1812.1.1 = {
 retire_character=FRA_jacquesnecker
 }
+1812.1.1 = {
+			if = {
+		limit = { has_start_date < 1813.1.1 }
+BRG={set_party_name = { ideology = neutrality long_name = BRG_BON_neutrality_party_long name = BRG_BON_neutrality_party}}
+NAP={set_party_name = { ideology = neutrality long_name = NAP_MUR_neutrality_party_long name = NAP_MUR_neutrality_party}}
+LUC={set_cosmetic_tag = LUC_PIO}
+WTF={
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1812.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+BRG={
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1812.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+LUC={
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1812.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+NAP={
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1812.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+}
+}
+}
 1799.1.1 = {
 			if = {
 		limit = { has_start_date < 1801.1.1 }

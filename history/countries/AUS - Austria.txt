@@ -484,74 +484,11 @@ set_autonomy = {
 }
 }
 }    
-1440.2.22 = {
-	recruit_character = AUS_ladislaus
-	promote_character = AUS_ladislaus
-}
-1453.1.6 = {
-	set_cosmetic_tag = AUS_archduchy
-}
-1457.11.23 = {
-	recruit_character = AUS_frederick_iii
-	promote_character = AUS_frederick_iii
-}
-1493.8.19 = {
-	recruit_character = AUS_maximilian_i
-	promote_character = AUS_maximilian_i
-}
-1519.1.12 = {
-	recruit_character = AUS_charles_V
-	promote_character = AUS_charles_V
-}
-1521.4.21 = {
-	recruit_character = AUS_ferdinand_i
-	promote_character = AUS_ferdinand_i
-}
-1564.7.25 = {
-	recruit_character = AUS_maximilian_ii
-	promote_character = AUS_maximilian_ii
-}
-1576.10.12 = {
-	recruit_character = AUS_rudolf_ii
-	promote_character = AUS_rudolf_ii
-}
-1608.1.1 = {
-	recruit_character = AUS_matthias
-	promote_character = AUS_matthias
-}
-1619.3.20 = {
-	recruit_character = AUS_ferdinand_ii
-	promote_character = AUS_ferdinand_ii
-}
-1637.2.15 = {
-	recruit_character = AUS_ferdinand_iii
-	promote_character = AUS_ferdinand_iii
-}
-1657.4.2 = {
-	recruit_character = AUS_leopold_i
-	promote_character = AUS_leopold_i
-}
-1705.5.5 = {
-	recruit_character = AUS_joseph_i
-	promote_character = AUS_joseph_i
-}
-1711.4.17 = {
-	recruit_character = AUS_charles_vi
-	promote_character = AUS_charles_vi
-}
 1740.1.1 = {
 	add_ideas = {
     		aus_extinction_of_the_house_of_habsburg
     		aus_vulnerable_position
 	}
-}
-1740.10.20 = {
-	recruit_character = AUS_maria_theresa
-	promote_character = AUS_maria_theresa
-}
-1740.11.21 = {
-	recruit_character = AUS_francis_i
-	promote_character = AUS_francis_i
 }
 1792.1.1 = {
 remove_ideas = {
@@ -827,6 +764,7 @@ set_technology = {
 1740.1.1 = {
 set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 }
+1936.1.1 = {
 recruit_character = AUS_kurt_schuschnigg
 recruit_character = AUS_arthur_seyss-inquart
 recruit_character = AUS_alfred_klahr
@@ -847,7 +785,7 @@ recruit_character = AUS_franz_bohme
 recruit_character = AUS_eugen_beyer
 recruit_character = AUS_julius_raab
 recruit_character = AUS_leopold_figl
-
+}
 
 
 set_politics = {

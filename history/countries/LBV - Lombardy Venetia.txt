@@ -18,9 +18,6 @@ retire_character=LBV_francisiilbv
 1849.1.1 = {
 retire_character=LBV_ferdinandilbv
 }
-1848.12.2 = {
-retire_character=LBV_ferdinandilbv
-}
 1740.1.1 = {
 set_cosmetic_tag = LBV_AUS #austrian puppet
 }
