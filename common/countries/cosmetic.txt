@@ -1,3 +1,7 @@
+CHI_BOX = {
+    color = rgb { 166 55 64 }
+    color_ui = rgb { 138 26 35 }
+}
 MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
