@@ -1323,7 +1323,7 @@ random_owned_controlled_state = {
 	#Armament Effort II
 	focus = {
 		id = QIN_armament_effort_ii
-		icon = GFX
+		icon = GFX_focus_secret_rearmament
 		x = 0
 		y = 1
 		relative_position_id = QIN_armament_effort
@@ -1480,7 +1480,7 @@ random_owned_controlled_state = {
 	#Armament Effort III
 	focus = {
 		id = QIN_armament_effort_iii
-		icon = GFX
+		icon = GFX_focus_secret_rearmament
 		x = 0
 		y = 1
 		relative_position_id = QIN_armament_effort_ii
@@ -1766,7 +1766,7 @@ random_owned_controlled_state = {
 	#electronics manufacture
 	focus = {
 		id = QIN_study_electronics
-		icon = GFX
+		icon = GFX_focus_generic_hydroelectric_energy
 		x = -4
 		y = 1
 		cost = 10
@@ -1791,7 +1791,7 @@ random_owned_controlled_state = {
 	}
 	focus = {
 		id = QIN_build_the_fushi_copperweld
-		icon = GFX
+		icon = GFX_goal_generic_construction2
 		x = 0
 		y = 1
 		cost = 10
@@ -1816,7 +1816,7 @@ random_owned_controlled_state = {
 	}
 	focus = {
 		id = QIN_expand_the_copperweld_industry
-		icon = GFX
+		icon = GFX_focus_ARG_develop_the_electricity_sector
 		x = 0
 		y = 1
 		cost = 10
@@ -1842,7 +1842,7 @@ random_owned_controlled_state = {
 	#Armament Effort
 	focus = {
 		id = QIN_armament_effort
-		icon = GFX
+		icon = GFX_goal_generic_military_deal
 		x = 2
 		y = 1
 		prerequisite = { focus = Qin_Industrialization  }
@@ -2023,7 +2023,7 @@ random_owned_controlled_state = {
 	}
 	focus = {
 		id = Qin_ending_reforms
-		icon = GFX_goal_generic_construction
+		icon = GFX_focus_generic_treaty
 		prerequisite = { focus = QIN_reform_education }
 		prerequisite = { focus = QIN_expand_the_copperweld_industry }
 
@@ -2055,7 +2055,7 @@ random_owned_controlled_state = {
 	}
 	focus = {
 		id = Qin_industrial_superpower
-		icon = GFX_goal_generic_construction
+		icon = GFX_SOV_paced_industrialization_ccp_2d_sov_compatibility
 		prerequisite = { focus = Qin_ending_reforms }
 		prerequisite = { focus = Qin_finishing_industrialisation }
 
