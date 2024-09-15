@@ -34,10 +34,9 @@ state={
                 add_core_of = GER
                 owner = GER
                 }
-						1919.1.1 = {
-		owner = FRA
-		}
+		
 		1919.1.1 = {
+		owner = BEL
                 remove_core_of = WUR
                 remove_core_of = SAX
                 remove_core_of = OLD
