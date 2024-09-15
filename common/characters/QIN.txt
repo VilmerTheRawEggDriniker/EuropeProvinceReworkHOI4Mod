@@ -3,7 +3,7 @@ characters={
 		name=QIN_CHARACTER_GUANGXU
 		portraits={
 			civilian={
-				large="GFX_portrait_bsl_franz_large"
+				large="GFX_portrait_qin_guangxu_large"
 			}
 		}
 		country_leader={
