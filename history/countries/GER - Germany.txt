@@ -1687,4 +1687,18 @@ if = {
 	#	}
 	#	obsolete = yes
 	#}
+1914.6.28 = {
+	set_politics = {
+	ruling_party = neutrality
+	last_election = "1912.1.12"
+	election_frequency = 60
+	elections_allowed = yes
+}
+set_popularities = {
+	democratic = 8
+	fascism = 10
+	communism = 2
+	neutrality = 80
+}
+}
 }
