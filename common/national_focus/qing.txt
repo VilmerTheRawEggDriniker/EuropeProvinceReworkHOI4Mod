@@ -81,6 +81,8 @@ focus_tree = {
 		
 
 		completion_reward = {
+			add_ae = 15
+			add_ideas = CHI_incompetent_officers
 		}
 	}
 
@@ -113,1340 +115,15 @@ focus_tree = {
 		
 		
 		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = Qin_failures_of_the_1800s
-		icon = GFX_goal_generic_construct_civilian
-		prerequisite = { focus = Qin_era_of_humiliation }
-		x = 1
-		y = 1
-		relative_position_id = Qin_era_of_humiliation
-
-		cost = 4
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {
-	}
-
-	}
-	focus = {
-		id = Qin_land_reorganisation
-		icon = GFX_focus_CHL_enlarge_the_textile_industries
-		prerequisite = { focus = Qin_failures_of_the_1800s }
-		x = 0
-		y = 1
-		relative_position_id = Qin_failures_of_the_1800s
-
-		cost = 4
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			every_state = {
-				limit = {
-					is_fully_controlled_by = ROOT
-					is_core_of = ROOT
-				}
-				add_extra_state_shared_building_slots = 1
-			}
-		}
-	}
-
-	focus = {
-		id = Qin_dealing_with_the_boxers
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Qin_military_modernisation focus = Qin_land_reorganisation focus = MAN_expand_the_textile_industry }
-		x = 6
-		y = 3
-
-		cost = 4
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			add_research_slot = 1
-		}
-	}
-	focus = {
-		id = Qin_suporting_the_rebellion
-		icon = GFX_goal_generic_major_war
-		prerequisite = { focus = Qin_dealing_with_the_boxers }
-		x = 5
-		y = 1
-		relative_position_id = Qin_dealing_with_the_boxers
-        mutually_exclusive = { focus =  Qin_suporting_the_westerners }
-		cost = 4
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-			Create_faction = "Boxer Rebellion"
-            Add_to_faction = CHI
-			add_war_support = 0.2
-			add_political_power = 50
-			
-		}
-	}
-		focus = {
-		id = Qin_suporting_the_westerners
-		icon = GFX_goal_generic_demand_territory
-		prerequisite = { focus = Qin_dealing_with_the_boxers }
-		mutually_exclusive = { focus =  Qin_suporting_the_rebellion }
-		x = -5`
-		y = 1
-		relative_position_id = Qin_dealing_with_the_boxers
-        NOT={has_war_with=FRA}
-
-		cost = 4
-
-		ai_will_do = {
-			factor = 10
-		}
-
-		available = {
-        
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_war_support = -0.25
-			add_stability = -0.10
-		}
-	}
-
-	focus = {
-		id = Qin_mobilization
-		icon = GFX_focus_generic_full_social_mobilization
-		prerequisite = { focus = Qin_suporting_the_rebellion }
-		x = -1
-		y = 1
-		relative_position_id = Qin_suporting_the_rebellion
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = Qin_recruit_militias
-		icon = GFX_goal_generic_dangerous_deal
-		prerequisite = { focus = Qin_suporting_the_rebellion }
-		x = 1
-		y = 1
-		relative_position_id = Qin_suporting_the_rebellion
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = Qin_control_beijing
-		icon = GFX_focus_generic_annex_country_2
-		prerequisite = { focus = Qin_assault_the_embasseys }
-		prerequisite = { focus = Qin_evacuate_the_imperial_court }
-
-		x = 0
-		y = 3
-		relative_position_id = Qin_suporting_the_rebellion
-		cost = 1
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = Qin_assault_the_embasseys
-		icon = GFX_goal_generic_attack_allies
-		prerequisite = { focus = Qin_recruit_militias }
-		x = 0
-		y = 1
-		relative_position_id = Qin_recruit_militias
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-		}
-	}
-	focus = {
-		id = Qin_evacuate_the_imperial_court
-		icon = GFX_focus_SWE_per_albin_bus
-		prerequisite = { focus = Qin_mobilization }
-		x = 0
-		y = 1
-		relative_position_id = Qin_mobilization
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-			set_capital = 744
-		}
-	}
-	focus = {
-		id = Qin_build_defenses
-		icon = GFX_goal_generic_fortify_city
-		prerequisite = { focus = Qin_control_beijing }
-		x = 0
-		y = 1
-		relative_position_id = Qin_control_beijing
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = Qin_under_new_leadership
-		icon = GFX_focus_generic_military_dictatorship
-		prerequisite = { focus = Qin_control_beijing }
-		x = -2
-		y = 1
-		relative_position_id = Qin_control_beijing
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = Qin_plan_a_offensive
-		icon = GFX_focus_SOV_mobilization_plan
-		prerequisite = { focus = Qin_control_beijing }
-		x = 2
-		y = 1
-		relative_position_id = Qin_control_beijing
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = Qin_tianjing_offensive
-		icon = GFX_goal_generic_territory_or_war
-		prerequisite = { focus = Qin_under_new_leadership }
-		prerequisite = { focus = Qin_plan_a_offensive }
-		prerequisite = { focus = Qin_build_defenses }
-
-		x = 0
-		y = 1
-		relative_position_id = Qin_build_defenses
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = Qin_detrimental_defeat
-		icon = GFX_focus_SWE_neither_death_nor_dishonor
-		prerequisite = { focus = Qin_tianjing_offensive }
-        mutually_exclusive = { focus =  Qin_grand_victory }
-		x = 4
-		y = 1
-		relative_position_id = Qin_tianjing_offensive
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-			
-		}
-	}
-	focus = {
-		id = Qin_grand_victory
-		icon = GFX_goal_generic_national_unity
-		prerequisite = { focus = Qin_tianjing_offensive }
-        mutually_exclusive = { focus =  Qin_detrimental_defeat }
-		x = -4
-		y = 1
-		relative_position_id = Qin_tianjing_offensive
-		cost = 2
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-			
-		}
-	}
-     ############################
-	 ##### INDUSTRY SECTION #####
-	 ############################
-	    focus = {
-		id = Qin_state_of_the_industry
-		icon = GFX_focus_generic_modernize_industry
-
-		x = 22.5
-		y = 0
-        allow_branch = { has_start_date > 1900.1.1 has_start_date < 1936.1.1}
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			country_event = wtt_manchukou.11
-		}
-	}
-
-	focus = {
-		id = Qin_attract_foreign_investers
-		icon = GFX_goal_generic_improve_relations
-		prerequisite = { focus = Qin_state_of_the_industry }
-		x = -1
-		y = 1
-		relative_position_id = Qin_state_of_the_industry
-		cost = 10
-
-		ai_will_do = {
-			factor = 4
-		}
-
-		available = {
-			NOT = { has_war_with = JAP }
-			NOT = { has_war_with = ENG }
-			NOT = { has_war_with = FRA }
-			NOT = { has_war_with = GER }
-			NOT = { has_war_with = USA }
-			NOT = { has_war_with = RUS }
-			NOT = { has_war_with = AUH }
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-
-		completion_reward = {
-			random_core_state = {
-				prioritize = { 328 }
-				limit = {
-					is_fully_controlled_by = ROOT
-				}
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-	focus = {
-		id = Qin_renew_the_commercial_press
-		icon = GFX_goal_generic_construct_infrastructure
-		prerequisite = { focus = Qin_attract_foreign_investers }
-		x = 0
-		y = 1
-		relative_position_id = Qin_attract_foreign_investers
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 4
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			random_core_state = {
-				prioritize = { 328 }
-				limit = {
-					is_fully_controlled_by = ROOT
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-	}
-	}
-
-	focus = {
-		id = Qin_study_our_failures
-		icon = GFX_focus_NORDIC_com_research
-		prerequisite = { focus = Qin_state_of_the_industry }
-		x = -3
-		y = 1
-		relative_position_id = Qin_state_of_the_industry
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 2
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-        add_political_power = 50
-			}
-			else = {
-				set_technology = { excavation1 = 1 }
-			}
-		}
-	
-
-	focus = {
-		id = Qin_establish_the_shaanxi_petroleum
-		icon = GFX_goal_generic_production
-		prerequisite = { focus = Qin_study_our_failures }
-		x = 0
-		y = 1
-		relative_position_id = Qin_study_our_failures
-		cost = 10
-
-		ai_will_do = {
-			factor = 4
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = { 
-			random_owned_controlled_state = {
-                    limit = { has_resources_amount = { resource = oil amount > 0 } }
-
-	        add_resource = {
-		    type = oil
-		    amount = 10
-	    }
-        }
-			random_core_state = {
-				prioritize = { 662 }
-				limit = {
-					is_fully_controlled_by = ROOT
-				}
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}	    	
-		
-		}
-	}
-
-	focus = {
-		id = Qin_expand_the_oil_production
-		icon = GFX_goal_generic_oil_refinery
-		prerequisite = { focus = Qin_establish_the_shaanxi_petroleum }
-		x = 0
-		y = 1
-		relative_position_id = Qin_establish_the_shaanxi_petroleum
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 8
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-random_owned_controlled_state = {
-	limit = { has_resources_amount = { resource = oil amount > 0 } }
-
-	add_resource = {
-		type = oil
-		amount = 12
-	}
+         add_tech_bonus = {
+	name = assembly_bonus
+	bonus = 0.5
+	uses = 2
+	technology = Infantry_Equipment_I	
 }		}
 	}
 
 	focus = {
-		id = Qin_founding_national_banks
-		icon = GFX_goal_generic_construction
-		prerequisite = { focus = Qin_renew_the_commercial_press }
-		x = 0
-		y = 1
-		relative_position_id = Qin_renew_the_commercial_press
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 4
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_stability = 0.05
-			add_political_power = 25
-		}
-	}
-
-	focus = {
-		id = Qin_slight_economic_aprovements
-		icon = GFX_focus_generic_industry_1
-		prerequisite = { focus = Qin_founding_national_banks }
-		prerequisite = { focus = Qin_expand_the_oil_production }
-
-		x = -1
-		y = 1
-		relative_position_id = Qin_founding_national_banks
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 5
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_ideas = CHI_public_works
-		}
-	}
-
-	focus = {
-		id = Qin_renew_tax_colletion
-		icon = GFX_focus_chi_examination_yuan
-		prerequisite = { focus = Qin_state_of_the_industry }
-		x = 1
-		y = 1
-		relative_position_id = Qin_state_of_the_industry
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			716 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-			add_ideas = CHI_land_value_tax
-		}
-	}
-
-		focus = {
-		id = Qin_expand_taxation
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		prerequisite = { focus = Qin_renew_tax_colletion }
-		x = 0
-		y = 1
-		relative_position_id = Qin_renew_tax_colletion
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_political_power = 5
-			716 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			
-		}
-	}
-
-		focus = {
-		id = Qin_enforce_taxation
-		icon = GFX_goal_continuous_suppression
-		prerequisite = { focus = Qin_expand_taxation }
-		x = 0
-		y = 1
-		relative_position_id = Qin_expand_taxation
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_stability = -0.05
-			add_political_power = 25
-						716 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-			focus = {
-		id = Qin_abolish_traditional_examination_system
-		icon = GFX_focus_BUL_destroy_the_zveno
-		prerequisite = { focus = Qin_state_of_the_industry }
-		x = 3
-		y = 1
-		relative_position_id = Qin_state_of_the_industry
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-						add_stability = -0.025
-			add_political_power = 25
-						716 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-			focus = {
-		id = Qin_set_up_peking_univeristy
-		icon = GFX_focus_NORDIC_dem_capstone_civilian
-		prerequisite = { focus = Qin_abolish_traditional_examination_system }
-		x = 0
-		y = 1
-		relative_position_id = Qin_abolish_traditional_examination_system
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_RESEARCH }
-		completion_reward = {
-			add_political_power = 5
-			add_research_slot = 1
-						716 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-			focus = {
-		id = Qin_construct_agricultural_schools
-		icon = GFX_focus_generic_agricultural_subsidies
-		prerequisite = { focus = Qin_set_up_peking_univeristy }
-		x = 0
-		y = 1
-		relative_position_id = Qin_set_up_peking_univeristy
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_political_power = 10
-						716 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = infrastructure
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
-	}
-
-			focus = {
-		id = Qin_pay_of_the_debt
-		icon = GFX_focus_CHL_silverworking
-		prerequisite = { focus = Qin_slight_economic_aprovements }
-		prerequisite = { focus = Qin_semi-westernized_education }
-
-		x = 0
-		y = 5
-		relative_position_id = Qin_state_of_the_industry
-
-		cost = 15
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-		
-		}
-	}
-			focus = {
-		id = Qin_semi-westernized_education
-		icon = GFX_focus_SWE_education_reform
-		prerequisite = { focus = Qin_enforce_taxation }
-		prerequisite = { focus = Qin_construct_agricultural_schools }
-
-		x = 1
-		y = 1
-		relative_position_id = Qin_enforce_taxation
-
-		cost = 10
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-
-		search_filters = { FOCUS_FILTER_INDUSTRY }
-		completion_reward = {
-			add_stability = 0.10
-			add_political_power = 25
-						716 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}		
-	}
-	#Construction Effort II
-	focus = {
-		id = QIN_construction_effort_ii
-		icon = GFX_goal_generic_construct_civ_factory
-		x = 0
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		relative_position_id = Qin_Civilian_build_up
-		prerequisite = { focus = Qin_Civilian_build_up  }
-		ai_will_do = { factor = 1 }
-		bypass = {
-			
-						custom_trigger_tooltip = {
-							tooltip = construction_effort_tt
-							all_owned_state = {
-								free_building_slots = {
-									building = industrial_complex
-									size < 1
-									include_locked = yes
-								}
-							}
-						}
-					
-		}
-		completion_reward = {
-			
-						random_owned_controlled_state = {
-							limit = {
-								free_building_slots = {
-									building = industrial_complex
-									size > 0
-									include_locked = yes
-								}
-								OR = {
-									is_in_home_area = yes
-									NOT = {
-										owner = {
-											any_owned_state = {
-												free_building_slots = {
-													building = industrial_complex
-													size > 0
-													include_locked = yes
-												}
-												is_in_home_area = yes
-											}
-										}
-									}
-								}
-							}
-							add_extra_state_shared_building_slots = 1
-							add_building_construction = {
-								type = industrial_complex
-								level = 1
-								instant_build = yes
-							}
-						}
-					
-		}
-	}
-
-	#Armament Effort II
-	focus = {
-		id = QIN_armament_effort_ii
-		icon = GFX_focus_secret_rearmament
-		x = 0
-		y = 1
-		relative_position_id = QIN_armament_effort
-		prerequisite = { focus = QIN_armament_effort  }
-		cost = 10focus_tree = {
-	id = qin_focus
-	
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = qin
-		}
-	}
-
-    allow_branch = { has_start_date > 1900.1.1 has_start_date < 1936.1.1}
-
-
-	default = no
-
-	continuous_focus_position = { x = 20 y = 3000 }
-
-	############################
-	##### POLITICS SECTION #####
-	############################
-
-
-	focus = {
-		id = Qin_era_of_humiliation
-		icon = GFX_era_of_humiliation
-		x = 6
-		y = 0
-        allow_branch = { has_start_date > 1900.1.1 has_start_date < 1936.1.1}
-
-		cost = 1
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		completion_reward = {
-
-		}
-	}
-
-	focus = {
-		id = Qin_state_of_military
-		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = Qin_era_of_humiliation }
-		x = -1
-		y = 1
-		relative_position_id = Qin_era_of_humiliation
-		cost = 4
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-
-		completion_reward = {
-		}
-	}
-
-	focus = {
-		id = Qin_military_modernisation
-		icon = GFX_focus_FIN_strengthen_military_administration
-		prerequisite = { focus = Qin_state_of_military }
-		x = 0
-		y = 1
-		relative_position_id = Qin_state_of_military
-
-		cost = 4
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-
-		}	
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = yes
-
-		
-		
-		completion_reward = {
-		}
-	}
-
-	focus = {
 		id = Qin_failures_of_the_1800s
 		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = Qin_era_of_humiliation }
@@ -1469,6 +146,7 @@ random_owned_controlled_state = {
 		available_if_capitulated = no
 
 		completion_reward = {
+			add_political_power = 60
 	}
 
 	}
@@ -1542,6 +220,7 @@ random_owned_controlled_state = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_research_slot = 1
+			add_war_support = 0.1
 		}
 	}
 	focus = {
@@ -1620,7 +299,7 @@ random_owned_controlled_state = {
 
 	focus = {
 		id = Qin_mobilization2
-		icon = GFX_focus_generic_full_social_mobilization
+		icon = GFX_goal_generic_dangerous_deal
 		prerequisite = { focus = Qin_suporting_the_westerners }
 		x = -1
 		y = 1
@@ -1646,11 +325,13 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
+			add_political_power = -10
+			add_manpower = -1000
 		}
 	}
 	focus = {
 		id = Qin_recruit_militias2
-		icon = GFX_goal_generic_dangerous_deal
+		icon = GFX_focus_BUL_destroy_the_zveno
 		prerequisite = { focus = Qin_suporting_the_westerners }
 		x = 1
 		y = 1
@@ -1676,11 +357,12 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
+			add_ideas = CHI_embrace_the_opium_trade
 		}
 	}
 	focus = {
 		id = Qin_control_beijing2
-		icon = GFX_focus_generic_annex_country_2
+		icon = GFX_focus_SWE_per_albin_bus
 		prerequisite = { focus = Qin_assault_the_embasseys2 }
 		prerequisite = { focus = Qin_evacuate_the_imperial_court2 }
 
@@ -1708,6 +390,7 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
+			add_stability = 0.1
 		}
 	}
 	focus = {
@@ -1738,6 +421,7 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
+			add_war_support = -0.2
 		}
 	}
 	focus = {
@@ -1768,12 +452,12 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			set_capital = 744
+			add_ideas = CHI_ideological_education 
 		}
 	}
 	focus = {
 		id = Qin_build_defenses2
-		icon = GFX_goal_generic_fortify_city
+		icon = GFX_focus_ETH_african_wildfire
 		prerequisite = { focus = Qin_control_beijing2 }
 		x = 0
 		y = 1
@@ -1799,13 +483,15 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
+			add_political_power = 10
+			add_stability = 0.05
 
 		}
 	}
 
 	focus = {
 		id = Qin_under_new_leadership2
-		icon = GFX_focus_generic_military_dictatorship
+		icon = GFX_goal_generic_occupy_start_war
 		prerequisite = { focus = Qin_control_beijing2 }
 		x = -2
 		y = 1
@@ -1831,12 +517,13 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			
+			add_manpower = -10000
+			add_political_power = 10
 		}
 	}
 	focus = {
 		id = Qin_plan_a_offensive2
-		icon = GFX_focus_SOV_mobilization_plan
+		icon = GFX_focus_generic_annex_country
 		prerequisite = { focus = Qin_control_beijing2 }
 		x = 2
 		y = 1
@@ -1862,7 +549,8 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			
+			add_command_power = -15
+			add_manpower = -10000
 		}
 	}
 
@@ -1958,6 +646,7 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
+			add_manpower = 20000
 		}
 	}
 	focus = {
@@ -1988,6 +677,24 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
+			division_template = {
+        name = "Infantry Division"
+        priority = 1
+
+        regiments = {
+       	Infantry = { x = 0 y = 0 }		
+      	Infantry = { x = 0 y = 1 }
+     	Infantry = { x = 0 y = 2 }
+      	Infantry = { x = 0 y = 3 }
+    	Infantry = { x = 0 y = 4 }
+    	Infantry = { x = 1 y = 0 }
+    	Infantry = { x = 1 y = 1 }
+    	Infantry = { x = 1 y = 2 }
+    	Infantry = { x = 1 y = 3 }
+    	Infantry = { x = 1 y = 4 }
+    }
+}
+			add_command_power = 20
 		}
 	}
 	focus = {
@@ -2020,6 +727,8 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
+			add_war_support = 0.15
+			add_political_power = 10
 		}
 	}
 	focus = {
@@ -2050,6 +759,8 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
+			add_command_power = 10
+			add_manpower = 10000
 		}
 	}
 	focus = {
@@ -2111,6 +822,13 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
+			608 = {
+	add_building_construction = {
+		type = bunker
+        	province = 9843
+		level = 5
+	}
+} 
 
 		}
 	}
@@ -2143,7 +861,7 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			
+			add_ideas = CHI_inter_party_coordination_council 
 		}
 	}
 	focus = {
@@ -2174,7 +892,7 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			
+			add_ideas = CHI_military_affairs_commission 
 		}
 	}
 	focus = {
@@ -2208,12 +926,12 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			
+			add_ideas = CHI_war_of_national_liberation 
 		}
 	}
 	focus = {
 		id = Qin_western_influence
-		icon = GFX_focus_generic_military_dictatorship
+		icon = GFX_goal_continuous_def_against_influence
 		prerequisite = { focus = Qin_under_new_leadership2 }
 		x = -2
 		y = 1
@@ -2239,12 +957,13 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			
+			add_stability = 0.05
+			add_ideas = MAN_western_refinery  
 		}
 	}
 	focus = {
 		id = Qin_please_the_foreigners
-		icon = GFX_focus_generic_military_dictatorship
+		icon = GFX_focus_generic_concessions
 		prerequisite = { focus = Qin_under_new_leadership2 }
 		x = 0
 		y = 1
@@ -2270,12 +989,13 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			
+			add_political_power = -25
+			add_ideas =  shanghai_electronics 
 		}
 	}
 	focus = {
 		id = Qin_give_tribute
-		icon = GFX_focus_generic_military_dictatorship
+		icon = GFX_focus_chi_legislative_yuan
 		prerequisite = { focus = Qin_build_defenses2 }
 		x = 0
 		y = 1
@@ -2301,12 +1021,12 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			
+			add_political_power = -50
 		}
 	}
 	focus = {
 		id = Qin_put_down_the_rebellion
-		icon = GFX_focus_generic_military_dictatorship
+		icon = GFX_focus_generic_annex_country_2
 		prerequisite = { focus = Qin_plan_a_offensive2 }
 		x = 0
 		y = 1
@@ -2332,12 +1052,12 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			
+			annex_country = 
 		}
 	}
 	focus = {
 		id = Qin_tribute_for_peace
-		icon = GFX_focus_generic_military_dictatorship
+		icon = GFX_goal_generic_forceful_treaty
 		prerequisite = { focus = Qin_give_tribute }
 		prerequisite = { focus = Qin_please_the_foreigners }
 		prerequisite = { focus = Qin_put_down_the_rebellion }
@@ -2366,7 +1086,43 @@ random_owned_controlled_state = {
 		
 
 		completion_reward = {
-			
+			add_ideas = CHI_hyper_inflation_1 
+			add_war_support = -0.25
+			add_stability = 0.25
+		}
+	}
+	focus = {
+		id = Qin_a_new_mandate
+		icon = GFX_focus_man_claim_the_mandate_of_heaven
+		prerequisite = { focus = Qin_grand_victory focus = Qin_detrimental_defeat Focus = Qin_tribute_for_peace }
+
+
+		x = 0
+		y = 9
+		relative_position_id = Qin_dealing_with_the_boxers
+		cost = 2
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		
+
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
 		}
 	}
      ############################
@@ -2387,7 +1143,7 @@ random_owned_controlled_state = {
 		}
 
 		available = {
-			has_completed_focus = Qin_suporting_the_rebellion 
+			has_completed_focus = Qin_a_new_mandate
 		}
 
 		bypass = {
@@ -3826,5 +2582,4 @@ random_owned_controlled_state = {
 
 	shared_focus = CHI_invite_foreign_investors
 }   
-   
 
