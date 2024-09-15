@@ -8,6 +8,7 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
+                        traits = { underage_monarch }
 			desc = QIN_GUANGXU_DESC
 			expire="1908.10.14"
 		}
