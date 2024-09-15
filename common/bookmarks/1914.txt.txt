@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "The Great War"
 		desc = "1914_DESC"
-		date = 1914.7.28.12
+		date = 1914.6.28.11
 		picture = "GFX_worldwarone_1914"
 		default_country = "FRA"
 	
