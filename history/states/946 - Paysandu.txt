@@ -37,9 +37,10 @@ state={
 			746 2 
 		}
 		1919.1.1 = {
-			owner = ROM
-			controller = ROM
+			owner = HUN
+			controller = HUN
 			remove_core_of = AUH
+			add_claim_by = ROM
 
 		}
 		1945.1.1 = {
