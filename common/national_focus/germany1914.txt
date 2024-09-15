@@ -13,7 +13,7 @@ focus_tree = {
 		factor = 0
 		
 		modifier = {
-			add = 15
+			add = 10
 			tag = GER
 		}
 	}
@@ -27,6 +27,7 @@ focus_tree = {
 		icon = placeholder
 		x = 5
 		y = 0
+		allow_branch = { has_start_date > 1914.6.28 has_start_date < 1919.1.1 }
 		cost = 3
 		ai_will_do = { 
 			base = 10
