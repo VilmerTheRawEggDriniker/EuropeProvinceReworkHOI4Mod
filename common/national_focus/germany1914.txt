@@ -27,80 +27,67 @@ focus_tree = {
 		icon = placeholder
 		x = 5
 		y = 0
-		allow_branch = { has_start_date > 1914.1.1
-    has_start_date < 1919.1.1 }
-		cost = 1
+		cost = 3
 		ai_will_do = { 
 			base = 10
 		}
 		completion_reward = {
 			add_political_power = 50
-			GER = { country_event = placeholder }
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 	}
-
 	focus = {
 		id = GER_supp_aus
 		icon = placeholder
 		prerequisite = { focus = GER_july_crisis }
 		x = 5
 		y = 1
-		allow_branch = { has_start_date > 1914.1.1
-    has_start_date < 1919.1.1 }
-		cost = 1
+		cost = 3
 		ai_will_do = { 
 			base = 10
 		}
 		completion_reward = {
 			placeholder
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 	}
-
-		focus = {
+	focus = {
 		id = GER_war_ser
 		icon = placeholder
 		prerequisite = { focus = GER_supp_aus }
 		x = 5
-		y = 2
-		allow_branch = { has_start_date > 1914.1.1
-    has_start_date < 1919.1.1 }		
-		cost = 1
+		y = 2	
+		cost = 3
 		ai_will_do = { 
 			base = 10
 		}
 		completion_reward = {
-			declare_war_on = { target = SER  type = puppet_wargoal_focus }
 		}		
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 	}
-
-		focus = {
-		id = GER_achainreaction
+	focus = {
+		id = GER_a_chain_reaction
 		icon = placeholder
 		prerequisite = { focus = GER_war_ser }
 		x = 5
-		y = 3
-		allow_branch = { has_start_date > 1914.1.1
-    has_start_date < 1919.1.1 }		
-		cost = 1
+		y = 3	
+		cost = 3
+		ai_will_do = { 
+			base = 10
+		}		
+		completion_reward = {
+            GER = { country_event = ger_1914_event.1 }
+		}
+	}
+	focus = {
+		id = GER_a_war_time_economy
+		icon = placeholder
+		prerequisite = { focus = GER_a_chain_reaction }
+		x = 5
+		y = 4	
+		cost = 3
 		ai_will_do = { 
 			base = 10
 		}		
 		completion_reward = {
             GER = { country_event = placeholder }
 		}
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
 	}
-
-
 }
