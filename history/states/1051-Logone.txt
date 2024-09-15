@@ -18,12 +18,17 @@ state={
                 }
 		1919.1.1 = {
             remove_core_of = CMR
+			owner = RCG
 		}
 		buildings = {
 			infrastructure = 0
 
 		}
-
+        1914.6.28 = {
+			owner = GER
+			add_core_of = CMR
+			add_core_of = FRA
+		}
 	}
 
 	provinces={
