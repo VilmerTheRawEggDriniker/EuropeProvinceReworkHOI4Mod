@@ -254,7 +254,7 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			Create_faction = "Boxer Rebellion"
-            Add_to_faction = CHI
+            Add_to_faction = BOX
 			add_war_support = 0.2
 			add_political_power = 50
 			
@@ -583,7 +583,16 @@ focus_tree = {
 		
 
 		completion_reward = {
-			
+			white_peace	= ITA
+			white_peace	= JAP
+			white_peace	= POR
+			white_peace	= AUH
+			white_peace	= GER
+			white_peace	= USA
+			white_peace	= RUS
+			white_peace	= ENG
+			annex_country = BOX
+
 		}
 	}
 	focus = {
@@ -2582,4 +2591,4 @@ random_owned_controlled_state = {
 
 	shared_focus = CHI_invite_foreign_investors
 }   
-
+   
