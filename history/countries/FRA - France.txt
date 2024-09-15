@@ -49,6 +49,35 @@ recruit_character=FRA_jacquesnecker
 1812.1.1 = {
 retire_character=FRA_jacquesnecker
 }
+
+
+
+
+
+1789.1.1 = {
+recruit_character=FRA_real
+}
+1836.1.1 = {
+retire_character=FRA_real
+}
+1789.1.1 = {
+recruit_character=FRA_stuart
+}
+1839.1.1 = {
+retire_character=FRA_stuart
+}
+1789.1.1 = {
+recruit_character=FRA_jules
+}
+1848.1.1 = {
+retire_character=FRA_jules
+}
+1789.1.1 = {
+recruit_character=FRA_joseph
+}
+1855.1.1 = {
+retire_character=FRA_joseph
+}
 1812.1.1 = {
 			if = {
 		limit = { has_start_date < 1813.1.1 }

@@ -48,11 +48,11 @@ set_autonomy = { target = PREV autonomy_state = autonomy_free }
 every_state = { #vichy north africa
                     limit = {
                         is_owned_by = FRA
-					NOT={state=21}
+					NOT={state=1}
                     }
                     VND = {transfer_state = PREV}
                 }
-				21={set_demilitarized_zone = yes}
+				1={set_demilitarized_zone = yes}
 FRA={set_country_flag = fontainebleau_flag}
 FRA={set_cosmetic_tag = FRA_ELB}
 FRA={delete_unit = {}}

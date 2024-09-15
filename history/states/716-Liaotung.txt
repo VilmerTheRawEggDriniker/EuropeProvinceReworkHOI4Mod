@@ -22,10 +22,6 @@ state={
             owner = CHI
 		remove_core_of = QIN
 		}
-		1900.1.1 = {
-			owner = RUS
-
-		}
 		1905.1.1 = {
 			owner = QIN
 

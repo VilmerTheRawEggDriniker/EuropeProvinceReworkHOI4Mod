@@ -45,6 +45,8 @@ VRM = "countries/Vermont.txt" #flagcomplete
 CAF = "countries/Central America.txt" #flagcomplete 
 WIF = "countries/West Indies Federation.txt" #flagcomplete 
 
+
+AZT = "countries/Aztec Empire.txt"
 MAK = "countries/Makhnovshchina.txt" #flagcomplete 
 BER = "countries/Berry.txt" #flagcomplete 
 BSL = "countries/Basel.txt" #flagcomplete
@@ -53,6 +55,9 @@ GUR = "countries/Guria.txt" #flagcomplete
 
 IRO = "countries/Iroquois Confederacy.txt" #flagcomplete 
 WAB = "countries/Wabanaki Confederacy.txt" #flagcomplete 
+MDP = "countries/Mutual Defense Pact of the Southeastern Provinces.txt" #flagcomplete 
+BOX = "countries/Boxers.txt" #flagcomplete 
+ACE = "countries/Aceh.txt" #flagcomplete 
 
 MUG = "countries/Mughal Empire.txt" #flagcomplete 
 HEJ = "countries/Hejaz.txt" #flagcomplete 
@@ -573,7 +578,6 @@ OTO = "countries/Ottomans.txt"
 AUH = "countries/Austria Hungary.txt"
 RUS = "countries/Russian Empire.txt"
 QIN = "countries/Qing China.txt"
-BOX = "countries/Boxer.txt"
 WAD = "countries/Wadai.txt"
 DRF = "countries/Darfur.txt"
 SKT = "countries/Sokoto.txt"
@@ -596,4 +600,3 @@ CHR = "countries/Charrua.txt"
 ITZ = "countries/Itza.txt"
 NAH = "countries/Nahua.txt"
 IAS = "countries/Isthmo Amerindia.txt"
-AZT = "countries/Aztec Empire.txt"

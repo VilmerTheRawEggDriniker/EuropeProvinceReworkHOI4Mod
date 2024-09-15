@@ -87,23 +87,6 @@ state={
 			}
 
 		}
-		1946.1.1 = {
-		buildings = {
-				388 = {
-					bunker = 0
-
-				}
-				3532 = {
-					bunker = 0
-
-				}
-				13425 = {
-					bunker = 0
-
-				}
-			}
-
-		}
 		victory_points = {
 			6558 20 
 		}

@@ -21,6 +21,15 @@ retire_character=BAD_louisi
 1849.1.1 = {
 retire_character=BAD_leopold
 }
+1444.1.1 = {
+set_cosmetic_tag = BAD_margrivate # 
+}
+1803.1.1 = {
+set_cosmetic_tag = BAD_electorate # 
+}
+1806.1.1 = {
+set_cosmetic_tag = BAD_grandduchy # 
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -9,6 +9,96 @@
 	}
 }
 }
+1900.1.1 = {
+			if = {
+		limit = { has_start_date < 1901.1.1 }
+	ENG={
+		declare_war_on = {
+		target = QIN
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = BOX
+		type = puppet_wargoal_focus
+	}
+	}
+		GER={
+		declare_war_on = {
+		target = QIN
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = BOX
+		type = puppet_wargoal_focus
+	}
+	}
+		FRA={
+		declare_war_on = {
+		target = QIN
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = BOX
+		type = puppet_wargoal_focus
+	}
+	}
+		USA={
+		declare_war_on = {
+		target = QIN
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = BOX
+		type = puppet_wargoal_focus
+	}
+	}
+		AUH={
+		declare_war_on = {
+		target = QIN
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = BOX
+		type = puppet_wargoal_focus
+	}
+	}
+		ITA={
+		declare_war_on = {
+		target = QIN
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = BOX
+		type = puppet_wargoal_focus
+	}
+	}
+		JAP={
+		declare_war_on = {
+		target = QIN
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = BOX
+		type = puppet_wargoal_focus
+	}
+	}
+		RUS={
+		declare_war_on = {
+		target = QIN
+		type = puppet_wargoal_focus
+	}
+	declare_war_on = {
+		target = BOX
+		type = puppet_wargoal_focus
+	}
+	}
+	set_autonomy = {
+        target = BOX
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

@@ -63,22 +63,6 @@ state={
 			}
 		}
 		}
-		1969.1.1 = {
-		buildings = {
-			3629 = {
-				bunker = 0
-
-			}
-			549 = {
-				bunker = 0
-
-			}
-			678 = {
-				bunker = 0
-
-			}
-		}
-		}
 
 	}
 	provinces={

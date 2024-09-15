@@ -13,8 +13,9 @@ state={
 
 
 	history={
-		owner = ZZZ
-		1700.1.1 = {
+		owner = ACE
+		add_core_of=ACE
+		1903.1.1 = {
                 add_core_of = INS
                 owner = INS
                 }

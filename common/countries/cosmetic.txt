@@ -66,6 +66,14 @@ SER_OTO = {
 	color = rgb { 126  203  120 }
 	color_ui = rgb { 126  203  120 }
 }
+WAL_OTO = {
+	color = rgb { 126  203  120 }
+	color_ui = rgb { 126  203  120 }
+}
+MOL_OTO = {
+	color = rgb { 126  203  120 }
+	color_ui = rgb { 126  203  120 }
+}
 ABK_OTO = {
 	color = rgb { 126  203  120 }
 	color_ui = rgb { 126  203  120 }

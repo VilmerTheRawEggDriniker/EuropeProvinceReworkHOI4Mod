@@ -1,7 +1,5 @@
-l_english:
+﻿l_english:
 1900_DESC:0 " Russo-Japanese war (THERES NO FOCUSES!)"
-GER_1900_DESC:0 "Russo-Japanese war"
-BOX:0 "Boxer Rebellion"
 Qin_era_of_humiliation:0 "The Era of Humiliation"
 Qin_state_of_the_industry:0 "State of the Economy"
 Qin_attract_foreign_investers:0 "Attract Foreign Investers"
@@ -69,3 +67,4 @@ Qin_control_beijing2:0 "Stabilize the Nation"
 Qin_recruit_militias2:0 "Permit the Opium Trade"
 Qin_mobilization2:0 "Dimiss Troops"
 Qin_a_new_mandate:0 "A New Mandate?"
+GER_1900_DESC:0 "Russo-Japanese war"

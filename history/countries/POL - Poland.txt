@@ -37,10 +37,8 @@ retire_character=POL_ignacy_moscicki
 1919.1.1 = {
 		if = {
 		limit = { has_start_date < 1920.1.1 }
-
 set_oob = "POL_1919"
 }
-set_cosmetic_tag = poland_ii_republic
 }
 1815.11.11 = {
 set_cosmetic_tag = POL_RUS # Kingdom of Poland necessarily Congress Poland

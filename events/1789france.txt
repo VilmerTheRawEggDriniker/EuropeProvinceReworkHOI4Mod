@@ -2178,14 +2178,75 @@ fire_only_once = yes
 		name = "Give Everything to Austria except for Bialystok"
 		ai_chance = { factor = 100 } 
 GLL={set_cosmetic_tag = GLL_POL_AUS}
+AUS={
+		set_autonomy = {
+        target = GLL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	}	
+every_state = {
+limit = {
+or={
+state=814
+state=1118
+state=1117
+state=97
+}
+}
+transfer_state_to = RUS
+}
 every_state = {
 limit = {
 and={
+NOT={state=814}
+NOT={state=1118}
+NOT={state=1117}
+NOT={state=97}
 is_core_of = POL
+or={
 is_owned_by=PRE
+is_owned_by=AUS
+}
 }
 }
 transfer_state_to = GLL
 }	
+	}
+}
+country_event = {
+	id = fra_1789_event.52
+	title = "Fate of Silesia"
+	desc = fra_1789_event.52.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Give Everything to Austria except for Bialystok"
+		ai_chance = { factor = 100 } 
+	}
+}
+country_event = {
+	id = fra_1789_event.53
+	title = "Split Prussia in Half"
+	desc = fra_1789_event.53.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Give Everything to Austria except for Bialystok"
+		ai_chance = { factor = 100 } 
+	}
+}
+country_event = {
+	id = fra_1789_event.54
+	title = "Fate of Prussian Exclaves"
+	desc = fra_1789_event.54.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Give Everything to Austria except for Bialystok"
+		ai_chance = { factor = 100 } 
 	}
 }

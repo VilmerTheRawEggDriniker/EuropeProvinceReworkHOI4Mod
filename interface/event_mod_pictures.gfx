@@ -63,7 +63,24 @@ spriteTypes = {
 	}
         spriteType = {
 		name = "GFX_idea_fra_jacquesnecker_small"
-		texturefile = "gfx/interface/ideas/idea_Jacquesnecker_small.dds"
+		texturefile = "gfx/interface/ideas/idea_jacquesnecker_small.dds"
+	}
+
+	        spriteType = {
+		name = "GFX_idea_fra_real_small"
+		texturefile = "gfx/interface/ideas/idea_real_small.dds"
+	}
+	        spriteType = {
+		name = "GFX_idea_fra_stuart_small"
+		texturefile = "gfx/interface/ideas/idea_stuart_small.dds"
+	}
+	        spriteType = {
+		name = "GFX_idea_fra_joseph_small"
+		texturefile = "gfx/interface/ideas/idea_joseph_small.dds"
+	}
+	        spriteType = {
+		name = "GFX_idea_fra_jules_small"
+		texturefile = "gfx/interface/ideas/idea_jules_small.dds"
 	}
 
         spriteType = {

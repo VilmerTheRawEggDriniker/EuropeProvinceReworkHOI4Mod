@@ -203,6 +203,142 @@ characters={
 			legacy_id=0
 		}
 	}
+			FRA_real={
+		name=FRA_CHARACTER_REAL
+		portraits={
+                        army={
+				small="GFX_idea_fra_real_small"
+			}
+			civilian = {
+				large = GFX_portrait_fra_real_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FRA_real
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+		        }
+			traits  = {
+				chief_minister_of_the_french_monarch 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			FRA_stuart={
+		name=FRA_CHARACTER_STUART
+		portraits={
+                        army={
+				small="GFX_idea_fra_stuart_small"
+			}
+			civilian = {
+				large = GFX_portrait_fra_stuart_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FRA_stuart
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+									has_country_leader = {
+	character = FRA_charlesx
+	ruling_only = yes
+}
+		        }
+			traits  = {
+				ultraroyalist
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			FRA_jules={
+		name=FRA_CHARACTER_JULES
+		portraits={
+                        army={
+				small="GFX_idea_fra_jules_small"
+			}
+			civilian = {
+				large = GFX_portrait_fra_jules_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FRA_jules
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+			has_country_leader = {
+	character = FRA_charlesx
+	ruling_only = yes
+}
+		        }
+			traits  = {
+				ultraroyalist 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			FRA_joseph={
+		name=FRA_CHARACTER_JOSEPH
+		portraits={
+                        army={
+				small="GFX_idea_fra_joseph_small"
+			}
+			civilian = {
+				large = GFX_portrait_fra_joseph_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FRA_joseph
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+						has_country_leader = {
+	character = FRA_charlesx
+	ruling_only = yes
+}
+		        }
+			traits  = {
+				ultraroyalist 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
 	FRA_talleyrand={
 		name=FRA_CHARACTER_TALLEYRAND
 		portraits={
