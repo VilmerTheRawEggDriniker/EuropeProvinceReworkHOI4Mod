@@ -15,8 +15,8 @@ focus_tree = {
     continuous_focus_position = { x = 50 y = 1600 }
 
 	focus = {
-		id = MAC_calm_down_protests
-		icon = placeholder
+		id = MAC_coming_up_elections
+                icon = placeholder
 		x = 5
 		y = 0
 		allow_branch = { has_start_date > 2024.1.1 has_start_date < 2026.1.1 }
@@ -31,9 +31,9 @@ focus_tree = {
 		}
 	}
 		focus = {
-		id = MAC_the_workers_are_protesting
+		id = MAC_climate_change_issue
 		icon = placeholder
-prerequisite = { focus = MAC_calm_down_protests }
+prerequisite = { focus = MAC_comig_up_elections }
 allow_branch = { has_start_date > 2024.1.1
     has_start_date < 2025.1.1 }
 		x = 4
@@ -59,7 +59,7 @@ allow_branch = { has_start_date > 2024.1.1
 }
 		completion_reward = {
 			remove_stability = 30
-                        add_ideas = MAC_protesting_workers
+                        add_ideas = MAC_climate_change_issue
 
 
 
