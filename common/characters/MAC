@@ -1,0 +1,11 @@
+characters={
+	      MAC_Siljanovska_Davkova={
+		                    name="Siljanovska Davkova"
+		                    portraits={
+			                           civilian={
+				                              large="GFX_portrait_siljanovska_davkova_large"
+			                           }
+	                    	}
+		                    country_leader = {
+			                  ideology = conservatism
+		 	                  traits = {hated_by_eu_balkan_members}
