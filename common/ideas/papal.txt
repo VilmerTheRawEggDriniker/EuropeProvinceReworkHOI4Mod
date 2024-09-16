@@ -1,7 +1,7 @@
 ideas = {
     country = {
             
-                                        Catholicism= {
+                                        catholicism= {
             picture = russian_flag_paris
             
             allowed = {
