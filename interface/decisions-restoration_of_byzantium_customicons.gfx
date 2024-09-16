@@ -1,0 +1,56 @@
+spriteTypes = { 
+	##Icon For Category: Restoration Of Byzantium
+	SpriteType = { 
+		name = "decision_category_icon_restoration_of_byzantium"
+		texturefile = "gfx/interface/decisions/decision_category_icon_restoration_of_byzantium.dds"
+	}
+
+	##Picture For: Restoration Of Byzantium
+	SpriteType = { 
+		name = "decision_category_picture_restoration_of_byzantium"
+		texturefile = "gfx/interface/decisions/decision_category_picture_restoration_of_byzantium.dds"
+	}
+
+	##Icon For: Core Marmara
+	SpriteType = { 
+		name = "decision_icon_core_marmara"
+		texturefile = "gfx/interface/decisions/decision_icon_core_marmara.dds"
+	}
+
+	##Icon For: Core Northern Thrace
+	SpriteType = { 
+		name = "decision_icon_core_northern_thrace"
+		texturefile = "gfx/interface/decisions/decision_icon_core_northern_thrace.dds"
+	}
+
+	##Icon For: Core Northern Epirus
+	SpriteType = { 
+		name = "decision_icon_core_northern_epirus"
+		texturefile = "gfx/interface/decisions/decision_icon_core_northern_epirus.dds"
+	}
+
+	##Icon For: Core Istanbul
+	SpriteType = { 
+		name = "decision_icon_core_istanbul"
+		texturefile = "gfx/interface/decisions/decision_icon_core_istanbul.dds"
+	}
+
+	##Icon For: Core Pontus
+	SpriteType = { 
+		name = "decision_icon_core_pontus"
+		texturefile = "gfx/interface/decisions/decision_icon_core_pontus.dds"
+	}
+
+	##Icon For: Core Izmir
+	SpriteType = { 
+		name = "decision_icon_core_izmir"
+		texturefile = "gfx/interface/decisions/decision_icon_core_izmir.dds"
+	}
+
+	##Icon For: Core Thrace
+	SpriteType = { 
+		name = "decision_icon_core_thrace"
+		texturefile = "gfx/interface/decisions/decision_icon_core_thrace.dds"
+	}
+
+}
