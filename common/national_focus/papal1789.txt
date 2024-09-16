@@ -1,0 +1,89 @@
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1812.6.24 }
+
+focus_tree = {
+	id = papal_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAP
+      Allow_branch
+		}
+	}
+
+
+	
+	default = no
+
+	continuous_focus_position = { x = 1500 y = 1500 }
+
+
+		focus = {
+		id = PAP_spectators_of_the_revolution
+		icon = GFX_goal_generic_construction
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 22
+		y = 0
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 25
+				category = political
+			}
+		}
+	}
+
+focus = {
+		id = PAP_reafirm_neutrality_
+		icon = GFX_focus_generic_support_the_left_right
+		prerequisite = { focus = HUN_balanced_budget }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 1
+		relative_position_id = HUN_balanced_budget
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
