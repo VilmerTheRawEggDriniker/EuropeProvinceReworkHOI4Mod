@@ -1,11 +1,10 @@
 characters={
-	      MAC_Siljanovska_Davkova={
-		                    name="Siljanovska Davkova"
+	      MAC_Stevo_Pendarovski={
+		                    name="Stevo Pendarovski"
 		                    portraits={
 			                           civilian={
-				                              large="GFX_portrait_siljanovska_davkova_large"
+				                              large="GFX_portrait_stevo_pendarovski_large"
 			                           }
 	                    	}
 		                    country_leader = {
-			                  ideology = conservatism
-		 	                  traits = {hated_by_eu_balkan_members}
+			                  ideology = social democrat
