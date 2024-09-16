@@ -1,0 +1,21 @@
+ideas = { 
+
+MAC_protesting_workers = {
+
+ name = MAC_protesting_workers 
+
+ picture = placeholder
+
+ allowed = {
+         original_tag = MAC
+         
+ allowed_civil_war = {
+         always = yes
+
+ }
+
+ modifier = {
+          industrial_capacity_factory = -2
+          production_speed_buildings_factor = -1
+          consumer_goods_factor = 3
+          weekly_stabilty_factor = -0.2         
