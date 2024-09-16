@@ -2,7 +2,7 @@ bookmarks = {
 	bookmark = {
 		name = "Ukraine Russia War"
 		desc = "2024_DESC"
-		date = 2024.10.1.12
+		date = 2024.1.1.12
 		picture = "GFX_ukraine_russia_war_2024"
 		default_country = "CAN"
 	
