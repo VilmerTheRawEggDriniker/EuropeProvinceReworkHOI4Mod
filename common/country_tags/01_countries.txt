@@ -1,4 +1,5 @@
 KOS	= "countries/Kosovo.txt"
+
 TAW = "countries/Taiwan.txt"
 SHA = "countries/Shandong.txt"
 GUZ = "countries/Guizhou.txt"
@@ -19,3 +20,5 @@ NXM = "countries/Ningxia.txt"
 GSM = "countries/Gansu.txt"
 SHN = "countries/Shan.txt"
 HNN = "countries/Henan.txt"
+
+AZT = "countries/Aztec Empire.txt"

@@ -7,16 +7,11 @@ state={
 	}
 
 	history={
-		owner = CIR
-		add_core_of = CIR
+		owner = KBK
+		add_core_of = KBK
 		1836.1.1 = {
 			owner = RUS
 			add_core_of = RUS
-
-		}
-		1900.1.1 = {
-			add_core_of = KBK
-			remove_core_of = CIR
 
 		}
 		buildings = {

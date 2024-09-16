@@ -5,29 +5,31 @@ state={
 
 	history={
 		owner = GEO
-                add_core_of = GEO
-		1600.1.1 = {
-                owner = OTO
-                }
-				1700.1.1 = {
-                owner = PER
-                }
-				1789.1.1 = {
-                owner = GEO
-                add_core_of = GEO
-                }
+		add_core_of = GEO
+				1500.1.1 = {
+			owner = KRT
+			add_core_of = KRT
+		}
+		1789.1.1 = {
+			owner = GEO
+			add_core_of = GEO
+		remove_core_of=KAK
+        remove_core_of=KRT
+		}
 		1801.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-                }
-		1936.1.1 = {
-		buildings = {
-			infrastructure = 2
-			industrial_complex = 1
-			air_base = 3
+			owner = RUS
+			add_core_of = RUS
 
 		}
-                }
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				air_base = 3
+
+			}
+
+		}
 		victory_points = {
 			1599 10 
 		}
@@ -37,12 +39,14 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
+
 		}
-				1919.1.1 = {
-		add_core_of = GEO
-		owner = GEO
-		remove_core_of = RUS
-		remove_core_of = PER
+		1919.1.1 = {
+			add_core_of = GEO
+			owner = GEO
+			remove_core_of = RUS
+			remove_core_of = PER
+
 		}
 		1920.1.1 = {
 			owner = SOV
@@ -62,9 +66,9 @@ state={
 	}
 
 	provinces={
-		1599 6436 6669 6671 9702 12309 14059 14062 14064 14065 14066 14068 14069 14070 14071 
+		1599 6671 9626 9702 12309 14059 14069 14070 
 	}
-	manpower=2000000
+	manpower=1750000
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=0.000

@@ -84,12 +84,12 @@ characters = {
 			legacy_id = -1
 		}
 	}
-	ALB_adnad_agastra = {
+	ALB_halil_nergutti = {
 		advisor = {
 			
 			
 			slot = high_command
-			idea_token = ALB_adnad_agastra
+			idea_token = ALB_halil_nergutti
 			ledger = navy
 				allowed = {
 					original_tag = ALB
@@ -103,10 +103,10 @@ characters = {
 				}
 		}
 # TODO[ PORTRAIT LARGE ]: Missing large portrait please check!
-		name="Adnad Agastra"
+		name="Halil Nergutti"
 		portraits={
 			army={
-				small="GFX_portrait_Adnad_Agastra"
+				small="GFX_idea_generic_navy_arab_1"
 			}
 		}
 	}

@@ -1,5 +1,4 @@
 ﻿capital = 608
-
 1699.1.1 = {
 			if = {
 		limit = { has_start_date < 1910.1.1 }
@@ -13,6 +12,7 @@
 1900.1.1 = {
 			if = {
 		limit = { has_start_date < 1901.1.1 }
+recruit_character = QIN_guangxu
 	ENG={
 		declare_war_on = {
 		target = QIN
@@ -107,7 +107,6 @@ set_technology = {
 
 set_convoys = 100
 
-recruit_character = QIN_guangxu
 
 1939.1.1 = {
 	

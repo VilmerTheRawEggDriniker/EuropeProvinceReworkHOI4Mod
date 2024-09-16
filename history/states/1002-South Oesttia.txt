@@ -5,24 +5,26 @@ state={
 
 	history={
 		owner = GEO
-                add_core_of = GEO
-		1600.1.1 = {
-                owner = OTO
-                }
-				1700.1.1 = {
-                owner = PER
-                }
-				1789.1.1 = {
-                owner = GEO
-                add_core_of = GEO
-                }
+		add_core_of = GEO
+				1500.1.1 = {
+			owner = KRT
+			add_core_of = KRT
+		}
+		1789.1.1 = {
+			owner = GEO
+			add_core_of = GEO
+		remove_core_of=KAK
+        remove_core_of=KRT
+		}
 		1801.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-                }
+			owner = RUS
+			add_core_of = RUS
+
+		}
 		1900.1.1 = {
-                add_core_of = NOA
-                }
+			add_core_of = NOA
+
+		}
 		victory_points = {
 			14072 1 
 		}
@@ -30,11 +32,12 @@ state={
 			infrastructure = 0
 
 		}
-				1919.1.1 = {
-		add_core_of = GEO
-		owner = GEO
-		remove_core_of = RUS
-		remove_core_of = PER
+		1919.1.1 = {
+			add_core_of = GEO
+			owner = GEO
+			remove_core_of = RUS
+			remove_core_of = PER
+
 		}
 		1920.1.1 = {
 			owner = SOV
@@ -54,9 +57,9 @@ state={
 	}
 
 	provinces={
-		1455 9626 9632 14072 
+		1455 14072 
 	}
-	manpower=100000
+	manpower=50000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

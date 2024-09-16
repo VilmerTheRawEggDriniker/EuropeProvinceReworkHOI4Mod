@@ -9,25 +9,17 @@ state={
 	history={
 		owner = DAG
 		add_core_of = DAG
-		1789.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-                }
+		1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+
+		}
 		buildings = {
 			infrastructure = 2
 
 		}
 		victory_points = {
 			6701 3 
-		}
-				1919.1.1 = {
-		owner = DAG
-		add_core_of=DAG
-		}
-		1920.1.1 = {
-		remove_core_of = CRI
-		remove_core_of = DON
-		remove_core_of = KUB
 		}
 		1920.1.1 = {
 			owner = SOV
@@ -47,9 +39,9 @@ state={
 	}
 
 	provinces={
-		700 712 728 3668 3682 3711 6701 6748 7624 9645 
+		3668 3682 6701 7624 
 	}
-	manpower=1000000
+	manpower=800000
 	buildings_max_level_factor=1.000
 	state_category=town
 	local_supplies=0.000

@@ -8,14 +8,17 @@ state={
 		add_core_of = QAR
 		owner = QAR
 		1600.1.1 = {
-		owner = OTO
-		add_core_of = PER
+		owner = NAK
+		add_core_of = NAK
 		remove_core_of = QAR
 		}
 		1700.1.1 = {
-		owner = PER
-		add_core_of = PER
+		owner = NAK
+		add_core_of = NAK
 		remove_core_of = SHI
+		}
+				1600.1.1 = {
+		add_core_of = PER
 		}
 		1919.1.1 = {
 		add_core_of = AZR
@@ -30,7 +33,11 @@ state={
 		1836.1.1 = {
 			owner = RUS
 			add_core_of = RUS
-
+        remove_core_of = NAK
+		remove_core_of = TAL
+		remove_core_of = BAK
+		remove_core_of = KRB
+		remove_core_of = ERV
 		}
 		victory_points = {
 			6997 1 

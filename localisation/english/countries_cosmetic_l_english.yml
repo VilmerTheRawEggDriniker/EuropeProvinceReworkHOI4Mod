@@ -80,6 +80,35 @@
  BLR_GER_autonomy_puppet_DEF:0 "the Reichsprotektorat Ostland"
  BLR_GER_autonomy_integrated_puppet_DEF:0 "the Reichskommissariat Ostland"
 
+ DAG_one_fascism:0 "Shamkhalate of Tarki"
+ DAG_one_fascism_DEF:0 "the Shamkhalate of Tarki"
+ DAG_one_democratic:0 "Shamkhalate of Tarki"
+ DAG_one_democratic_DEF:0 "the Shamkhalate of Tarki"
+ DAG_one_communism:0 "Shamkhalate of Tarki"
+ DAG_one_communism_DEF:0 "the Shamkhalate of Tarki"
+ DAG_one_neutrality:0 "Shamkhalate of Tarki"
+ DAG_one_neutrality_DEF:0 "the Shamkhalate of Tarki"
+ DAG_one_fascism_ADJ:0 "North Caucasian"
+ DAG_one_democratic_ADJ:0 "North Caucasian"
+ DAG_one_communism_ADJ:0 "North Caucasian"
+ DAG_one_neutrality_ADJ:0 "North Caucasian"
+
+ DAG_two_fascism:0 "North Caucasian Imamate"
+ DAG_two_fascism_DEF:0 "the North Caucasian Imamate"
+ DAG_two_democratic:0 "North Caucasian Imamate"
+ DAG_two_democratic_DEF:0 "the North Caucasian Imamate"
+ DAG_two_communism:0 "North Caucasian Imamate"
+ DAG_two_communism_DEF:0 "the North Caucasian Imamate"
+ DAG_two_neutrality:0 "North Caucasian Imamate"
+ DAG_two_neutrality_DEF:0 "the North Caucasian Imamate"
+ DAG_two_fascism_ADJ:0 "North Caucasian"
+ DAG_two_democratic_ADJ:0 "North Caucasian"
+ DAG_two_communism_ADJ:0 "North Caucasian"
+ DAG_two_neutrality_ADJ:0 "North Caucasian"
+
+
+
+
  CSA_thugs_fascism:0 "Confedrate States of Thugborea"
  CSA_thugs_fascism_DEF:0 "the Confedrate States of Thugborea"
  CSA_thugs_democratic:0 "Confederacy of Gay Black American Thug States"

@@ -9,7 +9,7 @@ state={
 	history={
 		owner = CIN
 		add_core_of = CIN
-		1789.1.1 = {
+		1836.1.1 = {
                 owner = RUS
                 add_core_of = RUS
                 }

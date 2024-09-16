@@ -35,7 +35,7 @@ state={
                 owner = GER
                 }
 		1919.1.1 = {
-		owner = BEL
+		owner = FRA
 		}
 		1920.1.1 = {
 		owner = GER

@@ -294,6 +294,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4758;12567;impassable;-1;-1;-1;-1;-1;;Ural
 7320;12567;impassable;-1;-1;-1;-1;-1;;Ural
 
+11614;1455;impassable;-1;-1;-1;-1;-1;;alps
 9632;11614;impassable;-1;-1;-1;-1;-1;;alps
 9632;685;impassable;-1;-1;-1;-1;-1;;alps
 11609;685;impassable;-1;-1;-1;-1;-1;;alps

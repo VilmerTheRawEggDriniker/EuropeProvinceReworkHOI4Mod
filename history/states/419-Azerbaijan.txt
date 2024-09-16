@@ -11,7 +11,7 @@ state={
 		remove_core_of = QAR
 		owner = OTO
 		}
-		1700.1.1 = {
+		1689.1.1 = {
 		add_core_of = PER
 		owner = PER
 		}

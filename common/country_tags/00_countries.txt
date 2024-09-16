@@ -45,13 +45,22 @@ VRM = "countries/Vermont.txt" #flagcomplete
 CAF = "countries/Central America.txt" #flagcomplete 
 WIF = "countries/West Indies Federation.txt" #flagcomplete 
 
-
-AZT = "countries/Aztec Empire.txt"
 MAK = "countries/Makhnovshchina.txt" #flagcomplete 
 BER = "countries/Berry.txt" #flagcomplete 
 BSL = "countries/Basel.txt" #flagcomplete
 SEP = "countries/Ionian Islands.txt" #flagcomplete
 GUR = "countries/Guria.txt" #flagcomplete
+
+KRT = "countries/Kartli.txt" #flagcomplete
+KAK = "countries/Kakheti.txt" #flagcomplete
+SVA = "countries/Svaneti.txt" #flagcomplete
+MIG = "countries/Mingrelia.txt" #flagcomplete
+
+KRB = "countries/Karabakh.txt" #flagcomplete
+NAK = "countries/Nakchivan.txt" #flagcomplete
+ERV = "countries/Erivan.txt" #flagcomplete
+BAK = "countries/Baku.txt" #flagcomplete
+TAL = "countries/Talysh.txt" #flagcomplete
 
 IRO = "countries/Iroquois Confederacy.txt" #flagcomplete 
 WAB = "countries/Wabanaki Confederacy.txt" #flagcomplete 

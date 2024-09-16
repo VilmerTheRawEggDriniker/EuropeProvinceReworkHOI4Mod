@@ -70,6 +70,14 @@ WAL_OTO = {
 	color = rgb { 126  203  120 }
 	color_ui = rgb { 126  203  120 }
 }
+MIG_OTO = {
+	color = rgb { 126  203  120 }
+	color_ui = rgb { 126  203  120 }
+}
+SVA_OTO = {
+	color = rgb { 126  203  120 }
+	color_ui = rgb { 126  203  120 }
+}
 MOL_OTO = {
 	color = rgb { 126  203  120 }
 	color_ui = rgb { 126  203  120 }

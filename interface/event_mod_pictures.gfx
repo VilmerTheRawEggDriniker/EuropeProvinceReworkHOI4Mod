@@ -925,7 +925,7 @@ spriteTypes = {
 		texturefile = "gfx/leaders/GEO/portrait_georgexii_large.dds"
 	}
 	        spriteType = {
-		name = "GFX_portrait_ime_davidsii_large"
+		name = "GFX_portrait_ime_davidii_large"
 		texturefile = "gfx/leaders/IME/portrait_davidii_large.dds"
 	}
 		spriteType = {

@@ -11,7 +11,7 @@ state = {
                 add_core_of = ABK
 				remove_core_of = IME
                 }
-		1867.1.1 = {
+		1870.1.1 = {
                 owner = RUS
                 add_core_of = RUS
                 }

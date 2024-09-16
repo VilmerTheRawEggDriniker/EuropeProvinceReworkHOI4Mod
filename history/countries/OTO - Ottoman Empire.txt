@@ -42,9 +42,20 @@ IME={set_cosmetic_tag = IME_OTO}
 1500.1.1 = {
 			if = {
 		limit = { has_start_date < 1811.1.1 }
-ABK={set_cosmetic_tag = ABK_OTO}
+SVA={set_cosmetic_tag = SVA_OTO}
 	set_autonomy = {
-        target = ABK
+        target = SVA
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1811.1.1 }
+MIG={set_cosmetic_tag = MIG_OTO}
+	set_autonomy = {
+        target = MIG
         autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}

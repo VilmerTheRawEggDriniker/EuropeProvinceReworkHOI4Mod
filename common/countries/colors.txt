@@ -1,4 +1,50 @@
 #reload countrycolors
+KRB = {
+	color = rgb { 14 91 36 }
+	color_ui = rgb { 14 91 36 }
+}
+ERV = {
+	color = rgb { 49 142 54 }
+	color_ui = rgb { 49 142 54 }
+}
+TAL = {
+	color = rgb { 26 76 79 }
+	color_ui = rgb { 26 76 79 }
+}
+NAK = {
+	color = rgb { 74 191 127 }
+	color_ui = rgb { 74 191 127 }
+}
+BAK = {
+	color = rgb { 112 198 95 }
+	color_ui = rgb { 112 198 95 }
+}
+
+
+MIG = {
+	color = rgb { 71 69 209 }
+	color_ui = rgb { 71 69 209 }
+}
+SVA = {
+	color = rgb { 158 149 93 }
+	color_ui = rgb { 158 149 93 }
+}
+KAK = {
+	color = rgb { 234 89 181 }
+	color_ui = rgb { 234 89 181 }
+}
+KRT = {
+	color = rgb { 173 65 133}
+	color_ui = rgb { 173 65 133 }
+}
+
+
+
+
+
+
+
+
 ACE = {
 	color = rgb { 227 10 23 }
 	color_ui = rgb { 227 10 23 }

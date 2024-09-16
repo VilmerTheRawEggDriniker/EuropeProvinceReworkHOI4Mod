@@ -10,20 +10,35 @@ state={
 		owner = SHI
 		add_core_of = SHI
 		1600.1.1 = {
-		owner = OTO
-		add_core_of = PER
-		remove_core_of = SHI
+			owner = BAK
+			add_core_of = BAK
+			remove_core_of = SHI
+
 		}
 		1700.1.1 = {
-		owner = PER
+			owner = BAK
+			add_core_of = BAK
+			remove_core_of = SHI
+
+		}
+				1600.1.1 = {
 		add_core_of = PER
-		remove_core_of = SHI
+		}
+				1836.1.1 = {
+			owner = RUS
+			add_core_of = RUS
+        remove_core_of = NAK
+		remove_core_of = TAL
+		remove_core_of = BAK
+		remove_core_of = KRB
+		remove_core_of = ERV
 		}
 		1919.1.1 = {
-		add_core_of = AZR
-		owner = AZR
-		remove_core_of = RUS
-		remove_core_of = PER
+			add_core_of = AZR
+			owner = AZR
+			remove_core_of = RUS
+			remove_core_of = PER
+
 		}
 		1813.1.1 = {
 			owner = RUS
@@ -42,9 +57,6 @@ state={
 		}
 		victory_points = {
 			7661 10 
-		}
-		victory_points = {
-			11674 1 
 		}
 		buildings = {
 			infrastructure = 2
@@ -69,9 +81,9 @@ state={
 	}
 
 	provinces={
-		1450 1467 1530 1536 1539 1610 4458 4473 4477 4545 4605 4614 6763 7495 7554 7661 11645 11674 11704 12434 14014 14016 14017 14019 14021 14023 14024 14027 14028 14034 14035 14036 14037 14042 14043 14044 14045 14046 14047 14049 14051 14052 14053 14055 14057 14058 14060 14061 14063 14067 
+		1450 1536 4458 4477 4545 4614 7495 7554 7661 11645 14023 14028 14037 14042 14043 14044 14045 14047 14052 14053 14055 14060 14061 14063 
 	}
-	manpower=3120000
+	manpower=2000000
 	buildings_max_level_factor=1.000
 	state_category=city
 	local_supplies=7.000
