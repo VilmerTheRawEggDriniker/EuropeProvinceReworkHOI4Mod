@@ -1,8 +1,8 @@
 ideas = { 
 
-MAC_protesting_workers = {
+MAC_climate_change_issue = {
 
- name = MAC_protesting_workers 
+ name = MAC_climate_change_isuee 
 
  picture = placeholder
 
@@ -19,3 +19,4 @@ MAC_protesting_workers = {
           production_speed_buildings_factor = -1
           consumer_goods_factor = 3
           weekly_stabilty_factor = -0.2         
+          monthly_population = -0.3
