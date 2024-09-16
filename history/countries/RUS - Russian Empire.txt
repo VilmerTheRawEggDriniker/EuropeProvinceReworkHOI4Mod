@@ -9,6 +9,20 @@
 	}
 }
 }
+1836.1.1 = {
+WAL={set_cosmetic_tag = WAL_RUS}
+MOL={set_cosmetic_tag = MOL_RUS}
+	set_autonomy = {
+        target = MOL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = WAL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
 2024.1.1 = {
 country_lock_all_division_template = yes
 set_oob = "RUS_2024"
