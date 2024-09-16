@@ -15,7 +15,7 @@ focus_tree = {
     continuous_focus_position = { x = 50 y = 1600 }
 
 	focus = {
-		id = MAC_calm_down_vioilent_protests
+		id = MAC_calm_down_protests
 		icon = placeholder
 		x = 5
 		y = 0
@@ -26,3 +26,41 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_stability = 10
+
+	
+		}
+	}
+		focus = {
+		id = MAC_the_workers_are_protesting
+		icon = placeholder
+prerequisite = { focus = MAC_calm_down_protests }
+allow_branch = { has_start_date > 2024.1.1
+    has_start_date < 2025.1.1 }
+		x = 4
+		y = 1
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+}
+		completion_reward = {
+			remove_stability = 30
+                        add_ideas = MAC_protesting_workers
+
+
+
+
