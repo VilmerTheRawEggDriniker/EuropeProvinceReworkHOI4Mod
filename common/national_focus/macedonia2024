@@ -25,7 +25,7 @@ focus_tree = {
 			base = 10
 		}
 		completion_reward = {
-			add_stability = 10
+			add_political_power_gain = 0.3
 
 	
 		}
