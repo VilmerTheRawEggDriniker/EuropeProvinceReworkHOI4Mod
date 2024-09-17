@@ -8,3 +8,6 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
+}
+}
+}
