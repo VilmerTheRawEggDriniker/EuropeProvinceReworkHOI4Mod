@@ -1,6 +1,6 @@
 characters={
 	JUB_ahmed_madobe_mohammed={
-		name="Ahmed Madobe Mohammed"
+		name="JUB_character_Ahmed_Madobe_Mohammed"
 		portraits={
 			civilian={
 				large="GFX_portrait_JUB_ahmed_madobe_mohammed"
@@ -8,7 +8,6 @@ characters={
 		}
 		country_leader={
 			ideology=despotism
-                id=-1
 }
 }
 }
