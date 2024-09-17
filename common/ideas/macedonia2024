@@ -20,3 +20,19 @@ MAC_climate_change_issue = {
           consumer_goods_factor = 3
           weekly_stabilty_factor = -0.2         
           monthly_population = -0.3
+
+
+MAC_good_Neighborhood_Agreement
+
+picture=placeholder
+
+ allowed = {
+         original_tag = MAC
+         
+ allowed_civil_war = {
+         always = yes
+
+ }
+
+modifier={
+        monthly_stability_factor = -0.1
