@@ -1,12 +1,12 @@
-Characters = {
-          MAC_Stevo_Pendarovski = {
-                            name= "Stevo Pendarovski"
-                            portraits = {
-                                       civilian = {
-                                              large = "GFX_portrait_stevo_pendarovski_large"
+Characters={
+          MAC_Stevo_Pendarovski={
+                            name="Stevo Pendarovski"
+                            portraits={
+                                       civilian={
+                                              large="GFX_portrait_stevo_pendarovski_large"
                                        }
                             }
-                            country_leader = {
+                            country_leader={
                               ideology=democrat
                             id=-1
 }
