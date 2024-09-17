@@ -1,6 +1,6 @@
 characters={
 	ETH_abiy_ahmed={
-		name="Abiy Ahmed"
+		name="ETH_character_Abiy_Ahmed"
 		portraits={
 			civilian={
 				large="portrait_ETH_abiy_ahmed_large"
@@ -8,7 +8,6 @@ characters={
 		}
 		country_leader={
 			ideology=democratic
-                id=-1
 }
 }
 }
