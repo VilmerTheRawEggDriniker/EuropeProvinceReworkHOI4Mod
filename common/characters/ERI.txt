@@ -1,0 +1,10 @@
+characters = {
+  ERI_isais_afwerki = {
+    name = "Isais Afwerki"
+    portraits = {
+      civilian = {
+        large = "portrait_ERI_isais_afwerki_large"
+      }
+    }
+	country_leader={
+		ideology=despotism
