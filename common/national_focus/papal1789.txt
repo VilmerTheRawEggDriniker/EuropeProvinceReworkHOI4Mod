@@ -229,11 +229,6 @@ focus = {
 
 
 
-
-
-
-
-
 focus = {
 		id = PAP_spread_catholic_churches
 		icon = GFX_focus_generic_support_the_left_right
