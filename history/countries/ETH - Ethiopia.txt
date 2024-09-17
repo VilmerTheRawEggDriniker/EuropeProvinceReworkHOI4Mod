@@ -229,6 +229,12 @@ IF = {
 	recruit_character = ETH_lij_johannes
 	recruit_character = ETH_fitauri_zawde_gobena
 	recruit_character = ETH_bedjironde_tekle_hawariate
+2020.1.1 = {
+recruit_character=ETH_Abiy_Ahmed
+promote_character=ETH_Abiy_Ahmed
+}
+
+
 }
 set_global_flag = second_italo_ethiopian_war_flag
 1936.05.05 = { clr_global_flag = second_italo_ethiopian_war_flag }
