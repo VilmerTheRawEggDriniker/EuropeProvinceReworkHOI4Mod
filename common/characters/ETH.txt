@@ -1,0 +1,10 @@
+characters={
+	ETH_abiy_ahmed={
+		name="Abiy Ahmed"
+		portraits={
+			civilian={
+				large="portrait_abiy_ahmed_large"
+			}
+		}
+		country_leader={
+			ideology=democratic
