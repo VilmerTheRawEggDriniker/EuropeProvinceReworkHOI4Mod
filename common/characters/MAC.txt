@@ -7,5 +7,5 @@ Characters = {
                                        }
                             }
                             country_leader = {
-                              ideology = social democrat
+                              ideology =democrat
 }
