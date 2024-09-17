@@ -28,6 +28,11 @@ recruit_character = ERI_democratic_guy
 recruit_character = ERI_ar
 recruit_character = ERI_acgs
 
+1993.1.1 = {
+recruit_character=ERI_Isais_Afwerki
+promote_character=ERI_Isais_Afwerki
+}
+
 
 1939.1.1 = {
 	
