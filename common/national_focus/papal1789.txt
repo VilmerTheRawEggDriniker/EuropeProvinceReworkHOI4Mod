@@ -26,8 +26,8 @@ focus_tree = {
 		icon = GFX_goal_generic_construction
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 22
-		y = 0
+		x = 2
+		y = 1
 
 		cost = 10
 
@@ -56,14 +56,15 @@ focus_tree = {
 	}
 
 focus = {
-		id = PAP_reafirm_neutrality_
-		icon = GFX_focus_generic_support_the_left_right
-		prerequisite = { focus = HUN_balanced_budget }
+		id = PAP_reafirm_neutrality
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_spectators_of_the_revolution }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 0
+		x = 2
 		y = 1
-		relative_position_id = HUN_balanced_budget
+
+		relative_position_id = PAP_spectators_of_the_revolution
 
 		cost = 10
 
@@ -262,18 +263,112 @@ focus = {
 		completion_reward = {
 		add_ideas = PAP_catholicism
 	
-                 random_owned_state = {
-                 limit = {
-                    is_core_of = PAP
-                    is_controlled_by = PAP
-                }
-                add_extra_state_shared_building_slots = 1
-                add_building_construction = {
-                    type = industrial_complex
-                    level = 1
-                    instant_build = yes
-                }
-            }
+			if = {
+				limit = {
+					161 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+				161 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+focus = {
+		id = PAP_build_churchs
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_spread_catholic_churches }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 2
+		y = 4
+
+		relative_position_id = PAP_spread_catholic_churches
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+			if = {
+				limit = {
+					161 = {
+						free_building_slots = {
+							building = industrial_complex
+							size > 1
+							include_locked = yes
+						}
+					}
+				}
+				161 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+
+
+focus = {
+		id = PAP_man_our_soliders
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_spread_catholic_churches }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 2
+		y = 4
+
+		relative_position_id = PAP_spread_catholic_churches
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		
 
 
 
