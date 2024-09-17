@@ -1,0 +1,10 @@
+characters={
+	JUB_ahmed_madobe_mohammed={
+		name="Ahmed Madobe Mohammed"
+		portraits={
+			civilian={
+				large="GFX_portrait_JUB_ahmed_madobe_mohammed"
+			}
+		}
+		country_leader={
+			ideology=despotism
