@@ -3,7 +3,7 @@ characters={
 		name="Abiy Ahmed"
 		portraits={
 			civilian={
-				large="portrait_abiy_ahmed_large"
+				large="portrait_ETH_abiy_ahmed_large"
 			}
 		}
 		country_leader={
