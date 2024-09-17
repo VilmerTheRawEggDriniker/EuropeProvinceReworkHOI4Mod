@@ -66,4 +66,9 @@ set_popularities = {
 	neutrality = 50
 }
 
+2020.1.1 = {
+recruit_character=JUB_Ahmed_Madobe_Mohammed
+promote_character=JUB_Ahmed_Madobe_Mohammed
+}
+
 
