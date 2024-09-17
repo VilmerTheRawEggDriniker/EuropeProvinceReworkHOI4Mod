@@ -1,6 +1,6 @@
 Characters={
           MAC_Stevo_Pendarovski={
-                            name="Stevo Pendarovski"
+                            name="MAC_character_Stevo_Pendarovski"
                             portraits={
                                        civilian={
                                               large="GFX_portrait_stevo_pendarovski_large"
@@ -8,7 +8,6 @@ Characters={
                             }
                             country_leader={
                               ideology=democrat
-                            id=-1
 }
 }
 }
