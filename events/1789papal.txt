@@ -1,0 +1,33 @@
+add_namespace = papal
+
+country_event = {
+	id = papal.1
+	title = papal.1.t
+	desc = papal.1.d
+	picture = GFX_report_event_europe_funeral
+	
+	trigger = {
+		tag = PAP
+		date > 1789.2.8
+		has_start_date < 1789.1.1
+	}	
+
+	fire_only_once = yes
+
+	mean_time_to_happen = { days = 2 }
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = tithe
+			add_ideas = withdrawal_of_tithe
+		}		
+	}
+	
+	option = {
+		name = papal.1.a
+		effect_tooltip = {
+			remove_ideas = tithe
+			add_ideas = withdrawal_of_tithe
+		}
+	}
+}
