@@ -23,7 +23,7 @@ consumer_goods_factor = -1.5
 ideas = {
     country = {
             
-                                        Tithe= {
+                                        tithe= {
             picture = russian_flag_paris
             
             allowed = {
