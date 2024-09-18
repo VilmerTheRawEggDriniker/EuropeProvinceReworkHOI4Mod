@@ -1,0 +1,89 @@
+﻿division_template = {
+	name = "Këmbësori Pjesëtim"
+	division_names_group = ALB_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "Skanderbeg first army"
+		location = 9914
+		division_template = "Këmbësori Pjesëtim"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+}
+
+units = {
+	division = {
+		name = "Skanderbeg second army"
+		location = 3884
+		division_template = "Këmbësori Pjesëtim"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+}
+
+units = {
+	division = {
+		name = "Skanderbeg third army"
+		location = 6900
+		division_template = "Këmbësori Pjesëtim"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+}
+
+units = {
+	division = {
+		name = "Skanderbeg fourth army"
+		location = 13755
+		division_template = "Këmbësori Pjesëtim"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+}
+
+units = {
+	division = {
+		name = "Skanderbeg fifth army"
+		location = 13761
+		division_template = "Këmbësori Pjesëtim"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+}
+
+units = {
+	division = {
+		name = "Skanderbeg sixth army"
+		location = 13234
+		division_template = "Këmbësori Pjesëtim"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ALB"
+		}
+		requested_factories = 1
+		progress = 0.86
+		efficiency = 100
+	}
+}

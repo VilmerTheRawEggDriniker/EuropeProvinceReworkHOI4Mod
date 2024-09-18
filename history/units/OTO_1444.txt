@@ -1,0 +1,129 @@
+﻿division_template = {
+	name = "Yaya"
+
+	division_names_group = OTO_yaya
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 3 y = 1 }
+	}
+	priority = 2
+}
+units = {
+	#Ottoman Army
+	division = {
+		name = "Army 1"
+		location = 11905
+		division_template = "Yaya"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Army 2"
+		location = 9783
+		division_template = "Yaya"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Army 3"
+		location = 4112
+		division_template = "Yaya"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Army 4"
+		location = 11818
+		division_template = "Yaya"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Army 5"
+		location = 949
+		division_template = "Yaya"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Army 6"
+		location = 11842
+		division_template = "Yaya"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Army 7"
+		location = 3882
+		division_template = "Yaya"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Army 8"
+		location = 3786
+		division_template = "Yaya"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Army 9"
+		location = 11747
+		division_template = "Yaya"
+		start_experience_factor = 0.3
+	}
+}
+
+units = {
+	#Ottoman Army
+	division = {
+		name = "Army 10"
+		location = 11881
+		division_template = "Yaya"
+		start_experience_factor = 0.3
+	}
+}
+
+### Starting Equipment ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "OTO"
+		}
+		requested_factories = 4
+		progress = 0.28
+		efficiency = 100
+	}
+}
