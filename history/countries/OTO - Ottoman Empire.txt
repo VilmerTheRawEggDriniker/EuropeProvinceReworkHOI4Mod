@@ -42,9 +42,20 @@ IME={set_cosmetic_tag = IME_OTO}
 1500.1.1 = {
 			if = {
 		limit = { has_start_date < 1811.1.1 }
-ABK={set_cosmetic_tag = ABK_OTO}
+SVA={set_cosmetic_tag = SVA_OTO}
 	set_autonomy = {
-        target = ABK
+        target = SVA
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1500.1.1 = {
+			if = {
+		limit = { has_start_date < 1811.1.1 }
+MIG={set_cosmetic_tag = MIG_OTO}
+	set_autonomy = {
+        target = MIG
         autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
@@ -128,29 +139,6 @@ retire_character=OTO_mustafaiv
 }
 1840.1.1 = {
 retire_character=OTO_mahmudii
-}
-1859.1.1 = {
-	if = {
-		limit = { has_start_date < 1918.1.1 }
-WAL={set_cosmetic_tag = WAL_OTO}
-MOL={set_cosmetic_tag = MOL_OTO}
-SER={set_cosmetic_tag = SER_OTO}
-	set_autonomy = {
-        target = MOL
-        autonomous_state = autonomy_protectorate
-        freedom_level = 0.4
-	}
-	set_autonomy = {
-        target = WAL
-        autonomous_state = autonomy_protectorate
-        freedom_level = 0.4
-	}
-	set_autonomy = {
-        target = SER
-        autonomous_state = autonomy_protectorate
-        freedom_level = 0.4
-	}
-	}
 }
 1500.1.1 = {
 			if = {

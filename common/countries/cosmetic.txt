@@ -2,6 +2,14 @@ MAL_UK = {
     color = rgb { 201 56 93 }
     color_ui = rgb { 255 73 121 }
 }
+PRE_DPU = {
+	color = rgb { 70 60 120 }
+	color_ui = rgb { 70 60 120 }
+}
+PRE_BDB = {
+	color = rgb { 114 84 50 }
+	color_ui = rgb { 114 84 50 }
+}
 ISR_ENG = {
 	color = rgb { 150 0 0 }
 	color_ui = rgb { 150 0 0 }
@@ -31,6 +39,10 @@ VIN_FRA = {
 	color_ui = rgb { 74 147 255 }
 }
 LEB_FRA = {
+	color = rgb { 0 85 164 }
+	color_ui = rgb { 74 147 255 }
+}
+LOU_FRA_napoleon = {
 	color = rgb { 0 85 164 }
 	color_ui = rgb { 74 147 255 }
 }
@@ -165,6 +177,10 @@ PRU_SPR = {
 BRA_POR = {
 	color = rgb { 39 116 70 }
 	color_ui = rgb { 51 151 91 }
+}
+GLL_POL_AUS = {
+	color = rgb { 194 198 215 }
+	color_ui = rgb { 255 255 255 }
 }
 ULU_AUS = {
 	color = rgb { 194 198 215 }

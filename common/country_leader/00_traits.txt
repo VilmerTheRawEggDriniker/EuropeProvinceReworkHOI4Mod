@@ -6974,6 +6974,19 @@ leader_traits = {
                 trade_opinion_factor = 0.5
                 stability_factor = 0.2
 	}
+		girondin_politician = {
+		random = no
+        political_power_factor = -0.1
+		democratic_drift = 0.01
+		communism_drift = -0.01
+		neutrality_drift = -0.01
+                stability_factor = 0.05
+	}
+		stuart_exile_ultraroyalist = {
+		random = no
+        democratic_drift = -0.01
+        stability_factor = -0.25
+	}
 
 	prestigious_foreign_minister = {
 		random = no

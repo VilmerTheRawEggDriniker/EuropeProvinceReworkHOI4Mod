@@ -661,7 +661,6 @@ country_event = {
 	picture = GFX_idi_amin_india
 	#is_triggered_only = yes
 	trigger = {
-FRA={has_completed_focus = france_1793_1799_focus_82}
 FRA={has_completed_focus = france_1793_1799_focus_87}
 original_tag=FRA
 date > 1800.9.10 date < 1801.1.1 
@@ -680,8 +679,7 @@ country_event = {
 	picture = GFX_idi_amin_india
 	#is_triggered_only = yes
 	trigger = {
-FRA={has_completed_focus = france_1793_1799_focus_82}
-FRA={NOT={has_completed_focus = france_1793_1799_focus_82}}
+FRA={NOT={has_completed_focus = france_1793_1799_focus_87}}
 original_tag=FRA
 date > 1800.9.10 date < 1801.1.1 
 	}
@@ -1392,6 +1390,8 @@ WTF={add_state_core=867}
 WTF={add_state_core=1200}
 PRE={remove_state_core=867}
 PRE={remove_state_core=1200}
+BDB={remove_state_core=867}
+BDB={remove_state_core=1200}
 }
 FRA={
 		set_autonomy = {
@@ -1424,6 +1424,8 @@ SAX={add_state_core=867}
 SAX={add_state_core=1200}
 PRE={remove_state_core=867}
 PRE={remove_state_core=1200}
+BDB={remove_state_core=867}
+BDB={remove_state_core=1200}
 }
 	}
 }
@@ -2165,7 +2167,84 @@ fire_only_once = yes
 		}
 	}
 }
-
+country_event = {
+	id = fra_1789_event.50
+	title = "Surrender of Austrian Luxemburg"
+	desc = fra_1789_event.50.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+	trigger = {
+original_tag=FRA
+NOT={BEL={is_subject_of=FRA}}
+date > 1789.1.1 date < 1800.1.1 
+has_war_with=AUS
+has_war_with=BEL
+or={
+BEL={controls_state = 851}
+BEL={controls_state = 970}
+BEL={controls_state = 8}
+}
+	any_country={
+	or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 979
+	}
+		any_country={
+	or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 880
+	}
+		any_country={
+	or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 1182
+	}
+		any_country={
+	or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 42
+	}
+		any_country={
+	or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 51
+	}
+		any_country={
+	or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 466
+	}
+	}
+fire_only_once = yes
+	option = { # 
+		name = "We surronded Luxemburg!"
+		ai_chance = { factor = 100 } 	
+add_war_support=0.05
+BEL={add_manpower=-5000}
+AUS={add_manpower=-5000}
+851={set_demilitarized_zone = yes}
+970={set_demilitarized_zone = yes}
+8={set_demilitarized_zone = yes}
+	}
+}
 
 country_event = {
 	id = fra_1789_event.51
@@ -2177,11 +2256,12 @@ fire_only_once = yes
 	option = { # 
 		name = "Give Everything to Austria except for Bialystok"
 		ai_chance = { factor = 100 } 
+AUS={country_event = fra_1789_event.55}
 GLL={set_cosmetic_tag = GLL_POL_AUS}
 AUS={
 		set_autonomy = {
         target = GLL
-        autonomous_state = autonomy_protectorate
+        autonomous_state = autonomy_personal_union
         freedom_level = 0.4
 	}
 	}	
@@ -2206,11 +2286,19 @@ NOT={state=97}
 is_core_of = POL
 or={
 is_owned_by=PRE
+is_owned_by=BDB
 is_owned_by=AUS
 }
 }
 }
 transfer_state_to = GLL
+}
+every_state = {
+limit = {
+is_core_of = POL
+}
+add_core_of = GLL
+remove_core_of = BDB
 }	
 	}
 }
@@ -2222,20 +2310,127 @@ country_event = {
 	is_triggered_only = yes
 fire_only_once = yes
 	option = { # 
-		name = "Give Everything to Austria except for Bialystok"
-		ai_chance = { factor = 100 } 
+		name = "Strengthen Saxony"
+		ai_chance = { factor = 40 } 
+	every_state = {
+limit = {
+or={
+state=66
+state=67
+state=762
+}
+}
+add_core_of = SAX
+remove_core_of = PRE
+remove_core_of = BDB
+transfer_state_to = SAX
+}
+	}
+	option = { # 
+		name = "Give Silesia to the House of Habsburg-Lorraine"
+		ai_chance = { factor = 40 } 
+	every_state = {
+limit = {
+or={
+state=66
+state=67
+state=762
+}
+}
+add_core_of = AUS
+remove_core_of = PRE
+remove_core_of = BDB
+transfer_state_to = AUS
+}
+	}
+	option = { # 
+		name = "Puppet Silesia"
+		ai_chance = { factor = 20 } 
+add_political_power=-150
+	every_state = {
+limit = {
+or={
+state=66
+state=67
+state=762
+}
+}
+add_core_of = SIL
+remove_core_of = PRE
+remove_core_of = BDB
+transfer_state_to = SIL
+}
+FRA={
+		set_autonomy = {
+        target = SIL
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
 	}
 }
 country_event = {
 	id = fra_1789_event.53
-	title = "Split Prussia in Half"
+	title = "French Splitting Prussia in Half"
 	desc = fra_1789_event.53.d
 	picture = GFX_idi_amin_india
 	is_triggered_only = yes
 fire_only_once = yes
 	option = { # 
-		name = "Give Everything to Austria except for Bialystok"
-		ai_chance = { factor = 100 } 
+		name = "Keep the Capital in Berlin"
+		ai_chance = { factor = 50 } 
+PRE={set_country_flag=pre_formed_brandenburg}
+PRE={set_cosmetic_tag=PRE_BDB}
+	DPU={
+transfer_state = 763
+transfer_state = 1148
+transfer_state = 188
+add_state_core = 763
+add_state_core = 1148
+add_state_core = 188
+}
+PRE={
+remove_state_core = 763
+remove_state_core = 1148
+remove_state_core = 188
+}
+PRE={
+		set_autonomy = {
+        target = DPU
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
+	}
+		option = { # 
+		name = "Prussia is the Heart Land"
+		ai_chance = { factor = 50 }
+PRE={
+		set_capital = {
+  state = 763
+  remember_old_capital = no
+}
+} 
+PRE={set_country_flag=pre_formed_ducalprussia}
+PRE={set_cosmetic_tag=PRE_DPU}
+every_state = {
+limit = {
+is_owned_by=PRE
+NOT={state=763}
+NOT={state=1148}
+NOT={state=188}
+}
+transfer_state_to = BDB
+add_core_of = BDB
+remove_core_of = PRE
+}
+PRE={
+		set_autonomy = {
+        target = BDB
+        autonomous_state = autonomy_dominion
+        freedom_level = 0.4
+	}
+}
 	}
 }
 country_event = {
@@ -2246,7 +2441,283 @@ country_event = {
 	is_triggered_only = yes
 fire_only_once = yes
 	option = { # 
-		name = "Give Everything to Austria except for Bialystok"
+		name = "Give Ansbach and Bayreuth to Bavaria take East Frisia"
+every_state = {
+limit = {
+or={
+is_owned_by=BDB
+is_owned_by=PRE
+}
+or={
+state=1198
+state=1199
+}
+}
+remove_core_of = PRE
+remove_core_of = BDB
+add_core_of = BAY
+transfer_state_to = BAY
+}
+every_state = {
+limit = {
+or={
+is_owned_by=BDB
+is_owned_by=PRE
+}
+HOL={is_subject_of=FRA}
+or={
+state=1179
+}
+}
+remove_core_of = PRE
+remove_core_of = BDB
+add_core_of = HOL
+transfer_state_to = HOL
+}
+every_state = {
+limit = {
+or={
+is_owned_by=BDB
+is_owned_by=PRE
+}
+or={
+state=1155
+state=1243
+state=1165
+}
+}
+remove_core_of = PRE
+remove_core_of = BDB
+add_core_of = BRG
+transfer_state_to = BRG
+}
 		ai_chance = { factor = 100 } 
 	}
+}
+
+country_event = {
+	id = fra_1789_event.55
+	title = "Austrian Annexation of West Prussia"
+	desc = fra_1789_event.55.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Annex West Prussia to the Kingdom of Poland"
+		ai_chance = { factor = 50 } 
+AUS={add_political_power=150}
+	every_state = {
+limit = {
+or={
+is_owned_by=BDB
+is_owned_by=PRE
+}
+HOL={is_subject_of=FRA}
+or={
+state=863
+state=903
+state=807
+state=85
+state=5
+}
+}
+remove_core_of = PRE
+remove_core_of = BDB
+add_core_of = GLL
+add_core_of = POL
+transfer_state_to = GLL
+}
+	}
+	option = { # 
+		name = "Dont Upset Brandenburg-Prussia to Much"
+		ai_chance = { factor = 50 } 
+		every_country = {
+limit = {
+PRE={has_country_flag=pre_formed_brandenburg}
+}
+PRE={set_cosmetic_tag=PRE}
+DPU={
+transfer_state = 863
+transfer_state = 903
+transfer_state = 807
+transfer_state = 85
+transfer_state = 5
+add_state_core = 863
+add_state_core = 903
+add_state_core = 807
+add_state_core = 85
+add_state_core = 5
+}
+PRE={
+remove_state_core = 863
+remove_state_core = 903
+remove_state_core = 807
+remove_state_core = 85
+remove_state_core = 5
+}
+}
+		every_country = {
+limit = {
+PRE={has_country_flag=pre_formed_ducalprussia}
+}
+PRE={set_cosmetic_tag=PRE}
+PRE={
+transfer_state = 863
+transfer_state = 903
+transfer_state = 807
+transfer_state = 85
+transfer_state = 5
+add_state_core = 863
+add_state_core = 903
+add_state_core = 807
+add_state_core = 85
+add_state_core = 5
+}
+BDB={
+remove_state_core = 863
+remove_state_core = 903
+remove_state_core = 807
+remove_state_core = 85
+remove_state_core = 5
+}
+}
+	}
+}
+
+country_event = {
+	id = fra_1789_event.56
+	title = "The Treaty of Aranjuez"
+	desc = fra_1789_event.56.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	name = "Sign the Treaty"
+		TOS={
+set_party_name = { ideology = neutrality long_name = TOS_BOU_neutrality_party_long name = TOS_BOU_neutrality_party }
+set_cosmetic_tag = TOS_etruria
+promote_character=TOS_louisi
+		}
+LOU={set_cosmetic_tag = LOU_FRA_napoleon}
+		SPR={
+						set_autonomy = {
+				target = TOS
+                autonomous_state = autonomy_personal_union
+                freedom_level = 0.35
+	            }
+		}
+		FRA={
+						set_autonomy = {
+				target = LOU
+                autonomous_state = autonomy_protectorate
+                freedom_level = 0.35
+	            }
+		}
+						every_state = {
+				limit = {
+			    is_owned_by=MEX
+                is_core_of = LOU
+				}
+				transfer_state_to = LOU
+				}
+every_country = {
+  white_peace = LOU
+}
+}
+}
+country_event = {
+	id = fra_1789_event.57
+	title = "The Integration of Corsica"
+	desc = fra_1789_event.57.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	name = "Yes Napoleon is Corsican"
+add_war_support=-0.05
+add_political_power=25
+}
+}
+country_event = {
+	id = fra_1789_event.58
+	title = "Third Treaty of San Ildefonso"
+	desc = fra_1789_event.58.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	name = "These are troublesome terms..."
+SPR={
+						random_owned_controlled_state = {
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+										random_owned_controlled_state = {
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+										random_owned_controlled_state = {
+						remove_building = {
+							type = industrial_complex
+							level = 1
+						}
+				}
+}
+FRA={
+						random_owned_controlled_state = {
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+										random_owned_controlled_state = {
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+										random_owned_controlled_state = {
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+}
+}
+}
+country_event = {
+	id = fra_1789_event.59
+	title = "The Treaty of Mortefontaine"
+	desc = fra_1789_event.59.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	name = "Agree to the Treaty of Mortefontaine"
+FRA={
+						random_owned_controlled_state = {
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+}
+USA={
+						random_owned_controlled_state = {
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+				}
+}
+}
 }

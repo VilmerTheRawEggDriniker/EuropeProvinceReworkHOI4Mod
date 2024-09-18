@@ -10,34 +10,27 @@ set_politics = {
 1777.1.1 = {
 recruit_character=BRG_charlestheodore
 promote_character=BRG_charlestheodore
+recruit_character=BRG_maximilianijoseph
+recruit_character=BRG_ludwigi
+recruit_character=BRG_joachimmurat
+recruit_character=BRG_napoleon
+recruit_character=BRG_louisii
 }
 1800.1.1 = {
-recruit_character=BRG_maximilianijoseph
 promote_character=BRG_maximilianijoseph
 retire_character=BRG_charlestheodore
 }
-1801.1.1 = {
-recruit_character=BRG_ludwigi
-promote_character=BRG_ludwigi
+1812.1.1 = {
+promote_character=BRG_louisii
+}
+1836.1.1 = {
+retire_character=BRG_joachimmurat
+retire_character=BRG_napoleon
+retire_character=BRG_louisii
 retire_character=BRG_maximilianijoseph
 }
-1807.1.1 = {
-recruit_character=BRG_joachimmurat
-promote_character=BRG_joachimmurat
-retire_character=BRG_ludwigi
-}
-1808.1.1 = {
-recruit_character=BRG_napoleon
-promote_character=BRG_napoleon
-retire_character=BRG_joachimmurat
-}
-1809.1.1 = {
-recruit_character=BRG_louisii
-promote_character=BRG_louisii
-retire_character=BRG_napoleon
-}
-1832.1.1 = {
-retire_character=BRG_louisii
+1860.1.1 = {
+promote_character=BRG_ludwigi
 }
 1804.1.1 = {
 set_cosmetic_tag = BRG_grandduchy # Berg Grand Duchy

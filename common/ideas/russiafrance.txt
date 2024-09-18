@@ -87,6 +87,25 @@ war_support_factor = 0.1
 stability_factor = 0.05
 			}
 		}
+										fra_napoleon_stability= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+			army_defence_factor = 0.05
+			consumer_goods_factor = 0.01
+			political_power_gain=-0.1
+            stability_weekly = 0.01
+			}
+		}
 												luxemburg_stronghold= {
 			picture = russian_flag_paris
 			
@@ -163,7 +182,7 @@ army_core_attack_factor = 0.15
 training_time_factor = 0.15
 			}
 		}
-																		fra_anti_counter_revolution_austria= {
+fra_anti_counter_revolution_austria= {
 			picture = russian_flag_paris
 			
 			allowed = {
@@ -192,7 +211,114 @@ targeted_modifier = {
     attack_bonus_against = 0.1
 }
 		}
-																		fra_seize_emigree_property={
+fra_cross_the_alps_one= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+targeted_modifier = {
+    tag = SPM
+    attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = TOS
+    attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = PRM
+    attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = LUC
+    attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+targeted_modifier = {
+    tag = AUS
+    attack_bonus_against = 0.1
+	defense_bonus_against = 0.1
+}
+		}
+fra_cross_the_alps_two= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+army_speed_factor = 0.1
+industrial_capacity_factory = -0.05
+}
+}
+rhi_german_nationalism= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+war_support_factor=0.1
+stability_weekly = -0.001
+industrial_capacity_factory = -0.05
+army_core_attack_factor = -0.1
+army_core_defence_factor = -0.1
+}
+		}
+battleofkaransebes= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+war_support_weekly = -0.01
+political_power_cost =1
+army_attack_factor = -0.25
+}
+		}
+fra_antagonize_prussia= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+targeted_modifier = {
+    tag = PRE
+    attack_bonus_against = -0.15
+	defense_bonus_against = -0.15
+}
+		}
+						fra_seize_emigree_property={
 			picture = russian_flag_paris
 			
 			allowed = {

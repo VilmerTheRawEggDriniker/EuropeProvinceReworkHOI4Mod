@@ -15667,6 +15667,7 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_political_power=-150
 }
 }
 											focus = {
@@ -15715,6 +15716,11 @@ remember_old_capital = no
 		}
 
 		available = {
+						or={
+PRE={owns_state=66}
+PRE={owns_state=67}
+PRE={owns_state=762}
+}
 		}
 
 		bypass = {
@@ -15767,7 +15773,7 @@ remember_old_capital = no
 }
 										focus = {
 		id = france_1793_1799_focus_85
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_goal_generic_consumer_goods
 		allow_branch = { has_country_flag=napoleonfrance
     date < 1836.1.1 }
 		x = 17
@@ -15795,6 +15801,12 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+				if={
+		limit={
+		country_exists = RHI
+		}
+		RHI={add_ideas=rhi_german_nationalism}
+		}
 		add_stability=0.1
 		add_political_power=100
 					random_owned_state = {
@@ -15831,7 +15843,7 @@ remember_old_capital = no
 	}
 										focus = {
 		id = france_1793_1799_focus_86
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_goal_generic_consumer_goods
 		x = 8
 		y = 2
 		prerequisite = {
@@ -15860,11 +15872,44 @@ remember_old_capital = no
 					add_stability=0.05
 		add_political_power=-150
 		add_state_core = 1
+				if={
+		limit={
+	    or={
+		has_country_leader = {
+    character = FRA_napoleon
+    ruling_only = yes
+}
+		has_country_leader = {
+    character = FRA_napoleoni
+    ruling_only = yes
+}
+		}
+		}
+FRA={country_event = fra_1789_event.57}
+		}
+				if={
+		limit={
+		NOT={
+	    or={
+		has_country_leader = {
+    character = FRA_napoleon
+    ruling_only = yes
+}
+		has_country_leader = {
+    character = FRA_napoleoni
+    ruling_only = yes
+}
+		}
+		}
+		}
+					add_stability=-0.1
+		add_political_power=-150
+		}
 		}
 	}
 										focus = {
 		id = france_1793_1799_focus_87
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_goal_generic_neutrality_focus
 		x = 10
 		y = 2
 		prerequisite = {
@@ -15890,11 +15935,15 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+					add_timed_idea = {
+				idea = Fra_napoleon_stability
+				days = 70
+			}
 		}
 	}
 										focus = {
 		id = france_1793_1799_focus_88
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_generic_self_management
 		x = 12
 		y = 2
 		prerequisite = {
@@ -15920,12 +15969,14 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		
+		add_war_support=0.05
+		add_stability=0.05
+		add_political_power=-100
 		}
 	}
 									focus = {
 		id = france_1793_1799_focus_89
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_befriend_italy
 		x = 14
 		y = 2
 		prerequisite = {
@@ -15951,11 +16002,20 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_political_power=-25
+							add_timed_idea = {
+				idea = fra_cross_the_alps_one
+				days = 30
+			}
+								add_timed_idea = {
+				idea = fra_cross_the_alps_two
+				days = 30
+			}
 		}
 	}
 										focus = {
 		id = france_1793_1799_focus_90
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_attack_germany
 		x = 16
 		y = 2
 		prerequisite = {
@@ -15968,6 +16028,7 @@ remember_old_capital = no
 		}
 
 		available = {
+		RHI={has_idea=rhi_german_nationalism}
 		}
 
 		bypass = {
@@ -15981,11 +16042,12 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		RHI={remove_ideas=rhi_german_nationalism}
 		}
 	}
 										focus = {
 		id = france_1793_1799_focus_91
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_goal_generic_construct_mil_factory
 		x = 18
 		y = 2
 		prerequisite = {
@@ -16011,11 +16073,25 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_manpower=1000
+		add_war_support=0.01
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 										focus = {
 		id = france_1793_1799_focus_92
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_attack_germany
 		x = 20
 		y = 2
 		prerequisite = {
@@ -16041,6 +16117,8 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_political_power=-25
+		BAY={add_political_power=25}
 						declare_war_on = {
 		target = BAY
 		type = puppet_wargoal_focus
@@ -16049,7 +16127,7 @@ remember_old_capital = no
 	}
 										focus = {
 		id = france_1793_1799_focus_93
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x = 22
 		y = 2
 		prerequisite = {
@@ -16075,12 +16153,12 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		
+		FRA={country_event = fra_1789_event.59}
 		}
 	}
 									focus = {
 		id = france_1793_1799_focus_94
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_focus_fra_intervention_spain
 		x = 24
 		y = 2
 		prerequisite = {
@@ -16106,6 +16184,7 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		SPR={country_event = fra_1789_event.58}
 		}
 	}
 										focus = {
@@ -16140,7 +16219,7 @@ remember_old_capital = no
 	}
 										focus = {
 		id = france_1793_1799_focus_96
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_focus_fra_orleans_restoration
 		x = 8
 		y = 3
 		prerequisite = {
@@ -16166,11 +16245,14 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_manpower=1000
+		add_stability=0.05
+		add_political_power=150
 		}
 	}
 										focus = {
 		id = france_1793_1799_focus_97
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_goal_generic_neutrality_focus
 		x = 10
 		y = 3
 		prerequisite = {
@@ -16196,6 +16278,10 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_manpower=-133
+		add_stability=0.05
+		add_war_support=0.05
+		add_political_power=-50
 		}
 	}
 										focus = {
@@ -16261,7 +16347,7 @@ remember_old_capital = no
 	}
 										focus = {
 		id = france_1793_1799_focus_100
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_focus_fra_intervention_spain
 		x = 16
 		y = 3
 		prerequisite = {
@@ -16278,7 +16364,12 @@ remember_old_capital = no
 		has_war_with=SPR
 		}
 		MEX={is_subject_of = SPR}
+		or={
 		TOS={is_subject_of = FRA}
+162={controller = {is_ally_with = FRA}}
+162={controller = {is_subject_of = FRA}}
+162={controller = {original_tag=FRA}}
+		}
 		}
 
 		bypass = {
@@ -16292,30 +16383,14 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		TOS={
-set_party_name = { ideology = neutrality long_name = TOS_BOU_neutrality_party_long name = TOS_BOU_neutrality_party }
-set_cosmetic_tag = TOS_etruria
-promote_character=TOS_louisi
-		}
-		SPR={
-						set_autonomy = {
-				target = TOS
-                autonomous_state = autonomy_personal_union
-                freedom_level = 0.35
-	            }
-		}
-						every_state = {
-				limit = {
-			    is_owned_by=MEX
-                is_core_of = LOU
-				}
-				transfer_state_to = FRA
-				}
+        add_political_power=50
+		SPR={add_political_power=50}
+		SPR={country_event = fra_1789_event.56}
 		}
 	}
 										focus = {
 		id = france_1793_1799_focus_101
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_goal_generic_defence
 		x = 18
 		y = 3
 		prerequisite = {
@@ -16341,6 +16416,32 @@ promote_character=TOS_louisi
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_popularity = { ideology = democratic popularity = 0.05}
+		add_political_power=-150
+			random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+						random_owned_state = {
+				limit = {
+					is_controlled_by = ROOT
+					is_core_of = ROOT
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 										focus = {
@@ -16678,7 +16779,7 @@ promote_character=TOS_louisi
 	}
 										focus = {
 		id = france_1793_1799_focus_113
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x = 22
 		y = 4
 		prerequisite = {
@@ -16691,6 +16792,7 @@ promote_character=TOS_louisi
 		}
 
 		available = {
+		has_war_with=OTO
 		}
 
 		bypass = {
@@ -16704,12 +16806,14 @@ promote_character=TOS_louisi
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		
+		FRA={add_stability=0.05}
+		OTO={add_stability=0.05}
+		white_peace = OTO
 		}
 	}
 									focus = {
 		id = france_1793_1799_focus_114
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		x = 24
 		y = 4
 		prerequisite = {
@@ -17363,7 +17467,7 @@ promote_character=TOS_louisi
 	}
 										focus = {
 		id = france_1793_1799_focus_135
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_attack_germany
 		x = 26
 		y = 6
 		prerequisite = {
@@ -17389,6 +17493,7 @@ promote_character=TOS_louisi
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_political_power=-150
 		}
 	}
 										focus = {
@@ -18128,6 +18233,13 @@ promote_character=TOS_louisi
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		BRG={set_cosmetic_tag=BRG_grandduchy}
+		BRG={promote_character=BRG_joachimmurat}
+						set_autonomy = {
+				target = BRG
+                autonomous_state = autonomy_dominion
+                freedom_level = 0.35
+	            }
 		}
 	}
 										focus = {
@@ -18158,6 +18270,11 @@ promote_character=TOS_louisi
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_war_support=0.1
+					add_timed_idea = {
+				idea = FRA_antagonize_prussia
+				days = 365
+			}
 		}
 	}
 										focus = {
@@ -18191,6 +18308,7 @@ promote_character=TOS_louisi
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_political_power=-150
 		}
 	}
 										focus = {
@@ -18332,7 +18450,7 @@ PRE={owns_state=1200}
 	}
 										focus = {
 		id = france_1793_1799_focus_166
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_generic_polish_deal
 		x = 29
 		y = 3
 		prerequisite = {
@@ -18371,7 +18489,7 @@ PRE={owns_state=1200}
 	}
 										focus = {
 		id = france_1793_1799_focus_167
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_generic_polish_deal
 		x = 31
 		y = 3
 		prerequisite = {
@@ -18407,7 +18525,7 @@ PRE={owns_state=1200}
 	}
 											focus = {
 		id = france_1793_1799_focus_168
-		icon = GFX_focus_focus_fra_border
+		icon = GFX_focus_generic_polish_deal
 		x = 33
 		y = 3
 		prerequisite = {
@@ -18610,6 +18728,7 @@ PRE={owns_state=1243}
 PRE={owns_state=1179}
 PRE={owns_state=1155}
 PRE={owns_state=703}
+PRE={owns_state=1165}
 }
 		}
 
@@ -18633,7 +18752,7 @@ PRE={owns_state=703}
 		x = 36
 		y = 5
 		prerequisite = {
-		focus =	france_1793_1799_focus_161
+		focus =	france_1793_1799_focus_161 focus =	france_althistory_9
 		}
 		cost = 4.3
 
@@ -18714,7 +18833,7 @@ PRE={owns_state=703}
 		limit={
 	    has_completed_focus=france_althistory_12
 		}
-		country_event = fra_1789_event.53
+		PRE={country_event = fra_1789_event.53}
 		}
 		if={
 		limit={
@@ -18727,8 +18846,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_176
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 50
+		x = 8
+		y = 11
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -18757,8 +18876,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_177
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 50
+		x = 10
+		y = 11
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -18787,8 +18906,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_178
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 51
+		x = 12
+		y = 11
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -18817,9 +18936,10 @@ PRE={owns_state=703}
 	}
 									focus = {
 		id = france_1793_1799_focus_179
-		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 51
+		icon = GFX_focus_generic_befriend_portugal
+		will_lead_to_war_with=POR
+		x = 14
+		y = 11
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -18843,13 +18963,17 @@ PRE={owns_state=703}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+						declare_war_on = {
+		target = POR
+		type = puppet_wargoal_focus
+	    }
 		}
 	}
 										focus = {
 		id = france_1793_1799_focus_180
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 51
+		x = 16
+		y = 11
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -18878,8 +19002,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_181
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 51
+		x = 18
+		y = 11
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -18907,9 +19031,9 @@ PRE={owns_state=703}
 	}
 										focus = {
 		id = france_1793_1799_focus_182
-		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 51
+		icon = GFX_focus_invite_yugoslavia
+		x = 20
+		y = 11
 		will_lead_to_war_with=RAG
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
@@ -18943,8 +19067,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_183
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 52
+		x = 22
+		y = 11
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -18974,8 +19098,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_184
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 52
+		x = 24
+		y = 11
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19003,9 +19127,10 @@ PRE={owns_state=703}
 	}
 										focus = {
 		id = france_1793_1799_focus_185
-		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 52
+		icon = GFX_focus_focus_fra_intervention_spain
+		will_lead_to_war_with=SPR
+		x = 26
+		y = 11
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19029,13 +19154,21 @@ PRE={owns_state=703}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+						declare_war_on = {
+		target = SPR
+		type = puppet_wargoal_focus
+	    }
+		hidden_effect={
+		FRA={add_war_support=-0.1}
+		SPR={add_war_support=0.1}
+		}
 		}
 	}
 										focus = {
 		id = france_1793_1799_focus_186
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 52
+		x = 8
+		y = 12
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19064,8 +19197,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_187
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 52
+		x = 10
+		y = 12
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19094,8 +19227,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_188
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 53
+		x = 12
+		y = 12
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19125,8 +19258,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_189
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 53
+		x = 14
+		y = 12
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19155,8 +19288,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_190
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 53
+		x = 16
+		y = 12
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19185,8 +19318,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_191
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 53
+		x = 18
+		y = 12
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19215,8 +19348,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_192
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 53
+		x = 20
+		y = 12
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19245,8 +19378,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_193
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 54
+		x = 22
+		y = 12
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19276,8 +19409,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_194
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 54
+		x = 24
+		y = 12
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19306,8 +19439,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_195
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 54
+		x = 26
+		y = 12
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19336,8 +19469,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_196
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 54
+		x = 8
+		y = 13
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19366,8 +19499,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_197
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 54
+		x = 10
+		y = 13
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19396,8 +19529,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_198
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 55
+		x = 12
+		y = 13
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19427,8 +19560,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_199
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 55
+		x = 14
+		y = 13
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19457,8 +19590,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_200
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 55
+		x = 16
+		y = 13
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19487,8 +19620,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_201
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 55
+		x = 18
+		y = 13
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19517,8 +19650,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_202
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 55
+		x = 20
+		y = 13
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19547,8 +19680,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_203
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 56
+		x = 22
+		y = 13
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19578,8 +19711,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_204
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 56
+		x = 24
+		y = 13
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19608,8 +19741,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_205
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 56
+		x = 26
+		y = 13
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19638,8 +19771,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_206
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 56
+		x = 8
+		y = 14
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19668,8 +19801,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_207
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 56
+		x = 10
+		y = 14
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19698,8 +19831,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_208
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 57
+		x = 12
+		y = 14
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19729,8 +19862,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_209
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 57
+		x = 14
+		y = 14
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19759,8 +19892,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_210
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 57
+		x = 16
+		y = 14
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19789,8 +19922,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_211
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 57
+		x = 18
+		y = 14
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19819,8 +19952,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_212
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 57
+		x = 20
+		y = 14
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19849,8 +19982,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_213
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 58
+		x = 22
+		y = 14
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19880,8 +20013,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_214
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 58
+		x = 24
+		y = 14
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19910,8 +20043,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_215
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 58
+		x = 26
+		y = 14
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19940,8 +20073,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_216
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 58
+		x = 8
+		y = 15
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -19970,8 +20103,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_217
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 58
+		x = 10
+		y = 15
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20000,8 +20133,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_218
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 59
+		x = 12
+		y = 15
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20031,8 +20164,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_219
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 59
+		x = 14
+		y = 15
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20061,8 +20194,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_220
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 59
+		x = 16
+		y = 15
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20091,8 +20224,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_221
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 59
+		x = 18
+		y = 15
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20121,8 +20254,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_222
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 59
+		x = 20
+		y = 15
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20151,8 +20284,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_223
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 60
+		x = 22
+		y = 15
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20182,8 +20315,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_224
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 60
+		x = 24
+		y = 15
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20212,8 +20345,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_225
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 60
+		x = 26
+		y = 15
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20242,8 +20375,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_226
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 60
+		x = 8
+		y = 16
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20272,8 +20405,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_227
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 60
+		x = 10
+		y = 16
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20302,8 +20435,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_228
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 61
+		x = 12
+		y = 16
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20333,8 +20466,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_229
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 61
+		x = 14
+		y = 16
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20363,8 +20496,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_230
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 61
+		x = 16
+		y = 16
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20388,16 +20521,16 @@ PRE={owns_state=703}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		add_stability=-0.1
-		add_war_support=-0.1
+		add_stability=-0.12
+		add_war_support=-0.12
 		add_manpower=120000
 		}
 	}
 										focus = {
 		id = france_1793_1799_focus_231
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 61
+		x = 18
+		y = 16
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20444,8 +20577,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_232
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 61
+		x = 20
+		y = 16
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20475,8 +20608,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_233
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 62
+		x = 22
+		y = 16
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20506,8 +20639,8 @@ PRE={owns_state=703}
 									focus = {
 		id = france_1793_1799_focus_234
 		icon = GFX_focus_focus_fra_border
-		x = 10
-		y = 62
+		x = 24
+		y = 16
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20536,8 +20669,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_235
 		icon = GFX_focus_focus_fra_border
-		x = 12
-		y = 62
+		x = 26
+		y = 16
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
 		}
@@ -20566,8 +20699,8 @@ PRE={owns_state=703}
 										focus = {
 		id = france_1793_1799_focus_236
 		icon = GFX_focus_focus_fra_border
-		x = 14
-		y = 62
+		x = 8
+		y = 17
 		will_lead_to_war_with = RUS
 		prerequisite = {
 		focus =	france_1793_1799_focus_137
@@ -20600,8 +20733,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_237
 		icon = GFX_focus_focus_fra_border
-		x = 16
-		y = 62
+		x = 10
+		y = 17
 		prerequisite = {
 		focus =	france_1793_1799_focus_236
 		}
@@ -20636,8 +20769,8 @@ PRE={owns_state=703}
 											focus = {
 		id = france_1793_1799_focus_238
 		icon = GFX_focus_focus_fra_border
-		x = 8
-		y = 63
+		x = 12
+		y = 17
 		prerequisite = {
 		focus =	france_1793_1799_focus_237
 		}
@@ -20668,4 +20801,223 @@ PRE={owns_state=703}
 	            }
 		}
 		}
+													focus = {
+		id = france_1793_1799_focus_239
+		icon = GFX_focus_focus_fra_border
+		x = 14
+		y = 17
+		prerequisite = {
+		focus =	france_1793_1799_focus_236
+		}
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+		}
+															focus = {
+		id = france_1793_1799_focus_240
+		icon = GFX_focus_focus_fra_border
+		x = 16
+		y = 17
+		prerequisite = {
+		focus =	france_1793_1799_focus_236
+		}
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+		}
+															focus = {
+		id = france_1793_1799_focus_241
+		icon = GFX_focus_focus_fra_border
+		x = 18
+		y = 17
+		prerequisite = {
+		focus =	france_1793_1799_focus_236
+		}
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+		}
+															focus = {
+		id = france_1793_1799_focus_242
+		icon = GFX_focus_focus_fra_border
+		x = 20
+		y = 17
+		prerequisite = {
+		focus =	france_1793_1799_focus_236
+		}
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+		}
+															focus = {
+		id = france_1793_1799_focus_243
+		icon = GFX_focus_focus_fra_border
+		x = 22
+		y = 17
+		prerequisite = {
+		focus =	france_1793_1799_focus_236
+		}
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+	NOT={
+							any_country={
+    or={
+	is_ally_with = FRA
+	is_subject_of = FRA
+	original_tag=FRA
+	}
+	controls_state = 219
+		controls_state = 202
+			controls_state = 808
+				controls_state = 195
+	}
+	}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		add_stability=-0.2
+		add_war_support=-0.2
+		add_manpower=200000
+		}
+		}
+															focus = {
+		id = france_1793_1799_focus_244
+		icon = GFX_focus_focus_fra_border
+		x = 24
+		y = 17
+		prerequisite = {
+		focus =	france_1793_1799_focus_236
+		}
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+		}
+															focus = {
+		id = france_1793_1799_focus_245
+		icon = GFX_focus_focus_fra_border
+		x = 26
+		y = 17
+		prerequisite = {
+		focus =	france_1793_1799_focus_236
+		}
+		cost = 4.3
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+															}
 	}

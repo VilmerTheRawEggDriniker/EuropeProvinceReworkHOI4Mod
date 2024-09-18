@@ -49,6 +49,7 @@ MAK = "countries/Makhnovshchina.txt" #flagcomplete
 BER = "countries/Berry.txt" #flagcomplete 
 BSL = "countries/Basel.txt" #flagcomplete
 SEP = "countries/Ionian Islands.txt" #flagcomplete
+MAR = "countries/Mark.txt" #flagcomplete
 GUR = "countries/Guria.txt" #flagcomplete
 
 KRT = "countries/Kartli.txt" #flagcomplete

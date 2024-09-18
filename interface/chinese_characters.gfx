@@ -1,5 +1,0 @@
-spriteTypes = {
-        spriteType = {
-		name = "GFX_portrait_qin_guangxu_large"
-		texturefile = "gfx/leaders/QIN/portrait_guangxu_large.dds"
-	}

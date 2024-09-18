@@ -13,15 +13,16 @@
 1781.1.1 = {
 recruit_character=BEL_casimir
 promote_character=BEL_casimir
+recruit_character=BEL_charles
+recruit_character=BEL_leopoldi
 }
 1793.1.1 = {
-recruit_character=BEL_charles
-promote_character=BEL_charles
 retire_character=BEL_casimir
 }
-1794.1.1 = {
-recruit_character=BEL_leopoldi
+1830.1.1 = {
 promote_character=BEL_leopoldi
+}
+1848.1.1 = {
 retire_character=BEL_charles
 }
 1866.1.1 = {

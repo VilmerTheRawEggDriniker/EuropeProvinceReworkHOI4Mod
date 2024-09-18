@@ -60,3 +60,22 @@ add_namespace = viennacongress_news
 		name = "The House of Bourbon Needs to be restored in France we have had enough of the Revolution!"
 			}
 		}
+
+						news_event = {
+	id = viennacongress_news.4
+	title = "Treaty of Paris (1815)"
+	desc = viennacongress_news.4.d
+	picture = GFX_idi_amin_uganda
+	
+	major = yes
+
+	fire_for_sender = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = "They Tried spreading the Revolution a second time they deserve to be partioned!"
+			}
+		option = {
+		name = "Its only a temporary Occupation calm down..."
+			}
+		}

@@ -221,9 +221,12 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
+			has_government = democratic
+			date > 1791.1.1 
+			date < 1794.1.1 
 		        }
 			traits  = {
-				chief_minister_of_the_french_monarch 
+				girondin_politician
 			}
 			on_add  = {
 			}
@@ -252,13 +255,15 @@ characters={
 				original_tag  = FRA
 			}
 			available  = {
+            NOT={is_in_faction_with=ENG}
+			NOT={is_subject_of=ENG}
 									has_country_leader = {
 	character = FRA_charlesx
 	ruling_only = yes
 }
 		        }
 			traits  = {
-				ultraroyalist
+				stuart_exile_ultraroyalist
 			}
 			on_add  = {
 			}

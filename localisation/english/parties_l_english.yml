@@ -162,6 +162,8 @@
  MIL_neutrality_party:1 "House of Visconti"
  COU_neutrality_party:1 "House of Biron"
  NEU_neutrality_party:1 "House of Hohenzollern"
+ BDB_neutrality_party:1 "House of Hohenzollern"
+ DPU_neutrality_party:1 "House of Hohenzollern"
  ANS_neutrality_party:1 "House of Hohenzollern"
  BYR_neutrality_party:1 "House of Hohenzollern"
  LOR_neutrality_party:1 "House of Lorraine"

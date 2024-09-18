@@ -3,10 +3,10 @@ state={
 	name="STATE_1277"
 		history={
 		add_core_of = ARM
-		add_core_of = QAR
-		owner = QAR
+		add_core_of = GEO
+		owner = GEO
 		1600.1.1 = {
-			remove_core_of = QAR
+			remove_core_of = GEO
         owner = KRT
 		}
 				1600.1.1 = {

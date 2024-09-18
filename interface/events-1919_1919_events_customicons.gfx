@@ -1,9 +1,0 @@
-spriteTypes = { 
-	##Icon For: France Occupies Antep
-	SpriteType = { 
-		name = "1919_france_occupies_antep-619"
-		texturefile = "gfx/interface/events/1919_events-event/1919_france_occupies_antep-619.dds"
-	}
-
- 
- }

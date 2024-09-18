@@ -1,7 +1,9 @@
+
 state={
 	id=1266
 	name="STATE_1266"
-			history={
+
+	history={
 		owner = ZZZ
 		1789.1.1 = {
 			owner = NWT
@@ -41,8 +43,9 @@ state={
 		}
 
 	}
+
 	provinces={
-		709 751 4854 5205 10599 
+		709 751 4854 5205 10599 13154 13155 13156 13157 13159 13199 13200 13201 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

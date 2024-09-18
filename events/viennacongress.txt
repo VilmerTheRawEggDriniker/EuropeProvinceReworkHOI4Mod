@@ -128,3 +128,69 @@ FRA={set_country_flag = frankfurtproposals_flag}
 		news_event = viennacongress_news.3
 	}
 }
+
+country_event = {
+	id = viennacongress_event.4
+	title = "The Treaty of Paris (1815)"
+	desc = viennacongress_event.4.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "The Treaty of Paris (1815)"
+		ai_chance = { factor = 100 } 
+    add_political_power=150
+		news_event = viennacongress_news.4
+			every_state = {
+  limit = {
+  PRE={has_war_with=FRA}
+  }
+	PRE={
+	transfer_state = 15
+	transfer_state = 24
+	transfer_state = 30
+	}
+			}
+			every_state = {
+  limit = {
+  RUS={has_war_with=FRA}
+  }
+	RUS={
+	transfer_state = 16
+	transfer_state = 18
+	transfer_state = 988
+	}
+			}
+			every_state = {
+  limit = {
+  ENG={has_war_with=FRA}
+  }
+	ENG={
+	transfer_state = 29
+	transfer_state = 785
+	transfer_state = 969
+	transfer_state = 986
+	transfer_state = 1104
+	transfer_state = 1176
+	}
+			}
+				every_state = {
+  limit = {
+  AUS={has_war_with=FRA}
+  }
+    AUS={
+	transfer_state = 20
+	transfer_state = 21
+	transfer_state = 32
+	transfer_state = 1193
+	transfer_state = 1103
+	transfer_state = 17
+	transfer_state = 27
+	transfer_state = 28
+	transfer_state = 1112
+	transfer_state = 1234
+	}
+				}
+	VND={annex_country = { target = FRA transfer_troops = no }}
+	}
+}

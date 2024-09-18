@@ -2,12 +2,12 @@ state={
 	id=1274
 	name="STATE_1274"
 		history={
-		owner = SHI
-		add_core_of = SHI
+		owner = QAR
+		add_core_of = QAR
 		1600.1.1 = {
 			owner = TAL
 			add_core_of = TAL
-			remove_core_of = SHI
+			remove_core_of = QAR
 		}
 		1700.1.1 = {
 			owner = TAL

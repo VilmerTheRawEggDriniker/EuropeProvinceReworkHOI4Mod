@@ -95,7 +95,9 @@ allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
 		x = 4
 		y = 1
-
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_1
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -130,7 +132,9 @@ allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
 		x = 6
 		y = 1
-
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_2
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -181,7 +185,9 @@ allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
 		x = 8
 		y = 1
-
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_3
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -213,7 +219,9 @@ allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
 		x = 10
 		y = 1
-
+		prerequisite = {
+		focus =	kingdomoffrance_1789_1815_first_50_focus_4
+		}
 		cost = 4.3
 
 		ai_will_do = {

@@ -5,6 +5,9 @@ set_cosmetic_tag = SIL_AUS #austrian puppet
 1750.1.1 = {
 set_cosmetic_tag = SIL #independent
 }
+1740.1.1 = {
+set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
+}
 #oob = ""
 
 set_research_slots = 3

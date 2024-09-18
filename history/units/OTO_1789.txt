@@ -82,7 +82,7 @@ units = {
 	#Ottoman Army
 	division = {
 		name = "Ottoman Division"
-		location = 3653
+		location = 789
 		division_template = "Ottoman Division"
 		start_experience_factor = 0.3
 	}
@@ -154,7 +154,7 @@ units = {
 	#Ottoman Army
 	division = {
 		name = "Ottoman Division"
-		location = 3653
+		location = 789
 		division_template = "Ottoman Division"
 		start_experience_factor = 0.3
 	}
@@ -226,7 +226,7 @@ units = {
 	#Ottoman Army
 	division = {
 		name = "Ottoman Division"
-		location = 3653
+		location = 789
 		division_template = "Ottoman Division"
 		start_experience_factor = 0.3
 	}
@@ -298,7 +298,7 @@ units = {
 	#Ottoman Army
 	division = {
 		name = "Ottoman Division"
-		location = 3653
+		location = 789
 		division_template = "Ottoman Division"
 		start_experience_factor = 0.3
 	}
