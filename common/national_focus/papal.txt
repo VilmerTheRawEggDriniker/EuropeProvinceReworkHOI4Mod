@@ -1,0 +1,275 @@
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1812.6.24 }
+
+focus_tree = {
+	id = papal_focus
+
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PAP
+      Allow_branch
+		}
+	}
+
+
+	
+	default = no
+
+	continuous_focus_position = { x = 1500 y = 1500 }
+
+
+focus = {
+		id = PAP_spectators_of_the_revolution
+		icon = GFX_goal_generic_construction
+                allow_branch = { has_start_date > 1789.1.1
+                has_start_date < 1836.1.1 }
+		x = 0
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 90
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 25
+				category = political
+			}
+		}
+	}
+
+
+
+focus = {
+		id = PAP_reafirm_neutrality
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_spectators_of_the_revolution }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -2
+		y = 1
+
+		relative_position_id = PAP_spectators_of_the_revolution
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {		
+		}
+	}
+
+
+
+
+
+
+focus = {
+		id = PAP_allow_the_reforms
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_reafirm_neutrality }
+		mutually_exclusive = { focus = PAP_hold_onto_national_property }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 6
+		y = 1
+
+		relative_position_id = PAP_reafirm_neutrality
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 80
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+                  
+		}
+	}
+
+
+focus = {
+		id = PAP_give_up_the_tithe
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_allow_the_reforms }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 3
+		y = 1
+
+		relative_position_id = PAP_reafirm_neutrality
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+                 
+
+		}
+	}
+
+
+
+
+focus = {
+		id = PAP_hold_onto_national_property
+		icon = GFX_focus_generic_strike_at_democracy1
+		prerequisite = { focus = PAP_reafirm_neutrality }
+		mutually_exclusive = { focus =  PAP_allow_the_reforms }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 1
+
+		relative_position_id = PAP_reafirm_neutrality
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+                 
+
+		}
+	}
+
+focus = {
+		id = PAP_maintain_the_tithe
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_hold_onto_national_property }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -7
+		y = 4
+
+		relative_position_id = PAP_hold_onto_national_property
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+                 
+
+		}
+	}
+
+focus = {
+		id = PAP_protest_the_revolution
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_hold_onto_national_property }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_hold_onto_national_property
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 50
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+                 
+
+		}
+	}
