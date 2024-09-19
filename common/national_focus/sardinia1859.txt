@@ -1,0 +1,26 @@
+focus_tree = {
+	id = sardinia1859
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SPM
+		}
+	}
+    focus = { 
+        id = placeholder
+        icon = placeholder
+        x = 1
+        y = 1
+        allow_branch = { has_start_date > 1859.1.1 }
+        cost = 5
+		ai_will_do = { 
+			base = 10
+		}
+		completion_reward = {
+			add_political_power = 50
+		}
+    }
+}
