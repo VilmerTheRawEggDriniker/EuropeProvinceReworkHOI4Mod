@@ -32,7 +32,7 @@ focus = {
 		cost = 10
 
 		ai_will_do = {
-			factor = 90
+			factor = 100
 		}
 
 		available = {
@@ -165,6 +165,39 @@ focus = {
 		}
 	}
 
+focus = {
+		id = PAP_nationalised_church
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_give_up_the_tithe }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_give_up_the_tithe
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
 
 
 
@@ -180,7 +213,7 @@ focus = {
 
 		relative_position_id = PAP_reafirm_neutrality
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 20
@@ -273,3 +306,75 @@ focus = {
 
 		}
 	}
+
+focus = {
+		id = PAP_control_french_assets
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_protest_the_revolution }
+		prerequisite = { focus = PAP_maintain_the_tithe }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_protest_the_revolution
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+
+focus = {
+		id = PAP_dawn_of_a_new_decade
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_control_french_assets }
+		prerequisite = { focus = PAP_nationalised_church }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_nationalised_church
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
