@@ -213,7 +213,7 @@ focus = {
 
 		relative_position_id = PAP_reafirm_neutrality
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 20
@@ -319,7 +319,7 @@ focus = {
 
 		relative_position_id = PAP_protest_the_revolution
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 100
