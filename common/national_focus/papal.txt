@@ -87,6 +87,8 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {		
+                          add_war_support = -0.1
+                          add_stability = 0.05
 		}
 	}
 
@@ -161,7 +163,6 @@ focus = {
 
 		completion_reward = {	
                  
-
 		}
 	}
 
@@ -356,6 +357,412 @@ focus = {
 		relative_position_id = PAP_nationalised_church
 
 		cost = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+
+
+focus = {
+		id = PAP_dawn_of_a_new_decade
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_control_french_assets }
+		prerequisite = { focus = PAP_nationalised_church }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_nationalised_church
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_maintain_catholic_control_over_europe
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_dawn_of_a_new_decade }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_dawn_of_a_new_decade
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_influence_empires
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_maintain_catholic_control_over_europe }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_maintain_catholic_control_over_europe
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_support_european_monarchy
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_influence_empires }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_influence_empires
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_a_british_ideal
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_support_european_monarchy }
+		mutually_exclusive = { focus = PAP_look_towards_the_motherland focus = PAP_lean_towards_austria }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_support_european_monarchy
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_promote_british_work_ethics
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_a_british_ideal }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_a_british_ideal
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+
+focus = {
+		id = PAP_look_towards_the_motherland
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_support_european_monarchy }
+		mutually_exclusive = { focus = PAP_a_british_ideal focus = PAP_lean_towards_austria }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_support_european_monarchy
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_tax_workers
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_look_towards_the_motherland }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_look_towards_the_motherland
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 40
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_force_work
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_look_towards_the_motherland }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_look_towards_the_motherland
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 60
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_lean_towards_austria
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_support_european_monarchy }
+		mutually_exclusive = { focus = PAP_a_british_ideal focus = PAP_look_towards_the_motherland }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_support_european_monarchy
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 20
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_austrian_engineering
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_lean_towards_austria }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_lean_towards_austria
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+focus = {
+		id = PAP_start_modern_industralisation
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_austrian_engineering focus = PAP_force_work focus = PAP_tax_workers focus = PAP_promote_british_work_ethics }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -5
+		y = 4
+
+		relative_position_id = PAP_lean_towards_austria
+
+		cost = 20
 
 		ai_will_do = {
 			factor = 100
