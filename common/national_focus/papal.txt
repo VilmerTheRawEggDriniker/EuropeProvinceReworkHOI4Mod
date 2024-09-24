@@ -21,6 +21,245 @@ focus_tree = {
 	continuous_focus_position = { x = 1500 y = 1500 }
 
 
+
+
+
+focus = {
+		id = PAP_1st_disestablishment
+		icon = GFX_goal_generic_military_sphere
+
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -12
+		y = 0
+
+		relative_position_id = PAP_spectators_of_the_revolution
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		has_government = democratic
+	        has_government = neutrality
+                FRA={has_completed_focus=france_1793-1799_focus_61 }
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_proclaim_roman_republic
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_1st_disestablishment }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 1
+
+		relative_position_id = PAP_1st_disestablishment
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		has_government = democratic
+	        has_government = neutrality
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+focus = {
+		id = PAP_esatblish_5_consul_government
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_proclaim_roman_republic }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -2
+		y = 1
+
+		relative_position_id = PAP_proclaim_roman_republic
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		has_government = democratic
+	        has_government = neutrality
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+
+focus = {
+		id = PAP_glory_to_the_republic
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_esatblish_5_consul_government }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -1
+		y = 1
+
+		relative_position_id = PAP_esatblish_5_consul_government
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		has_government = democratic
+	        has_government = neutrality
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_declare_napoleon_direct_ruler
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_glory_to_the_republic }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 1
+
+		relative_position_id = PAP_glory_to_the_republic
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 10
+		}
+
+		available = {
+		has_government = democratic
+	        has_government = neutrality
+                
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_reliberation
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_esatblish_5_consul_government }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 1
+
+		relative_position_id = PAP_esatblish_5_consul_government
+
+		cost = 1
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+		has_government = democratic
+	        has_government = neutrality
+                
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 focus = {
 		id = PAP_spectators_of_the_revolution
 		icon = GFX_goal_generic_construction
@@ -900,5 +1139,10 @@ focus = {
 		completion_reward = {	
 		}
 	}
+
+
+
+
+
 
 
