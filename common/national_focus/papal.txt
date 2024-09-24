@@ -63,7 +63,7 @@ focus = {
 		prerequisite = { focus = PAP_spectators_of_the_revolution }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -2
+		x = 0
 		y = 1
 
 		relative_position_id = PAP_spectators_of_the_revolution
@@ -104,7 +104,7 @@ focus = {
 		mutually_exclusive = { focus = PAP_hold_onto_national_property }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 6
+		x = 2
 		y = 1
 
 		relative_position_id = PAP_reafirm_neutrality
@@ -139,10 +139,10 @@ focus = {
 		prerequisite = { focus = PAP_allow_the_reforms }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 3
+		x = 0
 		y = 1
 
-		relative_position_id = PAP_reafirm_neutrality
+		relative_position_id = PAP_allow_the_reforms
 
 		cost = 10
 
@@ -172,8 +172,8 @@ focus = {
 		prerequisite = { focus = PAP_give_up_the_tithe }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 0
+		y = 1
 
 		relative_position_id = PAP_give_up_the_tithe
 
@@ -209,7 +209,7 @@ focus = {
 		mutually_exclusive = { focus =  PAP_allow_the_reforms }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 0
+		x = -2
 		y = 1
 
 		relative_position_id = PAP_reafirm_neutrality
@@ -244,8 +244,8 @@ focus = {
 		prerequisite = { focus = PAP_hold_onto_national_property }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -7
-		y = 4
+		x = -1
+		y = 1
 
 		relative_position_id = PAP_hold_onto_national_property
 
@@ -279,8 +279,8 @@ focus = {
 		prerequisite = { focus = PAP_hold_onto_national_property }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 1
+		y = 1
 
 		relative_position_id = PAP_hold_onto_national_property
 
@@ -351,8 +351,8 @@ focus = {
 		prerequisite = { focus = PAP_nationalised_church }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = -2
+		y = 2
 
 		relative_position_id = PAP_nationalised_church
 
@@ -380,40 +380,6 @@ focus = {
 
 
 
-
-focus = {
-		id = PAP_dawn_of_a_new_decade
-		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = PAP_control_french_assets }
-		prerequisite = { focus = PAP_nationalised_church }
-    allow_branch = { has_start_date > 1789.1.1
-    has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
-
-		relative_position_id = PAP_nationalised_church
-
-		cost = 2
-
-		ai_will_do = {
-			factor = 100
-		}
-
-		available = {
-
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		completion_reward = {	
-		}
-	}
 
 focus = {
 		id = PAP_maintain_catholic_control_over_europe
@@ -421,8 +387,8 @@ focus = {
 		prerequisite = { focus = PAP_dawn_of_a_new_decade }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 0
+		y = 2
 
 		relative_position_id = PAP_dawn_of_a_new_decade
 
@@ -454,8 +420,8 @@ focus = {
 		prerequisite = { focus = PAP_maintain_catholic_control_over_europe }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 0
+		y = 1
 
 		relative_position_id = PAP_maintain_catholic_control_over_europe
 
@@ -481,14 +447,165 @@ focus = {
 		}
 	}
 
+
+
+
+focus = {
+		id = PAP_demand_partial_pope_control
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_influence_empires }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -2
+		y = 1
+
+		relative_position_id = PAP_influence_empires
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {		
+		}
+	}
+
+
+
+
+
+focus = {
+		id = PAP_focus_on_taxation
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_demand_partial_pope_control }
+		mutually_exclusive = { focus = PAP_take_property }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -1
+		y = 1
+
+		relative_position_id = PAP_demand_partial_pope_control
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {		
+		}
+	}
+
+
+
+
+focus = {
+		id = PAP_take_property
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_demand_partial_pope_control }
+		mutually_exclusive = { focus = PAP_focus_on_taxation }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 1
+		y = 1
+
+		relative_position_id = PAP_demand_partial_pope_control
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {		
+		}
+	}
+
+focus = {
+		id = PAP_a_catholic_europe
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_take_property focus = PAP_focus_on_taxation }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -1
+		y = 1
+
+		relative_position_id = PAP_take_property
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {		
+		}
+	}
+
+
+
+
+
+
+
+
 focus = {
 		id = PAP_support_european_monarchy
 		icon = GFX_goal_generic_military_sphere
 		prerequisite = { focus = PAP_influence_empires }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 2
+		y = 1
 
 		relative_position_id = PAP_influence_empires
 
@@ -521,8 +638,8 @@ focus = {
 		mutually_exclusive = { focus = PAP_look_towards_the_motherland focus = PAP_lean_towards_austria }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = -2
+		y = 2
 
 		relative_position_id = PAP_support_european_monarchy
 
@@ -554,8 +671,8 @@ focus = {
 		prerequisite = { focus = PAP_a_british_ideal }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 0
+		y = 1
 
 		relative_position_id = PAP_a_british_ideal
 
@@ -590,8 +707,8 @@ focus = {
 		mutually_exclusive = { focus = PAP_a_british_ideal focus = PAP_lean_towards_austria }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 0
+		y = 2
 
 		relative_position_id = PAP_support_european_monarchy
 
@@ -623,8 +740,8 @@ focus = {
 		prerequisite = { focus = PAP_look_towards_the_motherland }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = -1
+		y = 1
 
 		relative_position_id = PAP_look_towards_the_motherland
 
@@ -656,8 +773,8 @@ focus = {
 		prerequisite = { focus = PAP_look_towards_the_motherland }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 1
+		y = 1
 
 		relative_position_id = PAP_look_towards_the_motherland
 
@@ -690,8 +807,8 @@ focus = {
 		mutually_exclusive = { focus = PAP_a_british_ideal focus = PAP_look_towards_the_motherland }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 2
+		y = 2
 
 		relative_position_id = PAP_support_european_monarchy
 
@@ -723,8 +840,8 @@ focus = {
 		prerequisite = { focus = PAP_lean_towards_austria }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 0
+		y = 1
 
 		relative_position_id = PAP_lean_towards_austria
 
@@ -757,10 +874,10 @@ focus = {
 		prerequisite = { focus = PAP_austrian_engineering focus = PAP_force_work focus = PAP_tax_workers focus = PAP_promote_british_work_ethics }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = -5
-		y = 4
+		x = 0
+		y = 3
 
-		relative_position_id = PAP_lean_towards_austria
+		relative_position_id = PAP_look_towards_the_motherland
 
 		cost = 20
 
