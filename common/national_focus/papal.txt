@@ -207,7 +207,7 @@ focus = {
 		prerequisite = { focus = PAP_esatblish_5_consul_government }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 0
+		x = 1
 		y = 1
 
 		relative_position_id = PAP_esatblish_5_consul_government
@@ -219,8 +219,6 @@ focus = {
 		}
 
 		available = {
-		has_government = democratic
-	        has_government = neutrality
                 
 		}
 
@@ -236,6 +234,145 @@ focus = {
 		}
 	}
 
+
+
+focus = {
+		id = PAP_seek_for_peace
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_esatblish_5_consul_government }
+		mutually_exclusive = { focus = PAP_the_coalitions_cause }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -1
+		y = 1
+
+		relative_position_id = PAP_reliberation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+                
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+
+focus = {
+		id = PAP_the_coalitions_cause
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_reliberation }
+		mutually_exclusive = { focus = PAP_seek_for_peace }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 1
+		y = 1
+
+		relative_position_id = PAP_reliberation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+                
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+
+focus = {
+		id = PAP_temporary_french_government
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_seek_for_peace }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -1
+		y = 2
+
+		relative_position_id = PAP_reliberation
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+                
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_the_new_pope
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_temporary_french_government focus = PAP_the_coalitions_cause }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 4
+
+		relative_position_id = PAP_reliberation
+
+		cost = 5
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+                
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+
+		completion_reward = {	
+		}
+	}
 
 
 
@@ -615,6 +752,7 @@ focus = {
 
 		completion_reward = {	
 		}
+ 	        add_stability = 0.02            
 	}
 
 
