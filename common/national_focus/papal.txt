@@ -352,7 +352,7 @@ focus = {
 
 		relative_position_id = PAP_reliberation
 
-		cost = 5
+		cost = 10
 
 		ai_will_do = {
 			factor = 100
@@ -373,6 +373,148 @@ focus = {
 		completion_reward = {	
 		}
 	}
+
+focus = {
+		id = PAP_cardinal_angelo_ruffo
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_the_new_pope }
+		mutually_exclusive = { focus = PAP_cardinal_barnaba_chiaramonti focus = PAP_cardinal_francesco_maria_de'_medici focus = PAP_cardinal_giovanni_battista_caprara }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 2
+		y = 1
+
+		relative_position_id = PAP_the_new_pope
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+                
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_cardinal_francesco_maria_de'_medici
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_the_new_pope }
+		mutually_exclusive = { focus = PAP_cardinal_barnaba_chiaramonti focus = PAP_cardinal_giovanni_battista_caprara focus = PAP_cardinal_angelo_ruffo }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -1
+		y = 1
+
+		relative_position_id = PAP_the_new_pope
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+                
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {	
+		}
+	}
+
+
+focus = {
+		id = PAP_cardinal_giovanni_battista_caprara
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_the_new_pope }
+		mutually_exclusive = { focus = PAP_cardinal_barnaba_chiaramonti focus = PAP_cardinal_francesco_maria_de'_medici focus = PAP_cardinal_angelo_ruffo }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 1
+		y = 1
+
+		relative_position_id = PAP_the_new_pope
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+                
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {	
+		}
+	}
+
+
+focus = {
+		id = PAP_cardinal_barnaba_chiaramonti 
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_the_new_pope }
+		mutually_exclusive = { focus =  PAP_cardinal_giovanni_battista_caprara focus = PAP_cardinal_francesco_maria_de'_medici focus = PAP_cardinal_angelo_ruffo }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -2
+		y = 1
+
+		relative_position_id = PAP_the_new_pope
+
+		cost = 2
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+                
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		completion_reward = {	
+		}
+	}
+
+
+
+
 
 
 
