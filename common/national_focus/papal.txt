@@ -1766,15 +1766,15 @@ focus = {
 focus = {
 		id = PAP_19th_ceuntry_indulstrialisation
 		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = PAP_austrian_engineering }
+		prerequisite = { focus = PAP_dawn_of_a_new_decade }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 0
-		y = 3
+		x = 8
+		y = 1
 
-		relative_position_id = PAP_look_towards_the_motherland
+		relative_position_id = PAP_dawn_of_a_new_decade
 
-		cost = 20
+		cost = 10
 
 		ai_will_do = {
 			factor = 100
@@ -1796,6 +1796,171 @@ focus = {
 		}
 	}
 
+focus = {
+		id = PAP_military_industry
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_19th_ceuntry_indulstrialisation }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 3
+		y = 1
+
+		relative_position_id = PAP_19th_ceuntry_indulstrialisation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_a_military_haven
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_military_industry }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 1
+
+		relative_position_id = PAP_military_industry
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_transform_farms
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_a_military_haven }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 2
+
+		relative_position_id = PAP_military_industry
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_build_churches
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_19th_ceuntry_indulstrialisation }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -3
+		y = 1
+
+		relative_position_id = PAP_19th_ceuntry_indulstrialisation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+focus = {
+		id = PAP_expand_northwards
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_19th_ceuntry_indulstrialisation }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 
+		y = 1
+
+		relative_position_id = PAP_19th_ceuntry_indulstrialisation
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
 
 
 
