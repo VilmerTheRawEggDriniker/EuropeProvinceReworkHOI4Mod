@@ -1932,13 +1932,80 @@ focus = {
 focus = {
 		id = PAP_expand_northwards
 		icon = GFX_goal_generic_military_sphere
-		prerequisite = { focus = PAP_19th_ceuntry_indulstrialisation }
+		prerequisite = { focus = PAP_build_churches }
     allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 
+		x = 1
 		y = 1
 
-		relative_position_id = PAP_19th_ceuntry_indulstrialisation
+		relative_position_id = PAP_build_churches
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_the_southern_exhibit
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_build_churches }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -1
+		y = 1
+
+		relative_position_id = PAP_build_churches
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_the_southern_exhibit
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_the_southern_exhibit }
+		prerequisite = { focus = PAP_expand_northwards }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 1
+		y = 2
+
+		relative_position_id = PAP_the_southern_exhibit
 
 		cost = 10
 
