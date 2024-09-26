@@ -45,6 +45,7 @@ focus = {
 		has_government = democratic
 	        has_government = neutrality
                 FRA={has_completed_focus=france_1793-1799_focus_61 }
+	        is_subject = yes
 		}
 
 		bypass = {
@@ -79,6 +80,7 @@ focus = {
 		available = {
 		has_government = democratic
 	        has_government = neutrality
+	        is_subject = yes
 
 		}
 
@@ -115,6 +117,7 @@ focus = {
 		available = {
 		has_government = democratic
 	        has_government = neutrality
+	        is_subject = yes
 		}
 
 		bypass = {
@@ -186,6 +189,7 @@ focus = {
 		available = {
 		has_government = democratic
 	        has_government = neutrality
+	        is_in_faction_with = FRA
                 
 		}
 
@@ -219,16 +223,18 @@ focus = {
 		}
 
 		available = {
-                
+	        surrender_progress < 0.1
+                NOT = { has_war_with = ENG }
+                NOT = { has_war_with = AUS }
 		}
 
 		bypass = {
 
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available_if_capitulated = yes
 
 		completion_reward = {	
 		}
@@ -255,15 +261,15 @@ focus = {
 		}
 
 		available = {
-                
+	        surrender_progress < 0
 		}
 
 		bypass = {
-
+			NOT = { has_war_with = FRA }
 		}
 
-		cancel_if_invalid = yes
-		continue_if_invalid = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
 		available_if_capitulated = no
 
 		completion_reward = {	
@@ -291,10 +297,10 @@ focus = {
 		}
 
 		available = {
-                
 		}
 
 		bypass = {
+
 
 		}
 
@@ -1757,7 +1763,38 @@ focus = {
 		}
 	}
 
+focus = {
+		id = PAP_19th_ceuntry_indulstrialisation
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_austrian_engineering }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 3
 
+		relative_position_id = PAP_look_towards_the_motherland
+
+		cost = 20
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
 
 
 
