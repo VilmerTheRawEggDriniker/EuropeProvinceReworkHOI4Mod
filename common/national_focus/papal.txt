@@ -300,6 +300,14 @@ focus = {
 		}
 
 		bypass = {
+			AND = { 
+				is_in_faction_with = ENG
+				ENG = {
+					is_faction_leader = yes
+					has_government = neutrality
+				}
+			} 
+		}
 
 
 		}
@@ -1996,7 +2004,7 @@ focus = {
 	}
 
 focus = {
-		id = PAP_the_southern_exhibit
+		id = PAP_papal_industrial_reforms
 		icon = GFX_goal_generic_military_sphere
 		prerequisite = { focus = PAP_the_southern_exhibit }
 		prerequisite = { focus = PAP_expand_northwards }
@@ -2031,4 +2039,417 @@ focus = {
 
 
 
+
+
+
+focus = {
+		id = PAP_reform_the_armed_forces
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_dawn_of_a_new_decade }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 6
+		y = 1
+
+		relative_position_id = PAP_dawn_of_a_new_decade
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_modern_military
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_reform_the_armed_forces }
+		mutually_exclusive = { focus = PAP_a_swiss_militia }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -2
+		y = 1
+
+		relative_position_id = PAP_reform_the_armed_forces
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+focus = {
+		id = PAP_modern_military
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_reform_the_armed_forces }
+		mutually_exclusive = { focus = PAP_a_swiss_militia }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -2
+		y = 1
+
+		relative_position_id = PAP_reform_the_armed_forces
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_outside_the_borders
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_modern_military }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -1
+		y = 2
+
+		relative_position_id = PAP_modern_military
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+focus = {
+		id = PAP_expand_old_ideas
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_modern_military }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 1
+		y = 2
+
+		relative_position_id = PAP_modern_military
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+
+
+
+focus = {
+		id = PAP_a_swiss_militia
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_reform_the_armed_forces }
+		mutually_exclusive = { focus = PAP_modern_military }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 2
+		y = 1
+
+		relative_position_id = PAP_reform_the_armed_forces
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_a_national_guard
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_a_swiss_militia }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 2
+
+		relative_position_id = PAP_a_swiss_militia
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+
+
+
+focus = {
+		id = PAP_the_minds_of_vatican
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_dawn_of_a_new_decade }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 12
+		y = 1
+
+		relative_position_id = PAP_dawn_of_a_new_decade
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_foreign_designs
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_the_minds_of_vatican }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = -2
+		y = 1
+
+		relative_position_id = PAP_the_minds_of_vatican
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_the_popes_army
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_foreign_designs }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 1
+
+		relative_position_id = PAP_foreign_designs
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+
+
+focus = {
+		id = PAP_fund_research
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_the_minds_of_vatican }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 2
+		y = 1
+
+		relative_position_id = PAP_the_minds_of_vatican
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
+
+focus = {
+		id = PAP_research_effort
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = PAP_fund_research }
+    allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 0
+		y = 1
+
+		relative_position_id = PAP_fund_research
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 100
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {	
+		}
+	}
 
