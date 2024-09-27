@@ -2417,6 +2417,7 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {	
+	        add_research_slot = 1
 		}
 	}
 
@@ -2450,6 +2451,7 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {	
+		add_research_slot = 1
 		}
 	}
 
