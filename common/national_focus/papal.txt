@@ -919,7 +919,6 @@ focus = {
 		completion_reward = {
 			add_stability = 0.05
 			add_political_power = 25
-				category = political
 			}
 		}
 	}
@@ -1834,6 +1833,19 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {	
+                random_owned_state = {
+                limit = {
+                    is_core_of = PAP
+                    is_controlled_by = PAP
+                }
+                add_extra_state_shared_building_slots = 2
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+
 		}
 	}
 
@@ -1867,6 +1879,18 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {	
+                random_owned_state = {
+                limit = {
+                    is_core_of = PAP
+                    is_controlled_by = PAP
+                }
+                add_extra_state_shared_building_slots = 3
+                add_building_construction = {
+                    type = arms_factory
+                    level = 1
+                    instant_build = yes
+                }
+            }
 		}
 	}
 
@@ -2382,6 +2406,7 @@ focus = {
 		available_if_capitulated = no
 
 		completion_reward = {	
+
 		}
 	}
 
