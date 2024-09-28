@@ -16,6 +16,7 @@ ideas = {
 			production_speed_buildings_factor = -0.99
 industrial_capacity_factory = -0.99
 
+
 			}
 		}
 				sixteenth_century = {
@@ -69,7 +70,8 @@ industrial_capacity_factory = -0.79
 			modifier = {
 			production_speed_buildings_factor = -0.69
 industrial_capacity_factory = -0.69
-  
+  guarantee_cost =1000
+guarantee_tension = 1000
 			}
 		}
 				nineteenth_century = {
@@ -87,7 +89,8 @@ industrial_capacity_factory = -0.69
 			modifier = {
 			production_speed_buildings_factor = -0.59
                         industrial_capacity_factory = -0.59
-
+guarantee_cost =1000
+guarantee_tension = 1000
 			}
 		}
 				twentieth_century = {

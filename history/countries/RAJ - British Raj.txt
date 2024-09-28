@@ -1,4 +1,10 @@
 ﻿capital = 431
+1601.1.1 = {
+			if = {
+		limit = { has_start_date < 1874.1.1 }
+RAJ={set_cosmetic_tag =RAJ_EIC}
+}
+}
 1911.1.1 = {
 		set_capital = {
   state = 439

@@ -301,6 +301,40 @@ political_power_cost =1
 army_attack_factor = -0.25
 }
 		}
+fra_tax_door_window= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+stability_factor=-0.05
+political_power_cost =-0.01
+industrial_capacity_factory = 0.075
+}
+		}
+fra_nancy_affair_debuff= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+recruitable_population_factor=-0.01
+war_support_factor = 0.1
+weekly_manpower = -25
+}
+		}
 fra_antagonize_prussia= {
 			picture = russian_flag_paris
 			

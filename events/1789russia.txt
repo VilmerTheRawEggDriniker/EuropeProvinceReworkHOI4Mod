@@ -638,18 +638,15 @@ fire_only_once = yes
 		name = "Accept being an Ottoman Vassal"
 		ai_chance = { factor = 100 } 
     SER={set_cosmetic_tag = SER_OTO}
-	every_country = {
-  limit = {
-    has_war_with = SER
-  }
-  white_peace = SER
-}
 OTO={
 	set_autonomy = {
         target = SER
         autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
+}
+every_country = {
+white_peace = SER
 }
 	}
 }

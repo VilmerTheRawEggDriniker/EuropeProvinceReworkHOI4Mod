@@ -2,9 +2,9 @@
 1770.1.1 = {
 recruit_character=DEN_christianvii
 promote_character=DEN_christianvii
+recruit_character=DEN_frederickvi
 }
 1808.1.1 = {
-recruit_character=DEN_frederickvi
 promote_character=DEN_frederickvi
 retire_character=DEN_christianvii
 }

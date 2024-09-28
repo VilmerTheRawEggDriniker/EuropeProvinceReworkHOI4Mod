@@ -13804,7 +13804,7 @@ focus = {
 		}
 
 		available = {
-
+        NOT={has_war_with=FRA}
 		}
 
 		bypass = {

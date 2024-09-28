@@ -3,29 +3,29 @@ set_oob = "PAP_1789"
 1775.1.1 = {
 recruit_character=PAP_piusvi
 promote_character=PAP_piusvi
+recruit_character=PAP_piusvii
+recruit_character=PAP_leoxii
+recruit_character=PAP_piusviii
+recruit_character=PAP_gregoryxvi
+recruit_character=PAP_piusix
 }
 1800.1.1 = {
-recruit_character=PAP_piusvii
 promote_character=PAP_piusvii
 retire_character=PAP_piusvi
 }
 1823.1.1 = {
-recruit_character=PAP_leoxii
 promote_character=PAP_leoxii
 retire_character=PAP_piusvii
 }
 1829.1.1 = {
-recruit_character=PAP_piusviii
 promote_character=PAP_piusviii
 retire_character=PAP_leoxii
 }
 1831.1.1 = {
-recruit_character=PAP_gregoryxvi
 promote_character=PAP_gregoryxvi
 retire_character=PAP_piusviii
 }
 1848.1.1 = {
-recruit_character=PAP_piusix
 promote_character=PAP_piusix
 retire_character=PAP_gregoryxvi
 }

@@ -27,6 +27,34 @@ characters={
 			expire="1797.1.1"
 		}
 }
+	BEL_louis={
+		name=BEL_CHARACTER_LOUIS
+		portraits={
+			civilian={
+				large="GFX_portrait_bel_louis_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Orleans}
+			desc = BEL_LOUIS_DESC
+			expire="1797.1.1"
+		}
+}
+	BEL_auguste={
+		name=BEL_CHARACTER_AUGUSTE
+		portraits={
+			civilian={
+				large="GFX_portrait_bel_auguste_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Beauharnais}
+			desc = BEL_AUGUSTE_DESC
+			expire="1797.1.1"
+		}
+}
 	BEL_leopoldi={
 		name=BEL_CHARACTER_LEOPOLDI
 		portraits={

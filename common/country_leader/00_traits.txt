@@ -13,6 +13,30 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
+	britain_prime_minister_whig = {
+		random = no
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	britain_prime_minister_tory = {
+		random = no
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	britain_prime_minister_conservative = {
+		random = no
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	Auersperg = {
 		random = no
 
@@ -380,6 +404,14 @@ leader_traits = {
 		}
 	}
 	Orleans = {
+		random = no
+
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Beauharnais = {
 		random = no
 
 

@@ -1,24 +1,10 @@
 ﻿capital = 798
-if = { limit = { has_start_date > 1444.11.11 has_start_date < 1500.1.1 }
-	set_oob = "OTO_1444"
-}
 1689.1.1 = {
 recruit_character=OTO_suleimanii
 promote_character=OTO_suleimanii
 }
 1691.1.1 = {
 retire_character=OTO_suleimanii
-}
-1600.1.1 = {
-			if = {
-		limit = { has_start_date < 1918.1.1 }
-HEJ={set_cosmetic_tag = HEJ_mecca}
-	set_autonomy = {
-        target = HEJ
-        autonomous_state = autonomy_integrated_puppet
-        freedom_level = 0.4
-	}
-}
 }
 1500.1.1 = {
 			if = {

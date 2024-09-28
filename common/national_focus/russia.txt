@@ -7097,8 +7097,11 @@ has_completed_focus = russianempire_1793_1836_focus_2
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		    add_state_core = 231
-	add_state_core = 1002
+add_state_core = 231
+add_state_core = 1002
+add_state_core = 1271
+add_state_core = 1275
+add_state_core = 1277
 		}
 	}
 																																						focus = {

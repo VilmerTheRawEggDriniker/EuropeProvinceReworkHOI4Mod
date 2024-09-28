@@ -7,6 +7,19 @@ CSA_CHARACTER_DREAMY:0 "Dreamybull"
 CSA_CHARACTER_LOVE:0 "Loveandlighttv"
 CSA_CHARACTER_EROTIC:0 "Brandon Curington"
 
+ENG_CHARACTER_PITT:0 "William Pitt"
+ENG_CHARACTER_ADDINGTON:0 "The Viscount Sidmouth"
+ENG_CHARACTER_GRENVILLE:0 "The Lord Grenville"
+ENG_CHARACTER_PORTLAND:0 "The Duke of Portland"
+ENG_CHARACTER_PERCEVAL:0 "Spencer Perceval"
+ENG_CHARACTER_LIVERPOOL:0 "The Earl of Liverpool"
+ENG_CHARACTER_CANNING:0 "George Canning"
+ENG_CHARACTER_RIPON:0 "The Earl of Ripon"
+ENG_CHARACTER_WELLINGTON:0 "The Duke of Wellington"
+ENG_CHARACTER_GREY:0 "The Earl Grey"
+ENG_CHARACTER_MELBOURNE:0 "The Viscount Melbourne"
+ENG_CHARACTER_PEEL:0 "Robert Peel"
+
 FRA_CHARACTER_BARRAS:0 "Paul François Jean Nicolas"
 FRA_CHARACTER_MARIE:0 "Louis Marie de La Révellière-Lépeaux"
 FRA_CHARACTER_REWBELL:0 "Jean-François Rewbell"
@@ -295,6 +308,12 @@ BEL_CHARLES_DESC:0 "Archduke Charles was an Austrian field-marshal, the third so
 
 BEL_CHARACTER_LEOPOLDI:0 "Leopold I"
 BEL_LEOPOLDI_DESC:0 "Leopold I was the first King of the Belgians, reigning from 21 July 1831 until his death in 1865."
+
+BEL_CHARACTER_AUGUSTE:0 "Auguste"
+BEL_AUGUSTE_DESC:0 ""
+
+BEL_CHARACTER_LOUIS:0 "Louis"
+BEL_LOUIS_DESC:0 ""
 
 HOL_CHARACTER_WILLIAMV:0 "William V"
 HOL_WILLIAMV_DESC:0 "William V was Prince of Orange and the last Stadtholder of the Dutch Republic. He went into exile to London in 1795. He was furthermore ruler of the Principality of Orange-Nassau until his death in 1806. In that capacity he was succeeded by his son William."

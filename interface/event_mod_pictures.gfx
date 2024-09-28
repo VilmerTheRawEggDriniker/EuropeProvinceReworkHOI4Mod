@@ -92,6 +92,55 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_metternich_small.dds"
 	}
 
+	        spriteType = {
+		name = "GFX_idea_eng_pitt_small"
+		texturefile = "gfx/interface/ideas/idea_pitt_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_addington_small"
+		texturefile = "gfx/interface/ideas/idea_addington_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_grenville_small"
+		texturefile = "gfx/interface/ideas/idea_grenville_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_portland_small"
+		texturefile = "gfx/interface/ideas/idea_portland_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_perceval_small"
+		texturefile = "gfx/interface/ideas/idea_perceval_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_liverpool_small"
+		texturefile = "gfx/interface/ideas/idea_liverpool_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_canning_small"
+		texturefile = "gfx/interface/ideas/idea_canning_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_ripon_small"
+		texturefile = "gfx/interface/ideas/idea_ripon_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_wellington_small"
+		texturefile = "gfx/interface/ideas/idea_wellington_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_grey_small"
+		texturefile = "gfx/interface/ideas/idea_grey_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_melbourne_small"
+		texturefile = "gfx/interface/ideas/idea_melbourne_small.dds"
+	}
+		        spriteType = {
+		name = "GFX_idea_eng_peel_small"
+		texturefile = "gfx/interface/ideas/idea_peel_small.dds"
+	}
+
         spriteType = {
 		name = "GFX_portrait_rus_kutuzov_large"
 		texturefile = "gfx/leaders/RUS/portrait_kutuzov_large.dds"
@@ -535,6 +584,14 @@ spriteTypes = {
         spriteType = {
 		name = "GFX_portrait_mas_francisiv_large"
 		texturefile = "gfx/leaders/MAS/portrait_francisiv_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_bel_auguste_large"
+		texturefile = "gfx/leaders/BEL/portrait_auguste_large.dds"
+	}
+	        spriteType = {
+		name = "GFX_portrait_bel_louis_large"
+		texturefile = "gfx/leaders/BEL/portrait_louis_large.dds"
 	}
         spriteType = {
 		name = "GFX_portrait_bel_casimir_large"

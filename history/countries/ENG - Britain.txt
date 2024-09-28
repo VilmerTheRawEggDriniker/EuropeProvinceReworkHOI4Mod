@@ -97,6 +97,60 @@ USA={set_cosmetic_tag = USA_ENG}
 	}
 }
 }
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1801.1.1 }
+ENG={activate_advisor = ENG_pitt}
+}
+}
+1812.1.1 = {
+			if = {
+		limit = { has_start_date < 1813.1.1 }
+ENG={activate_advisor = ENG_liverpool}
+}
+}
+1835.1.1 = {
+			if = {
+		limit = { has_start_date < 1837.1.1 }
+ENG={activate_advisor = ENG_melbourne}
+}
+}
+1780.1.1 = {
+recruit_character=ENG_pitt
+recruit_character=ENG_addington
+recruit_character=ENG_grenville
+recruit_character=ENG_portland
+recruit_character=ENG_perceval
+recruit_character=ENG_liverpool
+recruit_character=ENG_canning
+recruit_character=ENG_ripon
+recruit_character=ENG_wellington
+recruit_character=ENG_grey
+recruit_character=ENG_melbourne
+recruit_character=ENG_peel
+}
+1812.1.1 = {
+retire_character=ENG_pitt
+retire_character=ENG_portland
+retire_character=ENG_perceval
+}
+1836.1.1 = {
+retire_character=ENG_grenville
+retire_character=ENG_liverpool
+retire_character=ENG_canning
+}
+1848.1.1={
+retire_character=ENG_addington
+retire_character=ENG_grey
+}
+1859.1.1={
+retire_character=ENG_wellington
+retire_character=ENG_melbourne
+retire_character=ENG_peel
+}
+1860.1.1={
+retire_character=ENG_ripon
+}
 1533.1.1 = {
 recruit_character=ENG_elizabethi
 promote_character=ENG_elizabethi
@@ -132,14 +186,13 @@ retire_character=ENG_kingwilliamoforangeisaslutforbigjewishcock
 1762.1.1 = {
 recruit_character=ENG_georgeiiieng
 promote_character=ENG_georgeiiieng
+recruit_character=ENG_georgeiveng
+recruit_character=ENG_williamiveng
 }
 1820.1.1 = {
-recruit_character=ENG_georgeiveng
-promote_character=ENG_georgeiveng
 retire_character=ENG_georgeiiieng
 }
 1835.1.1 = {
-recruit_character=ENG_williamiveng
 promote_character=ENG_williamiveng
 retire_character=ENG_georgeiveng
 }
@@ -743,6 +796,7 @@ add_to_faction = MAL
 }
 }
 # Order matters - here Chamberlain becomes starting leader
+1936.1.1 = {
 recruit_character = ENG_oswald_mosley
 recruit_character = ENG_winston_churchill
 recruit_character = ENG_harry_pollitt
@@ -836,7 +890,7 @@ recruit_character = ENG_sylvia_pankhurst
 recruit_character = ENG_stewart_menzies
 recruit_character = ENG_maxwell_aitken
 recruit_character = ENG_thomas_moore
-
+}
 
 
 if = {

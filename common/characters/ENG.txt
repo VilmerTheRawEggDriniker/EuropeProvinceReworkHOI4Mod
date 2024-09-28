@@ -1,4 +1,383 @@
 characters={
+	ENG_pitt={
+		name=ENG_CHARACTER_PITT
+		portraits={
+                        army={
+				small="GFX_idea_eng_pitt_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_pitt_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_pitt
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_tory
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+	ENG_addington={
+		name=ENG_CHARACTER_ADDINGTON
+		portraits={
+                        army={
+				small="GFX_idea_eng_addington_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_addington_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_addington
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_tory
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+		ENG_grenville={
+		name=ENG_CHARACTER_GRENVILLE
+		portraits={
+                        army={
+				small="GFX_idea_eng_grenville_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_grenville_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_grenville
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_whig
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
+		ENG_portland={
+		name=ENG_CHARACTER_PORTLAND
+		portraits={
+                        army={
+				small="GFX_idea_eng_portland_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_portland_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_portland
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_tory
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+		ENG_perceval={
+		name=ENG_CHARACTER_PERCEVAL
+		portraits={
+                        army={
+				small="GFX_idea_eng_perceval_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_perceval_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_perceval
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_tory
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+		ENG_liverpool={
+		name=ENG_CHARACTER_LIVERPOOL
+		portraits={
+                        army={
+				small="GFX_idea_eng_liverpool_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_liverpool_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_liverpool
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_tory
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+		ENG_canning={
+		name=ENG_CHARACTER_CANNING
+		portraits={
+                        army={
+				small="GFX_idea_eng_canning_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_canning_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_canning
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_tory
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+		ENG_ripon={
+		name=ENG_CHARACTER_RIPON
+		portraits={
+                        army={
+				small="GFX_idea_eng_ripon_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_ripon_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_ripon
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_tory
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+		ENG_wellington={
+		name=ENG_CHARACTER_WELLINGTON
+		portraits={
+                        army={
+				small="GFX_idea_eng_wellington_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_wellington_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_wellington
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_tory
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+		ENG_grey={
+		name=ENG_CHARACTER_GREY
+		portraits={
+                        army={
+				small="GFX_idea_eng_grey_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_grey_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_grey
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_whig
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+		ENG_melbourne={
+		name=ENG_CHARACTER_MELBOURNE
+		portraits={
+                        army={
+				small="GFX_idea_eng_melbourne_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_melbourne_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_melbourne
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_whig
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}	
+		ENG_peel={
+		name=ENG_CHARACTER_PEEL
+		portraits={
+                        army={
+				small="GFX_idea_eng_peel_small"
+			}
+			civilian = {
+				large = GFX_portrait_eng_peel_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = ENG_peel
+			allowed  = {
+				original_tag  = ENG
+			}
+			available  = {
+		        }
+			traits  = {
+				britain_prime_minister_conservative
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}		
+
+
+
+
+
+
+
 	ENG_kingwilliamoforangeisaslutforbigjewishcock={
 		name=ENG_CHARACTER_KINGWILLIAMOFORANGEISASLUTFORBIGJEWISHCOCK
 		portraits={

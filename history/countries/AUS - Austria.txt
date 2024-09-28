@@ -40,7 +40,400 @@ set_country_flag = napoleondead
 
 
 #HRE
+1799.1.1 = {
+			if = {
+		limit = { has_start_date < 1801.1.1 }
+set_autonomy = {
+	target = WRZ
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
 
+
+set_autonomy = {
+	target = NEU
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = TRT
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = REG
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = PAS
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = GOS
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = HBG
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = HLS
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = HLD
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = OSN
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = RIE
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = LIP
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = WLD
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = BAD
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = BRU
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+
+set_autonomy = {
+	target = WRZ
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+   
+
+set_autonomy = {
+	target = LCT
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}   
+
+
+set_autonomy = {
+	target = PFZ
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = MEK
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+  
+
+
+set_autonomy = {
+	target = NAS
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = PAD
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = BAY
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = HAN
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = RTH
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = ULM
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = BUC
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = LBK
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = WUR
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = SAX
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = NUR
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = DOR
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = THU
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = HES
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = ANH
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = SAL
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+   
+
+
+set_autonomy = {
+	target = BRG
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = BAM
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = FUL
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = PRE
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = STR
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = BRN
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = CLW
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+ 
+
+
+set_autonomy = {
+	target = MUN
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+   
+
+
+set_autonomy = {
+	target = KON
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+ 
+
+
+set_autonomy = {
+	target = FUR
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+    
+
+
+set_autonomy = {
+	target = WTZ
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = OLD
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = TRR
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = AUG
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = WRZ
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = HOH
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = SXL
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = HSE
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = COB
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = FKF
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}    
+
+
+set_autonomy = {
+	target = BTH
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+}
+}
+}
 
 
 
@@ -50,12 +443,30 @@ set_country_flag = napoleondead
 
 1788.1.1 = {
 			if = {
-		limit = { has_start_date < 1790.01.01 }
+		limit = { has_start_date < 1790.1.1 }
 set_autonomy = {
 	target = WRZ
 	autonomous_state = autonomy_hre_subject
 	freedom_level = 0.1
 }
+
+set_autonomy = {
+	target = AAC
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+} 
+
+set_autonomy = {
+	target = ZWE
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+} 
+
+set_autonomy = {
+	target = ANS
+	autonomous_state = autonomy_hre_subject
+	freedom_level = 0.1
+} 
 
 set_autonomy = {
 	target = BSL
@@ -152,12 +563,7 @@ set_autonomy = {
 	autonomous_state = autonomy_hre_subject
 	freedom_level = 0.1
 }    
-
-set_autonomy = {
-	target = AAC
-	autonomous_state = autonomy_hre_subject
-	freedom_level = 0.1
-}   
+ 
 
 set_autonomy = {
 	target = LCT
@@ -313,11 +719,7 @@ set_autonomy = {
 }    
 
 
-set_autonomy = {
-	target = ANS
-	autonomous_state = autonomy_hre_subject
-	freedom_level = 0.1
-}    
+  
 
 
 set_autonomy = {
@@ -382,12 +784,7 @@ set_autonomy = {
 	freedom_level = 0.1
 }    
 
-
-set_autonomy = {
-	target = ZWE
-	autonomous_state = autonomy_hre_subject
-	freedom_level = 0.1
-}    
+  
 
 
 set_autonomy = {
@@ -529,7 +926,7 @@ remove_ideas = {
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1790.1.1 }
+		limit = { has_start_date < 1809.1.1 }
 AUS={
 create_faction = HolyRomanEmpireoftheGermanNation
 }
