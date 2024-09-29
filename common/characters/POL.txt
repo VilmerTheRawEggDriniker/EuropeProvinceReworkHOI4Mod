@@ -1708,4 +1708,19 @@ characters = {
 			}
 		}
 	}
+
+	POL_jozef_pilsudzki={
+		
+		name=POL_CHARACTER_JOZEF_PILSUDZKI
+		portraits={
+			civilian={
+				large="GFX_portrait_POL_jozef_pilsudzki"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1935.12.5"
+		}
+}
+
 }
