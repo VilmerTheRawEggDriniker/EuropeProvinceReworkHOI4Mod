@@ -27,6 +27,14 @@ retire_character=POL_stanislawiiaugust
 1836.1.1 = {
 retire_character=POL_frederickaugustusipol
 }
+1919.1.1 = {
+recruit_character=POL_jozef_pilsudzki
+promote_character=POL_jozef_pilsudzki
+load_focus_tree = polish_focus
+POL = {
+	white_peace = SOV
+}
+}
 1926.1.1 = {
 recruit_character=POL_ignacy_moscicki
 promote_character=POL_ignacy_moscicki
@@ -41,7 +49,7 @@ set_oob = "POL_1919"
 }
 }
 1815.11.11 = {
-set_cosmetic_tag = POL_RUS # Kingdom of Poland necessarily Congress Poland
+set_cosmetic_tag = POL_RUS_neutrality # Kingdom of Poland necessarily Congress Poland
 }
 1915.1.1 = {
 set_cosmetic_tag = POL # Modern
