@@ -1,0 +1,7 @@
+spriteTypes = {
+		spriteType = {
+		name = "GFX_portrait_POL_jozef_pilsudzki"
+		texturefile = "gfx/leaders/POL/portrait_POL_jozef_pilsudzki.dds"
+	}
+	}
+		
