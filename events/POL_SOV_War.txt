@@ -1,0 +1,49 @@
+
+add_namespace = POL_SOV_War
+add_namespace = riga
+
+country_event = {       #Skirmish at Bereza #for soviets
+	id = POL_SOV_War.1
+	title = POL_SOV_War.1.t
+	desc = POL_SOV_War.1.d
+	picture = GFX_report_event_polish_tanks_01
+	
+
+	is_triggered_only = yes
+	
+option = {
+		name = POL_SOV_War.1.a
+        POL = {
+			declare_war_on = {
+   		target = SOV
+    	type = annex_everything
+		}
+        }
+	}
+}
+
+	country_event = {       #Treaty Of Riga #for soviets
+	id = riga.1
+	title = riga.1.t
+	desc = riga.1.d
+	picture = GFX_report_event_polish_tanks_01
+
+	is_triggered_only = yes
+	
+	option = {
+		name = riga.1.a
+		POL = {
+		white_peace = SOV
+		transfer_state = 96
+		transfer_state = 91
+		transfer_state = 94
+		transfer_state = 965
+		transfer_state = 93
+		transfer_state = 95
+		transfer_state = 97
+		transfer_state = 1118
+		transfer_state = 784
+		transfer_state = 1119
+		}
+	}
+	}
