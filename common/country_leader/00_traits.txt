@@ -13,7 +13,19 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
+	britain_prime_minister = {
+		random = no
+political_power_gain = -1
+stability_factor=0.1
+industrial_capacity_dockyard = 0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	britain_prime_minister_whig = {
+	stability_factor=0.1
+	democratic_acceptance=20
+	consumer_goods_factor=0.01
 		random = no
 
 
@@ -23,13 +35,16 @@ leader_traits = {
 	}
 	britain_prime_minister_tory = {
 		random = no
-
+neutrality_acceptance=20
+war_support_factor=-0.05
 
 		ai_will_do = {
 			factor = 1
 		}
 	}
 	britain_prime_minister_conservative = {
+	democratic_acceptance=10
+	neutrality_acceptance=10
 		random = no
 
 
