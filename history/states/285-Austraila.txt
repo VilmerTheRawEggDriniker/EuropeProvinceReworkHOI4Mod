@@ -5,8 +5,10 @@ state={
 
 	history={
 		owner = ZZZ
-		1788.1.1 = {
-                owner = ENG
+		1789.1.1 = {
+			owner = AST
+			controller = AST
+            add_core_of = AST
 		}
 		1899.1.1 = {
 		buildings = {
@@ -18,12 +20,6 @@ state={
 		victory_points = {
 			7859 30 
 		}
-		}
-		1899.1.1 = {
-		}
-		1900.1.1 = {
-                owner = AST
-                add_core_of = AST
 		}
 		1922.1.1 = {
 		buildings = {

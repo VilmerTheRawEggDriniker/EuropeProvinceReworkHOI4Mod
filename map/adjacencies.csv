@@ -33,6 +33,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 11465;13336;sea;503;-1;-1;-1;-1;;Nantes
 
 
+9340;14428;sea;6459;-1;-1;-1;-1;;Daugava
+14421;3255;sea;6459;-1;-1;-1;-1;;Daugava
+310;11358;sea;7482;-1;-1;-1;-1;;Daugava
+14400;14397;sea;7482;-1;-1;-1;-1;;Daugava
 
 
 

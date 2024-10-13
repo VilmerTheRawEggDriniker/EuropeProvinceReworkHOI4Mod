@@ -44,6 +44,12 @@ recruit_character=FRA_talleyrand
 retire_character=FRA_talleyrand
 }
 1789.1.1 = {
+recruit_character=FRA_guizot
+}
+1875.1.1 = {
+retire_character=FRA_guizot
+}
+1789.1.1 = {
 recruit_character=FRA_jacquesnecker
 }
 1812.1.1 = {
@@ -141,6 +147,12 @@ ENG={
 		autonomous_state = autonomy_protectorate
 	}
 }
+}
+}
+1835.1.1 = {
+			if = {
+		limit = { has_start_date < 1837.1.1 }
+FRA={activate_advisor = FRA_guizot}
 }
 }
 1900.1.1 = {

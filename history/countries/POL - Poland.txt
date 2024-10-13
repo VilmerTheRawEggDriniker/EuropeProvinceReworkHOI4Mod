@@ -15,6 +15,47 @@ set_cosmetic_tag = POL # poland
 	}
 }
 }
+1789.1.1 = {
+recruit_character=POL_pawel
+recruit_character=POL_feliks
+recruit_character=POL_maria
+recruit_character=POL_kazimierz
+
+recruit_character=POL_katarzyna
+recruit_character=POL_anna
+recruit_character=POL_ludwik
+recruit_character=POL_jerzy
+
+recruit_character=POL_eleonora
+recruit_character=POL_elzbieta
+recruit_character=POL_jozef
+}
+1800.1.1 = {
+retire_character=POL_jerzy
+retire_character=POL_eleonora
+retire_character=POL_jozef
+}
+1812.1.1 = {
+retire_character=POL_kazimierz
+retire_character=POL_katarzyna
+retire_character=POL_anna
+retire_character=POL_ludwik
+retire_character=POL_elzbieta
+}
+1836.1.1 = {
+retire_character=POL_pawel
+retire_character=POL_maria
+}
+1852.1.1 = {
+retire_character=POL_feliks
+}
+
+
+
+
+
+
+
 1764.1.1 = {
 recruit_character=POL_stanislawiiaugust
 promote_character=POL_stanislawiiaugust
@@ -525,6 +566,7 @@ set_popularities = {
 	neutrality = 7
 }
 }
+1936.1.1 = {
 recruit_character = POL_wladyslaw_sikorski
 recruit_character = POL_boleslaw_wieniawa_glugoszowski
 recruit_character = POL_wladyslaw_gomulka
@@ -780,7 +822,7 @@ if = {
 	}
 }
 
-
+}
 # 1939 Start #
 1939.1.1 = {
 	if = {

@@ -88,6 +88,10 @@ FRA_reign_of_terror:0 "The Reign of Terror"
 
 FRA_revolution:0 "The French Revolution" 
 
+eng_signed_treaty_of_reichenbach:0 "Britain Signed the Treaty of Reichenbach" 
+
+RUS_sweden_restoration_oldenburg:0 "Russian Restoration of the Oldenburg Dynasty in Sweden" 
+
 aus_extinction_of_the_house_of_habsburg:0 "The Extinction of the House of Habsburg" 
 
 aus_vulnerable_position:0 "Habsburg-Lorraine Empire in a Vulnerable Position" 
@@ -204,3 +208,19 @@ britain_prime_minister_conservative:0"Conservative"
 britain_prime_minister:0"Prime Minister"
 pre_hol_debt_invade:0"the Prussian invasion of Holland"
 pre_too_big_army:0"The Prussian Army"
+france_conservative_liberal:0"Conservative Liberal"
+france_ministerofpubliceducation:0"Minister of Public Education"
+
+	opposition_leader_pol:0"Opposition Leader"
+	opposition_pol:0"Opposition Politician"
+	deputy_to_the_sejm_pol:0"Deputy to the Sejm"
+	ruler_of_the_city_of_radzymin_pol:0"Whig"
+	freemason_pol:0"Freemason"
+	calvinism_pol :0"Calvinist"
+	member_of_the_sejm_pol:0"Member of the Sejm"
+	secretary_to_the_king_pol:0"Secretary to the King"
+	envoy_to_the_sejm_pol:0"Envoy to the Sejm"
+	member_of_the_military_commission_of_the_commonwealth_pol:0"Member of the Military Commision"
+	pro_kosciuszko_pol:0"Pro-Kościuszko Politician"
+	partion_collaborator_pol:0"Partion Collaborator"
+	patriotic_party_pol:0"Member of the Patriotic Party"

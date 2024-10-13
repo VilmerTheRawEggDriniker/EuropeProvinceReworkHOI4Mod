@@ -1,4 +1,48 @@
 #reload countrycolors
+NOS = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+NOC = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+ITO = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+ONT = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+FOU = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+NBR = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+PEI = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+WST = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+
+
+
+
+
+
+
+
+COW = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
+}
 MAR = {
 	color = rgb { 255 227 92 }
 	color_ui = rgb { 255 227 92 }
@@ -23,7 +67,10 @@ BAK = {
 	color = rgb { 112 198 95 }
 	color_ui = rgb { 112 198 95 }
 }
-
+GAN = {
+	color = rgb { 67 183 85 }
+	color_ui = rgb { 67 183 85 }
+}
 
 MIG = {
 	color = rgb { 71 69 209 }
@@ -1896,8 +1943,8 @@ MRD = {
 	color_ui = rgb { 255 245 73 }
 }
 OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 AUH = {
 	color = rgb { 255 255 255 }

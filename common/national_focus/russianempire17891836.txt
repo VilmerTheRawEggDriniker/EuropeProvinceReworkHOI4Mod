@@ -1156,7 +1156,6 @@ focus_tree = {
 		completion_reward = {
         		RUS={
 		transfer_state = 1225
-		transfer_state = 1212
 		transfer_state = 194
 		transfer_state = 204
 		transfer_state = 206

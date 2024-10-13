@@ -1,4 +1,401 @@
 characters={
+			ENG_henrygeneral={
+		name=ENG_CHARACTER_HENRYGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_henrygeneral_large
+				small=GFX_portrait_eng_henrygeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_princehenrygeneral={
+		name=ENG_CHARACTER_PRINCEHENRYGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_princehenrygeneral_large
+				small=GFX_portrait_eng_princehenrygeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_howardgeneral={
+		name=ENG_CHARACTER_HOWARDGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_howardgeneral_large
+				small=GFX_portrait_eng_howardgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_frederickgeneral={
+		name=ENG_CHARACTER_FREDERICKGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_frederickgeneral_large
+				small=GFX_portrait_eng_frederickgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_argyllgeneral={
+		name=ENG_CHARACTER_ARGYLLGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_argyllgeneral_large
+				small=GFX_portrait_eng_argyllgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_amherstgeneral={
+		name=ENG_CHARACTER_AMHERSTGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_amherstgeneral_large
+				small=GFX_portrait_eng_amherstgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_waldengeneral={
+		name=ENG_CHARACTER_WALDENGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_waldengeneral_large
+				small=GFX_portrait_eng_waldengeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_hodgsongeneral={
+		name=ENG_CHARACTER_HODGSONGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_hodgsongeneral_large
+				small=GFX_portrait_eng_hodgsongeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_townshendgeneral={
+		name=ENG_CHARACTER_TOWNSHENDGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_townshendgeneral_large
+				small=GFX_portrait_eng_townshendgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_cavendishgeneral={
+		name=ENG_CHARACTER_CAVENDISHGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_cavendishgeneral_large
+				small=GFX_portrait_eng_cavendishgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=0
+		}
+	}
+			ENG_richmondgeneral={
+		name=ENG_CHARACTER_RICHMONDGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_richmondgeneral_large
+				small=GFX_portrait_eng_richmondgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}		
+	        ENG_edwardgeneral={
+		name=ENG_CHARACTER_EDWARDGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_edwardgeneral_large
+				small=GFX_portrait_eng_edwardgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_wellingtongeneral={
+		name=ENG_CHARACTER_WELLINGTONGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_wellingtongeneral_large
+				small=GFX_portrait_eng_wellingtongeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_ernestgeneral={
+		name=ENG_CHARACTER_ERNESTGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_ernestgeneral_large
+				small=GFX_portrait_eng_ernestgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_adolphusgeneral={
+		name=ENG_CHARACTER_ADOLPHUSGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_adolphusgeneral_large
+				small=GFX_portrait_eng_adolphusgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_williamgeneral={
+		name=ENG_CHARACTER_WILLIAMGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_williamgeneral_large
+				small=GFX_portrait_eng_williamgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_leopoldgeneral={
+		name=ENG_CHARACTER_LEOPOLDGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_leopoldgeneral_large
+				small=GFX_portrait_eng_leopoldgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_droghedageneral={
+		name=ENG_CHARACTER_DROGHEDAGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_droghedageneral_large
+				small=GFX_portrait_eng_droghedageneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_harcourtgeneral={
+		name=ENG_CHARACTER_HARCOURTGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_harcourtgeneral_large
+				small=GFX_portrait_eng_harcourtgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_clarkegeneral={
+		name=ENG_CHARACTER_CLARKEGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_clarkegeneral_large
+				small=GFX_portrait_eng_clarkegeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			ENG_hulsegeneral={
+		name=ENG_CHARACTER_HULSEGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_hulsegeneral_large
+				small=GFX_portrait_eng_hulsegeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	ENG_pitt={
 		name=ENG_CHARACTER_PITT
 		portraits={

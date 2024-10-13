@@ -1,4 +1,401 @@
 characters = {
+			POL_pawel={
+		name=POL_CHARACTER_PAWEL
+		portraits={
+                        army={
+				small="GFX_idea_pol_pawel_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_pawel_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_pawel
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				stuart_exile_ultraroyalist
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_feliks={
+		name=POL_CHARACTER_FELIKS
+		portraits={
+                        army={
+				small="GFX_idea_pol_feliks_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_feliks_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_feliks
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				stuart_exile_ultraroyalist
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_maria={
+		name=POL_CHARACTER_MARIA
+		portraits={
+                        army={
+				small="GFX_idea_pol_maria_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_maria_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_maria
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				stuart_exile_ultraroyalist
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_kazimierz={
+		name=POL_CHARACTER_KAZIMIERZ
+		portraits={
+                        army={
+				small="GFX_idea_pol_kazimierz_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_kazimierz_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_kazimierz
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				pro_kosciuszko_pol
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_katarzyna={
+		name=POL_CHARACTER_KATARZYNA
+		portraits={
+                        army={
+				small="GFX_idea_pol_katarzyna_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_katarzyna_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_katarzyna
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				stuart_exile_ultraroyalist
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_anna={
+		name=POL_CHARACTER_ANNA
+		portraits={
+                        army={
+				small="GFX_idea_pol_anna_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_anna_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_anna
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				stuart_exile_ultraroyalist
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_ludwik={
+		name=POL_CHARACTER_LUDWIK
+		portraits={
+                        army={
+				small="GFX_idea_pol_ludwik_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_ludwik_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_ludwik
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				pro_kosciuszko_pol
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_jerzy={
+		name=POL_CHARACTER_JERZY
+		portraits={
+                        army={
+				small="GFX_idea_pol_jerzy_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_jerzy_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_jerzy
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				calvinism_pol
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_elzbieta={
+		name=POL_CHARACTER_ELZBIETA
+		portraits={
+                        army={
+				small="GFX_idea_pol_elzbieta_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_elzbieta_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_elzbieta
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				stuart_exile_ultraroyalist
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_eleonora={
+		name=POL_CHARACTER_ELEONORA
+		portraits={
+                        army={
+				small="GFX_idea_pol_eleonora_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_eleonora_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_eleonora
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				stuart_exile_ultraroyalist
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_jozef={
+		name=POL_CHARACTER_JOZEF
+		portraits={
+                        army={
+				small="GFX_idea_pol_jozef_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_jozef_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_jozef
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				stuart_exile_ultraroyalist
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			POL_stuart={
+		name=POL_CHARACTER_STUART
+		portraits={
+                        army={
+				small="GFX_idea_pol_stuart_small"
+			}
+			civilian = {
+				large = GFX_portrait_pol_stuart_large
+			}
+		}
+		advisor={
+			slot = political_advisor
+			idea_token = POL_stuart
+			allowed  = {
+				original_tag  = POL
+			}
+			available  = {
+		        }
+			traits  = {
+				stuart_exile_ultraroyalist
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	POL_stanislawiiaugust={
 		name=POL_CHARACTER_STANISLAWIIAUGUST
 		portraits={

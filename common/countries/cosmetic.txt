@@ -10,6 +10,10 @@ PRE_BDB = {
 	color = rgb { 114 84 50 }
 	color_ui = rgb { 114 84 50 }
 }
+POL_LIT = {
+	color = rgb { 214 102 139 }
+	color_ui = rgb { 255 120 138 }
+}
 ISR_ENG = {
 	color = rgb { 150 0 0 }
 	color_ui = rgb { 150 0 0 }
@@ -19,6 +23,22 @@ IRE_ENG = {
 	color_ui = rgb { 150 0 0 }
 }
 BRM_ENG = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+AST_ENG_britain = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+AST_ENG_britain_newflag = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+QUE_ENG_britain = {
+	color = rgb { 150 0 0 }
+	color_ui = rgb { 150 0 0 }
+}
+QUE_ENG_britain_newflag = {
 	color = rgb { 150 0 0 }
 	color_ui = rgb { 150 0 0 }
 }
@@ -75,48 +95,48 @@ COG_BEL = {
 	color_ui = rgb { 251 222 10 }
 }
 ALB_GRE = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 SER_OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 WAL_OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 MIG_OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 SVA_OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 MOL_OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 ABK_OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 IME_OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 GUR_OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 LEB_OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 IRQ_OTO = {
-	color = rgb { 126  203  120 }
-	color_ui = rgb { 126  203  120 }
+	color = rgb { 169 17 1 }
+	color_ui = rgb { 169 17 1 }
 }
 FIN_RUS = {
 	color = rgb { 23 103 46 }

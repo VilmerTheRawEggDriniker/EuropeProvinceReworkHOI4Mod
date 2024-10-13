@@ -1,4 +1,13 @@
 ﻿capital = 285
+1789.1.1 = {
+set_cosmetic_tag = AST_ENG_britain
+}
+1801.1.1 = {
+set_cosmetic_tag = AST_ENG_britain_newflag
+}
+1901.1.1 = {
+set_cosmetic_tag = AST
+}
 1936.1.1 = {
 oob = "AST_1936"
 }

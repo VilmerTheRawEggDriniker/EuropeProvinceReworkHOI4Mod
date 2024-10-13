@@ -10,7 +10,6 @@
 }
 }
 2024.1.1 = {
-country_lock_all_division_template = yes
 set_oob = "RUS_2024"
 }
 1789.1.1 = {

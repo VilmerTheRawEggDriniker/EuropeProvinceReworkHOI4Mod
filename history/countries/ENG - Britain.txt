@@ -115,6 +115,67 @@ ENG={activate_advisor = ENG_liverpool}
 ENG={activate_advisor = ENG_melbourne}
 }
 }
+1789.1.1 = {
+recruit_character=ENG_henrygeneral
+recruit_character=ENG_princehenrygeneral
+recruit_character=ENG_howardgeneral
+recruit_character=ENG_frederickgeneral
+
+recruit_character=ENG_argyllgeneral
+recruit_character=ENG_amherstgeneral
+recruit_character=ENG_waldengeneral
+recruit_character=ENG_hodgsongeneral
+
+recruit_character=ENG_townshendgeneral
+recruit_character=ENG_cavendishgeneral
+recruit_character=ENG_richmondgeneral
+recruit_character=ENG_edwardgeneral
+
+recruit_character=ENG_wellingtongeneral
+recruit_character=ENG_ernestgeneral
+recruit_character=ENG_adolphusgeneral
+recruit_character=ENG_williamgeneral
+
+recruit_character=ENG_leopoldgeneral
+recruit_character=ENG_droghedageneral
+recruit_character=ENG_harcourtgeneral
+recruit_character=ENG_clarkegeneral
+
+recruit_character=ENG_hulsegeneral
+}
+1800.1.1 = {
+retire_character=ENG_henrygeneral
+retire_character=ENG_howardgeneral
+retire_character=ENG_amherstgeneral
+retire_character=ENG_waldengeneral
+retire_character=ENG_hodgsongeneral
+}
+1812.1.1 = {
+retire_character=ENG_princehenrygeneral
+retire_character=ENG_argyllgeneral
+retire_character=ENG_townshendgeneral
+retire_character=ENG_cavendishgeneral
+retire_character=ENG_richmondgeneral
+}
+1836.1.1 = {
+retire_character=ENG_frederickgeneral
+retire_character=ENG_edwardgeneral
+retire_character=ENG_williamgeneral
+retire_character=ENG_droghedageneral
+retire_character=ENG_harcourtgeneral
+retire_character=ENG_clarkegeneral
+}
+1848.1.1 = {
+retire_character=ENG_hulsegeneral
+}
+1859.1.1 = {
+retire_character=ENG_wellingtongeneral
+retire_character=ENG_ernestgeneral
+retire_character=ENG_adolphusgeneral
+}
+1900.1.1 = {
+retire_character=ENG_leopoldgeneral
+}
 1780.1.1 = {
 recruit_character=ENG_pitt
 recruit_character=ENG_addington
@@ -234,6 +295,56 @@ set_cosmetic_tag = ENG_britain # british empire
 }
 1801.1.1 = {
 set_cosmetic_tag = ENG_britain_newflag # british empire
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1860.1.1 }
+    set_autonomy = {
+        target = ITO
+        autonomous_state = autonomy_colony
+        freedom_level = 0.35
+	}
+    set_autonomy = {
+        target = PEI
+        autonomous_state = autonomy_colony
+        freedom_level = 0.35
+	}
+	set_autonomy = {
+        target = NBR
+        autonomous_state = autonomy_colony
+        freedom_level = 0.35
+	}
+	set_autonomy = {
+        target = FOU
+        autonomous_state = autonomy_colony
+        freedom_level = 0.35
+	}
+	set_autonomy = {
+        target = NOS
+        autonomous_state = autonomy_colony
+        freedom_level = 0.35
+	}
+	set_autonomy = {
+        target = QUE
+        autonomous_state = autonomy_colony
+        freedom_level = 0.35
+	}
+	set_autonomy = {
+        target = NOC
+        autonomous_state = autonomy_colony
+        freedom_level = 0.35
+	}
+}
+}
+1791.1.1 = {
+		if = {
+		limit = { has_start_date < 1860.1.1 }
+    set_autonomy = {
+        target = ONT
+        autonomous_state = autonomy_colony
+        freedom_level = 0.35
+	}
+}
 }
 1936.1.1 = {
 if = {
@@ -499,7 +610,14 @@ set_convoys = 800
         freedom_level = 0.4
     }
 }
-1900.1.1 = {
+1789.1.1 = {
+    set_autonomy = {
+        target = AST
+        autonomous_state = autonomy_colony
+        freedom_level = 0.2
+	}
+    }
+1901.1.1 = {
     set_autonomy = {
         target = AST
         autonomous_state = autonomy_dominion

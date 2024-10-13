@@ -409,6 +409,39 @@ characters={
 			}
 		}	
 	}
+		FRA_guizot={
+		name=FRA_CHARACTER_GUIZOT
+		portraits={
+                        army={
+				small="GFX_idea_fra_guizot_small"
+			}
+			civilian = {
+				large = GFX_portrait_fra_guizot_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FRA_guizot
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+		    date > 1814.1.1 
+		        }
+			traits  = {
+				france_conservative_liberal
+				france_ministerofpubliceducation
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
 	FRA_louisxvi={
 		name=FRA_CHARACTER_LOUISXVI
 		portraits={

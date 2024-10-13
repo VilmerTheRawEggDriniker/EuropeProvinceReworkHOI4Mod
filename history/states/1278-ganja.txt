@@ -5,14 +5,14 @@ state={
 		owner = QAR
 		add_core_of = QAR
 		1600.1.1 = {
-			owner = KRB
-			add_core_of = KRB
+			owner = GAN
+			add_core_of = GAN
 			remove_core_of = QAR
 
 		}
 		1700.1.1 = {
-			owner = KRB
-			add_core_of = KRB
+			owner = GAN
+			add_core_of = GAN
 			remove_core_of = SHI
 
 		}
@@ -32,7 +32,7 @@ state={
         remove_core_of = NAK
 		remove_core_of = TAL
 		remove_core_of = BAK
-		remove_core_of = KRB
+		remove_core_of = GAN
 		remove_core_of = ERV
 		}
 		1813.1.1 = {

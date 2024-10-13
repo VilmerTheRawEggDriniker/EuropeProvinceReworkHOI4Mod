@@ -2268,7 +2268,6 @@ has_country_flag=treaty_secondpartion_flag
 		completion_reward = {
 		       		RUS={
 		transfer_state = 1225
-		transfer_state = 1212
 		transfer_state = 194
 		transfer_state = 204
 		transfer_state = 206
@@ -2335,7 +2334,6 @@ has_country_flag=treaty_secondpartion_flag
 		state=194
 		state=204
 		state=206
-		state=1212
 		state=1225
 		}
 		}

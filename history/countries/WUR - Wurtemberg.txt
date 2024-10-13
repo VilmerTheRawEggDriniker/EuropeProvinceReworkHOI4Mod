@@ -184,6 +184,9 @@ set_cosmetic_tag = WUR_electorate # Wurtemberg Electorate
 1806.1.1 = {
 set_cosmetic_tag = WUR_kingdom # Wurtemberg Kingdom
 }
+1817.1.1 = {
+set_cosmetic_tag = WUR_kingdom_newflag # Wurtemberg Kingdom
+}
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1444.11.11"

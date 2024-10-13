@@ -14346,8 +14346,6 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		add_war_support=-0.05
-		remove_ideas={aus_extinction_of_the_house_of_habsburg}
 		}
 	}
 		focus = {

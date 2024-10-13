@@ -1,16 +1,20 @@
+
 state={
 	id=1277
 	name="STATE_1277"
-		history={
+
+	history={
 		add_core_of = ARM
 		add_core_of = GEO
 		owner = GEO
 		1600.1.1 = {
 			remove_core_of = GEO
-        owner = KRT
+			owner = KRT
+
 		}
-				1600.1.1 = {
-		add_core_of = PER
+		1600.1.1 = {
+			add_core_of = PER
+
 		}
 		1919.1.1 = {
 			remove_core_of = PER
@@ -25,17 +29,19 @@ state={
 		}
 		1789.1.1 = {
 			owner = GEO
+
 		}
 		1801.1.1 = {
 			owner = RUS
 			add_core_of = RUS
 
 		}
-				victory_points = {
-		14056 1 
+		victory_points = {
+			14056 1 
 		}
 		buildings = {
 			infrastructure = 1
+
 		}
 		1920.1.1 = {
 			owner = SOV
@@ -51,9 +57,11 @@ state={
 			remove_core_of = SOV
 
 		}
+
 	}
+
 	provinces={
-		12380 12450 14056 
+		11708 12380 12450 14056 
 	}
 	manpower=100000
 	buildings_max_level_factor=1.000

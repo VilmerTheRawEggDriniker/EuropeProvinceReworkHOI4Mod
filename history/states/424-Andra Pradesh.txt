@@ -14,9 +14,10 @@ state={
 		add_core_of = CTC
 		owner = CTC
 		}
-		1800.1.1 = {
+		1789.1.1 = {
 	    add_core_of = RAJ
 		remove_core_of=CTC
+		remove_core_of=MUG
 		owner = RAJ
 				buildings = {
 			infrastructure = 2

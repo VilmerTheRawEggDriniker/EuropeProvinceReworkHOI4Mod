@@ -13,6 +13,112 @@
 ###Todo remove commented advisor experience gains
 
 leader_traits = {
+	opposition_leader_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	opposition_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	deputy_to_the_sejm_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	ruler_of_the_city_of_radzymin_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	freemason_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	calvinism_pol = {
+		random = no
+    neutrality_drift = 0.01
+	neutrality_acceptance=5
+	stability_factor=-0.01
+	political_power_gain = -0.01
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	member_of_the_sejm_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	secretary_to_the_king_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	envoy_to_the_sejm_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	member_of_the_military_commission_of_the_commonwealth_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	pro_kosciuszko_pol = {
+		random = no
+		stability_factor=-0.1
+		war_support_factor=0.2
+political_power_gain = 0.01
+democratic_acceptance=5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	partion_collaborator_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	patriotic_party_pol = {
+		random = no
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	france_conservative_liberal = {
+		random = no
+political_power_gain = 0.01
+stability_factor=0.1
+democratic_acceptance=20
+neutrality_acceptance=5
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	france_ministerofpubliceducation = {
+		random = no
+democratic_acceptance=5
+production_speed_industrial_complex_factor = 0.05
+industrial_capacity_dockyard = -0.05
+production_speed_arms_factory_factor = -0.05
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	britain_prime_minister = {
 		random = no
 political_power_gain = -1

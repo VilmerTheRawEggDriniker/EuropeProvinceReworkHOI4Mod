@@ -9,6 +9,48 @@ characters={
 #################################
 #################################
 
+	NOR_gustaviii={
+		name=NOR_CHARACTER_GUSTAVIII
+		portraits={
+			civilian={
+				large="GFX_portrait_nor_gustaviii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp}
+			desc = NOR_GUSTAVIII_DESC
+			expire="1797.1.1"
+		}
+}
+	NOR_gustavivadolf={
+		name=NOR_CHARACTER_GUSTAVIVADOLF
+		portraits={
+			civilian={
+				large="GFX_portrait_nor_gustavivadolf_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp}
+			desc = NOR_GUSTAVIVADOLF_DESC
+			expire="1797.1.1"
+		}
+}
+	NOR_charlesxiii={
+		name=NOR_CHARACTER_CHARLESXIII
+		portraits={
+			civilian={
+				large="GFX_portrait_nor_charlesxiii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Holstein-Gottorp}
+			desc = NOR_CHARLESXIII_DESC
+			expire="1797.1.1"
+		}
+}
 	NOR_charlesxivjohn={
 		name=NOR_CHARACTER_CHARLESXIVJOHN
 		portraits={

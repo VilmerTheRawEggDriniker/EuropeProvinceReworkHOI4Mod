@@ -21,21 +21,16 @@ state={
 			1652 20 
 		}
 		}
-		1830.1.1 = {
-			owner = ENG
-			controller = ENG
-            remove_core_of = ENG
+		1836.1.1 = {
+			owner = AST
+			controller = AST
+            add_core_of = AST
 		}
 		1899.1.1 = {
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		}
-		1900.1.1 = {
-			owner = AST
-			controller = AST
-            add_core_of = AST
 		}
 		1936.1.1 = {
 		buildings = {

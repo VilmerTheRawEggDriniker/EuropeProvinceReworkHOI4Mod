@@ -3722,3 +3722,164 @@ fire_only_once = yes
 				}
 }
 }
+
+
+country_event = {
+	id = fra_1789_event.101
+	title = "Stance on Ethnic and/or Linguistic Minorities"
+	desc = fra_1789_event.101.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Equality doesnt mean equal Linguistic or Cultural rights"
+add_war_support=0.05
+add_political_power=-25
+add_stability=-0.1
+}
+}
+country_event = {
+	id = fra_1789_event.102
+	title = "The Lithuanian Provisional Governing Commission"
+	desc = fra_1789_event.102.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Establish the Lithuanian Provisional Governing Commission"
+        LIT={transfer_state=11}
+		LIT={transfer_state=189}
+		LIT={transfer_state=815}
+		LIT={transfer_state=94}
+		LIT={transfer_state=95}
+		LIT={transfer_state=96}
+		LIT={transfer_state=1119}
+		LIT={transfer_state=784}
+		LIT={transfer_state=97}
+		LIT={transfer_state=204}
+		LIT={transfer_state=194}
+		LIT={transfer_state=206}
+		LIT={transfer_state=1225}
+		every_state={
+		limit={
+		or={
+		state=11
+		state=189
+		state=815
+		state=94
+		state=95
+		state=96
+		state=1119
+		state=784
+		state=97
+		state=204
+		state=194
+		state=206
+		state=1225
+		}
+		}
+		add_core_of=LIT
+		}
+		LIT={set_cosmetic_tag=LIT_FRA}
+		FRA={
+						set_autonomy = {
+				target = LIT
+                autonomous_state = autonomy_dominion
+                freedom_level = 0.35
+	            }
+		}
+		LIT={
+set_capital = {
+state = 784
+remember_old_capital = no
+}
+}
+}
+}
+country_event = {
+	id = fra_1789_event.103
+	title = "Vassalization of Courland"
+	desc = fra_1789_event.103.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "The Daugava is the border of our Empires not the Vistula"
+        COU={transfer_state=190 transfer_state=809}
+		COU={add_state_core=190 add_state_core=809}
+		FRA={
+						set_autonomy = {
+				target = COU
+                autonomous_state = autonomy_dominion
+                freedom_level = 0.35
+	            }
+		}
+}
+}
+country_event = {
+	id = fra_1789_event.104
+	title = "The Treaty of the Hague"
+	desc = fra_1789_event.104.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "The Treaty of the Hague"
+	FRA={
+			transfer_state = 984
+			transfer_state = 985
+	}
+                if={
+        limit={
+        country_exists = HLL
+        }
+        HLL={add_political_power=-150}
+        }
+                        if={
+        limit={
+        NOT={country_exists = HLL}
+        }
+        HOL={add_political_power=-150}
+        }
+}
+}
+country_event = {
+	id = fra_1789_event.105
+	title = "Spanish Declaration of War"
+	desc = fra_1789_event.105.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Declare war on the French Republic"
+	SPR={
+				declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+	}
+}
+}
+country_event = {
+	id = fra_1789_event.106
+	title = "British Declaration of War"
+	desc = fra_1789_event.106.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Declare war on the French Republic"
+	ENG={
+				declare_war_on = {
+		target = FRA
+		type = puppet_wargoal_focus
+	}
+	}
+}
+}

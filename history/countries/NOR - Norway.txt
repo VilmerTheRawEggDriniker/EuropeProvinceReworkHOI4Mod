@@ -1,10 +1,25 @@
 ﻿capital = 110
 1789.1.1 = {
+recruit_character=NOR_gustaviii
+recruit_character=NOR_gustavivadolf
+recruit_character=NOR_charlesxiii
 recruit_character=NOR_charlesxivjohn
+promote_character=NOR_gustaviii
+}
+1800.1.1 = {
+promote_character=NOR_gustavivadolf
+retire_character=NOR_gustaviii
+}
+1812.1.1 = {
+promote_character=NOR_charlesxiii
+}
+1836.1.1 = {
 promote_character=NOR_charlesxivjohn
+retire_character=NOR_charlesxiii
 }
 1848.1.1 = {
 retire_character=NOR_charlesxivjohn
+retire_character=NOR_gustavivadolf
 }
 1444.11.11 = {
 set_party_name = { ideology = neutrality long_name = NOR_WIT_neutrality_party_long name = NOR_WIT_neutrality_party }

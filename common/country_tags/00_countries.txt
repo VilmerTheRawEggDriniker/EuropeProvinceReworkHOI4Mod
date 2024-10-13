@@ -45,12 +45,28 @@ VRM = "countries/Vermont.txt" #flagcomplete
 CAF = "countries/Central America.txt" #flagcomplete 
 WIF = "countries/West Indies Federation.txt" #flagcomplete 
 
+WST = "countries/Western Australia.txt" #flagcomplete #uk17891800flags
+PEI = "countries/Prince Edward Island.txt" #flagcomplete #uk17891800flags
+NBR = "countries/New Brunswick.txt" #flagcomplete #uk17891800flags
+FOU = "countries/Newfoundland and Labrador.txt" #flagcomplete #uk17891800flags
+ONT = "countries/Ontario.txt" #flagcomplete #uk17891800flags
+NOS = "countries/Novascotia.txt" #flagcomplete  #uk17891800flags
+NOC = "countries/Northwest Territory Canada.txt" #flagcomplete 
+ITO = "countries/Manitoba.txt" #flagcomplete 
+
+
+
+
+
+
+
 MAK = "countries/Makhnovshchina.txt" #flagcomplete 
 BER = "countries/Berry.txt" #flagcomplete 
 BSL = "countries/Basel.txt" #flagcomplete
 SEP = "countries/Ionian Islands.txt" #flagcomplete
 MAR = "countries/Mark.txt" #flagcomplete
 GUR = "countries/Guria.txt" #flagcomplete
+COW = "countries/Cornwall.txt" #flagcomplete
 
 KRT = "countries/Kartli.txt" #flagcomplete
 KAK = "countries/Kakheti.txt" #flagcomplete
@@ -62,6 +78,7 @@ NAK = "countries/Nakchivan.txt" #flagcomplete
 ERV = "countries/Erivan.txt" #flagcomplete
 BAK = "countries/Baku.txt" #flagcomplete
 TAL = "countries/Talysh.txt" #flagcomplete
+GAN = "countries/Ganja.txt" #flagcomplete
 
 IRO = "countries/Iroquois Confederacy.txt" #flagcomplete 
 WAB = "countries/Wabanaki Confederacy.txt" #flagcomplete 

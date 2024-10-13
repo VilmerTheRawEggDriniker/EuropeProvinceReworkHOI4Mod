@@ -20,6 +20,7 @@ ENG_CHARACTER_GREY:0 "The Earl Grey"
 ENG_CHARACTER_MELBOURNE:0 "The Viscount Melbourne"
 ENG_CHARACTER_PEEL:0 "Robert Peel"
 
+FRA_CHARACTER_GUIZOT:0 "François Guizot"
 FRA_CHARACTER_BARRAS:0 "Paul François Jean Nicolas"
 FRA_CHARACTER_MARIE:0 "Louis Marie de La Révellière-Lépeaux"
 FRA_CHARACTER_REWBELL:0 "Jean-François Rewbell"
@@ -57,6 +58,34 @@ FRA_CHARACTER_LANNESGENERAL:0 "Jean Lannes"
 FRA_CHARACTER_LOUISGENERAL:0 "Louis-René"
 FRA_CHARACTER_ANDREGENERAL:0 "André Masséna"
 
+
+
+ENG_CHARACTER_HENRYGENERAL:0 "Henry Seymour Conway"
+ENG_CHARACTER_PRINCEHENRYGENERAL:0 "Prince William Henry"
+ENG_CHARACTER_HOWARDGENERAL:0 "George Howard"
+ENG_CHARACTER_FREDERICKGENERAL:0 "Prince Frederick"
+
+ENG_CHARACTER_ARGYLLGENERAL:0 "The Duke of Argyll"
+ENG_CHARACTER_AMHERSTGENERAL:0 "The Lord Amherst"
+ENG_CHARACTER_WALDENGENERAL:0 "The Lord Howard de Walden"
+ENG_CHARACTER_HODGSONGENERAL:0 "Studholme Hodgson"
+
+ENG_CHARACTER_TOWNSHENDGENERAL:0 "The Marquess Townshend"
+ENG_CHARACTER_CAVENDISHGENERAL:0 "Lord Frederick Cavendish"
+ENG_CHARACTER_RICHMONDGENERAL:0 "The Duke of Richmond"
+ENG_CHARACTER_EDWARDGENERAL:0 "Prince Edward"
+
+ENG_CHARACTER_WELLINGTONGENERAL:0 "The Duke of Wellington"
+ENG_CHARACTER_ERNESTGENERAL:0 "Ernest Augustus"
+ENG_CHARACTER_ADOLPHUSGENERAL:0 "Prince Adolphus"
+ENG_CHARACTER_WILLIAMGENERAL:0 "Prince William Frederick"
+
+ENG_CHARACTER_LEOPOLDGENERAL:0 "Leopold"
+ENG_CHARACTER_DROGHEDAGENERAL:0 "The Marquess of Drogheda"
+ENG_CHARACTER_HARCOURTGENERAL:0 "The Earl Harcourt"
+ENG_CHARACTER_CLARKEGENERAL:0 "Sir Alured Clarke"
+
+ENG_CHARACTER_HULSEGENERAL:0 "Sir Samuel Hulse"
 
 
 
@@ -698,6 +727,15 @@ SWE_CHARLESXIII_DESC:0 "Charles XIII was King of Sweden from 1809 and King of No
 SWE_CHARACTER_CHARLESXIVJOHN:0 "Charles XIV John"
 SWE_CHARLESXIVJOHN_DESC:0 "Charles XIV John was King of Sweden and Norway from 1818 until his death in 1844 and the first monarch of the Bernadotte dynasty. During the Napoleonic Wars, he participated in several battles as a Marshal of France."
 
+NOR_CHARACTER_GUSTAVIII:0 "Gustav III"
+NOR_GUSTAVIII_DESC:0 "Gustav III was King of Sweden from 1771 until his assassination in 1792. He was the eldest son of King Adolf Frederick and Queen Louisa Ulrika of Sweden."
+
+NOR_CHARACTER_GUSTAVIVADOLF:0 "Gustav IV Adolf"
+NOR_GUSTAVIVADOLF_DESC:0 "Gustav IV Adolf was King of Sweden from 1792 until he was deposed in a coup in 1809. He was also the last Swedish monarch to be the ruler of Finland."
+
+NOR_CHARACTER_CHARLESXIII:0 "Charles XIII"
+NOR_CHARLESXIII_DESC:0 "Charles XIII was King of Sweden from 1809 and King of Norway from 1814 to his death. He was the second son (and younger brother to King Gustav III) of King Adolf Frederick of Sweden and Louisa Ulrika of Prussia, sister of Frederick the Great."
+
 NOR_CHARACTER_CHARLESXIVJOHN:0 "Charles XIV John"
 NOR_CHARLESXIVJOHN_DESC:0 "Charles XIV John was King of Sweden and Norway from 1818 until his death in 1844 and the first monarch of the Bernadotte dynasty. During the Napoleonic Wars, he participated in several battles as a Marshal of France."
 
@@ -930,6 +968,21 @@ PRE_FREDRICKWILLIAMII_DESC:0 "Frederick William II was king of Prussia from 1786
 
 PRE_CHARACTER_FREDERICKWILLIAMIII:0 "Frederick William III"
 PRE_FREDRICKWILLIAMIII_DESC:0 "Frederick William III was King of Prussia from 16 November 1797 until his death in 1840. He was concurrently Elector of Brandenburg in the Holy Roman Empire until 6 August 1806, when the empire was dissolved. Frederick William III ruled Prussia during the times of the Napoleonic Wars. The king reluctantly joined the Sixth Coalition against Napoleon in the German Campaign of 1813. Following Napoleon's defeat, he took part in the Congress of Vienna, which assembled to settle the political questions arising from the new, postNapoleonic order in Europe. His primary interests were internal the reform of Prussia's Protestant churches. He was determined to unify the Protestant churches to homogenize their liturgy, organization, and architecture. The long term goal was to have fully centralized royal control of all the Protestant churches in the Prussian Union of Churches. The king was said to be extremely shy and indecisive. His wife Queen Louise (1776–1810) was his most important political advisor. She led a mighty group that included Baron Heinrich Friedrich Karl vom und zum Stein, Prince Karl August von Hardenberg, Gerhard von Scharnhorst, and Count August von Gneisenau. They set about reforming Prussia's administration, churches, finance, and military. He was the dedicatee of Beethoven's Ninth Symphony in 1824."
+
+POL_CHARACTER_PAWEL:0 "Jan Paweł Łuszczewski"
+POL_CHARACTER_FELIKS:0 "Feliks Łubieński"
+POL_CHARACTER_MARIA:0 "Maria Lanckorońska"
+POL_CHARACTER_KAZIMIERZ:0 "Kazimierz Krasiński"
+POL_CHARACTER_KATARZYNA:0 "Katarzyna Kossakowska"
+POL_CHARACTER_ANNA:0 "Anna Jabłonowska"
+POL_CHARACTER_LUDWIK:0 "Ludwik Szymon Gutakowski"
+POL_CHARACTER_JERZY:0 "Jan Jerzy Grabowski"
+POL_CHARACTER_ELEONORA:0 "Eleonora Czartoryska"
+POL_CHARACTER_ELZBIETA:0 "Elżbieta Branicka"
+POL_CHARACTER_JOZEF:0 "Józef Ankwicz"
+
+
+
 
 POL_CHARACTER_STANISLAWIIAUGUST:0 "Stanislaw II August"
 POL_STANISLAWIIAUGUST_DESC:0 "Stanisław II August was King of Poland and Grand Duke of Lithuania from 1764 to 1795, and the last monarch of the Polish–Lithuanian Commonwealth. Born into wealthy Polish aristocracy, Poniatowski arrived as a diplomat at the Russian imperial court in Saint Petersburg in 1755 at the age of 22 and became intimately involved with the future empress Catherine the Great. With her aid, he was elected King of Poland and Grand Duke of Lithuania by the Sejm in September 1764 following the death of Augustus III. Contrary to expectations, Poniatowski attempted to reform and strengthen the large but ailing Commonwealth. His efforts were met with external opposition from neighbouring Prussia, Russia and Austria, all committed to keeping the Commonwealth weak. From within he was opposed by conservative interests, which saw the reforms as a threat to their traditional liberties and privileges granted centuries earlier."
