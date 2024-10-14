@@ -559,15 +559,28 @@ fire_only_once = yes
 		MSV={
 		transfer_state = 88
 		}
-				every_state = {
-					limit = {
-                    is_core_of = POL
-					}
-					remove_claim_by = MSV
-					add_core_of = MSV
+		every_state = {
+			limit = {
+                    		is_core_of = POL
+			}
+			remove_claim_by = MSV
+			add_core_of = MSV
+		}
+		POL = {
+			every_character = {
+				limit = {
+					has_trait = pro_kosciuszko_pol
 				}
+				set_nationality = {
+					target_country = MSV
+					character = PREV
+				}
+			}
+		}
 	}
 }
+	
+
 	country_event = {
 	id = russianempire_1789_1812.20
 	title = "The Kościuszko Uprising"
