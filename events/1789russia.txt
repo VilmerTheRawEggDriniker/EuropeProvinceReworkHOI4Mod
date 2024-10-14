@@ -566,6 +566,17 @@ fire_only_once = yes
 					remove_claim_by = MSV
 					add_core_of = MSV
 				}
+		POL = {
+			every_character = {
+				limit = {
+					has_trait = pro_kosciuszko_pol
+				}
+				set_nationality = {
+					target_country = MSV
+					character = PREV
+				}
+			}
+		}
 	}
 }
 	country_event = {
