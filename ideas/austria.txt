@@ -1,0 +1,19 @@
+ideas = {
+
+	country = {
+	
+		josephinism = {
+			
+			allowed = {
+				always = no
+			}
+			
+			modifier = {
+				party_popularity_stability_factor = -0.3
+				research_speed_factor = 0.1
+			}
+		}
+	
+	}
+
+}
