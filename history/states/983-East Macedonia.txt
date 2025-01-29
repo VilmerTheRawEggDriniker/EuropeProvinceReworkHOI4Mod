@@ -14,6 +14,9 @@ state={
 			infrastructure = 1
 
 		}
+						victory_points = {
+			13814 1
+		}
 		1914.1.1 = {
 			owner = SER
 			controller = SER

@@ -21,6 +21,12 @@ set_technology = {
 	infantry_weapons = 1
 	
 }
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "HAN_1789_1815"
+}
+}
 1936.1.1 = {
 set_technology = {
 	infantry_weapons = 1

@@ -1,6 +1,11 @@
 ################
 ##### FRA ######
 ################
+sweden_napoleonic_wars_category = {
+	icon = power_struggle
+	allowed = {
+	}
+}
 BAY_wittelsbach = {
 	icon = power_struggle
 	allowed = {
@@ -27,6 +32,16 @@ performance = {
 	}
 }
 RUS_frenchrevolution = {
+	icon = power_struggle
+	allowed = {
+	}
+}
+balkan_frenchrevolution = {
+	icon = power_struggle
+	allowed = {
+	}
+}
+pauli_reform_RUS_frenchrevolution = {
 	icon = power_struggle
 	allowed = {
 	}

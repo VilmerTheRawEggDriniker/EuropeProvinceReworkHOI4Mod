@@ -1,16 +1,74 @@
-characters = {
-  TUN_hammuda_ibn_ali = {
-    name = TUN_hammuda_ibn_ali
-    portraits = {
-      civilian = {
-        large = "GFX_portrait_TUN_hammuda_ibn_ali"
-      }
-    }
-	country_leader={
-		ideology=despotism
-		expire="1814.9.15"
-	}
-  }
+characters={
+	TUN_hamuda={
+		name=TUN_CHARACTER_HAMUDA
+		portraits={
+			civilian={
+				large="GFX_portrait_tun_hamuda_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Husainid}
+			desc = TUN_HAMUDA_DESC
+			expire="1797.1.1"
+		}
+}
+	TUN_uthman={
+		name=TUN_CHARACTER_UTHMAN
+		portraits={
+			civilian={
+				large="GFX_portrait_tun_uthman_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Husainid}
+			desc = TUN_UTHMAN_DESC
+			expire="1797.1.1"
+		}
+}
+	TUN_mahmud={
+		name=TUN_CHARACTER_MAHMUD
+		portraits={
+			civilian={
+				large="GFX_portrait_tun_mahmud_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Husainid}
+			desc = TUN_MAHMUD_DESC
+			expire="1797.1.1"
+		}
+}
+	TUN_husayn={
+		name=TUN_CHARACTER_HUSAYN
+		portraits={
+			civilian={
+				large="GFX_portrait_tun_husayn_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Husainid}
+			desc = TUN_HUSAYN_DESC
+			expire="1797.1.1"
+		}
+}
+	TUN_mustafa={
+		name=TUN_CHARACTER_MUSTAFA
+		portraits={
+			civilian={
+				large="GFX_portrait_tun_mustafa_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Husainid}
+			desc = TUN_MUSTAFA_DESC
+			expire="1797.1.1"
+		}
+}
 	TUN_acgs={
 		advisor={
 			slot = air_chief

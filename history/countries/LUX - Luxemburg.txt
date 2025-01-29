@@ -1,9 +1,41 @@
 ﻿capital = 8
+1813.1.1 = {
+set_cosmetic_tag = LUX_HOL # 
+}
+1836.1.1 = {
+set_cosmetic_tag = LUX # 
+}
 1936.1.1 = {
 oob = "LUX_1936"
 }
 set_technology = {
 	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+        gw_artillery = 1
+}
+1750.1.1 = {
+recruit_character=LUX_williamv
+promote_character=LUX_williamv
+recruit_character=LUX_louisbonaparte
+recruit_character=LUX_louisii
+recruit_character=LUX_williami
+}
+1812.1.1 = {
+promote_character=LUX_louisii
+}
+1821.1.1 = {
+promote_character=LUX_williami
+}
+1806.1.1 = {
+retire_character=LUX_williamv
+}
+1831.1.1 = {
+retire_character=LUX_louisii
+}
+1848.1.1 = {
+retire_character=LUX_williami
+retire_character=LUX_louisbonaparte
 }
 1936.1.1 = {
 # Starting tech
@@ -16,7 +48,8 @@ set_technology = {
 	tech_engineers = 1
 	basic_train = 1
 }
-if = {
+
+IF = {
 	limit = {
 		NOT = { has_dlc = "By Blood Alone" }
 	}
@@ -24,17 +57,16 @@ if = {
 		early_fighter = 1
 	}
 }
-}
-set_war_support = 0.1
-set_stability = 0.8
+
+set_war_support = 0.15
+set_stability = 0.7
 
 recruit_character = LUX_joseph_bech
-recruit_character = LUX_gustave_lebeau
-recruit_character = LUX_frédéric_nagelmackers
-recruit_character = LUX_jean_pirson
+recruit_character = LUX_charles_marx
+recruit_character = LUX_damian_kratzenberg
+recruit_character = LUX_charlotte
 recruit_character = LUX_damien_roeser
 recruit_character = LUX_florent_destriveaux
-recruit_character = LUX_alexander_von_falkenhausen
 recruit_character = LUX_pierre_fischbach
 recruit_character = LUX_guillaume_soisson
 recruit_character = LUX_alex_federspiel
@@ -48,8 +80,11 @@ recruit_character = LUX_nicholas_diedrich
 recruit_character = LUX_pierre_dupong
 recruit_character = LUX_pierre_krier
 recruit_character = LUX_martin_karp
+recruit_character = LUX_guillaume_konsbruck
+recruit_character = LUX_felix_of_luxembourg
 
-
+}
+# 1939 Scenario
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -68,6 +103,7 @@ recruit_character = LUX_martin_karp
 	complete_national_focus = production_effort
 	
 	oob = "LUX_1939"
+
 	set_technology = {
 		tech_recon = 1
 		interwar_artillery = 1
@@ -83,7 +119,6 @@ recruit_character = LUX_martin_karp
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 
 		#industry
@@ -96,7 +131,10 @@ recruit_character = LUX_martin_karp
 		concentrated_industry = 1
 		concentrated_industry2 = 1
 	}
-	if = {
+	complete_special_project = {
+		project = sp:sp_air_radar
+	}
+	IF = {
 		limit = {
 			NOT = { has_dlc = "By Blood Alone" }
 		}
@@ -105,26 +143,42 @@ recruit_character = LUX_martin_karp
 		}
 	}
 }
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1934.6.3"
+	election_frequency = 36
+	elections_allowed = no
+}
 
+set_popularities = {
+	democratic = 50
+	neutrality = 50
+}
+1936.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
 }
-set_popularities = {
-	democratic = 92
-	fascism = 3
-	communism = 5
-}
 
+set_popularities = {
+	democratic = 70
+	neutrality = 15
+	fascism = 12
+	communism = 3
+}
+}
 1939.1.1 = {
+
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1937.6.6"
 		election_frequency = 36
 		elections_allowed = yes
 	}
+
 	promote_character = LUX_pierre_dupong
 	retire_character = LUX_joseph_bech
+
 }

@@ -1,5 +1,10 @@
 ﻿capital = 387
-
+1444.11.11 = {
+set_cosmetic_tag = CAS_SPR #viceroyalty
+}
+1800.1.1 = {
+set_cosmetic_tag = CAS #independent
+}
 
 set_research_slots = 2
 set_stability = 0.75

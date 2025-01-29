@@ -16,8 +16,10 @@ state={
 			remove_core_of = CIR
 
 		}
+		1858.1.1 = {
 		victory_points = {
 			3720 3 
+		}
 		}
 		buildings = {
 			infrastructure = 1

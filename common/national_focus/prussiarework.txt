@@ -1,0 +1,8452 @@
+﻿focus_tree = {
+	id = prussianreworkn_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PRE
+		}
+	}
+
+	initial_show_position = {
+		x = 0
+	}
+continuous_focus_position = { x = 7000 y = 0000 }
+	default = no
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_1
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 1
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_2
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 4
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_3
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 6
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_4
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 8
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_5
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 10
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_6
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 12
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_7
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 14
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_8
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 16
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_9
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 18
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_10
+		icon = GFX_goal_generic_neutrality_focus
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 20
+		y = 1
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        NOT={has_country_flag=napoleonprussiaone_flag}
+		NOT={has_country_flag=napoleonprussiatwo_flag}
+		NOT={has_country_flag=napoleonprussiathree_flag}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_11
+		icon = GFX_goal_generic_consumer_goods
+
+		x = 2
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		AUS={add_war_support=-0.05}
+													66 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+													67 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+													762 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_12
+		icon = GFX_goal_generic_consumer_goods
+		x = 4
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={set_country_flag=PRE_has_completed_brandenburg_gate_flag}
+		PRE={country_event = pre_1789_event.25}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_13
+		icon = GFX_focus_generic_treaty
+
+		x = 6
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.14}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_14
+		icon = GFX_goal_generic_consumer_goods
+
+		x = 8
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.12}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_15
+		icon = GFX_focus_generic_treaty
+
+		x = 10
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.13}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_16
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_17
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        FRA={has_war = yes}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.26}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_18
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_19
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_20
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_21
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_22
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+	}
+		}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_23
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_24
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_25
+		icon = GFX_goal_generic_consumer_goods
+
+		x = 10
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+						63 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_26
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_27
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_28
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_29
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_30
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_31
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_32
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_33
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_34
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_35
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_36
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_37
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+owns_state=85
+owns_state=1194
+owns_state=1248
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.11}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_38
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_21
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_22
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_23
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_24
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_25
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_26
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_27
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_28
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_29
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_30
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_39
+		icon = GFX_goal_generic_allies_build_infantry
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 25
+		y = 1
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        date > 1796.1.1
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_40
+		icon = GFX_goal_generic_small_arms
+
+		x = 24
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_39
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_41
+		icon = GFX_goal_generic_consumer_goods
+
+		x = 2
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_38
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+								64 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+											862 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_42
+		icon = GFX_goal_generic_army_artillery
+
+		x = 24
+		y = 4
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_40
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 1.0
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_43
+		icon = GFX_goal_generic_army_artillery2
+
+		x = 24
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_42
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_tech_bonus = {
+				name = infantry_artillery_bonus
+				ahead_reduction = 2
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_44
+		icon = GFX_goal_generic_army_doctrines
+
+		x = 25
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_39
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_45
+		icon = GFX_goal_generic_army_doctrines
+
+		x = 25
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_44
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+					army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = land_doc_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_46
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_38
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_47
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_38
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_48
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_38
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_49
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_38
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_50
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_31
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_32
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_33
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_34
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_35
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_36
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_37
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_38
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_51
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_41
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_52
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_41
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_53
+		icon = GFX_goal_generic_special_forces
+
+		x = 25
+		y = 7
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_43
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_45
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_ideas = special_forces
+			add_tech_bonus = {
+				name = special_forces_bonus
+				bonus = 1.0
+				uses = 1
+				technology = paratroopers
+				technology = paratroopers2
+				technology = marines
+				technology = marines2
+				technology = tech_mountaineers
+				technology = tech_mountaineers2
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_54
+		icon = GFX_goal_generic_production
+
+		x = 29
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_39
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 1.0
+				uses = 1
+				category = industry
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_55
+		icon = GFX_goal_generic_construct_naval_dockyard
+
+		x = 33
+		y = 3
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_54
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+		complete_tooltip = {
+			navy_experience = 25
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+					navy_experience = 25
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					any_owned_state = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						dockyard > 0
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+			if = {
+				limit = {
+					NOT = { has_country_flag = naval_effort_built }
+					NOT = {
+						any_owned_state = {
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+				}
+				random_state = {
+					limit = {
+						controller = { tag = ROOT }
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+			}	
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_56
+		icon = GFX_goal_generic_build_navy
+
+		x = 32
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_55
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+					add_doctrine_cost_reduction = {
+				name = sub_op_bonus
+				cost_reduction = 0.5
+				uses = 2
+				technology = convoy_interdiction_ti
+				technology = unrestricted_submarine_warfare
+				technology = wolfpacks
+				technology = advanced_submarine_warfare
+				technology = combined_operations_raiding
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_57
+		icon = GFX_goal_generic_navy_doctrines_tactics
+
+		x = 34
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_55
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+					add_doctrine_cost_reduction = {
+				name = fleet_in_being_bonus
+				cost_reduction = 0.25
+				uses = 2
+				category = fleet_in_being_tree
+			}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_58
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_41
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_59
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_41
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_60
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_41
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_46
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_47
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_48
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_49
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_50
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_61
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_62
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_63
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_64
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_65
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_66
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_67
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_68
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_69
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_70
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_58
+		}
+
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_71
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_72
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_73
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.1}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_74
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.2}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_75
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		PRE={country_event = pre_1789_event.3}
+		PRE={country_event = pre_1789_event.4}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_76
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		HES={country_event = pre_1789_event.5}
+		HES={country_event = pre_1789_event.6}
+		HAN={country_event = pre_1789_event.7}
+		NAS={country_event = pre_1789_event.8}
+		NAS={country_event = pre_1789_event.9}
+		NAS={country_event = pre_1789_event.10}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_77
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_78
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_79
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_80
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_61
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_62
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_63
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_64
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_65
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_66
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_67
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_68
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_69
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_70
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_81
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_82
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_83
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_84
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_85
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_86
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_87
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_88
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_89
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_90
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_71
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_76
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_80
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_91
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_92
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_93
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.36}
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_94
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_95
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {	
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_96
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_97
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_98
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_99
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1789_1815_first_100_focus_100
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_83
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_85
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_86
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_87
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_88
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_90
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+focus = {
+		id = prussianrework_1793_1836_focus_1
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 2
+		y = 11
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_2
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 4
+		y = 11
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_3
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 6
+		y = 11
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_4
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 8
+		y = 11
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_5
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 10
+		y = 11
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_6
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 12
+		y = 11
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_7
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 14
+		y = 11
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_8
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 16
+		y = 11
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_9
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 18
+		y = 11
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_10
+		icon = GFX_goal_generic_neutrality_focus
+
+		x = 20
+		y = 11
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_92
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_93
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_99
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_100
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_11
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1  
+		x = 0
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_12
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1		
+		x = 2
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_13
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		x = 4
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_14
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		x = 6
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_15
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		x = 8
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_16
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		x = 10
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_17
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		x = 12
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_18
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		x = 14
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_19
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		x = 16
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_20
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		x = 18
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_2
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_4
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_5
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_6
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_7
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_8
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_10
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_21
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		x = 0
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_11
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_12
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_17
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_18
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_19
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_20
+		}
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.37}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_22
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		x = 9
+		y = 2
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        or={
+		has_country_flag=napoleonprussiatwo_flag
+		has_completed_focus=prussianrework_1793_1836_focus_21
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+	}
+		}
+		focus = {
+		id = prussianrework_1793_1836_focus_23
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_1
+		x = 9
+		y = 3
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_22
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_24
+		icon = GFX_focus_generic_treaty
+       		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_23
+		} 
+		x = 11
+		y = 15
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        PRE={has_war_with=RUS}
+		PRE={is_ally_with = FRA}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.17}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_25
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 1
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_24
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.18}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_26
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 2
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_25
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.19}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_27
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -3
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_26
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_28
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -1
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_26
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.21}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_29
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 2
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_26
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.24}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_30
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 4
+		cost = 4.3
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_28
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_31
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -6
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_26
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		add_stability=0.05
+															67 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_32
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = prussianrework_1793_1836_focus_24
+		x = 3
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_29
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.33}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_33
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = -4
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_27
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_34
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 1
+		y = 5
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_30
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.38}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_35
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 2
+		y = 6
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_34
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = WTF
+		or={
+        WTF={has_capitulated = yes}
+	    NOT={WTF={is_subject_of=FRA}}
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.15}
+		PRE={add_political_power=-25}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_36
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 3
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_35
+		}
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.22}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_37
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 12
+		y = 13
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        or={
+		has_country_flag=napoleonprussiathree_flag
+		has_completed_focus=prussianrework_1793_1836_focus_36
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_38
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 14
+		y = 13
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_39
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 16
+		y = 13
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		country_exists = DNZ
+		or={
+        DNZ={has_capitulated = yes}
+	    NOT={DNZ={is_subject_of=FRA}}
+		}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.16}
+		PRE={add_political_power=-25}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_40
+		icon = GFX_focus_generic_treaty
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 18
+		y = 13
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		PRE={country_event = pre_1789_event.20}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	focus = {
+		id = prussianrework_1793_1836_focus_41
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 14
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_42
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = prussianrework_1793_1836_focus_24
+		x = 2
+		y = 14
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_43
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 4
+		y = 14
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_44
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 6
+		y = 14
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_45
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 8
+		y = 14
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_46
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 10
+		y = 14
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_47
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 12
+		y = 14
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_48
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 14
+		y = 14
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_49
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 16
+		y = 14
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_50
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 18
+		y = 14
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+focus = {
+		id = prussianrework_1793_1836_focus_51
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 15
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_52
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = prussianrework_1793_1836_focus_24
+		x = 2
+		y = 15
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_53
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 4
+		y = 15
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_54
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 6
+		y = 15
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_55
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 8
+		y = 15
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_56
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 10
+		y = 15
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_57
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 12
+		y = 15
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		SWE={country_event = pre_1789_event.40}
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_58
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 14
+		y = 15
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_59
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 16
+		y = 15
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_60
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 18
+		y = 15
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+
+
+focus = {
+		id = prussianrework_1793_1836_focus_61
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_62
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = prussianrework_1793_1836_focus_24
+		x = 2
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_63
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 4
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_64
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 6
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_65
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 8
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_66
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 10
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_67
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 12
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_68
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 14
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_69
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 16
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_70
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 18
+		y = 16
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+focus = {
+		id = prussianrework_1793_1836_focus_71
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 0
+		y = 17
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_72
+		icon = GFX_goal_generic_neutrality_focus
+		relative_position_id = prussianrework_1793_1836_focus_24
+		x = 2
+		y = 17
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_73
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 4
+		y = 17
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_74
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 6
+		y = 17
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_1793_1836_focus_75
+		icon = GFX_goal_generic_neutrality_focus
+        relative_position_id = prussianrework_1793_1836_focus_24
+		x = 8
+		y = 17
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+		}
+	}
+
+
+
+
+
+
+}
+

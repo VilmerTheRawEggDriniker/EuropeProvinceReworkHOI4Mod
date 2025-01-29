@@ -642,7 +642,69 @@ focus_tree = {
 			}
 		}
 	}
+	focus = {
+		id = ENG_vickers_experimental_facility_focus 
 
+		prerequisite = { focus = uk_industrial_focus }
+
+		dynamic = yes
+
+		available = {
+			126 = {
+				is_fully_controlled_by = ROOT
+			}
+		} 
+
+		icon = GFX_focus_generic_aircraft_production
+
+		x = 1
+		y = 2
+		
+		relative_position_id = uk_industrial_focus
+
+		cost = 5
+
+		available_if_capitulated = no
+
+		completion_reward = {
+
+			add_breakthrough_progress = {
+				specialization = specialization_air
+				value = 0.5
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_land
+				value = 0.5
+			}
+
+			custom_effect_tooltip = generic_skip_one_line_tt
+			
+			custom_effect_tooltip = ENG_vickers_experimental_facility_focus_tt
+			hidden_effect = {
+				IF = {
+					limit = { 
+						126 = {
+							is_fully_controlled_by = ROOT
+							air_facility < 1
+							land_facility < 1
+							naval_facility < 1
+							nuclear_facility < 1
+						}
+					}
+
+					126 = {
+						add_building_construction = {
+							type = air_facility
+							level = 1
+							instant_build = yes
+							province = 11333 # South London
+						}
+					}
+				}
+			}
+
+		}
+	}
 	focus = {
 		id = uk_extra_tech_slot
 		text = extra_tech_slot
@@ -769,7 +831,7 @@ focus_tree = {
 						num_of_factories > 30
 					}
 					GER = {
-						has_completed_focus = GER_rhineland
+						has_completed_focus = GER_remilitarize_the_rhineland
 					}
 					threat > 0.2
 					has_idea = ENG_no_further_appeasement_idea
@@ -786,7 +848,7 @@ focus_tree = {
 						num_of_factories > 30
 					}
 					GER = {
-						has_completed_focus = GER_rhineland
+						has_completed_focus = GER_remilitarize_the_rhineland
 					}
 					threat > 0.2
 					NOT = { has_government = democratic }
@@ -3214,10 +3276,6 @@ focus_tree = {
 				limit = {
 					has_full_control_of_state = 326
 				}
-				event_target:WTT_current_china_leader = {
-					transfer_state = 326
-					add_opinion_modifier = { target = ENG modifier = ENG_returned_our_territory }
-				}
 			}
 			if = {
 				limit = {
@@ -5599,13 +5657,6 @@ focus_tree = {
 		}
 		search_filters = {FOCUS_FILTER_POLITICAL FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			event_target:WTT_current_china_leader = {
-				add_offsite_building = { type = arms_factory level = 2 }
-				add_opinion_modifier = { target = ENG modifier = democratic_leanings_good }
-				add_timed_idea = { idea = democratic_influence days = 1095 }
-				country_event = { id = generic.1 }
-				set_country_flag = ENG_influenced_by_britain_flag
-			}
 			every_other_country = {
 				limit = { 
 					NOT = { has_government = democratic }
@@ -12133,6 +12184,7 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.14}
 		}
 	}
 		focus = {
@@ -12165,6 +12217,19 @@ allow_branch = { has_start_date > 1789.1.1
 		
 		
 		completion_reward = {
+											122 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+				add_resource = {
+				type = steel
+				amount = 5
+				state = 122
+			}
 		}
 	}
 		focus = {
@@ -12320,6 +12385,7 @@ allow_branch = { has_start_date > 1789.1.1
 		
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.33}
 		}
 	}
 		focus = {
@@ -12520,6 +12586,7 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.34}
 		}
 	}
 		focus = {
@@ -13145,6 +13212,7 @@ allow_branch = { has_start_date > 1789.1.1
 		
 		completion_reward = {
 		ENG={country_event=britain_1789_1812.3}
+		hidden_effect={ENG={country_event=britain_1789_1812.20}}
 		}
 	}
 		focus = {
@@ -13204,6 +13272,7 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.32}
 		}
 	}
 		focus = {
@@ -13562,6 +13631,7 @@ allow_branch = { has_start_date > 1789.1.1
 		
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.28}
 		}
 	}
 		focus = {
@@ -13621,11 +13691,25 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		hidden_effect={ENG={country_event=britain_1789_1812.18}}
+											123 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+				add_resource = {
+				type = steel
+				amount = 10
+				state = 123
+			}
 		}
 	}
 		focus = {
 		id = britain_1789_1815_first_100_focus_33
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 
 		x = 6
 		y = 4
@@ -13815,11 +13899,12 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.22}
 		}
 	}
 		focus = {
 		id = britain_1789_1815_first_100_focus_36
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_forceful_treaty
 
 		x = 12
 		y = 4
@@ -13874,6 +13959,17 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.13}
+								random_owned_controlled_state = {
+						limit={
+						is_core_of=ENG
+						}
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+						}
+				}
 		}
 	}
 		focus = {
@@ -13992,6 +14088,15 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_political_power=-50
+		700={
+		add_extra_state_shared_building_slots = 1
+		add_building_construction = {
+		type = industrial_complex
+		level = 1
+		instant_build = yes
+		}
+		}
 		}
 	}
 		focus = {
@@ -14115,7 +14220,7 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = britain_1789_1815_first_100_focus_41
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_attack_canada
 
 		x = 2
 		y = 5
@@ -14170,6 +14275,18 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+			add_state_claim = 385
+			add_state_claim = 386
+			add_state_claim = 473
+			add_state_claim = 941
+			add_state_claim = 911
+			add_state_claim = 912
+			add_state_claim = 913
+			add_state_claim = 387
+			add_state_claim = 941
+			add_state_claim = 942
+			add_political_power=-25
+		hidden_effect={ENG={country_event=britain_1789_1812.15}}
 		}
 	}
 		focus = {
@@ -14525,6 +14642,7 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.23}
 		}
 	}
 		focus = {
@@ -14647,7 +14765,7 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = britain_1789_1815_first_100_focus_50
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_generic_home_defense
 
 		x = 20
 		y = 5
@@ -14702,6 +14820,7 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.12}
 		}
 	}
 focus = {
@@ -14820,6 +14939,8 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.16}
+		hidden_effect={ENG={country_event=britain_1789_1812.26}}
 		}
 	}
 		focus = {
@@ -14879,6 +15000,30 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+								QIN = {
+						random_owned_controlled_state={
+						limit={
+						is_core_of=QIN
+						}
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+						}
+						}
+				}
+											ENG = {
+						random_owned_controlled_state={
+						limit={
+						is_core_of=ENG
+						}
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+						}
+						}
+				}
 		}
 	}
 		focus = {
@@ -15530,11 +15675,12 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		ENG={country_event=britain_1789_1812.17}
 		}
 	}
 		focus = {
 		id = britain_1789_1815_first_100_focus_65
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 
 		x = 10
 		y = 7
@@ -15721,7 +15867,7 @@ focus = {
 	}
 		focus = {
 		id = britain_1789_1815_first_100_focus_68
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_attack_germany
 
 		x = 16
 		y = 7
@@ -15777,6 +15923,8 @@ focus = {
 		
 		
 		completion_reward = {
+		RUS={country_event=britain_1789_1812.24}
+		AUS={country_event=britain_1789_1812.25}
 		}
 	}
 		focus = {
@@ -16013,6 +16161,18 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_war_support=0.05
+		HOL={add_war_support=-0.05}
+		FRA={add_war_support=-0.05}
+											ENG = {
+						126={
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+						}
+						}
+				}
 		}
 	}
 		focus = {
@@ -16072,11 +16232,24 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+											122 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = arms_factory
+							level = 1
+							instant_build = yes
+						}
+				}
+				add_resource = {
+				type = steel
+				amount = 5
+				state = 122
+			}
 		}
 	}
 		focus = {
 		id = britain_1789_1815_first_100_focus_74
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
 
 		x = 8
 		y = 8
@@ -18154,6 +18327,8 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_stability=0.1
+		add_political_power=100
 		}
 	}
 			focus = {
@@ -19575,6 +19750,12 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		if={
+		limit={
+		has_war_with=FRA
+		}
+		add_war_support=0.1
+		}
 		}
 	}
 }

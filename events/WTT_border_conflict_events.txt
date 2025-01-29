@@ -292,6 +292,7 @@ country_event = {
 
 add_namespace = wtt_border_conflict_escalation
 
+#MM: Never used. Unlocalized
 country_event = {
 	id = wtt_border_conflict_escalation.1
 	title = wtt_border_conflict_escalation.1.t

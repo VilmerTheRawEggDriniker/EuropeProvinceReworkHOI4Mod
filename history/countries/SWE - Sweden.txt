@@ -1,9 +1,61 @@
 ﻿capital = 141
 1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1800.1.1 }
+	add_ideas = {
+treaty_of_abo
+swedish_stagnancy
+opportunistic_war
+	}
+}
+}
+1789.1.1 = {
+recruit_character=SWE_johangeneral
+recruit_character=SWE_mauritzgeneral
+recruit_character=SWE_magnusgeneral
+recruit_character=SWE_rudolfgeneral
+recruit_character=SWE_charlesxivjohngeneral
+recruit_character=SWE_dobelngeneral
+recruit_character=SWE_hansgeneral
+recruit_character=SWE_wilhelmgeneral
+recruit_character=SWE_carlgeneral
+recruit_character=SWE_augustgeneral
+recruit_character=SWE_andersgeneral
+recruit_character=SWE_curtgeneral
+recruit_character=SWE_charlesgeneral
+recruit_character=SWE_tollgeneral
+recruit_character=SWE_gustafgeneral
+}
+1836.1.1 = {
+retire_character=SWE_johangeneral
+retire_character=SWE_mauritzgeneral
+retire_character=SWE_rudolfgeneral
+retire_character=SWE_dobelngeneral
+retire_character=SWE_hansgeneral
+retire_character=SWE_carlgeneral
+retire_character=SWE_augustgeneral
+retire_character=SWE_andersgeneral
+retire_character=SWE_charlesgeneral
+retire_character=SWE_tollgeneral
+retire_character=SWE_gustafgeneral
+}
+1848.1.1 = {
+retire_character=SWE_magnusgeneral
+retire_character=SWE_charlesxivjohngeneral
+retire_character=SWE_curtgeneral
+}
+1859.1.1 = {
+retire_character=SWE_wilhelmgeneral
+}
+1789.1.1 = {
 recruit_character=SWE_gustaviii
 recruit_character=SWE_gustavivadolf
 recruit_character=SWE_charlesxiii
 recruit_character=SWE_charlesxivjohn
+recruit_character=SWE_frederickvi
+recruit_character=SWE_adler
+recruit_character=SWE_august
+recruit_character=SWE_gustafadolfreuterholm
 promote_character=SWE_gustaviii
 }
 1800.1.1 = {
@@ -12,14 +64,18 @@ retire_character=SWE_gustaviii
 }
 1812.1.1 = {
 promote_character=SWE_charlesxiii
+retire_character=SWE_august
 }
-1836.1.1 = {
+1821.1.1 = {
 promote_character=SWE_charlesxivjohn
 retire_character=SWE_charlesxiii
+retire_character=SWE_adler
+retire_character=SWE_gustafadolfreuterholm
 }
 1848.1.1 = {
 retire_character=SWE_charlesxivjohn
 retire_character=SWE_gustavivadolf
+retire_character=SWE_frederickvi
 }
 1789.1.1 = {
 		if = {
@@ -101,6 +157,9 @@ if = {
 }
 set_technology = {
 	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+        gw_artillery = 1
 }
 1936.1.1 = {
 set_technology = {
@@ -344,7 +403,7 @@ set_popularities = {
 democratic = 50
 neutrality = 50
 }
-1837.1.1 = {
+1849.1.1 = {
 set_politics = {
 	ruling_party = democratic
 	last_election = "1932.9.18"
@@ -375,7 +434,7 @@ set_popularities = {
 
 set_convoys = 25
 
-
+1936.1.1 = {
 recruit_character = SWE_per_albin_hansson
 recruit_character = SWE_sven_olov_lindholm
 recruit_character = SWE_sven_linderot 
@@ -674,7 +733,7 @@ if = {
 		}
 	}
 }
-
+}
 # 1939 Start #
 1939.1.1 = {
 	if = {

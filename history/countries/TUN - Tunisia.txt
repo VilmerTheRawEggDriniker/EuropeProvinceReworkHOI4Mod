@@ -1,12 +1,29 @@
 ﻿capital = 458
-
+1789.1.1 = {
+recruit_character = TUN_hamuda
+recruit_character = TUN_uthman
+recruit_character = TUN_mahmud
+recruit_character = TUN_husayn
+recruit_character = TUN_mustafa
+promote_character = TUN_hamuda
+}
+1836.1.1 = {
+promote_character = TUN_mustafa
+retire_character = TUN_hamuda
+retire_character = TUN_uthman
+retire_character = TUN_mahmud
+retire_character = TUN_husayn
+}
+1837.1.1 = {
+retire_character = TUN_mustafa
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
 set_convoys = 20
-
+1936.1.1 = {
 recruit_character = TUN_acgs
 recruit_character = TUN_acr
 recruit_character = TUN_stc
@@ -27,7 +44,7 @@ recruit_character = TUN_acd2
 recruit_character = TUN_nt
 recruit_character = TUN_ar
 recruit_character = TUN_fascist_guy
-
+}
 1939.1.1 = {
 	
 	#generic focuses
@@ -84,14 +101,4 @@ set_popularities = {
 	fascism = 20
 	communism = 5
 	neutrality = 50
-}
-
-create_country_leader = {
-	name = "Habib Bourguiba"
-	desc = ""
-	picture = GFX_portrait_Habib_Bourguiba
-	ideology = centrism
-	traits = {
-		#
-	}
 }

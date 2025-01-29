@@ -10,6 +10,12 @@ state={
 	history={
 		owner = KAL
 		add_core_of = KAL
+		1789.1.1 = {
+add_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+1900.1.1 = {
+remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
 		1552.1.1 = {
 			owner = RUS
 			controller = RUS

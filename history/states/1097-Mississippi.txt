@@ -21,7 +21,7 @@ state={
 		add_core_of = MSP
 		remove_core_of = FLO
         }
-		1836.1.1 = {
+		1818.1.1 = {
         owner = USA
         add_core_of = USA
 		remove_core_of = MSP

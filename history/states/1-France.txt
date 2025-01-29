@@ -4,17 +4,17 @@ state={
 	name="STATE_1"
 
 	history={
-		owner = GEN
-				add_core_of = GEN
+		owner = GOA
+				add_core_of = GOA
 		1750.1.1 = {
 		add_core_of = COR
 		owner = FRA
-		remove_core_of = GEN
+		remove_core_of = GOA
 		}
 		1801.1.1 = {
 		add_core_of = FRA
 		owner = FRA
-		remove_core_of = GEN
+		remove_core_of = GOA
 		}
 		victory_points = {
 			3838 2

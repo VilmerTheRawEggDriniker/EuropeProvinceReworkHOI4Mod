@@ -447,7 +447,8 @@ FRA_italiangambit = {
 		available = {
 			has_completed_focus = france_1789_1815_first_50_focus_39
 			has_government = democratic
-			date > 1792.9.12 date < 1800.1.1 
+                        NOT={has_war_with=SPM}
+			date > 1793.1.1 date < 1794.1.1 
 		}
 
 		cost = 0
@@ -693,7 +694,7 @@ FRA_italiangambit = {
 		available = {
 			has_completed_focus = france_1789_1815_first_50_focus_39
 			has_government = democratic
-			date > 1799.5.1 date < 1800.1.1 
+			date > 1799.22.1 date < 1800.1.1 
 		}
 
 		cost = 0
@@ -710,14 +711,13 @@ FRA_italiangambit = {
 		}
 
 		complete_effect = {
-		hidden_effect={set_global_flag = italian_gambit_lucca_flag AUS = {
-                        add_to_faction = LUC}}
-		declare_war_on = {
+	set_autonomy = {
 		target = LUC
-		type = puppet_wargoal_focus
-	    }
-		}
+		autonomous_state = autonomy_dominion
 	}
+		hidden_effect={set_global_flag = italian_gambit_lucca_flag}
+        }
+}
 }
 FRA_italiangambit = {
 	FRA_seperate_peace_tuscany = {

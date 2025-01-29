@@ -24,6 +24,7 @@ bookmarks = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
+                        ENG_focus_outside_of_europe
 			}
 			focuses = {
 			}
@@ -77,18 +78,23 @@ bookmarks = {
                         alleged_backwardness
 			}
 			focuses = {
-                        russianempire_1789_1815_first_50_focus_49
-                        russianempire_1789_1815_first_50_focus_2
-                        russianempire_1789_1815_first_50_focus_25
+                        russianempirerework_1789_1815_first_100_focus_2
+                        russianempirerework_1789_1815_first_100_focus_48
+                        russianempirerework_1789_1815_first_100_focus_96
 			}
 		}
 		SWE = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
+                        treaty_of_abo
+                        swedish_stagnancy
+                        opportunistic_war
 			}
 			focuses = {
-
+                        sweden_1789_1815_first_100_focus_2
+                        sweden_1789_1815_first_100_focus_12
+                        sweden_1789_1815_first_100_focus_49
 			}
 		}
 		USA = {
@@ -104,6 +110,38 @@ bookmarks = {
                         america_1789_1815_first_100_focus_41
                         america_1789_1815_first_100_focus_80
                         america_1789_1815_first_100_focus_92
+			}
+		}
+		SPM = {
+                        minor = yes
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        mezzogiornotwo
+			}
+			focuses = {
+                        sardiniapiedmont_1789_1815_first_100_focus_5
+                        sardiniapiedmont_1789_1815_first_100_focus_29
+                        sardiniapiedmont_1789_1815_first_100_focus_43
+			}
+		}
+		BAY = {
+                        minor = yes
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		HOL = {
+                        minor = yes
+			history = OTHER_BLITZKRIEG_DESC
+			ideology = neutrality
+			ideas={
+                        wonthegamble
+			}
+			focuses = {
 			}
 		}
 		# minors from DLC ####

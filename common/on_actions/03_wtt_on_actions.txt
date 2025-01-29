@@ -237,6 +237,7 @@ on_actions = {
 
 	#FROM is war target
 	on_declare_war = {
+
 		effect = {
 			#Clear any tribute and support flag if new communists end up at war with SOV
 			if = {
@@ -251,7 +252,7 @@ on_actions = {
 					clr_country_flag = WTT_support_from_soviet
 				}
 			}
-			if = {
+			if = { #TODO_Danne REMOVE THIS!!! It's replaced with the Blitzkrieg/Bewegungskrieg modifiers
 				limit = {
 					OR = {
 						AND = {
@@ -263,7 +264,7 @@ on_actions = {
 							FROM = { tag = GER }
 						}
 					}
-					GER = { has_completed_focus = GER_ussr_war_goal }
+					GER = { has_completed_focus = GER_war_with_the_ussr }
 				}
 				hidden_effect = {
 					GER = { 
@@ -273,20 +274,13 @@ on_actions = {
 				}
 			}
 		}
+
 	}
+	
 	#FROM is faction leader on join faction requests.
 	on_offer_join_faction = {
 		effect = {
-			if = {
-				limit = {
-					FROM = { is_literally_china = yes }
-					event_target:WTT_current_china_leader = {
-						tag = ROOT
-					}
-				}
-				event_target:WTT_current_china_leader = {
-					CHI_unity_level_up = yes #adds surrender defense
-				}					
+			if = {					
 			}
 		}
 	}
@@ -294,12 +288,6 @@ on_actions = {
 	on_leave_faction = {
 		effect = {
 			if = {
-				limit = {
-					is_literally_china = yes
-					event_target:WTT_current_china_leader = {
-						tag = FROM
-					}
-				}
 				FROM = {
 					CHI_unity_level_down = yes #adds surrender defense
 				}					
@@ -387,7 +375,7 @@ on_actions = {
 					}
 				}
 				load_focus_tree = { tree = german_focus keep_completed = no }
-				unlock_national_focus = GER_rhineland
+				unlock_national_focus = GER_remilitarize_the_rhineland
 			}
 			# Give back JAP focus tree to Fascist Japan if they win the communist or democratic civil war.
 			if = {
@@ -466,17 +454,12 @@ on_actions = {
 	on_peaceconference_ended = {
 		effect = {
 			if = { limit = { has_dlc = "Waking the Tiger" }
-				else_if = {
-					limit = {
-						has_country_flag = wtt_refused_giving_leadership
-						event_target:WTT_current_china_leader = { tag = FROM }
-					}
+				if = {
 					FROM = {
-						WTT_political_struggle_remove_current_country = yes
-						clear_global_event_target = WTT_current_china_leader
+						clr_country_flag = wtt_refused_giving_leadership
+						remove_ideas = CHI_illegal_regime
 					}
-					save_global_event_target_as = WTT_current_china_leader
-					remove_ideas = CHI_illegal_regime
+					clr_global_flag = wtt_war_over_national_leadership
 					WTT_restart_political_struggle = yes
 				}
 			}

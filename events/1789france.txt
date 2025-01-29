@@ -12,7 +12,8 @@ country_event = {
 	picture = GFX_idi_amin_india
 	#is_triggered_only = yes
 trigger = {
-has_completed_focus = france_1789_1815_first_50_focus_3
+original_tag=FRA
+has_completed_focus = france_1789_1815_first_50_focus_4
 }
 fire_only_once = yes
 	option = { # 
@@ -24,7 +25,7 @@ fire_only_once = yes
 }
 country_event = {
 	id = fra_1789_event.2
-	title = ""
+	title = "The Happy Revolution"
 	desc = fra_1789_event.2.d
 	picture = GFX_idi_amin_india
 	#is_triggered_only = yes
@@ -32,7 +33,7 @@ trigger = {
 				
 		date > 1789.8.18 has_start_date < 1800.1.1 
 					original_tag = LIE
-					FRA={has_completed_focus = france_1789_1815_first_50_focus_3}}
+					FRA={has_completed_focus = france_1789_1815_first_50_focus_4}}
 fire_only_once = yes
 	option = { # 
 		name = "The Happy Revolution"
@@ -40,6 +41,7 @@ fire_only_once = yes
 		set_politics = { ruling_party = democratic elections_allowed = yes} 
 		add_popularity = { ideology = democratic popularity = 0.5 }
 		news_event = fra_1789_news.2
+set_global_flag = liege_revolution
 	}
 	option = { # 
 		name = "Support the Liège Revolution"
@@ -61,6 +63,7 @@ set_capital = { state = 979 }
 				set_stability = 0.9
 				set_war_support = 0.8
 			}
+set_global_flag = liege_revolution
 	}
 	option = { # 
 		name = "Oppose the Liège Revolution"
@@ -82,7 +85,7 @@ set_capital = { state = 979 }
 				set_stability = 0.9
 				set_war_support = 0.8
 			}
-
+set_global_flag = liege_revolution
 	}
 }
 country_event = {
@@ -95,7 +98,7 @@ trigger = {
 				
 		date > 1789.10.24 has_start_date < 1800.1.1 
 		            original_tag = BEL
-					FRA={has_completed_focus = france_1789_1815_first_50_focus_3}}
+					FRA={has_completed_focus = france_1789_1815_first_50_focus_4}}
 fire_only_once = yes
 	option = { # 
 		name = "Oppose the Brabant Revolution"
@@ -179,7 +182,7 @@ trigger = {
 				
 		date > 1789.7.14 has_start_date < 1800.1.1 
 		original_tag = FRA
-					has_completed_focus = france_1789_1815_first_50_focus_3}
+					has_completed_focus = france_1789_1815_first_50_focus_4}
 fire_only_once = yes
 	option = { # 
 		name = "Storming of the Bastille"
@@ -436,6 +439,7 @@ fire_only_once = yes
 		name = "Treaty of Campo Formio"
 		ai_chance = { factor = 100 } 
 AUS={puppet = VNT}
+FRA={transfer_state=964}
 FRA={set_country_flag = campoformio_flag}
 every_country = {
   white_peace = FRA
@@ -472,6 +476,7 @@ fire_only_once = yes
 		name = "Treaty of Campo Formio"
 		ai_chance = { factor = 100 } 
 AUS={puppet = VNT}
+FRA={transfer_state=964}
 FRA={set_country_flag = campoformio_flag}
 every_country = {
   white_peace = FRA
@@ -555,6 +560,9 @@ fire_only_once = yes
 every_country = {
   white_peace = PRE
 }
+every_country = {
+  white_peace = NEU
+}
 	}
 }
 country_event = {
@@ -563,6 +571,18 @@ country_event = {
 	desc = fra_1789_event.15.d
 	picture = GFX_idi_amin_india
 	#is_triggered_only = yes
+trigger={
+date > 1789.1.1 date < 1800.1.1 
+original_tag=FRA
+has_war_with=SPR
+or={
+SPR = {surrender_progress > 0.1 }
+FRA={controls_state = 165}
+FRA={controls_state = 172}
+SPR={controls_state = 806}
+SPR={controls_state = 1105}
+}
+}
 fire_only_once = yes
 	option = { # 
 		name = "Peace is in both of our best interests"
@@ -1883,6 +1903,7 @@ fire_only_once = yes
 	option = { # 
 		name = "Irish Rebellion of 1798"
 		ai_chance = { factor = 100 } 
+ENG={set_country_flag=ire_eng_war_omg}
 IRE={
 transfer_state = 113
 transfer_state = 134
@@ -2769,7 +2790,7 @@ fire_only_once = yes
 	option = { # 
 	ai_chance = { factor = 100 } 
 	name = "The Treaty of Amiens"
-FRA={annex_country = { target = GEN transfer_troops = no }}
+FRA={annex_country = { target = GOA transfer_troops = no }}
 }
 }
 
@@ -3857,6 +3878,9 @@ fire_only_once = yes
 	option = { # 
 	ai_chance = { factor = 100 } 
 	name = "Declare war on the French Republic"
+					AUS = {
+                        add_to_faction = SPR
+				}
 	SPR={
 				declare_war_on = {
 		target = FRA
@@ -3875,11 +3899,264 @@ fire_only_once = yes
 	option = { # 
 	ai_chance = { factor = 100 } 
 	name = "Declare war on the French Republic"
+					AUS = {
+                        add_to_faction = ENG
+				}
 	ENG={
 				declare_war_on = {
 		target = FRA
 		type = puppet_wargoal_focus
 	}
 	}
+}
+}
+country_event = {
+	id = fra_1789_event.107
+	title = "The Coup of 18 Brumaire"
+	desc = fra_1789_event.107.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Napoleon is the best choice in all of France"
+FRA={country_event = fra_1789_event.108}
+		promote_character=FRA_napoleon
+hidden_effect={
+promote_character=FRA_napoleoni
+FRA={set_party_name = { ideology = neutrality long_name = FRA_BON_neutrality_party_long name = FRA_BON_neutrality_party }}
+}
+}
+}
+country_event = {
+	id = fra_1789_event.108
+	title = "Remove the Council of Five Hundred"
+	desc = fra_1789_event.108.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Remove the council from its chambers"
+add_political_power=50
+FRA={clr_country_flag=counciloffivehundred_flag}
+hidden_effect={
+add_manpower=-500
+}
+}
+}
+country_event = {
+	id = fra_1789_event.109
+	title = "The Establishment of the Council of Five Hundred"
+	desc = fra_1789_event.109.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "A Third of the council should be replaced anually"
+add_manpower=-500
+add_political_power=50
+FRA={set_country_flag=counciloffivehundred_flag}
+FRA={clr_country_flag=nationalconvention_flag}
+}
+	option = { # 
+	ai_chance = { factor = 0 } 
+	name = "They know what they are doing"
+add_manpower=-500
+add_political_power=50
+FRA={set_country_flag=counciloffivehundred_flag}
+FRA={clr_country_flag=nationalconvention_flag}
+}
+	option = { # 
+	ai_chance = { factor = 0 } 
+	name = "Goodbye to the National Convention"
+add_manpower=-500
+add_political_power=50
+FRA={set_country_flag=counciloffivehundred_flag}
+FRA={clr_country_flag=nationalconvention_flag}
+}
+}
+
+country_event = {
+	id = fra_1789_event.110
+	title = "The End of the 1788 Winter famine in France"
+	desc = fra_1789_event.110.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1789.4.11
+date<1790.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Thank god its over..."
+}
+}
+
+country_event = {
+	id = fra_1789_event.111
+	title = "Ties with France?"
+	desc = fra_1789_event.111.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Accept the Alliance"
+FRA={add_to_faction=SPR}
+}
+	option = { # 
+	ai_chance = { factor = 0 } 
+	name = "Reject the Alliance"
+SPR={add_political_power=-50}
+
+}
+}
+
+country_event = {
+	id = fra_1789_event.112
+	title = "The Establishment of the National Convention"
+	desc = fra_1789_event.112.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "A new Parliment is what we need"
+add_manpower=-786
+add_political_power=50
+add_popularity = { ideology = democratic popularity = 0.1 }
+FRA={set_country_flag=nationalconvention_flag}
+}
+}
+
+country_event = {
+	id = fra_1789_event.113
+	title = "Guillaume Brune in the French Army"
+	desc = fra_1789_event.113.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1791.1.1
+date<1792.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Great!"
+	
+	FRA={set_country_flag=brune_has_been_hired}
+}
+}
+country_event = {
+	id = fra_1789_event.114
+	title = "Guillaume Brune Former Marshal of the Empire Murdered"
+	desc = fra_1789_event.114.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1815.8.2
+date<1816.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Let's cover it up"
+FRA={retire_character=FRA_brunegeneral}
+FRA={add_manpower=-1}
+}
+	option = { # 
+	ai_chance = { factor = 0 } 
+	name = "This Traitor deserved it!"
+FRA={retire_character=FRA_brunegeneral}
+FRA={add_manpower=-1}
+}
+	option = { # 
+	ai_chance = { factor = 0 } 
+	name = "This is unacceptable!"
+FRA={retire_character=FRA_brunegeneral}
+FRA={add_manpower=-1}
+}
+	option = { # 
+	ai_chance = { factor = 0 } 
+	name = "You know what? I want his head on a stick"
+FRA={retire_character=FRA_brunegeneral}
+FRA={add_manpower=-1}
+}
+}
+country_event = {
+	id = fra_1789_event.115
+	title = "Michley Ney's Execution"
+	desc = fra_1789_event.115.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1815.12.7
+date<1816.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Execute the Traitor!"
+FRA={retire_character=FRA_michelgeneral}
+FRA={add_manpower=-1}
+}
+}
+country_event = {
+	id = fra_1789_event.116
+	title = "Death of Napoleon Bonaparte"
+	desc = fra_1789_event.116.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1821.5.5
+date<1822.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Rest in Peace?"
+FRA={retire_character=FRA_napoleoni}
+hidden_effect={
+FRA={retire_character=FRA_napoleon}
+FRA={retire_character=FRA_napoleongeneral}
+ITA={retire_character=ITA_napoleon}
+ITA={retire_character=ITA_napoleoni}
+BRG={retire_character=BRG_napoleon}
+}
+FRA={add_manpower=-1}
+}
+}
+country_event = {
+	id = fra_1789_event.117
+	title = "The National Guard"
+	desc = fra_1789_event.117.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger={
+original_tag=FRA
+date>1789.7.11
+date<1790.1.1
+}
+fire_only_once = yes
+	option = { # 
+	ai_chance = { factor = 100 } 
+	name = "Our army needs some support"
+    FRA={add_political_power=-75}
+		FRA={add_manpower=77000}
+				FRA={
+						add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 100000
+					producer = FRA
+				}
+		}
 }
 }

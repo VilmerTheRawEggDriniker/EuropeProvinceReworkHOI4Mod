@@ -265,12 +265,17 @@ country_event = {
 			base = 10
 		}
 		FROM = {		
-			every_army_leader = {
+			every_character = {
 				limit = { has_trait = JAP_samurai_lineage }
 				set_nationality = ROOT
 			}
 		}		
-		FROM = { country_event = { id = wtt_japan.22 } }
+		FROM = { 
+			country_event = { 
+				id = wtt_japan.22 
+				hours = 6
+			} 
+		}
 	}
 }
 
@@ -1326,21 +1331,12 @@ country_event = {
 						is_controlled_by = JAP
 					}
 				}
-				event_target:WTT_current_china_leader = {
-					transfer_state = 524
-				}
 			}
 			if = {
-				limit = {
-					event_target:WTT_current_china_leader = { #Chinese United Front
-						is_faction_leader = yes
-					}
-				}
 				every_country = {
 					limit = {
 						is_literally_china = yes
 						has_war_with = ROOT
-						is_in_faction_with = event_target:WTT_current_china_leader
 					}
 					every_controlled_state = {
 						limit = {
@@ -1361,7 +1357,6 @@ country_event = {
 					limit = {
 						is_literally_china = yes
 						has_war_with = ROOT
-						is_in_faction_with = event_target:WTT_current_china_leader
 					}
 					white_peace = ROOT
 				}
@@ -1502,8 +1497,11 @@ country_event = {
 						controls_state = 527
 					}
 				}
+				JAP = {
+					owns_state = 525
+					owns_state = 527
+				}
 			}
-			release = KOR
 			KOR = {
 				transfer_state = 525
 				transfer_state = 527
@@ -1515,21 +1513,14 @@ country_event = {
 					is_controlled_by = JAP
 				}
 			}
-			event_target:WTT_current_china_leader = {
-				transfer_state = 524
-			}
 		}
 		if = {
 			limit = {
-				event_target:WTT_current_china_leader = { #Chinese United Front
-					is_faction_leader = yes
-				}
 			}
 			every_country = {
 				limit = {
 					is_literally_china = yes
 					has_war_with = ROOT
-					is_in_faction_with = event_target:WTT_current_china_leader
 				}
 				every_controlled_state = {
 					limit = {
@@ -1550,7 +1541,6 @@ country_event = {
 				limit = {
 					is_literally_china = yes
 					has_war_with = ROOT
-					is_in_faction_with = event_target:WTT_current_china_leader
 				}
 				white_peace = ROOT
 			}

@@ -847,11 +847,11 @@
 
  STATE_844:0 "Dithmarschen"
  STATE_845:0 "Lippe"
- STATE_846:0 "Nordhausen"
+ STATE_846:0 "Ticino"
  STATE_847:0 "Bentheim"
  STATE_848:0 "South Pavia"
 
- STATE_849:0 "Ticino"
+ STATE_849:0 "Nordhausen"
  STATE_850:0 "Sachsen-Schlesien"
 
  STATE_851:0 "Eupen-Malmedy"
@@ -906,7 +906,7 @@
 
 
  STATE_891:0 "Cottbus"
- STATE_892:0 "Nord Schleswig"
+ STATE_892:0 "Roseburg"
  STATE_893:0 "Süd Schleswig"
  STATE_894:0 "Bohus"
  STATE_895:0 "Jämtland"
@@ -928,7 +928,7 @@
 
 
  STATE_911:0 "Bend"
- STATE_912:0 "Roseburg"
+ STATE_912:0 "Nord Schleswig"
  STATE_913:0 "Missoula"
  STATE_914:0 "Hildesheim"
  STATE_915:0 "Balta"
@@ -1357,5 +1357,3 @@
  STATE_1278:0 "Ganja" 
  STATE_1279:0 "Terek" 
  STATE_1280:0 "Dagestan Mountains" 
-
-

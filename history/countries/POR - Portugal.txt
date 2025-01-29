@@ -1,4 +1,48 @@
 ﻿capital = 112
+1789.1.1 = {
+recruit_character=POR_pedrogeneral
+recruit_character=POR_limageneral
+recruit_character=POR_josegeneral
+recruit_character=POR_ebengeneral
+recruit_character=POR_miguelgeneral
+recruit_character=POR_bernardimgeneral
+recruit_character=POR_gomesgeneral
+recruit_character=POR_carlosgeneral
+recruit_character=POR_leitegeneral
+recruit_character=POR_manuelgeneral
+recruit_character=POR_paulageneral
+recruit_character=POR_silveirageneral
+recruit_character=POR_nicholasgeneral
+}
+1812.1.1 = {
+retire_character=POR_bernardimgeneral
+}
+1836.1.1 = {
+retire_character=POR_pedrogeneral
+retire_character=POR_josegeneral
+retire_character=POR_ebengeneral
+retire_character=POR_miguelgeneral
+retire_character=POR_gomesgeneral
+retire_character=POR_carlosgeneral
+retire_character=POR_leitegeneral
+retire_character=POR_manuelgeneral
+retire_character=POR_silveirageneral
+}
+1848.1.1 = {
+retire_character=POR_limageneral
+retire_character=POR_nicholasgeneral
+}
+1859.1.1 = {
+retire_character=POR_paulageneral
+}
+1900.1.1 = {
+}
+
+
+
+
+
+
 1788.1.1 = {
 			if = {
 		limit = { has_start_date < 1790.01.02 }
@@ -86,8 +130,8 @@ set_party_name = { ideology = neutrality long_name = POR_BRA_neutrality_party_lo
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1813.1.1 }
-set_oob = "POR_1789_1815"
+		limit = { has_start_date < 1837.1.1 }
+set_oob = "POR_1789"
 }
 }
 1936.1.1 = {
@@ -349,7 +393,7 @@ set_popularities = {
 
 set_convoys = 100
 set_stability = 0.75
-
+1936.1.1 = {
 if = {
 	limit = {
 		has_dlc = "La Resistance"
@@ -475,4 +519,5 @@ if = {
 			rear_1_custom_slot = ship_depth_charge_1
 		}
 	}
+}
 }

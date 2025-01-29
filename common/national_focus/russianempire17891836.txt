@@ -581,7 +581,7 @@ focus_tree = {
 		add_state_core = 1149
 		}
 		hidden_effect={
-			    GEN={
+			    GOA={
 		remove_state_core = 47
 		remove_state_core = 731
 		remove_state_core = 939

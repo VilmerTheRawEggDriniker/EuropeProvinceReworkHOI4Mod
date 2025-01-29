@@ -51,7 +51,6 @@ add_ideas = {
 
 recruit_character = URG_gabriel_terra
 recruit_character = URG_venancio_flores
-recruit_character = URG_bernardo_gonzález
 recruit_character = URG_juan_manuel_aguirre
 recruit_character = URG_ernesto_sanchez_elizondo
 recruit_character = URG_rafael_marques_ayala

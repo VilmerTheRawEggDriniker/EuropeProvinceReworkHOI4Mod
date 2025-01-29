@@ -4,8 +4,8 @@ state={
 	name="STATE_921"
 
 	history={
-		owner = GEN
-		add_core_of = GEN
+		owner = GOA
+		add_core_of = GOA
 		1812.1.1 = {
 			owner = FRA
 
@@ -13,7 +13,7 @@ state={
 		1816.1.1 = {
 			add_core_of = SPM
 			owner = SPM
-			remove_core_of = GEN
+			remove_core_of = GOA
 
 		}
 		1871.1.1 = {

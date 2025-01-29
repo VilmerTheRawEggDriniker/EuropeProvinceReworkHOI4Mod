@@ -13,7 +13,7 @@ country_event = {
 	#is_triggered_only = yes
 trigger = {
 original_tag=FRA	
-date > 1812.1.1 has_start_date < 1815.1.1
+date > 1814.1.1 date < 1815.1.1
 FRA={owns_state=16}
 or={
 FRA = {surrender_progress > 0.5 }

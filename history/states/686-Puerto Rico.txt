@@ -32,7 +32,7 @@ state={
         add_core_of = PUE
         owner = MEX
         }
-		1836.1.1 = {
+		1821.1.1 = {
         add_core_of = PUE
         owner = SPR
         }

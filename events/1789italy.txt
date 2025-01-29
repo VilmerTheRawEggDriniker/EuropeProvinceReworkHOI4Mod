@@ -19,7 +19,96 @@ fire_only_once = yes
 	option = { # 
 		name = "Mourn Paolo Renier"
 		ai_chance = { factor = 100 } 
-retire_character=VNT_paolorenier
+VNT={retire_character=VNT_paolorenier
 promote_character=VNT_lodovicomanin
+add_manpower=-1}
+	}
+}
+country_event = {
+	id = ita_1789_event.2
+	title = "Pro-Spanish Coup in Sardinia-Piedmont"
+	desc = ita_1789_event.2.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Ferdinand of Naples & Sicily shall become King of Sardinia-Piedmont too"
+		ai_chance = { factor = 100 } 
+add_stability=-0.1
+SPM={promote_character=SPM_ferdinandi}
+SPM={set_party_name = { ideology = neutrality long_name = SPM_NAP_neutrality_party_long name = SPM_NAP_neutrality_party }}
+	}
+}
+
+country_event = {
+	id = ita_1789_event.3
+	title = "Pro-Napoleon Royal Savoy Coup in Sardinia-Piedmont"
+	desc = ita_1789_event.3.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Giuseppe Maria di Savoia-Villafranca Can be the new King!"
+		ai_chance = { factor = 100 } 
+		add_stability=-0.1
+SPM={promote_character=SPM_savoia}
+	}
+}
+country_event = {
+	id = ita_1789_event.4
+	title = "1000 Sardinians taken as slaves by Tunisian Slave Raiders"
+	desc = ita_1789_event.4.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=SPM
+date > 1798.1.1 date < 1799.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Wont the Husainid dynasty Criminalize the Slave Trade of Europeans already!"
+		ai_chance = { factor = 100 } 
+TUN={add_political_power=-25}
+SPM={add_political_power=-25}
+SPM={add_war_support=-0.01}
+SPM={add_manpower=-1000}
+	}
+}
+
+country_event = {
+	id = ita_1789_event.5
+	title = "The Death of Victor Amadeus III"
+	desc = ita_1789_event.5.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=SPM
+date > 1796.10.16 date < 1797.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Mourn Victor Amadeus III"
+		ai_chance = { factor = 100 } 
+SPM={retire_character=SPM_victoramadeusiii
+promote_character=SPM_charlesemmanueliv
+add_manpower=-1}
+	}
+}
+country_event = {
+	id = ita_1789_event.6
+	title = "The Death of Charles Emmanuel IV"
+	desc = ita_1789_event.6.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=SPM
+date > 1819.10.6 date < 1820.1.1 
+}
+fire_only_once = yes
+	option = { # 
+		name = "Mourn Charles Emmanuel IV"
+		ai_chance = { factor = 100 } 
+SPM={retire_character=SPM_charlesemmanueliv
+add_manpower=-1}
 	}
 }

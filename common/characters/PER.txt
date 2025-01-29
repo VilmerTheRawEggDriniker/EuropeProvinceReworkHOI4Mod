@@ -38,48 +38,6 @@ characters={
 			expire="1797.1.1"
 		}
 }
-	PER_aghamohammadkhanqajar={
-		name=PER_CHARACTER_AGHAMOHAMMADKHANQAJAR
-		portraits={
-			civilian={
-				large="GFX_portrait_per_aghamohammadkhanqajar_large"
-			}
-		}
-		country_leader={
-			ideology=despotism
-			traits={Qajar}
-			desc = PER_AQHAMOHAMMADKHANQAJAR_DESC
-			expire="1797.1.1"
-		}
-}
-	PER_fathalishahqajar={
-		name=PER_CHARACTER_FATHALISHAHQAJAR
-		portraits={
-			civilian={
-				large="GFX_portrait_per_fathalishahqajar_large"
-			}
-		}
-		country_leader={
-			ideology=despotism
-			traits={Qajar}
-			desc = PER_FATHALISHAHQAJAR_DESC
-			expire="1797.1.1"
-		}
-}
-	PER_mohammadshahqajar={
-		name=PER_CHARACTER_MOHAMMADSHAHQAJAR
-		portraits={
-			civilian={
-				large="GFX_portrait_per_mohammadshahqajar_large"
-			}
-		}
-		country_leader={
-			ideology=despotism
-			traits={Qajar}
-			desc = PER_MOHAMMADSHAHQAJAR_DESC
-			expire="1797.1.1"
-		}
-}
 	PER_reza_shah_pahlavi={
 		name="Reza Shah Pahlavi"
 		portraits={

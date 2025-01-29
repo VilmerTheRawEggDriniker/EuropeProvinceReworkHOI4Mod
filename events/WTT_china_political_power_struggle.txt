@@ -544,6 +544,7 @@ country_event = {
 	}
 }
 
+#MM: Never used. Unlocalized
 # Answer from warlord wtt_political_warlord_support.2 - Asking for asking for civ industry
 country_event = {
 	id = wtt_political_warlord_support.14
@@ -626,7 +627,6 @@ country_event = {
 
 add_namespace = wtt_take_national_leadership
 
-# Notification to WTT_current_china_leader that FROM has gained support and will take over leadership
 country_event = {
 	id = wtt_take_national_leadership.1
 	title = wtt_take_national_leadership.1.t
@@ -665,8 +665,6 @@ country_event = {
 					}
 					drop_cosmetic_tag = yes
 				}
-				clear_global_event_target = WTT_current_china_leader
-				save_global_event_target_as = WTT_current_china_leader
 			}
 		}
 	}

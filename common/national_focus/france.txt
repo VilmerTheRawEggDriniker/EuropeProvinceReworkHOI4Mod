@@ -8699,7 +8699,7 @@ continuous_focus_position = { x = 100 y = 2400 }
 allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1 has_start_date < 1800.1.1}
 
 		x = 2
-		y = 1
+		y = 0
 		cost = 4.3
 
 		ai_will_do = {
@@ -8731,8 +8731,10 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		icon = GFX_goal_generic_construct_mil_factory
 allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1 has_start_date < 1800.1.1}
 
-	
-		x = 4
+			prerequisite = {
+		focus =	france_1789_1815_first_50_focus_1
+		}
+		x = 1
 		y = 1
 
 		cost = 4.3
@@ -8769,49 +8771,13 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 	}
 		focus = {
 		id = france_1789_1815_first_50_focus_3
-		icon = GFX_focus_chi_reach_out_to_france
-allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1 has_start_date < 1800.1.1}
-
-		
-		x = 6
-		y = 1
-
-		cost = 4.3
-
-		ai_will_do = {
-			factor = 1
-		}
-
-		available = {
-        
-		}
-
-		bypass = {
-
-		}
-
-		cancel_if_invalid = yes
-		continue_if_invalid = no
-		available_if_capitulated = no
-
-		search_filters = { FOCUS_FILTER_POLITICAL }
-		
-		completion_reward = {
-		add_stability=-0.25
-		add_named_threat = { threat = 5 name = FRA_revolution }
-		hidden_effect={
-		add_ideas={frenchrevolutionlarge}
-		add_ideas={minorcounterrevolution}
-		}
-		}
-	}
-		focus = {
-		id = france_1789_1815_first_50_focus_4
 		icon = GFX_focus_focus_fra_revolution_utmost
 allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1 has_start_date < 1800.1.1}
-
-	
-		x = 8
+		prerequisite = {
+		focus =	france_1789_1815_first_50_focus_1
+		}
+		
+		x = 3
 		y = 1
 
 		cost = 4.3
@@ -8846,12 +8812,52 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		}
 	}
 		focus = {
+		id = france_1789_1815_first_50_focus_4
+		icon = GFX_focus_chi_reach_out_to_france
+allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1 has_start_date < 1800.1.1}
+
+	
+		x = 6
+		y = 0
+
+		cost = 4.3
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+        
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		
+		completion_reward = {
+				add_stability=-0.25
+		add_named_threat = { threat = 5 name = FRA_revolution }
+		hidden_effect={
+		add_ideas={frenchrevolutionlarge}
+		add_ideas={minorcounterrevolution}
+		}
+		}
+	}
+		focus = {
 		id = france_1789_1815_first_50_focus_5
 		icon = GFX_goal_generic_intelligence_exchange
 allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1 has_start_date < 1800.1.1}
 
-		
-		x = 10
+			prerequisite = {
+		focus =	france_1789_1815_first_50_focus_4
+		}	
+		x = 5
 		y = 1
 
 		cost = 4.3
@@ -8883,9 +8889,11 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		id = france_1789_1815_first_50_focus_6
 		icon = GFX_goal_generic_construct_civ_factory
 allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1 has_start_date < 1800.1.1}
-
+		prerequisite = {
+		focus =	france_1789_1815_first_50_focus_4
+		}
 	
-		x = 12
+		x = 7
 		y = 1
 		cost = 4.3
 
@@ -9075,17 +9083,12 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 
 		x = 2
 		y = 2
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_1
-		}
+
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_2
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_3
-		}
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_4
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_5
@@ -9152,17 +9155,12 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		icon = GFX_focus_generic_treaty
 		x = 4
 		y = 2
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_1
-		}
+
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_2
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_3
-		}
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_4
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_5
@@ -9212,17 +9210,12 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 
 		x = 6
 		y = 2
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_1
-		}
+
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_2
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_3
-		}
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_4
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_5
@@ -9283,17 +9276,12 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 
 		x = 8
 		y = 2
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_1
-		}
+
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_2
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_3
-		}
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_4
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_5
@@ -9367,17 +9355,12 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 
 		x = 10
 		y = 2
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_1
-		}
+
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_2
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_3
-		}
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_4
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_5
@@ -9428,17 +9411,12 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 
 		x = 12
 		y = 2
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_1
-		}
+
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_2
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_3
-		}
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_4
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_5
@@ -9488,17 +9466,12 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 
 		x = 14
 		y = 2
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_1
-		}
+
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_2
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_3
-		}
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_4
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_5
@@ -9548,17 +9521,12 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 
 		x = 16
 		y = 2
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_1
-		}
+
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_2
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_3
-		}
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_4
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_5
@@ -9608,17 +9576,12 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 
 		x = 18
 		y = 2
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_1
-		}
+
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_2
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_3
-		}
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_4
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_5
@@ -9670,17 +9633,12 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 
 		x = 20
 		y = 2
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_1
-		}
+
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_2
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_3
-		}
-		prerequisite = {
-		focus =	france_1789_1815_first_50_focus_4
 		}
 		prerequisite = {
 		focus =	france_1789_1815_first_50_focus_5
@@ -11059,6 +11017,7 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 	random_other_country = {
                 limit = {
                     original_tag = BEL
+					NOT={has_war_with=FRA}
                     has_government = democratic
                 }
     declare_war_on = {
@@ -11410,6 +11369,7 @@ allow_branch = { NOT={has_country_flag=napoleonfrance} has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		FRA={country_event = fra_1789_event.112}
 		add_stability=0.05
 		set_cosmetic_tag = FRA_republic_two
 		FRA={set_politics = { ruling_party = democratic elections_allowed = yes } }
@@ -11942,6 +11902,7 @@ mutually_exclusive = { focus = france_1793_1799_focus_2 }
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		
 		completion_reward = {
+		FRA={add_ideas={war_of_survival_fra}}
 		932 = { add_claim_by = root }
 		960 = { add_claim_by = root }
 		
@@ -12041,6 +12002,7 @@ mutually_exclusive = { focus = france_1793_1799_focus_1 }
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 		
 		completion_reward = {
+		FRA={add_ideas={war_of_survival_fra}}
 		932 = { add_claim_by = root }
 		960 = { add_claim_by = root }
 					VND={
@@ -13056,6 +13018,7 @@ NOT={controls_state=1}
 		}
 
 		available = {
+		has_war_with=PRE
 		}
 
 		bypass = {
@@ -13229,7 +13192,10 @@ NOT={controls_state=1}
 		}
 
 		available = {
-
+        or={
+		has_war_with=SPR
+		has_war_with=HSE
+		}
 		}
 
 		bypass = {
@@ -13333,6 +13299,7 @@ NOT={controls_state=1}
 		}
 
 		available = {
+		date > 1795.1.1
 		}
 
 		bypass = {
@@ -13346,6 +13313,7 @@ NOT={controls_state=1}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		FRA={country_event = fra_1789_event.109}
 		remove_ideas={committeeofpublicsafetytwo}
 		}
 	}
@@ -13725,6 +13693,7 @@ remember_old_capital = no
 		}
 
 		available = {
+		NOT={has_war_with=SPR}
 		}
 
 		bypass = {
@@ -13738,7 +13707,7 @@ remember_old_capital = no
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		add_to_faction = SPR
+		SPR={country_event = fra_1789_event.111}
 		}
 	}
 									focus = {
@@ -14578,10 +14547,12 @@ white_peace = PFZ
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+                EGY={
 								declare_war_on = {
-		target = OTO
+		target = FRA
 		type = puppet_wargoal_focus
 	}
+}
 		}
 	}
 										focus = {
@@ -15246,6 +15217,7 @@ SPM={
 		
 		completion_reward = {
 		add_political_power=50
+		FRA={country_event = fra_1789_event.107}
 		promote_character=FRA_napoleon
 hidden_effect={
 promote_character=FRA_napoleoni
@@ -18126,7 +18098,7 @@ FRA={country_event = fra_1789_event.57}
 		}
 
 		available = {
-		GEN={is_subject_of=FRA}
+		GOA={is_subject_of=FRA}
 		}
 
 		bypass = {
@@ -18140,7 +18112,7 @@ FRA={country_event = fra_1789_event.57}
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		GEN={country_event = fra_1789_event.62}
+		GOA={country_event = fra_1789_event.62}
 		}
 	}
 										focus = {

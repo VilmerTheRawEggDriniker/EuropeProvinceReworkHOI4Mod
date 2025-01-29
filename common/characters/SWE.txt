@@ -1,4 +1,339 @@
 characters={
+	SWE_gustafadolfreuterholm={
+		name=SWE_CHARACTER_GUSTAFADOLFREUTERHOLM
+		portraits={
+                        army={
+				small="GFX_idea_swe_gustafadolfreuterholm_small"
+			}
+			civilian = {
+				large = GFX_portrait_swe_gustafadolfreuterholm_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = SWE_gustafadolfreuterholm
+			allowed  = {
+				original_tag  = SWE
+			}
+			available  = {
+                        has_country_flag=gustafadolfreuterholm_hired
+		        }
+			traits  = {
+				swe_regent 
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+		SWE_frederickvi={
+		name=SWE_CHARACTER_FREDERICKVI
+		portraits={
+			civilian={
+				large="GFX_portrait_swe_frederickvi_large"
+			}
+		}
+		country_leader={
+			ideology=oldenburg
+			traits={Oldenburg}
+			desc = SWE_FREDERICKVI_DESC
+			expire="1797.1.1"
+		}
+}
+		SWE_august={
+		name=SWE_CHARACTER_AUGUST
+		portraits={
+			civilian={
+				large="GFX_portrait_swe_august_large"
+			}
+		}
+		country_leader={
+			ideology=oldenburg
+			traits={Oldenburg}
+			desc = SWE_AUGUST_DESC
+			expire="1797.1.1"
+		}
+}
+		SWE_adler={
+		name=SWE_CHARACTER_ADLER
+		portraits={
+			civilian={
+				large="GFX_portrait_swe_adler_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			desc = SWE_ADLER_DESC
+			expire="1797.1.1"
+		}
+}
+		SWE_johangeneral={
+		name=SWE_CHARACTER_JOHANGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_johangeneral_large
+				small=GFX_portrait_swe_johangeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_mauritzgeneral={
+		name=SWE_CHARACTER_MAURITZGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_mauritzgeneral_large
+				small=GFX_portrait_swe_mauritzgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_magnusgeneral={
+		name=SWE_CHARACTER_MAGNUSGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_magnusgeneral_large
+				small=GFX_portrait_swe_magnusgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_rudolfgeneral={
+		name=SWE_CHARACTER_RUDOLFGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_rudolfgeneral_large
+				small=GFX_portrait_swe_rudolfgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_charlesxivjohngeneral={
+		name=SWE_CHARACTER_CHARLESXIVJOHNGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_charlesxivjohngeneral_large
+				small=GFX_portrait_swe_charlesxivjohngeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_dobelngeneral={
+		name=SWE_CHARACTER_DOBELNGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_dobelngeneral_large
+				small=GFX_portrait_swe_dobelngeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_hansgeneral={
+		name=SWE_CHARACTER_HANSGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_hansgeneral_large
+				small=GFX_portrait_swe_hansgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_wilhelmgeneral={
+		name=SWE_CHARACTER_WILHELMGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_wilhelmgeneral_large
+				small=GFX_portrait_swe_wilhelmgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_carlgeneral={
+		name=SWE_CHARACTER_CARLGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_carlgeneral_large
+				small=GFX_portrait_swe_carlgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_augustgeneral={
+		name=SWE_CHARACTER_AUGUSTGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_augustgeneral_large
+				small=GFX_portrait_swe_augustgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_andersgeneral={
+		name=SWE_CHARACTER_ANDERSGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_andersgeneral_large
+				small=GFX_portrait_swe_andersgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_curtgeneral={
+		name=SWE_CHARACTER_CURTGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_curtgeneral_large
+				small=GFX_portrait_swe_curtgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_charlesgeneral={
+		name=SWE_CHARACTER_CHARLESGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_charlesgeneral_large
+				small=GFX_portrait_swe_charlesgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_tollgeneral={
+		name=SWE_CHARACTER_TOLLGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_tollgeneral_large
+				small=GFX_portrait_swe_tollgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			SWE_gustafgeneral={
+		name=SWE_CHARACTER_GUSTAFGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_swe_gustafgeneral_large
+				small=GFX_portrait_swe_gustafgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+
+
+
+
+
+
 	SWE_gustaviii={
 		name=SWE_CHARACTER_GUSTAVIII
 		portraits={
@@ -7,7 +342,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp}
 			desc = SWE_GUSTAVIII_DESC
 			expire="1797.1.1"
@@ -21,7 +356,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp}
 			desc = SWE_GUSTAVIVADOLF_DESC
 			expire="1797.1.1"
@@ -35,7 +370,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Holstein-Gottorp}
 			desc = SWE_CHARLESXIII_DESC
 			expire="1797.1.1"

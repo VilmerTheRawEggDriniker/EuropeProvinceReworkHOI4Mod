@@ -9,434 +9,41 @@
 	}
 }
 }
-2024.1.1 = {
-set_oob = "RUS_2024"
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1797.1.1 }
+	KIE={set_cosmetic_tag=KIE_RUS}
+	set_autonomy = {
+        target = KIE
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+	}
+}
 }
 1789.1.1 = {
-		if = {
-		limit = { has_start_date < 1799.1.1 }
-
-MUN={
-give_military_access = AUS
-}
-BTH={
-give_military_access = AUS
-}
-MUN={
-give_military_access = BKV
-}
-BTH={
-give_military_access = BKV
-}
-MUN={
-give_military_access = GLL
-}
-BTH={
-give_military_access = GLL
-}
-MUN={
-give_military_access = HUN
-}
-BTH={
-give_military_access = HUN
-}
-MUN={
-give_military_access = BOH
-}
-BTH={
-give_military_access = BOH
-}
-WRZ={
-give_military_access = AUS
-}
-HOL={
-give_military_access = AUS
-}
-WRZ={
-give_military_access = BKV
-}
-HOL={
-give_military_access = BKV
-}
-WRZ={
-give_military_access = GLL
-}
-HOL={
-give_military_access = GLL
-}
-WRZ={
-give_military_access = HUN
-}
-HOL={
-give_military_access = HUN
-}
-WRZ={
-give_military_access = BOH
-}
-HOL={
-give_military_access = BOH
-}
-AUG={
-give_military_access = AUS
-}
-WUR={
-give_military_access = AUS
-}
-FUR={
-give_military_access = AUS
-}
-SAL={
-give_military_access = AUS
-}
-BUC={
-give_military_access = AUS
-}
-ULM={
-give_military_access = AUS
-}
-KON={
-give_military_access = AUS
-}
-HOH={
-give_military_access = AUS
-}
-BEL={
-give_military_access = AUS
-}
-LIE={
-give_military_access = AUS
-}
-ZWE={
-give_military_access = AUS
-}
-SAA={
-give_military_access = AUS
-}
-PFZ={
-give_military_access = AUS
-}
-MNZ={
-give_military_access = AUS
-}
-HES={
-give_military_access = AUS
-}
-FKF={
-give_military_access = AUS
-}
-BAD={
-give_military_access = AUS
-}
-NAS={
-give_military_access = AUS
-}
-TRR={
-give_military_access = AUS
-}
-BRG={
-give_military_access = AUS
-}
-CLG={
-give_military_access = AUS
-}
-JUL={
-give_military_access = AUS
-}
-AAC={
-give_military_access = AUS
-}
-PRE={
-give_military_access = AUS
-}
-AUG={
-give_military_access = BOH
-}
-WUR={
-give_military_access = BOH
-}
-FUR={
-give_military_access = BOH
-}
-SAL={
-give_military_access = BOH
-}
-BUC={
-give_military_access = BOH
-}
-ULM={
-give_military_access = BOH
-}
-KON={
-give_military_access = BOH
-}
-HOH={
-give_military_access = BOH
-}
-BEL={
-give_military_access = BOH
-}
-LIE={
-give_military_access = BOH
-}
-ZWE={
-give_military_access = BOH
-}
-SAA={
-give_military_access = BOH
-}
-PFZ={
-give_military_access = BOH
-}
-MNZ={
-give_military_access = BOH
-}
-HES={
-give_military_access = BOH
-}
-FKF={
-give_military_access = BOH
-}
-BAD={
-give_military_access = BOH
-}
-NAS={
-give_military_access = BOH
-}
-TRR={
-give_military_access = BOH
-}
-BRG={
-give_military_access = BOH
-}
-CLG={
-give_military_access = BOH
-}
-JUL={
-give_military_access = BOH
-}
-AAC={
-give_military_access = BOH
-}
-PRE={
-give_military_access = BOH
-}
-AUG={
-give_military_access = HUN
-}
-WUR={
-give_military_access = HUN
-}
-FUR={
-give_military_access = HUN
-}
-SAL={
-give_military_access = HUN
-}
-BUC={
-give_military_access = HUN
-}
-ULM={
-give_military_access = HUN
-}
-KON={
-give_military_access = HUN
-}
-HOH={
-give_military_access = HUN
-}
-BEL={
-give_military_access = HUN
-}
-LIE={
-give_military_access = HUN
-}
-ZWE={
-give_military_access = HUN
-}
-SAA={
-give_military_access = HUN
-}
-PFZ={
-give_military_access = HUN
-}
-MNZ={
-give_military_access = HUN
-}
-HES={
-give_military_access = HUN
-}
-FKF={
-give_military_access = HUN
-}
-BAD={
-give_military_access = HUN
-}
-NAS={
-give_military_access = HUN
-}
-TRR={
-give_military_access = HUN
-}
-BRG={
-give_military_access = HUN
-}
-CLG={
-give_military_access = HUN
-}
-JUL={
-give_military_access = HUN
-}
-AAC={
-give_military_access = HUN
-}
-PRE={
-give_military_access = HUN
-}
-AUG={
-give_military_access = GLL
-}
-WUR={
-give_military_access = GLL
-}
-FUR={
-give_military_access = GLL
-}
-SAL={
-give_military_access = GLL
-}
-BUC={
-give_military_access = GLL
-}
-ULM={
-give_military_access = GLL
-}
-KON={
-give_military_access = GLL
-}
-HOH={
-give_military_access = GLL
-}
-BEL={
-give_military_access = GLL
-}
-LIE={
-give_military_access = GLL
-}
-ZWE={
-give_military_access = GLL
-}
-SAA={
-give_military_access = GLL
-}
-PFZ={
-give_military_access = GLL
-}
-MNZ={
-give_military_access = GLL
-}
-HES={
-give_military_access = GLL
-}
-FKF={
-give_military_access = GLL
-}
-BAD={
-give_military_access = GLL
-}
-NAS={
-give_military_access = GLL
-}
-TRR={
-give_military_access = GLL
-}
-BRG={
-give_military_access = GLL
-}
-CLG={
-give_military_access = GLL
-}
-JUL={
-give_military_access = GLL
-}
-AAC={
-give_military_access = GLL
-}
-PRE={
-give_military_access = GLL
-}
-AUG={
-give_military_access = BKV
-}
-WUR={
-give_military_access = BKV
-}
-FUR={
-give_military_access = BKV
-}
-SAL={
-give_military_access = BKV
-}
-BUC={
-give_military_access = BKV
-}
-ULM={
-give_military_access = BKV
-}
-KON={
-give_military_access = BKV
-}
-HOH={
-give_military_access = BKV
-}
-BEL={
-give_military_access = BKV
-}
-LIE={
-give_military_access = BKV
-}
-ZWE={
-give_military_access = BKV
-}
-SAA={
-give_military_access = BKV
-}
-PFZ={
-give_military_access = BKV
-}
-MNZ={
-give_military_access = BKV
-}
-HES={
-give_military_access = BKV
-}
-FKF={
-give_military_access = BKV
-}
-BAD={
-give_military_access = BKV
-}
-NAS={
-give_military_access = BKV
-}
-TRR={
-give_military_access = BKV
-}
-BRG={
-give_military_access = BKV
-}
-CLG={
-give_military_access = BKV
-}
-JUL={
-give_military_access = BKV
-}
-AAC={
-give_military_access = BKV
-}
-PRE={
-give_military_access = BKV
-}
-}
+			if = {
+		limit = { has_start_date < 1797.1.1 }
+	BSK={set_cosmetic_tag=BSK_RUS}
+	set_autonomy = {
+        target = BSK
+        autonomous_state = autonomy_integrated_puppet
+        freedom_level = 0.4
+	}
+}
+}
+1789.1.1 = {
+			if = {
+		limit = { has_start_date < 1797.1.1 }
+	DON={set_cosmetic_tag=DON_RUS}
+	set_autonomy = {
+        target = DON
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+2024.1.1 = {
+set_oob = "RUS_2024"
 }
 1789.1.1 = {
 		if = {
@@ -452,13 +59,19 @@ set_oob = "RUS_1800"
 }
 1812.1.1 = {
 		if = {
-		limit = { has_start_date < 1813.1.1 }
+		limit = { has_start_date < 1815.1.1 }
 set_oob = "RUS_1812"
 }
 }
 1789.1.1 = {
 		if = {
 		limit = { has_start_date < 1790.1.1 }
+CIR={
+	declare_war_on = {
+		target = RUS
+		type = annex_everything
+	}
+}
 OTO={
 	declare_war_on = {
 		target = RUS
@@ -640,7 +253,46 @@ set_technology = {
 	infantry_weapons = 1
 	transport = 1
 	early_submarine = 1
+        gw_artillery = 1
 }
+1789.1.1 = {
+recruit_character=RUS_betskoy
+recruit_character=RUS_pahlen
+recruit_character=RUS_panin
+recruit_character=RUS_ribas
+recruit_character=RUS_levin
+recruit_character=RUS_yashvil
+recruit_character=RUS_zubov
+recruit_character=RUS_wylie
+}
+1800.1.1 = {
+retire_character=RUS_betskoy
+}
+1812.1.1 = {
+retire_character=RUS_ribas
+retire_character=RUS_zubov
+}
+1821.1.1 = {
+retire_character=RUS_yashvil
+}
+1836.1.1 = {
+retire_character=RUS_pahlen
+retire_character=RUS_levin
+}
+1837.1.1 = {
+retire_character=RUS_panin
+}
+1857.1.1 = {
+retire_character=RUS_wylie
+}
+
+
+
+
+
+
+
+
 1789.1.1 = {
 recruit_character=RUS_orourke
 }
@@ -648,10 +300,22 @@ recruit_character=RUS_orourke
 retire_character=RUS_orourke
 }
 1789.1.1 = {
+recruit_character=RUS_grigory_potemkin
+}
+1800.1.1 = {
+retire_character=RUS_grigory_potemkin
+}
+1789.1.1 = {
 recruit_character=RUS_kutuzov
 }
 1813.1.1 = {
 retire_character=RUS_kutuzov
+}
+1789.1.1 = {
+recruit_character=RUS_lodewijk
+}
+1850.1.1 = {
+retire_character=RUS_lodewijk
 }
 1789.1.1 = {
 recruit_character=RUS_barclay
@@ -798,6 +462,26 @@ set_popularities = {
 	}
 }
 }
+1814.1.1 = {
+		if = {
+		limit = { has_start_date < 1815.1.1 }
+    set_autonomy = {
+        target = FIN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+	}
+}
+}
+1821.1.1 = {
+		if = {
+		limit = { has_start_date < 1822.1.1 }
+    set_autonomy = {
+        target = FIN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.35
+	}
+}
+}
 1836.1.1 = {
 		if = {
 		limit = { has_start_date < 1837.1.1 }
@@ -828,9 +512,9 @@ set_popularities = {
 	}
 }
 }
-1836.1.1 = {
+1814.1.1 = {
 		if = {
-		limit = { has_start_date < 1919.1.1 }
+		limit = { has_start_date < 1900.1.1 }
     set_autonomy = {
         target = POL
         autonomous_state = autonomy_dominion
@@ -840,7 +524,7 @@ set_popularities = {
 }
 1900.1.1 = {
 		if = {
-		limit = { has_start_date < 1901.1.1 }
+		limit = { has_start_date < 1915.1.1 }
     set_autonomy = {
         target = POL
         autonomous_state = autonomy_integrated_puppet
@@ -853,7 +537,7 @@ set_popularities = {
 		limit = { has_start_date < 1870.1.1 }
     set_autonomy = {
         target = ALA
-        autonomous_state = autonomy_integrated_puppet
+        autonomous_state = autonomy_protectorate
         freedom_level = 0.35
 	}
 }

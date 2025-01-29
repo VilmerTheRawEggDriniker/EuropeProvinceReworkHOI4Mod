@@ -17,8 +17,10 @@ state={
 			infrastructure = 1
 
 		}
+		1818.1.1 = {
 		victory_points = {
 			3672 5 
+		}
 		}
 				1919.1.1 = {
 		owner = DAG

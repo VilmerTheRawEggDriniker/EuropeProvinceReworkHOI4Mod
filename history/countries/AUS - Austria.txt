@@ -7,6 +7,22 @@ retire_character=AUS_metternich
 }
 1789.1.1 = {
 			if = {
+		limit = { has_start_date < 1790.1.1 }
+	set_autonomy = {
+        target = SER
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+set_technology = {
+	infantry_weapons = 1
+	transport = 1
+	early_submarine = 1
+        gw_artillery = 1
+}
+1788.1.1 = {
+			if = {
 		limit = { has_start_date < 1799.1.1 }
 AUS={
 					add_timed_idea = {
@@ -45,13 +61,6 @@ set_country_flag = napoleondead
 		limit = { has_start_date < 1801.1.1 }
 set_autonomy = {
 	target = WRZ
-	autonomous_state = autonomy_hre_subject
-	freedom_level = 0.1
-}
-
-
-set_autonomy = {
-	target = NEU
 	autonomous_state = autonomy_hre_subject
 	freedom_level = 0.1
 }
@@ -926,7 +935,7 @@ remove_ideas = {
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1809.1.1 }
+		limit = { has_start_date < 1800.1.1 }
 AUS={
 create_faction = HolyRomanEmpireoftheGermanNation
 }
@@ -934,14 +943,8 @@ create_faction = HolyRomanEmpireoftheGermanNation
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1790.1.1 }
-set_oob = "AUS_1789"
-}
-}
-1800.1.1 = {
-		if = {
 		limit = { has_start_date < 1801.1.1 }
-set_oob = "AUS_1800"
+set_oob = "AUS_1789"
 }
 }
 1812.1.1 = {
@@ -950,7 +953,7 @@ set_oob = "AUS_1800"
 set_oob = "AUS_1812"
 }
 }
-1836.1.1 = {
+1814.1.1 = {
 		if = {
 		limit = { has_start_date < 1837.1.1 }
 set_oob = "AUS_1836"
@@ -982,61 +985,6 @@ set_cosmetic_tag = AUS_empire # austrian empire
 	recruit_character=AUS_franz_joseph_i
 	promote_character=AUS_franz_joseph_i
 }
-1916.11.21 = {
-	retire_character=AUS_franz_joseph_i
-	recruit_character=AUS_charles_i
-	promote_character=AUS_charles_i
-}
-1918.11.12 = {
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1911.7.1"
-		election_frequency = 91
-		elections_allowed = yes
-	}
-	set_popularities = {
-		neutrality = 4
-		fascism = 19
-		democratic = 77
-		communism = 0
-	}
-	recruit_character = AUS_karl_renner
-	promote_character = AUS_karl_renner
-	set_cosmetic_tag = AUS_german_austria
-}
-1919.7.10 = {
-	set_cosmetic_tag = AUS
-}
-1920.7.7 = {
-	recruit_character = AUS_michael_mayr
-	promote_character = AUS_michael_mayr
-}
-1921.6.21 = {
-	recruit_character = AUS_johannes_schober
-	promote_character = AUS_johannes_schober
-}
-1922.1.26 = {
-	recruit_character = AUS_walter_breisky
-	promote_character = AUS_walter_breisky
-        retire_character = AUS_johannes_schober
-}
-1922.1.27 = {
-	recruit_character = AUS_johannes_schober
-	promote_character = AUS_johannes_schober
-}
-1922.5.31 = {
-	recruit_character = AUS_ignaz_seipel
-	promote_character = AUS_ignaz_seipel
-}
-1924.11.20 = {
-	recruit_character = AUS_rudolf_ramek
-	promote_character = AUS_rudolf_ramek
-        retire_character = AUS_ignaz_seipel
-}
-1926.10.20 = {
-	recruit_character = AUS_ignaz_seipel
-	promote_character = AUS_ignaz_seipel
-}
 1936.1.1 = {
 oob = "AUS_1936"
 if = {
@@ -1057,24 +1005,7 @@ if = {
 	}
 }
 }
-set_research_slots = 3
-1936.1.1 = {
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_recon = 1
-	tech_engineers = 1
-	tech_support = 1
-	tech_mountaineers = 1
-	basic_train = 1
-}
-}
-set_technology = {
-	infantry_weapons = 1
-	transport = 1
-	early_submarine = 1
-}
-1836.1.1 = {
+1821.1.1 = {
 			if = {
 		limit = { has_start_date < 1837.01.02 }
     set_autonomy = {
@@ -1089,6 +1020,11 @@ set_technology = {
 	}
         set_autonomy = {
         target = MOD
+        autonomous_state = autonomy_personal_union
+        freedom_level = 0.2
+	}
+	        set_autonomy = {
+        target = MAS
         autonomous_state = autonomy_personal_union
         freedom_level = 0.2
 	}
@@ -1173,44 +1109,281 @@ set_technology = {
 set_party_name = { ideology = neutrality long_name = HUN_legitimists_party_long name = HUN_legitimists_party }
 }
 1936.1.1 = {
-recruit_character = AUS_kurt_schuschnigg
-recruit_character = AUS_arthur_seyss-inquart
-recruit_character = AUS_alfred_klahr
-recruit_character = AUS_karl_eglseer
-recruit_character = AUS_odilo_globocnik
-recruit_character = AUS_alexander_lohr
-recruit_character = AUS_paul_von_hegedus
-recruit_character = AUS_julius_yllam
-recruit_character = AUS_otto_meixner_von_zweienstamm
-recruit_character = AUS_wilhelm_zehner
-recruit_character = AUS_josef_teufl
-recruit_character = AUS_otto_schobel
-recruit_character = AUS_viktor_seebauer
-recruit_character = AUS_lothar_rendulic
-recruit_character = AUS_ernst_kaltenbrunner
-recruit_character = AUS_eduard_freiherr
-recruit_character = AUS_franz_bohme
-recruit_character = AUS_eugen_beyer
-recruit_character = AUS_julius_raab
-recruit_character = AUS_leopold_figl
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	set_oob = "AUS_ww_1936"
+	ELSE_IF = {
+		limit = {
+			NOT = {
+				has_dlc = "Gotterdammerung"
+			}
+		}
+		set_oob = "AUS_1936"
+	}
 }
+
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "AUS_1936_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+		}
+	else = {
+		set_air_oob = "AUS_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+
+		}
+	}
+}
+### Store Austrian initial states - Used for removing German cores in Austria when German capitulates after having done successful Anschluss
+every_owned_state = {
+	limit = {
+		is_core_of = ROOT
+	}
+	add_to_array = { ROOT.AUS_initial_states = THIS }
+}
+
+
+IF = {
+	limit = { 
+		has_dlc = "Gotterdammerung"
+	}
+
+	
+
+	#setting up all the dynamic modifiers
+
+	AUS_set_austrofascism_defaults = yes
+	AUS_set_monarchy_restored_defauts = yes
+	AUS_set_farr_defaults = yes
+	AUS_set_doth_defalts = yes
+	AUS_set_aggression_defaults = yes
+	AUS_set_austromarxism_defaults = yes
+	AUS_set_peoples_army_defaults = yes
+	AUS_set_empire_restored_defaults = yes
+	AUS_set_airforce_defaults = yes
+	AUS_set_army_defaults = yes
+	AUS_set_army_monarcy_defaults = yes
+	AUS_set_navy_defaults = yes
+	AUS_set_compensation_for_guarantee_defaults = yes
+
+	#National spirits are set here
+
+	add_ideas = {
+		AUS_widespread_unemployment
+		AUS_phonix_insurance
+		AUS_recovering_from_the_depression
+	}
+
+	add_timed_idea = {
+		idea = AUS_treaty_of_saint_germain_en_laye
+		days = 1657
+	}
+
+	add_dynamic_modifier= {
+		modifier = AUS_austrofascism 
+	}	
+
+	add_opinion_modifier = {
+		target = GER
+		modifier = AUS_austrofascism_opm
+	}	
+
+	# rules are set here
+
+	country_lock_all_division_template = yes
+
+
+	
+
+	#########################
+	##DLC-LOCKED CHARACTERS##
+	#########################
+
+	#Political
+	recruit_character = AUS_kurt_schuschnigg
+	recruit_character = AUS_karl_renner
+	recruit_character = AUS_arthur_seyss-inquart
+	recruit_character = AUS_alfred_klahr
+	recruit_character = AUS_ernst_rudiger_starhemberg
+	recruit_character = AUS_johann_koplenig
+	recruit_character = AUS_edmund_glaise_horstenau
+	recruit_character = AUS_johann_hiedler
+	recruit_character = AUS_vinzenz_schumy
+	recruit_character = AUS_wilhelm_miklas
+	recruit_character = AUS_franz_winkler
+	recruit_character = AUS_ludwig_von_mises
+	recruit_character = AUS_heimito_von_doderer
+	recruit_character = AUS_hans_pertner
+	recruit_character = AUS_johannes_of_liechtenstein
+	recruit_character = AUS_alois_of_liechtenstein
+	recruit_character = AUS_heinrich_maier
+	recruit_character = AUS_leopold_waber
+	recruit_character = AUS_viktor_kienbock
+	recruit_character = AUS_karl_polheim
+	recruit_character = AUS_marianne_pollak
+	recruit_character = AUS_bruno_kreisky
+	recruit_character = AUS_theodor_innitzer
+	recruit_character = AUS_elizabet_von_gutmann
+	recruit_character = AUS_malke_schorr
+	recruit_character = AUS_franz_koritschoner
+	recruit_character = AUS_adolf_scharf
+	recruit_character = AUS_adolf_hoch
+	recruit_character = AUS_otto_bauer 
+	recruit_character = AUS_alois_schonburg_hartenstein
+	recruit_character = AUS_julius_raab
+	recruit_character = AUS_leopold_figl
+	recruit_character = AUS_ernst_kaltenbrunner
+	recruit_character = AUS_maximilian_ronge
+	recruit_character = AUS_egon_schonhof
+	recruit_character = AUS_friedrich_mandl
+
+	#Army
+
+	recruit_character = AUS_karl_eglseer
+	recruit_character = AUS_friedrich_materna
+	recruit_character = AUS_emil_liebitzky
+	recruit_character = AUS_ludwig_von_eimannsberger
+	recruit_character = AUS_alfred_ritter_von_hubicki
+	recruit_character = AUS_valentin_feuerstein
+	recruit_character = AUS_ernst_hammer
+	recruit_character = AUS_eduard_barger
+	recruit_character = AUS_mauritz_von_wiktorin
+	recruit_character = AUS_curt_von_jesser
+	recruit_character = AUS_anton_kienbauer
+	recruit_character = AUS_julius_deutsch
+	recruit_character = AUS_alfred_jansa
+	recruit_character = AUS_wilhelm_gebauer
+	recruit_character = AUS_theodor_korner
+	recruit_character = AUS_arthur_von_pongracz
+	recruit_character = AUS_gottfried_freiherr_von_banfeld
+	recruit_character = AUS_josef_brunner
+	recruit_character = AUS_alexander_lohr
+	recruit_character = AUS_julius_yllam
+	recruit_character = AUS_wilhelm_zehner
+	recruit_character = AUS_otto_schobel
+	recruit_character = AUS_viktor_seebauer
+	recruit_character = AUS_lothar_rendulic
+	recruit_character = AUS_franz_bohme
+	recruit_character = AUS_eugen_beyer
+	recruit_character = AUS_richard_steidle
+	recruit_character = AUS_godwin_von_brumowski
+	recruit_character = AUS_johann_jacob_reverta
+
+	#Navy
+
+	recruit_character = AUS_carl_heinz_birnbacher
+	recruit_character = AUS_franz_von_keil
+
+
+
+	#scientists, commented out before we know how to handle them
+	recruit_character = AUS_herbert_wagner
+	recruit_character = AUS_eugen_sanger
+	recruit_character = AUS_hedy_lamarr
+	recruit_character = AUS_egon_schweidler
+	recruit_character = AUS_paul_eisler
+
+	#Operatives
+
+	create_operative_leader = {
+		name = AUS_erwin_von_lahousen
+		bypass_recruitment = no 
+		available_to_spy_master = yes 
+		gfx = GFX_portrait_AUS_erwin_von_lahousen 
+		traits = { operative_double_agent operative_commando }
+		nationalities = { AUS GER }
+	}
+
+	create_operative_leader = {
+		name = AUS_wilhelm_ergert
+		bypass_recruitment = no 
+		available_to_spy_master = yes 
+		gfx = GFX_portrait_AUS_wilhelm_ergert 
+		traits = { operative_double_agent operative_linguist operative_safe_cracker }
+		nationalities = { AUS GER YUG }
+	}
+
+	ELSE_IF = {
+		limit = {
+			NOT = {
+				has_dlc = "Gotterdammerung"
+			}
+		}
+
+		#########################
+		#####FREE CHARACTERS#####
+		#########################
+
+		recruit_character = AUS_kurt_schuschnigg
+		recruit_character = AUS_karl_renner
+		recruit_character = AUS_arthur_seyss-inquart
+		recruit_character = AUS_alfred_klahr
+		recruit_character = AUS_karl_eglseer
+		recruit_character = AUS_odilo_globocnik
+		recruit_character = AUS_alexander_lohr
+		recruit_character = AUS_paul_von_hegedus #complete boogus, remove?
+		recruit_character = AUS_julius_yllam
+		recruit_character = AUS_otto_meixner_von_zweienstamm #might be removed, is 80 at game start
+		recruit_character = AUS_wilhelm_zehner
+		recruit_character = AUS_josef_teufl #complete boogus, remove? 
+		recruit_character = AUS_otto_schobel
+		recruit_character = AUS_viktor_seebauer
+		recruit_character = AUS_lothar_rendulic
+		recruit_character = AUS_ernst_kaltenbrunner
+		recruit_character = AUS_eduard_freiherr
+		recruit_character = AUS_franz_bohme
+		recruit_character = AUS_eugen_beyer
+		recruit_character = AUS_julius_raab
+		recruit_character = AUS_leopold_figl
+	}
+
+}
+
+
+set_research_slots = 3
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	basic_train = 1
+	gw_artillery = 1
+}
+IF = {
+	limit = { has_dlc = "No Step Back" }
+	set_technology = {
+		gwtank_chassis = 1
+	}
+
+	ELSE = {
+		set_technology = {
+			gwtank = 1
+		}
+	}
+}
+
+IF = {
+	limit = { has_dlc = "La Resistance" }
+		set_technology = {
+			armored_car1 = 1
+		}
+}
+
 
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1931.1.1"
-	election_frequency = 96
-	elections_allowed = no
-}
-set_popularities = {
-	democratic = 50
-	neutrality = 50
-}
-
-1936.1.1 = {
-set_politics = {
-	ruling_party = Fascism
-	last_election = "1930.11.9"
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -1221,19 +1394,20 @@ set_popularities = {
 	democratic = 1
 	communism = 1
 }
+
+set_stability = 0.50
 }
-1946.1.1 = {
+
+
 set_politics = {
-	ruling_party = democratic
-	last_election = "1942.11.9"
+	ruling_party = neutrality
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
+
 set_popularities = {
-	neutrality = 5
-	democratic = 90
-	communism = 5
-}
+	neutrality = 50
+	democratic = 50
 }
 
-set_stability = 0.50

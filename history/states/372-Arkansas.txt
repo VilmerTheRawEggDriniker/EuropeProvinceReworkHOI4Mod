@@ -22,7 +22,7 @@ state={
                 owner = FRA
                 }
 		1789.1.1 = {
-        owner = MEX
+        owner = LOU
 		add_core_of = LOU
         }
 		1812.1.1 = {

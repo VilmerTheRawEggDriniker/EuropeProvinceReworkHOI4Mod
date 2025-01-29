@@ -1,29 +1,23 @@
 ﻿capital = 111
-1808.1.1 = {
+1789.1.1 = {
 recruit_character=FIN_georgmagnussprengtporten
+recruit_character=FIN_michaelandreasbarclaydetolly
+recruit_character=FIN_fabiansteinheil
+recruit_character=FIN_arsenyzakrevsky
+recruit_character=FIN_alexandersergeyevichmenshikov
 promote_character=FIN_georgmagnussprengtporten
 }
-1809.1.1 = {
-recruit_character=FIN_michaelandreasbarclaydetolly
+1812.1.1 = {
 promote_character=FIN_michaelandreasbarclaydetolly
-retire_character=FIN_georgmagnussprengtporten
 }
-1810.1.1 = {
-recruit_character=FIN_fabiansteinheil
+1836.1.1 = {
 promote_character=FIN_fabiansteinheil
+retire_character=FIN_georgmagnussprengtporten
 retire_character=FIN_michaelandreasbarclaydetolly
-}
-1824.1.1 = {
-recruit_character=FIN_arsenyzakrevsky
-promote_character=FIN_arsenyzakrevsky
 retire_character=FIN_fabiansteinheil
-}
-1831.1.1 = {
-recruit_character=FIN_alexandersergeyevichmenshikov
-promote_character=FIN_alexandersergeyevichmenshikov
 retire_character=FIN_arsenyzakrevsky
 }
-1855.1.1 = {
+1859.1.1 = {
 retire_character=FIN_alexandersergeyevichmenshikov
 }
 1932.1.1 = {
@@ -197,7 +191,7 @@ set_party_name = {
 	name = FIN_neutrality_party_kokoomus
 	long_name = FIN_neutrality_party_kokoomus_long
 }
-
+1936.1.1 = {
 recruit_character = FIN_kyosti_kallio
 recruit_character = FIN_risto_ryti
 recruit_character = FIN_juho_kusti_paasikivi
@@ -428,7 +422,7 @@ if = {
 	}
 
 }
-
+}
 1936.1.1 = {
 add_ideas = {
 	limited_conscription

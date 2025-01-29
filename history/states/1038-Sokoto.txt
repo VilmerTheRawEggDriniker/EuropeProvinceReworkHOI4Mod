@@ -12,8 +12,8 @@ state={
                 }
                owner = ZZZ
 		1900.1.1 = {
-		owner = SKT
-		add_core_of = SKT
+		owner = SOK
+		add_core_of = SOK
                 }
 		1903.1.1 = {
 			owner = ENG

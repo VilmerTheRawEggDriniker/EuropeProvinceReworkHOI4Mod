@@ -20,6 +20,22 @@ state={
 		owner = SOV
 		add_core_of=SOV
 		}
+						1789.1.1 = {
+			owner = DON
+		add_core_of = DON
+		remove_core_of = ZAP
+		remove_core_of = POL
+		remove_core_of = RUS
+		}
+		1800.1.1 = {
+			owner = RUS
+		remove_core_of = ZAP
+		remove_core_of = DON
+		remove_core_of = POL
+		}
+		1801.1.1 = {
+		add_core_of = RUS
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV
@@ -34,8 +50,10 @@ state={
 			remove_core_of = SOV
 
 		}
+		1865.1.1 = {
 		victory_points = {
 			11724 1 
+		}
 		}
 
 	}

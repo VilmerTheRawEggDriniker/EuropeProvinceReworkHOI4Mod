@@ -42,6 +42,16 @@
 		min_trust = 25
 		decay = 0
 	}
+	ENG_AUS_ally_one = {
+		value = 25
+		min_trust = 25
+		decay = 0
+	}
+	ENG_RUS_ally_one = {
+		value = 25
+		min_trust = 25
+		decay = 0
+	}
 	RUS_pale_of_settlement = {
 		value = -50
 		min_trust = -50
@@ -55,5 +65,8 @@
 		days = 10
 		months = 120
 		decay = 1
+	}
+	reichenbach_treaty = {
+		value = 35
 	}
 }

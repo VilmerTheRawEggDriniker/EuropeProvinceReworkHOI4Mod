@@ -234,9 +234,7 @@ FRA_vichy_france = {
 						every_owned_state = {
 							limit = { 
 								NOT = { is_core_of = FRA }
-								is_core_of = ALG
-
-								
+								is_controlled_by_ROOT_or_ally = yes 
 							}
 							set_variable = { GER.state_to_target = THIS}
 							IF = {
@@ -286,8 +284,8 @@ FRA_vichy_france = {
 	}
 	FRA_demand_unification_with_vichy = {
 		available = {
+			country_exists = VIC
 			VIC = {
-				exists = yes
 				NOT = {
 					has_war_with = ROOT
 				}
@@ -302,7 +300,7 @@ FRA_vichy_france = {
 			country_exists = VIC
 		}
 		ai_will_do = {
-			factor = 100
+			factor = 200
 		}
 		cost = 0
 		fire_only_once = yes
@@ -850,7 +848,7 @@ FRA_spanish_intervention_category = {
 
 		cost = 25
 		ai_will_do = {
-			factor = 1
+			factor = 1.5
 			modifier = {
 				has_stability < 0.3
 				factor = 0
@@ -1299,7 +1297,7 @@ economy_decisions = {
 		cost = 50
 
 		ai_will_do = {
-			factor = 10
+			factor = 15
 			modifier = {
 				has_war = no
 				factor = 0
@@ -1352,7 +1350,7 @@ economy_decisions = {
 				}
 				mio:FRA_amiot_organization = {
 					set_mio_name_key = SNCAN
-					add_mio_research_bonus = -0.02
+					add_mio_size = 1
 					add_mio_funds_gain_factor = 0.05
 					
 				}
@@ -1405,8 +1403,8 @@ economy_decisions = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				mio:FRA_bloch_organization = {
-					set_mio_name_key = SNCAN
-					add_mio_research_bonus = -0.02
+					set_mio_name_key = SNCAO
+					add_mio_size = 1
 					add_mio_funds_gain_factor = 0.05
 					
 				}
@@ -1463,7 +1461,6 @@ economy_decisions = {
 				show_mio_tooltip = FRA_SNCAC_organization
 				mio:FRA_SNCAC_organization = {
 					add_mio_size = 2
-					add_mio_research_bonus = -0.02
 					add_mio_funds_gain_factor = 0.05
 				}
 			}
@@ -1510,8 +1507,8 @@ economy_decisions = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				mio:FRA_morane_saulnier_organization = {
-					set_mio_name_key = SNCAN
-					add_mio_research_bonus = -0.02
+					set_mio_name_key = SNCASE
+					add_mio_size = 1
 					add_mio_funds_gain_factor = 0.05
 					
 				}
@@ -1564,10 +1561,9 @@ economy_decisions = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				mio:FRA_levasseur_organization = {
-					set_mio_name_key = SNCAN
-					add_mio_research_bonus = -0.02
+					set_mio_name_key = SNCASO
+					add_mio_size = 1
 					add_mio_funds_gain_factor = 0.05
-					
 				}
 				hidden_effect = {
 					mio:FRA_levasseur_organization = {
@@ -2333,7 +2329,7 @@ FRA_intervention_in_overseas_territories = {
 		fire_only_once = yes
 		cost = 25
 		ai_will_do = {
-			factor = 3
+			factor = 4
 		}
 		
 	}
@@ -2567,7 +2563,7 @@ FRA_intervention_in_overseas_territories = {
 		fire_only_once = yes
 		cost = 25
 		ai_will_do = {
-			factor = 3
+			factor = 4
 		}
 	}
 	FRA_prepare_coup_in_west_africa = {
@@ -2798,7 +2794,7 @@ FRA_intervention_in_overseas_territories = {
 		fire_only_once = yes
 		cost = 25
 		ai_will_do = {
-			factor = 3
+			factor = 5
 		}
 	}
 	FRA_prepare_coup_in_madagascar = {

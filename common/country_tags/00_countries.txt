@@ -11,14 +11,14 @@ RBE = "countries/Reichskommissariatbelgium.txt"
 RHO = "countries/Reichskommissariatnetherlands.txt"
 RNO	= "countries/Reichskommissariatnorway.txt"
 RFR = "countries/Reichskommissariatfrance.txt"
-RAR = "countries/Reichskommissariatarmenia.txt"
+RYU = "countries/Reichskommissariatarmenia.txt"
 RAZ = "countries/Reichskommissariatazerbaijan.txt"
 RGE = "countries/Reichskommissariatgeorgia.txt"
 RCA	= "countries/Reichskommissariatcaucasus.txt"
 RMO	= "countries/Reichskommissariatmuscovy.txt"
 RLV = "countries/Reichskommissariatlivonia.txt"
 RMR = "countries/Reichskommissariatmountainrepublic.txt"
-RCO	= "countries/Reichskommissariatcourland.txt"
+RCU	= "countries/Reichskommissariatcourland.txt"
 RCR	= "countries/Reichskommissariatcrimea.txt"
 IDA = "countries/Indiana.txt" #flagcomplete 
 PEN = "countries/Pennsylvania.txt" #flagcomplete 
@@ -54,6 +54,11 @@ NOS = "countries/Novascotia.txt" #flagcomplete  #uk17891800flags
 NOC = "countries/Northwest Territory Canada.txt" #flagcomplete 
 ITO = "countries/Manitoba.txt" #flagcomplete 
 
+QAJ= "countries/Qajar.txt" #flagcomplete 
+AFS = "countries/Afsharid.txt" #flagcomplete 
+BAL = "countries/Balochistan.txt" #flagcomplete 
+KHU = "countries/Khuzestan.txt" #flagcomplete 
+
 
 
 
@@ -86,6 +91,8 @@ MDP = "countries/Mutual Defense Pact of the Southeastern Provinces.txt" #flagcom
 BOX = "countries/Boxers.txt" #flagcomplete 
 ACE = "countries/Aceh.txt" #flagcomplete 
 
+SIB = "countries/Siberia.txt" #flagcomplete 
+SND = "countries/Sindh.txt" #flagcomplete 
 MUG = "countries/Mughal Empire.txt" #flagcomplete 
 HEJ = "countries/Hejaz.txt" #flagcomplete 
 SVI = "countries/South Vietnam.txt" #flagcomplete 
@@ -259,7 +266,7 @@ BOH = "countries/Bohemia.txt"
 MRV = "countries/Moravia.txt"
 BYZ = "countries/Byzantine.txt"
 THE = "countries/Theodoro.txt"
-GEN = "countries/Genoa.txt"
+GOA = "countries/Genoa.txt"
 SNA = "countries/Siena.txt"
 ULM = "countries/Ulm.txt"
 MTF = "countries/Montferrat.txt"
@@ -344,6 +351,29 @@ OLD = "countries/Oldenburg.txt"
 BAD = "countries/Baden.txt"
 HES = "countries/Hesse.txt"
 THU = "countries/Thuringia.txt"
+
+SKA = "countries/Skane.txt"
+BHL = "countries/Bohuslan.txt"
+GOT = "countries/Gotland.txt"
+NRL = "countries/Norrland.txt"
+GTL = "countries/Gotaland.txt"
+JMT = "countries/Jamtland.txt"
+ALN = "countries/Aland.txt"
+WPO = "countries/West Pomerania.txt"
+WIS = "countries/Wismar.txt"
+SMA = "countries/Smaland.txt"
+OSG = "countries/Ostergotland.txt"
+DAL = "countries/Dalarna.txt"
+VAR = "countries/Varmland.txt"
+VAS = "countries/Vasternorrland.txt"
+GAV = "countries/Gavleborg.txt"
+
+
+
+
+
+
+
 
 GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"
@@ -607,7 +637,7 @@ RUS = "countries/Russian Empire.txt"
 QIN = "countries/Qing China.txt"
 WAD = "countries/Wadai.txt"
 DRF = "countries/Darfur.txt"
-SKT = "countries/Sokoto.txt"
+SOK = "countries/Sokoto.txt"
 
 RAP = "countries/Rapa Nui.txt"
 YUC = "countries/Yucatan.txt"
@@ -627,3 +657,41 @@ CHR = "countries/Charrua.txt"
 ITZ = "countries/Itza.txt"
 NAH = "countries/Nahua.txt"
 IAS = "countries/Isthmo Amerindia.txt"
+
+KAT = "countries/Katanga.txt"
+BIA = "countries/Biafra.txt"
+CBV = "countries/Cabo Verde.txt"
+BAR = "countries/Barotseland.txt"
+EVE = "countries/Evenkia.txt"
+UBD = "countries/United Baltic Duchy.txt"
+
+# REICHSKOMMISSARIATS (no cores) (European)
+RKB = "countries/Reichskommisariat Belgien.txt"
+RKN = "countries/Reichskommisariat Niederlande.txt"
+RKG = "countries/Reichskommisariat Norwegen.txt"
+RKU = "countries/Reichskommisariat Ukraine.txt"
+RKO = "countries/Reichskommisariat Ostland.txt"
+RKK = "countries/Reichskommisariat Kaukasien.txt"
+RKT = "countries/Reichskommisariat Turkestan.txt"
+RKM = "countries/Reichskommisariat Moskowien.txt"
+RKL = "countries/Reichskommisariat Urals.txt"
+GEN = "countries/Generalgouvernement.txt"
+RKH = "countries/Bohmen Mahren.txt"
+RKI = "countries/Reichskommisariat Iberien.txt"
+RKC = "countries/Reichskommisariat Balkan.txt"
+RGB = "countries/Reichskommisariat Grossbritannien.txt"
+
+# REICHSKOMMISSARIATS (no cores) (African)
+RKA = "countries/Reichskommisariat Mittelafrika.txt"
+RNA = "countries/Reichskommisariat Nordafrika.txt"
+
+# REICHSKOMMISSARIATS (no cores) (American)
+RKV = "countries/Reichskommisariat Klein Venedig.txt"
+RAN = "countries/Reichskommisariat Anden.txt"
+RCO = "countries/Reichskommisariat Kolumbus.txt"
+
+# REICHSKOMMISSARIATS (no cores) (Asian)
+RHD = "countries/Reichskommisariat Grosshindustan.txt"
+RAR = "countries/Reichskommisariat Arabien.txt"
+ROA = "countries/Reichskommisariat Ostasien.txt"
+RAA = "countries/Reichskommisariat Australasien.txt"

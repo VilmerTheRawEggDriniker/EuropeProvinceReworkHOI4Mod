@@ -10,6 +10,18 @@ has_manpower > 100000
 not={has_army_manpower = { size > 95000 }}
 				if = {
 					limit = {
+						original_tag = ENG
+					}
+					NOT = {has_idea = ENG_focus_outside_of_europe}
+				}
+								if = {
+					limit = {
+						original_tag = FRA
+					}
+					NOT = {has_country_flag= france_endsieg_flag}
+				}
+				if = {
+					limit = {
 						original_tag = POL
 					}
 					NOT = {date < 1800.1.1}
@@ -67,7 +79,7 @@ not={has_army_manpower = { size > 95000 }}
 			}
 		}
 
-		visible = {
+		visible = {NOT={has_global_flag = no_scripted_napoleonic_division_flag}
 		not={original_tag=ZZZ}
 date > 1789.1.1 date < 1836.1.1 
 		}
@@ -98,6 +110,18 @@ not={has_army_manpower = { size > 191000 }}
 has_army_manpower = { size > 95000 }
 				if = {
 					limit = {
+						original_tag = ENG
+					}
+					NOT = {has_idea = ENG_focus_outside_of_europe}
+				}
+												if = {
+					limit = {
+						original_tag = FRA
+					}
+					NOT = {has_country_flag= france_endsieg_flag}
+				}
+				if = {
+					limit = {
 						original_tag = POL
 					}
 					NOT = {date < 1800.1.1}
@@ -164,7 +188,7 @@ has_army_manpower = { size > 95000 }
 			}
 		}
 
-		visible = {
+		visible = {NOT={has_global_flag = no_scripted_napoleonic_division_flag}
 		not={original_tag=ZZZ}
 date > 1789.1.1 date < 1836.1.1 
 		}
@@ -195,6 +219,18 @@ not={has_army_manpower = { size > 287000 }}
 has_army_manpower = { size > 191000 }
 				if = {
 					limit = {
+						original_tag = ENG
+					}
+					NOT = {has_idea = ENG_focus_outside_of_europe}
+				}
+																if = {
+					limit = {
+						original_tag = FRA
+					}
+					NOT = {has_country_flag= france_endsieg_flag}
+				}
+				if = {
+					limit = {
 						original_tag = POL
 					}
 					NOT = {date < 1800.1.1}
@@ -263,7 +299,7 @@ has_army_manpower = { size > 191000 }
 			}
 		}
 
-		visible = {
+		visible = {NOT={has_global_flag = no_scripted_napoleonic_division_flag}
 		not={original_tag=ZZZ}
 date > 1789.1.1 date < 1836.1.1 
 		}
@@ -294,6 +330,18 @@ not={has_army_manpower = { size > 383000 }}
 has_army_manpower = { size > 287000 }
 				if = {
 					limit = {
+						original_tag = ENG
+					}
+					NOT = {has_idea = ENG_focus_outside_of_europe}
+				}
+																if = {
+					limit = {
+						original_tag = FRA
+					}
+					NOT = {has_country_flag= france_endsieg_flag}
+				}
+				if = {
+					limit = {
 						original_tag = POL
 					}
 					NOT = {date < 1800.1.1}
@@ -360,7 +408,7 @@ has_army_manpower = { size > 287000 }
 			}
 		}
 
-		visible = {
+		visible = {NOT={has_global_flag = no_scripted_napoleonic_division_flag}
 		not={original_tag=ZZZ}
 date > 1789.1.1 date < 1836.1.1 
 		}
@@ -392,6 +440,18 @@ not={has_army_manpower = { size > 479000 }}
 has_army_manpower = { size > 383000 }
 				if = {
 					limit = {
+						original_tag = ENG
+					}
+					NOT = {has_idea = ENG_focus_outside_of_europe}
+				}
+																if = {
+					limit = {
+						original_tag = FRA
+					}
+					NOT = {has_country_flag= france_endsieg_flag}
+				}
+				if = {
+					limit = {
 					or={
 						original_tag = HUN 
 						original_tag = BOH 
@@ -447,7 +507,7 @@ has_army_manpower = { size > 383000 }
 			}
 		}
 
-		visible = {
+		visible = {NOT={has_global_flag = no_scripted_napoleonic_division_flag}
 		not={original_tag=ZZZ}
 date > 1789.1.1 date < 1836.1.1 
 		}
@@ -479,6 +539,18 @@ not={has_army_manpower = { size > 575000 }}
 has_army_manpower = { size > 479000 }
 				if = {
 					limit = {
+						original_tag = ENG
+					}
+					NOT = {has_idea = ENG_focus_outside_of_europe}
+				}
+																if = {
+					limit = {
+						original_tag = FRA
+					}
+					NOT = {has_country_flag= france_endsieg_flag}
+				}
+				if = {
+					limit = {
 					or={
 						original_tag = HUN 
 						original_tag = BOH 
@@ -534,7 +606,7 @@ has_army_manpower = { size > 479000 }
 			}
 		}
 
-		visible = {
+		visible = {NOT={has_global_flag = no_scripted_napoleonic_division_flag}
 		not={original_tag=ZZZ}
 date > 1789.1.1 date < 1836.1.1 
 		}
@@ -566,6 +638,18 @@ not={has_army_manpower = { size > 671000 }}
 has_army_manpower = { size > 575000 }
 				if = {
 					limit = {
+						original_tag = ENG
+					}
+					NOT = {has_idea = ENG_focus_outside_of_europe}
+				}
+																if = {
+					limit = {
+						original_tag = FRA
+					}
+					NOT = {has_country_flag= france_endsieg_flag}
+				}
+				if = {
+					limit = {
 					or={
 						original_tag = HUN 
 						original_tag = BOH 
@@ -621,7 +705,7 @@ has_army_manpower = { size > 575000 }
 			}
 		}
 
-		visible = {
+		visible = {NOT={has_global_flag = no_scripted_napoleonic_division_flag}
 		not={original_tag=ZZZ}
 date > 1789.1.1 date < 1836.1.1 
 		}
@@ -653,6 +737,18 @@ not={has_army_manpower = { size > 767000 }}
 has_army_manpower = { size > 671000 }
 				if = {
 					limit = {
+						original_tag = ENG
+					}
+					NOT = {has_idea = ENG_focus_outside_of_europe}
+				}
+																if = {
+					limit = {
+						original_tag = FRA
+					}
+					NOT = {has_country_flag= france_endsieg_flag}
+				}
+				if = {
+					limit = {
 					or={
 						original_tag = HUN 
 						original_tag = BOH 
@@ -708,7 +804,7 @@ has_army_manpower = { size > 671000 }
 			}
 		}
 
-		visible = {
+		visible = {NOT={has_global_flag = no_scripted_napoleonic_division_flag}
 		not={original_tag=ZZZ}
 date > 1789.1.1 date < 1836.1.1 
 		}
@@ -740,6 +836,18 @@ not={has_army_manpower = { size > 863000 }}
 has_army_manpower = { size > 767000 }
 				if = {
 					limit = {
+						original_tag = ENG
+					}
+					NOT = {has_idea = ENG_focus_outside_of_europe}
+				}
+																if = {
+					limit = {
+						original_tag = FRA
+					}
+					NOT = {has_country_flag= france_endsieg_flag}
+				}
+				if = {
+					limit = {
 					or={
 						original_tag = HUN 
 						original_tag = BOH 
@@ -794,7 +902,7 @@ has_army_manpower = { size > 767000 }
 			}
 		}
 
-		visible = {
+		visible = {NOT={has_global_flag = no_scripted_napoleonic_division_flag}
 		not={original_tag=ZZZ}
 date > 1789.1.1 date < 1836.1.1 
 		}
@@ -826,6 +934,18 @@ not={has_army_manpower = { size > 959000 }}
 has_army_manpower = { size > 863000 }
 				if = {
 					limit = {
+						original_tag = ENG
+					}
+					NOT = {has_idea = ENG_focus_outside_of_europe}
+				}
+																if = {
+					limit = {
+						original_tag = FRA
+					}
+					NOT = {has_country_flag= france_endsieg_flag}
+				}
+				if = {
+					limit = {
 					or={
 						original_tag = HUN 
 						original_tag = BOH 
@@ -880,7 +1000,7 @@ has_army_manpower = { size > 863000 }
 			}
 		}
 
-		visible = {
+		visible = {NOT={has_global_flag = no_scripted_napoleonic_division_flag}
 		not={original_tag=ZZZ}
 date > 1789.1.1 date < 1836.1.1 
 		}

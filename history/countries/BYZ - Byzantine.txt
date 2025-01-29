@@ -1,13 +1,19 @@
 ﻿capital = 797
-
+1789.1.1 = {
+recruit_character=BYZ_konstantinpavlovich
+}
+1836.1.1 = {
+retire_character=BYZ_konstantinpavlovich
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 }
 
 set_convoys = 20
-
-
+1789.1.1 = {
+BYZ={set_party_name = { ideology = neutrality long_name = BYZ_ROS_neutrality_party_long name = BYZ_ROS_neutrality_party }}
+}
 1939.1.1 = {
 	
 	#generic focuses

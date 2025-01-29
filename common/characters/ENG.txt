@@ -16,6 +16,23 @@ characters={
 			legacy_id=0
 		}
 	}
+				ENG_codringtongeneral={
+		name=ENG_CHARACTER_CODRINGTONGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_eng_codringtongeneral_large
+				small=GFX_portrait_eng_codringtongeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
 			ENG_princehenrygeneral={
 		name=ENG_CHARACTER_PRINCEHENRYGENERAL
 		portraits={

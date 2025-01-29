@@ -1,5 +1,19 @@
 ﻿capital = 567
-
+add_ideas = {
+	CIR_army
+}
+1789.1.1 = {
+		if = {
+		limit = { has_start_date < 1820.1.1 }
+set_oob = "CIR_1789"
+				add_manpower = 100000
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 100000
+					producer = CIR
+				}
+}
+}
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

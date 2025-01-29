@@ -12,9 +12,28 @@ state={
 			add_core_of = RUS
 
 		}
+				1800.1.1 = {
+		victory_points = {
+			9446 2
+		}
+		}
 		buildings = {
 			infrastructure = 2
 
+		}
+						1789.1.1 = {
+			owner = DON
+		add_core_of = DON
+		remove_core_of = ZAP
+		remove_core_of = POL
+		remove_core_of = RUS
+		}
+		1800.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = DON
+		remove_core_of = POL
 		}
 		1900.1.1 = {
 			add_core_of = UKR

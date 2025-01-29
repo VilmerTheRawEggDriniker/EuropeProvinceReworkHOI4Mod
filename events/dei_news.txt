@@ -9,7 +9,7 @@ news_event = {
 	id = dei_news.1
 	title = "Mount Tambora Erupts"
 	desc = dei_news.1.desc
-	
+	#is_triggered_only = yes
 	trigger = {
 		date > 1815.4.10
 		has_start_date < 1815.4.10

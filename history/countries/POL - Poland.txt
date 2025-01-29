@@ -1,4 +1,103 @@
 ﻿capital = 88
+1789.1.1 = {
+recruit_character=POL_jozefgeneral
+recruit_character=POL_dezydgeneral
+recruit_character=POL_chlopgeneral
+recruit_character=POL_konstgeneral
+recruit_character=POL_janhegeneral
+
+recruit_character=POL_henrygeneral
+recruit_character=POL_stanigeneral
+recruit_character=POL_fiszegeneral
+recruit_character=POL_cyprigeneral
+recruit_character=POL_hansmgeneral
+
+recruit_character=POL_berekgeneral
+recruit_character=POL_enrykgeneral
+recruit_character=POL_kniazgeneral
+recruit_character=POL_karolgeneral
+recruit_character=POL_jankogeneral
+
+recruit_character=POL_kossageneral
+recruit_character=POL_koziegeneral
+recruit_character=POL_wincegeneral
+recruit_character=POL_jankrgeneral
+recruit_character=POL_tomasgeneral
+
+recruit_character=POL_kazimgeneral
+recruit_character=POL_francgeneral
+recruit_character=POL_niemogeneral
+recruit_character=POL_wladygeneral
+recruit_character=POL_michageneral
+
+recruit_character=POL_poniageneral
+recruit_character=POL_florigeneral
+recruit_character=POL_pradzgeneral
+recruit_character=POL_hierogeneral
+recruit_character=POL_gedeogeneral
+
+recruit_character=POL_maciegeneral
+recruit_character=POL_erazmgeneral
+recruit_character=POL_sokolgeneral
+recruit_character=POL_sowingeneral
+recruit_character=POL_ferdygeneral
+
+recruit_character=POL_antongeneral
+recruit_character=POL_tyszkgeneral
+recruit_character=POL_jannegeneral
+recruit_character=POL_zajacgeneral
+recruit_character=POL_joanngeneral
+}
+1812.1.1 = {
+retire_character=POL_cyprigeneral
+retire_character=POL_berekgeneral
+}
+1836.1.1 = {
+retire_character=POL_janhegeneral
+retire_character=POL_fiszegeneral
+retire_character=POL_hansmgeneral
+retire_character=POL_enrykgeneral
+retire_character=POL_jankogeneral
+retire_character=POL_koziegeneral
+retire_character=POL_michageneral
+retire_character=POL_poniageneral
+retire_character=POL_florigeneral
+retire_character=POL_zajacgeneral
+retire_character=POL_sokolgeneral
+retire_character=POL_sowingeneral
+retire_character=POL_ferdygeneral
+retire_character=POL_hierogeneral
+}
+1848.1.1 = {
+retire_character=POL_jozefgeneral
+retire_character=POL_kniazgeneral
+retire_character=POL_karolgeneral
+retire_character=POL_kossageneral
+retire_character=POL_kazimgeneral
+retire_character=POL_francgeneral
+retire_character=POL_niemogeneral
+retire_character=POL_erazmgeneral
+retire_character=POL_antongeneral
+retire_character=POL_tyszkgeneral
+}
+1859.1.1 = {
+retire_character=POL_chlopgeneral
+retire_character=POL_wincegeneral
+retire_character=POL_jankrgeneral
+retire_character=POL_pradzgeneral
+retire_character=POL_joanngeneral
+retire_character=POL_jannegeneral
+retire_character=POL_gedeogeneral
+}
+1900.1.1 = {
+retire_character=POL_dezydgeneral
+retire_character=POL_konstgeneral
+retire_character=POL_henrygeneral
+retire_character=POL_stanigeneral
+retire_character=POL_tomasgeneral
+retire_character=POL_wladygeneral
+retire_character=POL_maciegeneral
+}
 1569.1.1 = {
 set_cosmetic_tag = POL_LIT # polish lithuanian commonwealth
 }
@@ -59,11 +158,25 @@ retire_character=POL_feliks
 1764.1.1 = {
 recruit_character=POL_stanislawiiaugust
 promote_character=POL_stanislawiiaugust
+recruit_character=POL_frederickaugustusipol
+recruit_character=POL_konstantinpavlovich
+recruit_character=POL_zajac
+recruit_character=POL_ivan
+recruit_character=POL_ponia
+}
+1800.1.1 = {
+promote_character=POL_ponia
+retire_character=POL_stanislawiiaugust
 }
 1812.1.1 = {
-recruit_character=POL_frederickaugustusipol
 promote_character=POL_frederickaugustusipol
-retire_character=POL_stanislawiiaugust
+}
+1814.1.1 = {
+promote_character=POL_konstantinpavlovich
+}
+1821.1.1 = {
+promote_character=POL_zajac
+retire_character=POL_ponia
 }
 1836.1.1 = {
 retire_character=POL_frederickaugustusipol
@@ -81,13 +194,16 @@ retire_character=POL_ignacy_moscicki
 set_oob = "POL_1919"
 }
 }
+1814.1.1 = {
+set_cosmetic_tag = POL_RUS_only # Kingdom of Poland necessarily Congress Poland
+}
 1815.11.11 = {
 set_cosmetic_tag = POL_RUS # Kingdom of Poland necessarily Congress Poland
 }
 1915.1.1 = {
 set_cosmetic_tag = POL # Modern
 }
-1800.1.1 = {
+1600.1.1 = {
 		set_capital = {
   state = 10
   remember_old_capital = no
@@ -243,7 +359,7 @@ set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_lo
 1789.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_PON_neutrality_party_long name = POL_PON_neutrality_party }
 }
-1800.1.1 = {
+1801.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }
 }
 1800.1.1 = {
@@ -257,7 +373,7 @@ set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_lo
 LIT={set_party_name = { ideology = neutrality long_name = POL_WET_neutrality_party_long name = POL_WET_neutrality_party }}
 }
 }
-1816.1.1 = {
+1814.1.1 = {
 set_party_name = { ideology = neutrality long_name = POL_ROS_neutrality_party_long name = POL_ROS_neutrality_party }
 }
 1919.1.1 = {

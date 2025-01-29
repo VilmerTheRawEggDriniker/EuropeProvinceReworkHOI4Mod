@@ -6,6 +6,12 @@ state={
 	history={
 		owner = KAL
 		add_core_of = KAL
+1789.1.1 = {
+add_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
+1900.1.1 = {
+remove_dynamic_modifier = { modifier = khiva_slavetrade_russia }
+}
 		1552.1.1 = {
 			owner = RUS
 			controller = RUS
@@ -16,6 +22,20 @@ state={
 		buildings = {
 			infrastructure = 1
 
+		}
+						1789.1.1 = {
+			owner = DON
+		add_core_of = DON
+		remove_core_of = ZAP
+		remove_core_of = POL
+		remove_core_of = RUS
+		}
+		1800.1.1 = {
+			owner = RUS
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = DON
+		remove_core_of = POL
 		}
 		1919.1.1 = {
 		owner = SOV
@@ -41,7 +61,7 @@ state={
 	provinces={
 		618 3435 6486 6516 6620 9455 9592 11429 11736 
 	}
-	manpower=200000
+	manpower=100000
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

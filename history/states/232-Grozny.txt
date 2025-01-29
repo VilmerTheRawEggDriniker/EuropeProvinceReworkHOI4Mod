@@ -21,6 +21,9 @@ state={
 		victory_points = {
 			6701 3 
 		}
+	    victory_points = {
+			7624 1
+		}
 		1920.1.1 = {
 			owner = SOV
 			controller = SOV

@@ -7,6 +7,250 @@ characters={
 #########################
 
 #### DEMOCRATIC ####
+		DEN_ernstgeneral={
+		name=DEN_CHARACTER_ERNSTGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_ernstgeneral_large
+				small=GFX_portrait_den_ernstgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_brodergeneral={
+		name=DEN_CHARACTER_BRODERGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_brodergeneral_large
+				small=GFX_portrait_den_brodergeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_williamgeneral={
+		name=DEN_CHARACTER_WILLIAMGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_williamgeneral_large
+				small=GFX_portrait_den_williamgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_petergeneral={
+		name=DEN_CHARACTER_PETERGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_petergeneral_large
+				small=GFX_portrait_den_petergeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_steengeneral={
+		name=DEN_CHARACTER_STEENGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_steengeneral_large
+				small=GFX_portrait_den_steengeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_joachimgeneral={
+		name=DEN_CHARACTER_JOACHIMGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_joachimgeneral_large
+				small=GFX_portrait_den_joachimgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_charlesgeneral={
+		name=DEN_CHARACTER_CHARLESGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_charlesgeneral_large
+				small=GFX_portrait_den_charlesgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_ewaldgeneral={
+		name=DEN_CHARACTER_EWALDGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_ewaldgeneral_large
+				small=GFX_portrait_den_ewaldgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_jorgengeneral={
+		name=DEN_CHARACTER_JORGENGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_jorgengeneral_large
+				small=GFX_portrait_den_jorgengeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_olfertgeneral={
+		name=DEN_CHARACTER_OLFERTGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_olfertgeneral_large
+				small=GFX_portrait_den_olfertgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_lorentzgeneral={
+		name=DEN_CHARACTER_LORENTZGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_lorentzgeneral_large
+				small=GFX_portrait_den_lorentzgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_frederickgeneral={
+		name=DEN_CHARACTER_FREDERICKGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_frederickgeneral_large
+				small=GFX_portrait_den_frederickgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_frederikgeneral={
+		name=DEN_CHARACTER_FREDERIKGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_frederikgeneral_large
+				small=GFX_portrait_den_frederikgeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+			DEN_jessengeneral={
+		name=DEN_CHARACTER_JESSENGENERAL
+		portraits={
+			army={
+				large=GFX_portrait_den_jessengeneral_large
+				small=GFX_portrait_den_jessengeneral_small
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=0
+		}
+	}
+
+
+
+
+
+
 	DEN_christianvii={
 		name=DEN_CHARACTER_CHRISTIANVII
 		portraits={
@@ -15,7 +259,21 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
+			traits={Oldenburg}
+			desc = DEN_CHRISTIANVII_DESC
+			expire="1797.1.1"
+		}
+}
+	DEN_christianviii={
+		name=DEN_CHARACTER_CHRISTIANVIII
+		portraits={
+			civilian={
+				large="GFX_portrait_den_christianviii_large"
+			}
+		}
+		country_leader={
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = DEN_CHRISTIANVII_DESC
 			expire="1797.1.1"
@@ -29,7 +287,7 @@ characters={
 			}
 		}
 		country_leader={
-			ideology=despotism
+			ideology=oldenburg
 			traits={Oldenburg}
 			desc = DEN_FREDERICKVI_DESC
 			expire="1797.1.1"

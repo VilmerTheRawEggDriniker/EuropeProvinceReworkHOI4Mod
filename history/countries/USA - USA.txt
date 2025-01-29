@@ -251,7 +251,7 @@ promote_character=USA_johnquincyadams
 1830.1.1 = {
 promote_character=USA_andrewjackson
 }
-1900.1.1 = {
+1848.1.1 = {
 retire_character=USA_georgewashington
 retire_character=USA_johnadams
 retire_character=USA_thomasjefferson
@@ -364,6 +364,7 @@ set_technology = {
 	infantry_weapons = 1
 	transport = 1
 	early_submarine = 1
+        gw_artillery = 1
 }
 1936.1.1 = {
 if = {

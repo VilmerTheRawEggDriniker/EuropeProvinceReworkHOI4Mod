@@ -13,24 +13,21 @@ set_politics = {
 1765.1.1 = {
 recruit_character=NAP_ferdinandi
 promote_character=NAP_ferdinandi
-}
-1806.1.1 = {
 recruit_character=NAP_josephbonaparte
-promote_character=NAP_josephbonaparte
-retire_character=NAP_ferdinandi
-}
-1809.1.1 = {
 recruit_character=NAP_joachimmurat
+}
+1812.1.1 = {
 promote_character=NAP_joachimmurat
-retire_character=NAP_josephbonaparte
 }
 1816.1.1 = {
-recruit_character=NAP_ferdinandi
-promote_character=NAP_ferdinandi
 retire_character=NAP_joachimmurat
+promote_character=NAP_ferdinandi
 }
 1826.1.1 = {
 retire_character=NAP_ferdinandi
+}
+1844.1.1 = {
+retire_character=NAP_josephbonaparte
 }
 1789.1.1 = {
 		if = {

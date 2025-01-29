@@ -27,6 +27,8 @@ form_thugborea:0 "Proclaim Thugborea"
 
 thugborea_category:0 "Form Thugborea"
 
+OLD_germany_empire_russia_protectorate_war_peace:0 "Form the Oldenburg Kingdom of Germany"
+
 form_germany:0 "German Unification"
 
 form_germany_category:0 "Form Germany"
@@ -35,6 +37,9 @@ form_italy:0 "Form Italy"
 
 form_italy_category:0 "Form Italy"
 
+freedom_of_the_press_act_revision:0 "Amend the Freedom of the Press Act"
+
+sweden_napoleonic_wars_category:0 "Swedish Political Sphere"
 
 industrialize_turkey_category:0 "Industrialize Turkey"
 industrialize_turkey_istanbul:0 "Industrialize Istanbul"
@@ -89,6 +94,14 @@ GER_reichskommissariat_lithuania:0 "Reichskommissariat Lithuania"
 GER_reichskommissariat_bialystoklit:0 "Give Bialystok to Lithuania"
 
 RUS_frenchrevolution:0 "The French Revolution"
+pauli_reform_RUS_frenchrevolution:0 "Paul I's Reforms"
+pauli_reform_RUS_frenchrevolution_bratslav:0 "Annex The Bratslav Viceroyalty"
+pauli_reform_RUS_frenchrevolution_kiev:0 "Annex The Kiev Viceroyalty"
+pauli_reform_RUS_frenchrevolution_caucasian:0 "Annex The Caucasian Viceroyalty"
+pauli_reform_RUS_frenchrevolution_ufa:0 "Annex The Ufa Viceroyalty"
+pauli_reform_RUS_frenchrevolution_iran:0 "Peace with Iran"
+pauli_reform_RUS_frenchrevolution_critic:0 "Free the Critics of Catherine the Great"
+
 HRE_hungary_russia_protectorate_war_peace:0 "Establish the Holstein-Gottorp-Romanov Kingdom of Hungary"
 
 HRE_frenchrevolution:0 "The French Revolution"
@@ -141,8 +154,31 @@ division_limit_system_ten:0 "Recruit 12 divisions pt10"
 performance:0 "Performance"
 performance_south_america:0 "Combine South America"
 performance_colonies:0 "Remove the Added Colonies"
+performance_imereti:0 "Remove the West Georgian Countries"
+performance_azeri:0 "Remove the Azeri Khanates"
+performance_switzerland:0 "Remove the Swiss Countries"
+performance_circassia:0 "Remove the North Caucasian Countries"
+performance_america:0 "Remove the American Countries"
+performance_canada:0 "Remove the Canadian Countries"
+performance_kumul:0 "Remove Kumul Nepal Sikkim and Bhutan"
+performance_canadaaustralia:0 "Get rid of Australia and Canada"
+performance_iran:0 "Get rid of Afsharid Qajar and Balochistan"
+performance_colonization:0 "Enable Colonization for the 1789-1836 Era"
+performance_divisionlimitsystem:0 "Disable the Division Limit System for the 1789-1836 Era"
+performance_africa:0 "Enable Africa for the 1789-1836 Era"
+performance_sea:0 "Remove Southeast Asia"
+performance_india:0 "Remove India"
+performance_egypt:0 "Remove Egypt"
+performance_oman:0 "Remove Oman"
+performance_cascadialouisiana:0 "Remove Oregon and Louisiana"
 
 USA_admission:0 "Admission of the States into the Union"
+balkan_frenchrevolution:0 "The French Revolution in the Balkans"
+balkan_form_romania_one:0 "Form the United Principalities of Moldavia and Wallachia"
+balkan_form_bulgaria_romania_one:0 "Form Bulgaria-Romania"
+balkan_form_bulgaria_serbia_one:0 "Form Serbia-Bulgaria"
+HRE_form_south_german_confederation:0 "Form the South German Confederation"
+
 
 USA_admissionnc:0 "Admission of North Carolina into the Union"
 USA_admissionri:0 "Admission of Rhode Island into the Union"
@@ -157,4 +193,7 @@ USA_admissionil:0 "Admission of Illinois into the Union"
 USA_admissional:0 "Admission of Alabama into the Union"
 USA_admissionme:0 "Admission of Maine into the Union"
 USA_admissionmo:0 "Admission of Missouri into the Union"
+
+AUS_hungarian_concerns:0 "Hungarian Concerns"
+AUS_hold_the_hungarian_diet:0 "Hold the Hungarian Diet"
 

@@ -19,13 +19,19 @@ state={
 			remove_core_of = POL
 
 		}
-		1789.1.1 = {
+				1789.1.1 = {
+			owner = KIE
+		add_core_of = KIE
+		remove_core_of = ZAP
+		remove_core_of = POL
+		remove_core_of = RUS
+		}
+		1800.1.1 = {
 			owner = RUS
-			add_core_of = RUS
-			remove_core_of = ZAP
-			remove_core_of = POL
-			remove_core_of = ZAP
-
+		add_core_of = RUS
+		remove_core_of = ZAP
+		remove_core_of = KIE
+		remove_core_of = POL
 		}
 		buildings = {
 			infrastructure = 2

@@ -28,6 +28,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/the_invasion_of_russia_1812.dds"
 	}
 		spriteType = {
+		name = "GFX_the_invasion_of_france_1814"
+		texturefile = "gfx/interface/the_invasion_of_france_1814.dds"
+	}
+		spriteType = {
+		name = "GFX_the_greek_war_of_independence_1821"
+		texturefile = "gfx/interface/the_greek_war_of_independence_1821.dds"
+	}
+		spriteType = {
 		name = "GFX_victoria_1836"
 		texturefile = "gfx/interface/victoria_1836.dds"
 	}
@@ -60,7 +68,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/coldwar_1960.dds"
 	}
 		spriteType = {
-		name = "GFX_ukraine_russia_war_2024"
-		texturefile = "gfx/interface/ukraine_russia_war_2024.dds"
+		name = "GFX_ukraine_russia_war_2025"
+		texturefile = "gfx/interface/ukraine_russia_war_2025.dds"
 	}
 }

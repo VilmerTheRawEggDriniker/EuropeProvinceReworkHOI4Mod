@@ -30,7 +30,7 @@ state={
         owner = MEX
 		add_core_of = FLO
         }
-		1836.1.1 = {
+		1818.1.1 = {
         owner = FLO
 		add_core_of = FLO
         }

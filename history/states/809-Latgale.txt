@@ -7,21 +7,24 @@ state={
 		owner = LIV
 		add_core_of = LIV
 		1900.1.1 = {
-		add_core_of = LAT
+			add_core_of = LAT
+
 		}
 		1600.1.1 = {
-                owner = COU
-		add_core_of = COU 
-		remove_core_of = LIV 
-                }
+			owner = COU
+			add_core_of = COU
+			remove_core_of = LIV
+
+		}
 		1800.1.1 = {
-                owner = RUS
-                add_core_of = RUS
-				remove_core_of = LIV
-				remove_core_of = COU 
-                }
+			owner = RUS
+			add_core_of = RUS
+			remove_core_of = LIV
+			remove_core_of = COU
+
+		}
 		victory_points = {
-			6222 3 
+			14423 3 
 		}
 		victory_points = {
 			3255 1 
@@ -55,9 +58,9 @@ state={
 	}
 
 	provinces={
-		265 3255 6222 6342 11358 14397 14406 14414 14415 14420 14423 14428 14436 
+		265 3255 6342 11358 14397 14406 14414 14415 14420 14423 
 	}
-	manpower=64500
+	manpower=44500
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 	local_supplies=0.000

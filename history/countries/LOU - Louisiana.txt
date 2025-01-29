@@ -1,5 +1,10 @@
 ﻿capital = 371
-
+1444.11.11 = {
+set_cosmetic_tag = LOU_SPR #viceroyalty
+}
+1812.1.1 = {
+set_cosmetic_tag = LOU #independent
+}
 
 set_research_slots = 2
 set_stability = 0.75
