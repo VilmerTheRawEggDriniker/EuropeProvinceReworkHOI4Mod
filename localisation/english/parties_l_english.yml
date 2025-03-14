@@ -128,20 +128,10 @@
  AUS_democratic_party_long:0 "Sozialdemokratische Partei Österreichs"
  AUS_fascism_party:1 "Vaterländische Front"
  AUS_neutrality_party:1 "House of Habsburg"
-
  CSA_thugs_neutrality_party:1 "House of Loveandlighttv"
  CSA_thugs_fascism_party:1 "Thugborean Oligarchy"
  CSA_thugs_democratic_party:1 "The Barbershop"
  CSA_thugs_communism_party:1 "Ambatukam"
-
-
-
-
-
-
-
-
-
  SIL_neutrality_party:1 "House of Habsburg"
  BOH_neutrality_party:1 "House of Habsburg"
  MRV_neutrality_party:1 "House of Habsburg"
@@ -397,11 +387,8 @@
  HUN_communism_party_long:0 "Kommunisták Magyarországi Pártja"
  HUN_democratic_party:0 "SZDP"
  HUN_democratic_party_long:0 "Szociáldemokrata Párt"
-
- 
  HUN_neutrality_party:0 "F48P"
  HUN_neutrality_party_long:0 "Függetlentségi és 48-as Párt"
-
  HUN_legitimists_habsburgs_party:0 "House of Habsburg"
  HUN_legitimists_habsburgs_party_long:0 "House of Habsburg"
  HUN_legitimists_party:0 "House of Habsburg-Lorraine"
@@ -527,6 +514,33 @@
  BEL_LOR_neutrality_party_long:0 "House of Habsburg-Lorraine"
  BEL_BEA_neutrality_party:0 "House of Beauharnais"
  BEL_BEA_neutrality_party_long:0 "House of Beauharnais"
+
+ BEL_NAS_neutrality_party:0 "House of Orange-Nassau"
+ BEL_NAS_neutrality_party_long:0 "House of Orange-Nassau"
+ LUX_NAS_neutrality_party:0 "House of Orange-Nassau"
+ LUX_NAS_neutrality_party_long:0 "House of Orange-Nassau"
+
+ TOS_LOR_neutrality_party:0 "House of Habsburg-Lorraine"
+ TOS_LOR_neutrality_party_long:0 "House of Habsburg-Lorraine"
+ TOS_MED_neutrality_party:0 "House of Medici"
+ TOS_MED_neutrality_party_long:0 "House of Medici"
+
+ LUX_SAX_neutrality_party:0 "House of Saxe-Coburg and Gotha"
+ LUX_SAX_neutrality_party_long:0 "House of Saxe-Coburg and Gotha"
+ LUX_ORL_neutrality_party:0 "House of Orléans"
+ LUX_ORL_neutrality_party_long:0 "House of Orléans"
+ LUX_LOR_neutrality_party:0 "House of Habsburg-Lorraine"
+ LUX_LOR_neutrality_party_long:0 "House of Habsburg-Lorraine"
+ LUX_BEA_neutrality_party:0 "House of Beauharnais"
+ LUX_BEA_neutrality_party_long:0 "House of Beauharnais"
+
+ BEL_VON_democratic_party:0 "Vonckists"
+ BEL_VON_democratic_party_long:0 "Vonckists"
+ BEL_STA_neutrality_party:0 "Statists"
+ BEL_STA_neutrality_party_long:0 "Statists"
+ ISR_ROT_neutrality_party:0 "House of Rothschild"
+ ISR_ROT_neutrality_party_long:0 "House of Rothschild"
+
  ENG_neutrality_party:0 "House of Lancaster"
  ENG_neutrality_party_long:0 "House of Lancaster"
  ENG_LAN_neutrality_party:0 "House of Lancaster"
@@ -539,6 +553,8 @@
  ENG_ORA_neutrality_party_long:0 "House of Orange-Nassau"
  ENG_HAN_neutrality_party:0 "House of Hanover"
  ENG_HAN_neutrality_party_long:0 "House of Hanover"
+ SXL_HAN_neutrality_party:0 "House of Hanover"
+ SXL_HAN_neutrality_party_long:0 "House of Hanover"
  ENG_SAX_neutrality_party:0 "House of Saxe-Coburg Gotha"
  ENG_SAX_neutrality_party_long:0 "House of Saxe-Coburg Gotha"
  ENG_WIS_neutrality_party:0 "House of Windsor (Saxe-Coburg Gotha)"
@@ -553,12 +569,12 @@
  DEN_WIT_neutrality_party_long:0 "House of Wittelsbach"
  DEN_OLD_neutrality_party:0 "House of Oldenburg"
  DEN_OLD_neutrality_party_long:0 "House of Oldenburg"
+ SXL_OLD_neutrality_party:0 "House of Oldenburg"
+ SXL_OLD_neutrality_party_long:0 "House of Oldenburg"
  KNI_RUS_neutrality_party:0 "House of Holstein-Gottorp-Romanov"
  KNI_RUS_neutrality_party_long:0 "House of Holstein-Gottorp-Romanov"
  KNI_ROH_neutrality_party:0 "House of Rohan"
  KNI_ROH_neutrality_party_long:0 "House of Rohan"
- SXL_OLD_neutrality_party:0 "House of Oldenburg"
- SXL_OLD_neutrality_party_long:0 "House of Oldenburg"
  DEN_GLU_neutrality_party:0 "House of Glücksburg"
  DEN_GLU_neutrality_party_long:0 "House of Glücksburg"
  NOR_WIT_neutrality_party:0 "House of Wittelsbach"
@@ -895,7 +911,7 @@ SPM_NAP_neutrality_party:0 "House of Bourbon-Two Sicilies"
  ISR_communism_party:0 "Maki"
  ISR_democratic_party:0 "Likud"
  ISR_fascism_party:0 "Helpam"
- ISR_neutrality_party:0 "Central Council"
+ ISR_neutrality_party:0 "House of Rothschild"
  VIN_fascism_party:0 "Vietnamese Restoration League" #or Reformation Society   
  VIN_democratic_party:0 "Can Lao Party" #formed in early 50s
  VIN_communism_party:0 "Communist Party of Vietnam" #Viet Minh was more important in early years
@@ -928,6 +944,7 @@ SPM_NAP_neutrality_party:0 "House of Bourbon-Two Sicilies"
  GEO_democratic_party:0 "Social Democratic Party of Georgia"
  GEO_communism_party:0 "Communist Party of Georgia"
  GEO_neutrality_party:0 "House of Bagrationi"
+ IME_neutrality_party:0 "House of Bagrationi"
  KAZ_fascism_party:0 "Zhuze Ultşildiq"
  KAZ_democratic_party:0 "Alash Party"
  KAZ_communism_party:0 "Communist Party of Kazakhstan"

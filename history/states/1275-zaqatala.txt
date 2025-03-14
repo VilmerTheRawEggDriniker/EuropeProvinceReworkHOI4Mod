@@ -11,6 +11,9 @@ state={
 				1600.1.1 = {
 		add_core_of = PER
 		}
+				1837.1.1 = {
+			add_core_of = PER
+		}
 		1919.1.1 = {
 			add_core_of = AZR
 			owner = AZR
@@ -20,7 +23,7 @@ state={
 		1800.1.1 = {
 			add_core_of = BAK
 		}
-		1789.1.1 = {
+		1776.1.1 = {
 			owner = GEO
 		}
 						1800.1.1 = {

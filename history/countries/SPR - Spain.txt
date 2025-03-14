@@ -15,6 +15,41 @@ guerrillaspain
 	}
 }
 }
+1776.1.1 = {
+			if = {
+		limit = { has_start_date < 1780.01.02 }
+	set_autonomy = {
+        target = MEX
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = PRU
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = COL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = ARG
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+		set_autonomy = {
+        target = CAS
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = LOU
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
 1788.1.1 = {
 			if = {
 		limit = { has_start_date < 1790.01.02 }
@@ -100,6 +135,41 @@ guerrillaspain
 	}
 	set_autonomy = {
         target = BOL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1814.1.1 = {
+			if = {
+		limit = { has_start_date < 1815.01.02 }
+	set_autonomy = {
+        target = MEX
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = PRU
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = VEN
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+	set_autonomy = {
+        target = BOL
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.4
+	}
+}
+}
+1821.1.1 = {
+			if = {
+		limit = { has_start_date < 1822.01.02 }
+	set_autonomy = {
+        target = MEX
         autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}

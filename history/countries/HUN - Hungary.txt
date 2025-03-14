@@ -22,6 +22,12 @@ set_cosmetic_tag = HUN_AUS #austrian puppet
 1805.1.1 = {
 set_cosmetic_tag = HUN #independent
 }
+1900.1.1 = {
+set_cosmetic_tag = HUN_AUS #independent
+}
+1915.1.1 = {
+set_cosmetic_tag = HUN #independent
+}
 1789.1.1 = {
 recruit_character=HUN_josephiihun
 recruit_character=HUN_leopoldiihun

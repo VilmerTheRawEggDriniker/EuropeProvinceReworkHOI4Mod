@@ -132,6 +132,9 @@ russianempire_1789_1812.121.d:0 "The Treaty of Kiel"
 russianempire_1789_1812.122.d:0 "The Austrian Empire has stepped out of line by not giving us Bukovina!"
 russianempire_1789_1812.123.d:0 "Austria has submitted and given us Bukovina Great!"
 russianempire_1789_1812.124.d:0 "Formation of the Bourbon Papal Federation of Italy"
+russianempire_1789_1812.125.d:0 "The Siege of Izmail"
+russianempire_1789_1812.126.d:0 "The Ottoman Strategy must be defence now considering the Russians have captured Izmail"
+russianempire_1789_1812.127.d:0 "Great the Greek Plan failed..."
 
 britain_1789_1812.1.d:0 "The Treaty of Reichenbach"
 britain_1789_1812.2.d:0 "Otter Hunting in Devon. Do Otter's taste good?"
@@ -242,6 +245,13 @@ ita_1789_event.3.d:0 "The coup d'état by Giuseppe Maria di Savoia-Villafranca o
 ita_1789_event.4.d:0 "1000 Sardinians being Taken as slaves by slave raiders of Tunis is not acceptable!"
 ita_1789_event.5.d:0 "Death of Victor Amadeus III"
 ita_1789_event.6.d:0 "Death of Charles Emmanuel IV"
+
+ita_1789_event.7.d:0 "Genoan Annexation of Corsica"
+ita_1789_event.8.d:0 "Papal Annexation of Corsica"
+ita_1789_event.9.d:0 "Savoyard Annexation of Corsica"
+ita_1789_event.10.d:0 "Neapolitan Annexation of Corsica"
+ita_1789_event.11.d:0 "Tuscan Annexation of Corsica"
+ita_1789_event.12.d:0 "Restoration of the house of Medici in Tuscany"
 
 
 fra_1789_event.1.d:0 "The French Revolution"
@@ -361,6 +371,9 @@ fra_1789_event.114.d:0 "Guillaume Brune shot and killed by an angry Royalist mob
 fra_1789_event.115.d:0 "Trial and execution of Michel Ney"
 fra_1789_event.116.d:0 "Death of Napoleon Bonaparte on Saint Helena"
 fra_1789_event.117.d:0 "Formation of the National Guard"
+fra_1789_event.118.d:0 "The French Provisional Government of 1815"
+fra_1789_event.119.d:0 "The Defeat of Berry."
+fra_1789_event.120.d:0 "We in Luxemburg need to stand by the House of Habsburg-Lorraine."
 
 fra_1789_news.1.d:0 "The French Revolution"
 fra_1789_news.2.d:0 "The Liège Revolution"
@@ -378,6 +391,30 @@ viennacongress_news.3.d:0 "The French Empire rejected them? The only Option now 
 
 viennacongress_event.4.d:0 "The Treaty of Paris (1815)"
 viennacongress_news.4.d:0 "The Treaty of Paris (1815)"
+
+viennacongress_event.5.d:0 "End of the Napoleonic Kingdom of Italy"
+
+viennacongress_event.6.d:0 "Annexation of the Illyrian Provinces"
+
+viennacongress_event.7.d:0 "The Tuscan Question"
+
+viennacongress_event.8.d:0 "Return of The Papal States"
+
+viennacongress_event.9.d:0 "Return of Catalonia"
+
+viennacongress_event.10.d:0 "Return of Piedmont"
+
+viennacongress_event.11.d:0 "I don't Believe the Republicanism or Pseudo-Republicanism of Lucca Genoa and Venice can remain in Europe."
+
+viennacongress_event.12.d:0 "Independence of Parma"
+
+viennacongress_event.13.d:0 "Return of Valais to Switzerland"
+
+viennacongress_event.14.d:0 "Return of Savoy & Nice to Savoyard ownership"
+
+viennacongress_event.15.d:0 "The Return of the Free and Hanseatic City of Hamburg"
+
+viennacongress_event.16.d:0 "The Provisional Government of Belgium and the Rhine"
 
 aus_1789_event.1.d:0 "With the imminent fall of the Holy Roman Empire we have to centralize our domains to contain the revolutionairy leopard."
 aus_1789_news.1.d:0 "Centralization of the Habsburg-Lorraine Empire is the best thing to do"
@@ -441,12 +478,89 @@ pre_1789_event.36.d:0 "The Fortress City of Magdeburg is way too important to ev
 pre_1789_event.37.d:0 "France has demanded we invade Russia in accordance with their Continental System"
 pre_1789_event.38.d:0 "I doubt the Monarchs of Baden Saxony Mecklenburg and others enjoy being French Vassal States."
 pre_1789_event.39.d:0 "The Allies have offered us to switch sides do we accept?"
-
-
 pre_1789_event.40.d:0 "Prussia has demanded Western Pomerania"
 pre_1789_event.41.d:0 "Prussia has demanded Western Pomerania"
 pre_1789_event.42.d:0 "Prussia has demanded Western Pomerania"
 
+pre_1789_event.43.d:0 "Prussia Converting to Catholicism is the right thing to do."
+pre_1789_event.44.d:0 "Prussia Proclaiming the return of the Teutonic Order was inevitable right after the Prussian King converted to Catholicism."
+pre_1789_event.45.d:0 "Pomerania along with Eastern Brandenburg have rebelled against the Prussian King"
+pre_1789_event.46.d:0 "We need to give the Poles in our Country some autonomy the best way to do is to give the Poles of Poznan and perhaps even the Culmerland some autonomy."
+pre_1789_event.47.d:0 "The Culmerland is too vital to not integrate into Prussia i dont think the Poles will get too angry if we integrated it."
+pre_1789_event.48.d:0 "We need to Proclaim our own Rival Government in Pomerania!"
+pre_1789_event.49.d:0 "We knew we would win the Pomeranian war!"
+pre_1789_event.50.d:0 "The Pomeranian Protestant Rebels won the Pomeranian war and they are suggesting we fulfill allot of concessions..."
+pre_1789_event.51.d:0 "With the Political Situation in Europe we can Annex Hanover"
+pre_1789_event.52.d:0 "Let's sideline all other countries that have any ambition towards taking more of the German pie."
+pre_1789_event.53.d:0 "The Order of the Red Eagle is the kind of initiative Prussia needs."
+pre_1789_event.54.d:0 "Brandenburg and Silesia have already been relatively Industrialized by Germans. Pomerania lacks this more or less it could use immigrants from the rest of Germany."
+pre_1789_event.55.d:0 "Frederick the Great can not be the only great Monarch of Prussia. The Future depends on Prussia not becoming a Protectorate of Austria Russia Sweden France or even Denmark-Norway. Prussia may achieve this by acting in accordance by trying to balance all these Great Powers."
 
+pre_1789_event.56.d:0 "Serfdom is not ideal for Prussia this doesn't necessarily mean we will abolish it within the next 10 years just that we are open to it."
+pre_1789_event.57.d:0 "We may need to protect Poland from Austria and Russia. Having Poland as a buffer is more ideal."
+pre_1789_event.58.d:0 "Poland has Betrayed Prussia by signing its new constitution we can't ally with Poland any longer."
+pre_1789_event.59.d:0 "We should try expanding the Industry of the Towns and Cities in the Prussian Exclaves in the West of Germany."
+pre_1789_event.60.d:0 "Either we Ally with the Netherlands and Britain or we Ally with Austria and Russia the choice is ours."
 
+pre_1789_event.61.d:0 "The Ottoman-Prussian Alliance will be necessary to keep the Habsburg-Lorraine Monarchy in check."
+pre_1789_event.62.d:0 "The Peace of Basel is necessary the war with the French Republic is starting to become too expensive."
+pre_1789_event.63.d:0 "Neuchatel's ties with the Hohenzollern monarchy need to be strengthened."
+pre_1789_event.64.d:0 "The Monarch's of Hohenzollern should open up to increased ties with the Prussian Hohenzollerns."
+pre_1789_event.65.d:0 "Prussia will have to declare war on the devious insurrection in Poland."
 
+pre_1789_event.66.d:0 "Frederick William III of Prussia Converting to Catholicism might further the ambition of Prussia."
+pre_1789_event.67.d:0 "Frederick William III of Prussia is now king. What does all this mean for Prussia?"
+pre_1789_event.68.d:0 "Supporting the Right-wing of the United Belgian States"
+pre_1789_event.69.d:0 "Join the Second League of Armed Neutrality"
+pre_1789_event.70.d:0 "Britain has gone to far we need to invade the Kingdom of Hanover in retaliatation"
+
+pre_1789_event.71.d:0 "Annexation of Silesia into Austria"
+pre_1789_event.72.d:0 "The Formation of the Kingdom of Netherlands-Hanover"
+pre_1789_event.73.d:0 "The Polish-Prussian Alliance"
+pre_1789_event.74.d:0 "The Ottoman-Prussian Alliance"
+pre_1789_event.75.d:0 "The Completion of the Jungfern Bridge. This Bridge connects the parts of Berlin on both sides of the Spree river."
+pre_1789_event.76.d:0 "We need to help improve the Stance of the German middle powers to combat Austria and France."
+pre_1789_event.77.d:0 "The Creation of Mendelssohn & Co. by the German-Jewish Banker Joseph Mendelssohn."
+pre_1789_event.78.d:0 "Saarbrücken"
+pre_1789_event.79.d:0 "Bavarian Compensation Occur"
+pre_1789_event.80.d:0 "Dutch Compensation Occur"
+pre_1789_event.81.d:0 "Sardinian Compensation must Occur"
+pre_1789_event.82.d:0 "We need Northern Saxony otherwise it's war!"
+pre_1789_event.83.d:0 "The Death of Frederick William II"
+
+pre_1789_event.84.d:0 "The Death of Louise of Mecklenburg-Strelitz Queen consort of Prussia"
+pre_1789_event.85.d:0 "The Annexation of the Rhine is necessary"
+pre_1789_event.86.d:0 "Small Gains in Nassau for Prussia"
+pre_1789_event.87.d:0 "Arnsberg for Mainz"
+pre_1789_event.88.d:0 "Land switching with Hanover"
+pre_1789_event.89.d:0 "The Annexation of all of Saxony"
+pre_1789_event.90.d:0 "Prussia joining the German Confederation"
+
+pre_1789_event.91.d:0 "Regarding Ansbach and Bayreuth We have to give them up most likely"
+pre_1789_event.92.d:0 "Establishment of the Free City of Krakow"
+pre_1789_event.93.d:0 "Keeping Magdeburg is a must its way too important"
+pre_1789_event.94.d:0 "S. Bleichröder will be a German family-controlled bank based in Berlin by Samuel Bleichröder. As an agent of the German Rothschild Bank. "
+pre_1789_event.95.d:0 "An Army with a Country is the epitome of Prussia."
+pre_1789_event.96.d:0 "French Language Education in Prussia is probably best to dissolve considering the Revolution there."
+pre_1789_event.97.d:0 "German should be the language of the entire Prussian Administration"
+pre_1789_event.98.d:0 "Centralizing Prussia should be the Focal point of Prussia"
+pre_1789_event.99.d:0 "The Gebrüder Borntraeger Verlagsbuchhandlung scientific publishing company"
+pre_1789_event.100.d:0 "The state monopolies for coffee and tobacco are very primitive..."
+
+pre_1789_event.101.d:0 "The Annexation of Lusatia"
+pre_1789_event.102.d:0 "Julich and Berg for Ansbach and Bayreuth"
+pre_1789_event.103.d:0 "The Carl Heymanns Verlag Publishing house"
+pre_1789_event.104.d:0 "Since France is now at war it doesnt seem great to have anything to do with France in the Administration."
+pre_1789_event.105.d:0 "Let's demand the duke of Mecklenburg-Strelitz step down in favour of Louise of Mecklenburg-Strelitz"
+pre_1789_event.106.d:0 "Prussia has demanded we submit. What do we do?"
+pre_1789_event.107.d:0 "Thankfully they are now ours!"
+pre_1789_event.108.d:0 "Mecklenburg-Strelitz is the Agressor..."
+pre_1789_event.109.d:0 "The Liberation of Oldenburg must make Russia happy."
+
+ire_1789_event.1.d:0 "Expulsion of 100k Ulster Protestants"
+
+por_1789_event.1.d:0 "The Creation of the United Kingdom of Portugal, Brazil and the Algarves"
+
+bel_1789_event.1.d:0 "The Belgian Revolution"
+bel_1789_event.2.d:0 "The Belgian Revolution"
+bel_1789_event.3.d:0 "The Belgian Revolution"

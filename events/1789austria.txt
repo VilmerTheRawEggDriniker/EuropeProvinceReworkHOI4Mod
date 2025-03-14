@@ -359,7 +359,7 @@ fire_only_once = yes
 		transfer_state = 6
 		transfer_state = 34
 		transfer_state = 973
-		transfer_state = 978
+		transfer_state = 1243
 		transfer_state = 1171
 		transfer_state = 984
 		}

@@ -136,7 +136,7 @@ set_cosmetic_tag = DEN # Denmark
 }
 1789.1.1 = {
 		if = {
-		limit = { has_start_date < 1813.1.1 }
+		limit = { has_start_date < 1815.1.1 }
 set_oob = "DEN_1789_1815"
 }
 }

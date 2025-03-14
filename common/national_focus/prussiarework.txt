@@ -16,11 +16,464 @@
 continuous_focus_position = { x = 7000 y = 0000 }
 	default = no
 focus = {
-		id = prussianrework_1789_1815_first_100_focus_1
-		icon = GFX_goal_generic_neutrality_focus
+		id = prussianrework_althistory_1
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -11
+		y = 2
+allow_branch = { has_start_date > 1789.1.1
+    has_start_date < 1836.1.1 }
+		cost = 10
+				mutually_exclusive = { 
+		focus = prussianrework_1789_1815_first_100_focus_3
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_7
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 4
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_44
+		focus = prussianrework_althistory_8
+		focus = prussianrework_althistory_9
+		focus = prussianrework_althistory_10
+		}
+		prerequisite = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_8
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
 		x = 2
-		y = 1
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_44
+		focus = prussianrework_althistory_7
+		focus = prussianrework_althistory_9
+		focus = prussianrework_althistory_10
+		}
+		prerequisite = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_9
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 0
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_44
+		focus = prussianrework_althistory_7
+		focus = prussianrework_althistory_8
+		focus = prussianrework_althistory_10
+		}
+		prerequisite = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_10
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -2
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_44
+		focus = prussianrework_althistory_7
+		focus = prussianrework_althistory_8
+		focus = prussianrework_althistory_9
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_42
+		focus =	prussianrework_althistory_11
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+
+focus = {
+		id = prussianrework_althistory_11
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 4
+		y = 17
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_12
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 2
+		y = 17
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_13
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 0
+		y = 17
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_14
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+	focus = {
+		id = prussianrework_althistory_14
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -2
+		y = 17
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		}
+	}
+		focus = {
+		id = prussianrework_althistory_15
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 35
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_52
+		focus = prussianrework_althistory_16
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_51
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		PRE={country_event = pre_1789_event.89}
+		}
+	}
+		focus = {
+		id = prussianrework_althistory_16
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 37
+		y = 18
+
+		cost = 4.3
+				mutually_exclusive = { 
+		focus = prussianrework_1793_1836_focus_52
+		focus = prussianrework_althistory_15
+		}
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_51
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		PRE={country_event = pre_1789_event.101}
+		}
+	}
+			focus = {
+		id = prussianrework_althistory_17
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = 0
+		y = 4
+
+		cost = 4.3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_49
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_50
+		}
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+		PRE={has_country_flag=PRE_has_claimed_the_throne_of_str}
+		}
+
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = yes
+
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		search_filters = { FOCUS_FILTER_ALTHISTORY }
+		completion_reward = {
+		PRE={country_event = pre_1789_event.105}
+		}
+	}
+focus = {
+		id = prussianrework_1789_1815_first_100_focus_1
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+
+		x = -10
+		y = 0
 allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
 		cost = 10
@@ -46,17 +499,19 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
-		
+		PRE={country_event = pre_1789_event.55}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_2
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 4
+		x = -10
 		y = 1
-
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
 		cost = 10
 
 		ai_will_do = {
@@ -80,16 +535,22 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.60}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_3
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_chi_british_cooperation
 allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 6
-		y = 1
-
+		x = -9
+		y = 2
+		mutually_exclusive = { 
+		focus = prussianrework_althistory_1
+		}
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_2
+		}
 		cost = 10
 
 		ai_will_do = {
@@ -117,12 +578,15 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_4
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 8
-		y = 1
-
+		x = -10
+		y = 3
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		focus = prussianrework_althistory_1
+		}
 		cost = 10
 
 		ai_will_do = {
@@ -150,12 +614,14 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_5
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 10
-		y = 1
-
+		x = -11
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
 		cost = 10
 
 		ai_will_do = {
@@ -179,17 +645,21 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		POL={country_event = pre_1789_event.73}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_6
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 12
-		y = 1
+		x = -2
+		y = 3
 		cost = 10
-
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_3
+		focus = prussianrework_althistory_1
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -198,6 +668,7 @@ allow_branch = { has_start_date > 1789.1.1
         NOT={has_country_flag=napoleonprussiaone_flag}
 		NOT={has_country_flag=napoleonprussiatwo_flag}
 		NOT={has_country_flag=napoleonprussiathree_flag}
+		BEL={has_country_flag=BEL_brabantian_revolution_has_happened}
 		}
 
 		bypass = {
@@ -211,16 +682,25 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.68}
+		every_country={
+		limit={
+		tag=BEL
+		}
+		add_popularity = { ideology = neutrality popularity = 0.1}
+		}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_7
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_generic_treaty
 allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 14
-		y = 1
-
+		x = -3
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_6
+		}
 		cost = 10
 
 		ai_will_do = {
@@ -249,12 +729,14 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_8
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 16
-		y = 1
-
+		x = -9
+		y = 4
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_4
+		}
 		cost = 10
 
 		ai_will_do = {
@@ -278,16 +760,19 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		OTO={country_event = pre_1789_event.74}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_9
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_consumer_goods
 allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 18
+		x = -21
 		y = 1
-
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
 		cost = 10
 
 		ai_will_do = {
@@ -312,18 +797,20 @@ allow_branch = { has_start_date > 1789.1.1
 		
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.75}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_10
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_scientific_exchange
 allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 20
-		y = 1
-
+		x = -24
+		y = 2
 		cost = 10
-
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_9
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -351,40 +838,12 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_11
 		icon = GFX_goal_generic_consumer_goods
 
-		x = 2
+		x = -21
 		y = 2
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_8
-		}
+		cost = 10
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_9
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_10
-		}
-		cost = 10
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -434,41 +893,13 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_12
-		icon = GFX_goal_generic_consumer_goods
-		x = 4
+		icon = GFX_goal_generic_construct_civ_factory
+		x = -18
 		y = 2
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_8
-		}
+		cost = 10
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_9
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_10
-		}
-		cost = 10
-
 		ai_will_do = {
 			factor = 1
 		}
@@ -496,37 +927,12 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_13
 		icon = GFX_focus_generic_treaty
 
-		x = 6
-		y = 2
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_4
-		}
+		x = -7
+		y = 6
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_6
-		}
-		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_7
-		}
-		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_10
 		}
 		cost = 10
 
@@ -556,37 +962,10 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_14
 		icon = GFX_goal_generic_consumer_goods
 
-		x = 8
-		y = 2
+		x = -14
+		y = 1
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_10
 		}
 		cost = 10
 
@@ -595,7 +974,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-
+        num_of_factories > 25
 		}
 
 		bypass = {
@@ -616,37 +995,10 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_15
 		icon = GFX_focus_generic_treaty
 
-		x = 10
+		x = -14
 		y = 2
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_10
+		focus =	prussianrework_1789_1815_first_100_focus_14
 		}
 		cost = 10
 
@@ -674,39 +1026,12 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_16
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 12
-		y = 2
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_4
-		}
+		x = -11
+		y = 5
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_10
 		}
 		cost = 10
 
@@ -729,43 +1054,17 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.58}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_17
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 14
+		x = -6
 		y = 2
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_1
-		}
-		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_10
 		}
 		cost = 10
 
@@ -793,39 +1092,12 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_18
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 16
+		x = -30
 		y = 2
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_8
-		}
-		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_10
 		}
 		cost = 10
 
@@ -848,43 +1120,17 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.53}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_19
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 18
-		y = 2
+		x = -22
+		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_10
+		focus =	prussianrework_1789_1815_first_100_focus_11
 		}
 		cost = 10
 
@@ -912,37 +1158,10 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_20
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 20
-		y = 2
+		x = -24
+		y = 4
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_10
+		focus =	prussianrework_1789_1815_first_100_focus_19
 		}
 		cost = 10
 
@@ -965,43 +1184,17 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={set_country_flag=has_implied_abolition_of_serfdom_flag}
+		PRE={country_event = pre_1789_event.56}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_21
-		icon = GFX_goal_generic_neutrality_focus
-
-		x = 2
-		y = 3
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_11
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_12
-		}
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		x = -7
+		y = 7
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_15
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_16
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_18
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_19
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_20
 		}
 		cost = 10
 
@@ -1030,35 +1223,8 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_22
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 4
-		y = 3
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_11
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_12
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_15
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_16
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_18
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_19
-		}
+		x = -25
+		y = 5
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_20
 		}
@@ -1088,39 +1254,12 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_23
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_anti_comintern_pact
 
-		x = 6
+		x = -6
 		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_11
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_12
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_15
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_16
-		}
-		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_18
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_19
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_20
 		}
 		cost = 10
 
@@ -1129,7 +1268,7 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-
+        has_war_with=FRA
 		}
 
 		bypass = {
@@ -1149,37 +1288,10 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_24
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 8
-		y = 3
+		x = -27
+		y = 2
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_11
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_12
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_15
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_16
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_18
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_19
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_20
+		focus =	prussianrework_1789_1815_first_100_focus_9
 		}
 		cost = 10
 
@@ -1207,39 +1319,12 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_25
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_generic_construct_civ_factory
 
-		x = 10
+		x = -17
 		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_11
-		}
-		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_12
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_15
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_16
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_18
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_19
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_20
 		}
 		cost = 10
 
@@ -1262,6 +1347,7 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.54}
 						63 = {
                         add_extra_state_shared_building_slots = 1
 						add_building_construction = {
@@ -1276,37 +1362,10 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_26
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 12
-		y = 3
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_11
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_12
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_15
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_16
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_18
-		}
+		x = -20
+		y = 4
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_19
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_20
 		}
 		cost = 10
 
@@ -1333,39 +1392,12 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_27
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 14
-		y = 3
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_11
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_12
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_15
-		}
+		x = -11
+		y = 6
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_16
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_18
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_19
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_20
 		}
 		cost = 10
 
@@ -1389,43 +1421,17 @@ allow_branch = { has_start_date > 1789.1.1
 		
 		
 		completion_reward = {
+	    PRE={country_event = pre_1789_event.65}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_28
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 16
-		y = 3
+		x = -8
+		y = 8
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_11
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_12
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_15
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_16
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_18
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_19
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_20
+		focus =	prussianrework_1789_1815_first_100_focus_21
 		}
 		cost = 10
 
@@ -1452,39 +1458,12 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_29
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 18
-		y = 3
+		x = -6
+		y = 8
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_11
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_12
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_15
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_16
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_18
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_19
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_20
+		focus =	prussianrework_1789_1815_first_100_focus_21
 		}
 		cost = 10
 
@@ -1513,37 +1492,10 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_30
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 20
-		y = 3
+		x = -19
+		y = 5
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_11
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_12
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_15
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_16
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_18
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_19
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_20
+		focus =	prussianrework_1789_1815_first_100_focus_26
 		}
 		cost = 10
 
@@ -1572,35 +1524,8 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_31
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 2
-		y = 4
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_21
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_22
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_23
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_24
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_25
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_26
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_27
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_28
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_29
-		}
+		x = -21
+		y = 6
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_30
 		}
@@ -1627,43 +1552,17 @@ allow_branch = { has_start_date > 1789.1.1
 		
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.77}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_32
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 4
+		x = -6
 		y = 4
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_21
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_22
-		}
-		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_23
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_24
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_25
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_26
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_27
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_28
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_29
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_30
 		}
 		cost = 10
 
@@ -1686,43 +1585,17 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		FRA={country_event = fra_1789_event.14}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_33
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 6
-		y = 4
+		x = -32
+		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_21
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_22
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_23
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_24
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_25
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_26
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_27
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_28
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_29
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_30
+		focus =	prussianrework_1789_1815_first_100_focus_18
 		}
 		cost = 10
 
@@ -1750,37 +1623,10 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_34
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_propaganda
 
-		x = 8
-		y = 4
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_21
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_22
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_23
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_24
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_25
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_26
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_27
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_28
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_29
-		}
+		x = -19
+		y = 6
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_30
 		}
@@ -1809,39 +1655,12 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_35
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_construct_civ_factory
 
-		x = 10
-		y = 4
+		x = -19
+		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_21
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_22
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_23
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_24
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_25
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_26
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_27
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_28
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_29
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_30
+		focus =	prussianrework_1789_1815_first_100_focus_12
 		}
 		cost = 10
 
@@ -1863,43 +1682,17 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.59}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_36
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 12
-		y = 4
+		x = -30
+		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_21
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_22
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_23
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_24
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_25
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_26
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_27
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_28
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_29
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_30
+		focus =	prussianrework_1789_1815_first_100_focus_18
 		}
 		cost = 10
 
@@ -1926,39 +1719,12 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_37
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 14
-		y = 4
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_21
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_22
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_23
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_24
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_25
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_26
-		}
+		x = -11
+		y = 7
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_27
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_28
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_29
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_30
 		}
 		cost = 10
 
@@ -1990,37 +1756,10 @@ owns_state=1248
 		id = prussianrework_1789_1815_first_100_focus_38
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 16
-		y = 4
+		x = -28
+		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_21
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_22
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_23
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_24
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_25
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_26
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_27
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_28
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_29
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_30
+		focus =	prussianrework_1789_1815_first_100_focus_18
 		}
 		cost = 10
 
@@ -2057,7 +1796,9 @@ allow_branch = { has_start_date > 1789.1.1
 		ai_will_do = {
 			factor = 1
 		}
-
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
 		available = {
         date > 1796.1.1
 		}
@@ -2123,33 +1864,12 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_41
-		icon = GFX_goal_generic_consumer_goods
+		icon = GFX_goal_generic_construct_civ_factory
 
-		x = 2
-		y = 5
+		x = -16
+		y = 4
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_31
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_32
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_33
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_34
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_35
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_36
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_37
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_38
+		focus =	prussianrework_1789_1815_first_100_focus_25
 		}
 
 		cost = 10
@@ -2352,31 +2072,10 @@ allow_branch = { has_start_date > 1789.1.1
 		id = prussianrework_1789_1815_first_100_focus_46
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 12
-		y = 5
+		x = -17
+		y = 6
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_31
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_32
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_33
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_34
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_35
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_36
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_37
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_38
+		focus =	prussianrework_1789_1815_first_100_focus_30
 		}
 
 		cost = 10
@@ -2405,34 +2104,13 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_47
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		x = 2
+		y = 1
 
-		x = 14
-		y = 5
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_31
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_32
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_33
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_34
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_35
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_36
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_37
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_38
-		}
 
 		cost = 10
 
@@ -2441,7 +2119,10 @@ allow_branch = { has_start_date > 1789.1.1
 		}
 
 		available = {
-
+has_country_leader = {
+	character = PRE_frederickwilliamiii
+	ruling_only = yes
+}
 		}
 
 		bypass = {
@@ -2455,38 +2136,18 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+        PRE={country_event = pre_1789_event.67}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_48
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_47
+		}
+		x = 2
+		y = 2
 
-		x = 16
-		y = 5
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_31
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_32
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_33
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_34
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_35
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_36
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_37
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_38
-		}
 
 		cost = 10
 
@@ -2514,33 +2175,12 @@ allow_branch = { has_start_date > 1789.1.1
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_49
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 18
-		y = 5
+		x = 1
+		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_31
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_32
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_33
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_34
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_35
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_36
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_37
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_38
+		focus =	prussianrework_1789_1815_first_100_focus_48
 		}
 
 		cost = 10
@@ -2564,37 +2204,17 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.63}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_50
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 20
-		y = 5
+		x = 3
+		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_31
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_32
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_33
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_34
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_35
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_36
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_37
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_38
+		focus =	prussianrework_1789_1815_first_100_focus_48
 		}
 
 		cost = 10
@@ -2618,33 +2238,20 @@ allow_branch = { has_start_date > 1789.1.1
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.64}
 		}
 	}
 focus = {
 		id = prussianrework_1789_1815_first_100_focus_51
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 2
-		y = 6
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_41
-		}
-
+		x = -18
+		y = 7
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_46
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_47
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_48
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_49
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_50
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -2672,27 +2279,13 @@ focus = {
 		id = prussianrework_1789_1815_first_100_focus_52
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 4
-		y = 6
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_41
-		}
-
+		x = -16
+		y = 7
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_46
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_47
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_48
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_49
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_50
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -3017,29 +2610,18 @@ focus = {
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_58
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 16
-		y = 6
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_41
-		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_46
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_47
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_48
-		}
+		x = 2
+		y = 4
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_49
 		}
-		prerequisite = {
+				prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_50
 		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -3047,7 +2629,7 @@ focus = {
 		}
 
 		available = {
-
+        date > 1799.9.1 
 		}
 
 		bypass = {
@@ -3062,35 +2644,19 @@ focus = {
 		
 		
 		completion_reward = {
+		PRE={set_country_flag=century_of_prussia_flag}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_59
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_construct_civ_factory
 
-		x = 18
-		y = 6
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_41
-		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_46
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_47
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_48
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_49
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_50
-		}
+		x = 28
+		y = 3
 		cost = 10
-
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_54
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -3108,35 +2674,56 @@ focus = {
 		available_if_capitulated = yes
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+
+				complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
 		completion_reward = {
+					random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_60
-		icon = GFX_goal_generic_neutrality_focus
-
-		x = 20
-		y = 6
+		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_41
+		focus =	prussianrework_1789_1815_first_100_focus_59
 		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_46
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_47
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_48
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_49
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_50
-		}
+		x = 28
+		y = 4
 		cost = 10
 
 		ai_will_do = {
@@ -3157,26 +2744,56 @@ focus = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
+				complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
 		completion_reward = {
+					random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 focus = {
 		id = prussianrework_1789_1815_first_100_focus_61
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_construct_civ_factory
 
-		x = 2
-		y = 7
+		x = 28
+		y = 5
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_51
+		focus =	prussianrework_1789_1815_first_100_focus_60
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_52
-		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_58
-		}
-
 		cost = 10
 
 		ai_will_do = {
@@ -3197,22 +2814,53 @@ focus = {
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
+				complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
 		completion_reward = {
+					random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_62
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 4
-		y = 7
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_51
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_52
-		}
-
+		x = 1
+		y = 5
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_58
 		}
@@ -3238,23 +2886,17 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.69}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_63
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 
-		x = 6
-		y = 7
+		x = 1
+		y = 6
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_51
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_52
-		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_58
+		focus =	prussianrework_1789_1815_first_100_focus_62
 		}
 
 		cost = 10
@@ -3278,23 +2920,23 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.70}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_64
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 8
-		y = 7
+		x = -30
+		y = 4
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_51
+		focus =	prussianrework_1789_1815_first_100_focus_33
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_52
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_36
 		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_58
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_38
 		}
 
 		cost = 10
@@ -3304,7 +2946,7 @@ focus = {
 		}
 
 		available = {
-
+PRE={has_country_flag=century_of_prussia_flag}
 		}
 
 		bypass = {
@@ -3322,19 +2964,12 @@ focus = {
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_65
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_construct_mil_factory
 
-		x = 10
-		y = 7
+		x = 30
+		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_51
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_52
-		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_58
+		focus =	prussianrework_1789_1815_first_100_focus_54
 		}
 
 		cost = 10
@@ -3356,25 +2991,56 @@ focus = {
 		available_if_capitulated = yes
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
-		completion_reward = {	
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_66
-		icon = GFX_goal_generic_neutrality_focus
+		icon =  GFX_goal_generic_construct_mil_factory
 
-		x = 12
-		y = 7
+		x = 30
+		y = 4
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_51
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_52
-		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_58
+		focus =	prussianrework_1789_1815_first_100_focus_65
 		}
 
 		cost = 10
@@ -3396,26 +3062,56 @@ focus = {
 		available_if_capitulated = yes
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
-		
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_67
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_construct_mil_factory
 
-		x = 14
-		y = 7
+		x = 30
+		y = 5
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_51
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_52
-		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_58
+		focus =	prussianrework_1789_1815_first_100_focus_66
 		}
 
 		cost = 10
@@ -3437,26 +3133,56 @@ focus = {
 		available_if_capitulated = yes
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_68
-		icon = GFX_goal_generic_neutrality_focus
-
-		x = 16
-		y = 7
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_51
+		focus =	prussianrework_1789_1815_first_100_focus_61
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_52
-		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_58
-		}
+		x = 28
+		y = 6
 
 		cost = 10
 
@@ -3477,27 +3203,84 @@ focus = {
 		available_if_capitulated = yes
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
-		
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_69
-		icon = GFX_goal_generic_neutrality_focus
-
-		x = 18
-		y = 7
+		icon = GFX_goal_generic_construct_infrastructure
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_51
+		focus =	prussianrework_1789_1815_first_100_focus_61
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_52
-		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_58
-		}
+		x = 30
+		y = 6
 
 		cost = 10
 
@@ -3518,25 +3301,84 @@ focus = {
 		available_if_capitulated = yes
 
 		search_filters = { FOCUS_FILTER_POLITICAL }
-		
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
 		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_70
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_secret_weapon
 
-		x = 20
+		x = 30
 		y = 7
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_51
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_52
-		}
-
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_58
+		focus =	prussianrework_1789_1815_first_100_focus_69
 		}
 
 		cost = 10
@@ -3560,44 +3402,27 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+					add_tech_bonus = {
+				name = secret_bonus
+				bonus = 0.5
+				uses = 4
+				category = electronics
+				category = nuclear
+				category = rocketry
+			}
 		}
 	}
 focus = {
 		id = prussianrework_1789_1815_first_100_focus_71
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 2
-		y = 8
+		x = -21
+		y = 7
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_61
+		focus =	prussianrework_1789_1815_first_100_focus_31
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_62
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_63
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_64
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_65
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_66
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_67
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_68
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_69
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_70
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -3605,7 +3430,7 @@ focus = {
 		}
 
 		available = {
-
+        PRE={has_country_flag=century_of_prussia_flag}
 		}
 
 		bypass = {
@@ -3623,40 +3448,17 @@ focus = {
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_72
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_attack_germany
+		x = -7
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_28
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_29
+		}
 
-		x = 4
-		y = 8
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_61
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_62
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_63
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_64
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_65
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_66
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_67
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_68
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_69
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_70
-		}
+
 		cost = 10
 
 		ai_will_do = {
@@ -3664,7 +3466,7 @@ focus = {
 		}
 
 		available = {
-
+		PRE={has_country_flag=century_of_prussia_flag}
 		}
 
 		bypass = {
@@ -3678,44 +3480,20 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.52}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_73
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_attack_germany
 
-		x = 6
-		y = 8
+		x = -10
+		y = 10
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_61
+		focus =	prussianrework_1789_1815_first_100_focus_72
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_62
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_63
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_64
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_65
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_66
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_67
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_68
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_69
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_70
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -3742,40 +3520,15 @@ focus = {
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_74
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_attack_germany
 
-		x = 8
-		y = 8
+		x = -8
+		y = 10
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_61
+		focus =	prussianrework_1789_1815_first_100_focus_72
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_62
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_63
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_64
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_65
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_66
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_67
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_68
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_69
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_70
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -3802,40 +3555,15 @@ focus = {
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_75
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_attack_germany
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		x = -6
+		y = 10
 
-		x = 10
-		y = 8
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_61
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_62
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_63
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_64
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_65
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_66
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_67
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_68
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_69
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_70
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -3863,40 +3591,15 @@ focus = {
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_76
-		icon = GFX_goal_generic_neutrality_focus
+		icon =GFX_focus_attack_germany
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_72
+		}
+		x = -4
+		y = 10
 
-		x = 12
-		y = 8
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_61
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_62
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_63
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_64
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_65
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_66
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_67
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_68
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_69
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_70
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -3925,46 +3628,19 @@ focus = {
 		NAS={country_event = pre_1789_event.8}
 		NAS={country_event = pre_1789_event.9}
 		NAS={country_event = pre_1789_event.10}
+		hidden_effect={PRE={country_event = pre_1789_event.76}}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_77
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_demand_territory
 
-		x = 14
-		y = 8
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_61
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_62
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_63
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_64
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_65
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_66
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_67
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_68
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_69
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_70
-		}
+		x = 37
+		y = 2
 		cost = 10
-
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_39
+		}	
 		ai_will_do = {
 			factor = 1
 		}
@@ -3984,44 +3660,18 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_political_power = 120
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_78
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_support_democracy
 
-		x = 16
-		y = 8
+		x = 37
+		y = 3
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_61
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_62
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_63
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_64
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_65
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_66
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_67
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_68
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_69
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_70
-		}
+		focus =	prussianrework_1789_1815_first_100_focus_77
+		}	
 		cost = 10
 
 		ai_will_do = {
@@ -4044,46 +3694,19 @@ focus = {
 		
 		
 		completion_reward = {
+		add_ideas = liberty_ethos_focus
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_79
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 18
-		y = 8
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_61
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_62
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_63
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_64
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_65
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_66
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_67
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_68
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_69
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_70
-		}
+		x = 36
+		y = 4
 		cost = 10
-
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_78
+		}	
 		ai_will_do = {
 			factor = 1
 		}
@@ -4103,46 +3726,23 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+					if = {
+				limit = { NOT = { has_idea = neutrality_idea } }
+				add_ideas = neutrality_idea
+			}
+			add_political_power = 150
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_80
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_defence
 
-		x = 20
-		y = 8
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_61
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_62
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_63
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_64
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_65
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_66
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_67
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_68
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_69
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_70
-		}
+		x = 36
+		y = 5
 		cost = 10
-
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_79
+		}	
 		ai_will_do = {
 			factor = 1
 		}
@@ -4162,44 +3762,20 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_ideas = deterrence
 		}
 	}
 focus = {
 		id = prussianrework_1789_1815_first_100_focus_81
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_political_pressure
 
-		x = 2
-		y = 9
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_71
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_72
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_73
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_74
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_75
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_76
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_77
-		}
+		x = 38
+		y = 4
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_78
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_79
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_80
-		}
+		}	
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -4221,44 +3797,25 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+				if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}	
+			set_rule = { can_send_volunteers = yes }
+			add_political_power = 150	
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_82
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_allies_build_infantry
 
-		x = 4
-		y = 9
+		x = 38
+		y = 5
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_71
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_72
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_73
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_74
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_75
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_76
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_77
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_78
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_79
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_80
-		}
+		focus =	prussianrework_1789_1815_first_100_focus_81
+		}	
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -4280,44 +3837,20 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_ideas = volunteer_corps_focus
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_83
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_consumer_goods
 
-		x = 6
-		y = 9
+		x = -11
+		y = 8
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_71
+		focus =	prussianrework_1789_1815_first_100_focus_37
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_72
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_73
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_74
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_75
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_76
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_77
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_78
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_79
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_80
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -4325,6 +3858,7 @@ focus = {
 		}
 
 		available = {
+		owns_state=10
 		}
 
 		bypass = {
@@ -4338,44 +3872,30 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+						10 = {
+                        add_extra_state_shared_building_slots = 1
+						add_building_construction = {
+							type = industrial_complex
+							level = 1
+							instant_build = yes
+						}
+					}
+		hidden_effect={
+
+		}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_84
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_more_territorial_claims
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_82
+		}	
+		x = 38
+		y = 6
 
-		x = 8
-		y = 9
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_71
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_72
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_73
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_74
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_75
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_76
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_77
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_78
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_79
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_80
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -4397,44 +3917,23 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		add_ideas = foreign_expeditions_focus
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_85
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_propaganda
 
-		x = 10
-		y = 9
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_71
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_72
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_73
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_74
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_75
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_76
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_77
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_78
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_79
-		}
+		x = 36
+		y = 7
+
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_80
 		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_84
+		}
+
 		cost = 10
 
 		ai_will_do = {
@@ -4456,44 +3955,27 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {	
+					add_ideas = why_we_fight_focus
+			custom_effect_tooltip = why_we_fight_effect
+			hidden_effect = {
+				if = {
+					limit = { NOT = { has_idea = neutrality_idea } }
+					set_rule = { can_create_factions = yes }
+				}			
+			}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_86
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_political_pressure
 
-		x = 12
-		y = 9
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_71
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_72
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_73
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_74
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_75
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_76
-		}
+		x = 40
+		y = 4
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_77
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_78
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_79
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_80
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -4516,44 +3998,26 @@ focus = {
 		
 		
 		completion_reward = {
+					if = {
+				limit = { has_idea = neutrality_idea }
+				remove_ideas = neutrality_idea
+			}			
+			add_ideas = militarism_focus
+			army_experience = 20
+			set_rule = { can_send_volunteers = yes }
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_87
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_more_territorial_claims
 
-		x = 14
-		y = 9
+		x = 40
+		y = 5
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_71
+		focus =	prussianrework_1789_1815_first_100_focus_86
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_72
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_73
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_74
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_75
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_76
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_77
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_78
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_79
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_80
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -4575,44 +4039,34 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+					add_ideas = military_youth_focus
+			if = {
+				limit = { has_government = fascism }
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.2
+				}
+			}
+			if = {
+				limit = { has_government = communism }
+				add_popularity = {
+					ideology = communism
+					popularity = 0.2
+				}
+			}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_88
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_military_sphere
 
-		x = 16
-		y = 9
+		x = 40
+		y = 6
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_71
+		focus =	prussianrework_1789_1815_first_100_focus_87
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_72
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_73
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_74
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_75
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_76
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_77
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_78
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_79
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_80
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -4635,44 +4089,20 @@ focus = {
 		
 		
 		completion_reward = {
+		add_ideas = paramilitarism_focus
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_89
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_demand_territory
 
-		x = 18
-		y = 9
+		x = 40
+		y = 7
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_71
+		focus =	prussianrework_1789_1815_first_100_focus_88
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_72
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_73
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_74
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_75
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_76
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_77
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_78
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_79
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_80
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -4694,44 +4124,30 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+					add_ideas = ideological_fanaticism_focus
+			set_rule = {
+				can_create_factions = yes
+			}
+			hidden_effect = {
+				set_rule = { can_use_kamikaze_pilots = yes }
+			}
+			custom_effect_tooltip = kamikaze_focus_tooltip
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_90
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_scientific_exchange
 
-		x = 20
-		y = 9
+		x = 38
+		y = 8
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_71
+		focus =	prussianrework_1789_1815_first_100_focus_85
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_72
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_89
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_73
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_74
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_75
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_76
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_77
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_78
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_79
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_80
-		}
+
+
 		cost = 10
 
 		ai_will_do = {
@@ -4753,46 +4169,51 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+					if = {
+				limit = {
+					original_research_slots < 3
+				}
+				add_research_slot = 1
+			}
+			if = {
+				limit = {
+					original_research_slots > 2
+				}
+				add_tech_bonus = {
+					name = electronics_bonus
+					bonus = 1.0
+					uses = 1
+					category = electronics
+				}
+				add_tech_bonus = {
+					name = industrial_bonus
+					bonus = 1.0
+					uses = 1
+					category = industry
+				}	
+				add_tech_bonus = {
+					name = infantry_artillery_bonus #@#
+					bonus = 1.0
+					uses = 1
+					category = infantry_weapons
+					category = artillery
+				}				
+			}
 		}
 	}
 focus = {
 		id = prussianrework_1789_1815_first_100_focus_91
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 2
-		y = 10
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_81
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_82
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_83
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_84
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_85
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_86
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_87
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_88
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_89
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_90
-		}
-		cost = 10
+		x = -8
+		y = 11
 
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_73
+		focus =	prussianrework_1789_1815_first_100_focus_74
+		focus =	prussianrework_1789_1815_first_100_focus_75
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -4812,46 +4233,20 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.51}
 		}
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_92
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 4
-		y = 10
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_81
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_82
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_83
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_84
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_85
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_86
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_87
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_88
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_89
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_90
-		}
-		cost = 10
+		x = -8
+		y = 12
 
+		cost = 10
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_91
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -4875,48 +4270,20 @@ focus = {
 	}
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_93
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_construct_civ_factory
 
-		x = 6
-		y = 10
+		x = -15
+		y = 5
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_81
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_82
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_83
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_84
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_85
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_86
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_87
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_88
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_89
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_90
+		focus =	prussianrework_1789_1815_first_100_focus_41
 		}
 		cost = 10
-
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-
+PRE={has_country_flag=century_of_prussia_flag}
 		}
 
 		bypass = {
@@ -4936,39 +4303,12 @@ focus = {
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_94
 		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_1
+		}
+		x = 12
+		y = 1
 
-		x = 8
-		y = 10
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_81
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_82
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_83
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_84
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_85
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_86
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_87
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_88
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_89
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_90
-		}
 		cost = 10
 
 		ai_will_do = {
@@ -4976,7 +4316,7 @@ focus = {
 		}
 
 		available = {
-
+PRE={has_country_flag=century_of_prussia_flag}
 		}
 
 		bypass = {
@@ -4995,39 +4335,12 @@ focus = {
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_95
 		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_94
+		}
+		x = 12
+		y = 2
 
-		x = 10
-		y = 10
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_81
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_82
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_83
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_84
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_85
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_86
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_87
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_88
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_89
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_90
-		}
 		cost = 10
 
 		ai_will_do = {
@@ -5054,39 +4367,12 @@ focus = {
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_96
 		icon = GFX_goal_generic_neutrality_focus
-
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
 		x = 12
-		y = 10
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_81
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_82
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_83
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_84
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_85
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_86
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_87
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_88
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_89
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_90
-		}
+		y = 3
+
 		cost = 10
 
 		ai_will_do = {
@@ -5114,39 +4400,12 @@ focus = {
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_97
 		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		x = 6
+		y = 3
 
-		x = 14
-		y = 10
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_81
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_82
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_83
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_84
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_85
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_86
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_87
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_88
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_89
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_90
-		}
 		cost = 10
 
 		ai_will_do = {
@@ -5154,7 +4413,7 @@ focus = {
 		}
 
 		available = {
-
+PRE={has_country_flag=has_implied_abolition_of_serfdom_flag}
 		}
 
 		bypass = {
@@ -5173,39 +4432,12 @@ focus = {
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_98
 		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_96
+		}
+		x = 10
+		y = 4
 
-		x = 16
-		y = 10
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_81
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_82
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_83
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_84
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_85
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_86
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_87
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_88
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_89
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_90
-		}
 		cost = 10
 
 		ai_will_do = {
@@ -5233,39 +4465,12 @@ focus = {
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_99
 		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_97
+		}
+		x = 6
+		y = 4
 
-		x = 18
-		y = 10
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_81
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_82
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_83
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_84
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_85
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_86
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_87
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_88
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_89
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_90
-		}
 		cost = 10
 
 		ai_will_do = {
@@ -5292,39 +4497,12 @@ focus = {
 		focus = {
 		id = prussianrework_1789_1815_first_100_focus_100
 		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}
+		x = 16
+		y = 3
 
-		x = 20
-		y = 10
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_81
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_82
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_83
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_84
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_85
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_86
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_87
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_88
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_89
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_90
-		}
 		cost = 10
 
 		ai_will_do = {
@@ -5351,39 +4529,12 @@ focus = {
 focus = {
 		id = prussianrework_1793_1836_focus_1
 		icon = GFX_goal_generic_neutrality_focus
-
-		x = 2
-		y = 11
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_91
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_92
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_93
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_94
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_95
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_96
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_97
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_98
-		}
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_99
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_100
-		}
+		x = 5
+		y = 5
+
 		cost = 10
 
 		ai_will_do = {
@@ -5411,39 +4562,12 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_2
 		icon = GFX_goal_generic_neutrality_focus
-
-		x = 4
-		y = 11
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_91
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_92
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_93
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_94
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_95
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_96
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_97
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_98
-		}
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_99
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_100
-		}
+		x = 7
+		y = 5
+
 		cost = 10
 
 		ai_will_do = {
@@ -5471,37 +4595,10 @@ focus = {
 		id = prussianrework_1793_1836_focus_3
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 6
-		y = 11
+		x = 4
+		y = 6
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_91
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_92
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_93
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_94
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_95
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_96
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_97
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_98
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_99
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_100
+		focus =	prussianrework_1793_1836_focus_1
 		}
 		cost = 10
 
@@ -5530,37 +4627,10 @@ focus = {
 		id = prussianrework_1793_1836_focus_4
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 8
-		y = 11
+		x = 6
+		y = 6
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_91
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_92
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_93
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_94
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_95
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_96
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_97
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_98
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_99
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_100
+		focus =	prussianrework_1793_1836_focus_2
 		}
 		cost = 10
 
@@ -5589,37 +4659,10 @@ focus = {
 		id = prussianrework_1793_1836_focus_5
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 10
-		y = 11
+		x = 3
+		y = 7
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_91
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_92
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_93
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_94
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_95
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_96
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_97
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_98
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_99
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_100
+		focus =	prussianrework_1793_1836_focus_3
 		}
 		cost = 10
 
@@ -5648,38 +4691,11 @@ focus = {
 		id = prussianrework_1793_1836_focus_6
 		icon = GFX_goal_generic_neutrality_focus
 
-		x = 12
-		y = 11
+		x = 5
+		y = 7
 		cost = 10
 		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_91
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_92
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_93
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_94
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_95
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_96
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_97
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_98
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_99
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_100
+		focus =	prussianrework_1793_1836_focus_4
 		}
 		ai_will_do = {
 			factor = 1
@@ -5705,39 +4721,15 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_7
 		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_51
+		}
+				prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_52
+		}
+		x = -17
+		y = 8
 
-		x = 14
-		y = 11
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_91
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_92
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_93
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_94
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_95
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_96
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_97
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_98
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_99
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_100
-		}
 		cost = 10
 
 		ai_will_do = {
@@ -5745,7 +4737,7 @@ focus = {
 		}
 
 		available = {
-
+PRE={has_country_flag=century_of_prussia_flag}
 		}
 
 		bypass = {
@@ -5765,39 +4757,12 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_8
 		icon = GFX_goal_generic_neutrality_focus
-
-		x = 16
-		y = 11
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_91
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_92
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_93
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_94
-		}
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_95
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_96
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_97
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_98
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_99
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_100
-		}
+		x = 18
+		y = 3
+
 		cost = 10
 
 		ai_will_do = {
@@ -5824,39 +4789,12 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_9
 		icon = GFX_goal_generic_neutrality_focus
-
-		x = 18
-		y = 11
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_91
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_92
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_93
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_94
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_95
-		}
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_96
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_97
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_98
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_99
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_100
-		}
+		x = 12
+		y = 4
+
 		cost = 10
 
 		ai_will_do = {
@@ -5884,39 +4822,12 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_10
 		icon = GFX_goal_generic_neutrality_focus
-
-		x = 20
-		y = 11
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_91
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_92
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_93
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_94
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_95
-		}
 		prerequisite = {
 		focus =	prussianrework_1789_1815_first_100_focus_96
 		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_97
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_98
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_99
-		}
-		prerequisite = {
-		focus =	prussianrework_1789_1815_first_100_focus_100
-		}
+		x = 14
+		y = 4
+
 		cost = 10
 
 		ai_will_do = {
@@ -5943,39 +4854,14 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_11
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1  
-		x = 0
-		y = 1
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_10
-		}
+       	prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		focus = prussianrework_1793_1836_focus_9
+		focus = prussianrework_1793_1836_focus_10
+		}   
+		x = 9
+		y = 5
+
 		cost = 10
 
 		ai_will_do = {
@@ -6003,39 +4889,14 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_12
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1		
-		x = 2
-		y = 1
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_10
-		}
+           	prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		focus = prussianrework_1793_1836_focus_9
+		focus = prussianrework_1793_1836_focus_10
+		}     		
+		x = 11
+		y = 5
+
 		cost = 10
 
 		ai_will_do = {
@@ -6062,39 +4923,14 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_13
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
-		x = 4
-		y = 1
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_10
-		}
+               	prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		focus = prussianrework_1793_1836_focus_9
+		focus = prussianrework_1793_1836_focus_10
+		} 
+		x = 13
+		y = 5
+
 		cost = 10
 
 		ai_will_do = {
@@ -6121,39 +4957,14 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_14
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
-		x = 6
-		y = 1
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_10
-		}
+               	prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_98
+		focus = prussianrework_1793_1836_focus_9
+		focus = prussianrework_1793_1836_focus_10
+		} 
+		x = 15
+		y = 5
+
 		cost = 10
 
 		ai_will_do = {
@@ -6180,39 +4991,12 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_15
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
-		x = 8
-		y = 1
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_10
-		}
+      		prerequisite = {
+		focus =	prussianrework_1789_1815_first_100_focus_95
+		}  
+		x = 20
+		y = 3
+
 		cost = 10
 
 		ai_will_do = {
@@ -6239,39 +5023,15 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_16
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
+        		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_11
+		focus =	prussianrework_1793_1836_focus_12
+		focus =	prussianrework_1793_1836_focus_13
+		focus =	prussianrework_1793_1836_focus_14
+		}
 		x = 10
-		y = 1
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_10
-		}
+		y = 6
+
 		cost = 10
 
 		ai_will_do = {
@@ -6298,39 +5058,15 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_17
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
+             		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_11
+		focus =	prussianrework_1793_1836_focus_12
+		focus =	prussianrework_1793_1836_focus_13
+		focus =	prussianrework_1793_1836_focus_14
+		}   
 		x = 12
-		y = 1
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_10
-		}
+		y = 6
+
 		cost = 10
 
 		ai_will_do = {
@@ -6357,39 +5093,15 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_18
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
+                		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_11
+		focus =	prussianrework_1793_1836_focus_12
+		focus =	prussianrework_1793_1836_focus_13
+		focus =	prussianrework_1793_1836_focus_14
+		}
 		x = 14
-		y = 1
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_10
-		}
+		y = 6
+
 		cost = 10
 
 		ai_will_do = {
@@ -6416,39 +5128,14 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_19
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
-		x = 16
-		y = 1
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_10
-		}
+        
+		x = 11
+		y = 7
+             		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_16
+		focus =	prussianrework_1793_1836_focus_17
+		focus =	prussianrework_1793_1836_focus_18
+		}  
 		cost = 10
 
 		ai_will_do = {
@@ -6474,39 +5161,14 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_20
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
-		x = 18
-		y = 1
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_1
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_2
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_3
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_4
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_5
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_6
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_7
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_8
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_9
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_10
-		}
+        
+		x = 13
+		y = 7
+             		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_16
+		focus =	prussianrework_1793_1836_focus_17
+		focus =	prussianrework_1793_1836_focus_18
+		} 
 		cost = 10
 
 		ai_will_do = {
@@ -6533,37 +5195,11 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_21
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
-		x = 0
-		y = 2
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_11
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_12
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_13
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_14
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_15
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_16
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_17
-		}
-		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_18
-		}
+        
+		x = 12
+		y = 8
 		prerequisite = {
 		focus =	prussianrework_1793_1836_focus_19
-		}
-		prerequisite = {
 		focus =	prussianrework_1793_1836_focus_20
 		}
 		cost = 10
@@ -6573,7 +5209,8 @@ focus = {
 		}
 
 		available = {
-
+		date > 1812.1.1
+        PRE={is_ally_with = FRA}
 		}
 
 		bypass = {
@@ -6593,11 +5230,13 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_22
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
+        		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_21
+		}
 		allow_branch = { has_start_date > 1789.1.1
     has_start_date < 1836.1.1 }
-		x = 9
-		y = 2
+		x = 11
+		y = 9
 		cost = 10
 
 		ai_will_do = {
@@ -6605,10 +5244,6 @@ focus = {
 		}
 
 		available = {
-        or={
-		has_country_flag=napoleonprussiatwo_flag
-		has_completed_focus=prussianrework_1793_1836_focus_21
-		}
 		}
 
 		bypass = {
@@ -6628,12 +5263,12 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_23
 		icon = GFX_goal_generic_neutrality_focus
-        relative_position_id = prussianrework_1793_1836_focus_1
-		x = 9
-		y = 3
+        
+		x = 13
+		y = 9
 		cost = 10
 		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_22
+		focus =	prussianrework_1793_1836_focus_21
 		}
 		ai_will_do = {
 			factor = 1
@@ -6659,11 +5294,14 @@ focus = {
 		focus = {
 		id = prussianrework_1793_1836_focus_24
 		icon = GFX_focus_generic_treaty
+		    prerequisite = {
+		focus =	prussianrework_1793_1836_focus_22
+		} 
        		prerequisite = {
 		focus =	prussianrework_1793_1836_focus_23
 		} 
-		x = 11
-		y = 15
+		x = 12
+		y = 10
 		cost = 4.3
 
 		ai_will_do = {
@@ -6999,7 +5637,7 @@ focus = {
 		id = prussianrework_1793_1836_focus_34
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 1
+		x = -1
 		y = 5
 		prerequisite = {
 		focus =	prussianrework_1793_1836_focus_30
@@ -7031,10 +5669,10 @@ focus = {
 		id = prussianrework_1793_1836_focus_35
 		icon = GFX_focus_generic_treaty
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 2
-		y = 6
+		x = 1
+		y = 5
 		prerequisite = {
-		focus =	prussianrework_1793_1836_focus_34
+		focus =	prussianrework_1793_1836_focus_30
 		}
 		cost = 4.3
 
@@ -7069,9 +5707,10 @@ focus = {
 		id = prussianrework_1793_1836_focus_36
 		icon = GFX_focus_generic_treaty
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 3
-		y = 7
+		x = 0
+		y = 6
 		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_34
 		focus =	prussianrework_1793_1836_focus_35
 		}
 		cost = 4.3
@@ -7102,9 +5741,11 @@ focus = {
 		id = prussianrework_1793_1836_focus_37
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 12
-		y = 13
-
+		x = 0
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7135,9 +5776,11 @@ focus = {
 		id = prussianrework_1793_1836_focus_38
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 14
-		y = 13
-
+		x = 4
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7165,9 +5808,11 @@ focus = {
 		id = prussianrework_1793_1836_focus_39
 		icon = GFX_focus_generic_treaty
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 16
-		y = 13
-
+		x = 8
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7201,9 +5846,11 @@ focus = {
 		id = prussianrework_1793_1836_focus_40
 		icon = GFX_focus_generic_treaty
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 18
-		y = 13
-
+		x = -2
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_37
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7266,8 +5913,10 @@ focus = {
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
 		x = 0
-		y = 14
-
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_37
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7295,13 +5944,20 @@ focus = {
 	}
 		focus = {
 		id = prussianrework_1793_1836_focus_42
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_army_doctrines
 		relative_position_id = prussianrework_1793_1836_focus_24
-		x = 2
-		y = 14
-
+		x = -6
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
 		cost = 4.3
-
+				mutually_exclusive = { 
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
 		ai_will_do = {
 			factor = 1
 		}
@@ -7327,9 +5983,11 @@ focus = {
 		id = prussianrework_1793_1836_focus_43
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 4
-		y = 14
-
+		x = 2
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_37
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7337,7 +5995,7 @@ focus = {
 		}
 
 		available = {
-
+PRE={has_country_flag=PRE_louse_has_died}
 		}
 
 		bypass = {
@@ -7356,11 +6014,23 @@ focus = {
 	}
 		focus = {
 		id = prussianrework_1793_1836_focus_44
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_generic_army_doctrines
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 6
-		y = 14
-
+		x = -6
+		y = 8
+		prerequisite = { 
+		focus = prussianrework_1793_1836_focus_42
+		focus = prussianrework_althistory_11
+		focus = prussianrework_althistory_12
+		focus = prussianrework_althistory_13
+		focus = prussianrework_althistory_14
+		}
+						mutually_exclusive = { 
+		focus = prussianrework_althistory_7
+		focus = prussianrework_althistory_8
+		focus = prussianrework_althistory_9
+		focus = prussianrework_althistory_10
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7387,9 +6057,11 @@ focus = {
 		id = prussianrework_1793_1836_focus_45
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 8
-		y = 14
-
+		x = 14
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7397,7 +6069,11 @@ focus = {
 		}
 
 		available = {
-
+        or={
+		CLG={is_subject_of=AUS}
+		BEL={is_subject_of=AUS}
+		TRR={is_subject_of=AUS}
+		}
 		}
 
 		bypass = {
@@ -7411,6 +6087,7 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+					PRE={country_event = pre_1789_event.85}
 		}
 	}
 		focus = {
@@ -7418,8 +6095,10 @@ focus = {
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
 		x = 10
-		y = 14
-
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_45
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7441,6 +6120,7 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.86}
 		}
 	}
 		focus = {
@@ -7448,8 +6128,10 @@ focus = {
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
 		x = 12
-		y = 14
-
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_45
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7471,6 +6153,7 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.102}
 		}
 	}
 		focus = {
@@ -7478,8 +6161,10 @@ focus = {
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
 		x = 14
-		y = 14
-
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_45
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7501,15 +6186,20 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.88}
 		}
 	}
 		focus = {
 		id = prussianrework_1793_1836_focus_49
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 16
-		y = 14
-
+		x = -2
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_40
+		focus =	prussianrework_1793_1836_focus_41
+		focus =	prussianrework_1793_1836_focus_43
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7537,9 +6227,13 @@ focus = {
 		id = prussianrework_1793_1836_focus_50
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 18
-		y = 14
-
+		x = 0
+		y = 9
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_40
+		focus =	prussianrework_1793_1836_focus_41
+		focus =	prussianrework_1793_1836_focus_43
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7660,11 +6354,13 @@ focus = {
 
 focus = {
 		id = prussianrework_1793_1836_focus_51
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 0
-		y = 15
-
+		x = 23
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7692,11 +6388,17 @@ focus = {
 	}
 		focus = {
 		id = prussianrework_1793_1836_focus_52
-		icon = GFX_goal_generic_neutrality_focus
+		icon = GFX_focus_renounce_the_treaty_of_trianon
 		relative_position_id = prussianrework_1793_1836_focus_24
-		x = 2
-		y = 15
-
+		x = 21
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_51
+		}
+						mutually_exclusive = { 
+		focus = prussianrework_althistory_15
+		focus = prussianrework_althistory_16
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7718,15 +6420,22 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.82}
 		}
 	}
 		focus = {
 		id = prussianrework_1793_1836_focus_53
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 4
-		y = 15
-
+		x = -10
+		y = 9
+		prerequisite = { 
+		focus = prussianrework_1793_1836_focus_44
+		focus = prussianrework_althistory_7
+		focus = prussianrework_althistory_8
+		focus = prussianrework_althistory_9
+		focus = prussianrework_althistory_10
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7755,9 +6464,11 @@ focus = {
 		id = prussianrework_1793_1836_focus_54
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 6
-		y = 15
-
+		x = -18
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7765,6 +6476,13 @@ focus = {
 		}
 
 		available = {
+		or={
+		PRE={owns_state=86}
+		and={
+		POL={owns_state=86}
+		POL={is_subject_of=RUS}
+		}
+		}
 		}
 
 		bypass = {
@@ -7778,15 +6496,23 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		if={
+		limit={
+		PRE={owns_state=86}
+		}
+		PRE={country_event = pre_1789_event.46}
+		}
 		}
 	}
 		focus = {
 		id = prussianrework_1793_1836_focus_55
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 8
-		y = 15
-
+		x = 16
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_45
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7808,15 +6534,18 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+			PRE={country_event = pre_1789_event.87}
 		}
 	}
 		focus = {
 		id = prussianrework_1793_1836_focus_56
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 10
-		y = 15
-
+		x = 18
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_45
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7824,7 +6553,7 @@ focus = {
 		}
 
 		available = {
-
+        owns_state=42
 		}
 
 		bypass = {
@@ -7838,15 +6567,18 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.78}
 		}
 	}
 		focus = {
 		id = prussianrework_1793_1836_focus_57
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 12
-		y = 15
-
+		x = 27
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7875,9 +6607,11 @@ focus = {
 		id = prussianrework_1793_1836_focus_58
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 14
-		y = 15
-
+		x = 31
+		y = 7
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_36
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -7905,8 +6639,8 @@ focus = {
 		id = prussianrework_1793_1836_focus_59
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 16
-		y = 15
+		x = -11
+		y = 10
 
 		cost = 4.3
 
@@ -7935,8 +6669,8 @@ focus = {
 		id = prussianrework_1793_1836_focus_60
 		icon = GFX_goal_generic_neutrality_focus
         relative_position_id = prussianrework_1793_1836_focus_24
-		x = 18
-		y = 15
+		x = -9
+		y = 10
 
 		cost = 4.3
 
@@ -8326,9 +7060,11 @@ focus = {
 		id = prussianrework_1793_1836_focus_72
 		icon = GFX_goal_generic_neutrality_focus
 		relative_position_id = prussianrework_1793_1836_focus_24
-		x = 2
-		y = 17
-
+		x = -18
+		y = 8
+		prerequisite = {
+		focus =	prussianrework_1793_1836_focus_54
+		}
 		cost = 4.3
 
 		ai_will_do = {
@@ -8336,7 +7072,8 @@ focus = {
 		}
 
 		available = {
-
+        POS={owns_state=1194}
+		POS={is_subject_of=PRE}
 		}
 
 		bypass = {
@@ -8350,6 +7087,7 @@ focus = {
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		
 		completion_reward = {
+		PRE={country_event = pre_1789_event.47}
 		}
 	}
 		focus = {

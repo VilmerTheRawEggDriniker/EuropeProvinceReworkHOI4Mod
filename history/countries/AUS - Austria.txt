@@ -6,6 +6,12 @@ recruit_character=AUS_metternich
 retire_character=AUS_metternich
 }
 1789.1.1 = {
+recruit_character=AUS_rothschildii
+}
+1859.1.1 = {
+retire_character=AUS_rothschildii
+}
+1789.1.1 = {
 			if = {
 		limit = { has_start_date < 1790.1.1 }
 	set_autonomy = {
@@ -13,6 +19,12 @@ retire_character=AUS_metternich
         autonomous_state = autonomy_protectorate
         freedom_level = 0.4
 	}
+}
+}
+1900.1.1 = {
+			if = {
+		limit = { has_start_date < 1915.1.1 }
+BOS={set_cosmetic_tag=BOS_AUS}
 }
 }
 set_technology = {
@@ -981,6 +993,9 @@ retire_character=AUS_ferdinandiaus
 1804.1.1 = {
 set_cosmetic_tag = AUS_empire # austrian empire
 }
+1919.1.1 = {
+set_cosmetic_tag = AUS_ # austrian empire
+}
 1848.12.2 = {
 	recruit_character=AUS_franz_joseph_i
 	promote_character=AUS_franz_joseph_i
@@ -1382,7 +1397,7 @@ IF = {
 
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -1401,7 +1416,7 @@ set_stability = 0.50
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1936.1.1"
+	last_election = "1785.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }

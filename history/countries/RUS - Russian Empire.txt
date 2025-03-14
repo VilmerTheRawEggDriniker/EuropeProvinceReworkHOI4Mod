@@ -593,6 +593,8 @@ set_cosmetic_tag = RUS_federation #  russian federation
 1900.1.1 = {
 				if = {
 		limit = {has_start_date > 1899.1.1 has_start_date < 1919.1.1 }
+	KHI={set_cosmetic_tag=KHI_RUS}
+	BUK={set_cosmetic_tag=BUK_RUS}
     set_autonomy = {
         target = KHI
         autonomous_state = autonomy_protectorate

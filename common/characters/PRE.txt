@@ -1,4 +1,39 @@
 characters={
+				PRE_louise={
+		name=PRE_CHARACTER_LOUISE
+		portraits={
+                        army={
+				small="GFX_idea_pre_louise_small"
+			}
+			civilian = {
+				large = GFX_portrait_pre_louise_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = PRE_louise
+			allowed  = {
+				original_tag  = PRE
+			}
+			available  = {
+            has_country_leader = {
+	character = PRE_frederickwilliamiii
+	ruling_only = yes
+}
+		        }
+			traits  = {
+				PRE_prussia_best_minister
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
 			PRE_langhans={
 		name=PRE_CHARACTER_LANGHANS
 		portraits={
@@ -21,6 +56,38 @@ characters={
 		        }
 			traits  = {
 				pre_architect
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}	
+	}
+			PRE_mendelssohn={
+		name=PRE_CHARACTER_MENDELSSOHN
+		portraits={
+                        army={
+				small="GFX_idea_pre_mendelssohn_small"
+			}
+			civilian = {
+				large = GFX_portrait_pre_mendelssohn_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = PRE_mendelssohn
+			allowed  = {
+				original_tag  = PRE
+			}
+			available  = {
+            has_country_flag=PRE_has_mendelssohn_flag
+		        }
+			traits  = {
+				german_jewish_banker
 			}
 			on_add  = {
 			}

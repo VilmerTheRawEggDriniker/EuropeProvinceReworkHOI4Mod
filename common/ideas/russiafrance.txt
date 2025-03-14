@@ -89,7 +89,7 @@ targeted_modifier = {
     attack_bonus_against = 0.1
 }
 		}		
-													POL_greater_poland_uprising= {
+			POL_greater_poland_uprising= {
 			picture = russian_flag_paris
 			
 			allowed = {
@@ -108,7 +108,27 @@ targeted_modifier = {
 			army_speed_factor = -0.2
 			ai_focus_defense_factor =0.5
 			}
-		}	
+		}
+		pre_stuck_between_east_and_west	= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+army_defence_factor = -0.05
+army_attack_factor = -0.05
+			political_power_gain = -1
+			army_speed_factor = -0.05
+			}
+		}
+
 										liberte= {
 			picture = russian_flag_paris
 			
@@ -244,10 +264,10 @@ surrender_limit = 0.5
 			removal_cost = -1
 			
 			modifier = {
-army_defence_factor = -0.75
-army_attack_factor = -0.75
-army_core_defence_factor = 1
-army_core_attack_factor = 1
+army_defence_factor = -0.05
+army_attack_factor = -0.05
+army_core_defence_factor = 0.3
+army_core_attack_factor = 0.3
 army_speed_factor = -0.75
 surrender_limit = 1
 		ai_focus_defense_factor = 0.1000
@@ -294,6 +314,27 @@ army_defence_factor = -0.05
 army_attack_factor = -0.05
 			}
 		}
+OTO_defensive_strategy_izmail_russo_turkish_war= {
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+production_speed_arms_factory_factor = 0.05
+army_defence_factor = 0.15
+army_attack_factor = -0.05
+			}
+		}
+
+
+
 RUS_russia_greek_plan_ambition= {
 			picture = russian_flag_paris
 			
@@ -1111,6 +1152,26 @@ mezzogiornotwo={
 						democratic_drift = 0.001
 									}
 		}
+			POM_pomerania_war_of_independence={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+						army_core_attack_factor = 0.05
+						army_core_defence_factor = 0.05
+						army_speed_factor = -0.2
+						stability_factor=-0.02
+						democratic_drift = 0.1
+					    surrender_limit =1
+									}
+		}
 																												frenchregionalism={
 			picture = russian_flag_paris
 			
@@ -1475,6 +1536,38 @@ aristocracy={
 						production_speed_buildings_factor = -0.05
 									}
 		}
+
+SPM_piedmont_has_allot_of_liberals={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+industrial_capacity_dockyard = -0.05
+stability_factor = -0.2
+democratic_drift = 0.1
+surrender_limit =0.1
+									}
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
 cripplednavy={
 			picture = russian_flag_paris
 			
@@ -1489,6 +1582,24 @@ cripplednavy={
 									modifier = {
 industrial_capacity_dockyard = -0.75
 industrial_capacity_factory = -0.1
+									}
+		}
+PRE_pro_french_education={
+			picture = russian_flag_paris
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+									modifier = {
+political_power_gain = -0.05
+		army_defence_factor = -0.1
+		army_attack_factor = -0.1
+		production_speed_industrial_complex_factor = 0.02
 									}
 		}
 guerrillaspain={

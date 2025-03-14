@@ -337,6 +337,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 3764;11891;impassable;-1;-1;-1;-1;-1;;alps
 3764;3959;impassable;-1;-1;-1;-1;-1;;alps
 
+3744;14503;impassable;-1;-1;-1;-1;-1;;asturias
+3729;14503;impassable;-1;-1;-1;-1;-1;;asturias
+11707;14503;impassable;-1;-1;-1;-1;-1;;asturias
+11707;14507;impassable;-1;-1;-1;-1;-1;;asturias
+6749;14507;impassable;-1;-1;-1;-1;-1;;asturias
+
 6975;3959;impassable;-1;-1;-1;-1;-1;;alps
 3928;3959;impassable;-1;-1;-1;-1;-1;;alps
 9909;3959;impassable;-1;-1;-1;-1;-1;;alps

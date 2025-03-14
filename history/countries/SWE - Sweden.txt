@@ -9,7 +9,7 @@ opportunistic_war
 	}
 }
 }
-1789.1.1 = {
+1776.1.1 = {
 recruit_character=SWE_johangeneral
 recruit_character=SWE_mauritzgeneral
 recruit_character=SWE_magnusgeneral
@@ -47,7 +47,7 @@ retire_character=SWE_curtgeneral
 1859.1.1 = {
 retire_character=SWE_wilhelmgeneral
 }
-1789.1.1 = {
+1776.1.1 = {
 recruit_character=SWE_gustaviii
 recruit_character=SWE_gustavivadolf
 recruit_character=SWE_charlesxiii
@@ -244,7 +244,7 @@ set_party_name = { ideology = neutrality long_name = SWE_VAS_neutrality_party_lo
 1689.1.1 = {
 set_party_name = { ideology = neutrality long_name = SWE_WIT_neutrality_party_long name = SWE_WIT_neutrality_party }
 }
-1789.1.1 = {
+1750.1.1 = {
 set_party_name = { ideology = neutrality long_name = SWE_HOG_neutrality_party_long name = SWE_HOG_neutrality_party }
 }
 1819.1.1 = {

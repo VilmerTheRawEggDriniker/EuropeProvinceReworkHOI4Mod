@@ -84,7 +84,7 @@ not={has_army_manpower = { size > 95000 }}
 date > 1789.1.1 date < 1836.1.1 
 		}
 
-		complete_effect = {
+		days_remove = 60 remove_effect = {
                 load_oob = "divisions"
 	    hidden_effect={
 		add_equipment_to_stockpile = {
@@ -193,7 +193,7 @@ has_army_manpower = { size > 95000 }
 date > 1789.1.1 date < 1836.1.1 
 		}
 
-		complete_effect = {
+		days_remove = 60 remove_effect = {
                 load_oob = "divisions"
 	    hidden_effect={
 		add_equipment_to_stockpile = {
@@ -304,7 +304,7 @@ has_army_manpower = { size > 191000 }
 date > 1789.1.1 date < 1836.1.1 
 		}
 
-		complete_effect = {
+		days_remove = 60 remove_effect = {
                 load_oob = "divisions"
 	    hidden_effect={
 		add_equipment_to_stockpile = {
@@ -413,7 +413,7 @@ has_army_manpower = { size > 287000 }
 date > 1789.1.1 date < 1836.1.1 
 		}
 
-		complete_effect = {
+		days_remove = 60 remove_effect = {
                 load_oob = "divisions"
 	    hidden_effect={
 		add_equipment_to_stockpile = {
@@ -512,7 +512,7 @@ has_army_manpower = { size > 383000 }
 date > 1789.1.1 date < 1836.1.1 
 		}
 
-		complete_effect = {
+		days_remove = 60 remove_effect = {
                 load_oob = "divisions"
 	    hidden_effect={
 		add_equipment_to_stockpile = {
@@ -611,7 +611,7 @@ has_army_manpower = { size > 479000 }
 date > 1789.1.1 date < 1836.1.1 
 		}
 
-		complete_effect = {
+		days_remove = 60 remove_effect = {
                 load_oob = "divisions"
 	    hidden_effect={
 		add_equipment_to_stockpile = {
@@ -710,7 +710,7 @@ has_army_manpower = { size > 575000 }
 date > 1789.1.1 date < 1836.1.1 
 		}
 
-		complete_effect = {
+		days_remove = 60 remove_effect = {
                 load_oob = "divisions"
 	    hidden_effect={
 		add_equipment_to_stockpile = {
@@ -809,7 +809,7 @@ has_army_manpower = { size > 671000 }
 date > 1789.1.1 date < 1836.1.1 
 		}
 
-		complete_effect = {
+		days_remove = 60 remove_effect = {
                 load_oob = "divisions"
 	    hidden_effect={
 		add_equipment_to_stockpile = {
@@ -907,7 +907,7 @@ has_army_manpower = { size > 767000 }
 date > 1789.1.1 date < 1836.1.1 
 		}
 
-		complete_effect = {
+		days_remove = 60 remove_effect = {
                 load_oob = "divisions"
 	    hidden_effect={
 		add_equipment_to_stockpile = {
@@ -1005,7 +1005,7 @@ has_army_manpower = { size > 863000 }
 date > 1789.1.1 date < 1836.1.1 
 		}
 
-		complete_effect = {
+		days_remove = 60 remove_effect = {
                 load_oob = "divisions"
 	    hidden_effect={
 		add_equipment_to_stockpile = {

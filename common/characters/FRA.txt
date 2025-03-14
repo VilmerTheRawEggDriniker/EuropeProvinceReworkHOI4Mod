@@ -1,4 +1,35 @@
 characters={
+					FRA_rothschildiiiii={
+		name=FRA_CHARACTER_ROTHSCHILDIIIII
+		portraits={
+                        army={
+				small="GFX_idea_fra_rothschildiiiii_small"
+			}
+			civilian = {
+				large = GFX_portrait_fra_rothschildiiiii_large
+			}
+		}
+		advisor={
+                        can_be_fired = no
+			slot = political_advisor
+			idea_token = FRA_rothschildiiiii
+			allowed  = {
+				original_tag  = FRA
+			}
+			available  = {
+		        }
+			traits  = {
+				rothschild_banker
+			}
+			on_add  = {
+			}
+			do_effect  = {
+			}
+			ai_will_do  = {
+				factor  = 1.000
+			}
+		}
+	}
 		FRA_napoleongeneral={
 		name=FRA_CHARACTER_NAPOLEONGENERAL
 		portraits={
@@ -645,6 +676,34 @@ characters={
 			ideology=despotism
 			traits={Bonaparte}
 			desc = FRA_NAPOLEONI_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_napoleonii={
+		name=FRA_CHARACTER_NAPOLEONII
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_napoleonii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bonaparte}
+			desc = FRA_NAPOLEONII_DESC
+			expire="1797.1.1"
+		}
+}
+	FRA_napoleoniii={
+		name=FRA_CHARACTER_NAPOLEONIII
+		portraits={
+			civilian={
+				large="GFX_portrait_fra_napoleoniii_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Bonaparte}
+			desc = FRA_NAPOLEONIII_DESC
 			expire="1797.1.1"
 		}
 }

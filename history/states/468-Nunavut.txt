@@ -14,7 +14,7 @@ aluminium=7.000
 			owner = FRA
 			controller = FRA
 		}
-        1789.1.1 = {
+        1776.1.1 = {
 		owner = CAN
 		add_core_of=CAN
 		}

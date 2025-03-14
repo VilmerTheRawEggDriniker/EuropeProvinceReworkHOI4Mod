@@ -19,7 +19,7 @@ SIB = {
 	color = rgb { 0 128 0 }
 	color_ui = rgb { 0 128 0 }
 }
-SND = {
+SIN = {
 	color = rgb { 229 50 43 }
 	color_ui = rgb { 229 50 43 }
 }
@@ -313,7 +313,7 @@ BNI = {
 	color = rgb { 110 118 32 }
 	color_ui = rgb { 110 118 32 }
 }
-SIN = {
+SNG = {
 	color = rgb { 208 107 113 }
 	color_ui = rgb { 208 107 113 }
 }
@@ -2212,7 +2212,7 @@ WPO = {
 	color = rgb { 0 106 168 }
 	color_ui = rgb { 0 106 168 }
 }
-WIS = {
+WSM = {
 	color = rgb { 0 106 168 }
 	color_ui = rgb { 0 106 168 }
 }

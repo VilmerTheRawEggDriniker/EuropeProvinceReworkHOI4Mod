@@ -414,7 +414,7 @@ performance_india = {
 		annex_country = { target = MTH transfer_troops = no }
 		annex_country = { target = MUG transfer_troops = no }
 		annex_country = { target = SKH transfer_troops = no }
-		annex_country = { target = SND transfer_troops = no }
+		annex_country = { target = SIN transfer_troops = no }
 	    } 
 		}
 	}

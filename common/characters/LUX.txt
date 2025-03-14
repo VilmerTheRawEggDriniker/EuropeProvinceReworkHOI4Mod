@@ -1,4 +1,74 @@
 characters = {
+	LUX_casimir={
+		name=LUX_CHARACTER_CASIMIR
+		portraits={
+			civilian={
+				large="GFX_portrait_lux_casimir_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Wettin}
+			desc = LUX_CASIMIR_DESC
+			expire="1797.1.1"
+		}
+}
+	LUX_charles={
+		name=LUX_CHARACTER_CHARLES
+		portraits={
+			civilian={
+				large="GFX_portrait_lux_charles_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Habsburg-Lorraine}
+			desc = LUX_CHARLES_DESC
+			expire="1797.1.1"
+		}
+}
+	LUX_louis={
+		name=LUX_CHARACTER_LOUIS
+		portraits={
+			civilian={
+				large="GFX_portrait_lux_louis_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Orleans}
+			desc = LUX_LOUIS_DESC
+			expire="1797.1.1"
+		}
+}
+	LUX_auguste={
+		name=LUX_CHARACTER_AUGUSTE
+		portraits={
+			civilian={
+				large="GFX_portrait_lux_auguste_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Beauharnais}
+			desc = LUX_AUGUSTE_DESC
+			expire="1797.1.1"
+		}
+}
+	LUX_leopoldi={
+		name=LUX_CHARACTER_LEOPOLDI
+		portraits={
+			civilian={
+				large="GFX_portrait_lux_leopoldi_large"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={Saxe-Coburg-Gotha}
+			desc = LUX_LEOPOLDI_DESC
+			expire="1797.1.1"
+		}
+}
 	LUX_williamv={
 		name=LUX_CHARACTER_WILLIAMV
 		portraits={

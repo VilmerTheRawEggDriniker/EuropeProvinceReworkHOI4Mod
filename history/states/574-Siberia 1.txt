@@ -41,6 +41,5 @@ state={
 	manpower=447866
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-      impassable = yes
 	local_supplies=0.000
 }

@@ -9,6 +9,9 @@ state={
 			add_core_of = TAL
 			remove_core_of = QAR
 		}
+				1837.1.1 = {
+			add_core_of = PER
+		}
 		1700.1.1 = {
 			owner = TAL
 			add_core_of = TAL

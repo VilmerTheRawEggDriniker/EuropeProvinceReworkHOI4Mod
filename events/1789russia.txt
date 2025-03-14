@@ -197,7 +197,10 @@ fire_only_once = yes
 		ai_chance = { factor = 100 } 
 if = {
   limit = {
-RUS={has_completed_focus = russianempire_1789_1815_first_50_focus_3}
+or={
+192={is_claimed_by=RUS}
+RUS={has_completed_focus = russianempirerework_1789_1815_first_100_focus_3}
+  }
   }
 		RUS={add_war_support = -0.05}
 		OTO={add_war_support = 0.05}
@@ -249,7 +252,10 @@ fire_only_once = yes
 		ai_chance = { factor = 100 } 
 if = {
   limit = {
-RUS={has_completed_focus = russianempire_1789_1815_first_50_focus_3}
+or={
+192={is_claimed_by=RUS}
+RUS={has_completed_focus = russianempirerework_1789_1815_first_100_focus_3}
+  }
   }
 		RUS={add_war_support = 0.05}
 		OTO={add_war_support = -0.05}
@@ -303,6 +309,13 @@ RUS={
         freedom_level = 0.2
 	}
 }
+RUS={
+	    set_autonomy = {
+        target = COU
+        autonomous_state = autonomy_protectorate
+        freedom_level = 0.2
+	}
+}
 hidden_effect = {
 RUS={set_country_flag = treaty_secondpartion_flag}
 }
@@ -323,13 +336,18 @@ every_country = {
 	#is_triggered_only = yes
 trigger = {
 original_tag = RUS
+has_war_with = MSV
 RUS={has_country_flag=MSV_war_POL_war_RUS}
-    date > 1794.1.1 date < 1800.1.1 
+or={
+and={
+    date > 1794.1.1 date < 1794.11.16 
 	MSV = {surrender_progress > 0.2 }
-	or = {
-	has_war_with = MSV
-	RUS={controls_state = 206}
-	}
+}
+and={
+date > 1794.11.16 date < 1800.1.1
+NOT={MSV={controls_state=90}}
+}
+}
 }
 fire_only_once = yes
 	option = { # 
@@ -766,6 +784,7 @@ fire_only_once = yes
 	RUS={set_country_flag=RUS_has_won_the_greek_plan_flag}
 	WAL={set_cosmetic_tag=WAL_RUS}
 	MOL={set_cosmetic_tag=MOL_RUS}
+	RUS={set_country_flag=won_the_greek_plan_war}
 		name = "The Treaty of Athens"
 		ai_chance = { factor = 25 } 
 		RUS={
@@ -1012,10 +1031,6 @@ white_peace = RUS
 }	
 }
 }
-
-
-
-
 			country_event = {
 	id = russianempire_1789_1812.26
 	title = "Peace with Circassia"
@@ -1334,7 +1349,6 @@ fire_only_once = yes
 	option = { # 
 		name = "Mobilize the Army"
 		ai_chance = { factor = 100 } 
-PRE={country_event = russianempire_1789_1812.20}
 declare_war_on = {
         target = MSV
         type = puppet_wargoal_focus
@@ -3565,3 +3579,87 @@ add_core_of=SIC
 }
 	}
 	}
+
+
+					country_event = {
+	id = russianempire_1789_1812.125
+	title = "The Storming of Izmail"
+	desc = russianempire_1789_1812.125.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag = RUS
+has_war_with=OTO
+RUS={controls_province = 13572}
+OTO={owns_state=1147}
+    date > 1789.1.11 date < 1792.1.1
+}
+fire_only_once = yes
+	option = { # 
+		name = "It will be fully Russian sooner or later"
+		ai_chance = { factor = 100 }
+	OTO={add_manpower=-40000}
+	RUS={add_manpower=-4000}
+	RUS={add_war_support=0.05}
+	RUS={
+		add_equipment_to_stockpile = {
+                    type = infantry_equipment
+                    amount = 4000
+                    producer = OTO
+                }
+	}
+	OTO={country_event = russianempire_1789_1812.126}
+	}
+	}
+					country_event = {
+	id = russianempire_1789_1812.126
+	title = "The Storming of Izmail"
+	desc = russianempire_1789_1812.126.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+fire_only_once = yes
+	option = { # 
+		name = "Lets have a Defensive Strategy"
+		ai_chance = { factor = 100 }
+	    OTO={
+		add_war_support=0.05
+		add_stability=0.05
+			add_timed_idea = {
+				idea = OTO_defensive_strategy_izmail_russo_turkish_war
+				days = 1100
+			}
+		}
+	}
+	}
+		country_event = {
+	id = russianempire_1789_1812.127
+	title = "The failure of the Greek Plan"
+	desc = russianempire_1789_1812.127.d
+	picture = GFX_idi_amin_india
+	#is_triggered_only = yes
+trigger = {
+original_tag=RUS
+has_war_with=OTO
+date > 1791.1.1 
+date < 1793.1.1 
+RUS={has_country_flag=greek_plan_althistory_flag}
+NOT={RUS={has_country_flag=won_the_greek_plan_war}}
+}
+fire_only_once = yes
+	option = { # 
+		name = "Lets maybe not do that again..."
+		ai_chance = { factor = 100 } 
+every_country = {
+limit={
+has_war_with=OTO
+}
+white_peace = OTO
+}
+every_country = {
+limit={
+has_war_with=RUS
+}
+white_peace = RUS
+}	
+}
+		}

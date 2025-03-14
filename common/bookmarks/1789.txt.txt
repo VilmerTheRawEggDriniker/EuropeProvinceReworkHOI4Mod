@@ -56,18 +56,20 @@ bookmarks = {
     		        aus_vulnerable_position
 			}
 			focuses = {
-                        austria_1789_1815_first_100_focus_21
-                        austria_1789_1815_first_100_focus_24
-                        austria_1789_1815_first_100_focus_85
 			}
 		}
 		PRE = {
 			history = OTHER_BLITZKRIEG_DESC
 			ideology = neutrality
 			ideas={
+			pre_hol_debt_invade
+			pre_stuck_between_east_and_west
+			pre_too_big_army
 			}
 			focuses = {
-
+            prussianrework_1789_1815_first_100_focus_13
+			prussianrework_1789_1815_first_100_focus_31
+			prussianrework_1789_1815_first_100_focus_46
 			}
 		}
 		RUS = {

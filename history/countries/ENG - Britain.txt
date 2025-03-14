@@ -1,4 +1,10 @@
 ﻿capital = 126
+1789.1.1 = {
+recruit_character=ENG_rothschildiii
+}
+1848.1.1 = {
+retire_character=ENG_rothschildiii
+}
 1815.1.1 = {
 			if = {
 		limit = { has_start_date < 1864.1.1 }
@@ -594,7 +600,7 @@ set_convoys = 800
         freedom_level = 0.2
 	}
     }
-1789.1.1 = {
+1776.1.1 = {
     set_autonomy = {
         target = CAN
         autonomous_state = autonomy_colony
