@@ -1,4 +1,31 @@
 ﻿capital = 927
+
+recruit_character = MOD_ferdinand_karl
+recruit_character = MOD_francisiv
+recruit_character = MOD_ferdinand_karl_joseph
+recruit_character = MOD_francisv
+recruit_character = MOD_ferdinand_karl_viktor
+recruit_character = MOD_maria_theresa
+
+1806.12.24 = {
+	retire_character = MOD_ferdinand_karl
+}
+1846.1.21 = {
+	retire_character = MOD_francisiv
+}
+1849.12.15 = {
+	retire_character = MOD_ferdinand_karl_viktor
+}
+1850.11.5 = {
+	retire_character = MOD_ferdinand_karl_joseph
+}
+1875.11.20 = {
+	retire_character = MOD_francisv
+}
+1919.2.3 = {
+	retire_character = MOD_maria_theresa
+}
+
 1830.1.1 = {
 set_cosmetic_tag = MOD_AUS # 
 }
@@ -7,11 +34,11 @@ recruit_character=MOD_ercole
 promote_character=MOD_ercole
 }
 1804.1.1 = {
-recruit_character=MOD_francisiv
 promote_character=MOD_francisiv
 retire_character=MOD_ercole
 }
-1847.1.1 = {
+1846.1.21 = {
+promote_character = MOD_francisv
 retire_character=MOD_francisiv
 }
 1804.1.1 = {

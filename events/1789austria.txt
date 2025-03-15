@@ -359,7 +359,7 @@ fire_only_once = yes
 		transfer_state = 6
 		transfer_state = 34
 		transfer_state = 973
-		transfer_state = 1243
+		transfer_state = 978
 		transfer_state = 1171
 		transfer_state = 984
 		}
@@ -410,3 +410,507 @@ fire_only_once = yes
 	}
 }
 
+country_event = {
+	id = aus_1789_event.13
+	title = "Defeat at Austerlitz"
+	desc = aus_1789_event.13.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = no
+	fire_only_once = yes
+	
+	trigger = {
+		any_country = {
+			owns_state = 75
+			OR = {
+				original_tag = AUS
+				is_subject_of = AUS
+			}
+		}
+		any_country = {
+			controls_province = 6562
+			has_cosmetic_tag = FRA_empire
+		}
+	}
+
+	option = { # 
+		name = "We Must Surrender"
+		every_country = {
+			limit = {
+				OR = {
+					original_tag = AUS
+					is_puppet_of = AUS
+				}
+			}
+			white_peace = FRA
+		}
+		if = {
+			limit = {
+				AUS_karl_mack = {
+					is_leading_army = yes
+				}
+			}
+			country_event = aus_1789_event.15
+		}
+		country_event = {
+			id = aus_1789_event.14
+			days = 22
+		}
+		news_event = aus_1789_news.2
+	}
+}
+
+country_event = {
+	id = aus_1789_event.14
+	title = "Peace of Pressburg"
+	desc = aus_1789_event.13.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = { # 
+		name = "We Have No Choice"
+		AUS = {
+			leave_faction = yes
+		}
+		if = {
+			limit = {
+				any_country = {
+					owns_state = 1250
+					OR = {
+						original_tag = AUS
+						is_puppet_of = AUS
+					}
+				}
+			}
+			if = {
+				limit = {
+					BAD = {
+						is_ally_with = FRA
+					}
+				}
+				1250 = {
+					transfer_state_to = BAD
+				}
+			}
+			else_if = {
+				limit = {
+					WUR = {
+						is_ally_with = FRA
+					}
+				}
+				1250 = {
+					transfer_state_to = WUR
+				}
+			}
+			else = {
+				1250 = {
+					transfer_state_to = FRA
+				}
+			}
+		}
+		if = {
+			limit = {
+				ITA = {
+					is_subject_of = FRA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 103
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				103 = {
+					transfer_state_to = ITA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 160
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				160 = {
+					transfer_state_to = ITA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 163
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				163 = {
+					transfer_state_to = ITA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 856
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				856 = {
+					transfer_state_to = ITA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 857
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				857 = {
+					transfer_state_to = ITA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 931
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				931 = {
+					transfer_state_to = ITA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 950
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				950 = {
+					transfer_state_to = ITA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 959
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				959 = {
+					transfer_state_to = ITA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 977
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				977 = {
+					transfer_state_to = ITA
+				}
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 103
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				103 = {
+					transfer_state_to = FRA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 160
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				160 = {
+					transfer_state_to = FRA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 163
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				163 = {
+					transfer_state_to = FRA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 856
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				856 = {
+					transfer_state_to = FRA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 857
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				857 = {
+					transfer_state_to = FRA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 931
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				931 = {
+					transfer_state_to = FRA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 950
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				950 = {
+					transfer_state_to = FRA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 959
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				959 = {
+					transfer_state_to = FRA
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 977
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				977 = {
+					transfer_state_to = FRA
+				}
+			}
+		}
+		set_autonomy = {
+			target = LUC
+			autonomous_state = autonomy_free
+			end_wars = no
+			end_civil_wars = no
+		}
+		BAY = {
+			annex_country = {
+				target = AUG
+				transfer_troops = no
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 39
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				39 = {
+					transfer_state_to = BAY
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 153
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				153 = {
+					transfer_state_to = BAY
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 855
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				855 = {
+					transfer_state_to = BAY
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 881
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				881 = {
+					transfer_state_to = BAY
+				}
+			}
+			if = {
+				limit = {
+					any_country = {
+						owns_state = 1190
+						OR = {
+							original_tag = AUS
+							is_puppet_of = AUS
+						}
+					}
+				}
+				1190 = {
+					transfer_state_to = BAY
+				}
+			}
+		}
+		AUS = {
+			annex_country = {
+				target = SAL
+				transfer_troops = no
+			}
+		}
+		every_state = {
+			limit = {
+				region = 299
+				is_owned_by = AUS
+			}
+			transfer_state_to = BAY
+		}
+		every_state = {
+			limit = {
+				region = 276
+				is_owned_by = AUS
+			}
+			transfer_state_to = FRA
+		}
+		WRZ = {
+			set_cosmetic_tag = WRZ_electorate
+			promote_character = WRZ_ferdinandiii
+		}
+	}
+}
+
+country_event = {
+	id = aus_1789_event.15
+	title = "Blame for Austerlitz"
+	desc = aus_1789_event.13.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "Mack is Truly Incompetent"
+		AUS_karl_mack = {
+			remove_unit_leader_role = yes
+		}
+		add_stability = 0.05
+	}
+
+	option = {
+		name = "He Can Remain"
+		add_stability = -0.05
+	}
+}
+
+country_event = {
+	id = aus_1789_event.16
+	title = "The Declaration of Pillnitz"
+	desc = aus_1789_event.13.d
+	picture = GFX_idi_amin_india
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	option = {
+		name = "The Situation is of Our Common Interest"
+		add_ideas = declaration_of_pillnitz
+	}
+
+}
